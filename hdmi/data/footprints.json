@@ -1,0 +1,2559 @@
+{
+  "IT66122_REVD": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": 3.750056,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": 3.24993,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": 2.750058,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": 2.249932,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": 1.75006,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "6",
+        "portIndex": 6,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": 1.249934,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "7",
+        "portIndex": 7,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": 0.750062,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "8",
+        "portIndex": 8,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": 0.249936,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "9",
+        "portIndex": 9,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": -0.249936,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "10",
+        "portIndex": 10,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": -0.750062,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "11",
+        "portIndex": 11,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": -1.249934,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "12",
+        "portIndex": 12,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": -1.75006,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "13",
+        "portIndex": 13,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": -2.249932,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "14",
+        "portIndex": 14,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": -2.750058,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "15",
+        "portIndex": 15,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": -3.24993,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "16",
+        "portIndex": 16,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -4.45008,
+        "y": -3.750056,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "17",
+        "portIndex": 17,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -3.750056,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "18",
+        "portIndex": 18,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -3.24993,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "19",
+        "portIndex": 19,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.750058,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "20",
+        "portIndex": 20,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.249932,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "21",
+        "portIndex": 21,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.75006,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "22",
+        "portIndex": 22,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.249934,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "23",
+        "portIndex": 23,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.750062,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "24",
+        "portIndex": 24,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.249936,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "25",
+        "portIndex": 25,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.249936,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "26",
+        "portIndex": 26,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.750062,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "27",
+        "portIndex": 27,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.249934,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "28",
+        "portIndex": 28,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.75006,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "29",
+        "portIndex": 29,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.249932,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "30",
+        "portIndex": 30,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.750058,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "31",
+        "portIndex": 31,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 3.24993,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "32",
+        "portIndex": 32,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 3.750056,
+        "y": -4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "33",
+        "portIndex": 33,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": -3.750056,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "34",
+        "portIndex": 34,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": -3.24993,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "35",
+        "portIndex": 35,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": -2.750058,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "36",
+        "portIndex": 36,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": -2.249932,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "37",
+        "portIndex": 37,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": -1.75006,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "38",
+        "portIndex": 38,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": -1.249934,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "39",
+        "portIndex": 39,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": -0.750062,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "40",
+        "portIndex": 40,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": -0.249936,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "41",
+        "portIndex": 41,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": 0.249936,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "42",
+        "portIndex": 42,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": 0.750062,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "43",
+        "portIndex": 43,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": 1.249934,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "44",
+        "portIndex": 44,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": 1.75006,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "45",
+        "portIndex": 45,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": 2.249932,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "46",
+        "portIndex": 46,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": 2.750058,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "47",
+        "portIndex": 47,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": 3.24993,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "48",
+        "portIndex": 48,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 4.45008,
+        "y": 3.750056,
+        "width": 0.700024,
+        "height": 0.249936,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "49",
+        "portIndex": 49,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 3.750056,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "50",
+        "portIndex": 50,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 3.24993,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "51",
+        "portIndex": 51,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.750058,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "52",
+        "portIndex": 52,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.249932,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "53",
+        "portIndex": 53,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.75006,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "54",
+        "portIndex": 54,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.249934,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "55",
+        "portIndex": 55,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.750062,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "56",
+        "portIndex": 56,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.249936,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "57",
+        "portIndex": 57,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.249936,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "58",
+        "portIndex": 58,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.750062,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "59",
+        "portIndex": 59,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.249934,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "60",
+        "portIndex": 60,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.75006,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "61",
+        "portIndex": 61,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.249932,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "62",
+        "portIndex": 62,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.750058,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "63",
+        "portIndex": 63,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -3.24993,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "64",
+        "portIndex": 64,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -3.750056,
+        "y": 4.45008,
+        "width": 0.249936,
+        "height": 0.700024,
+        "rotation": 0,
+        "cornerRadius": 0.050038
+      },
+      {
+        "pin": "65",
+        "portIndex": 65,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.0,
+        "y": -0.0,
+        "width": 4.99999,
+        "height": 4.99999,
+        "rotation": 0,
+        "cornerRadius": 0.299974
+      }
+    ],
+    "body": {
+      "width": 9,
+      "height": 9
+    },
+    "courtyard": {
+      "width": 10.2,
+      "height": 10.2
+    },
+    "source": {
+      "kind": "literal_official_reference_board_import",
+      "url": "https://github.com/beagleboard/beaglebone-black",
+      "commit": "c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca",
+      "original_file": "work/hdmi-reference/beaglebone-black/ALLEGRO/BeagleBone Black_PCB_RevD_250403.brd",
+      "original_sha256": "f5c15631c7e5862c7cca810b12222ef36f09320018ad6a737bf1cefae37e41f5",
+      "imported_sha256": "953443e44f0fd8c4039ca0711d8d51ce6adb62dd64378ae1614f312792a4951a",
+      "import_tool": "KiCad 10.0.6 Allegro importer",
+      "reference": "U11",
+      "reference_footprint": "QFN64_0D5_9X9MM"
+    },
+    "status": "Exact official RevD copper lands, including 4.99999mm EP; courtyard is a declared design clearance, not a manufacturer dimension.",
+    "stencil": {
+      "status": "Declared assembly design choice, confirm with assembler",
+      "window_count": 9,
+      "window_size_mm": [
+        1.3,
+        1.3
+      ],
+      "window_centers_mm": [
+        [
+          -1.6,
+          -1.6
+        ],
+        [
+          -1.6,
+          0
+        ],
+        [
+          -1.6,
+          1.6
+        ],
+        [
+          0,
+          -1.6
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1.6
+        ],
+        [
+          1.6,
+          -1.6
+        ],
+        [
+          1.6,
+          0
+        ],
+        [
+          1.6,
+          1.6
+        ]
+      ],
+      "paste_area_mm2": 15.21,
+      "nominal_EP_area_mm2": 25,
+      "nominal_coverage_percent": 60.84,
+      "native_implementation": "Disable only EP65 defaultpaste; emits9solderpaste primitives. Copperpad remainsliteral5mmreference."
+    }
+  },
+  "HDMI_A_MOLEX_2086581001": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 4.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 4.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 3.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 3.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 2.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "6",
+        "portIndex": 6,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 2.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "7",
+        "portIndex": 7,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 1.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "8",
+        "portIndex": 8,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 1.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "9",
+        "portIndex": 9,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": 0.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "10",
+        "portIndex": 10,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -0.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "11",
+        "portIndex": 11,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -0.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "12",
+        "portIndex": 12,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -1.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "13",
+        "portIndex": 13,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -1.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "14",
+        "portIndex": 14,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -2.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "15",
+        "portIndex": 15,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -2.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "16",
+        "portIndex": 16,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -3.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "17",
+        "portIndex": 17,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -3.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "18",
+        "portIndex": 18,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -4.0,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "19",
+        "portIndex": 19,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.285,
+        "y": -4.5,
+        "width": 2.6,
+        "height": 0.3,
+        "rotation": 0
+      },
+      {
+        "pin": "SH1",
+        "portIndex": 20,
+        "type": "thru_hole",
+        "shape": "oval",
+        "x": -2.525,
+        "y": 7.25,
+        "width": 3.3,
+        "height": 1.5,
+        "rotation": 0,
+        "drill": [
+          "oval",
+          2.7,
+          0.9
+        ]
+      },
+      {
+        "pin": "SH2",
+        "portIndex": 21,
+        "type": "thru_hole",
+        "shape": "oval",
+        "x": -2.525,
+        "y": -7.25,
+        "width": 3.3,
+        "height": 1.5,
+        "rotation": 0,
+        "drill": [
+          "oval",
+          2.7,
+          0.9
+        ]
+      },
+      {
+        "pin": "SH3",
+        "portIndex": 22,
+        "type": "thru_hole",
+        "shape": "oval",
+        "x": 3.435,
+        "y": 7.25,
+        "width": 2.3,
+        "height": 1.5,
+        "rotation": 0,
+        "drill": [
+          "oval",
+          1.7,
+          0.9
+        ]
+      },
+      {
+        "pin": "SH4",
+        "portIndex": 23,
+        "type": "thru_hole",
+        "shape": "oval",
+        "x": 3.435,
+        "y": -7.25,
+        "width": 2.3,
+        "height": 1.5,
+        "rotation": 0,
+        "drill": [
+          "oval",
+          1.7,
+          0.9
+        ]
+      }
+    ],
+    "body": {
+      "width": 12.15,
+      "height": 15,
+      "centerX": 1.95
+    },
+    "courtyard": {
+      "width": 13.85,
+      "height": 17,
+      "centerX": 1.605
+    },
+    "source": {
+      "kind": "installed_primary_KiCad_library",
+      "path": "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_Video.pretty/HDMI_A_Molex_208658-1001_Horizontal.kicad_mod",
+      "sha256": "a68ca35545bf90d6911fe58468a12cff717425790c6ee61c9631f747dedfe273",
+      "kicad_version": "10.0.6"
+    },
+    "status": "Literal KiCad copper lands; manufacturer comparison and 1.2mm connector mechanical qualification remain separately declared checks."
+  },
+  "HDMI_A_AMPHENOL_10029449_X01": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "rect",
+        "x": 4.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "rect",
+        "x": 4.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "rect",
+        "x": 3.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "rect",
+        "x": 3.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "rect",
+        "x": 2.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "6",
+        "portIndex": 6,
+        "type": "smd",
+        "shape": "rect",
+        "x": 2.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "7",
+        "portIndex": 7,
+        "type": "smd",
+        "shape": "rect",
+        "x": 1.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "8",
+        "portIndex": 8,
+        "type": "smd",
+        "shape": "rect",
+        "x": 1.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "9",
+        "portIndex": 9,
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "10",
+        "portIndex": 10,
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "11",
+        "portIndex": 11,
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "12",
+        "portIndex": 12,
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "13",
+        "portIndex": 13,
+        "type": "smd",
+        "shape": "rect",
+        "x": -1.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "14",
+        "portIndex": 14,
+        "type": "smd",
+        "shape": "rect",
+        "x": -1.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "15",
+        "portIndex": 15,
+        "type": "smd",
+        "shape": "rect",
+        "x": -2.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "16",
+        "portIndex": 16,
+        "type": "smd",
+        "shape": "rect",
+        "x": -2.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "17",
+        "portIndex": 17,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "18",
+        "portIndex": 18,
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.75,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "19",
+        "portIndex": 19,
+        "type": "smd",
+        "shape": "rect",
+        "x": -4.25,
+        "y": 5.0,
+        "width": 0.3,
+        "height": 1.9,
+        "rotation": 0
+      },
+      {
+        "pin": "SH1",
+        "portIndex": 20,
+        "type": "thru_hole",
+        "shape": "rect",
+        "x": -7.85,
+        "y": -0.9,
+        "width": 1.8,
+        "height": 1.8,
+        "rotation": 0,
+        "drill": [
+          1.3
+        ]
+      },
+      {
+        "pin": "SH2",
+        "portIndex": 21,
+        "type": "thru_hole",
+        "shape": "rect",
+        "x": -7.25,
+        "y": 4.0,
+        "width": 1.8,
+        "height": 1.8,
+        "rotation": 0,
+        "drill": [
+          1.3
+        ]
+      },
+      {
+        "pin": "SH3",
+        "portIndex": 22,
+        "type": "thru_hole",
+        "shape": "rect",
+        "x": 7.25,
+        "y": 4.0,
+        "width": 1.8,
+        "height": 1.8,
+        "rotation": 0,
+        "drill": [
+          1.3
+        ]
+      },
+      {
+        "pin": "SH4",
+        "portIndex": 23,
+        "type": "thru_hole",
+        "shape": "rect",
+        "x": 7.85,
+        "y": -0.9,
+        "width": 1.8,
+        "height": 1.8,
+        "rotation": 0,
+        "drill": [
+          1.3
+        ]
+      }
+    ],
+    "body": {
+      "width": 16.2,
+      "height": 9.7
+    },
+    "courtyard": {
+      "width": 18.6,
+      "height": 11.2
+    },
+    "source": {
+      "kind": "installed_primary_KiCad_library",
+      "path": "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_Video.pretty/HDMI_A_Amphenol_10029449-x01xLF_Horizontal.kicad_mod",
+      "sha256": "1fa19576a91129d9dc87e7f837a8a8665289d1adca3aec62e1c6f454821b64bd",
+      "kicad_version": "10.0.6"
+    },
+    "status": "Literal KiCad copper lands; manufacturer comparison and 1.2mm connector mechanical qualification remain separately declared checks."
+  },
+  "SOT23_5": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": 0.95,
+        "width": 1.325,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0.15
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": -0.0,
+        "width": 1.325,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0.15
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": -0.95,
+        "width": 1.325,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0.15
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1375,
+        "y": -0.95,
+        "width": 1.325,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0.15
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1375,
+        "y": 0.95,
+        "width": 1.325,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0.15
+      }
+    ],
+    "body": {
+      "width": 1.6,
+      "height": 2.9
+    },
+    "courtyard": {
+      "width": 3.9,
+      "height": 3.2
+    },
+    "source": {
+      "kind": "installed_primary_KiCad_library",
+      "path": "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+      "sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+      "kicad_version": "10.0.6"
+    },
+    "status": "Literal KiCad copper lands; manufacturer comparison and 1.2mm connector mechanical qualification remain separately declared checks."
+  },
+  "SC70_5": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.8375,
+        "y": 0.65,
+        "width": 1.025,
+        "height": 0.35,
+        "rotation": 0,
+        "cornerRadius": 0.0875
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.8375,
+        "y": -0.0,
+        "width": 1.025,
+        "height": 0.35,
+        "rotation": 0,
+        "cornerRadius": 0.0875
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.8375,
+        "y": -0.65,
+        "width": 1.025,
+        "height": 0.35,
+        "rotation": 0,
+        "cornerRadius": 0.0875
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.8375,
+        "y": -0.65,
+        "width": 1.025,
+        "height": 0.35,
+        "rotation": 0,
+        "cornerRadius": 0.0875
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.8375,
+        "y": 0.65,
+        "width": 1.025,
+        "height": 0.35,
+        "rotation": 0,
+        "cornerRadius": 0.0875
+      }
+    ],
+    "body": {
+      "width": 1.25,
+      "height": 2
+    },
+    "courtyard": {
+      "width": 2.6,
+      "height": 2.4
+    },
+    "source": {
+      "kind": "installed_primary_KiCad_library",
+      "path": "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-353_SC-70-5.kicad_mod",
+      "sha256": "869e17094994ff787b769a2d69512455a2f20950d59dd5c4103026ec413bb88e",
+      "kicad_version": "10.0.6"
+    },
+    "status": "Literal KiCad copper lands; manufacturer comparison and 1.2mm connector mechanical qualification remain separately declared checks."
+  },
+  "TPD13S523_RSV": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.75,
+        "y": 0.6,
+        "width": 0.7,
+        "height": 0.2,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.8,
+        "y": 0.2,
+        "width": 0.6,
+        "height": 0.2,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.8,
+        "y": -0.2,
+        "width": 0.6,
+        "height": 0.2,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.8,
+        "y": -0.6,
+        "width": 0.6,
+        "height": 0.2,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.6,
+        "y": -1.2,
+        "width": 0.2,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "6",
+        "portIndex": 6,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.2,
+        "y": -1.2,
+        "width": 0.2,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "7",
+        "portIndex": 7,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.2,
+        "y": -1.2,
+        "width": 0.2,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "8",
+        "portIndex": 8,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.6,
+        "y": -1.2,
+        "width": 0.2,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "9",
+        "portIndex": 9,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.8,
+        "y": -0.6,
+        "width": 0.6,
+        "height": 0.2,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "10",
+        "portIndex": 10,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.8,
+        "y": -0.2,
+        "width": 0.6,
+        "height": 0.2,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "11",
+        "portIndex": 11,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.8,
+        "y": 0.2,
+        "width": 0.6,
+        "height": 0.2,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "12",
+        "portIndex": 12,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.8,
+        "y": 0.6,
+        "width": 0.6,
+        "height": 0.2,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "13",
+        "portIndex": 13,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.6,
+        "y": 1.2,
+        "width": 0.2,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "14",
+        "portIndex": 14,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.2,
+        "y": 1.2,
+        "width": 0.2,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "15",
+        "portIndex": 15,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.2,
+        "y": 1.2,
+        "width": 0.2,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "16",
+        "portIndex": 16,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.6,
+        "y": 1.2,
+        "width": 0.2,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 1.8,
+      "height": 2.6
+    },
+    "courtyard": {
+      "width": 2.7,
+      "height": 3.5
+    },
+    "source": {
+      "kind": "manufacturer_example_land_pattern",
+      "url": "https://www.ti.com/lit/ds/symlink/tpd13s523.pdf",
+      "drawing": "RSV0016A 4220314/C 02/2020",
+      "page": 20
+    },
+    "status": "TI current land example, no EP. Native rounded rectangles preserve R0.05; pin1 inward extension gives x=-.75."
+  },
+  "TPS61033_DRL": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.74,
+        "y": 0.75,
+        "width": 0.67,
+        "height": 0.3,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.74,
+        "y": 0.25,
+        "width": 0.67,
+        "height": 0.3,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.74,
+        "y": -0.25,
+        "width": 0.67,
+        "height": 0.3,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.74,
+        "y": -0.75,
+        "width": 0.67,
+        "height": 0.3,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.74,
+        "y": -0.75,
+        "width": 0.67,
+        "height": 0.3,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "6",
+        "portIndex": 6,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.74,
+        "y": -0.25,
+        "width": 0.67,
+        "height": 0.3,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "7",
+        "portIndex": 7,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.74,
+        "y": 0.25,
+        "width": 0.67,
+        "height": 0.3,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "8",
+        "portIndex": 8,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.74,
+        "y": 0.75,
+        "width": 0.67,
+        "height": 0.3,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 1.2,
+      "height": 1.6
+    },
+    "courtyard": {
+      "width": 2.65,
+      "height": 2.3
+    },
+    "source": {
+      "kind": "manufacturer_example_land_pattern",
+      "url": "https://www.ti.com/lit/ds/symlink/tps61033.pdf",
+      "drawing": "DRL0008A 4224486/G 11/2024",
+      "page": 29
+    },
+    "status": "Adjustable TPS61033DRLR; not fixed5V TPS610333. Exact TI land example, no EP."
+  },
+  "CAT16_4X33": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.2,
+        "y": 0.8,
+        "width": 0.425,
+        "height": 0.8,
+        "cornerRadius": 0,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.4,
+        "y": 0.8,
+        "width": 0.425,
+        "height": 0.8,
+        "cornerRadius": 0,
+        "rotation": 0
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.4,
+        "y": 0.8,
+        "width": 0.425,
+        "height": 0.8,
+        "cornerRadius": 0,
+        "rotation": 0
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.2,
+        "y": 0.8,
+        "width": 0.425,
+        "height": 0.8,
+        "cornerRadius": 0,
+        "rotation": 0
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.2,
+        "y": -0.8,
+        "width": 0.425,
+        "height": 0.8,
+        "cornerRadius": 0,
+        "rotation": 0
+      },
+      {
+        "pin": "6",
+        "portIndex": 6,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.4,
+        "y": -0.8,
+        "width": 0.425,
+        "height": 0.8,
+        "cornerRadius": 0,
+        "rotation": 0
+      },
+      {
+        "pin": "7",
+        "portIndex": 7,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.4,
+        "y": -0.8,
+        "width": 0.425,
+        "height": 0.8,
+        "cornerRadius": 0,
+        "rotation": 0
+      },
+      {
+        "pin": "8",
+        "portIndex": 8,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.2,
+        "y": -0.8,
+        "width": 0.425,
+        "height": 0.8,
+        "cornerRadius": 0,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 3.2,
+      "height": 1.55
+    },
+    "courtyard": {
+      "width": 3.9,
+      "height": 2.9
+    },
+    "resistors": [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "source": {
+      "kind": "manufacturer_recommended_range_midpoints",
+      "url": "https://www.bourns.com/docs/Product-Datasheets/cat16-j.pdf",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "status": "Selected lands .425x.8 and outer row span2.4 lie inside manufacturer ranges. Pad numbering is our explicit symmetric CAD convention; vendor drawing does not number terminals."
+  },
+  "TI_DBV_5": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.3,
+        "y": 0.95,
+        "width": 1.1,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.3,
+        "y": 0,
+        "width": 1.1,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.3,
+        "y": -0.95,
+        "width": 1.1,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.3,
+        "y": -0.95,
+        "width": 1.1,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.3,
+        "y": 0.95,
+        "width": 1.1,
+        "height": 0.6,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 1.6,
+      "height": 2.9
+    },
+    "courtyard": {
+      "width": 4.2,
+      "height": 3.6
+    },
+    "source": {
+      "kind": "manufacturer_example_land_pattern",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "drawing": "DBV0005A",
+      "page": 38
+    },
+    "status": "ExactTIexample1.1x.6lands,rowcenters2.6,pitch.95; useforTLV75512PDBVRandSN74AHC1G09DBVRwiththeirverifiedelectricalpinmaps."
+  },
+  "TI_DCK_5": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1,
+        "y": 0.65,
+        "width": 0.95,
+        "height": 0.4,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1,
+        "y": 0,
+        "width": 0.95,
+        "height": 0.4,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1,
+        "y": -0.65,
+        "width": 0.95,
+        "height": 0.4,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1,
+        "y": -0.65,
+        "width": 0.95,
+        "height": 0.4,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1,
+        "y": 0.65,
+        "width": 0.95,
+        "height": 0.4,
+        "cornerRadius": 0.05,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 1.25,
+      "height": 2
+    },
+    "courtyard": {
+      "width": 3.65,
+      "height": 2.7
+    },
+    "source": {
+      "kind": "manufacturer_example_land_pattern",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf",
+      "drawing": "DCK0005A4214834/G11/2024",
+      "page": 20
+    },
+    "status": "ExactTIexample.95x.4lands,rowcenters2.2,pitch.65; DCKRpartonly."
+  },
+  "C_1206": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.475,
+        "y": -0.0,
+        "width": 1.15,
+        "height": 1.8,
+        "cornerRadius": 0.25,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.475,
+        "y": -0.0,
+        "width": 1.15,
+        "height": 1.8,
+        "cornerRadius": 0.25,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 3.2,
+      "height": 1.6
+    },
+    "courtyard": {
+      "width": 4.6,
+      "height": 2.3
+    },
+    "source": {
+      "kind": "installed_primary_KiCad_IPC_land_pattern",
+      "path": "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_1206_3216Metric.kicad_mod",
+      "sha256": "b2e4a08e3aaf40bc587090190c0e3969e962d7ae962c172cce0581ae8327651c"
+    },
+    "status": "Exact selected metric package copper lands; package size matches selected MLCC. Not a0402fallback. Vendor-specific paste recommendation remains an assembly check."
+  },
+  "C_1210": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.475,
+        "y": -0.0,
+        "width": 1.15,
+        "height": 2.7,
+        "cornerRadius": 0.25,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.475,
+        "y": -0.0,
+        "width": 1.15,
+        "height": 2.7,
+        "cornerRadius": 0.25,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 3.2,
+      "height": 2.5
+    },
+    "courtyard": {
+      "width": 4.6,
+      "height": 3.2
+    },
+    "source": {
+      "kind": "installed_primary_KiCad_IPC_land_pattern",
+      "path": "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod",
+      "sha256": "e1dae516e079b70c4736d001fb81bfb4ef5f9c2a37c8175223a44f83a04ff75f"
+    },
+    "status": "Exact selected metric package copper lands; package size matches selected MLCC. Not a0402fallback. Vendor-specific paste recommendation remains an assembly check."
+  },
+  "EATON_EXLA1V0402": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "rect",
+        "x": 0,
+        "y": 1.185,
+        "width": 3.4,
+        "height": 0.98,
+        "cornerRadius": 0,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "rect",
+        "x": 0,
+        "y": -1.185,
+        "width": 3.4,
+        "height": 0.98,
+        "cornerRadius": 0,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 4.4,
+      "height": 4.4,
+      "maximum_width": 4.6,
+      "maximum_height": 4.6
+    },
+    "courtyard": {
+      "width": 5.1,
+      "height": 5.1
+    },
+    "source": {
+      "kind": "manufacturer_recommended_land_pattern",
+      "url": "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v04-automotive-high-current-molded-inductor-data-sheet-elx1219-en.pdf",
+      "local_pdf": "work/hdmi-power/eaton-exla1v04.pdf",
+      "drawing": "ELX1219 July2022",
+      "page": 2
+    },
+    "underside_keepout": {
+      "bounds_mm": [
+        -2.3,
+        -2.3,
+        2.3,
+        2.3
+      ],
+      "rule": "Manufacturer: no unrelated traces or vias underneath the inductor. Terminal copper and its immediate intended leads are necessary exceptions; plane treatment must be checked against the final PCB layout."
+    },
+    "status": "Verified3.40width/3.35outerspan/1.39innergap yields two3.40x.98lands at y+/\u22121.185. Nonpolar CADpin1upper/pin2lower convention."
+  },
+  "SOD323": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.05,
+        "y": -0.0,
+        "width": 0.6,
+        "height": 0.45,
+        "cornerRadius": 0.1125,
+        "rotation": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.05,
+        "y": -0.0,
+        "width": 0.6,
+        "height": 0.45,
+        "cornerRadius": 0.1125,
+        "rotation": 0
+      }
+    ],
+    "body": {
+      "width": 1.7,
+      "height": 1.25
+    },
+    "courtyard": {
+      "width": 3.5,
+      "height": 1.8
+    },
+    "source": {
+      "kind": "installed_primary_KiCad_land_pattern",
+      "path": "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Diode_SMD.pretty/D_SOD-323.kicad_mod",
+      "sha256": "03669ee95335b8ad49c3458e5262e7c2fd7ace6fe481bfd00f46b6f2f32abc8a",
+      "package_pinmap_source": "https://assets.nexperia.com/documents/data-sheet/RB751V40.pdf",
+      "package_dimensions_source": "https://assets.nexperia.com/documents/outline-drawing/SOD323.pdf"
+    },
+    "pinmap": {
+      "1": "K_cathode_marking_bar_left",
+      "2": "A_anode_right"
+    },
+    "status": "Exact primary KiCad copper. Nexperia RB751V40 confirms SOD323 body1.7x1.25, lead span2.3..2.7mm and pin1K/pin2A. Selected KiCad0.60x0.45lands at x+/\u22121.05 have2.70mm overall span and1.50mm copper gap. Package pinning and dimensions are verified; the separate vendor example reflow pattern is not adopted or claimed identical."
+  },
+  "CAT10_4X33": {
+    "pads": [
+      {
+        "pin": "1",
+        "portIndex": 1,
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.75,
+        "y": -0.525,
+        "width": 0.275,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0
+      },
+      {
+        "pin": "2",
+        "portIndex": 2,
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.25,
+        "y": -0.525,
+        "width": 0.275,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0
+      },
+      {
+        "pin": "3",
+        "portIndex": 3,
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.25,
+        "y": -0.525,
+        "width": 0.275,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0
+      },
+      {
+        "pin": "4",
+        "portIndex": 4,
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.75,
+        "y": -0.525,
+        "width": 0.275,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0
+      },
+      {
+        "pin": "5",
+        "portIndex": 5,
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.75,
+        "y": 0.525,
+        "width": 0.275,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0
+      },
+      {
+        "pin": "6",
+        "portIndex": 6,
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.25,
+        "y": 0.525,
+        "width": 0.275,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0
+      },
+      {
+        "pin": "7",
+        "portIndex": 7,
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.25,
+        "y": 0.525,
+        "width": 0.275,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0
+      },
+      {
+        "pin": "8",
+        "portIndex": 8,
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.75,
+        "y": 0.525,
+        "width": 0.275,
+        "height": 0.6,
+        "rotation": 0,
+        "cornerRadius": 0
+      }
+    ],
+    "body": {
+      "width": 2.0,
+      "height": 1.0,
+      "maximum_width": 2.1,
+      "maximum_height": 1.1
+    },
+    "courtyard": {
+      "width": 2.6,
+      "height": 2.15
+    },
+    "source": {
+      "kind": "manufacturer_land_pattern_range_midpoint",
+      "url": "https://bourns.com/docs/product-datasheets/cat10.pdf",
+      "local_pdf": "work/hdmi-physical/cat10.pdf",
+      "sha256": "6b03f2449e999e60d8834328090946d819131affe84863978c6cf89bc8aa65a6",
+      "page": 1,
+      "revision": "07/20; current retrieved PDF includes05/26 legal notice",
+      "visual_check": "work/hdmi-physical/cat10-page1.png"
+    },
+    "land_selection_mm": {
+      "pitch": 0.5,
+      "width_range": [
+        0.25,
+        0.3
+      ],
+      "selected_width": 0.275,
+      "inner_row_gap": 0.45,
+      "outer_row_span_range": [
+        1.45,
+        1.85
+      ],
+      "selected_outer_row_span": 1.65,
+      "derived_pad_length": 0.6,
+      "derived_row_centres_separation": 1.05
+    },
+    "isolated_resistor_pairs": [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "electrical": {
+      "part": "CAT10-330J4LF",
+      "resistance_ohm": 33,
+      "tolerance_percent": 5,
+      "resistor_power_W_at70C": 0.0625,
+      "package_power_W_at70C": 0.25
+    },
+    "status": "Manufacturer page1 visually verified;0.50 is pitch and0.45 is inner gap. Derived0.275x0.60pads use midpoints of allowed width/outerspan ranges. Exact diagram numbering; identical isolated elements make180degree rotation electrically symmetric. Frozen CAT16key unchanged."
+  }
+}

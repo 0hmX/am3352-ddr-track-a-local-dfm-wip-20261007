@@ -1,0 +1,55 @@
+{
+  "status": "ROOT_SELECTED_WIDTH_ONLY_PHYSICAL_GEOMETRY_CONTACT_CORE_PASS_ROUTING_INCOMPLETE",
+  "candidate": "outputs/am3352-ddr/hdmi/validation-next/power-widening/candidate.circuit.json",
+  "candidate_sha256": "d5e8f9ace911e5989cb3b5224afe20091092f4b42c3344a8d1749f056230c98b",
+  "baseline_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+  "current_scoped_clearance_relations": 0,
+  "new_clearance_relations": 0,
+  "plane_contact_component_scope_failures": [],
+  "legacy_partition_failures": {
+    "missing_legacy_terminals": [],
+    "split_previously_connected_groups": [],
+    "merged_different_legacy_nets": []
+  },
+  "all_required_terminal_partitions_exactly_equal": true,
+  "unchanged_named_ddr_trace_via_records": 320,
+  "unchanged_actual_TX_records": 64,
+  "ground_reference_contacts_verified": 130,
+  "full_metal_core_status": "NO_NEW_CONTACT_BEARING_CORE_SEPARATION",
+  "new_contact_bearing_core_separations": 0,
+  "minimum_core_width_diagnostic_mm": 0.1,
+  "remaining_required_joins": 55,
+  "shorts": 0,
+  "changed_power_traces": 4,
+  "changed_original_pours": 1,
+  "new_pour_fragments": 0,
+  "cleanup_records_removed": 0,
+  "original_pour_records_removed": [],
+  "no_refill_or_added_plane_copper": true,
+  "conditional_IR_sensitivity": {
+    "source": "outputs/am3352-ddr/hdmi/power/widening-proposal/routed-ir-sensitivity.json",
+    "source_sha256": "81f9608a803a38f017724a2e09b1c82b13ad527c7e1f2addf2df3b9420faa521",
+    "native_outgoing_path_squares_before": 198.8872382873578,
+    "native_outgoing_path_squares_after": 131.2575794289803,
+    "reduction_percent": 34.00402129404818,
+    "load_A": 0.055,
+    "copper_um": 18,
+    "copper_temperature_C": 125,
+    "selected_source_path_drop_V": 0.015402177463385925,
+    "wider_source_path_drop_V": 0.010369498627868299,
+    "limitations": [
+      "The actual native records are authoritative; saved routing results retain older draft polyline lengths/layers and are not used here.",
+      "Copper thickness and finished via plating are explicit scenario parameters, not released fabrication guarantees.",
+      "Ground distribution resistance, pad spreading, connector contact and TPD dynamic response are not solved here.",
+      "The old5mV combined PCB/GND allocation predates actual routes and is not justified by this routed path.",
+      "The converter encrypted PSpice startup/load simulation did not execute. This arithmetic is not a substitute for it.",
+      "Output must retain4.8..5.3V including initial tolerance, PCB drop, load response and ripple. Static corners remain conditional."
+    ],
+    "qualification": "Conditional source-path copper sensitivity, not regulator transient, return-ground or SI validation."
+  },
+  "pending": [
+    "Exact immutable layout binding and preview update are parent/source-owner work.",
+    "55 raw/RGB/control video-bus joins remain.",
+    "Actual copper thickness, ground drop, regulator transient, SI/eye and hardware qualification remain pending."
+  ]
+}

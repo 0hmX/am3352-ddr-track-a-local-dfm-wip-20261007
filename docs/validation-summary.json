@@ -1,0 +1,35 @@
+{
+  "status": "WIP_ROUTING_NOT_FABRICATION_READY",
+  "source": {
+    "components": 347,
+    "physical_pins": 1472,
+    "schematic_sheets": 23,
+    "native_errors": 0,
+    "native_metadata_style_warnings": 226,
+    "saved_physical_warnings": 5
+  },
+  "checked_layout": {
+    "sha256": "d5e8f9ace911e5989cb3b5224afe20091092f4b42c3344a8d1749f056230c98b",
+    "remaining_video_bus_joins": 55,
+    "shorts": 0,
+    "new_ground_vias": 65,
+    "verified_ground_plane_contacts": 130,
+    "unchanged_DDR_trace_via_records": 320,
+    "unchanged_TMDS_records": 64
+  },
+  "simulation": {
+    "accepted_board_field_result": false,
+    "accepted_DDR_eye": false,
+    "hardware_boot_verified": false
+  },
+  "power": {
+    "old_5mV_PCB_allowance_withdrawn": true,
+    "known_source_path_drop_mV": 10.37,
+    "assumptions": "55mA,125C,18um trace copper; excludes Ground spreading and converter/TPD transients"
+  },
+  "limits": [
+    "13 exact initial placement comparisons overridden by selected saved layout:12 DebugStatus poses plus one floating-point rounding difference",
+    "10 redundant legacy named-net trace aliases",
+    "753 inherited native virtual schematic references; zero introduced dangling references"
+  ]
+}

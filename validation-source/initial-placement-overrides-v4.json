@@ -1,0 +1,282 @@
+{
+  "status": "READ_ONLY_INITIAL_HINT_DIFFERENCES",
+  "native_sha256": "d233c4c5c9f7e0a545c8ea09e6e2a6095e38ce3a90074c541333b8a7edfa12c3",
+  "physical_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+  "count": 13,
+  "scope": "No source edits or physical moves. Future source-hint alignment requires a selected native cohort and new binding.",
+  "placements": [
+    {
+      "component": "C_VDD_MPU_1",
+      "native_hint": {
+        "pcbX": 0.9850000000000001,
+        "pcbY": 1.8,
+        "pcbRotation": 0,
+        "layer": "bottom"
+      },
+      "checked_physical_pose": {
+        "pcbX": 0.985,
+        "pcbY": 1.8,
+        "pcbRotation": 0,
+        "layer": "bottom"
+      },
+      "physical_minus_native_mm": {
+        "x": -1.1102230246251565e-16,
+        "y": 0.0
+      },
+      "rotation_delta_degrees_mod360": 0,
+      "layer_changed": false
+    },
+    {
+      "component": "TP_DBG_SYS_5V",
+      "native_hint": {
+        "pcbX": -11.5,
+        "pcbY": -27.2499995,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": 27.51,
+        "pcbY": -19.5,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "physical_minus_native_mm": {
+        "x": 39.010000000000005,
+        "y": 7.749999500000001
+      },
+      "rotation_delta_degrees_mod360": 0,
+      "layer_changed": false
+    },
+    {
+      "component": "TP_DBG_V3V3",
+      "native_hint": {
+        "pcbX": 25.2500005,
+        "pcbY": -8.48,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": 23.110000000000003,
+        "pcbY": -15.5,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "physical_minus_native_mm": {
+        "x": -2.1400004999999958,
+        "y": -7.02
+      },
+      "rotation_delta_degrees_mod360": 0,
+      "layer_changed": false
+    },
+    {
+      "component": "TP_DBG_V1V8",
+      "native_hint": {
+        "pcbX": 32.46,
+        "pcbY": 1.5300000000000002,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": 13.989999999999998,
+        "pcbY": -16,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "physical_minus_native_mm": {
+        "x": -18.470000000000002,
+        "y": -17.53
+      },
+      "rotation_delta_degrees_mod360": 0,
+      "layer_changed": false
+    },
+    {
+      "component": "TP_DBG_VDD_MPU",
+      "native_hint": {
+        "pcbX": 7.68,
+        "pcbY": 15.32,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": -5.4125,
+        "pcbY": -11.499999999999998,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "physical_minus_native_mm": {
+        "x": -13.0925,
+        "y": -26.82
+      },
+      "rotation_delta_degrees_mod360": 0,
+      "layer_changed": false
+    },
+    {
+      "component": "TP_DBG_GND",
+      "native_hint": {
+        "pcbX": -9.7499995,
+        "pcbY": -29.7499995,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": 29.325000000000003,
+        "pcbY": -6,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "physical_minus_native_mm": {
+        "x": 39.074999500000004,
+        "y": 23.7499995
+      },
+      "rotation_delta_degrees_mod360": 0,
+      "layer_changed": false
+    },
+    {
+      "component": "U_PG_LED",
+      "native_hint": {
+        "pcbX": -13.3500005,
+        "pcbY": 2.0750005000000002,
+        "pcbRotation": -90.00000000000001,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": -4.5,
+        "pcbY": 20,
+        "pcbRotation": 270,
+        "layer": "bottom"
+      },
+      "physical_minus_native_mm": {
+        "x": 8.8500005,
+        "y": 17.9249995
+      },
+      "rotation_delta_degrees_mod360": 0.0,
+      "layer_changed": true
+    },
+    {
+      "component": "D_PG_LED",
+      "native_hint": {
+        "pcbX": -17.160000500000002,
+        "pcbY": 1.8000004999999994,
+        "pcbRotation": 90,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": -6.75,
+        "pcbY": 22.75,
+        "pcbRotation": 0,
+        "layer": "bottom"
+      },
+      "physical_minus_native_mm": {
+        "x": 10.410000500000002,
+        "y": 20.9499995
+      },
+      "rotation_delta_degrees_mod360": 270,
+      "layer_changed": true
+    },
+    {
+      "component": "R_PG_LED",
+      "native_hint": {
+        "pcbX": -16.4300005,
+        "pcbY": -1.2199994999999997,
+        "pcbRotation": 180,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": -9.5,
+        "pcbY": 22.75,
+        "pcbRotation": 180,
+        "layer": "bottom"
+      },
+      "physical_minus_native_mm": {
+        "x": 6.9300004999999985,
+        "y": 23.9699995
+      },
+      "rotation_delta_degrees_mod360": 0,
+      "layer_changed": true
+    },
+    {
+      "component": "R_PG_LEAK",
+      "native_hint": {
+        "pcbX": -18.830000499999997,
+        "pcbY": -1.6099995000000007,
+        "pcbRotation": -90.00000000000001,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": -7.25,
+        "pcbY": 21,
+        "pcbRotation": 0,
+        "layer": "bottom"
+      },
+      "physical_minus_native_mm": {
+        "x": 11.580000499999997,
+        "y": 22.6099995
+      },
+      "rotation_delta_degrees_mod360": 90.00000000000001,
+      "layer_changed": true
+    },
+    {
+      "component": "C_PG_LED",
+      "native_hint": {
+        "pcbX": -9.47,
+        "pcbY": 4.1800005,
+        "pcbRotation": 90,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": -7,
+        "pcbY": 19,
+        "pcbRotation": 180,
+        "layer": "bottom"
+      },
+      "physical_minus_native_mm": {
+        "x": 2.4700000000000006,
+        "y": 14.8199995
+      },
+      "rotation_delta_degrees_mod360": 90,
+      "layer_changed": true
+    },
+    {
+      "component": "R_PG_SENSE",
+      "native_hint": {
+        "pcbX": -13.8600005,
+        "pcbY": 5.8400004999999995,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": -1.1614999999999982,
+        "pcbY": 17.05,
+        "pcbRotation": 0,
+        "layer": "bottom"
+      },
+      "physical_minus_native_mm": {
+        "x": 12.698500500000002,
+        "y": 11.209999500000002
+      },
+      "rotation_delta_degrees_mod360": 0,
+      "layer_changed": true
+    },
+    {
+      "component": "R_PG_PULLDOWN",
+      "native_hint": {
+        "pcbX": -9.93,
+        "pcbY": 6.5800005,
+        "pcbRotation": 0,
+        "layer": "top"
+      },
+      "checked_physical_pose": {
+        "pcbX": -3.75,
+        "pcbY": 16.75,
+        "pcbRotation": 90,
+        "layer": "bottom"
+      },
+      "physical_minus_native_mm": {
+        "x": 6.18,
+        "y": 10.1699995
+      },
+      "rotation_delta_degrees_mod360": 90,
+      "layer_changed": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PATCH_DRY_RUN_AND_EXACT_LOCAL_APPLICATION_PASS_HARDWARE_UNTESTED",
+  "upstream_linux_commit": "d135ab453a7400a34930bdda1ef4bdc8acfac80e",
+  "upstream_git_blob_sha": "c8d0a26e8e90c5aaa2b721c86586dbba0c5b8159",
+  "upstream_sha256": "f5380c58cd7a812e246fd475985f135c68018418097ef2e36075e031857ff7c1",
+  "patch_sha256": "52fe7824b9f5375ca4180518ee71b058a5ae7abb6a5e58a668aed8ef0a578601",
+  "patched_source_sha256": "13fc8fced5ec7eaab894f4da9d9ad0ed7e32085b718aca9ed6e7a0ae5f885376",
+  "git_apply_check_exit": 0,
+  "git_apply_exit": 0,
+  "assertion_ms": 20,
+  "post_deassertion_wait_ms": 30,
+  "physical_condition": "Open-drain reset qualifier with10k pullup and1uF outputcap perofficialBeagleBoneRevDreference.",
+  "kernel_full_build_test": false,
+  "target_boot_or_HDMI_test": false,
+  "limits": "Delay is a conservative integration choice; manufacturer reset VIH/power sequence limits remain unavailable and benchqualification stillrequired."
+}

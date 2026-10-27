@@ -1,0 +1,154 @@
+[
+  {
+    "name": "U_HDMI_5V_BOOST",
+    "kind": "chip",
+    "value": "TPS61033DRLR",
+    "mpn": "TPS61033DRLR",
+    "pinLabels": {
+      "1": "VIN",
+      "2": "EN",
+      "3": "MODE",
+      "4": "PG",
+      "5": "FB",
+      "6": "GND",
+      "7": "SW",
+      "8": "VOUT"
+    },
+    "connections": {
+      "1": "V3V3",
+      "2": "V3V3",
+      "3": "V3V3",
+      "5": "HDMI_5V_FB",
+      "6": "GND",
+      "7": "HDMI_5V_SW",
+      "8": "HDMI_5V_SUPPLY"
+    },
+    "noConnect": [
+      "4"
+    ],
+    "package": "SOT583-8 DRL0008A",
+    "footprintKey": "TPS61033_DRL",
+    "useImportedFootprint": true,
+    "source": "https://www.ti.com/lit/ds/symlink/tps61033.pdf",
+    "note": "MODE high selects forced PWM. PG is open-drain and intentionally unconnected. Adjustable TPS61033; do not substitute fixed-5V TPS610333."
+  },
+  {
+    "name": "L_HDMI_5V",
+    "kind": "inductor",
+    "value": "1.5uH",
+    "mpn": "EXLA1V0402-1R5-R",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "V3V3",
+      "2": "HDMI_5V_SW"
+    },
+    "noConnect": [],
+    "footprintKey": "EATON_EXLA1V0402",
+    "useImportedFootprint": true,
+    "source": "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v04-automotive-high-current-molded-inductor-data-sheet-elx1219-en.pdf",
+    "rating": "1.5uH +/-20%, 15.8mohm maxDCR at25C, 6.7A Isat at25C; normal designpeak below0.5A",
+    "note": "4.4mm square body, manufacturer pad layout required. Different from old XAL4020 footprint."
+  },
+  {
+    "name": "R_HDMI_5V_TOP",
+    "kind": "resistor",
+    "value": "91k",
+    "mpn": "RT0402BRD0791KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "HDMI_5V_SUPPLY",
+      "2": "HDMI_5V_FB"
+    },
+    "noConnect": [],
+    "footprint": "0402",
+    "rating": "0.1%, 25ppm/C",
+    "source": "https://yageogroup.com/component-documentation/download/specsheet/RT0402BRD0791KL"
+  },
+  {
+    "name": "R_HDMI_5V_BOTTOM",
+    "kind": "resistor",
+    "value": "12k",
+    "mpn": "RT0402BRD0712KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "HDMI_5V_FB",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "footprint": "0402",
+    "rating": "0.1%, 25ppm/C",
+    "source": "https://yageogroup.com/component-documentation/download/specsheet/RT0402BRD0712KL"
+  },
+  {
+    "name": "C_HDMI_5V_IN",
+    "kind": "capacitor",
+    "value": "4.7uF",
+    "mpn": "GRM31CR71H475KA12L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "package": "1206",
+    "footprintKey": "C_1206",
+    "useImportedFootprint": true,
+    "rating": "50V X7R +/-10%",
+    "reuseFrom": "C_LCD_BL_IN",
+    "note": "Existing LCD input-capacitor value/MPN is electrically reusable. Qualify effectiveCin>=1uF; do not transfer old net assignment."
+  },
+  {
+    "name": "C_HDMI_5V_OUT1",
+    "kind": "capacitor",
+    "value": "22uF",
+    "mpn": "CL32B226KOJNNNE",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "HDMI_5V_SUPPLY",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "C_1210",
+    "useImportedFootprint": true,
+    "rating": "16V X7R +/-10%",
+    "source": "https://product.samsungsem.com/mlcc/CL32B226KOJNNN.do",
+    "note": "Two parts in parallel. Qualify combined effectiveC>=20uF across bias/temperature/tolerance/ageing. Manufacturer typicalgraph budget23.80uF is not a guaranteed minimum."
+  },
+  {
+    "name": "C_HDMI_5V_OUT2",
+    "kind": "capacitor",
+    "value": "22uF",
+    "mpn": "CL32B226KOJNNNE",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "HDMI_5V_SUPPLY",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "C_1210",
+    "useImportedFootprint": true,
+    "rating": "16V X7R +/-10%",
+    "source": "https://product.samsungsem.com/mlcc/CL32B226KOJNNN.do",
+    "note": "Two parts in parallel. Qualify combined effectiveC>=20uF across bias/temperature/tolerance/ageing. Manufacturer typicalgraph budget23.80uF is not a guaranteed minimum."
+  }
+]

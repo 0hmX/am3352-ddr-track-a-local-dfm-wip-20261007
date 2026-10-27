@@ -1,0 +1,97 @@
+{
+  "retrieved_date": "2026-10-27",
+  "official_repo": "https://github.com/beagleboard/beaglebone-black",
+  "commit": "c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca",
+  "upstream_license_reference": "https://docs.beagleboard.org/boards/beaglebone/black/index.html",
+  "upstream_docs_declared_license": "CC BY-SA4.0",
+  "files": [
+    {
+      "path": "IT66122.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/IT66122.png",
+      "sha256": "2825d0f6b918d7d62e84251180beed625b421300a6d78bf464e85235af2a0971"
+    },
+    {
+      "path": "HDMI.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/HDMI.png",
+      "sha256": "1ec80e8f536bea6b0947691955a480ca62420ddd3a09e43e57bd1ec1ba138522"
+    },
+    {
+      "path": "HDMI-ESD.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/HDMI-ESD.png",
+      "sha256": "09c958ce214245c4996e32ec795ecd58665fb429aae8b68ee17e60e186789eef"
+    },
+    {
+      "path": "HDMI-TVS-Diodes.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/HDMI-TVS-Diodes.png",
+      "sha256": "3333bb736acd938212518f58c73789be80ba33b74dee110bb7b5a7fd20e649bc"
+    },
+    {
+      "path": "HDMI-AND.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/HDMI-AND.png",
+      "sha256": "a5fdd9f103e990569fef9afc04f989b664bed53da11031f2fd74dd770a57e3b3"
+    },
+    {
+      "path": "TLV75512PDBVR-VDD_1V2.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/TLV75512PDBVR-VDD_1V2.png",
+      "sha256": "c5535ea11ae54929c620f8d3bf3efcf4c6948a007e60575cac0f88336afbc5db"
+    },
+    {
+      "path": "TL5209DR-VDD_3V3B.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/TL5209DR-VDD_3V3B.png",
+      "sha256": "7e966537df42ba63c5776b224fb728e5b70842387f970bfc16c0e05e0554fe14"
+    },
+    {
+      "path": "Boot.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/Boot.png",
+      "sha256": "c72e7f98fac1d9e70a07cd4baac05f19df71e223866e821f57f95d55d3a06eb6"
+    },
+    {
+      "path": "AM335X-2O3.png",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/AM335X-2O3.png",
+      "sha256": "ee6c5a57d9bb79eaf5dec17891e28e7b2d2c22af360aac51c7645de0d2bae1c7"
+    },
+    {
+      "path": "work/hdmi-reference/ite-it66122-product.html",
+      "url": "https://www.ite.com.tw/en/product/cate1/IT66122",
+      "sha256": "b18fb568b851c1b2094bcbe6f3781cf64034d9929cfc73aeca775f321092d740",
+      "scope": "Public feature/package page only; download requires account/application approval."
+    },
+    {
+      "path": "BBB-SCH.pdf",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/BBB-SCH.pdf",
+      "sha256": "8a19d0015a03e6858c5abefc8e83dce44a12ff2213f66576a1ac3b15ab5f4e8a"
+    },
+    {
+      "path": "BBB_BOM.xls",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/BBB_BOM.xls",
+      "sha256": "49dcf2c21727ee4614315cefdd019d37388c48c6851c3d3482677c184fd59d1f"
+    },
+    {
+      "path": "tpd13s523.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tpd13s523.pdf",
+      "sha256": "3eba5f84e6e7c47d25f43f1a28e5f9f74278cc8d4646b6ed5947237f5905af8a"
+    },
+    {
+      "path": "tlv755p.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "sha256": "96e2706d4b13656d2d550fdbb5be9861c56b058822109bb39a906d4ad1beb019"
+    },
+    {
+      "path": "sn74ahc1g09.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf",
+      "sha256": "9f0a6795da9d608d1b51958ba987cede0ea3210fe803f02c831215161be1293e"
+    },
+    {
+      "path": "tpd12s016.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tpd12s016.pdf",
+      "sha256": "10d63c0775c5a8d9893982de205c02fd9611980ad08de889d7c5324c6afdfd58"
+    },
+    {
+      "path": "tpd12s521.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tpd12s521.pdf",
+      "sha256": "bd79b9eaf4beabf8298eecf9920b9d70debb2cb6ffff301d07f8146a3d04c6a4"
+    }
+  ],
+  "selected_24bit_CPU_map": "../firmware/cpu-hdmi-pin-contract.json",
+  "mechanical_exact_landpattern": "../physical fromhdmi_physical officialRevDAllegroimport; manufacturerpublicpageonlyestablishes9x9mmQFN64."
+}

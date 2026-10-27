@@ -1,0 +1,38 @@
+{
+  "status": "APPLIED_TWO_ROOT_SELECTED_NATIVE_POSES",
+  "selected_physical_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+  "native_placement_receipt": "outputs/am3352-ddr/hdmi/power/joint-routing-proposal/native-placement-receipt.json",
+  "native_placement_receipt_sha256": "1b53163cc8ee6a3416aad72fa5e8ef67543401c4eba4d755627099f4c70d8e71",
+  "changed": {
+    "C_HDMI_REF_C178": {
+      "before": {
+        "pcbX": 46.0,
+        "pcbY": -32.5,
+        "pcbRotation": 180,
+        "layer": "top"
+      },
+      "after": {
+        "pcbX": 43.9,
+        "pcbY": -30.5,
+        "pcbRotation": 270,
+        "layer": "bottom"
+      }
+    },
+    "R_HDMI_UTILITY": {
+      "before": {
+        "pcbX": 49.5,
+        "pcbY": -14.5,
+        "pcbRotation": 270,
+        "layer": "top"
+      },
+      "after": {
+        "pcbX": 53.8,
+        "pcbY": -30.35,
+        "pcbRotation": 270,
+        "layer": "top"
+      }
+    }
+  },
+  "unchanged_HDMI_component_poses": 63,
+  "no_other_source_changes_authorized": true
+}

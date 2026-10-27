@@ -1,0 +1,3311 @@
+{
+  "CAP1210": {
+    "source": "Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod",
+    "sha256": "e1dae516e079b70c4736d001fb81bfb4ef5f9c2a37c8175223a44f83a04ff75f",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.475,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 1.15,
+        "height": 2.7,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.475,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 1.15,
+        "height": 2.7,
+        "drill": null
+      }
+    ],
+    "status": "Imported from installed KiCad library; exact selected package matched; manufacturer land-pattern comparison remains a PCB-release check"
+  },
+  "SOT23_6": {
+    "source": "Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+    "sha256": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": 0.95,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": -0.95,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1375,
+        "y": -0.95,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1375,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1375,
+        "y": 0.95,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      }
+    ],
+    "status": "Imported from installed KiCad library; exact selected package matched; manufacturer land-pattern comparison remains a PCB-release check"
+  },
+  "EFUSE": {
+    "source": "Package_SON.pretty/Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.kicad_mod",
+    "sha256": "8beb57ce756ebcab32109aa9aa075151b42ebfd5f490614407832d761d1a314d",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": 0.75,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": 0.25,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": -0.25,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": -0.75,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": -0.75,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": -0.25,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": 0.25,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": 0.75,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.0,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 0.9,
+        "height": 1.6,
+        "drill": null
+      }
+    ],
+    "status": "Imported from installed KiCad library; exact selected package matched; manufacturer land-pattern comparison remains a PCB-release check"
+  },
+  "TPS3851_DRB8": {
+    "source": "TI TPS3851 SBVS300B physical PDF page34; DRB0008A drawing4218875/A01/2018 example board layout",
+    "sourceUrl": "https://www.ti.com/lit/ds/symlink/tps3851.pdf",
+    "sha256": "293159a68e80dcf91e5997338200f304aea393d128bc072899d1f0265580fed1",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.4,
+        "y": 0.975,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.31,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.4,
+        "y": 0.325,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.31,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.4,
+        "y": -0.325,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.31,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.4,
+        "y": -0.975,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.31,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.4,
+        "y": -0.975,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.31,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.4,
+        "y": -0.325,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.31,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.4,
+        "y": 0.325,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.31,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.4,
+        "y": 0.975,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 0.31,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "width": 1.5,
+        "height": 1.75,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.325,
+        "y": -1.2875,
+        "rotation": 0,
+        "width": 0.23,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.325,
+        "y": 1.2875,
+        "rotation": 0,
+        "width": 0.23,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.325,
+        "y": -1.2875,
+        "rotation": 0,
+        "width": 0.23,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.325,
+        "y": 1.2875,
+        "rotation": 0,
+        "width": 0.23,
+        "height": 0.825,
+        "drill": null
+      }
+    ],
+    "status": "Manufacturer land copper geometry transcribed: lead0.6x0.31,0.65pitch,x\u00b11.4; EP1.5x1.75 plus four0.23x0.825extensions. All EP pieces same pin9. Optional0.2mm thermal vias omitted per drawing note5. Stencil and soldermask rules remain PCB-stage work.",
+    "body": {
+      "width": 3,
+      "height": 3
+    },
+    "notes": [
+      "Top view, y positive upward. Pin1 upper left,1\u20134downleft;5\u20138upright.",
+      "Drawing radiusR0.05 typical; generic roundrect renderer may choose different corner radius unless configured.",
+      "Exposed pad implementation must support multiple pad shapes on pin9 without dropping extensions. All are one copper net."
+    ]
+  },
+  "USBC": {
+    "source": "Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+    "sha256": "3b8d7da3cae5114ec83022a759a78925113bc2eeec100ea447594f6d8687e4b8",
+    "pads": [
+      {
+        "pin": "",
+        "type": "np_thru_hole",
+        "shape": "circle",
+        "x": -2.89,
+        "y": 2.605,
+        "rotation": 0,
+        "width": 0.65,
+        "height": 0.65,
+        "drill": [
+          "0.65"
+        ]
+      },
+      {
+        "pin": "",
+        "type": "np_thru_hole",
+        "shape": "circle",
+        "x": 2.89,
+        "y": 2.605,
+        "rotation": 0,
+        "width": 0.65,
+        "height": 0.65,
+        "drill": [
+          "0.65"
+        ]
+      },
+      {
+        "pin": "A1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -3.2,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "A4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.4,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "A5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.25,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "A6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.25,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "A7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.25,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "A8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.25,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "A9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.4,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "A12",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 3.2,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "B1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 3.2,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "B4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.4,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "B5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.75,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "B6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.75,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "B7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.75,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "B8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.75,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "B9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.4,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "B12",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -3.2,
+        "y": 3.68,
+        "rotation": 0,
+        "width": 0.6,
+        "height": 1.15,
+        "drill": null
+      },
+      {
+        "pin": "SH",
+        "type": "thru_hole",
+        "shape": "oval",
+        "x": -4.32,
+        "y": 3.105,
+        "rotation": 0,
+        "width": 1.0,
+        "height": 2.1,
+        "drill": [
+          "oval",
+          "0.6",
+          "1.7"
+        ]
+      },
+      {
+        "pin": "SH",
+        "type": "thru_hole",
+        "shape": "oval",
+        "x": -4.32,
+        "y": -1.075,
+        "rotation": 0,
+        "width": 1.0,
+        "height": 1.8,
+        "drill": [
+          "oval",
+          "0.6",
+          "1.4"
+        ]
+      },
+      {
+        "pin": "SH",
+        "type": "thru_hole",
+        "shape": "oval",
+        "x": 4.32,
+        "y": 3.105,
+        "rotation": 0,
+        "width": 1.0,
+        "height": 2.1,
+        "drill": [
+          "oval",
+          "0.6",
+          "1.7"
+        ]
+      },
+      {
+        "pin": "SH",
+        "type": "thru_hole",
+        "shape": "oval",
+        "x": 4.32,
+        "y": -1.075,
+        "rotation": 0,
+        "width": 1.0,
+        "height": 1.8,
+        "drill": [
+          "oval",
+          "0.6",
+          "1.4"
+        ]
+      }
+    ],
+    "status": "Imported from KiCad; manufacturer cross-check still required for non-BGA parts"
+  },
+  "TACT_TL3305A": {
+    "source": "Button_Switch_SMD.pretty/SW_SPST_TL3305A.kicad_mod",
+    "sha256": "55e7939eef6d5d849fc03bfe68b2c3dbdbcab5f8584fc1dc94bacb180c959461",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.6,
+        "y": 1.5,
+        "rotation": 0.0,
+        "width": 1.6,
+        "height": 1.4,
+        "drill": null
+      },
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "rect",
+        "x": 3.6,
+        "y": 1.5,
+        "rotation": 0.0,
+        "width": 1.6,
+        "height": 1.4,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.6,
+        "y": -1.5,
+        "rotation": 0.0,
+        "width": 1.6,
+        "height": 1.4,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "rect",
+        "x": 3.6,
+        "y": -1.5,
+        "rotation": 0.0,
+        "width": 1.6,
+        "height": 1.4,
+        "drill": null
+      }
+    ],
+    "status": "Imported from local KiCad; pad dimensions and circuit topology visually cross-checked with manufacturer drawing; final fabrication process review still required"
+  },
+  "OSC2520": {
+    "source": "Oscillator.pretty/Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm.kicad_mod",
+    "sha256": "f60f292d617a52fec9812791a3e442c296eb699645659db3559c22284d4c02bc",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": -0.75,
+        "rotation": 0.0,
+        "width": 1.1,
+        "height": 1.0,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": -0.75,
+        "rotation": 0.0,
+        "width": 1.1,
+        "height": 1.0,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": 0.75,
+        "rotation": 0.0,
+        "width": 1.1,
+        "height": 1.0,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": 0.75,
+        "rotation": 0.0,
+        "width": 1.1,
+        "height": 1.0,
+        "drill": null
+      }
+    ],
+    "status": "Imported from local KiCad; pad dimensions and circuit topology visually cross-checked with manufacturer drawing; final fabrication process review still required"
+  },
+  "SOT23_5": {
+    "source": "Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+    "sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": 0.95,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.1375,
+        "y": -0.95,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1375,
+        "y": -0.95,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.1375,
+        "y": 0.95,
+        "rotation": 0,
+        "width": 1.325,
+        "height": 0.6,
+        "drill": null
+      }
+    ],
+    "status": "Imported from installed KiCad library; exact selected package matched; manufacturer land-pattern comparison remains a PCB-release check"
+  },
+  "PMIC": {
+    "source": "Package_DFN_QFN.pretty/VQFN-48-1EP_6x6mm_P0.4mm_EP4.1x4.1mm.kicad_mod",
+    "sha256": "5b421cde07f6da02af7171d420d1c2e63ae03e7a12c5a66a6b8e85b5732f86c1",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": 2.2,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": 1.8,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": 1.4,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": 1.0,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": 0.6,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": 0.2,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": -0.2,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": -0.6,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": -1.0,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "10",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": -1.4,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "11",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": -1.8,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "12",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9375,
+        "y": -2.2,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "13",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.2,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "14",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.8,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "15",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.4,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "16",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.0,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "17",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.6,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "18",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.2,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "19",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.2,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "20",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.6,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "21",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.0,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "22",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.4,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "23",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.8,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "24",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.2,
+        "y": -2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "25",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": -2.2,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "26",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": -1.8,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "27",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": -1.4,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "28",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": -1.0,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "29",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": -0.6,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "30",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": -0.2,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "31",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": 0.2,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "32",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": 0.6,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "33",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": 1.0,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "34",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": 1.4,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "35",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": 1.8,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "36",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9375,
+        "y": 2.2,
+        "rotation": 0,
+        "width": 0.825,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "37",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.2,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "38",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.8,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "39",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.4,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "40",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.0,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "41",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.6,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "42",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.2,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "43",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.2,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "44",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.6,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "45",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.0,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "46",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.4,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "47",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.8,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "48",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.2,
+        "y": 2.9375,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.825,
+        "drill": null
+      },
+      {
+        "pin": "49",
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.0,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 4.1,
+        "height": 4.1,
+        "drill": null
+      }
+    ],
+    "status": "Imported from KiCad; manufacturer cross-check still required for non-BGA parts"
+  },
+  "MICROSD": {
+    "source": "Connector_Card.pretty/microSD_HC_Hirose_DM3AT-SF-PEJM5.kicad_mod",
+    "sha256": "cc0efdbdb9b21e7cc31a577ea45e753c8985b1c67cf1f58d39e352018f0cb938",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "rect",
+        "x": 2.775,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "rect",
+        "x": 1.675,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.575,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.525,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "rect",
+        "x": -1.625,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "rect",
+        "x": -2.725,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.825,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "rect",
+        "x": -4.925,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "rect",
+        "x": -5.875,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 0.7,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "10",
+        "type": "smd",
+        "shape": "rect",
+        "x": -6.825,
+        "y": -2.775,
+        "rotation": 0,
+        "width": 1.0,
+        "height": 0.8,
+        "drill": null
+      },
+      {
+        "pin": "SH",
+        "type": "smd",
+        "shape": "rect",
+        "x": -6.825,
+        "y": 3.425,
+        "rotation": 0,
+        "width": 1.0,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "SH",
+        "type": "smd",
+        "shape": "rect",
+        "x": -6.825,
+        "y": -6.925,
+        "rotation": 0,
+        "width": 1.0,
+        "height": 2.8,
+        "drill": null
+      },
+      {
+        "pin": "SH",
+        "type": "smd",
+        "shape": "rect",
+        "x": 4.325,
+        "y": 7.725,
+        "rotation": 0,
+        "width": 1.0,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "SH",
+        "type": "smd",
+        "shape": "rect",
+        "x": 6.675,
+        "y": -7.375,
+        "rotation": 0,
+        "width": 1.3,
+        "height": 1.9,
+        "drill": null
+      }
+    ],
+    "status": "Imported from KiCad; manufacturer cross-check still required for non-BGA parts"
+  },
+  "TUSB320": {
+    "source": "Package_DFN_QFN.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod",
+    "sha256": "ea89ce5e84cfea79eeccc18b0b7b704402a1584d2bb3227d1a9471c96a109771",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.725,
+        "y": 0.2,
+        "rotation": 0,
+        "width": 0.85,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.725,
+        "y": -0.2,
+        "rotation": 0,
+        "width": 0.85,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.6,
+        "y": -0.825,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.65,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.2,
+        "y": -0.825,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.65,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.2,
+        "y": -0.825,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.65,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.6,
+        "y": -0.825,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.65,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.725,
+        "y": -0.2,
+        "rotation": 0,
+        "width": 0.85,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.725,
+        "y": 0.2,
+        "rotation": 0,
+        "width": 0.85,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.6,
+        "y": 0.825,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.65,
+        "drill": null
+      },
+      {
+        "pin": "10",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.2,
+        "y": 0.825,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.65,
+        "drill": null
+      },
+      {
+        "pin": "11",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.2,
+        "y": 0.825,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.65,
+        "drill": null
+      },
+      {
+        "pin": "12",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.6,
+        "y": 0.825,
+        "rotation": 0,
+        "width": 0.2,
+        "height": 0.65,
+        "drill": null
+      }
+    ],
+    "status": "Imported from installed KiCad library; exact selected package matched; manufacturer land-pattern comparison remains a PCB-release check"
+  },
+  "XAL4020": {
+    "source": "Inductor_SMD.pretty/L_Coilcraft_XAL4020-XXX.kicad_mod",
+    "sha256": "fbda84e81c450a5b38c16250686d5afad09ba014a34b2f73b4725397b242c490",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.185,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 0.98,
+        "height": 3.4,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.185,
+        "y": -0.0,
+        "rotation": 0,
+        "width": 0.98,
+        "height": 3.4,
+        "drill": null
+      }
+    ],
+    "status": "Imported from installed KiCad library; exact selected package matched; manufacturer land-pattern comparison remains a PCB-release check"
+  },
+  "CAP1210_KEMET_B": {
+    "source": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf",
+    "revision": "2026-09-01",
+    "datasheetPage": 12,
+    "density": "B nominal",
+    "status": "Manufacturer-derived land pattern; board assembly remains unqualified",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "rect",
+        "x": -1.5,
+        "y": 0,
+        "rotation": 0,
+        "width": 1.15,
+        "height": 2.7,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "rect",
+        "x": 1.5,
+        "y": 0,
+        "rotation": 0,
+        "width": 1.15,
+        "height": 2.7,
+        "drill": null
+      }
+    ]
+  },
+  "CAP0402_KEMET_B": {
+    "source": "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf",
+    "revision": "2026-09-07",
+    "pages": [
+      2,
+      5,
+      7,
+      9
+    ],
+    "status": "Manufacturer density B; 1uF16V X5R C0402C105K4PACTU",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.45,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.62,
+        "height": 0.62,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.45,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.62,
+        "height": 0.62,
+        "drill": null
+      }
+    ]
+  },
+  "PHY_RMQ": {
+    "source": "Package_DFN_QFN:Texas_RMQ0024A_WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm",
+    "sha256": "97391fbaba6365e4a07123d639d58aa09d08ea44f133ec65520a65dede57185f",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.5375,
+        "y": 0.9,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.5375,
+        "y": 0.5,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.5375,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.4,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.5375,
+        "y": -0.5,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.5375,
+        "y": -0.9,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.325,
+        "y": -1.325,
+        "rotation": -0.0,
+        "width": 0.25,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.9,
+        "y": -1.5375,
+        "rotation": -0.0,
+        "width": 0.2,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.5,
+        "y": -1.5375,
+        "rotation": -0.0,
+        "width": 0.2,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.0,
+        "y": -1.5375,
+        "rotation": -0.0,
+        "width": 0.4,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "10",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.5,
+        "y": -1.5375,
+        "rotation": -0.0,
+        "width": 0.2,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "11",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.9,
+        "y": -1.5375,
+        "rotation": -0.0,
+        "width": 0.2,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "12",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.325,
+        "y": -1.325,
+        "rotation": -0.0,
+        "width": 0.25,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "13",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.5375,
+        "y": -0.9,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "14",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.5375,
+        "y": -0.5,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "15",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.5375,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.4,
+        "drill": null
+      },
+      {
+        "pin": "16",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.5375,
+        "y": 0.5,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "17",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.5375,
+        "y": 0.9,
+        "rotation": -0.0,
+        "width": 0.675,
+        "height": 0.2,
+        "drill": null
+      },
+      {
+        "pin": "18",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.325,
+        "y": 1.325,
+        "rotation": -0.0,
+        "width": 0.25,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "19",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.9,
+        "y": 1.5375,
+        "rotation": -0.0,
+        "width": 0.2,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "20",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.5,
+        "y": 1.5375,
+        "rotation": -0.0,
+        "width": 0.2,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "21",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.0,
+        "y": 1.5375,
+        "rotation": -0.0,
+        "width": 0.4,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "22",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.5,
+        "y": 1.5375,
+        "rotation": -0.0,
+        "width": 0.2,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "23",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.9,
+        "y": 1.5375,
+        "rotation": -0.0,
+        "width": 0.2,
+        "height": 0.675,
+        "drill": null
+      },
+      {
+        "pin": "24",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.325,
+        "y": 1.325,
+        "rotation": -0.0,
+        "width": 0.25,
+        "height": 0.25,
+        "drill": null
+      },
+      {
+        "pin": "25",
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.0,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 1.9,
+        "height": 1.9,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "RJ45_7499010121A": {
+    "source": "Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal",
+    "sha256": "47e2a70a46d0c60d31415cb4a2abecdfe6d1ec5d3dfcc568483c2edff26e9fa8",
+    "pads": [
+      {
+        "pin": "",
+        "type": "np_thru_hole",
+        "shape": "circle",
+        "x": 8.89,
+        "y": 1.27,
+        "rotation": -90.0,
+        "width": 3.25,
+        "height": 3.25,
+        "drill": [
+          3.25
+        ]
+      },
+      {
+        "pin": "",
+        "type": "np_thru_hole",
+        "shape": "circle",
+        "x": 8.89,
+        "y": -10.16,
+        "rotation": -90.0,
+        "width": 3.25,
+        "height": 3.25,
+        "drill": [
+          3.25
+        ]
+      },
+      {
+        "pin": "1",
+        "type": "thru_hole",
+        "shape": "roundrect",
+        "x": 0.0,
+        "y": -0.0,
+        "rotation": -90.0,
+        "width": 1.6,
+        "height": 1.6,
+        "drill": [
+          0.9
+        ]
+      },
+      {
+        "pin": "2",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 2.54,
+        "y": -1.27,
+        "rotation": -90.0,
+        "width": 1.6,
+        "height": 1.6,
+        "drill": [
+          0.9
+        ]
+      },
+      {
+        "pin": "3",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 0.0,
+        "y": -2.54,
+        "rotation": -90.0,
+        "width": 1.6,
+        "height": 1.6,
+        "drill": [
+          0.9
+        ]
+      },
+      {
+        "pin": "4",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 2.54,
+        "y": -3.81,
+        "rotation": -90.0,
+        "width": 1.6,
+        "height": 1.6,
+        "drill": [
+          0.9
+        ]
+      },
+      {
+        "pin": "5",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 0.0,
+        "y": -5.08,
+        "rotation": -90.0,
+        "width": 1.6,
+        "height": 1.6,
+        "drill": [
+          0.9
+        ]
+      },
+      {
+        "pin": "6",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 2.54,
+        "y": -6.35,
+        "rotation": -90.0,
+        "width": 1.6,
+        "height": 1.6,
+        "drill": [
+          0.9
+        ]
+      },
+      {
+        "pin": "7",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 0.0,
+        "y": -7.62,
+        "rotation": -90.0,
+        "width": 1.6,
+        "height": 1.6,
+        "drill": [
+          0.9
+        ]
+      },
+      {
+        "pin": "8",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 2.54,
+        "y": -8.89,
+        "rotation": -90.0,
+        "width": 1.6,
+        "height": 1.6,
+        "drill": [
+          0.9
+        ]
+      },
+      {
+        "pin": "9",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": -4.83,
+        "y": 1.02,
+        "rotation": -90.0,
+        "width": 1.72,
+        "height": 1.72,
+        "drill": [
+          1.02
+        ]
+      },
+      {
+        "pin": "10",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": -4.83,
+        "y": -1.52,
+        "rotation": -90.0,
+        "width": 1.72,
+        "height": 1.72,
+        "drill": [
+          1.02
+        ]
+      },
+      {
+        "pin": "11",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": -4.83,
+        "y": -7.37,
+        "rotation": -90.0,
+        "width": 1.72,
+        "height": 1.72,
+        "drill": [
+          1.02
+        ]
+      },
+      {
+        "pin": "12",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": -4.83,
+        "y": -9.91,
+        "rotation": -90.0,
+        "width": 1.72,
+        "height": 1.72,
+        "drill": [
+          1.02
+        ]
+      },
+      {
+        "pin": "SH",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 5.84,
+        "y": 3.455,
+        "rotation": -90.0,
+        "width": 2.2,
+        "height": 2.2,
+        "drill": [
+          1.6
+        ]
+      },
+      {
+        "pin": "SH",
+        "type": "thru_hole",
+        "shape": "circle",
+        "x": 5.84,
+        "y": -12.345,
+        "rotation": -90.0,
+        "width": 2.2,
+        "height": 2.2,
+        "drill": [
+          1.6
+        ]
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "TSSOP20": {
+    "source": "Package_SO:Texas_PW0020A_TSSOP-20_4.4x6.5mm_P0.65mm",
+    "sha256": "0566a37be1c99f4667b94b8b4ab3d7bfa76201205c1941c722219de77675f4d9",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": 2.925,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": 2.275,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": 1.625,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": 0.975,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": 0.325,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": -0.325,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": -0.975,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": -1.625,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": -2.275,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "10",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -2.9,
+        "y": -2.925,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "11",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": -2.925,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "12",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": -2.275,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "13",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": -1.625,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "14",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": -0.975,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "15",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": -0.325,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "16",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": 0.325,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "17",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": 0.975,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "18",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": 1.625,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "19",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": 2.275,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "20",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 2.9,
+        "y": 2.925,
+        "rotation": -0.0,
+        "width": 1.5,
+        "height": 0.45,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "ESD204_DQA": {
+    "source": "Package_SON:USON-10_2.5x1.0mm_P0.5mm",
+    "sha256": "3eb2f599599d96d4f4428c99ce7cb24f8570da3f121f61fd7180d3bb8027d3e5",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.385,
+        "y": 1.0,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.385,
+        "y": 0.5,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.385,
+        "y": -0.0,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.385,
+        "y": -0.5,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.385,
+        "y": -1.0,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.385,
+        "y": -1.0,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.385,
+        "y": -0.5,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.385,
+        "y": -0.0,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.385,
+        "y": 0.5,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      },
+      {
+        "pin": "10",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.385,
+        "y": 1.0,
+        "rotation": -270.0,
+        "width": 0.3,
+        "height": 0.55,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "SC70_5": {
+    "source": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "sha256": "89b48ee2302de9f986573f9bff5f6c93c870f46e61404edcdb75fd1cde8952be",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": 0.65,
+        "rotation": -0.0,
+        "width": 0.65,
+        "height": 0.4,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.65,
+        "height": 0.4,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": -0.65,
+        "rotation": -0.0,
+        "width": 0.65,
+        "height": 0.4,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": -0.65,
+        "rotation": -0.0,
+        "width": 0.65,
+        "height": 0.4,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": 0.65,
+        "rotation": -0.0,
+        "width": 0.65,
+        "height": 0.4,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "LPS4018": {
+    "source": "Inductor_SMD:L_Coilcraft_LPS4018",
+    "sha256": "e340ac623cc1fdb8f18ac096ece19b465419687003e9caea2f2d12a37e4c6991",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "rect",
+        "x": -1.765,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.87,
+        "height": 2.79,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "rect",
+        "x": 1.765,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.87,
+        "height": 2.79,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "SOD323": {
+    "source": "Diode_SMD:D_SOD-323",
+    "sha256": "22cbd51bfb508c56d1c89a865874f8d6941403614d173d9703acbf7a38a72a4a",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.05,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.6,
+        "height": 0.45,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.05,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.6,
+        "height": 0.45,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "C1206": {
+    "source": "Capacitor_SMD:C_1206_3216Metric",
+    "sha256": "9343c2f817fd00cce4d60eb82049bd305d87ee6a856d04895b6c546aceac317b",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.475,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 1.15,
+        "height": 1.8,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.475,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 1.15,
+        "height": 1.8,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "C0603": {
+    "source": "Capacitor_SMD:C_0603_1608Metric",
+    "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.775,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.9,
+        "height": 0.95,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.775,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 0.9,
+        "height": 0.95,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "C0805": {
+    "source": "Capacitor_SMD:C_0805_2012Metric",
+    "sha256": "4f88d912a06c5e2e3b8151311be72f6ac49eea68d52b4e1beaeaa067916555cc",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -0.95,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 1.0,
+        "height": 1.45,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 0.95,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 1.0,
+        "height": 1.45,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "R1206": {
+    "source": "Resistor_SMD:R_1206_3216Metric",
+    "sha256": "3671ca6038d43f4aa571edc854129ee383e8ae11a7ba61c67a44707b29eb7e3b",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": -1.4625,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 1.125,
+        "height": 1.75,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "x": 1.4625,
+        "y": -0.0,
+        "rotation": -0.0,
+        "width": 1.125,
+        "height": 1.75,
+        "drill": null
+      }
+    ],
+    "status": "KiCad 9 library geometry; electrical pinout cross-checked with primary data sheet; final land-pattern/stencil release review required"
+  },
+  "MOLEX_541044031": {
+    "source": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/541/54104/541045031_sd.pdf",
+    "pads": [
+      {
+        "pin": "1",
+        "type": "smd",
+        "shape": "rect",
+        "x": -9.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "2",
+        "type": "smd",
+        "shape": "rect",
+        "x": -9.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "3",
+        "type": "smd",
+        "shape": "rect",
+        "x": -8.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "4",
+        "type": "smd",
+        "shape": "rect",
+        "x": -8.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "5",
+        "type": "smd",
+        "shape": "rect",
+        "x": -7.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "6",
+        "type": "smd",
+        "shape": "rect",
+        "x": -7.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "7",
+        "type": "smd",
+        "shape": "rect",
+        "x": -6.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "8",
+        "type": "smd",
+        "shape": "rect",
+        "x": -6.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "9",
+        "type": "smd",
+        "shape": "rect",
+        "x": -5.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "10",
+        "type": "smd",
+        "shape": "rect",
+        "x": -5.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "11",
+        "type": "smd",
+        "shape": "rect",
+        "x": -4.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "12",
+        "type": "smd",
+        "shape": "rect",
+        "x": -4.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "13",
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "14",
+        "type": "smd",
+        "shape": "rect",
+        "x": -3.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "15",
+        "type": "smd",
+        "shape": "rect",
+        "x": -2.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "16",
+        "type": "smd",
+        "shape": "rect",
+        "x": -2.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "17",
+        "type": "smd",
+        "shape": "rect",
+        "x": -1.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "18",
+        "type": "smd",
+        "shape": "rect",
+        "x": -1.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "19",
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "20",
+        "type": "smd",
+        "shape": "rect",
+        "x": -0.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "21",
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "22",
+        "type": "smd",
+        "shape": "rect",
+        "x": 0.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "23",
+        "type": "smd",
+        "shape": "rect",
+        "x": 1.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "24",
+        "type": "smd",
+        "shape": "rect",
+        "x": 1.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "25",
+        "type": "smd",
+        "shape": "rect",
+        "x": 2.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "26",
+        "type": "smd",
+        "shape": "rect",
+        "x": 2.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "27",
+        "type": "smd",
+        "shape": "rect",
+        "x": 3.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "28",
+        "type": "smd",
+        "shape": "rect",
+        "x": 3.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "29",
+        "type": "smd",
+        "shape": "rect",
+        "x": 4.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "30",
+        "type": "smd",
+        "shape": "rect",
+        "x": 4.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "31",
+        "type": "smd",
+        "shape": "rect",
+        "x": 5.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "32",
+        "type": "smd",
+        "shape": "rect",
+        "x": 5.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "33",
+        "type": "smd",
+        "shape": "rect",
+        "x": 6.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "34",
+        "type": "smd",
+        "shape": "rect",
+        "x": 6.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "35",
+        "type": "smd",
+        "shape": "rect",
+        "x": 7.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "36",
+        "type": "smd",
+        "shape": "rect",
+        "x": 7.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "37",
+        "type": "smd",
+        "shape": "rect",
+        "x": 8.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "38",
+        "type": "smd",
+        "shape": "rect",
+        "x": 8.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "39",
+        "type": "smd",
+        "shape": "rect",
+        "x": 9.25,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "40",
+        "type": "smd",
+        "shape": "rect",
+        "x": 9.75,
+        "y": 0,
+        "rotation": 0,
+        "width": 0.3,
+        "height": 1.2,
+        "drill": null
+      },
+      {
+        "pin": "M1",
+        "type": "smd",
+        "shape": "rect",
+        "x": -12.05,
+        "y": -2.73,
+        "rotation": 0,
+        "width": 2.0,
+        "height": 2.4,
+        "drill": null
+      },
+      {
+        "pin": "M1",
+        "type": "smd",
+        "shape": "rect",
+        "x": -10.95,
+        "y": -2.58,
+        "rotation": 0,
+        "width": 0.8,
+        "height": 1.7,
+        "drill": null
+      },
+      {
+        "pin": "M2",
+        "type": "smd",
+        "shape": "rect",
+        "x": 12.05,
+        "y": -2.73,
+        "rotation": 0,
+        "width": 2.0,
+        "height": 2.4,
+        "drill": null
+      },
+      {
+        "pin": "M2",
+        "type": "smd",
+        "shape": "rect",
+        "x": 10.95,
+        "y": -2.58,
+        "rotation": 0,
+        "width": 0.8,
+        "height": 1.7,
+        "drill": null
+      }
+    ],
+    "status": "Manufacturer 541041000 Rev B recommended pattern transcribed; signal geometry verified, retention polygon/stencil audit still required"
+  }
+}

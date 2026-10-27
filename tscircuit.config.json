@@ -1,0 +1,15 @@
+{
+  "mainEntrypoint": "index.tsx",
+  "includeBoardFiles": [
+    "index.tsx",
+    "validation-source/index-with-layout.circuit.json"
+  ],
+  "previewComponentPath": "validation-source/index-with-layout.circuit.json",
+  "siteDefaultComponentPath": "validation-source/index-with-layout.circuit.json",
+  "build": {
+    "routingDisabled": true,
+    "previewImages": false,
+    "typescriptLibrary": false
+  },
+  "buildCommand": "sh scripts/build.sh"
+}

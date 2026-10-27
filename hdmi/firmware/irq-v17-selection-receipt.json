@@ -1,0 +1,55 @@
+{
+  "status": "SELECTED_V17_IRQ_SCOPED_PHYSICAL_ROUTE_PASS_WHOLE_BOARD_QA_PENDING",
+  "selected_irq": "V17/GPMC_A11/GPIO1_27",
+  "released_ball": "V14",
+  "preserved_other_cpu_bindings": 244,
+  "physical_selection_receipt": "outputs/am3352-ddr/hdmi/validation-next/irq-v17-foil/selection-receipt.json",
+  "physical_selection_receipt_sha256": "a4d881e0ac6e5979c282f2bd66a103ce892925e648f909748a4de4e5070a8ea9",
+  "physical_candidate": "work/hdmi-qa/irq-v17-foil-cleaned.circuit.json",
+  "physical_candidate_sha256": "f6b163c4c8778d70fe033b05a54f6ab5032428c5745bdc3c6bf9e9e24d5d9030",
+  "physical_candidate_unchanged_by_firmware_promotion": true,
+  "before_sha256": {
+    "cpu-bindings.json": "2282a3ade84ad570cfc5c02616428ee6c3f8a2a7dacc6003157002389c51055d",
+    "cpu-hdmi-pin-contract.json": "e5142c3bfedfb0578005b04c4fd4c52ec646902b6bdd57d9f17606bcd7eaf88c",
+    "am3352-ddr-hdmi.dtsi": "d962fda03099613d77cedfe1d042adcbd6a6a737b1b2da4b979046c4f1d05572",
+    "firmware-validation.json": "fe21f6a7a605db933cc9bdef906aeaea0c703d43e92d53cd0cd9ae828ca0bf51",
+    "README.txt": "86693d751071bfb65b7ed421f51885b49040a504b763c3d83c9fa80a1eab0e02",
+    "source-receipt.json": "ceae4cb1a657593559e88e39783dc3fb890d43b44ed7a49d4540f8d76513edf3"
+  },
+  "unchanged_firmware_sha256": {
+    "0001-it66121-settle-reset-rc.patch": "52fe7824b9f5375ca4180518ee71b058a5ae7abb6a5e58a668aed8ef0a578601",
+    "reset-patch-validation.json": "8447d45310a41a39c209e096118b55560d45f32f7ba21d274273523d1c673f84",
+    "hdmi-kernel.config": "239d1f4f8764e72fc775340a51225ebab8e918e2168915bc0e7524a5600e45f9",
+    "bringup-video.sh": "d41e0b6991e577348c3066d854a1811f8ede9092523f0b35f00e3b061e0b75d8"
+  },
+  "source_module_milestone": "CANONICAL_SOURCE_APPLIED_BY_SOURCE_BACKANNOTATION_AND_EXECUTED_SUCCESSFULLY",
+  "firmware_compilation": {
+    "checks_passed": 25,
+    "added_warnings": 0,
+    "inherited_upstream_warnings": 12,
+    "dtb_sha256": "c1019ac2086612e99ab367b2d16bd2ae305bfbecb6eb0154185a2d29bfa3f0c7",
+    "dtsi_sha256": "e8196573927e413c3a8f64d73a6afcac558cdd5ff29976d084fc7e065ea222de",
+    "harness_only_not_flashable": true
+  },
+  "actual_board_boot_test": false,
+  "scope": "HDMI IRQ selection only. This does not establish whole-board DFM, DDR/HDMI SI, full routing completion or hardware behavior.",
+  "source_module_validation": {
+    "canonical_source_module_passed": true,
+    "other_cpu_bindings_preserved": 244,
+    "unique_irq_binding": "V17/GPMC_A11/GPIO1_27",
+    "released_ball": "V14",
+    "selected_native_candidate_source_binding_matches": true
+  },
+  "source_module": "outputs/am3352-ddr/logic/connections.ts",
+  "source_module_sha256": "e8922560e40b596a646e12fe04deb962e96aa5a79756d76e928493da1972018e",
+  "source_validation_script_sha256": "a8ab4a270d7c6a594c34448a69cedd204fa4dcc0759281a1aec312ce688321dd",
+  "non_IRQ_display_control_and_SD_contract_unchanged": true,
+  "after_sha256": {
+    "cpu-bindings.json": "d770159a31ab221f0f5d85ac3b9ffafe250072657ba9e77fa5fc554fa6c6b842",
+    "cpu-hdmi-pin-contract.json": "734848522cf417ff6afc09ddfd7868504dc9a68fc440863c70a7fd696b6bab74",
+    "am3352-ddr-hdmi.dtsi": "e8196573927e413c3a8f64d73a6afcac558cdd5ff29976d084fc7e065ea222de",
+    "firmware-validation.json": "e4caa4cb81ddbd866cababbeb72f946873f1ada6eedaeb62b902622810c70408",
+    "README.txt": "ddd3c4153eabdbad2101a0a004f5100f8c25daac2f21c25593322d2bb7786423",
+    "source-receipt.json": "a6a79e1c61c7660832252c2e8bcdf2229841be88a82a83a0a2bb497c000f6eda"
+  }
+}

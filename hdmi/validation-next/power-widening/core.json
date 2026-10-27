@@ -1,0 +1,27 @@
+{
+  "baseline_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+  "candidate_sha256": "d5e8f9ace911e5989cb3b5224afe20091092f4b42c3344a8d1749f056230c98b",
+  "minimum_width_mm": 0.1,
+  "status": "NO_NEW_CONTACT_BEARING_CORE_SEPARATION",
+  "meaningful_splits": [],
+  "groups": [
+    {
+      "layer": "bottom",
+      "nets": [
+        "SYS_5V"
+      ],
+      "old_eroded_components": 27,
+      "new_eroded_components": 26,
+      "changes": [
+        {
+          "old_component": 4,
+          "old_area_mm2": 0.0058732623502311685,
+          "old_contacts": [],
+          "new_pieces": [],
+          "meaningful_separation": false
+        }
+      ]
+    }
+  ],
+  "method": "Union actual same-layer same-net pours, pads, traces and via outer annuli using native outgoing widths, then erode by half the diagnostic width. Separate uncontacted remnants from separation of contacted cores. Via outer-disc convention matches the physical-contact auditor. This is not EM, silicon or manufacture certification."
+}

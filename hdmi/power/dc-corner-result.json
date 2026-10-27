@@ -1,0 +1,1784 @@
+{
+  "status": "STATIC_COMPONENT_CORNERS_ONLY_ROUTED_POWER_QUALIFICATION_PENDING",
+  "corner_count": 192,
+  "nominal_regulated_rail_v": 5.1499999999999995,
+  "minimum_rail_v": 5.0387667959646185,
+  "maximum_rail_v": 5.262430774967966,
+  "minimum_connector_dc_v": 4.8337667959646184,
+  "maximum_connector_dc_v": 5.262430774967966,
+  "connector_design_window_v": [
+    4.8,
+    5.3
+  ],
+  "dc_margin_below_minimum_v": 0.03376679596461862,
+  "dc_margin_below_maximum_v": 0.037569225032033415,
+  "allocated_total_board_path_drop_v": null,
+  "withdrawn_unrouted_board_drop_allocation_v": 0.005,
+  "voltage_scope": "Before routed PCB/source/Ground drop and dynamic excursions.",
+  "remaining_lower_budget_for_ripple_undershoot_v": null,
+  "pre_pcb_lower_static_headroom_v": 0.03376679596461862,
+  "remaining_upper_budget_for_ripple_overshoot_v": null,
+  "pre_pcb_upper_static_headroom_v": 0.037569225032033415,
+  "lowest_corner": {
+    "temperature_c": 125,
+    "vref_v": 0.591,
+    "r_top_ohm": 90681.72750000001,
+    "r_bottom_ohm": 12042.029999999997,
+    "signed_fb_leak_a": -3e-08,
+    "regulated_rail_v": 5.0387667959646185,
+    "connector_v_with_maximum_55ma_switch_drop": 4.8337667959646184
+  },
+  "highest_corner": {
+    "temperature_c": 125,
+    "vref_v": 0.609,
+    "r_top_ohm": 91318.72749999998,
+    "r_bottom_ohm": 11958.03,
+    "signed_fb_leak_a": 3e-08,
+    "regulated_rail_v": 5.262430774967966,
+    "connector_v_with_maximum_55ma_switch_drop": 5.057430774967966
+  },
+  "assumptions": [
+    "Independent 0.1% initial resistor tolerance and 25ppm/C TCR for each divider resistor.",
+    "Both resistor temperatures and converter junction remain within -40..125C.",
+    "TPS61033 is forced into PWM; PFM voltage uplift is not allowed.",
+    "Reference and leakage bounds are the manufacturer's stated electrical-characteristic limits.",
+    "TPD13S523 maximum 205mV drop at55mA is used; maximum voltage assumes zero drop.",
+    "No claimed bound on converter ripple, startup overshoot, load transient, PCB inductance or input-rail impedance."
+  ],
+  "limitations": [
+    "This calculation does not establish a complete HDMI power compliance guarantee.",
+    "The old5mV PCB/Ground allocation is withdrawn; actual routed source-path sensitivity is in joint-routing-proposal/routed-ir-sensitivity.json, with Ground and transients still unqualified.",
+    "Determine dynamic allowances only after qualifying actual routed source/Ground drop and then validate the4.8..5.3V output window.",
+    "Effective output capacitance must be qualified after DC bias, tolerance, temperature and ageing."
+  ],
+  "corners": [
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.07001829818625,
+      "connector_v_with_maximum_55ma_switch_drop": 4.86501829818625
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.07548170181375,
+      "connector_v_with_maximum_55ma_switch_drop": 4.87048170181375
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.08460769345356,
+      "connector_v_with_maximum_55ma_switch_drop": 4.8796076934535595
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.09007109708106,
+      "connector_v_with_maximum_55ma_switch_drop": 4.88507109708106
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.055485105155819,
+      "connector_v_with_maximum_55ma_switch_drop": 4.850485105155819
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.060930781528318,
+      "connector_v_with_maximum_55ma_switch_drop": 4.855930781528318
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.07002716181375,
+      "connector_v_with_maximum_55ma_switch_drop": 4.8650271618137495
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075472838186249,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870472838186249
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.061063752731705,
+      "connector_v_with_maximum_55ma_switch_drop": 4.856063752731705
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.066527156359205,
+      "connector_v_with_maximum_55ma_switch_drop": 4.861527156359205
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.075623998358121,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870623998358121
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.081087401985621,
+      "connector_v_with_maximum_55ma_switch_drop": 4.876087401985621
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.0465596147595315,
+      "connector_v_with_maximum_55ma_switch_drop": 4.8415596147595314
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.052005291132031,
+      "connector_v_with_maximum_55ma_switch_drop": 4.847005291132031
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.061072616359206,
+      "connector_v_with_maximum_55ma_switch_drop": 4.856072616359206
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.066518292731705,
+      "connector_v_with_maximum_55ma_switch_drop": 4.861518292731705
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.078985301786222,
+      "connector_v_with_maximum_55ma_switch_drop": 4.873985301786222
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.084459643158722,
+      "connector_v_with_maximum_55ma_switch_drop": 4.879459643158722
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.093603905052063,
+      "connector_v_with_maximum_55ma_switch_drop": 4.888603905052063
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.099078246424563,
+      "connector_v_with_maximum_55ma_switch_drop": 4.894078246424563
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.064423013274248,
+      "connector_v_with_maximum_55ma_switch_drop": 4.859423013274248
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.069879591901748,
+      "connector_v_with_maximum_55ma_switch_drop": 4.864879591901748
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.078994183158722,
+      "connector_v_with_maximum_55ma_switch_drop": 4.873994183158722
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.084450761786222,
+      "connector_v_with_maximum_55ma_switch_drop": 4.879450761786222
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070012829313749,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865012829313749
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075487170686249,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870487170686249
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.08460222458106,
+      "connector_v_with_maximum_55ma_switch_drop": 4.87960222458106
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.090076565953559,
+      "connector_v_with_maximum_55ma_switch_drop": 4.885076565953559
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.055479654028319,
+      "connector_v_with_maximum_55ma_switch_drop": 4.850479654028319
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.060936232655819,
+      "connector_v_with_maximum_55ma_switch_drop": 4.855936232655819
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.07002171068625,
+      "connector_v_with_maximum_55ma_switch_drop": 4.86502171068625
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.591,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.07547828931375,
+      "connector_v_with_maximum_55ma_switch_drop": 4.87047828931375
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224518298186251,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0195182981862505
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229981701813751,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024981701813751
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.239552040517538,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034552040517538
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.2450154441450385,
+      "connector_v_with_maximum_55ma_switch_drop": 5.040015444145038
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.209542199876898,
+      "connector_v_with_maximum_55ma_switch_drop": 5.004542199876898
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.214987876249397,
+      "connector_v_with_maximum_55ma_switch_drop": 5.009987876249397
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224527161813749,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019527161813749
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.2299728381862485,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024972838186248
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.215291025458979,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0102910254589785
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.220754429086479,
+      "connector_v_with_maximum_55ma_switch_drop": 5.015754429086479
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.230294730343051,
+      "connector_v_with_maximum_55ma_switch_drop": 5.025294730343051
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91056.727125,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.235758133970551,
+      "connector_v_with_maximum_55ma_switch_drop": 5.030758133970551
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.200344867133515,
+      "connector_v_with_maximum_55ma_switch_drop": 4.9953448671335146
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.205790543506014,
+      "connector_v_with_maximum_55ma_switch_drop": 5.000790543506014
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.215299889086479,
+      "connector_v_with_maximum_55ma_switch_drop": 5.010299889086479
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90761.272875,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.220745565458978,
+      "connector_v_with_maximum_55ma_switch_drop": 5.015745565458978
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.233758575059495,
+      "connector_v_with_maximum_55ma_switch_drop": 5.028758575059495
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.239232916431995,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0342329164319946
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.248822414973028,
+      "connector_v_with_maximum_55ma_switch_drop": 5.043822414973028
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.254296756345528,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0492967563455275
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.218752494571345,
+      "connector_v_with_maximum_55ma_switch_drop": 5.013752494571345
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 12007.4805,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.224209073198845,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019209073198845
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.233767456431995,
+      "connector_v_with_maximum_55ma_switch_drop": 5.028767456431995
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 11968.5195,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.239224035059495,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034224035059495
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224512829313749,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019512829313749
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229987170686249,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024987170686249
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.239546571645039,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034546571645039
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 91239.02287499998,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.245020913017538,
+      "connector_v_with_maximum_55ma_switch_drop": 5.040020913017538
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.2095367487493975,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0045367487493975
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 12031.519499999999,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.214993327376898,
+      "connector_v_with_maximum_55ma_switch_drop": 5.009993327376898
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.2245217106862505,
+      "connector_v_with_maximum_55ma_switch_drop": 5.01952171068625
+    },
+    {
+      "temperature_c": -40,
+      "vref_v": 0.609,
+      "r_top_ohm": 90942.97712499999,
+      "r_bottom_ohm": 11992.480499999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229978289313751,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024978289313751
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070022729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865022729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.0754772699999995,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870477269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070022729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865022729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.0754772699999995,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870477269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070022729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865022729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.0754772699999995,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870477269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070022729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865022729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.0754772699999995,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870477269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.061068184545455,
+      "connector_v_with_maximum_55ma_switch_drop": 4.856068184545455
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.066522724545456,
+      "connector_v_with_maximum_55ma_switch_drop": 4.8615227245454555
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.061068184545455,
+      "connector_v_with_maximum_55ma_switch_drop": 4.856068184545455
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.066522724545456,
+      "connector_v_with_maximum_55ma_switch_drop": 4.8615227245454555
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.061068184545455,
+      "connector_v_with_maximum_55ma_switch_drop": 4.856068184545455
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.066522724545456,
+      "connector_v_with_maximum_55ma_switch_drop": 4.8615227245454555
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.061068184545455,
+      "connector_v_with_maximum_55ma_switch_drop": 4.856068184545455
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.066522724545456,
+      "connector_v_with_maximum_55ma_switch_drop": 4.8615227245454555
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.078989742472472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.873989742472472
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.084455202472472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.879455202472472
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.078989742472472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.873989742472472
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.084455202472472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.879455202472472
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.078989742472472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.873989742472472
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.084455202472472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.879455202472472
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.078989742472472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.873989742472472
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.084455202472472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.879455202472472
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070017269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865017269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075482729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870482729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070017269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865017269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075482729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870482729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070017269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865017269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075482729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870482729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070017269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865017269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.591,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075482729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870482729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224522729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0195227299999985
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229977269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024977269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224522729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0195227299999985
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229977269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024977269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224522729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0195227299999985
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229977269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024977269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224522729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0195227299999985
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229977269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024977269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.215295457272728,
+      "connector_v_with_maximum_55ma_switch_drop": 5.010295457272728
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.220749997272729,
+      "connector_v_with_maximum_55ma_switch_drop": 5.015749997272729
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.215295457272728,
+      "connector_v_with_maximum_55ma_switch_drop": 5.010295457272728
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.220749997272729,
+      "connector_v_with_maximum_55ma_switch_drop": 5.015749997272729
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.215295457272728,
+      "connector_v_with_maximum_55ma_switch_drop": 5.010295457272728
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.220749997272729,
+      "connector_v_with_maximum_55ma_switch_drop": 5.015749997272729
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.215295457272728,
+      "connector_v_with_maximum_55ma_switch_drop": 5.010295457272728
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 90909.0,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.220749997272729,
+      "connector_v_with_maximum_55ma_switch_drop": 5.015749997272729
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.233763015745745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.028763015745745
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.239228475745745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034228475745745
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.233763015745745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.028763015745745
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.239228475745745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034228475745745
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.233763015745745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.028763015745745
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.239228475745745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034228475745745
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.233763015745745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.028763015745745
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 11988.0,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.239228475745745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034228475745745
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224517269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019517269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229982729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024982729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224517269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019517269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229982729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024982729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224517269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019517269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229982729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024982729999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224517269999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019517269999999
+    },
+    {
+      "temperature_c": 25,
+      "vref_v": 0.609,
+      "r_top_ohm": 91090.99999999999,
+      "r_bottom_ohm": 12011.999999999998,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229982729999999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024982729999999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070029548175,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865029548175
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075470451825,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870470451825
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.047676680344576,
+      "connector_v_with_maximum_55ma_switch_drop": 4.842676680344576
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.053117583994576,
+      "connector_v_with_maximum_55ma_switch_drop": 4.848117583994576
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.092480824105701,
+      "connector_v_with_maximum_55ma_switch_drop": 4.887480824105701
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.097949000455701,
+      "connector_v_with_maximum_55ma_switch_drop": 4.892949000455701
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070015911824999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865015911824999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075484088174999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870484088174999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.061075002720456,
+      "connector_v_with_maximum_55ma_switch_drop": 4.856075002720456
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.066515906370455,
+      "connector_v_with_maximum_55ma_switch_drop": 4.861515906370455
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.0387667959646185,
+      "connector_v_with_maximum_55ma_switch_drop": 4.8337667959646184
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.044207699614618,
+      "connector_v_with_maximum_55ma_switch_drop": 4.839207699614618
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.0834813937115335,
+      "connector_v_with_maximum_55ma_switch_drop": 4.878481393711533
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.0889495700615335,
+      "connector_v_with_maximum_55ma_switch_drop": 4.883949570061533
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.061061366370455,
+      "connector_v_with_maximum_55ma_switch_drop": 4.856061366370455
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.066529542720455,
+      "connector_v_with_maximum_55ma_switch_drop": 4.861529542720455
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.078996574297472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.873996574297472
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.084448370647472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.879448370647472
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.056598955980901,
+      "connector_v_with_maximum_55ma_switch_drop": 4.851598955980901
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.062050752330901,
+      "connector_v_with_maximum_55ma_switch_drop": 4.857050752330901
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.101492797727533,
+      "connector_v_with_maximum_55ma_switch_drop": 4.896492797727533
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.106971921377533,
+      "connector_v_with_maximum_55ma_switch_drop": 4.901971921377533
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.078982910647472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.873982910647472
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.084462034297472,
+      "connector_v_with_maximum_55ma_switch_drop": 4.879462034297472
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070024101824999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865024101824999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075475898174999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870475898174999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.047671233994576,
+      "connector_v_with_maximum_55ma_switch_drop": 4.842671233994576
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.053123030344576,
+      "connector_v_with_maximum_55ma_switch_drop": 4.848123030344576
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.092475350455701,
+      "connector_v_with_maximum_55ma_switch_drop": 4.887475350455701
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.097954474105701,
+      "connector_v_with_maximum_55ma_switch_drop": 4.892954474105701
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.070010438174999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.865010438174999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.591,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.075489561824999,
+      "connector_v_with_maximum_55ma_switch_drop": 4.870489561824999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224529548175001,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019529548175001
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229970451825,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024970451825
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.2014958823395885,
+      "connector_v_with_maximum_55ma_switch_drop": 4.996495882339588
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.206936785989588,
+      "connector_v_with_maximum_55ma_switch_drop": 5.001936785989588
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.247665034632018,
+      "connector_v_with_maximum_55ma_switch_drop": 5.042665034632018
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.253133210982018,
+      "connector_v_with_maximum_55ma_switch_drop": 5.048133210982018
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224515911824999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019515911824999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229984088174999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024984088174999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.215302275447729,
+      "connector_v_with_maximum_55ma_switch_drop": 5.010302275447729
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.220743179097728,
+      "connector_v_with_maximum_55ma_switch_drop": 5.015743179097728
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.192314630922678,
+      "connector_v_with_maximum_55ma_switch_drop": 4.987314630922678
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90681.72750000001,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.197755534572678,
+      "connector_v_with_maximum_55ma_switch_drop": 4.9927555345726775
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.238391509911124,
+      "connector_v_with_maximum_55ma_switch_drop": 5.033391509911124
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.243859686261124,
+      "connector_v_with_maximum_55ma_switch_drop": 5.038859686261124
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.215288639097729,
+      "connector_v_with_maximum_55ma_switch_drop": 5.010288639097729
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91136.27249999999,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.220756815447729,
+      "connector_v_with_maximum_55ma_switch_drop": 5.015756815447729
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.233769847570745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.028769847570745
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.239221643920745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034221643920745
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.210690068290218,
+      "connector_v_with_maximum_55ma_switch_drop": 5.005690068290218
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.2161418646402185,
+      "connector_v_with_maximum_55ma_switch_drop": 5.011141864640218
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.256951651317967,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0519516513179665
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 11958.03,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.262430774967966,
+      "connector_v_with_maximum_55ma_switch_drop": 5.057430774967966
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.233756183920745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.028756183920745
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 12017.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.239235307570745,
+      "connector_v_with_maximum_55ma_switch_drop": 5.034235307570745
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224524101824999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019524101824999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229975898174999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024975898174999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.201490435989588,
+      "connector_v_with_maximum_55ma_switch_drop": 4.996490435989588
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 90863.27249999999,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.206942232339588,
+      "connector_v_with_maximum_55ma_switch_drop": 5.001942232339588
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.247659560982018,
+      "connector_v_with_maximum_55ma_switch_drop": 5.042659560982018
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 11981.97,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.253138684632018,
+      "connector_v_with_maximum_55ma_switch_drop": 5.0481386846320175
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": -3e-08,
+      "regulated_rail_v": 5.224510438174999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.019510438174999
+    },
+    {
+      "temperature_c": 125,
+      "vref_v": 0.609,
+      "r_top_ohm": 91318.72749999998,
+      "r_bottom_ohm": 12042.029999999997,
+      "signed_fb_leak_a": 3e-08,
+      "regulated_rail_v": 5.229989561824999,
+      "connector_v_with_maximum_55ma_switch_drop": 5.024989561824999
+    }
+  ]
+}

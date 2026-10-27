@@ -1,0 +1,496 @@
+{
+  "courtyards": {
+    "AM3352": {
+      "bounds": [
+        -8.5,
+        -8.5,
+        8.5,
+        8.5
+      ],
+      "source": "Package_BGA.pretty/BGA-324_15.0x15.0mm_Layout18x18_P0.8mm_Ball0.5mm_Pad0.4mm_NSMD.kicad_mod",
+      "sha256": "4f9b0216e8ad850fbafca09bb4ab5e0c80180a8f98e3abaa2bd8da30d67d4244",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "DDR3L": {
+      "bounds": [
+        -4.75,
+        -7.75,
+        4.75,
+        7.75
+      ],
+      "source": "Package_BGA.pretty/FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm.kicad_mod",
+      "sha256": "2ebc8cd3ea760973d8eec7c4c6d731dd706fc64d0d5bdc2e0fa1bd1a2aecf3c6",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "PMIC": {
+      "bounds": [
+        -3.6,
+        -3.6,
+        3.6,
+        3.6
+      ],
+      "source": "Package_DFN_QFN.pretty/VQFN-48-1EP_6x6mm_P0.4mm_EP4.1x4.1mm.kicad_mod",
+      "sha256": "5b421cde07f6da02af7171d420d1c2e63ae03e7a12c5a66a6b8e85b5732f86c1",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "CP2102N": {
+      "bounds": [
+        -2.63,
+        -2.63,
+        2.63,
+        2.63
+      ],
+      "source": "Package_DFN_QFN.pretty/WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.kicad_mod",
+      "sha256": "d133f549842bbaf550d9c0301189531b5b22fa970b47233eff77624defc3e667",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "USBC": {
+      "bounds": [
+        -5.32,
+        -4.18,
+        5.32,
+        4.76
+      ],
+      "source": "Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+      "sha256": "3b8d7da3cae5114ec83022a759a78925113bc2eeec100ea447594f6d8687e4b8",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "MICROSD": {
+      "bounds": [
+        -7.82,
+        -8.88,
+        7.88,
+        8.82
+      ],
+      "source": "Connector_Card.pretty/microSD_HC_Hirose_DM3AT-SF-PEJM5.kicad_mod",
+      "sha256": "cc0efdbdb9b21e7cc31a577ea45e753c8985b1c67cf1f58d39e352018f0cb938",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "HEADER": {
+      "bounds": [
+        -1.77,
+        -24.63,
+        4.32,
+        1.77
+      ],
+      "source": "Connector_PinHeader_2.54mm.pretty/PinHeader_2x10_P2.54mm_Vertical.kicad_mod",
+      "sha256": "166e4137daa5d34bf93b79d37cfb1392e5af3414aaa4270726ab905d6129efbd",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "DEBUG": {
+      "bounds": [
+        -1.77,
+        -11.93,
+        4.32,
+        1.77
+      ],
+      "source": "Connector_PinHeader_2.54mm.pretty/PinHeader_2x05_P2.54mm_Vertical.kicad_mod",
+      "sha256": "e92fcd01a2df9c567dbd6e2c8c05c4e021cb1b96ca035b85d568d1710f9d48b1",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "MICROB": {
+      "bounds": [
+        -4.52,
+        -4.48,
+        4.52,
+        2.58
+      ],
+      "source": "Connector_USB.pretty/USB_Micro-B_Amphenol_10118194-0001LF_Horizontal.kicad_mod",
+      "sha256": "24f224e00f0c24e602df2468ab543919b2f693837698835cfc3c7ab3d49ab6ce",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "ESD": {
+      "bounds": [
+        -0.8,
+        -0.7,
+        0.8,
+        0.7
+      ],
+      "source": "Package_TO_SOT_SMD.pretty/Texas_DRT-3.kicad_mod",
+      "sha256": "15cde3ee13da0e0426038a0a17ee16c50edc6d100b64582166b4263d4e7cae17",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "TUSB320": {
+      "bounds": [
+        -1.4,
+        -1.4,
+        1.4,
+        1.4
+      ],
+      "source": "Package_DFN_QFN.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod",
+      "sha256": "ea89ce5e84cfea79eeccc18b0b7b704402a1584d2bb3227d1a9471c96a109771",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "EFUSE": {
+      "bounds": [
+        -1.5,
+        -1.25,
+        1.5,
+        1.25
+      ],
+      "source": "Package_SON.pretty/Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.kicad_mod",
+      "sha256": "8beb57ce756ebcab32109aa9aa075151b42ebfd5f490614407832d761d1a314d",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "SOT23_6": {
+      "bounds": [
+        -2.05,
+        -1.7,
+        2.05,
+        1.7
+      ],
+      "source": "Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "sha256": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "SOT23_5": {
+      "bounds": [
+        -2.05,
+        -1.7,
+        2.05,
+        1.7
+      ],
+      "source": "Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+      "sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "XAL4020": {
+      "bounds": [
+        -2.4,
+        -2.4,
+        2.4,
+        2.4
+      ],
+      "source": "Inductor_SMD.pretty/L_Coilcraft_XAL4020-XXX.kicad_mod",
+      "sha256": "fbda84e81c450a5b38c16250686d5afad09ba014a34b2f73b4725397b242c490",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "CAP1210": {
+      "bounds": [
+        -2.3,
+        -1.6,
+        2.3,
+        1.6
+      ],
+      "source": "Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod",
+      "sha256": "e1dae516e079b70c4736d001fb81bfb4ef5f9c2a37c8175223a44f83a04ff75f",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "OSC2520": {
+      "bounds": [
+        -1.75,
+        -1.5,
+        1.75,
+        1.5
+      ],
+      "source": "Oscillator.pretty/Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm.kicad_mod",
+      "sha256": "f60f292d617a52fec9812791a3e442c296eb699645659db3559c22284d4c02bc",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "TACT_TL3305A": {
+      "bounds": [
+        -4.65,
+        -2.5,
+        4.65,
+        2.5
+      ],
+      "source": "Button_Switch_SMD.pretty/SW_SPST_TL3305A.kicad_mod",
+      "sha256": "55e7939eef6d5d849fc03bfe68b2c3dbdbcab5f8584fc1dc94bacb180c959461",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "MAIN3V3_BUCK": {
+      "bounds": [
+        -2.13,
+        -2.13,
+        2.13,
+        2.13
+      ],
+      "source": "Package_DFN_QFN.pretty/VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.kicad_mod",
+      "sha256": "f68d777c2406c4c6178fdba99f3938a0ec0b5a827706f5c64a08157ce5117714",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "SEQ_COMPARATOR": {
+      "bounds": [
+        -2.05,
+        -1.7,
+        2.05,
+        1.7
+      ],
+      "source": "Package_TO_SOT_SMD.pretty/TSOT-23-6.kicad_mod",
+      "sha256": "2b3e097508a6979b828ca1125470c9edb557dced151630c94ad579b9b0e83442",
+      "method": "Bounding rectangle enclosing upstream KiCad front courtyard; Y reflected to PCB coordinates.",
+      "status": "library courtyard, exact-part review still applies"
+    },
+    "PHY": {
+      "bounds": [
+        -2.94,
+        -2.94,
+        2.94,
+        2.94
+      ],
+      "source": "https://ww1.microchip.com/downloads/aemDocuments/documents/UNG/ProductDocuments/DataSheets/LAN8710A-LAN8710Ai-Data-Sheet-DS00002164.pdf#page=71",
+      "method": "Engineering rectangle around pad extents and conservative manufacturer-body reservation, plus 0.25 mm assembly allowance.",
+      "status": "engineering courtyard; assembler review pending"
+    },
+    "OSC5032": {
+      "bounds": [
+        -2.85,
+        -2.15,
+        2.85,
+        2.15
+      ],
+      "source": "https://www.sitime.com/datasheet/sit1602#page=11",
+      "method": "Engineering rectangle around pad extents and conservative manufacturer-body reservation, plus 0.25 mm assembly allowance.",
+      "status": "engineering courtyard; assembler review pending"
+    },
+    "RESET_DCK5": {
+      "bounds": [
+        -1.85,
+        -1.45,
+        1.85,
+        1.45
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf#page=20",
+      "method": "Engineering rectangle around pad extents and conservative manufacturer-body reservation, plus 0.25 mm assembly allowance.",
+      "status": "engineering courtyard; assembler review pending"
+    },
+    "FERRITE0805": {
+      "bounds": [
+        -1.865,
+        -1.0,
+        1.865,
+        1.0
+      ],
+      "source": "https://www.laird.com/sites/default/files/li0805h151r-10-datasheet.pdf",
+      "method": "Engineering rectangle around pad extents and conservative manufacturer-body reservation, plus 0.25 mm assembly allowance.",
+      "status": "engineering courtyard; assembler review pending"
+    },
+    "MAGJACK": {
+      "bounds": [
+        -9.625,
+        -11.6,
+        9.625,
+        11.3
+      ],
+      "source": "https://atta.szlcsc.com/upload/public/pdf/source/20250709/F277967257303E5EB90DC0FECA146BBB.pdf#page=2",
+      "method": "Engineering rectangle around pad extents and conservative manufacturer-body reservation, plus 0.5 mm assembly allowance.",
+      "status": "engineering courtyard; assembler review pending"
+    },
+    "TPS3851_DRB8": {
+      "bounds": [
+        -1.95,
+        -1.95,
+        1.95,
+        1.95
+      ],
+      "source": "TI TPS3851 SBVS300B physical PDF page34; DRB0008A drawing4218875/A01/2018 example board layout",
+      "method": "Engineering rectangle around pad extents and conservative manufacturer-body reservation, plus 0.25 mm assembly allowance.",
+      "status": "engineering courtyard; assembler review pending"
+    },
+    "CAP1210_KEMET_B": {
+      "bounds": [
+        -2.35,
+        -1.6,
+        2.35,
+        1.6
+      ],
+      "source": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf",
+      "revision": "2026-09-01",
+      "datasheetPage": 12,
+      "method": "KEMET Table3 DensityB V1=4.70mm,V2=3.20mm",
+      "status": "Manufacturer nominal-density courtyard; no footprint reduction"
+    },
+    "CAP0402_KEMET_B": {
+      "bounds": [
+        -0.95,
+        -0.5,
+        0.95,
+        0.5
+      ],
+      "source": "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf",
+      "page": 9,
+      "density": "B"
+    },
+    "PHY_RMQ": {
+      "bounds": [
+        -2.13,
+        -1.75,
+        2.13,
+        1.75
+      ]
+    },
+    "RJ45_7499010121A": {
+      "bounds": [
+        -6.19,
+        -13.72,
+        20.19,
+        4.83
+      ]
+    },
+    "TSSOP20": {
+      "bounds": [
+        -3.9,
+        -3.5,
+        3.9,
+        3.5
+      ]
+    },
+    "ESD204_DQA": {
+      "bounds": [
+        -0.91,
+        -1.5,
+        0.91,
+        1.5
+      ]
+    },
+    "SC70_5": {
+      "bounds": [
+        -1.6,
+        -1.4,
+        1.6,
+        1.4
+      ]
+    },
+    "LPS4018": {
+      "bounds": [
+        -2.45,
+        -2.2,
+        2.45,
+        2.2
+      ]
+    },
+    "SOD323": {
+      "bounds": [
+        -1.6,
+        -0.95,
+        1.6,
+        0.95
+      ]
+    },
+    "C1206": {
+      "bounds": [
+        -2.3,
+        -1.15,
+        2.3,
+        1.15
+      ]
+    },
+    "C0603": {
+      "bounds": [
+        -1.48,
+        -0.73,
+        1.48,
+        0.73
+      ]
+    },
+    "C0805": {
+      "bounds": [
+        -1.7,
+        -0.98,
+        1.7,
+        0.98
+      ]
+    },
+    "R1206": {
+      "bounds": [
+        -2.28,
+        -1.13,
+        2.28,
+        1.13
+      ]
+    },
+    "MOLEX_541044031": {
+      "bounds": [
+        -13.3,
+        -5.2,
+        13.3,
+        1.0
+      ]
+    }
+  },
+  "insertionDirections": {
+    "USBC": "from_bottom",
+    "MICROB": "from_bottom",
+    "MICROSD": "from_bottom",
+    "MAGJACK": "from_bottom",
+    "HEADER": "from_above",
+    "DEBUG": "from_above"
+  },
+  "directionBasis": "Local connector mating openings face negative Y in these imported top-view footprints; vertical headers mate from above. Rotations are applied by the component.",
+  "unresolvedCourtyards": [],
+  "releaseGates": [
+    "Assembler approval of engineering courtyard margins",
+    "Exact-part recheck of generic KiCad land patterns",
+    "Connector body/edge overhang and cable/card envelope review"
+  ],
+  "bodies": {
+    "CAP1210_KEMET_B": {
+      "nominalMm": [
+        3.2,
+        2.5
+      ],
+      "maximumMm": [
+        3.6,
+        2.8
+      ],
+      "source": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf",
+      "datasheetPage": 3,
+      "note": "10uF25V exception adds0.20mm length and0.10mm width to base tolerances."
+    },
+    "PMIC": {
+      "maximumMm": [
+        6.1,
+        6.1
+      ],
+      "nominalMm": [
+        6,
+        6
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tps65216.pdf",
+      "localSourceSha256": "a101baf5dfa47bf9396d62a519f1bc5359daca6bb5035f392c335ffaad51088a",
+      "drawing": "RSL0048G 4231403/A 12/2024",
+      "method": "Maximum6.1x6.1 dimensions from package outline; tented ordinary vias outside actual body and solder lands may be inside assembly courtyard"
+    },
+    "CAP0402_KEMET_B": {
+      "maximumMm": [
+        1.05,
+        0.55
+      ],
+      "source": "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf",
+      "page": 2
+    },
+    "OSC2520": {
+      "maximumMm": [
+        2.6,
+        2.1
+      ],
+      "source": "https://www.sitime.com/datasheet/SiT1602",
+      "datasheet": "SiT1602B Rev1.08 page10 drawingPOD-PQFN-004-X02025-010 A02",
+      "nominalMm": [
+        2.5,
+        2.0
+      ],
+      "bodyEnvelopeMethod": "Conservative BSC body expanded0.10mm in each overall dimension, covering0.050mm package profile tolerance; existing1.1x1.0 lands,1.9x1.5 pitches and courtyard retained",
+      "documentSha256": "09e5fc53343f180726cd24e8451479fa3ef84ed9696effbed80f1d36be595d61"
+    }
+  }
+}

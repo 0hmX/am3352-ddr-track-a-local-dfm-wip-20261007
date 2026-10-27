@@ -1,0 +1,11 @@
+--- a/drivers/gpu/drm/bridge/ite-it66121.c
++++ b/drivers/gpu/drm/bridge/ite-it66121.c
+@@ -357,6 +357,8 @@
+ 	gpiod_set_value(ctx->gpio_reset, 1);
+ 	msleep(20);
+ 	gpiod_set_value(ctx->gpio_reset, 0);
++	/* Allow the board reset pullup and 1uF capacitor to settle. */
++	msleep(30);
+ }
+ 
+ static inline int it66121_preamble_ddc(struct it66121_ctx *ctx)

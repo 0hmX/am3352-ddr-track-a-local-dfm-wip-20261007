@@ -1,0 +1,21 @@
+{
+  "name": "@tsci/0hmX.am3352-ddr-track-a-local-dfm-wip-20261007",
+  "version": "0.0.4",
+  "type": "module",
+  "description": "Native TSX AM3352 DDR3/RGB888 HDMI design with guarded saved-layout replay. HDMI routing and DDR/HDMI SI validation remain in progress.",
+  "dependencies": {
+    "tscircuit": "0.0.3025"
+  },
+  "scripts": {
+    "dev": "sh scripts/dev.sh",
+    "build": "sh scripts/build.sh",
+    "replay:layout": "sh scripts/replay-layout.sh"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0hmX/am3352-ddr-track-a-local-dfm-wip-20261007.git"
+  }
+}

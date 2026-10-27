@@ -1,0 +1,44 @@
+{
+  "linux_commit": "d135ab453a7400a34930bdda1ef4bdc8acfac80e",
+  "linux_files": [
+    {
+      "file": "work/hdmi-firmware/upstream/tilcdc_drv-pinned.c",
+      "git_blob_sha": "1d6c9a423a410459eb16fbb53ea18b115fba69ce",
+      "sha256": "45f8cc2a0fbe68f67bce93068e680841de9d15c14a5b297b37b2792ebbe51d9b"
+    },
+    {
+      "file": "work/hdmi-firmware/upstream/ite,it66121-pinned.yaml",
+      "git_blob_sha": "17d1f97ce8c2892b5964d564969eb1a535f7d5b8",
+      "sha256": "078b36cda064bfada8dc49d337f92e6bbdda1a4a3492e5fcd0639e48d9f48a18"
+    },
+    {
+      "file": "work/hdmi-firmware/upstream/tilcdc-Kconfig-pinned",
+      "git_blob_sha": "89df7528756c8b35c0101dfb01c2213a1613cbd4",
+      "sha256": "3f5889ff5cb2505c03e8149e27e05ce77c7737c204b013b71a7d0d10fa84a3ff"
+    },
+    {
+      "file": "work/hdmi-firmware/upstream/ite-it66121-pinned.c",
+      "git_blob_sha": "c8d0a26e8e90c5aaa2b721c86586dbba0c5b8159",
+      "sha256": "f5380c58cd7a812e246fd475985f135c68018418097ef2e36075e031857ff7c1"
+    }
+  ],
+  "dt_source_repository": "https://github.com/beagleboard/BeagleBoard-DeviceTrees",
+  "dt_source_commit": "febd604a1081856d85d1787bea74087194e1c35e",
+  "dtc_repository": "https://git.kernel.org/pub/scm/utils/dtc/dtc.git",
+  "dtc_commit": "9a712e0c7fb7eec14cc83a06d7a2ff7910f49b97",
+  "ti_color_mapping_pdf": "https://www.ti.com/lit/er/sprz360i/sprz360i.pdf",
+  "ti_color_mapping_figure": "Section3.1.1 Figure2, visuallyverifiedpage8",
+  "ti_color_pdf_sha256": "efd8675411c098e39493132133ea94361b8dd6d9617e5c8904fbc966dba6117d",
+  "selected_hdmi_interrupt": {
+    "cpu_ball": "V17",
+    "pad": "GPMC_A11",
+    "mux_mode": 7,
+    "gpio_controller": 1,
+    "gpio_line": 27,
+    "padconf_register_offset": "0x86c",
+    "pinctrl_relative_offset": "0x6c",
+    "voltage_domain": "VDDSHV3",
+    "released_cpu_ball": "V14",
+    "selection_receipt": "outputs/am3352-ddr/hdmi/firmware/irq-v17-selection-receipt.json"
+  }
+}

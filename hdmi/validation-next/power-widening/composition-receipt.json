@@ -1,0 +1,59 @@
+{
+  "status": "ROOT_SELECTED_FOUR_TRACE_WIDTH_ONLY_PHYSICAL_MILESTONE_ROUTING_INCOMPLETE",
+  "baseline": "outputs/am3352-ddr/hdmi/validation-next/power-utility/candidate.circuit.json",
+  "baseline_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+  "candidate": "outputs/am3352-ddr/hdmi/validation-next/power-widening/candidate.circuit.json",
+  "candidate_sha256": "d5e8f9ace911e5989cb3b5224afe20091092f4b42c3344a8d1749f056230c98b",
+  "record_hash_encoding": "Sorted compact JSON plus newline",
+  "replacements": [
+    {
+      "id": "interface_plan_SYS5V_EXT_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0_clip0",
+      "type": "pcb_copper_pour",
+      "baseline_index": 9496,
+      "candidate_index": 9496,
+      "before_sha256": "e31a07bd98c64b2e59790b6ed3a081287761a2bcca108e672102061ebe02432c",
+      "after_sha256": "791fe339d33bf3cb85a87507105fcd3f87b9ff61b656350bec1ada6a4bb7b97c"
+    },
+    {
+      "id": "hdmi_power_trace_final_088_distribution_HDMI_5V_SUPPLY",
+      "type": "pcb_trace",
+      "baseline_index": 12188,
+      "candidate_index": 12188,
+      "before_sha256": "6d6f08efec88772a69d1f0798fd2012babe430a06138fd72bdc148067707f1f0",
+      "after_sha256": "f8f159b509d6774e02fe042cf561c0d52b0a5eb13cd1b3b6c86d275beb448e04"
+    },
+    {
+      "id": "hdmi_power_trace_final_090_distribution_HDMI_5V",
+      "type": "pcb_trace",
+      "baseline_index": 12191,
+      "candidate_index": 12191,
+      "before_sha256": "fecab783bcd907ba88bda86e45de791ac131641b700801e751f094bfb9ccd204",
+      "after_sha256": "2f069aa8b47295ec48dafc692ad8e894877963ef6bea0f96c69a55a6774a7d09"
+    },
+    {
+      "id": "hdmi_power_trace_1009_TPD_SUPPLY_inner4",
+      "type": "pcb_trace",
+      "baseline_index": 12289,
+      "candidate_index": 12289,
+      "before_sha256": "628017cd6dde5d3e1fe45205f91ed342117737b6e9a147ffee23ae037206980f",
+      "after_sha256": "e512359f09d62e5174cc053fb90157b981db1266a0823500fb41452e89f6efe0"
+    },
+    {
+      "id": "hdmi_power_trace_1034_TPD5V_output_joint_proposal",
+      "type": "pcb_trace",
+      "baseline_index": 12314,
+      "candidate_index": 12314,
+      "before_sha256": "78ae7bb6c49fbea2c7b21717a6d7572a68868113a5518c62b565e5c774daa198",
+      "after_sha256": "084bb74167da0a93099e36f98f6c7eea1dc065cc3d8d79912df7e5ca5eec402f"
+    }
+  ],
+  "additions": [],
+  "deletions": [],
+  "exact_reconstruction": "Replace five guarded records:four authorized wider power traces and one subtractively carved original pour. No other record changes.",
+  "patch": "outputs/am3352-ddr/hdmi/power/widening-proposal/patch.json",
+  "patch_sha256": "bb523bba7152fa36d5a7c709148dc7d03fcf7793b5f3f782768536056beb2794",
+  "source_placement_and_pads_vias_unmodified": true,
+  "all_original_trace_vertices_via_records_true_endpoints_held": true,
+  "selected_envelope_preserved_no_refill_or_added_plane_copper": true,
+  "native_source_reuse": "Verifiedv4native d233c4c5c9f7e0a545c8ea09e6e2a6095e38ce3a90074c541333b8a7edfa12c3 can be reused only after current26sourcehash guards match; no new347render solely for this physical-only milestone."
+}

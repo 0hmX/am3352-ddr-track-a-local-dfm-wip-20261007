@@ -1,0 +1,119 @@
+{
+  "status": "FOUR_NATIVE_OUTGOING_WIDTH_ONLY_REPLACEMENTS_GUARDED",
+  "baseline_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+  "candidate_sha256": "37c63d24e731424332b3737c74222b40307f6acdb2541597182583ad1acf2889",
+  "records": [
+    {
+      "id": "hdmi_power_trace_final_088_distribution_HDMI_5V_SUPPLY",
+      "nets": [
+        "HDMI_5V_SUPPLY"
+      ],
+      "all_original_vertices_retained_in_order": true,
+      "original_via_route_records_exact": true,
+      "original_true_endpoint_metadata_exact": true,
+      "nonroute_metadata_exact": true,
+      "layers": [
+        {
+          "layer": "top",
+          "centerline_Hausdorff_mm": 1.7763568394002505e-15,
+          "old_planar_mm": 3.0425052568471322,
+          "new_planar_mm": 3.042505256847132,
+          "lost_original_trace_copper_mm2": 0.0,
+          "added_trace_copper_mm2": 0.989211639097239,
+          "old_squares": 12.170021027388529,
+          "new_squares": 8.506125338037098
+        },
+        {
+          "layer": "inner4",
+          "centerline_Hausdorff_mm": 0.0,
+          "old_planar_mm": 17.695961061281917,
+          "new_planar_mm": 17.69596106128192,
+          "lost_original_trace_copper_mm2": 0.0,
+          "added_trace_copper_mm2": 6.675516306291183,
+          "old_squares": 70.78384424512767,
+          "new_squares": 36.47882044905574
+        }
+      ]
+    },
+    {
+      "id": "hdmi_power_trace_final_090_distribution_HDMI_5V",
+      "nets": [
+        "HDMI_5V"
+      ],
+      "all_original_vertices_retained_in_order": true,
+      "original_via_route_records_exact": true,
+      "original_true_endpoint_metadata_exact": true,
+      "nonroute_metadata_exact": true,
+      "layers": [
+        {
+          "layer": "top",
+          "centerline_Hausdorff_mm": 0.0,
+          "old_planar_mm": 9.814277895287766,
+          "new_planar_mm": 9.814277895287765,
+          "lost_original_trace_copper_mm2": 0.0,
+          "added_trace_copper_mm2": 2.1056067219379546,
+          "old_squares": 39.257111581151065,
+          "new_squares": 26.924120485441037
+        }
+      ]
+    },
+    {
+      "id": "hdmi_power_trace_1009_TPD_SUPPLY_inner4",
+      "nets": [
+        "HDMI_5V_SUPPLY"
+      ],
+      "all_original_vertices_retained_in_order": true,
+      "original_via_route_records_exact": true,
+      "original_true_endpoint_metadata_exact": true,
+      "nonroute_metadata_exact": true,
+      "layers": [
+        {
+          "layer": "inner4",
+          "centerline_Hausdorff_mm": 0.0,
+          "old_planar_mm": 7.54772969169743,
+          "new_planar_mm": 7.547729691697431,
+          "lost_original_trace_copper_mm2": 0.0,
+          "added_trace_copper_mm2": 2.501869018040884,
+          "old_squares": 30.19091876678972,
+          "new_squares": 16.764739657263604
+        }
+      ]
+    },
+    {
+      "id": "hdmi_power_trace_1034_TPD5V_output_joint_proposal",
+      "nets": [
+        "HDMI_5V"
+      ],
+      "all_original_vertices_retained_in_order": true,
+      "original_via_route_records_exact": true,
+      "original_true_endpoint_metadata_exact": true,
+      "nonroute_metadata_exact": true,
+      "layers": [
+        {
+          "layer": "top",
+          "centerline_Hausdorff_mm": 0.0,
+          "old_planar_mm": 4.024583111853686,
+          "new_planar_mm": 4.024583111853686,
+          "lost_original_trace_copper_mm2": 0.0,
+          "added_trace_copper_mm2": 0.32166006790220253,
+          "old_squares": 16.098332447414744,
+          "new_squares": 14.199799834391099
+        },
+        {
+          "layer": "bottom",
+          "centerline_Hausdorff_mm": 0.0,
+          "old_planar_mm": 4.5956767340755755,
+          "new_planar_mm": 4.5956767340755755,
+          "lost_original_trace_copper_mm2": 0.0,
+          "added_trace_copper_mm2": 0.528870063007211,
+          "old_squares": 18.382706936302302,
+          "new_squares": 14.023002462939411
+        }
+      ]
+    }
+  ],
+  "added_vias": 0,
+  "deleted_records": 0,
+  "source_placement_pad_port_and_existing_pour_changes": 0,
+  "model_scope": "Geometric route squares only; source owner IR sensitivity report conditional assumptions are not a regulator-transient, package or return-ground model."
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+.tscircuit/
+.env
+.env.*
+validation-source/native-source.circuit.json
+validation-source/native-render-manifest.json
+validation-source/*.svg

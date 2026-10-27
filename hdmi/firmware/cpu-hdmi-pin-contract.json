@@ -1,0 +1,497 @@
+{
+  "status": "VERIFIED_MAP_SELECTED_V17_IRQ_REQUIRES_BOARD_COMPLETION_AND_BOOT_TEST",
+  "display_bus": "RGB888 single-edge24bit",
+  "default_drm_framebuffer": "XRGB8888 (XR24)",
+  "also_supported": [
+    "RGB888 (RG24)",
+    "BGR565 (BG16; check modetest FourCC listing)"
+  ],
+  "blue-and-red-wiring": "crossed",
+  "i2c_address_7bit": "0x4c",
+  "pixel_clock_limit_khz": 126000,
+  "default_mode": "1280x720@60",
+  "audio": "not wired; no ALSA endpoint or oscillator",
+  "rgb_mapping": [
+    {
+      "cpu_lcd_bit": 0,
+      "cpu_ball": "R1",
+      "pad": "LCD_DATA0",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT0",
+      "new_signal_net": "SYSBOOT0",
+      "pixel_channel": "R3",
+      "it66122_signal": "D19",
+      "it66122_pin": 40
+    },
+    {
+      "cpu_lcd_bit": 1,
+      "cpu_ball": "R2",
+      "pad": "LCD_DATA1",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT1",
+      "new_signal_net": "SYSBOOT1",
+      "pixel_channel": "R4",
+      "it66122_signal": "D20",
+      "it66122_pin": 39
+    },
+    {
+      "cpu_lcd_bit": 2,
+      "cpu_ball": "R3",
+      "pad": "LCD_DATA2",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT2",
+      "new_signal_net": "SYSBOOT2",
+      "pixel_channel": "R5",
+      "it66122_signal": "D21",
+      "it66122_pin": 38
+    },
+    {
+      "cpu_lcd_bit": 3,
+      "cpu_ball": "R4",
+      "pad": "LCD_DATA3",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT3",
+      "new_signal_net": "SYSBOOT3",
+      "pixel_channel": "R6",
+      "it66122_signal": "D22",
+      "it66122_pin": 37
+    },
+    {
+      "cpu_lcd_bit": 4,
+      "cpu_ball": "T1",
+      "pad": "LCD_DATA4",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT4",
+      "new_signal_net": "SYSBOOT4",
+      "pixel_channel": "R7",
+      "it66122_signal": "D23",
+      "it66122_pin": 36
+    },
+    {
+      "cpu_lcd_bit": 5,
+      "cpu_ball": "T2",
+      "pad": "LCD_DATA5",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT5",
+      "new_signal_net": "SYSBOOT5",
+      "pixel_channel": "G2",
+      "it66122_signal": "D10",
+      "it66122_pin": 49
+    },
+    {
+      "cpu_lcd_bit": 6,
+      "cpu_ball": "T3",
+      "pad": "LCD_DATA6",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT6",
+      "new_signal_net": "SYSBOOT6",
+      "pixel_channel": "G3",
+      "it66122_signal": "D11",
+      "it66122_pin": 48
+    },
+    {
+      "cpu_lcd_bit": 7,
+      "cpu_ball": "T4",
+      "pad": "LCD_DATA7",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT7",
+      "new_signal_net": "SYSBOOT7",
+      "pixel_channel": "G4",
+      "it66122_signal": "D12",
+      "it66122_pin": 47
+    },
+    {
+      "cpu_lcd_bit": 8,
+      "cpu_ball": "U1",
+      "pad": "LCD_DATA8",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT8",
+      "new_signal_net": "SYSBOOT8",
+      "pixel_channel": "G5",
+      "it66122_signal": "D13",
+      "it66122_pin": 46
+    },
+    {
+      "cpu_lcd_bit": 9,
+      "cpu_ball": "U2",
+      "pad": "LCD_DATA9",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT9",
+      "new_signal_net": "SYSBOOT9",
+      "pixel_channel": "G6",
+      "it66122_signal": "D14",
+      "it66122_pin": 45
+    },
+    {
+      "cpu_lcd_bit": 10,
+      "cpu_ball": "U3",
+      "pad": "LCD_DATA10",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT10",
+      "new_signal_net": "SYSBOOT10",
+      "pixel_channel": "G7",
+      "it66122_signal": "D15",
+      "it66122_pin": 44
+    },
+    {
+      "cpu_lcd_bit": 11,
+      "cpu_ball": "U4",
+      "pad": "LCD_DATA11",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT11",
+      "new_signal_net": "SYSBOOT11",
+      "pixel_channel": "B3",
+      "it66122_signal": "D3",
+      "it66122_pin": 58
+    },
+    {
+      "cpu_lcd_bit": 12,
+      "cpu_ball": "V2",
+      "pad": "LCD_DATA12",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT12",
+      "new_signal_net": "SYSBOOT12",
+      "pixel_channel": "B4",
+      "it66122_signal": "D4",
+      "it66122_pin": 57
+    },
+    {
+      "cpu_lcd_bit": 13,
+      "cpu_ball": "V3",
+      "pad": "LCD_DATA13",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT13",
+      "new_signal_net": "SYSBOOT13",
+      "pixel_channel": "B5",
+      "it66122_signal": "D5",
+      "it66122_pin": 55
+    },
+    {
+      "cpu_lcd_bit": 14,
+      "cpu_ball": "V4",
+      "pad": "LCD_DATA14",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT14",
+      "new_signal_net": "SYSBOOT14",
+      "pixel_channel": "B6",
+      "it66122_signal": "D6",
+      "it66122_pin": 54
+    },
+    {
+      "cpu_lcd_bit": 15,
+      "cpu_ball": "T5",
+      "pad": "LCD_DATA15",
+      "mux_mode": 0,
+      "old_net": "SYSBOOT15",
+      "new_signal_net": "SYSBOOT15",
+      "pixel_channel": "B7",
+      "it66122_signal": "D7",
+      "it66122_pin": 53
+    },
+    {
+      "cpu_lcd_bit": 16,
+      "cpu_ball": "U13",
+      "pad": "GPMC_AD15",
+      "mux_mode": 1,
+      "old_net": null,
+      "new_signal_net": "HDMI_RGB_D16",
+      "pixel_channel": "R2",
+      "it66122_signal": "D18",
+      "it66122_pin": 41
+    },
+    {
+      "cpu_lcd_bit": 17,
+      "cpu_ball": "V13",
+      "pad": "GPMC_AD14",
+      "mux_mode": 1,
+      "old_net": "LCD_OUTPUT_ENABLE",
+      "new_signal_net": "HDMI_RGB_D17",
+      "pixel_channel": "B2",
+      "it66122_signal": "D2",
+      "it66122_pin": 59
+    },
+    {
+      "cpu_lcd_bit": 18,
+      "cpu_ball": "R12",
+      "pad": "GPMC_AD13",
+      "mux_mode": 1,
+      "old_net": null,
+      "new_signal_net": "HDMI_RGB_D18",
+      "pixel_channel": "R1",
+      "it66122_signal": "D17",
+      "it66122_pin": 42
+    },
+    {
+      "cpu_lcd_bit": 19,
+      "cpu_ball": "T12",
+      "pad": "GPMC_AD12",
+      "mux_mode": 1,
+      "old_net": null,
+      "new_signal_net": "HDMI_RGB_D19",
+      "pixel_channel": "G1",
+      "it66122_signal": "D9",
+      "it66122_pin": 50
+    },
+    {
+      "cpu_lcd_bit": 20,
+      "cpu_ball": "U12",
+      "pad": "GPMC_AD11",
+      "mux_mode": 1,
+      "old_net": null,
+      "new_signal_net": "HDMI_RGB_D20",
+      "pixel_channel": "B1",
+      "it66122_signal": "D1",
+      "it66122_pin": 60
+    },
+    {
+      "cpu_lcd_bit": 21,
+      "cpu_ball": "T11",
+      "pad": "GPMC_AD10",
+      "mux_mode": 1,
+      "old_net": null,
+      "new_signal_net": "HDMI_RGB_D21",
+      "pixel_channel": "R0",
+      "it66122_signal": "D16",
+      "it66122_pin": 43
+    },
+    {
+      "cpu_lcd_bit": 22,
+      "cpu_ball": "T10",
+      "pad": "GPMC_AD9",
+      "mux_mode": 1,
+      "old_net": null,
+      "new_signal_net": "HDMI_RGB_D22",
+      "pixel_channel": "G0",
+      "it66122_signal": "D8",
+      "it66122_pin": 52
+    },
+    {
+      "cpu_lcd_bit": 23,
+      "cpu_ball": "U10",
+      "pad": "GPMC_AD8",
+      "mux_mode": 1,
+      "old_net": "MMC0_CD_N",
+      "new_signal_net": "HDMI_RGB_D23",
+      "pixel_channel": "B0",
+      "it66122_signal": "D0",
+      "it66122_pin": 61
+    }
+  ],
+  "control": [
+    {
+      "signal": "HDMI_HSYNC",
+      "cpu_ball": "R5",
+      "pad": "LCD_HSYNC",
+      "mux_mode": 0,
+      "it66122_pin": 63
+    },
+    {
+      "signal": "HDMI_VSYNC",
+      "cpu_ball": "U5",
+      "pad": "LCD_VSYNC",
+      "mux_mode": 0,
+      "it66122_pin": 64
+    },
+    {
+      "signal": "LCD_PCLK",
+      "cpu_ball": "V5",
+      "pad": "LCD_PCLK",
+      "mux_mode": 0,
+      "it66122_pin": 51
+    },
+    {
+      "signal": "LCD_DE",
+      "cpu_ball": "R6",
+      "pad": "LCD_AC_BIAS_EN",
+      "mux_mode": 0,
+      "it66122_pin": 62
+    },
+    {
+      "signal": "HDMI_RESET_GPIO_N",
+      "cpu_ball": "C18",
+      "pad": "ECAP0_IN_PWM0_OUT",
+      "mux_mode": 7,
+      "gpio_controller": 0,
+      "gpio_line": 7,
+      "old_net": "LCD_BL_PWM",
+      "it66122_pin": null,
+      "note": "Through reset qualification AND gate per parent/reference circuit; it66122 SYSRSTN is pin33."
+    },
+    {
+      "signal": "HDMI_INT_N",
+      "cpu_ball": "V17",
+      "pad": "GPMC_A11",
+      "mux_mode": 7,
+      "gpio_controller": 1,
+      "gpio_line": 27,
+      "old_net": null,
+      "it66122_pin": 10,
+      "voltage_domain": "VDDSHV3",
+      "voltage_domain_net": "V3V3",
+      "padconf_register_offset": "0x86c",
+      "pinctrl_relative_offset": "0x6c"
+    },
+    {
+      "signal": "I2C0_SDA",
+      "cpu_ball": "C17",
+      "pad": "I2C0_SDA",
+      "mux_mode": 0,
+      "it66122_pin": 11
+    },
+    {
+      "signal": "I2C0_SCL",
+      "cpu_ball": "C16",
+      "pad": "I2C0_SCL",
+      "mux_mode": 0,
+      "it66122_pin": 12
+    }
+  ],
+  "required_shared_function_move": {
+    "net": "MMC0_CD_N",
+    "old_cpu_ball": "U10",
+    "old_pad": "GPMC_AD8",
+    "old_gpio_controller": 0,
+    "old_gpio_line": 22,
+    "new_cpu_ball": "U16",
+    "new_pad": "GPMC_A9",
+    "new_mux_mode": 7,
+    "new_gpio_controller": 1,
+    "new_gpio_line": 25,
+    "polarity": "active_low",
+    "reason": "U10 must output LCD_DATA23 in24bit mode; U16 is unbound and has a proved physical escape. C15/R13 alternatives were blocked and remain unused.",
+    "status": "SELECTED_U16_PHYSICAL_ESCAPE_NONPOUR_CHECK_PASS_FULL_QA_PENDING",
+    "physical_review": "Inventory proved Topescape tofull8layer .35/.15via(8.2,4.4), theninner2 toexistingSDtrunk, no new copper/drill violations. Foreignpour/fullconnectivityQA pending."
+  },
+  "preserved_boot_straps": {
+    "names": [
+      "R_BOOT0",
+      "R_BOOT1",
+      "R_BOOT2",
+      "R_BOOT3",
+      "R_BOOT4",
+      "R_BOOT5",
+      "R_BOOT6",
+      "R_BOOT7",
+      "R_BOOT8",
+      "R_BOOT9",
+      "R_BOOT10",
+      "R_BOOT11",
+      "R_BOOT12",
+      "R_BOOT13",
+      "R_BOOT14",
+      "R_BOOT15"
+    ],
+    "resistance": "10k",
+    "nets": [
+      "SYSBOOT0",
+      "SYSBOOT1",
+      "SYSBOOT2",
+      "SYSBOOT3",
+      "SYSBOOT4",
+      "SYSBOOT5",
+      "SYSBOOT6",
+      "SYSBOOT7",
+      "SYSBOOT8",
+      "SYSBOOT9",
+      "SYSBOOT10",
+      "SYSBOOT11",
+      "SYSBOOT12",
+      "SYSBOOT13",
+      "SYSBOOT14",
+      "SYSBOOT15"
+    ],
+    "note": "Never remove/rename these source nets or alter strap levels. They become LCD outputs after ROM samples PWRONRSTn risingedge."
+  },
+  "sources": [
+    {
+      "title": "TI SPRZ360I \u00a73.1.1 Fig2",
+      "url": "https://www.ti.com/lit/er/sprz360i/sprz360i.pdf",
+      "local_visual": "work/hdmi-firmware/upstream/lcd-color-mapping.png",
+      "sha256": "efd8675411c098e39493132133ea94361b8dd6d9617e5c8904fbc966dba6117d"
+    },
+    {
+      "title": "TI SPRS717L Table4-2 andphysicalZCZballmap",
+      "url": "https://www.ti.com/lit/ds/symlink/am3352.pdf"
+    },
+    {
+      "title": "Linux tilcdc driver formatselection",
+      "url": "https://github.com/torvalds/linux/blob/d135ab453a7400a34930bdda1ef4bdc8acfac80e/drivers/gpu/drm/tilcdc/tilcdc_drv.c"
+    },
+    {
+      "title": "OfficialBeagleBoneRevD IT66122pinmap",
+      "url": "https://github.com/beagleboard/beaglebone-black/blob/c7bbdb9676c0cacc8dd9a2f656ee2dab34d98fca/images/RevD-Schematic/IT66122.png"
+    },
+    {
+      "title": "Pinned Linux PocketBeagle V17 GPIO1_27 pinmux, lines 312-315",
+      "url": "https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/febd604a1081856d85d1787bea74087194e1c35e/src/arm/ti/omap/am335x-pocketbeagle.dts#L312"
+    }
+  ],
+  "preserve_unmentioned_cpu_connections": true,
+  "cpu_bindings": {
+    "R1": "SYSBOOT0",
+    "R2": "SYSBOOT1",
+    "R3": "SYSBOOT2",
+    "R4": "SYSBOOT3",
+    "T1": "SYSBOOT4",
+    "T2": "SYSBOOT5",
+    "T3": "SYSBOOT6",
+    "T4": "SYSBOOT7",
+    "U1": "SYSBOOT8",
+    "U2": "SYSBOOT9",
+    "U3": "SYSBOOT10",
+    "U4": "SYSBOOT11",
+    "V2": "SYSBOOT12",
+    "V3": "SYSBOOT13",
+    "V4": "SYSBOOT14",
+    "T5": "SYSBOOT15",
+    "U13": "HDMI_RGB_D16",
+    "V13": "HDMI_RGB_D17",
+    "R12": "HDMI_RGB_D18",
+    "T12": "HDMI_RGB_D19",
+    "U12": "HDMI_RGB_D20",
+    "T11": "HDMI_RGB_D21",
+    "T10": "HDMI_RGB_D22",
+    "U10": "HDMI_RGB_D23",
+    "R5": "HDMI_HSYNC",
+    "U5": "HDMI_VSYNC",
+    "V5": "LCD_PCLK",
+    "R6": "LCD_DE",
+    "C18": "HDMI_RESET_GPIO_N",
+    "C17": "I2C0_SDA",
+    "C16": "I2C0_SCL",
+    "U16": "MMC0_CD_N",
+    "V17": "HDMI_INT_N"
+  },
+  "unbound_cpu_balls": [
+    "V14"
+  ],
+  "interrupt_move": {
+    "status": "SELECTED_V17_IRQ_SCOPED_PHYSICAL_ROUTE_PASS_WHOLE_BOARD_QA_PENDING",
+    "net": "HDMI_INT_N",
+    "old_cpu_ball": "V14",
+    "old_pad": "GPMC_A1",
+    "old_gpio_controller": 1,
+    "old_gpio_line": 17,
+    "new_cpu_ball": "V17",
+    "new_pad": "GPMC_A11",
+    "new_mux_mode": 7,
+    "new_gpio_controller": 1,
+    "new_gpio_line": 27,
+    "padconf_register_offset": "0x86c",
+    "pinctrl_relative_offset": "0x6c",
+    "source_port_id": "source_port_305",
+    "pcb_port_id": "pcb_port_305",
+    "native_component_pin_number": 306,
+    "voltage_domain": "VDDSHV3",
+    "voltage_domain_power_balls": [
+      "P12",
+      "P13"
+    ],
+    "voltage_domain_net": "V3V3",
+    "interrupt_type": "IRQ_TYPE_LEVEL_LOW",
+    "reason": "Selected V17 after independent scoped route, plane, GND web and role-partition checks; V14 is explicitly unbound. Whole-board DFM, remaining joins, signal integrity and hardware boot tests are pending.",
+    "physical_selection_receipt": "outputs/am3352-ddr/hdmi/validation-next/irq-v17-foil/selection-receipt.json",
+    "physical_selection_receipt_sha256": "a4d881e0ac6e5979c282f2bd66a103ce892925e648f909748a4de4e5070a8ea9",
+    "physical_candidate_sha256": "f6b163c4c8778d70fe033b05a54f6ab5032428c5745bdc3c6bf9e9e24d5d9030"
+  }
+}

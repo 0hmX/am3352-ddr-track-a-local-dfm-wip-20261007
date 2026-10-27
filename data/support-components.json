@@ -1,0 +1,6240 @@
+[
+  {
+    "name": "U_PMIC",
+    "kind": "chip",
+    "value": "TPS65216RSLR",
+    "pinLabels": {
+      "1": "IN_DCDC1",
+      "2": "SDA",
+      "3": "SCL",
+      "4": "LDO1",
+      "5": "IN_LDO1",
+      "6": "IN_LS",
+      "7": "LS",
+      "8": "PGOOD",
+      "9": "AC_DET",
+      "10": "nPFO",
+      "11": "GPIO1",
+      "12": "IN_DCDC4",
+      "13": "L4A",
+      "14": "L4B",
+      "15": "DCDC4",
+      "16": "PFI",
+      "17": "DC34_SEL",
+      "18": "NC18",
+      "19": "NC19",
+      "20": "GND20",
+      "21": "GND21",
+      "22": "GND22",
+      "23": "GND23",
+      "24": "GND24",
+      "25": "GND25",
+      "26": "GPIO2",
+      "27": "GND27",
+      "28": "NC28",
+      "29": "NC29",
+      "30": "GND30",
+      "31": "GND31",
+      "32": "GND32",
+      "33": "GND33",
+      "34": "NC34",
+      "35": "INT_LDO",
+      "36": "IN_BIAS",
+      "37": "IN_DCDC3",
+      "38": "L3",
+      "39": "FB3",
+      "40": "nWAKEUP",
+      "41": "FB2",
+      "42": "L2",
+      "43": "IN_DCDC2",
+      "44": "PB",
+      "45": "nINT",
+      "46": "PWR_EN",
+      "47": "FB1",
+      "48": "L1",
+      "49": "THERMAL_PAD"
+    },
+    "sheet": "Power management",
+    "noConnect": [
+      "11",
+      "18",
+      "7",
+      "10",
+      "40",
+      "29",
+      "34",
+      "28",
+      "19"
+    ],
+    "footprintKey": "PMIC",
+    "mpn": "TPS65216RSLR",
+    "package": "VQFN-48 RSL",
+    "connections": {
+      "1": "SYS_5V",
+      "2": "I2C0_SDA",
+      "3": "I2C0_SCL",
+      "4": "V1V8",
+      "5": "SYS_5V",
+      "6": "SYS_5V",
+      "8": "PMIC_PGOOD",
+      "9": "GND",
+      "12": "SYS_5V",
+      "13": "PMIC_SW4A",
+      "14": "PMIC_SW4B",
+      "15": "V3V3",
+      "16": "SYS_5V",
+      "17": "PMIC_DC34_SEL",
+      "20": "GND",
+      "21": "GND",
+      "22": "GND",
+      "23": "GND",
+      "24": "GND",
+      "25": "GND",
+      "26": "WARMRST_N",
+      "27": "GND",
+      "30": "GND",
+      "31": "GND",
+      "32": "GND",
+      "33": "GND",
+      "35": "PMIC_INT_LDO",
+      "36": "SYS_5V",
+      "37": "SYS_5V",
+      "38": "PMIC_SW3",
+      "39": "DDR_1V5",
+      "41": "VDD_MPU",
+      "42": "PMIC_SW2",
+      "43": "SYS_5V",
+      "44": "PMIC_PB_N",
+      "45": "PMIC_INT_N",
+      "46": "PMIC_POWER_EN",
+      "47": "VDD_CORE",
+      "48": "PMIC_SW1",
+      "49": "GND"
+    }
+  },
+  {
+    "name": "L_PWR1",
+    "kind": "inductor",
+    "value": "1.5uH",
+    "source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal40xx/xal4020-152/",
+    "note": "7.1AtypIsat,5.2A20Crise; verifyactualCoilcraftfootprint",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "mpn": "XAL4020-152MEC",
+    "footprintKey": "XAL4020",
+    "package": "Coilcraft XAL4020",
+    "connections": {
+      "1": "PMIC_SW1",
+      "2": "VDD_CORE"
+    }
+  },
+  {
+    "name": "L_PWR2",
+    "kind": "inductor",
+    "value": "1.5uH",
+    "source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal40xx/xal4020-152/",
+    "note": "7.1AtypIsat,5.2A20Crise; verifyactualCoilcraftfootprint",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "mpn": "XAL4020-152MEC",
+    "footprintKey": "XAL4020",
+    "package": "Coilcraft XAL4020",
+    "connections": {
+      "1": "PMIC_SW2",
+      "2": "VDD_MPU"
+    }
+  },
+  {
+    "name": "L_PWR3",
+    "kind": "inductor",
+    "value": "1.5uH",
+    "source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal40xx/xal4020-152/",
+    "note": "7.1AtypIsat,5.2A20Crise; verifyactualCoilcraftfootprint",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "mpn": "XAL4020-152MEC",
+    "footprintKey": "XAL4020",
+    "package": "Coilcraft XAL4020",
+    "connections": {
+      "1": "PMIC_SW3",
+      "2": "DDR_1V5"
+    }
+  },
+  {
+    "name": "L_PWR4",
+    "kind": "inductor",
+    "value": "1.5uH",
+    "source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal40xx/xal4020-152/",
+    "note": "7.1AtypIsat,5.2A20Crise; verifyactualCoilcraftfootprint",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "mpn": "XAL4020-152MEC",
+    "footprintKey": "XAL4020",
+    "package": "Coilcraft XAL4020",
+    "connections": {
+      "1": "PMIC_SW4A",
+      "2": "PMIC_SW4B"
+    }
+  },
+  {
+    "name": "C_PWR1",
+    "kind": "capacitor",
+    "value": "10uF",
+    "placement": "at IN_DCDC1",
+    "rating": "25V X7R +/-10%",
+    "source": "PMIC simplified schematic p3",
+    "mpn": "C1210C106K3RACTU",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR2",
+    "kind": "capacitor",
+    "value": "10uF",
+    "placement": "at IN_DCDC2",
+    "rating": "25V X7R +/-10%",
+    "source": "PMIC simplified schematic p3",
+    "mpn": "C1210C106K3RACTU",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR3",
+    "kind": "capacitor",
+    "value": "10uF",
+    "placement": "at IN_DCDC3",
+    "rating": "25V X7R +/-10%",
+    "source": "PMIC simplified schematic p3",
+    "mpn": "C1210C106K3RACTU",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR4",
+    "kind": "capacitor",
+    "value": "10uF",
+    "placement": "at IN_DCDC4",
+    "rating": "25V X7R +/-10%",
+    "source": "PMIC simplified schematic p3",
+    "mpn": "C1210C106K3RACTU",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR5",
+    "kind": "capacitor",
+    "value": "10uF",
+    "placement": "at IN_LDO1",
+    "rating": "25V X7R +/-10%",
+    "source": "PMIC simplified schematic p3",
+    "mpn": "C1210C106K3RACTU",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR6",
+    "kind": "capacitor",
+    "value": "100nF",
+    "placement": "IN_BIAS",
+    "rating": ">=6.3V X5R/X7R",
+    "source": "Engineering extra bypass, not shown in PMIC simplified schematic",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_PWR7_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "rating": "25V X7R +/-10%",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "source": "PMIC electrical characteristics nominal22uF",
+    "mpn": "C1210C106K3RACTU",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR7",
+    "kind": "capacitor",
+    "value": "10uF",
+    "rating": "25V X7R +/-10%",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "source": "PMIC electrical characteristics nominal22uF",
+    "mpn": "C1210C106K3RACTU",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR8_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "rating": "25V X7R +/-10%",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "source": "PMIC electrical characteristics nominal22uF",
+    "mpn": "C1210C106K3RACTU",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "VDD_MPU",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR8",
+    "kind": "capacitor",
+    "value": "10uF",
+    "rating": "25V X7R +/-10%",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "source": "PMIC electrical characteristics nominal22uF",
+    "mpn": "C1210C106K3RACTU",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "VDD_MPU",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR9_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "rating": "25V X7R +/-10%",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "source": "PMIC electrical characteristics nominal22uF",
+    "mpn": "C1210C106K3RACTU",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR9",
+    "kind": "capacitor",
+    "value": "10uF",
+    "rating": "25V X7R +/-10%",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "source": "PMIC electrical characteristics nominal22uF",
+    "mpn": "C1210C106K3RACTU",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR10",
+    "kind": "capacitor",
+    "value": "22uF",
+    "rating": "25V X7R +/-10%",
+    "note": "Three nominal22uF capacitors on DCDC4. Effective total >=40uF at3.3V is required; manufacturer bias curve qualification remains open.",
+    "source": "TPS65216 Rev C section8.2.2.3; Murata GRM32ER71E226KE15 product selector",
+    "mpn": "GRM32ER71E226KE15L",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_PWR11",
+    "kind": "capacitor",
+    "value": "100nF",
+    "rating": ">=6.3V X7R",
+    "source": "PMIC simplified schematic",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_PWR12_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "rating": "25V X7R +/-10%",
+    "source": "PMIC simplified schematic",
+    "mpn": "C1210C106K3RACTU",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR12",
+    "kind": "capacitor",
+    "value": "10uF",
+    "rating": "25V X7R +/-10%",
+    "source": "PMIC simplified schematic",
+    "mpn": "C1210C106K3RACTU",
+    "note": "See selection-review.md for aggregatecapacitance/DCbias",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_PWR13",
+    "kind": "capacitor",
+    "value": "1uF",
+    "rating": ">=6.3V X5R/X7R",
+    "source": "PMIC pin35 requirement",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "PMIC_INT_LDO",
+      "2": "GND"
+    },
+    "footprint": "0603"
+  },
+  {
+    "name": "R_PWR1",
+    "kind": "resistor",
+    "value": "20k",
+    "tolerance": "1%",
+    "source": "SPRUIP2 Table5",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "PMIC_DC34_SEL",
+      "2": "GND"
+    },
+    "mpn": null
+  },
+  {
+    "name": "R_PWR2",
+    "kind": "resistor",
+    "value": "10k",
+    "source": "Engineering pullup choice; correct I/O domain required",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "PWRONRST_N",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_PWR3",
+    "kind": "resistor",
+    "value": "10k",
+    "source": "Engineering pullup choice; correct I/O domain required",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "WARMRST_N",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_PWR4",
+    "kind": "resistor",
+    "value": "10k",
+    "source": "Engineering pullup choice; correct I/O domain required",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "PMIC_INT_N",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_PWR5",
+    "kind": "resistor",
+    "value": "4.7k",
+    "source": "Engineering choice; verify bus rise time and sink current",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "I2C0_SDA",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_PWR6",
+    "kind": "resistor",
+    "value": "4.7k",
+    "source": "Engineering choice; verify bus rise time and sink current",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "I2C0_SCL",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_PWR7",
+    "kind": "resistor",
+    "value": "100k",
+    "source": "PMIC simplified schematic / SPRUIP2 PB supply guidance",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "PMIC_PB_N",
+      "2": "SYS_5V"
+    }
+  },
+  {
+    "name": "SW_PWR1",
+    "kind": "chip",
+    "value": "normally open momentary switch",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "mpn": "TL3305AF160QG",
+    "footprintKey": "TACT_TL3305A",
+    "connections": {
+      "1": "PMIC_PB_N",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_RTC_RESET",
+    "kind": "resistor",
+    "value": "10k",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "RTC_RESET_N"
+    }
+  },
+  {
+    "name": "R_RTC_LDO",
+    "kind": "resistor",
+    "value": "10k",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "RTC_KALDO_EN_N",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "C_RTC_LDO",
+    "kind": "capacitor",
+    "value": "1uF",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "CAP_VDD_RTC",
+      "2": "GND"
+    },
+    "mpn": "C0402C105K4PACTU",
+    "package": "0402",
+    "footprintKey": "CAP0402_KEMET_B",
+    "useImportedFootprint": true,
+    "manufacturerSource": "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf",
+    "notes": "TI mandatory internal-LDO 1uF; compact manufacturer 0402 geometry. Effective capacitance/thermal qualification pending."
+  },
+  {
+    "name": "R_RTC_WAKE",
+    "kind": "resistor",
+    "value": "10k",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "EXT_WAKEUP",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_PMIC_EN",
+    "kind": "resistor",
+    "value": "100k",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "PMIC_POWER_EN",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "C_VDD_CORE_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_VDD_CORE_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_CORE_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_CORE_2",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_CORE_3",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_CORE_4",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_CORE_5",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_CORE_6",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_CORE_7",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_CORE",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_MPU_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_MPU",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_VDD_MPU_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_MPU",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_MPU",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_MPU_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_MPU",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_MPU",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_MPU_2",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_MPU",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_MPU",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_MPU_3",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_MPU",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_MPU",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDD_MPU_4",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDD_MPU",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "VDD_MPU",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_VDDS_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDDS",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDDS",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_2",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDDS",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_3",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for VDDS",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_SRAM_CORE_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_SRAM_CORE_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for SRAM_CORE",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_SRAM_MPU_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_SRAM_MPU_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for SRAM_MPU",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO1_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "mpn": "C1210C106K3RACTU",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_IO1_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO1",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO1_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO1",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO2_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "mpn": "C1210C106K3RACTU",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_IO2_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO2",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO2_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO2",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO3_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "mpn": "C1210C106K3RACTU",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_IO3_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO3",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO3_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO3",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO4_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "mpn": "C1210C106K3RACTU",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_IO4_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO4",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO4_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO4",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO5_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "mpn": "C1210C106K3RACTU",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_IO5_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO5",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO5_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO5",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO6_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "mpn": "C1210C106K3RACTU",
+    "footprintKey": "CAP1210_KEMET_B",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "1210",
+    "useImportedFootprint": true,
+    "footprintSource": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+  },
+  {
+    "name": "C_IO6_0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO6",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO6_1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO6",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO6_2",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO6",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO6_3",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO6",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO6_4",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO6",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_IO6_5",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "Local bypass for IO6",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_PLL_DDR",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_PLL_CORE_LCD",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_PLL_MPU",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_OSC",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDS_RTC",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDA1P8V_USB0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDA1P8V_USB1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDA3P3V_USB0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VDDA3P3V_USB1",
+    "kind": "capacitor",
+    "value": "10nF",
+    "notes": "",
+    "sheet": "CPU bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_CAP_VDD_SRAM_CORE",
+    "kind": "capacitor",
+    "value": "1uF",
+    "notes": "TI mandatory internal-LDO1uF, paired local driver/return routing. Effective capacitance/path inductance qualification pending.",
+    "sheet": "CPU power",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "CAP_VDD_SRAM_CORE",
+      "2": "GND"
+    },
+    "mpn": "C0402C105K4PACTU",
+    "package": "0402",
+    "footprintKey": "CAP0402_KEMET_B",
+    "useImportedFootprint": true,
+    "manufacturerSource": "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+  },
+  {
+    "name": "C_CAP_VDD_SRAM_MPU",
+    "kind": "capacitor",
+    "value": "1uF",
+    "notes": "TI mandatory internal-LDO1uF, paired local driver/return routing. Effective capacitance/path inductance qualification pending.",
+    "sheet": "CPU power",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "CAP_VDD_SRAM_MPU",
+      "2": "GND"
+    },
+    "mpn": "C0402C105K4PACTU",
+    "package": "0402",
+    "footprintKey": "CAP0402_KEMET_B",
+    "useImportedFootprint": true,
+    "manufacturerSource": "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+  },
+  {
+    "name": "C_CAP_VBB_MPU",
+    "kind": "capacitor",
+    "value": "1uF",
+    "notes": "TI mandatory internal-LDO 1uF; compact manufacturer 0402 geometry. Effective capacitance/thermal qualification pending.",
+    "sheet": "CPU power",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "CAP_VBB_MPU",
+      "2": "GND"
+    },
+    "mpn": "C0402C105K4PACTU",
+    "package": "0402",
+    "footprintKey": "CAP0402_KEMET_B",
+    "useImportedFootprint": true,
+    "manufacturerSource": "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+  },
+  {
+    "name": "R_DDR_ZQ",
+    "kind": "resistor",
+    "value": "240",
+    "notes": "1%",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_ZQ",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_DDR_VTP",
+    "kind": "resistor",
+    "value": "49.9",
+    "notes": "1%, >=20mW",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_VTP",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_VREF_TOP",
+    "kind": "resistor",
+    "value": "1k",
+    "notes": "1%",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "DDR_VREF"
+    }
+  },
+  {
+    "name": "R_VREF_BOT",
+    "kind": "resistor",
+    "value": "1k",
+    "notes": "1%",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_VREF",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "C_VREF_TOP",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "DDR_VREF"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VREF_0",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_VREF",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VREF_1",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_VREF",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VREF_2",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_VREF",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_VREF_3",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_VREF",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "R_DDR_RESET",
+    "kind": "resistor",
+    "value": "10k",
+    "notes": "Pull-up consistent with TI reference; verify reset net spelling against SoC DDR_RESETn",
+    "sheet": "DDR reference",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_RESETn",
+      "2": "DDR_1V5"
+    }
+  },
+  {
+    "name": "C_RAM_0",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_1",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_2",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_3",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_4",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_5",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_6",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_7",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_8",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_9",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_10",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_11",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "Place adjacent to each VDD/VDDQ ball group",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_RAM_B",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_SOC_DDR_0",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_1",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_2",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_3",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "R_BOOT0",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT0 is LCD_DATA0",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT0",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_BOOT1",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT1 is LCD_DATA1",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT1",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_BOOT2",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT2 is LCD_DATA2",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT2",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_BOOT3",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT3 is LCD_DATA3",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT3",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT4",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT4 is LCD_DATA4",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT4",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_BOOT5",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT5 is LCD_DATA5",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT5",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT6",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT6 is LCD_DATA6",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT6",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT7",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT7 is LCD_DATA7",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT7",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT8",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT8 is LCD_DATA8",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT8",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT9",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT9 is LCD_DATA9",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT9",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT10",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT10 is LCD_DATA10",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT10",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT11",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT11 is LCD_DATA11",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT11",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT12",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT12 is LCD_DATA12",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT12",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT13",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT13 is LCD_DATA13",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT13",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_BOOT14",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT14 is LCD_DATA14",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT14",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_BOOT15",
+    "kind": "resistor",
+    "value": "10k",
+    "note": "SYSBOOT15 is LCD_DATA15",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYSBOOT15",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "Y_SOC",
+    "kind": "chip",
+    "mpn": "SiT1602BI-12-18E-24.000000",
+    "pinLabels": {
+      "1": "OE",
+      "2": "GND",
+      "3": "OUT",
+      "4": "VDD"
+    },
+    "footprintKey": "OSC2520",
+    "sheet": "Boot and clock",
+    "noConnect": [],
+    "connections": {
+      "1": "OSC24_OE",
+      "2": "GND",
+      "3": "SOC_CLK24",
+      "4": "V1V8"
+    }
+  },
+  {
+    "name": "C_SOC_CLOCK",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "J_MICROSD",
+    "kind": "chip",
+    "mpn": "DM3AT-SF-PEJM5",
+    "pinLabels": {
+      "1": "DAT2",
+      "2": "DAT3",
+      "3": "CMD",
+      "4": "VDD",
+      "5": "CLK",
+      "6": "VSS",
+      "7": "DAT0",
+      "8": "DAT1",
+      "9": "CARD_SWITCH_A",
+      "10": "CARD_SWITCH_B",
+      "SH": "SHIELD"
+    },
+    "noConnect": [],
+    "source": "https://www.hirose.com/product/p/CL0609-0031-0-00",
+    "notes": "Signal1\u20138 verified Hirose catalog. CAD numbering from KiCad microSD_HC_Hirose_DM3AT-SF-PEJM5: switch9/10, shield11 repeats across4pads. Confirm switch terminal locations against primary drawing before release.",
+    "footprint": "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5",
+    "sheet": "microSD",
+    "footprintKey": "MICROSD",
+    "connections": {
+      "1": "MMC0_DAT2",
+      "2": "MMC0_DAT3",
+      "3": "MMC0_CMD",
+      "4": "V3V3",
+      "5": "SD_CLK",
+      "6": "GND",
+      "7": "MMC0_DAT0",
+      "8": "MMC0_DAT1",
+      "9": "MMC0_CD_N",
+      "10": "GND",
+      "SH": "GND"
+    }
+  },
+  {
+    "name": "R_SD_CMD",
+    "kind": "resistor",
+    "value": "10k",
+    "notes": "Draft external pull-up; reconcile AM335x MMC and SD card specifications before release.",
+    "sheet": "microSD",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "MMC0_CMD"
+    }
+  },
+  {
+    "name": "R_SD_DAT0",
+    "kind": "resistor",
+    "value": "10k",
+    "notes": "Draft external pull-up; reconcile AM335x MMC and SD card specifications before release.",
+    "sheet": "microSD",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "MMC0_DAT0"
+    }
+  },
+  {
+    "name": "R_SD_DAT1",
+    "kind": "resistor",
+    "value": "10k",
+    "notes": "Draft external pull-up; reconcile AM335x MMC and SD card specifications before release.",
+    "sheet": "microSD",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "MMC0_DAT1"
+    }
+  },
+  {
+    "name": "R_SD_DAT2",
+    "kind": "resistor",
+    "value": "10k",
+    "notes": "Draft external pull-up; reconcile AM335x MMC and SD card specifications before release.",
+    "sheet": "microSD",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "MMC0_DAT2"
+    }
+  },
+  {
+    "name": "R_SD_DAT3",
+    "kind": "resistor",
+    "value": "10k",
+    "notes": "Draft external pull-up; reconcile AM335x MMC and SD card specifications before release.",
+    "sheet": "microSD",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "MMC0_DAT3"
+    }
+  },
+  {
+    "name": "R_SD_CD",
+    "kind": "resistor",
+    "value": "47k",
+    "sheet": "microSD",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "MMC0_CD_N"
+    }
+  },
+  {
+    "name": "C_SD_HF",
+    "kind": "capacitor",
+    "value": "100nF",
+    "sheet": "microSD",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_SD_BULK",
+    "kind": "capacitor",
+    "value": "1uF",
+    "sheet": "microSD",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "mpn": null,
+    "footprint": "0603"
+  },
+  {
+    "name": "J_POWER",
+    "kind": "chip",
+    "mpn": "USB4105-GF-A",
+    "pinLabels": {
+      "A1": "GND",
+      "A4": "VBUS",
+      "A5": "CC1",
+      "A6": "DP1",
+      "A7": "DM1",
+      "A8": "SBU1",
+      "A9": "VBUS",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "VBUS",
+      "B5": "CC2",
+      "B6": "DP2",
+      "B7": "DM2",
+      "B8": "SBU2",
+      "B9": "VBUS",
+      "B12": "GND",
+      "SH": "SHIELD"
+    },
+    "noConnect": [
+      "B6",
+      "A8",
+      "A6",
+      "B7",
+      "B8",
+      "A7"
+    ],
+    "source": "https://gct.co/files/drawings/usb4105.pdf",
+    "notes": "Power-only USB-C; TUSB320LAI integrated Rd. Do not fit discrete CC Rd in parallel.",
+    "sheet": "Power input",
+    "footprintKey": "USBC",
+    "connections": {
+      "A1": "GND",
+      "A4": "USBC_VBUS_RAW",
+      "A5": "USBC_CC1",
+      "A9": "USBC_VBUS_RAW",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "USBC_VBUS_RAW",
+      "B5": "USBC_CC2",
+      "B9": "USBC_VBUS_RAW",
+      "B12": "GND",
+      "SH": "GND"
+    }
+  },
+  {
+    "name": "R_TRST_N",
+    "kind": "resistor",
+    "value": "4.7k",
+    "notes": "",
+    "sheet": "Debug and reset",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "TRST_N",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_TMS",
+    "kind": "resistor",
+    "value": "10k",
+    "notes": "",
+    "sheet": "Debug and reset",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "TMS",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_TDI",
+    "kind": "resistor",
+    "value": "10k",
+    "notes": "",
+    "sheet": "Debug and reset",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "TDI",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_EMU0",
+    "kind": "resistor",
+    "value": "4.7k",
+    "notes": "",
+    "sheet": "Debug and reset",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "EMU0",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_EMU1",
+    "kind": "resistor",
+    "value": "4.7k",
+    "notes": "",
+    "sheet": "Debug and reset",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "EMU1",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "SW_RESET",
+    "kind": "chip",
+    "mpn": "TL3305AF160QG",
+    "pinLabels": {
+      "1": "A",
+      "2": "B"
+    },
+    "sheet": "Debug and reset",
+    "noConnect": [],
+    "footprintKey": "TACT_TL3305A",
+    "value": "normally open momentary switch",
+    "connections": {
+      "1": "PWRONRST_N",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "U_TYPEC",
+    "kind": "chip",
+    "value": "TUSB320LAIRWBR",
+    "pinLabels": {
+      "1": "CC1",
+      "2": "CC2",
+      "3": "PORT",
+      "4": "VBUS_DET",
+      "5": "ADDR",
+      "6": "OUT3",
+      "7": "OUT1",
+      "8": "OUT2",
+      "9": "ID",
+      "10": "GND",
+      "11": "EN_N",
+      "12": "VDD"
+    },
+    "sheet": "Power input",
+    "noConnect": [
+      "6",
+      "5",
+      "9"
+    ],
+    "footprintKey": "TUSB320",
+    "mpn": "TUSB320LAIRWBR",
+    "package": "X2QFN-12 RWB",
+    "connections": {
+      "1": "USBC_CC1",
+      "2": "USBC_CC2",
+      "3": "GND",
+      "4": "TYPEC_VBUS_DET",
+      "7": "TYPEC_OUT1",
+      "8": "TYPEC_OUT2",
+      "10": "GND",
+      "11": "GND",
+      "12": "USBC_VBUS_RAW"
+    }
+  },
+  {
+    "name": "U_TYPEC_NOR",
+    "kind": "chip",
+    "value": "SN74LVC1G98DBVR",
+    "pinLabels": {
+      "1": "In1",
+      "2": "GND",
+      "3": "In0",
+      "4": "Y",
+      "5": "VCC",
+      "6": "In2"
+    },
+    "sheet": "Power input",
+    "noConnect": [],
+    "footprintKey": "SOT23_6",
+    "mpn": "SN74LVC1G98DBVR",
+    "package": "SOT-23-6 DBV",
+    "connections": {
+      "1": "TYPEC_OUT1",
+      "2": "GND",
+      "3": "USBC_VBUS_RAW",
+      "4": "TYPEC_3A_OK",
+      "5": "USBC_VBUS_RAW",
+      "6": "TYPEC_OUT2"
+    }
+  },
+  {
+    "name": "U_INPUT_EFUSE",
+    "kind": "chip",
+    "value": "TPS259531DSGR",
+    "pinLabels": {
+      "1": "dVdt",
+      "2": "EN_UVLO",
+      "3": "IN",
+      "4": "IN",
+      "5": "OUT",
+      "6": "FLT_N",
+      "7": "ILM",
+      "8": "GND",
+      "9": "EP"
+    },
+    "sheet": "Power input",
+    "noConnect": [],
+    "footprintKey": "EFUSE",
+    "mpn": "TPS259531DSGR",
+    "package": "WSON-8 DSG",
+    "connections": {
+      "1": "INPUT_DVDT",
+      "2": "TYPEC_3A_OK",
+      "3": "USBC_VBUS_RAW",
+      "4": "USBC_VBUS_RAW",
+      "5": "SYS_5V",
+      "6": "INPUT_FAULT_N",
+      "7": "INPUT_ILM",
+      "8": "GND",
+      "9": "GND"
+    }
+  },
+  {
+    "name": "R_TYPEC_VBUS",
+    "kind": "resistor",
+    "value": "900k",
+    "tolerance": "1%",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "USBC_VBUS_RAW",
+      "2": "TYPEC_VBUS_DET"
+    }
+  },
+  {
+    "name": "R_TYPEC_OUT1",
+    "kind": "resistor",
+    "value": "10k",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "USBC_VBUS_RAW",
+      "2": "TYPEC_OUT1"
+    }
+  },
+  {
+    "name": "R_TYPEC_OUT2",
+    "kind": "resistor",
+    "value": "10k",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "USBC_VBUS_RAW",
+      "2": "TYPEC_OUT2"
+    }
+  },
+  {
+    "name": "R_TYPEC_ENABLE_PD",
+    "kind": "resistor",
+    "value": "100k",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "TYPEC_3A_OK",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_INPUT_LIMIT",
+    "kind": "resistor",
+    "value": "806",
+    "tolerance": "1%",
+    "note": "Ilimit=2000/806+0.04=2.521A nominal. <=2.738A with7.5% device+1% resistor assumptions.",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "INPUT_ILM",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_INPUT_FAULT",
+    "kind": "resistor",
+    "value": "100k",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "USBC_VBUS_RAW",
+      "2": "INPUT_FAULT_N"
+    }
+  },
+  {
+    "name": "C_INPUT_DVDT",
+    "kind": "capacitor",
+    "value": "47nF",
+    "rating": "25V X7R",
+    "note": "Nominal slew42000/47000=0.894V/ms;5Vramp5.6ms. Input totalSYS5V bulk must audited.",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "INPUT_DVDT",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RAW_TYPEC",
+    "kind": "capacitor",
+    "value": "100nF",
+    "rating": "25V X7R",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "USBC_VBUS_RAW",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RAW_NOR",
+    "kind": "capacitor",
+    "value": "100nF",
+    "rating": "25V X7R",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "USBC_VBUS_RAW",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RAW_EFUSE",
+    "kind": "capacitor",
+    "value": "100nF",
+    "rating": "25V X7R",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "USBC_VBUS_RAW",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_EFUSE_OUT",
+    "kind": "capacitor",
+    "value": "1uF",
+    "rating": "25V X7R",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "footprint": "0603"
+  },
+  {
+    "name": "R_SYS_BLEED",
+    "kind": "resistor",
+    "value": "10k",
+    "rating": "0.1W",
+    "note": "Ensures residual5V decays aftersource removal;not active quickdischarge",
+    "sheet": "Power input",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "U_CLOCK_GATE",
+    "kind": "chip",
+    "value": "SN74LVC1G17DBVR",
+    "pinLabels": {
+      "1": "NC",
+      "2": "A",
+      "3": "GND",
+      "4": "Y",
+      "5": "VCC"
+    },
+    "sheet": "Boot and clock",
+    "noConnect": [
+      "1"
+    ],
+    "footprintKey": "SOT23_5",
+    "mpn": "SN74LVC1G17DBVR",
+    "package": "SOT-23-5 DBV",
+    "connections": {
+      "2": "PMIC_PGOOD",
+      "3": "GND",
+      "4": "OSC24_OE",
+      "5": "V1V8"
+    }
+  },
+  {
+    "name": "U_RESET_DELAY",
+    "kind": "chip",
+    "value": "TPS3808G33DBVR",
+    "pinLabels": {
+      "1": "RESET_N",
+      "2": "GND",
+      "3": "MR_N",
+      "4": "CT",
+      "5": "SENSE",
+      "6": "VDD"
+    },
+    "sheet": "Boot and clock",
+    "noConnect": [
+      "4"
+    ],
+    "footprintKey": "SOT23_6",
+    "mpn": "TPS3808G33DBVR",
+    "package": "SOT-23-6 DBV",
+    "connections": {
+      "1": "PWRONRST_N",
+      "2": "GND",
+      "3": "PMIC_PGOOD",
+      "5": "V3V3",
+      "6": "V3V3"
+    }
+  },
+  {
+    "name": "C_CLOCK_GATE",
+    "kind": "capacitor",
+    "value": "100nF",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RESET_DELAY",
+    "kind": "capacitor",
+    "value": "100nF",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "R_PGOOD_RAW",
+    "kind": "resistor",
+    "value": "10k",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "PMIC_PGOOD",
+      "2": "V3V3"
+    }
+  },
+  {
+    "name": "R_CLOCK_OE_PD",
+    "kind": "resistor",
+    "value": "100k",
+    "sheet": "Boot and clock",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "OSC24_OE",
+      "2": "GND"
+    }
+  },
+  {
+    "name": "R_SD_CLK",
+    "kind": "resistor",
+    "value": "33ohm",
+    "tolerance": "1%",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "sheet": "microSD",
+    "notes": "TI SPRABN2A section2.3.5: place close to AM3352 MMC0_CLK G17. Firmware RXACTIVE=1.",
+    "connections": {
+      "1": "MMC0_CLK",
+      "2": "SD_CLK"
+    }
+  },
+  {
+    "name": "U_RTC_RESET_DELAY",
+    "kind": "chip",
+    "value": "TPS3851G18SDRBR",
+    "mpn": "TPS3851G18SDRBR",
+    "package": "VSON-8 DRB with EP",
+    "footprintKey": "TPS3851_DRB8",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "VDD",
+      "2": "CWD",
+      "3": "MR_N",
+      "4": "GND",
+      "5": "SET1",
+      "6": "WDI",
+      "7": "WDO_N",
+      "8": "RESET_N",
+      "9": "EP_GND"
+    },
+    "noConnect": [
+      "2",
+      "7"
+    ],
+    "source": "https://www.ti.com/lit/ds/symlink/tps3851.pdf",
+    "note": "1.728V nominal threshold \u00b10.8%; 170\u2013230ms release delay. Watchdog disabled by SET1 low; WDI grounded.",
+    "connections": {
+      "1": "V1V8",
+      "3": "V1V8",
+      "4": "GND",
+      "5": "GND",
+      "6": "GND",
+      "8": "RTC_RESET_N",
+      "9": "GND"
+    }
+  },
+  {
+    "name": "U_RTC_POR_GATE",
+    "kind": "chip",
+    "value": "SN74LVC1G07DBVR",
+    "mpn": "SN74LVC1G07DBVR",
+    "package": "SOT-23-5 DBV",
+    "footprintKey": "SOT23_5",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "NC",
+      "2": "A",
+      "3": "GND",
+      "4": "Y_OD",
+      "5": "VCC"
+    },
+    "noConnect": [
+      "1"
+    ],
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf",
+    "note": "Input low pulls open-drain Y low, high releases Y. Output rated up to5.5V independent of VCC. Ioff supports power-down.",
+    "connections": {
+      "2": "PMIC_PGOOD",
+      "3": "GND",
+      "4": "RTC_RESET_N",
+      "5": "V1V8"
+    }
+  },
+  {
+    "name": "C_RTC_RESET_BYP",
+    "kind": "capacitor",
+    "value": "100nF",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "sheet": "Power management",
+    "rating": "X7R >=6.3V",
+    "placement": "Local IC bypass",
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RTC_GATE_BYP",
+    "kind": "capacitor",
+    "value": "100nF",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "sheet": "Power management",
+    "rating": "X7R >=6.3V",
+    "placement": "Local IC bypass",
+    "connections": {
+      "1": "V1V8",
+      "2": "GND"
+    },
+    "footprint": "0402"
+  },
+  {
+    "name": "TP_UART_1",
+    "kind": "chip",
+    "value": "Solder pad 1.2mm",
+    "pinLabels": {
+      "1": "GND"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "GND"
+    },
+    "sheet": "UART debug",
+    "pcbX": -3,
+    "pcbY": 14,
+    "layer": "top"
+  },
+  {
+    "name": "TP_UART_2",
+    "kind": "chip",
+    "value": "Solder pad 1.2mm",
+    "pinLabels": {
+      "1": "UART0_TX"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "UART0_TX"
+    },
+    "sheet": "UART debug",
+    "pcbX": -1,
+    "pcbY": 14,
+    "layer": "top"
+  },
+  {
+    "name": "TP_UART_3",
+    "kind": "chip",
+    "value": "Solder pad 1.2mm",
+    "pinLabels": {
+      "1": "UART0_RX"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "UART0_RX"
+    },
+    "sheet": "UART debug",
+    "pcbX": 1,
+    "pcbY": 14,
+    "layer": "top"
+  },
+  {
+    "name": "TP_UART_4",
+    "kind": "chip",
+    "value": "Solder pad 1.2mm",
+    "pinLabels": {
+      "1": "V3V3"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "V3V3"
+    },
+    "sheet": "UART debug",
+    "pcbX": 3,
+    "pcbY": 14,
+    "layer": "top"
+  },
+  {
+    "name": "C_SOC_DDR_4",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_5",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_6",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_7",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_8",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_9",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_10",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_11",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_12",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_13",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_14",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_15",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_16",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_17",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_18",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_19",
+    "kind": "capacitor",
+    "value": "100nF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0201"
+  },
+  {
+    "name": "C_SOC_DDR_B0",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_SOC_DDR_B1",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_RAM_B1",
+    "kind": "capacitor",
+    "value": "10uF",
+    "notes": "",
+    "sheet": "DDR bypass",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "connections": {
+      "1": "DDR_1V5",
+      "2": "GND"
+    },
+    "footprint": "0805"
+  },
+  {
+    "name": "C_PWR10_B",
+    "kind": "capacitor",
+    "value": "22uF",
+    "rating": "25V X7R +/-10%",
+    "note": "Three nominal22uF capacitors on DCDC4. Effective total >=40uF at3.3V is required; manufacturer bias curve qualification remains open.",
+    "source": "TPS65216 Rev C section8.2.2.3; Murata GRM32ER71E226KE15 product selector",
+    "mpn": "GRM32ER71E226KE15L",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_PWR10_C",
+    "kind": "capacitor",
+    "value": "22uF",
+    "rating": "25V X7R +/-10%",
+    "note": "Three nominal22uF capacitors on DCDC4. Effective total >=40uF at3.3V is required; manufacturer bias curve qualification remains open.",
+    "source": "TPS65216 Rev C section8.2.2.3; Murata GRM32ER71E226KE15 product selector",
+    "mpn": "GRM32ER71E226KE15L",
+    "sheet": "Power management",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "noConnect": [],
+    "package": "1210",
+    "footprintKey": "CAP1210",
+    "connections": {
+      "1": "V3V3",
+      "2": "GND"
+    },
+    "useImportedFootprint": true
+  },
+  {
+    "name": "U_ETH_LDO",
+    "kind": "chip",
+    "value": "TPS7A2033PDBVR",
+    "mpn": "TPS7A2033PDBVR",
+    "pinLabels": {
+      "1": "IN",
+      "2": "GND",
+      "3": "EN",
+      "4": "NC",
+      "5": "OUT"
+    },
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND",
+      "3": "V3V3",
+      "5": "ETH_3V3_PRE"
+    },
+    "noConnect": [
+      "4"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "SOT23_5",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_ETH_LDO_IN",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_LDO_OUT",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3_PRE",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_LCD_LDO",
+    "kind": "chip",
+    "value": "TPS7A2033PDBVR",
+    "mpn": "TPS7A2033PDBVR",
+    "pinLabels": {
+      "1": "IN",
+      "2": "GND",
+      "3": "EN",
+      "4": "NC",
+      "5": "OUT"
+    },
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND",
+      "3": "V3V3",
+      "5": "LCD_3V3"
+    },
+    "noConnect": [
+      "4"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "SOT23_5",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_LCD_LDO_IN",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_LCD_LDO_OUT",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_ETH_PHY",
+    "kind": "chip",
+    "value": "DP83825IRMQ",
+    "mpn": "DP83825IRMQ",
+    "pinLabels": {
+      "1": "TX_EN",
+      "2": "50MHzOut_LED2",
+      "3": "INTR_PWRDN",
+      "4": "LED0",
+      "5": "RST_N",
+      "6": "VDDA3V3",
+      "7": "RD_M",
+      "8": "RD_P",
+      "9": "GND",
+      "10": "TD_M",
+      "11": "TD_P",
+      "12": "XO",
+      "13": "XI",
+      "14": "RBIAS",
+      "15": "MDIO",
+      "16": "MDC",
+      "17": "RX_D1",
+      "18": "RX_D0",
+      "19": "VDDIO",
+      "20": "CRS_DV",
+      "21": "GND",
+      "22": "RX_ER",
+      "23": "TX_D0",
+      "24": "TX_D1",
+      "25": "EP_GND"
+    },
+    "connections": {
+      "1": "PHY_TX_EN",
+      "2": "PHY_REFCLK",
+      "3": "PHY_INT_N",
+      "4": "PHY_LED0",
+      "5": "PHY_RESET_N",
+      "6": "ETH_3V3",
+      "7": "ETH_RX_N",
+      "8": "ETH_RX_P",
+      "9": "GND",
+      "10": "ETH_TX_N",
+      "11": "ETH_TX_P",
+      "13": "PHY_XI",
+      "14": "PHY_RBIAS",
+      "15": "ETH_MDIO_ISO",
+      "16": "PHY_MDC",
+      "17": "PHY_RXD1",
+      "18": "PHY_RXD0",
+      "19": "ETH_3V3",
+      "20": "PHY_CRS_DV",
+      "21": "GND",
+      "22": "PHY_RX_ER",
+      "23": "PHY_TXD0",
+      "24": "PHY_TXD1",
+      "25": "GND"
+    },
+    "noConnect": [
+      "12"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "PHY_RMQ",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_ETH_TX_EN",
+    "kind": "resistor",
+    "value": "0ohm",
+    "mpn": "RC0402JR-070RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "RMII1_TX_EN_ISO",
+      "2": "PHY_TX_EN"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "PHY-end link for CPU-driven path; 0 ohm stuffing proposal paired with CPU-end damping. Package/current and system SI qualification required; do not fit both parts as 33 ohm by default.",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_TXD0",
+    "kind": "resistor",
+    "value": "0ohm",
+    "mpn": "RC0402JR-070RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "RMII1_TXD0_ISO",
+      "2": "PHY_TXD0"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "PHY-end link for CPU-driven path; 0 ohm stuffing proposal paired with CPU-end damping. Package/current and system SI qualification required; do not fit both parts as 33 ohm by default.",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_TXD1",
+    "kind": "resistor",
+    "value": "0ohm",
+    "mpn": "RC0402JR-070RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "RMII1_TXD1_ISO",
+      "2": "PHY_TXD1"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "PHY-end link for CPU-driven path; 0 ohm stuffing proposal paired with CPU-end damping. Package/current and system SI qualification required; do not fit both parts as 33 ohm by default.",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_MDC",
+    "kind": "resistor",
+    "value": "0ohm",
+    "mpn": "RC0402JR-070RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_MDC_ISO",
+      "2": "PHY_MDC"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "PHY-end link for CPU-driven path; 0 ohm stuffing proposal paired with CPU-end damping. Package/current and system SI qualification required; do not fit both parts as 33 ohm by default.",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_RXD0",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_RXD0",
+      "2": "RMII1_RXD0_ISO"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_RXD1",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_RXD1",
+      "2": "RMII1_RXD1_ISO"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_CRS",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_CRS_DV",
+      "2": "RMII1_CRS_DV_ISO"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_RXER",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_RX_ER",
+      "2": "RMII1_RX_ER_ISO"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_REF",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_REFCLK",
+      "2": "RMII1_REFCLK_ISO"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_STRAP0",
+    "kind": "resistor",
+    "value": "2.49k",
+    "mpn": "RC0402FR-072K49L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_RXD0",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_STRAP1",
+    "kind": "resistor",
+    "value": "2.49k",
+    "mpn": "RC0402FR-072K49L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_CRS_DV",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_STRAP2",
+    "kind": "resistor",
+    "value": "2.49k",
+    "mpn": "RC0402FR-072K49L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_RXD1",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_STRAP3",
+    "kind": "resistor",
+    "value": "2.49k",
+    "mpn": "RC0402FR-072K49L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_REFCLK",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_STRAP4",
+    "kind": "resistor",
+    "value": "2.49k",
+    "mpn": "RC0402FR-072K49L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_RX_ER",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_STRAP5",
+    "kind": "resistor",
+    "value": "2.49k",
+    "mpn": "RC0402FR-072K49L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_LED0",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_BIAS",
+    "kind": "resistor",
+    "value": "6.49k",
+    "mpn": "RC0402FR-076K49L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_RBIAS",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_MDIO_PU",
+    "kind": "resistor",
+    "value": "2.2k",
+    "mpn": "RC0402FR-072K2L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_MDIO_ISO",
+      "2": "ETH_3V3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_INT_PU",
+    "kind": "resistor",
+    "value": "10k",
+    "mpn": "RC0402FR-0710KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_INT_N",
+      "2": "ETH_3V3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "Y_ETH",
+    "kind": "chip",
+    "value": "SiT1602BI-12-33E-25.000000",
+    "mpn": "SiT1602BI-12-33E-25.000000",
+    "pinLabels": {
+      "1": "OE",
+      "2": "GND",
+      "3": "OUT",
+      "4": "VDD"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND",
+      "3": "PHY_OSC25",
+      "4": "ETH_3V3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "OSC2520",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_ETH_XI",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_OSC25",
+      "2": "PHY_XI"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_OSC",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_ETH_RESET",
+    "kind": "chip",
+    "value": "TPS3808G33DBVR",
+    "mpn": "TPS3808G33DBVR",
+    "pinLabels": {
+      "1": "RESET_N",
+      "2": "GND",
+      "3": "MR_N",
+      "4": "CT",
+      "5": "SENSE",
+      "6": "VDD"
+    },
+    "connections": {
+      "1": "PHY_RESET_N",
+      "2": "GND",
+      "3": "PWRONRST_N",
+      "5": "ETH_3V3",
+      "6": "ETH_3V3"
+    },
+    "noConnect": [
+      "4"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "SOT23_6",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_ETH_RESET_PU",
+    "kind": "resistor",
+    "value": "10k",
+    "mpn": "RC0402FR-0710KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_RESET_N",
+      "2": "ETH_3V3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_RESET",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_A0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "mpn": "GRM155R71H103KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_A1",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_A2",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_A3",
+    "kind": "capacitor",
+    "value": "10uF",
+    "mpn": "GRM21BR61A106KE19L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "C0805",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_ETH_IO0",
+    "kind": "capacitor",
+    "value": "10nF",
+    "mpn": "GRM155R71H103KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_IO1",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_IO2",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_IO3",
+    "kind": "capacitor",
+    "value": "10uF",
+    "mpn": "GRM21BR61A106KE19L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "C0805",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "J_ETH",
+    "kind": "chip",
+    "value": "7499010121A",
+    "mpn": "7499010121A",
+    "pinLabels": {
+      "1": "TD_P",
+      "2": "CTD",
+      "3": "TD_N",
+      "4": "RD_P",
+      "5": "CRD",
+      "6": "RD_N",
+      "7": "NC",
+      "8": "CHASSIS_TERMINATION",
+      "9": "GREEN_K",
+      "10": "GREEN_A",
+      "11": "YELLOW_K",
+      "12": "YELLOW_A",
+      "SH": "SHIELD"
+    },
+    "connections": {
+      "1": "ETH_TX_P",
+      "2": "ETH_TX_CT",
+      "3": "ETH_TX_N",
+      "4": "ETH_RX_P",
+      "5": "ETH_RX_CT",
+      "6": "ETH_RX_N",
+      "8": "CHASSIS",
+      "9": "GND",
+      "10": "ETH_LED_GREEN_A",
+      "11": "GND",
+      "12": "ETH_LED_YELLOW_A",
+      "SH": "CHASSIS"
+    },
+    "noConnect": [
+      "7"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "RJ45_7499010121A",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_ETH_GREEN",
+    "kind": "resistor",
+    "value": "330ohm",
+    "mpn": "RC0402FR-07330RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "PHY_LED0",
+      "2": "ETH_LED_GREEN_A"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_YELLOW",
+    "kind": "resistor",
+    "value": "330ohm",
+    "mpn": "RC0402FR-07330RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "ETH_LED_YELLOW_A"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_CT_TX_100N",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_TX_CT",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_CT_TX_1U",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_TX_CT",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_CT_RX_100N",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_RX_CT",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_CT_RX_1U",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_RX_CT",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_ETH_ESD",
+    "kind": "chip",
+    "value": "ESD204DQAR",
+    "mpn": "ESD204DQAR",
+    "pinLabels": {
+      "1": "IO1",
+      "2": "IO2",
+      "3": "GND",
+      "4": "IO3",
+      "5": "IO4",
+      "6": "NC",
+      "7": "NC",
+      "8": "GND",
+      "9": "NC",
+      "10": "NC"
+    },
+    "connections": {
+      "1": "ETH_TX_P",
+      "2": "ETH_TX_N",
+      "3": "GND",
+      "4": "ETH_RX_P",
+      "5": "ETH_RX_N",
+      "8": "GND"
+    },
+    "noConnect": [
+      "6",
+      "7",
+      "9",
+      "10"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "ESD204_DQA",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_ETH_CHASSIS",
+    "kind": "capacitor",
+    "value": "1nF",
+    "mpn": "C1206C102KGRACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "CHASSIS",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "2kV X7R; preserve isolation gap. Not a safety-certified isolation design.",
+    "footprintKey": "C1206",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_ETH_CHASSIS",
+    "kind": "resistor",
+    "value": "1M",
+    "mpn": "RC1206FR-071ML",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "CHASSIS",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "Leakage path; surge working voltage and creepage require release review",
+    "footprintKey": "R1206",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_LCD_D0",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D0_BUF",
+      "2": "LCD_D0"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D1",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D1_BUF",
+      "2": "LCD_D1"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D2",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D2_BUF",
+      "2": "LCD_D2"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D3",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D3_BUF",
+      "2": "LCD_D3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D4",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D4_BUF",
+      "2": "LCD_D4"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D5",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D5_BUF",
+      "2": "LCD_D5"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D6",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D6_BUF",
+      "2": "LCD_D6"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D7",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D7_BUF",
+      "2": "LCD_D7"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_LCD_BUF0",
+    "kind": "chip",
+    "value": "SN74LVC244APWR",
+    "mpn": "SN74LVC244APWR",
+    "pinLabels": {
+      "1": "1OE_N",
+      "2": "1A1",
+      "3": "2Y4",
+      "4": "1A2",
+      "5": "2Y3",
+      "6": "1A3",
+      "7": "2Y2",
+      "8": "1A4",
+      "9": "2Y1",
+      "10": "GND",
+      "11": "2A1",
+      "12": "1Y4",
+      "13": "2A2",
+      "14": "1Y3",
+      "15": "2A3",
+      "16": "1Y2",
+      "17": "2A4",
+      "18": "1Y1",
+      "19": "2OE_N",
+      "20": "VCC"
+    },
+    "connections": {
+      "1": "LCD_OE_N",
+      "19": "LCD_OE_N",
+      "10": "GND",
+      "20": "LCD_3V3",
+      "2": "SYSBOOT0",
+      "18": "LCD_D0_BUF",
+      "4": "SYSBOOT1",
+      "16": "LCD_D1_BUF",
+      "6": "SYSBOOT2",
+      "14": "LCD_D2_BUF",
+      "8": "SYSBOOT3",
+      "12": "LCD_D3_BUF",
+      "11": "SYSBOOT4",
+      "9": "LCD_D4_BUF",
+      "13": "SYSBOOT5",
+      "7": "LCD_D5_BUF",
+      "15": "SYSBOOT6",
+      "5": "LCD_D6_BUF",
+      "17": "SYSBOOT7",
+      "3": "LCD_D7_BUF"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "TSSOP20",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_LCD_BUF0",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D8",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D8_BUF",
+      "2": "LCD_D8"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D9",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D9_BUF",
+      "2": "LCD_D9"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D10",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D10_BUF",
+      "2": "LCD_D10"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D11",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D11_BUF",
+      "2": "LCD_D11"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D12",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D12_BUF",
+      "2": "LCD_D12"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D13",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D13_BUF",
+      "2": "LCD_D13"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D14",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D14_BUF",
+      "2": "LCD_D14"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_D15",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_D15_BUF",
+      "2": "LCD_D15"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_LCD_BUF1",
+    "kind": "chip",
+    "value": "SN74LVC244APWR",
+    "mpn": "SN74LVC244APWR",
+    "pinLabels": {
+      "1": "1OE_N",
+      "2": "1A1",
+      "3": "2Y4",
+      "4": "1A2",
+      "5": "2Y3",
+      "6": "1A3",
+      "7": "2Y2",
+      "8": "1A4",
+      "9": "2Y1",
+      "10": "GND",
+      "11": "2A1",
+      "12": "1Y4",
+      "13": "2A2",
+      "14": "1Y3",
+      "15": "2A3",
+      "16": "1Y2",
+      "17": "2A4",
+      "18": "1Y1",
+      "19": "2OE_N",
+      "20": "VCC"
+    },
+    "connections": {
+      "1": "LCD_OE_N",
+      "19": "LCD_OE_N",
+      "10": "GND",
+      "20": "LCD_3V3",
+      "2": "SYSBOOT8",
+      "18": "LCD_D8_BUF",
+      "4": "SYSBOOT9",
+      "16": "LCD_D9_BUF",
+      "6": "SYSBOOT10",
+      "14": "LCD_D10_BUF",
+      "8": "SYSBOOT11",
+      "12": "LCD_D11_BUF",
+      "11": "SYSBOOT12",
+      "9": "LCD_D12_BUF",
+      "13": "SYSBOOT13",
+      "7": "LCD_D13_BUF",
+      "15": "SYSBOOT14",
+      "5": "LCD_D14_BUF",
+      "17": "SYSBOOT15",
+      "3": "LCD_D15_BUF"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "TSSOP20",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_LCD_BUF1",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_LCD_BUF2",
+    "kind": "chip",
+    "value": "SN74LVC244APWR",
+    "mpn": "SN74LVC244APWR",
+    "pinLabels": {
+      "1": "1OE_N",
+      "2": "1A1",
+      "3": "2Y4",
+      "4": "1A2",
+      "5": "2Y3",
+      "6": "1A3",
+      "7": "2Y2",
+      "8": "1A4",
+      "9": "2Y1",
+      "10": "GND",
+      "11": "2A1",
+      "12": "1Y4",
+      "13": "2A2",
+      "14": "1Y3",
+      "15": "2A3",
+      "16": "1Y2",
+      "17": "2A4",
+      "18": "1Y1",
+      "19": "2OE_N",
+      "20": "VCC"
+    },
+    "connections": {
+      "1": "LCD_OE_N",
+      "19": "LCD_STBY",
+      "10": "GND",
+      "20": "LCD_3V3",
+      "2": "GND",
+      "4": "LCD_DE",
+      "16": "LCD_DE_BUF",
+      "6": "LCD_STBY",
+      "8": "LCD_BL_PWM",
+      "12": "LCD_BL_CTRL",
+      "11": "GND",
+      "13": "GND",
+      "15": "GND",
+      "17": "GND",
+      "9": "LCD_STBY_BUF"
+    },
+    "noConnect": [
+      "3",
+      "5",
+      "7",
+      "14",
+      "18"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "Bank2 is grounded-input tri-state standby sink: GPIO17=0 enablesLOW onpin9;GPIO17=1 releases to panel internal10k. Pin14 isNC. Bank1OE remains global for PCLK/DE/PWM.",
+    "footprintKey": "TSSOP20",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_LCD_BUF2",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_PCLK",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_PCLK_BUF",
+      "2": "PANEL_PCLK"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_DE",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_DE_BUF",
+      "2": "PANEL_DE"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_STBY",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_STBY_BUF",
+      "2": "PANEL_STBY"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_LCD_OE",
+    "kind": "chip",
+    "value": "SN74LVC1G04DBVR",
+    "mpn": "SN74LVC1G04DBVR",
+    "pinLabels": {
+      "1": "NC",
+      "2": "A",
+      "3": "GND",
+      "4": "Y",
+      "5": "VCC"
+    },
+    "connections": {
+      "2": "LCD_OUTPUT_ENABLE",
+      "3": "GND",
+      "4": "LCD_OE_N",
+      "5": "LCD_3V3"
+    },
+    "noConnect": [
+      "1"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "SOT23_5",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_LCD_ENABLE_PD",
+    "kind": "resistor",
+    "value": "10k",
+    "mpn": "RC0402FR-0710KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_OUTPUT_ENABLE",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_STBY_PD",
+    "kind": "resistor",
+    "value": "10k",
+    "mpn": "RC0402FR-0710KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_STBY",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_BL_PD",
+    "kind": "resistor",
+    "value": "10k",
+    "mpn": "RC0402FR-0710KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_BL_PWM",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_CTRL_PD",
+    "kind": "resistor",
+    "value": "10k",
+    "mpn": "RC0402FR-0710KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_BL_CTRL",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_LCD_OE",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "J_LCD",
+    "kind": "chip",
+    "value": "54104-4031",
+    "mpn": "54104-4031",
+    "pinLabels": {
+      "1": "LED_K",
+      "2": "LED_A",
+      "3": "GND",
+      "4": "VDD",
+      "5": "R0",
+      "6": "R1",
+      "7": "R2",
+      "8": "R3",
+      "9": "R4",
+      "10": "R5",
+      "11": "R6",
+      "12": "R7",
+      "13": "G0",
+      "14": "G1",
+      "15": "G2",
+      "16": "G3",
+      "17": "G4",
+      "18": "G5",
+      "19": "G6",
+      "20": "G7",
+      "21": "B0",
+      "22": "B1",
+      "23": "B2",
+      "24": "B3",
+      "25": "B4",
+      "26": "B5",
+      "27": "B6",
+      "28": "B7",
+      "29": "GND",
+      "30": "CLKIN",
+      "31": "STBYB",
+      "32": "HSD",
+      "33": "VSD",
+      "34": "DEN",
+      "35": "NC",
+      "36": "GND",
+      "37": "NC",
+      "38": "NC",
+      "39": "NC",
+      "40": "NC",
+      "M1": "MOUNT1",
+      "M2": "MOUNT2"
+    },
+    "connections": {
+      "1": "LCD_LED_K",
+      "2": "LCD_LED_A",
+      "3": "GND",
+      "4": "LCD_3V3",
+      "29": "GND",
+      "30": "PANEL_PCLK",
+      "31": "PANEL_STBY",
+      "32": "GND",
+      "33": "GND",
+      "34": "PANEL_DE",
+      "36": "GND",
+      "5": "GND",
+      "6": "GND",
+      "7": "GND",
+      "8": "LCD_D11",
+      "9": "LCD_D12",
+      "10": "LCD_D13",
+      "11": "LCD_D14",
+      "12": "LCD_D15",
+      "13": "GND",
+      "14": "GND",
+      "15": "LCD_D5",
+      "16": "LCD_D6",
+      "17": "LCD_D7",
+      "18": "LCD_D8",
+      "19": "LCD_D9",
+      "20": "LCD_D10",
+      "21": "GND",
+      "22": "GND",
+      "23": "GND",
+      "24": "LCD_D0",
+      "25": "LCD_D1",
+      "26": "LCD_D2",
+      "27": "LCD_D3",
+      "28": "LCD_D4"
+    },
+    "noConnect": [
+      "35",
+      "37",
+      "38",
+      "39",
+      "40",
+      "M1",
+      "M2"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "MOLEX_541044031",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_PANEL_100N",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_PANEL_1U",
+    "kind": "capacitor",
+    "value": "1uF",
+    "mpn": "C0402C105K4PACTU",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_LCD_BL",
+    "kind": "chip",
+    "value": "TPS61169DCKR",
+    "mpn": "TPS61169DCKR",
+    "pinLabels": {
+      "1": "SW",
+      "2": "GND",
+      "3": "FB",
+      "4": "CTRL",
+      "5": "VIN"
+    },
+    "connections": {
+      "1": "LCD_BL_SW",
+      "2": "GND",
+      "3": "LCD_LED_K",
+      "4": "LCD_BL_CTRL",
+      "5": "SYS_5V"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "SC70_5",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "L_LCD_BL",
+    "kind": "inductor",
+    "value": "4.7uH",
+    "mpn": "LPS4018-472MRC",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "SYS_5V",
+      "2": "LCD_BL_SW"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "LPS4018",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "D_LCD_BL",
+    "kind": "chip",
+    "value": "NSR0240HT1G",
+    "mpn": "NSR0240HT1G",
+    "pinLabels": {
+      "1": "K",
+      "2": "A"
+    },
+    "connections": {
+      "1": "LCD_LED_A",
+      "2": "LCD_BL_SW"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "SOD323",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_LCD_BL_IN",
+    "kind": "capacitor",
+    "value": "4.7uF",
+    "mpn": "GRM31CR71H475KA12L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "C1206",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_LCD_BL_OUT",
+    "kind": "capacitor",
+    "value": "4.7uF",
+    "mpn": "GRM31CR71H475KA12L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_LED_A",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "50V; effective capacitance at27.5V must remain>=1uF; manufacturer bias curve/release review pending",
+    "footprintKey": "C1206",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_LCD_ISET",
+    "kind": "resistor",
+    "value": "5.1ohm",
+    "mpn": "RC0603FR-075R1L",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_LED_K",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0603"
+  },
+  {
+    "name": "U_ETH_RAMP",
+    "kind": "chip",
+    "value": "TPS22918DBVR",
+    "mpn": "TPS22918DBVR",
+    "pinLabels": {
+      "1": "VIN",
+      "2": "GND",
+      "3": "ON",
+      "4": "CT",
+      "5": "QOD",
+      "6": "VOUT"
+    },
+    "connections": {
+      "1": "ETH_3V3_PRE",
+      "2": "GND",
+      "3": "PWRONRST_N",
+      "4": "ETH_RAMP_CT",
+      "5": "ETH_3V3",
+      "6": "ETH_3V3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "SOT23_6",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_ETH_RAMP_CT",
+    "kind": "capacitor",
+    "value": "2.2nF",
+    "mpn": "GRM1555C1H222JA01D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_RAMP_CT",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_ETH_ISO0",
+    "kind": "chip",
+    "value": "SN74CB3Q3245PWR",
+    "mpn": "SN74CB3Q3245PWR",
+    "pinLabels": {
+      "1": "NC",
+      "10": "GND",
+      "19": "OE_N",
+      "20": "VCC",
+      "2": "A1",
+      "3": "A2",
+      "4": "A3",
+      "5": "A4",
+      "6": "A5",
+      "7": "A6",
+      "8": "A7",
+      "9": "A8",
+      "18": "B1",
+      "17": "B2",
+      "16": "B3",
+      "15": "B4",
+      "14": "B5",
+      "13": "B6",
+      "12": "B7",
+      "11": "B8"
+    },
+    "connections": {
+      "10": "GND",
+      "19": "ETH_ISO_OE_N",
+      "20": "ETH_3V3",
+      "2": "RMII1_TX_EN_DAMPED",
+      "18": "RMII1_TX_EN_ISO",
+      "3": "RMII1_TXD0_DAMPED",
+      "17": "RMII1_TXD0_ISO",
+      "4": "RMII1_TXD1_DAMPED",
+      "16": "RMII1_TXD1_ISO",
+      "5": "RMII1_RXD0",
+      "15": "RMII1_RXD0_ISO",
+      "6": "RMII1_RXD1",
+      "14": "RMII1_RXD1_ISO",
+      "7": "RMII1_CRS_DV",
+      "13": "RMII1_CRS_DV_ISO",
+      "8": "RMII1_RX_ER",
+      "12": "RMII1_RX_ER_ISO",
+      "9": "RMII1_REFCLK",
+      "11": "RMII1_REFCLK_ISO"
+    },
+    "noConnect": [
+      "1"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "TSSOP20",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_ETH_ISO0",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_ETH_ISO1",
+    "kind": "chip",
+    "value": "SN74CB3Q3245PWR",
+    "mpn": "SN74CB3Q3245PWR",
+    "pinLabels": {
+      "1": "NC",
+      "10": "GND",
+      "19": "OE_N",
+      "20": "VCC",
+      "2": "A1",
+      "3": "A2",
+      "4": "A3",
+      "5": "A4",
+      "6": "A5",
+      "7": "A6",
+      "8": "A7",
+      "9": "A8",
+      "18": "B1",
+      "17": "B2",
+      "16": "B3",
+      "15": "B4",
+      "14": "B5",
+      "13": "B6",
+      "12": "B7",
+      "11": "B8"
+    },
+    "connections": {
+      "10": "GND",
+      "19": "ETH_ISO_OE_N",
+      "20": "ETH_3V3",
+      "2": "ETH_MDIO",
+      "18": "ETH_MDIO_ISO",
+      "3": "ETH_MDC_DAMPED",
+      "17": "ETH_MDC_ISO",
+      "4": "GND",
+      "16": "GND",
+      "5": "GND",
+      "15": "GND",
+      "6": "GND",
+      "14": "GND",
+      "7": "GND",
+      "13": "GND",
+      "8": "GND",
+      "12": "GND",
+      "9": "GND",
+      "11": "GND"
+    },
+    "noConnect": [
+      "1"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "TSSOP20",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_ETH_ISO1",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_ETH_ISO_OE",
+    "kind": "chip",
+    "value": "SN74LVC1G14DBVR",
+    "mpn": "SN74LVC1G14DBVR",
+    "pinLabels": {
+      "1": "NC",
+      "2": "A",
+      "3": "GND",
+      "4": "Y",
+      "5": "VCC"
+    },
+    "connections": {
+      "2": "PHY_RESET_N",
+      "3": "GND",
+      "4": "ETH_ISO_OE_N",
+      "5": "ETH_3V3"
+    },
+    "noConnect": [
+      "1"
+    ],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprintKey": "SOT23_5",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "R_ETH_ISO_OE_PU",
+    "kind": "resistor",
+    "value": "10k",
+    "mpn": "RC0402FR-0710KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_ISO_OE_N",
+      "2": "ETH_3V3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_ETH_ISO_OE",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_LCD_OE_PU",
+    "kind": "resistor",
+    "value": "10k",
+    "mpn": "RC0402FR-0710KL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_OE_N",
+      "2": "LCD_3V3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "U_LCD_CLK",
+    "kind": "chip",
+    "value": "SN74LVC1G125DBVR",
+    "mpn": "SN74LVC1G125DBVR",
+    "pinLabels": {
+      "1": "OE_N",
+      "2": "A",
+      "3": "GND",
+      "4": "Y",
+      "5": "VCC"
+    },
+    "connections": {
+      "1": "LCD_OE_N",
+      "2": "LCD_PCLK",
+      "3": "GND",
+      "4": "LCD_PCLK_BUF",
+      "5": "LCD_3V3"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "Dedicated noninverting clock buffer. Conditional pulse-width envelope improves over LVC244; verify actual FPC load/slew/duty.",
+    "footprintKey": "SOT23_5",
+    "useImportedFootprint": true
+  },
+  {
+    "name": "C_LCD_CLK",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_MDC_SRC",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "ETH_MDC",
+      "2": "ETH_MDC_DAMPED"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "CPU-source damping; 33 ohm provisional, not impedance matched or SI-qualified. Select final 0/22/33 ohm value after IBIS/PVT, actual stackup, passive-switch loading and hardware timing qualification.",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_TXD0_SRC",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "RMII1_TXD0",
+      "2": "RMII1_TXD0_DAMPED"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "CPU-source damping; 33 ohm provisional, not impedance matched or SI-qualified. Select final 0/22/33 ohm value after IBIS/PVT, actual stackup, passive-switch loading and hardware timing qualification.",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_TXD1_SRC",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "RMII1_TXD1",
+      "2": "RMII1_TXD1_DAMPED"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "CPU-source damping; 33 ohm provisional, not impedance matched or SI-qualified. Select final 0/22/33 ohm value after IBIS/PVT, actual stackup, passive-switch loading and hardware timing qualification.",
+    "footprint": "0402"
+  },
+  {
+    "name": "R_ETH_TX_EN_SRC",
+    "kind": "resistor",
+    "value": "33ohm",
+    "mpn": "RC0402FR-0733RL",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "RMII1_TX_EN",
+      "2": "RMII1_TX_EN_DAMPED"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "CPU-source damping; 33 ohm provisional, not impedance matched or SI-qualified. Select final 0/22/33 ohm value after IBIS/PVT, actual stackup, passive-switch loading and hardware timing qualification.",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RMII_RETURN_A",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "GND",
+      "2": "V1V8"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "Proposed power-to-ground reference-transfer capacitor for RMII route; matched existing Murata GRM155R71C104KA88D 100 nF 0402. Local connection does not establish high-frequency return qualification. Effective capacitance at 1.8 V, frequency-dependent ESR/ESL, mounting/via inductance and PDN antiresonance must be modeled before acceptance. Bottom-side library mirroring places pin 2 at the screened V1V8 pad and pin 1 at the screened GND pad.",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RMII_RETURN_B",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "GND",
+      "2": "V1V8"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "Proposed power-to-ground reference-transfer capacitor for RMII route; matched existing Murata GRM155R71C104KA88D 100 nF 0402. Local connection does not establish high-frequency return qualification. Effective capacitance at 1.8 V, frequency-dependent ESR/ESL, mounting/via inductance and PDN antiresonance must be modeled before acceptance. Bottom-side library mirroring places pin 2 at the screened V1V8 pad and pin 1 at the screened GND pad.",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RMII_RETURN_C",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "GND",
+      "2": "V1V8"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "Proposed power-to-ground reference-transfer capacitor for RMII route; matched existing Murata GRM155R71C104KA88D 100 nF 0402. Local connection does not establish high-frequency return qualification. Effective capacitance at 1.8 V, frequency-dependent ESR/ESL, mounting/via inductance and PDN antiresonance must be modeled before acceptance. Bottom-side library mirroring places pin 2 at the screened V1V8 pad and pin 1 at the screened GND pad.",
+    "footprint": "0402"
+  },
+  {
+    "name": "C_RMII_RETURN_D",
+    "kind": "capacitor",
+    "value": "100nF",
+    "mpn": "GRM155R71C104KA88D",
+    "pinLabels": {
+      "1": "1",
+      "2": "2"
+    },
+    "connections": {
+      "1": "GND",
+      "2": "V1V8"
+    },
+    "noConnect": [],
+    "sheet": "Ethernet and RGB expansion",
+    "note": "Proposed power-to-ground reference-transfer capacitor for RMII route; matched existing Murata GRM155R71C104KA88D 100 nF 0402. Local connection does not establish high-frequency return qualification. Effective capacitance at 1.8 V, frequency-dependent ESR/ESL, mounting/via inductance and PDN antiresonance must be modeled before acceptance. Bottom-side library mirroring places pin 2 at the screened V1V8 pad and pin 1 at the screened GND pad.",
+    "footprint": "0402"
+  }
+]

@@ -1,0 +1,446 @@
+{
+  "input_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+  "remaining_minimum_joins": 55,
+  "net_requirements": [
+    {
+      "nets": [
+        "SYSBOOT0"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT4"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT8"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT1"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT5"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT9"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT12"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT2"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT6"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT10"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT13"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT3"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT7"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT11"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT14"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_HSYNC"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "SYSBOOT15"
+      ],
+      "terminals": 3,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_VSYNC"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "LCD_PCLK"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "LCD_DE"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_RGB_D22"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_RGB_D23"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_RGB_D21"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_RGB_D18"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_RGB_D19"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_RGB_D20"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_RGB_D16"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D23"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D22"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D21"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D20"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D19"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D18"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D17"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D16"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D15"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D14"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D13"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D12"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D11"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D10"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D9"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_PCLK_RX"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D8"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D7"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D6"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D5"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D4"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D3"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D2"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D1"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_D0"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_DE_RX"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_HSYNC_RX"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    },
+    {
+      "nets": [
+        "HDMI_VSYNC_RX"
+      ],
+      "terminals": 2,
+      "physical_groups": 2,
+      "remaining_joins": 1
+    }
+  ]
+}

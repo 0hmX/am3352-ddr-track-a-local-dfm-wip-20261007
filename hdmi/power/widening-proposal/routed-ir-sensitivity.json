@@ -1,0 +1,313 @@
+{
+  "status": "PARAMETER_SENSITIVITY_ONLY_NO_TRANSIENT_OR_GROUND_SIGNOFF",
+  "power_patch_sha256": "e57ebea800fd040705bf4fe5cfddf36600d59b370d66f4b048934a90a6464508",
+  "widening_patch_sha256": "bb523bba7152fa36d5a7c709148dc7d03fcf7793b5f3f782768536056beb2794",
+  "actual_native_path_metrics": {
+    "selected": {
+      "by_layer": {
+        "inner4": {
+          "length_mm": 25.24369075297935,
+          "squares": 100.9747630119174
+        },
+        "top": {
+          "length_mm": 16.84454593500596,
+          "squares": 79.5297683391381
+        },
+        "bottom": {
+          "length_mm": 4.5956767340755755,
+          "squares": 18.382706936302302
+        }
+      },
+      "total_trace_squares": 198.8872382873578,
+      "segments": [
+        {
+          "pcb_trace_id": "hdmi_power_trace_final_088_distribution_HDMI_5V_SUPPLY",
+          "by_layer": {
+            "inner4": {
+              "length_mm": 17.695961061281917,
+              "squares": 70.78384424512767
+            },
+            "top": {
+              "length_mm": 0.9804208280121322,
+              "squares": 3.9216833120485286
+            }
+          }
+        },
+        {
+          "pcb_trace_id": "hdmi_power_trace_1009_TPD_SUPPLY_inner4",
+          "by_layer": {
+            "inner4": {
+              "length_mm": 7.547729691697432,
+              "squares": 30.19091876678973
+            }
+          }
+        },
+        {
+          "pcb_trace_id": "hdmi_power_trace_1034_TPD5V_output_joint_proposal",
+          "by_layer": {
+            "top": {
+              "length_mm": 4.024583111853686,
+              "squares": 16.098332447414744
+            },
+            "bottom": {
+              "length_mm": 4.5956767340755755,
+              "squares": 18.382706936302302
+            }
+          }
+        },
+        {
+          "pcb_trace_id": "hdmi_power_trace_final_090_distribution_HDMI_5V",
+          "by_layer": {
+            "top": {
+              "length_mm": 9.814277895287766,
+              "squares": 39.257111581151065
+            }
+          }
+        },
+        {
+          "pcb_trace_id": "hdmi_power_reserved_TPD_SUPPLY_dogbone",
+          "by_layer": {
+            "top": {
+              "length_mm": 2.025264099852375,
+              "squares": 20.252640998523752
+            }
+          }
+        }
+      ]
+    },
+    "width_only_proposal": {
+      "by_layer": {
+        "inner4": {
+          "length_mm": 25.243690752979347,
+          "squares": 53.243560106319336
+        },
+        "top": {
+          "length_mm": 16.844545935005957,
+          "squares": 63.99101685972157
+        },
+        "bottom": {
+          "length_mm": 4.5956767340755755,
+          "squares": 14.023002462939411
+        }
+      },
+      "total_trace_squares": 131.2575794289803,
+      "segments": [
+        {
+          "pcb_trace_id": "hdmi_power_trace_final_088_distribution_HDMI_5V_SUPPLY",
+          "by_layer": {
+            "inner4": {
+              "length_mm": 17.695961061281917,
+              "squares": 36.47882044905573
+            },
+            "top": {
+              "length_mm": 0.9804208280121323,
+              "squares": 2.614455541365678
+            }
+          }
+        },
+        {
+          "pcb_trace_id": "hdmi_power_trace_1009_TPD_SUPPLY_inner4",
+          "by_layer": {
+            "inner4": {
+              "length_mm": 7.547729691697431,
+              "squares": 16.764739657263604
+            }
+          }
+        },
+        {
+          "pcb_trace_id": "hdmi_power_trace_1034_TPD5V_output_joint_proposal",
+          "by_layer": {
+            "top": {
+              "length_mm": 4.024583111853686,
+              "squares": 14.199799834391099
+            },
+            "bottom": {
+              "length_mm": 4.5956767340755755,
+              "squares": 14.023002462939411
+            }
+          }
+        },
+        {
+          "pcb_trace_id": "hdmi_power_trace_final_090_distribution_HDMI_5V",
+          "by_layer": {
+            "top": {
+              "length_mm": 9.814277895287765,
+              "squares": 26.924120485441037
+            }
+          }
+        },
+        {
+          "pcb_trace_id": "hdmi_power_reserved_TPD_SUPPLY_dogbone",
+          "by_layer": {
+            "top": {
+              "length_mm": 2.025264099852375,
+              "squares": 20.252640998523752
+            }
+          }
+        }
+      ]
+    }
+  },
+  "scenarios": [
+    {
+      "copper_um": 18,
+      "copper_temperature_C": 25,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.007899522359592692,
+      "selected": {
+        "trace_ohm": 0.19423290123553907,
+        "source_path_drop_V": 0.011117283297732247,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.022649516702268002
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.1281859041393588,
+        "source_path_drop_V": 0.007484698457442331,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.0262821015425585
+      }
+    },
+    {
+      "copper_um": 18,
+      "copper_temperature_C": 85,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.009726332904771876,
+      "selected": {
+        "trace_ohm": 0.2391503906793091,
+        "source_path_drop_V": 0.013688219797124453,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.020078580202875784
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.15782964090791743,
+        "source_path_drop_V": 0.009215578559697912,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.024551221440302307
+      }
+    },
+    {
+      "copper_um": 18,
+      "copper_temperature_C": 125,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.010944206601558001,
+      "selected": {
+        "trace_ohm": 0.26909538364182245,
+        "source_path_drop_V": 0.015402177463385925,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.018364622536614306
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.1775921320869565,
+        "source_path_drop_V": 0.010369498627868299,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.023397301372131807
+      }
+    },
+    {
+      "copper_um": 35,
+      "copper_temperature_C": 25,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.007899522359592692,
+      "selected": {
+        "trace_ohm": 0.09989120634970582,
+        "source_path_drop_V": 0.005928490079011418,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.027838309920989346
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.06592417927167024,
+        "source_path_drop_V": 0.004060303589719461,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.02970649641028089
+      }
+    },
+    {
+      "copper_um": 35,
+      "copper_temperature_C": 85,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.009726332904771876,
+      "selected": {
+        "trace_ohm": 0.12299162949221612,
+        "source_path_drop_V": 0.00729948793183434,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.026467312068166216
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.08116952960978611,
+        "source_path_drop_V": 0.004999272438300689,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.028767527561699424
+      }
+    },
+    {
+      "copper_um": 35,
+      "copper_temperature_C": 125,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.010944206601558001,
+      "selected": {
+        "trace_ohm": 0.13839191158722297,
+        "source_path_drop_V": 0.008213486500382955,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.025553313499617758
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.09133309650186336,
+        "source_path_drop_V": 0.005625251670688175,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.02814154832931237
+      }
+    },
+    {
+      "copper_um": 70,
+      "copper_temperature_C": 25,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.007899522359592692,
+      "selected": {
+        "trace_ohm": 0.04994560317485291,
+        "source_path_drop_V": 0.003181481904394508,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.030585318095606162
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.03296208963583512,
+        "source_path_drop_V": 0.00224738865974853,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.031519411340251935
+      }
+    },
+    {
+      "copper_um": 70,
+      "copper_temperature_C": 85,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.009726332904771876,
+      "selected": {
+        "trace_ohm": 0.06149581474610806,
+        "source_path_drop_V": 0.0039172181207983965,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.02984958187920217
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.04058476480489306,
+        "source_path_drop_V": 0.0027671103740315715,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.030999689625969218
+      }
+    },
+    {
+      "copper_um": 70,
+      "copper_temperature_C": 125,
+      "load_A": 0.055,
+      "four_full_barrel_bound_ohm": 0.010944206601558001,
+      "selected": {
+        "trace_ohm": 0.06919595579361149,
+        "source_path_drop_V": 0.004407708931734321,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.029359091068266174
+      },
+      "width_only_proposal": {
+        "trace_ohm": 0.04566654825093168,
+        "source_path_drop_V": 0.0031135915168869327,
+        "remaining_to4_8V_from_static4_8337668V_V": 0.03065320848311348
+      }
+    }
+  ],
+  "assumptions": {
+    "copper_resistivity20C_ohm_m": 1.724e-08,
+    "temperature_coefficient_per_C": 0.00393,
+    "barrel_plating_um": 20,
+    "barrel_hole_um": 150,
+    "barrels_counted_at_full_board_thickness": 4,
+    "board_thickness_mm": 1.2
+  },
+  "limits": [
+    "The actual native records are authoritative; saved routing results retain older draft polyline lengths/layers and are not used here.",
+    "Copper thickness and finished via plating are explicit scenario parameters, not released fabrication guarantees.",
+    "Ground distribution resistance, pad spreading, connector contact and TPD dynamic response are not solved here.",
+    "The old5mV combined PCB/GND allocation predates actual routes and is not justified by this routed path.",
+    "The converter encrypted PSpice startup/load simulation did not execute. This arithmetic is not a substitute for it.",
+    "Output must retain4.8..5.3V including initial tolerance, PCB drop, load response and ripple. Static corners remain conditional."
+  ]
+}

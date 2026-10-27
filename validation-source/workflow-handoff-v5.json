@@ -1,0 +1,198 @@
+{
+  "status": "PASS_UNCHANGED_NATIVE_TSX_AND_SELECTED_WIDTH_PHYSICAL_V5",
+  "configuration": {
+    "mainEntrypoint": "index.tsx",
+    "includeBoardFiles": [
+      "index.tsx",
+      "validation-source/index-with-layout.circuit.json"
+    ],
+    "previewComponentPath": "validation-source/index-with-layout.circuit.json",
+    "siteDefaultComponentPath": "validation-source/index-with-layout.circuit.json",
+    "build": {
+      "routingDisabled": true,
+      "previewImages": false,
+      "typescriptLibrary": false
+    },
+    "buildCommand": "sh scripts/build.sh"
+  },
+  "files_sha256": {
+    "tscircuit.config.json": "131a75bea84a9a57c3c290338ec689b1c359d467e365653d401f48c7dbcc2577",
+    "package.json": "4d668ed83da9526aca54d9eed10e5b83ce7d64396630768ac2f278a1c2af065b",
+    "README.md": "231554bd4e065b3aa9213f2d3a83d83452b38f5e5a1a43af70d09092f75fa72d",
+    "scripts/dev.sh": "cd3d3563fc2fe0381e40f69cf6594ab3cac75ac521147cac36d844cef60f1738",
+    "scripts/build.sh": "2c8cbae70630aa73f4bce1f08a2923dc3d4f0cb0d9decf840f79131145edbb91",
+    "scripts/mirror-source.py": "ea6b9d203ac7697aabc6f3b4f87ea0d7276d5bf5f444964ce45f438365c1f1ef",
+    "scripts/replay-layout.sh": "fbf921e32d5e84237dff55057d465e03501a033eff8e3118c9b4d0fa76403456",
+    "scripts/render-source.tsx": "f7a2f75cfabc166640eb2481893699a5a49e3dfc971d06ff76a4bbb3f57ca5a3",
+    "scripts/compile-layout.py": "82aa6fa604f871efb7b0ae5dd3c7d8610f5732a21d0d932c895bdc3c6fb6698c",
+    "validation-source/check-native-parity.py": "092ebc91c9bc2ad707e42d15c06a973b0673a2a01263dbb7ef472fa5c4b8847f",
+    "validation-source/layout-binding-v1.json": "f85375508ca3ee3663d0d584ea095a83220cd40b7dba28faabaa4498e1f1fab0",
+    "validation-source/source-placement-v4.json": "1ee95561e23972af6e23eae219cf5d110a6cbcb5d8bd0af0049a3331a91f7746",
+    "validation-source/initial-placement-overrides-v4.json": "4d5410b7acbf179cda1a9252be27ce3b3cc26c2bda8ec8bc9db72fdaf6590fd6",
+    "validation-source/layout-binding-v5.json": "6eaa7ebe92a41aca04357fa4cf279632dbf1976a3376d6db6cabea1a4698b65c",
+    "validation-source/source-parity-v5.json": "e94d8f0029cf62d701c6c9ba8c66daad50dc4211d40ceff8d5301552c6ead6c0",
+    "validation-source/index-with-layout-v5-receipt.json": "6f2d7161caa931d4ce1b99956403fcb0326566420baeecaf92c7407ebf2ea3a0"
+  },
+  "selected_compiled_snapshot": {
+    "path": "validation-source/index-with-layout-v5.circuit.json",
+    "sha256": "362a47bf107a5ca5c759d2f47488716992b6af0e63e2d9b999be0a9e8b0b4875",
+    "models_path": "validation-source/index-with-layout-v5.models.json",
+    "models_sha256": "8f001f7791e5c602af88d0faceeb5e5ec5b362bb56dcdf93fe502d99f5ec7561",
+    "native_render_sha256": "d233c4c5c9f7e0a545c8ea09e6e2a6095e38ce3a90074c541333b8a7edfa12c3",
+    "saved_physical_path": "hdmi/validation-next/power-widening/candidate.circuit.json",
+    "saved_physical_sha256": "d5e8f9ace911e5989cb3b5224afe20091092f4b42c3344a8d1749f056230c98b",
+    "binding": "validation-source/layout-binding-v5.json",
+    "frozen_physical_records_exact": true,
+    "physical_records": 8580,
+    "pcb_traces": 1288,
+    "pcb_vias": 1143,
+    "pcb_pours": 76,
+    "native_parts": 347,
+    "native_source_pins": 1472,
+    "native_schematic_ports": 1461,
+    "native_schematic_sheets": 23,
+    "native_models_stored_separately": 7
+  },
+  "verification": {
+    "source_parity": "validation-source/source-parity-v5.json",
+    "replay": "validation-source/index-with-layout-v5-receipt.json",
+    "physical_selection_receipt": "hdmi/validation-next/power-widening/selection-receipt.json",
+    "component_pin_net_name_value_MPN_internal_metal_parity": true,
+    "CPU_ball_schematic_coverage": 324,
+    "RAM_ball_schematic_coverage": 96,
+    "native_errors": 0,
+    "outside_sheet_warnings": 0,
+    "native_warning_count": 226,
+    "native_warnings_by_type": {
+      "schematic_sheet_styling_warning": 23,
+      "source_refdes_convention_warning": 30,
+      "source_no_power_pin_defined_warning": 47,
+      "source_no_ground_pin_defined_warning": 47,
+      "source_component_pins_underspecified_warning": 38,
+      "source_missing_manufacturer_part_number_warning": 9,
+      "schematic_component_styling_warning": 32
+    },
+    "source_dependency_files": 26,
+    "source_files_unchanged_since_render": true,
+    "heavy_native_render_jobs_for_milestone": 0,
+    "all320_DDR_signal_records_preserved": "Selected physical target preserved verbatim; independent physical proof is in the selection receipts.",
+    "physical_receipt_sha256": {
+      "composition-receipt.json": "60024010224983e4f33a487b0e5e7ad50e4e6a70be0c56a14e7945e14e4e7b95",
+      "source-ddr-reference-proof.json": "98ddf9c9f6fd156ea891e3fe6e8959886090a720c3ff21b5f8eba1f5def9cbc3",
+      "width-only-proof.json": "28932c5be4be4153f16c9c41b30c2d3b7af85911cdf9dee2784d6d9ce6107e04",
+      "new-ground-references.json": "76db627bf4dad34fcfa018b73131e98cc97f4dde38929ac47bbfa5bec7728eec",
+      "selection-receipt.json": "478429008b0ee02fe0d72ee9204d486c7fa6a251b765cd80d6b6bb92f4bb01b6"
+    },
+    "changed_source_dependencies": [],
+    "source_placement_change_receipt": "validation-source/source-placement-v4.json",
+    "all5_accepted_passive_native_poses_match_selected_physical": true,
+    "native_render_reused_after_all26_source_hashes_verified": true,
+    "isolated_canonical_preview_mirror": "validation-source/v5-mirror-check.json"
+  },
+  "guard_limits": {
+    "legacy_redundant_physical_trace_aliases": 10,
+    "initial_native_placement_hints_overridden_by_selected_layout": 13,
+    "overridden_placement_names": [
+      "C_VDD_MPU_1",
+      "TP_DBG_SYS_5V",
+      "TP_DBG_V3V3",
+      "TP_DBG_V1V8",
+      "TP_DBG_VDD_MPU",
+      "TP_DBG_GND",
+      "U_PG_LED",
+      "D_PG_LED",
+      "R_PG_LED",
+      "R_PG_LEAK",
+      "C_PG_LED",
+      "R_PG_SENSE",
+      "R_PG_PULLDOWN"
+    ],
+    "strict_native_vs_saved_placement_parity_claimed": false,
+    "unchanged_native_schematic_virtual_edge_references": 753,
+    "introduced_dangling_references": 0,
+    "DRC_or_SI_signoff_claimed": false,
+    "physical_open_joins_from_independent_selection_audit": 55,
+    "direct_index_tsx_PCB_has_faithful_saved_replay": false,
+    "workaround": "Default generated PCB contains exact selected physical state plus actual TSX logic and schematic; direct index.tsx remains logical/Schematic/code authority.",
+    "read_only_pose_deltas": "validation-source/initial-placement-overrides-v4.json",
+    "pose_difference_note": "13 exact-comparison entries: 12 DebugStatus placement differences plus a 1.11e-16 mm C_VDD_MPU_1 floating-point difference. No additional source edits performed."
+  },
+  "canonical_source_milestone": {
+    "IRQ": "V17/GPIO1_27",
+    "released_ball": "V14",
+    "SD_card_detect": "U16",
+    "R_BOOT15": {
+      "resistance_ohms": 10000,
+      "nets": [
+        "SYSBOOT15",
+        "GND"
+      ],
+      "pcbX": 8.95,
+      "pcbY": -1.6,
+      "pcbRotation": 0,
+      "layer": "top"
+    },
+    "other_pending_RN6_C58_power_placement_proposals_canonicalized": false,
+    "accepted_passive_poses": {
+      "C_HDMI_REF_C178": {
+        "pcbX": 43.9,
+        "pcbY": -30.5,
+        "pcbRotation": 270,
+        "layer": "bottom"
+      },
+      "R_HDMI_UTILITY": {
+        "pcbX": 53.8,
+        "pcbY": -30.35,
+        "pcbRotation": 270,
+        "layer": "top"
+      },
+      "C_HDMI_1V2_IN": {
+        "pcbX": 48,
+        "pcbY": -19.3,
+        "pcbRotation": 90,
+        "layer": "bottom"
+      },
+      "R_HDMI_5V_TOP": {
+        "pcbX": 59.5,
+        "pcbY": -14.5,
+        "pcbRotation": 270,
+        "layer": "bottom"
+      },
+      "R_HDMI_5V_BOTTOM": {
+        "pcbX": 58.5,
+        "pcbY": -14.5,
+        "pcbRotation": 90,
+        "layer": "bottom"
+      }
+    }
+  },
+  "publication": {
+    "canonical_default_generated_artifact_sha256": "362a47bf107a5ca5c759d2f47488716992b6af0e63e2d9b999be0a9e8b0b4875",
+    "canonical_config_default": "validation-source/index-with-layout.circuit.json",
+    "future_replay_selects_binding": "validation-source/layout-binding-v5.json",
+    "v1_through_v4_bindings_and_versioned_artifacts_preserved": true,
+    "new_artifact_sent_to_parent_before_live_publish": true,
+    "live_services_modified_or_stopped_by_this_agent": false,
+    "parent_action": "Atomically publish the supplied v5 artifact to the live circuit.json alias."
+  },
+  "implementation_work_remaining_in_current_workflow_scope": [],
+  "selected_physical_delta": {
+    "baseline_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+    "replacements": 5,
+    "replacement_scope": "Four power trace widths and one subtractive local pour change only",
+    "adds": 0,
+    "deletes": 0,
+    "source_and_placements_unchanged": true,
+    "all320_DDR_records_exact": true,
+    "all64_TX_records_exact": true,
+    "all24_TX_terminal_guards_exact": true,
+    "unique_new_GND_vias_preserved": 65,
+    "actual_GND_plane_contacts_preserved": 130,
+    "physical_joins_closed": 0,
+    "remaining_open_joins": 55,
+    "remaining_join_scope": "Raw SYSBOOT/RGB/control video-bus routes only",
+    "new_RN6_C58_RN5_proposals_included": false,
+    "conditional_IR_sensitivity_provenance": "hdmi/validation-next/power-widening/selection-receipt.json; trace resistance sensitivity only, ground/transient unqualified",
+    "SI_or_PDN_transient_signoff_claimed": false
+  }
+}

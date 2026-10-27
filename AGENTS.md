@@ -1,0 +1,5 @@
+- Avoid bun patch when possible.
+- Prefer changes that remove more code than they add.
+- For tscircuit bugs, author reproductions as actual native TSX rather than hand-authored or imported Circuit JSON unless explicitly requested otherwise.
+- For repository bugs, prefer two stacked PRs where practical: reproduction first, then fix, with visual evidence where useful.
+- This checked layout remains a work in progress with 55 video-bus joins open; do not describe it as fabrication-ready or DDR/HDMI SI-qualified.

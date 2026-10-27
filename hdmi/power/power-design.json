@@ -1,0 +1,164 @@
+{
+  "status": "STATIC_COMPONENT_CORNERS_ONLY_ROUTED_POWER_QUALIFICATION_PENDING",
+  "part_count": 7,
+  "IC_count": 1,
+  "input_net": "V3V3",
+  "regulated_output_net": "HDMI_5V_SUPPLY",
+  "nominal_output_v": 5.15,
+  "load": "TPD13S523 5V_SUPPLY; HDMI connector +5V is downstream of its current-limited reverse-blocking switch, never tied directly to this rail.",
+  "input_qualification_v": [
+    3.135,
+    3.465
+  ],
+  "connector_load_max_a": 0.055,
+  "converter": {
+    "mpn": "TPS61033DRLR",
+    "mode": "forced PWM, MODE tied to V3V3",
+    "inductor_h": 1.5e-06,
+    "divider_ohm": [
+      91000,
+      12000
+    ],
+    "divider_initial_tolerance": 0.001,
+    "divider_tcr_per_C": 2.5e-05,
+    "feedback_leakage_bound_a": 3e-08
+  },
+  "dc_limits": {
+    "minimum_connector_dc_v": 4.8337667959646184,
+    "maximum_connector_dc_v": 5.262430774967966,
+    "remaining_lower_budget_for_ripple_undershoot_v": null,
+    "remaining_upper_budget_for_ripple_overshoot_v": null,
+    "pre_pcb_lower_static_headroom_v": 0.03376679596461862,
+    "pre_pcb_upper_static_headroom_v": 0.037569225032033415,
+    "withdrawn_unrouted_board_drop_allocation_v": 0.005,
+    "voltage_scope": "Before routed PCB/source/Ground drop and dynamic excursions."
+  },
+  "capacitor_budget": {
+    "output_mpn": "CL32B226KOJNNNE",
+    "count": 2,
+    "nameplate_total_f": 4.4e-05,
+    "manufacturer_typical_dc_bias_at_5p2625_v_percent": -25.57318598129392,
+    "typical_biased_total_f": 3.274779816823067e-05,
+    "illustrative_tol_temp_age_total_f": 2.3799462318761636e-05,
+    "factors": {
+      "initial_capacitance": 0.9,
+      "temperature": 0.85,
+      "ageing": 0.95
+    },
+    "required_qualified_effective_total_f": 2e-05,
+    "disclaimer": "The DC-bias graph is typical design data, not a guaranteed production bound; the independent factors are a screening budget, not a certified statistical model."
+  },
+  "layout": {
+    "converter_land_pattern": "TI DRL0008A land pattern example: eight0.67x0.30mm pads,0.50mm pitch, opposingpadcenter spacing1.48mm; exact orientation from top-view pin map. Physical agent verifies nativefootprint.",
+    "inductor_body_mm": [
+      4.4,
+      4.4,
+      1.9
+    ],
+    "inductor_layout_source": "Eaton datasheet page2; do not assume generic4x4 pad geometry.",
+    "output_cap_package": "1210 (3.2x2.5mm nominal), real1210 pads required.",
+    "instructions": [
+      "Keep converter/inductor/inputcap/outputcap hotloop compact and at the HDMI perimeter, away from DDR routes.",
+      "Connect outputcaps directly between VOUT andGND with short wide copper; route quietFB from the capacitor node.",
+      "Keep SW copper small and away from RGB/TMDS/I2C/FB.",
+      "Provide a continuous ground return and nearby real groundvias; check foreignplane antipads on every throughvia.",
+      "The old5mV combined source/Ground allocation is withdrawn. Use the actual native routed-path resistance sensitivity and qualify Ground spreading, via plating and the released copper stackup."
+    ],
+    "inductor_pad_layout": {
+      "verified_source_page": 2,
+      "local_render": "work/hdmi-power/eaton-page2.png",
+      "pad_width_mm": 3.4,
+      "pad_height_mm": 0.98,
+      "pad_centers_mm": [
+        [
+          0,
+          1.185
+        ],
+        [
+          0,
+          -1.185
+        ]
+      ],
+      "outer_span_mm": 3.35,
+      "inner_gap_mm": 1.39,
+      "note": "No unrelated signaltraces or vias under the body; preserve required own-pad leads."
+    }
+  },
+  "simulation": {
+    "vendor_model_url": "https://www.ti.com/lit/zip/SLVMDZ9",
+    "vendor_model_format": "Cadence encrypted PSpice",
+    "native_ngspice_compatibility_probe_exit_code": 1,
+    "status": "NO_TRANSIENT_RESULT_VENDOR_MODEL_INCOMPATIBLE",
+    "raw_probe_log": "work/hdmi-power/vendor-compatibility-probe.log",
+    "details": "Actual ngspice compatibility probe rejects CDNENCSTART_ADV2 encrypted library; no waveform and no results.html exist. No substitute ideal converter or fabricated report was used. A licensed compatible simulator or vendor unencrypted model is needed for an actual converter transient."
+  },
+  "qualification_remaining": [
+    "Validate full startup/no-load/55mA load-step waveforms and maxripple on the actual routedlayout.",
+    "Determine dynamic allowances from qualified actual routed supply/Ground drop, then validate4.8..5.3V including ripple, startup and load steps.",
+    "Verify effective outputcapacitance and ESR across operatingconditions.",
+    "Validate V3V3 inputimpedance/inrush and powerbudget with the existingPMIC."
+  ],
+  "sources": [
+    {
+      "url": "https://www.ti.com/product/TPS61033",
+      "role": "Manufacturer ACTIVEstatus, \u00b11.5% reference and forcedPWM capability"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps61033.pdf",
+      "role": "Pin map, reference/FB leakage limits, L/C ranges and nativefootprint"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tpd13s523.pdf",
+      "role": "205mV maxdrop55mA and minimum5.005V supply requirement"
+    },
+    {
+      "url": "https://product.samsungsem.com/mlcc/CL32B226KOJNNN.do",
+      "role": "Active16V22uFX7R1210 and typicalDCbias/ESRgraphs"
+    },
+    {
+      "url": "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v04-automotive-high-current-molded-inductor-data-sheet-elx1219-en.pdf",
+      "role": "Inductor ratings and recommended padlayout"
+    },
+    {
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/8588ba6204475578d9d2f17f37e4bd8c.pdf?productCode=C5639821",
+      "role": "Reachable mirror of the Eaton-authored ELX1219July2022datasheet; exactpage2visuallyinspected."
+    }
+  ],
+  "provenance": [
+    {
+      "path": "work/hdmi-power/tps61033.pdf",
+      "sha256": "ad649d9686d7262bb812fd429800c73427c01807eafb9bb0ab55210ee4eaac42"
+    },
+    {
+      "path": "work/hdmi-reference/tpd13s523.pdf",
+      "sha256": "3eba5f84e6e7c47d25f43f1a28e5f9f74278cc8d4646b6ed5947237f5905af8a"
+    },
+    {
+      "path": "work/hdmi-power/output-capacitor-16v.html",
+      "sha256": "0e46b7b16c1aaf79c432f7614d7e8a96a6ace296d52f0bfe3152cf9971a438fb"
+    },
+    {
+      "path": "work/hdmi-power/slvmdz9.zip",
+      "sha256": "adebaf66da87ffab8b0015fcbc075d14b845ef16df22f8e596517b235816861d"
+    },
+    {
+      "path": "work/hdmi-power/vendor-compatibility-probe.log",
+      "sha256": "2bfe6f431a22a6b9f23121c895f4e6b0655fb8eca3cd94eadc24363ec3228e23"
+    },
+    {
+      "path": "work/hdmi-power/eaton-exla1v04.pdf",
+      "sha256": "d8be93105ba8d2d3560c927326e1b768eec7184acf82951c8ba0545f57c41085"
+    },
+    {
+      "path": "work/hdmi-power/eaton-page2.png",
+      "sha256": "fc3096e6d93ac1f74d06aec7825b29b63668434f36da4700af8098d638fcff9a"
+    }
+  ],
+  "routed_path_qualification": {
+    "selected_physical_qa_sha256": "3b110f427c6b17cb47b397f8b84f3794db91c67c8e73506d315e96bfe143f0da",
+    "physical_status": "All power/ground/utility connections closed;65 new Ground vias each connect to both reference planes. This is physical validation, not converter transient qualification.",
+    "resistance_sensitivity": "joint-routing-proposal/routed-ir-sensitivity.json",
+    "separate_width_only_proposal": "widening-proposal/patch.json",
+    "dynamic_qualification": "Pending actual compatible vendor model or bench waveforms; effective capacitance remains conditional."
+  }
+}
