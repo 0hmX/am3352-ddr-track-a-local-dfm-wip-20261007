@@ -12,7 +12,7 @@ display test has been performed. firmware-validation.json records this scope.
 
 Wiring and formats
 
-Use cpu-hdmi-pin-contract.json as the physical wiring source of truth. The eight
+Use cpu-hdmi-pin-contract.tsx as the physical wiring source of truth. The eight
 low color bits are interleaved in the AM335x output, rather than sequentially
 grouped by color. The map was checked visually against TI SPRZ360I Figure 2.
 GPMC_AD15..AD8 provide LCD_DATA16..23 in reverse order, using mux mode 1.

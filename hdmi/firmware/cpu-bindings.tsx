@@ -1,4 +1,4 @@
-{
+const data = {
   "status": "SELECTED_V17_IRQ_SCOPED_PHYSICAL_ROUTE_PASS_WHOLE_BOARD_QA_PENDING",
   "operation": "Merge bindings into existing CPU connections, then delete unbound_balls; preserve all other balls.",
   "bindings": {
@@ -89,3 +89,5 @@
     "physical_candidate_sha256": "f6b163c4c8778d70fe033b05a54f6ab5032428c5745bdc3c6bf9e9e24d5d9030"
   }
 }
+
+export default data

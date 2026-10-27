@@ -1,4 +1,4 @@
-{
+const data = {
   "CAP1210": {
     "source": "Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod",
     "sha256": "e1dae516e079b70c4736d001fb81bfb4ef5f9c2a37c8175223a44f83a04ff75f",
@@ -2214,7 +2214,7 @@
         "type": "thru_hole",
         "shape": "circle",
         "x": 5.84,
-        "y": 3.455,
+        "y": 3.555,
         "rotation": -90.0,
         "width": 2.2,
         "height": 2.2,
@@ -2227,7 +2227,7 @@
         "type": "thru_hole",
         "shape": "circle",
         "x": 5.84,
-        "y": -12.345,
+        "y": -12.445,
         "rotation": -90.0,
         "width": 2.2,
         "height": 2.2,
@@ -3309,3 +3309,5 @@
     "status": "Manufacturer 541041000 Rev B recommended pattern transcribed; signal geometry verified, retention polygon/stencil audit still required"
   }
 }
+
+export default data

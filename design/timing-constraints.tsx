@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import ballMap from "./am3352-ballmap.json"
+import ballMap from "./am3352-ballmap"
 const pin = (signal:string) => {
  const ball=Object.entries(ballMap).find(([,s])=>s===signal)?.[0]
  if (!ball) throw new Error(`Unknown AM3352 signal: ${signal}`)

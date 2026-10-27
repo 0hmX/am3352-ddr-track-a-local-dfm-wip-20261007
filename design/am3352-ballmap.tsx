@@ -1,4 +1,4 @@
-{
+const data = {
   "A18": "VSS",
   "B18": "EXTINTn",
   "C18": "ECAP0_IN_PWM0_OUT",
@@ -324,3 +324,5 @@
   "U1": "LCD_DATA8",
   "V1": "VSS"
 }
+
+export default data

@@ -1,4 +1,4 @@
-{
+const data = {
   "status": "VERIFIED_MAP_SELECTED_V17_IRQ_REQUIRES_BOARD_COMPLETION_AND_BOOT_TEST",
   "display_bus": "RGB888 single-edge24bit",
   "default_drm_framebuffer": "XRGB8888 (XR24)",
@@ -495,3 +495,5 @@
     "physical_candidate_sha256": "f6b163c4c8778d70fe033b05a54f6ab5032428c5745bdc3c6bf9e9e24d5d9030"
   }
 }
+
+export default data

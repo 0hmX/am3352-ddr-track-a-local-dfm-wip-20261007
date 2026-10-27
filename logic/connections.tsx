@@ -1,6 +1,6 @@
-import originalCpu from "../data/cpu-connections.json"
-import display from "../hdmi/firmware/cpu-bindings.json"
-import permutation from "../validation-next/final-ddr/permutation.json"
+import originalCpu from "../data/cpu-connections"
+import display from "../hdmi/firmware/cpu-bindings"
+import permutation from "../validation-next/final-ddr/permutation"
 
 // The AM3352 ball names are stable physical identities. Unmentioned bindings remain intact.
 export const cpuNets: Record<string, string> = { ...originalCpu, ...display.bindings }

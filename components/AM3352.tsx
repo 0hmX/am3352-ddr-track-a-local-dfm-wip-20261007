@@ -1,5 +1,5 @@
 import type { ChipProps } from "@tscircuit/props"
-import ballMap from "../design/am3352-ballmap.json"
+import ballMap from "../design/am3352-ballmap"
 // TI SPRS717L, ZCZ top-view maps, pages 15–17. Numeric selectors preserve imported ordering.
 export const pinLabels = {
   "pin1": [

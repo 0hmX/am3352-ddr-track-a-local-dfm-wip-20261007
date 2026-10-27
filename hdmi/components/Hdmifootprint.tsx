@@ -1,4 +1,4 @@
-import library from "../data/footprints.json"
+import library from "../data/footprints"
 
 /** Literal selected copper lands; coordinates are mm with +Y upward. */
 export function Hdmifootprint({ footprintKey }: { footprintKey: keyof typeof library }) {

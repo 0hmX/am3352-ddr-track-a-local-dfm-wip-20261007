@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "name": "U_HDMI",
     "kind": "chip",
@@ -1415,3 +1415,5 @@
     "note": "Four isolated 33-ohm source-series elements. CAT10 manufacturer land pattern; pins 1-8,2-7,3-6,4-5. Copper-aware placement remains unrouted."
   }
 ]
+
+export default data

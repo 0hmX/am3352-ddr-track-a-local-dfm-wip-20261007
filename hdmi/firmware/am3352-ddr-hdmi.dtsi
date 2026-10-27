@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 // Board-specific include; requires the normal AM335x SoC and board power DTS.
-// The physical wiring contract is cpu-hdmi-pin-contract.json.
+// The physical wiring contract is cpu-hdmi-pin-contract.tsx.
 #include <dt-bindings/gpio/gpio.h>
 #include <dt-bindings/interrupt-controller/irq.h>
 #include <dt-bindings/pinctrl/am33xx.h>

@@ -1,12 +1,16 @@
+import { SavedSilkscreen } from "./layout/SavedSilkscreen"
 import { AM3352, pinLabels as cpuLabels } from "./components/AM3352"
 import { W631GG6MB_12, pinLabels as ramLabels } from "./imports/W631GG6MB_12"
 import { cpuNets, ramNet } from "./logic/connections"
 import { Support, supportSheets, parts as supportParts } from "./support"
 import { DebugStatus } from "./components/DebugStatus"
 import { HDMIInterface } from "./hdmi/HDMIInterface"
-import placement from "./hdmi/data/placement-selected.json"
-import hdmiParts from "./hdmi/data/all-components.json"
+import placement from "./hdmi/data/placement-selected"
+import hdmiParts from "./hdmi/data/all-components"
 import { PinSheets, pinSheets } from "./schematic/PinSheets"
+import { SavedNativePours } from "./data/saved-native-pours"
+import { SavedRoutes } from "./layout/SavedRoutes"
+import { SavedNativeVias } from "./data/saved-native-vias"
 import { TimingConstraints } from "./design/timing-constraints"
 export { ramNet } from "./logic/connections"
 const hdmiSheets = ["HDMI source resistors", "HDMI transmitter and protection", "HDMI power"]
@@ -22,8 +26,11 @@ const hdmiPlacement = Object.fromEntries(hdmiParts.map(p => {
 export default function Board() {
   const cpuConnections = Object.fromEntries(Object.entries(cpuLabels).flatMap(([pin, [ball]]) => cpuNets[ball] ? [[pin, `net.${cpuNets[ball]}`]] : []))
   const ramConnections = Object.fromEntries(Object.entries(ramLabels).flatMap(([pin, [, signal]]) => ramNet(signal) ? [[pin, `net.${ramNet(signal)}`]] : []))
-  return <board width={98} height={65.5} layers={8} thickness={1.2} routingDisabled doubleSidedAssembly
+  return <board width={98} height={65.5} layers={8} thickness={1.2} routingDisabled autorouter={{ allowViaInPad: true }} doubleSidedAssembly
     outline={[{x:-28,y:26.5},{x:70,y:26.5},{x:70,y:-39},{x:-28,y:-39}]}
+    minTraceWidth={0.1} minViaHoleDiameter={0.15} minViaPadDiameter={0.3}
+    minViaHoleEdgeToViaHoleEdgeClearance={0.1} minPlatedHoleDrillEdgeToDrillEdgeClearance={0.15}
+    minTraceToHoleEdgeClearance={0.2} minTraceToPadEdgeClearance={0.1} minPadEdgeToPadEdgeClearance={0.1} minBoardEdgeClearance={0.2}
     schAutoLayoutEnabled={false} placementDrcChecksDisabled title="AM3352 DDR3 + RGB888 HDMI">
     {sheets.map((name, i) => <schematicsheet key={name} name={name} displayName={name} sheetIndex={i} sheetWidth={700} sheetHeight={Math.max(500, ((supportCounts[name] ? Math.ceil(supportCounts[name] / 4) * 9 : sheetCounts[name] ? Math.ceil(sheetCounts[name] / 4) * 12 : 30) + 20) * 10)} />)}
     <AM3352 name="U1" pcbX={0} pcbY={0} connections={cpuConnections} noSchematicRepresentation />
@@ -33,5 +40,9 @@ export default function Board() {
     <Support />
     <DebugStatus />
     <HDMIInterface placement={hdmiPlacement} />
+    <SavedNativeVias />
+    <SavedRoutes />
+    <SavedSilkscreen />
+    <SavedNativePours />
   </board>
 }

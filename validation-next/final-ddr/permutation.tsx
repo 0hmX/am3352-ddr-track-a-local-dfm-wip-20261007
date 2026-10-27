@@ -1,4 +1,4 @@
-{
+const data = {
   "baseline_sha256": "4ed4c784f20a492ac5736e026cdc62ce9ed35da8656c6f70c9132ef3be7e9700",
   "cpu_to_ram": {
     "DDR_D0": "DQL2",
@@ -19,3 +19,5 @@
     "DDR_D8": "DQU1"
   }
 }
+
+export default data

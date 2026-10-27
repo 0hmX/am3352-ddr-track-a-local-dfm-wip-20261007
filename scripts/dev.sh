@@ -12,11 +12,18 @@ cleanup() {
 trap cleanup EXIT
 trap 'exit 130' INT
 trap 'exit 143' TERM
-python3 "$board_root/scripts/mirror-source.py" --source "$board_root" --preview "$preview_dir" --once --replay
-python3 "$board_root/scripts/mirror-source.py" --source "$board_root" --preview "$preview_dir" --replay &
+python3 "$board_root/scripts/mirror-source.py" --source "$board_root" --preview "$preview_dir" --once
+python3 "$board_root/scripts/mirror-source.py" --source "$board_root" --preview "$preview_dir" &
 sync_pid=$!
-printf 'Native TSX/Schematic: http://localhost:%s/#file=index.tsx&tab=schematic\nCompiled TSX + saved layout: http://localhost:%s/#file=index-with-layout.circuit.json&tab=pcb\n' "${PORT:-3020}" "${PORT:-3020}"
+printf 'TSX PCB: http://localhost:%s/#file=index.tsx&tab=pcb\n' "${PORT:-3020}"
 cd "$preview_dir"
-"$board_root/node_modules/.bin/tsci" dev . --port "${PORT:-3020}" &
-server_pid=$!
-wait "$server_pid"
+while :; do
+  "$board_root/node_modules/.bin/tsci" dev . --port "${PORT:-3020}" &
+  server_pid=$!
+  if wait "$server_pid"; then
+    break
+  fi
+  server_pid=
+  printf 'Dev server exited while updating; restarting with the latest TSX files.\n' >&2
+  sleep 2
+done

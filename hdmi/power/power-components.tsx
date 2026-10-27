@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "name": "U_HDMI_5V_BOOST",
     "kind": "chip",
@@ -152,3 +152,5 @@
     "note": "Two parts in parallel. Qualify combined effectiveC>=20uF across bias/temperature/tolerance/ageing. Manufacturer typicalgraph budget23.80uF is not a guaranteed minimum."
   }
 ]
+
+export default data

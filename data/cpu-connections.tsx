@@ -1,4 +1,4 @@
-{
+const data = {
   "F7": "VDD_CORE",
   "F6": "VDD_CORE",
   "M13": "VDD_CORE",
@@ -236,3 +236,5 @@
   "V14": "LCD_STBY",
   "C18": "LCD_BL_PWM"
 }
+
+export default data

@@ -1,4 +1,4 @@
-{
+const data = {
   "J_HDMI": {
     "pcbX": 64.625,
     "pcbY": -28.5,
@@ -390,3 +390,5 @@
     "layer": "bottom"
   }
 }
+
+export default data

@@ -1,4 +1,4 @@
-{
+const data = {
   "courtyards": {
     "AM3352": {
       "bounds": [
@@ -494,3 +494,5 @@
     }
   }
 }
+
+export default data

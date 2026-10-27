@@ -1,4 +1,4 @@
-{
+const data = {
   "U_PMIC": {
     "pcbX": 21,
     "pcbY": -2,
@@ -1775,3 +1775,5 @@
     "layer": "bottom"
   }
 }
+
+export default data

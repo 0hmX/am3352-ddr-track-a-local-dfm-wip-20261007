@@ -1,6 +1,6 @@
 import { pinLabels as cpu } from "../components/AM3352"
 import { pinLabels as ram } from "../imports/W631GG6MB_12"
-import display from "../hdmi/firmware/cpu-hdmi-pin-contract.json"
+import display from "../hdmi/firmware/cpu-hdmi-pin-contract"
 const displayBalls = new Set([...display.rgb_mapping, ...display.control].map(p => p.cpu_ball))
 const cpuSheet = (ball: string, signal: string) => displayBalls.has(ball) ? "CPU video and I2C" :
   signal.startsWith("DDR_") ? "CPU DDR interface" : /^(VSS|VDD|VDDS|CAP_)/.test(signal) ? "CPU supplies" :

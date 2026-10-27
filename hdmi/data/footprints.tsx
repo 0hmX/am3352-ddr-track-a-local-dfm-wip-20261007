@@ -1,4 +1,4 @@
-{
+const data = {
   "IT66122_REVD": {
     "pads": [
       {
@@ -2557,3 +2557,5 @@
     "status": "Manufacturer page1 visually verified;0.50 is pitch and0.45 is inner gap. Derived0.275x0.60pads use midpoints of allowed width/outerspan ranges. Exact diagram numbering; identical isolated elements make180degree rotation electrically symmetric. Frozen CAT16key unchanged."
   }
 }
+
+export default data

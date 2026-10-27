@@ -1,5 +1,6 @@
-import parts from "./data/interface-components.json"
-import selectedPlacement from "./data/placement-selected.json"
+import { savedRefdesStyle } from "../layout/SavedSilkscreen"
+import parts from "./data/interface-components"
+import selectedPlacement from "./data/placement-selected"
 import { Hdmifootprint } from "./components/Hdmifootprint"
 import { SeriesDampingArray } from "./components/SeriesDampingArray"
 import { HdmiPowerRail } from "./power/PowerRail"
@@ -16,7 +17,7 @@ export function HDMIInterface({ placement = selectedPlacement, components = part
         name={p.name} connections={p.connections} footprintKey={p.footprintKey}
         manufacturerPartNumber={p.mpn} {...placement[p.name]} />
       const props = {
-        name: p.name, manufacturerPartNumber: p.mpn, ...placement[p.name],
+        name: p.name, manufacturerPartNumber: p.mpn, ...placement[p.name], pcbStyle: savedRefdesStyle(p.name),
         connections: Object.fromEntries(Object.entries(p.connections).map(([pin, net]) => [`pin${pin}`, `net.${net}`])),
       }
       const footprint = p.footprintKey ? <Hdmifootprint footprintKey={p.footprintKey} /> : p.footprint

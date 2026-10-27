@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "name": "U_PMIC",
     "kind": "chip",
@@ -6238,3 +6238,5 @@
     "footprint": "0402"
   }
 ]
+
+export default data

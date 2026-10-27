@@ -1,4 +1,5 @@
-import parts from "./power-components.json"
+import { savedRefdesStyle } from "../../layout/SavedSilkscreen"
+import parts from "./power-components"
 import { Hdmifootprint } from "../components/Hdmifootprint"
 
 /** Actual converter circuit. The encrypted vendor model is not a native SPICE model. */
@@ -6,7 +7,7 @@ export function HdmiPowerRail({ placement }: { placement: Record<string, any> })
   return <>{parts.map((p: any) => {
     if (!placement[p.name]) throw new Error(`Missing HDMI power placement: ${p.name}`)
     const props = {
-      name: p.name,
+      name: p.name, pcbStyle: savedRefdesStyle(p.name),
       manufacturerPartNumber: p.mpn,
       ...placement[p.name],
       connections: Object.fromEntries(Object.entries(p.connections).map(([pin, net]) =>
