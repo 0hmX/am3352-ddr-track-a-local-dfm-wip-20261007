@@ -8,7 +8,6 @@ import { HDMIInterface } from "./hdmi/HDMIInterface"
 import placement from "./hdmi/data/placement-selected"
 import hdmiParts from "./hdmi/data/all-components"
 import { PinSheets, pinSheets } from "./schematic/PinSheets"
-import { SavedNativePours } from "./data/saved-native-pours"
 import { SavedRoutes } from "./layout/SavedRoutes"
 import { SavedNativeVias } from "./data/saved-native-vias"
 import { TimingConstraints } from "./design/timing-constraints"
@@ -26,7 +25,7 @@ const hdmiPlacement = Object.fromEntries(hdmiParts.map(p => {
 export default function Board() {
   const cpuConnections = Object.fromEntries(Object.entries(cpuLabels).flatMap(([pin, [ball]]) => cpuNets[ball] ? [[pin, `net.${cpuNets[ball]}`]] : []))
   const ramConnections = Object.fromEntries(Object.entries(ramLabels).flatMap(([pin, [, signal]]) => ramNet(signal) ? [[pin, `net.${ramNet(signal)}`]] : []))
-  return <board width={98} height={65.5} layers={8} thickness={1.2} routingDisabled autorouter={{ allowViaInPad: true }} doubleSidedAssembly
+  return <board width={98} height={65.5} layers={8} thickness={1.2} routingDisabled isViaInPadAllowed autorouter={{ allowViaInPad: true }} doubleSidedAssembly
     outline={[{x:-28,y:26.5},{x:70,y:26.5},{x:70,y:-39},{x:-28,y:-39}]}
     minTraceWidth={0.1} minViaHoleDiameter={0.15} minViaPadDiameter={0.3}
     minViaHoleEdgeToViaHoleEdgeClearance={0.1} minPlatedHoleDrillEdgeToDrillEdgeClearance={0.15}
@@ -43,6 +42,5 @@ export default function Board() {
     <SavedNativeVias />
     <SavedRoutes />
     <SavedSilkscreen />
-    <SavedNativePours />
   </board>
 }

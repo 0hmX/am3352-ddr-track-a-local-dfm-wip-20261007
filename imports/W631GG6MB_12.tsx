@@ -1,4 +1,5 @@
 import type { ChipProps } from "@tscircuit/props"
+import { withViaInPad, type ViaInPadProps } from "../layout/ViaInPadFootprint"
 
 export const pinLabels = {
   "pin1": [
@@ -387,7 +388,7 @@ export const pinLabels = {
   ]
 } as const
 
-export const W631GG6MB_12 = (props: ChipProps<typeof pinLabels>) => {
+export const W631GG6MB_12 = ({ viaInPad = false, viaInPadToLayer = "bottom", ...props }: ChipProps<typeof pinLabels> & ViaInPadProps) => {
   return (
     <chip
       // Keep ball designators distinct from signal aliases (A1 is both a ball and an address signal).
@@ -398,7 +399,7 @@ export const W631GG6MB_12 = (props: ChipProps<typeof pinLabels>) => {
   ]
 }}
       manufacturerPartNumber="W631GG6MB-12"
-      footprint={<footprint>
+      footprint={withViaInPad(<footprint>
         <smtpad portHints={["pin1"]} pcbX="-3.199892mm" pcbY="5.999861mm" radius="0.175006mm" shape="circle" />
 <smtpad portHints={["pin2"]} pcbX="-3.199892mm" pcbY="5.199761mm" radius="0.175006mm" shape="circle" />
 <smtpad portHints={["pin3"]} pcbX="-3.199892mm" pcbY="4.399915mm" radius="0.175006mm" shape="circle" />
@@ -499,7 +500,7 @@ export const W631GG6MB_12 = (props: ChipProps<typeof pinLabels>) => {
 <silkscreenrect pcbX="0mm" pcbY="0mm" width="7.500112mm" height="12.999974mm" strokeWidth="0.1999996mm" />
 <silkscreentext text="{NAME}" pcbX="-0.2667mm" pcbY="7.527673mm" anchorAlignment="center" fontSize="1mm" />
 <courtyardoutline outline={[{"x":-4.542599999999993,"y":6.77767300000005},{"x":4.009199999999851,"y":6.77767300000005},{"x":4.009199999999851,"y":-6.752526999999986},{"x":-4.542599999999993,"y":-6.752526999999986},{"x":-4.542599999999993,"y":6.77767300000005}]} />
-      </footprint>}
+      </footprint>, viaInPad, props.connections, Object.fromEntries(Object.entries(pinLabels).map(([pin, [ball, signal]]) => [pin, [ball, `signal_${signal}`]])), viaInPadToLayer)}
       cadModel={{
         objUrl: "https://modelcdn.tscircuit.com/easyeda_models/assets/C408825.obj?uuid=ad4fb88e379c496cbe0bdd4afce603af",
         stepUrl: "https://modelcdn.tscircuit.com/easyeda_models/assets/C408825.step?uuid=ad4fb88e379c496cbe0bdd4afce603af",
