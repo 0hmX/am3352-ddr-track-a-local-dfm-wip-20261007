@@ -3,10 +3,14 @@ import { analyzePcbStyle, renderPcbStyleSvg } from "@tscircuit/circuit-json-pcb-
 import { checkViaTraceClearance } from "@tscircuit/checks"
 import { Children, cloneElement, isValidElement } from "react"
 import { writeFileSync } from "node:fs"
+import { resolve } from "node:path"
+import { pathToFileURL } from "node:url"
 import Board from "../index"
 import { SavedRoutes } from "../layout/SavedRoutes"
-import { savedRoutes } from "../data/saved-route-geometry"
 import { checkRouting } from "./check-baseline"
+
+const candidateArgument = process.argv.find(arg => arg.startsWith("--candidate="))?.slice("--candidate=".length)
+const { savedRoutes } = await import(candidateArgument ? pathToFileURL(resolve(candidateArgument)).href : new URL("../data/saved-route-geometry.tsx", import.meta.url).href)
 
 const circuit = new Circuit()
 circuit.schematicDisabled = true

@@ -19,6 +19,7 @@ type ThroughCopper = [kind: "through_obstacle", startX: number, startY: number, 
 type StyledRoute = [name: string, nets: string[], ports: string[], points: (typeof savedRoutes[number][3][number] | ThroughCopper)[]]
 let exportedRoutes: StyledRoute[] = []
 let routingResult: { before: any[]; traces: any[] } | undefined
+let rejectedResult: { before: any[]; traces: any[] } | undefined
 const round = (n: number) => Math.round(n * 1e7) / 1e7
 const geometry = (points: any[]) => JSON.stringify(points.map(p => p[0] === "via"
   ? [p[0], round(p[1]), round(p[2]), p[3], p[4]]
@@ -29,7 +30,7 @@ const routePoints = (route: any[]) => route.map(p => p.route_type === "wire"
   : p.route_type === "via" ? ["via", p.x, p.y, p.from_layer, p.to_layer, p.via_diameter ?? null, p.via_hole_diameter ?? null]
     : p.route_type === "through_obstacle" || p.route_type === "through_pad" ? ["through_obstacle", p.start.x, p.start.y, p.end.x, p.end.y, p.from_layer ?? p.start_layer, p.to_layer ?? p.end_layer, p.width]
     : (() => { throw Error(`Unsupported saved-route point ${p.route_type}`) })())
-function exportNamedRoutes(before: any[], traces: any[]) {
+function exportNamedRoutes(before: any[], traces: any[], filename = "style-targeted-routes.tsx") {
   const originalTraces = before.filter(record => record.type === "pcb_trace")
   if (originalTraces.length !== savedRoutes.length || traces.length !== savedRoutes.length) throw Error("Cleanup changed trace count")
   const definitions = new Map(originalTraces.map((trace, index) => {
@@ -47,7 +48,7 @@ function exportNamedRoutes(before: any[], traces: any[]) {
     return [definition[0], definition[1], definition[2], points] as StyledRoute
   })
   const changed = exportedRoutes.filter((definition, index) => geometry(definition[3]) !== geometry(savedRoutes[index][3])).length
-  writeFileSync(new URL("./style-targeted-routes.tsx", import.meta.url),
+  writeFileSync(new URL(`./${filename}`, import.meta.url),
     `import type { SavedRouteDefinition } from "../layout/SavedRoutes"\ntype ThroughCopper = [kind: "through_obstacle", startX: number, startY: number, endX: number, endY: number, from: string, to: string, width: number]\ntype StyledRoute = [name: string, nets: string[], ports: string[], points: (SavedRouteDefinition[3][number] | ThroughCopper)[]]\n\n// Native TSX route definitions: named nets/ports, no persisted Circuit JSON IDs.\nexport const savedRoutes: StyledRoute[] = [\n${exportedRoutes.map(definition => `  ${JSON.stringify(definition)},`).join("\n")}\n]\n`)
   console.log(`Exported ${exportedRoutes.length} named TSX route definitions (${changed} changed; ${exportedRoutes.flatMap(definition => definition[3]).filter(point => point[0] === "through_obstacle").length} through-copper transitions)`)
 }
@@ -59,12 +60,33 @@ const targetedAlgorithm = async (input: any) => {
   router.start = async () => {
     if (router.isRouting) return
     router.isRouting = true
+    let solver: any
+    let before: any[] = []
     try {
-      const before = circuit.getCircuitJson()
+      before = circuit.getCircuitJson()
       const beforeIssues = analyzePcbStyle(before).issues
       const targets = new Set(beforeIssues.map(issue => issue.pcbTraceId))
+      const beforeTraces = before.filter(record => record.type === "pcb_trace")
+      for (const issue of beforeIssues) {
+        const index = beforeTraces.findIndex(trace => trace.pcb_trace_id === issue.pcbTraceId)
+        const definition = savedRoutes[index]
+        const widths = [...new Set(definition[3].flatMap(point => typeof point[0] === "number" ? [point[3]] : point[0] === "through_obstacle" ? [point[7]] : []))]
+        console.log(`TARGET ${definition[0]} (${definition[1].join(", ")}; widths ${widths.join(", ")} mm): ${issue.message}`)
+      }
       writeFileSync(new URL("./style-targeted-before.svg", import.meta.url), renderPcbStyleSvg(before, beforeIssues))
-      const solver = new AutoroutingPipelineSolver11_Simplification(input, {
+      // Add a conservative solver-only margin; authored board rules and copper
+      // remain unchanged. Physical barrel clearances are checked after replay.
+      // Core currently leaks native through_pad names into its SRJ seed. Normalize
+      // the solver input representation, keeping the live circuit untouched.
+      const solverInput = {
+        ...input,
+        minTraceToPadEdgeClearance: Math.max(input.minTraceToPadEdgeClearance ?? 0, 0.1),
+        traces: input.traces.map((trace: any) => ({ ...trace, route: trace.route.map((point: any) => point.route_type !== "through_pad" ? point : {
+          route_type: "through_obstacle", start: point.start, end: point.end,
+          from_layer: point.start_layer, to_layer: point.end_layer, width: point.width,
+        }) })),
+      }
+      solver = new AutoroutingPipelineSolver11_Simplification(solverInput, {
         iterations: 1, enableCrossingViaReduction: false, enableVertexShortcuts: true,
       })
       while (!solver.prepareTraceSimplificationSolver?.solved && !solver.failed) solver.step()
@@ -72,7 +94,10 @@ const targetedAlgorithm = async (input: any) => {
       const prepared = solver.prepareTraceSimplificationSolver!.getOutput()
       const mutableNames = new Set<string>()
       for (const trace of prepared.preparedTraces) {
-        if (!trace.mutableHdRoute) continue
+        if (!trace.mutableHdRoute) {
+          if (targets.has(trace.originalTrace.pcb_trace_id)) console.log(`IMMUTABLE ${trace.originalTrace.pcb_trace_id}: nonuniform width or unsupported route`)
+          continue
+        }
         if (targets.has(trace.originalTrace.pcb_trace_id)) {
           mutableNames.add(trace.mutableHdRoute.connectionName)
         } else {
@@ -102,6 +127,14 @@ const targetedAlgorithm = async (input: any) => {
       router.isRouting = false
       router.emit("complete", { type: "complete", traces })
     } catch (error) {
+      const validation = solver?.validateTraceSimplificationSolver
+      if (validation?.inputProblem?.outputSrj?.traces) {
+        rejectedResult = { before, traces: validation.inputProblem.outputSrj.traces }
+        const oldErrors = validation.drcEngine.evaluate(validation.inputProblem.preparedInput.originalSrj.traces).errors
+        const newErrors = validation.drcEngine.evaluate(validation.inputProblem.outputSrj.traces).errors
+        const messages = new Set(oldErrors.map((finding: any) => finding.message))
+        for (const finding of newErrors) if (!messages.has(finding.message)) console.log("REJECTED NATIVE DRC", finding)
+      }
       router.isRouting = false
       router.emit("error", { type: "error", error })
     }
@@ -129,6 +162,10 @@ if (routingResult) {
   try { exportNamedRoutes(routingResult.before, routingResult.traces) }
   catch (error) { console.error("TSX export failed after routing completed:", error) }
 }
+if (rejectedResult) {
+  try { exportNamedRoutes(rejectedResult.before, rejectedResult.traces, "style-rejected-routes.tsx") }
+  catch (error) { console.error("Rejected diagnostic TSX export failed:", error) }
+}
 const { issues } = analyzePcbStyle(records)
 writeFileSync(new URL(`./style-${targeted ? "targeted" : "all"}-after.svg`, import.meta.url), renderPcbStyleSvg(records, issues))
 const counts = new Map<string, number>()
@@ -145,7 +182,7 @@ for (const issue of issues) {
   const source: any = sourceTraces.get((pcbTraces.get(issue.pcbTraceId) as any)?.source_trace_id)
   console.log(`REMAINING ${source?.connected_source_net_ids?.map((id: string) => nets.get(id)).join(", ") ?? "unknown net"}: ${issue.message}`)
 }
-if (targeted && exportedRoutes.length) {
+if (targeted && routingResult && exportedRoutes.length) {
   const layerIndex = (layer: string) => layer === "top" ? 0 : layer === "bottom" ? 7 : Number(layer.slice(5))
   const physical = new Map<string, any>()
   const originalVias = routingResult?.before.filter(record => record.type === "pcb_via") ?? []
@@ -178,3 +215,4 @@ if (targeted && exportedRoutes.length) {
   console.log(`Physical vias: ${records.filter(r => r.type === "pcb_via").length} records, ${vias.length} unique; all ${transitions} route transitions covered`)
 }
 await checkRouting(records)
+if (records.some(record => record.type === "pcb_autorouting_error")) process.exitCode = 1
