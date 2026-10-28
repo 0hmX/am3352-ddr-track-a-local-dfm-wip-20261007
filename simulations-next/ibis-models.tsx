@@ -80,9 +80,9 @@ export function createDdrIbisModels({
     includePackageParasitics: false,
   })
   return {
-    cpu: definition("model-review/sprm552c-candidate-models.ibs", "am335x_zcz",
+    cpu: definition("simulations-next/model-review/sprm552c-candidate-models.ibs", "am335x_zcz",
       cpuPins, cpuModels, "E5", "A1"),
-    ram: definition("model-review/W631GG6MB-12.ibs", "W631GG6MB-12",
+    ram: definition("simulations-next/model-review/W631GG6MB-12.ibs", "W631GG6MB-12",
       ramPins, ramPins.map(() => ramModel), "A1", "B1"),
   }
 }

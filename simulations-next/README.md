@@ -9,7 +9,15 @@ bun run build
 bun scripts/verify-ddr.tsx work/ddr/final
 ```
 
-The checked input is `work/ddr/final/board.circuit.json`. As in the original setup, the native simulation component requires that physical board as its `circuitJson` prop; invoking this parameterized component directly through `tsci simulate` is not a complete runnable case. It is not part of the root build. The supported integration is being repaired in the separate Codex chat **Fix native DDR routed-copper simulation with visual reproductions**.
+Run the native byte-0 write experiments from the project root:
+
+```sh
+bunx tsci simulate simulations-next/run-ddr.circuit.tsx --output work/ddr-run
+```
+
+The entry compiles the same physical TSX and nominal stackup as the verifier, supplies it to `ibis.circuit.tsx`, and lets the CLI serialize its native declarations. The saved-board bridge rejects existing simulation declarations, so this DDR-only entry removes the seven unrelated HDMI resistor-array SPICE subcircuits; all physical records are retained. Unexpected simulation records are still rejected by the bridge. `ibis.circuit.tsx` is a parameterized component, not a standalone CLI entry. To verify composition without running the solvers, run `bun test tests/ddr-simulation-entry.test.tsx`.
+
+The currently pinned CLI contains the older pipeline at commit `63d15671`; with that version the above command reaches the pipeline but fails on the board's native via-hole field (`modeling_input: via_hole_diameter / hole_diameter must be a positive number`). A CLI release incorporating the upstream pipeline fix is needed before this command can progress past that error. Further extraction or solver failures may remain.
 
 No accepted eye result exists for this routing. The previously observed native-via, channel-cut and sampled-copper preparation failures were addressed upstream in [pcb-spice-pipeline #9](https://github.com/tscircuit/pcb-spice-pipeline/pull/9), but the updated pipeline has not yet produced an accepted result for this layout. Its documented historical AM3352 routed-copper case still encounters a FastHenry numerical failure. These are tooling investigations, not reasons to change PCB geometry or relax numerical acceptance. Diagnostic evidence is isolated under ignored `work/bug-handoffs/simulation/`; no replacement simulation runner, clipping override, or curve simplifier is part of this board.
 
