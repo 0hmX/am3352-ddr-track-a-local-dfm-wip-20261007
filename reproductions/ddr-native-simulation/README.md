@@ -1,8 +1,9 @@
 # Native DDR simulation integration reproduction
 
-`board.circuit.tsx` is a visual reference for the actual routed board: inspect the U1 processor, U3 memory and the DDR traces between them. This is an unfinished board, not a qualified SI result. The test below uses that same physical TSX and the existing IBIS simulation, rather than a synthetic model.
+`board.circuit.tsx` and its [PCB snapshot](__snapshots__/board.circuit-pcb.snap.svg) are a visual reference for the actual routed board: inspect the U1 processor, U3 memory and the DDR traces between them. This is an unfinished board, not a qualified SI result. The test below uses that same physical TSX and the existing IBIS simulation, rather than a synthetic model.
 
 ```sh
+bunx tsci snapshot reproductions/ddr-native-simulation/board.circuit.tsx --pcb-only --update --disable-parts-engine
 bun reproductions/ddr-native-simulation/reproduce.tsx
 bunx tsci simulate simulations-next/ibis.circuit.tsx
 ```
