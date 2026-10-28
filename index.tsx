@@ -8,9 +8,7 @@ import { HDMIInterface } from "./hdmi/HDMIInterface"
 import placement from "./hdmi/data/placement-selected"
 import hdmiParts from "./hdmi/data/all-components"
 import { PinSheets, pinSheets } from "./schematic/PinSheets"
-import { SavedRoutes } from "./layout/SavedRoutes"
-import { SavedNativeVias } from "./data/saved-native-vias"
-import { TimingConstraints } from "./design/timing-constraints"
+import { DdrRoutes } from "./layout/DdrRoutes"
 export { ramNet } from "./logic/connections"
 const hdmiSheets = ["HDMI source resistors", "HDMI transmitter and protection", "HDMI power"]
 const sheets = [...pinSheets, ...supportSheets, "Debug rails and power status", ...hdmiSheets]
@@ -21,11 +19,11 @@ const hdmiPlacement = Object.fromEntries(hdmiParts.map(p => {
   const i = sheetCounts[sheet] ?? 0; sheetCounts[sheet] = i + 1
   return [p.name, { ...placement[p.name as keyof typeof placement], schSheetName: sheet, schX: ((i % 4) - 1.5) * 14, schY: ((Math.ceil(hdmiParts.filter(part => (part.kind === "resistor_array" ? hdmiSheets[0] : /5V|1V2|FB_HDMI|C_HDMI_REF/.test(part.name) ? hdmiSheets[2] : hdmiSheets[1]) === sheet).length / 4) - 1) / 2 - Math.floor(i / 4)) * 12 }]
 }))
-/** Native logical design. The separately saved routed PCB remains the physical authority. */
+/** DDR-only copper with native connectivity and the original component placement. */
 export default function Board() {
   const cpuConnections = Object.fromEntries(Object.entries(cpuLabels).flatMap(([pin, [ball]]) => cpuNets[ball] ? [[pin, `net.${cpuNets[ball]}`]] : []))
   const ramConnections = Object.fromEntries(Object.entries(ramLabels).flatMap(([pin, [, signal]]) => ramNet(signal) ? [[pin, `net.${ramNet(signal)}`]] : []))
-  return <board width={98} height={65.5} layers={8} thickness={1.2} routingDisabled isViaInPadAllowed autorouter={{ allowViaInPad: true }} doubleSidedAssembly
+  return <board width={98} height={65.5} layers={8} thickness={1.2} routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
     outline={[{x:-28,y:26.5},{x:70,y:26.5},{x:70,y:-39},{x:-28,y:-39}]}
     minTraceWidth={0.1} minViaHoleDiameter={0.15} minViaPadDiameter={0.3}
     minViaHoleEdgeToViaHoleEdgeClearance={0.1} minPlatedHoleDrillEdgeToDrillEdgeClearance={0.15}
@@ -35,12 +33,10 @@ export default function Board() {
     <AM3352 name="U1" pcbX={0} pcbY={0} connections={cpuConnections} noSchematicRepresentation />
     <W631GG6MB_12 name="U3" pcbX={0} pcbY={-27} connections={ramConnections} noSchematicRepresentation />
     <PinSheets />
-    <TimingConstraints />
     <Support />
     <DebugStatus />
     <HDMIInterface placement={hdmiPlacement} />
-    <SavedNativeVias />
-    <SavedRoutes />
     <SavedSilkscreen />
+    <DdrRoutes />
   </board>
 }

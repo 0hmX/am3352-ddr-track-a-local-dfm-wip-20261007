@@ -3,6 +3,8 @@ dist/
 __pycache__/
 *.pyc
 .DS_Store
+work/
+simulations-next/model-review/*.ibs
 .tscircuit/
 .env
 .env.*

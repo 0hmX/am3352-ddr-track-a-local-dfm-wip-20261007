@@ -2,4 +2,4 @@
 - Prefer changes that remove more code than they add.
 - For tscircuit bugs, author reproductions as actual native TSX rather than hand-authored or imported Circuit JSON unless explicitly requested otherwise.
 - For repository bugs, prefer two stacked PRs where practical: reproduction first, then fix, with visual evidence where useful.
-- This checked layout remains a work in progress with 55 video-bus joins open; do not describe it as fabrication-ready or DDR/HDMI SI-qualified.
+- The current board routes only the 46 timing-critical DDR signals and local ground references. Other nets, including DDR power/VREF/reset/calibration support, are unfinished. Do not describe it as fabrication-ready or DDR/HDMI SI-qualified.

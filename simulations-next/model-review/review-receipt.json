@@ -1,0 +1,262 @@
+{
+  "scope": "Manufacturer buffer-model fidelity/configuration. Does not include PCB extraction or claim DDR functional compliance.",
+  "ti": {
+    "sourceUrl": "https://www.ti.com/lit/zip/sprm552",
+    "originalSha256": "23011a68eb8ff35562615b5b108edcb9f017c5e61f4f68e32f35c5fb88f163be",
+    "subsetSha256": "8d4a092bc575a9d2d58d6de478963badee88bf74c056bf9ee6383df1ccd71121",
+    "selectedModels": [
+      "Model_339",
+      "Model_343",
+      "Model_348",
+      "Model_351",
+      "Model_651",
+      "Model_655",
+      "Model_660",
+      "Model_663",
+      "Model_843",
+      "Model_847",
+      "Model_852",
+      "Model_855",
+      "Model_490",
+      "Model_498",
+      "Model_494",
+      "Model_994",
+      "Model_1002",
+      "Model_998"
+    ],
+    "transformation": "Original pre-model header and exact selected model blocks, CRLF normalized to LF; waveform and I/V numeric text unchanged; final [End] appended. Original coupled package reference retained, package matrix definition excluded from subset and package modeling explicitly omitted."
+  },
+  "winbond": {
+    "sourceUrl": "https://www.winbond.com/resource-files/w631gg6mb_ibis.zip",
+    "sha256": "f2c0f36e24be68fd95a05f34ca4ab875ac5145f1956c5696e9a60b0d8a03e859",
+    "unchangedVendorFile": true,
+    "datasheet": "W631GG6MB-A02.pdf, Rev A02 Nov23 2017",
+    "datasheetSha256": "e5744945811fb19a74cbfb653e4433b2a6e3249c08e9489caf3a41b7e4652823"
+  },
+  "modelCornerSupplyV": {
+    "typical": 1.5,
+    "minimum": 1.425,
+    "maximum": 1.575
+  },
+  "clockProfiles": [
+    {
+      "clockMHz": 303.030303,
+      "dataMTs": 606.060606,
+      "uiNs": 1.65,
+      "note": "At maximum3.3ns clock period specified by TI; a nominal frequency at the bound has no positive cycle-jitter margin."
+    },
+    {
+      "clockMHz": 320,
+      "dataMTs": 640,
+      "uiNs": 1.5625
+    },
+    {
+      "clockMHz": 333.333333,
+      "dataMTs": 666.666667,
+      "uiNs": 1.5
+    },
+    {
+      "clockMHz": 400,
+      "dataMTs": 800,
+      "uiNs": 1.25,
+      "note": "Current converter handles Winbond read driver but refuses all tested TI write models because complete finite vendor waveforms overlap adjacent transitions. This is converter capability evidence, not a PCB pass/fail verdict."
+    }
+  ],
+  "conversionChecks": {
+    "total": 240,
+    "unexpectedFailures": 0,
+    "evidence": "binding-checks.json"
+  },
+  "fixtureProof": {
+    "nativeSimulator": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n******",
+    "completed": 96,
+    "failed": 0,
+    "worstRmsV": 0.0148483564909027,
+    "worstMaxV": 0.048014704000000075,
+    "tolerance": "RMS <=1%VDD and peak <=5%VDD, inherited from converter vendor consistency proof",
+    "evidence": "vendor-fixture-proof/vendor-proof.json",
+    "limitation": "Native ngspice reproduction of vendor V/T fixtures using the same fixtures that produced KU/KD. Tests table conversion consistency; it is not independent accuracy validation and contains no PCB or package."
+  },
+  "terminationProof": {
+    "completed": 30,
+    "typical": [
+      {
+        "vendor": "TI",
+        "model": "Model_498",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": -0.00037302785,
+        "smallSignalResistanceAroundVrefOhm": 47.21271264419875,
+        "inputCurrentAtGroundA": -0.016519507,
+        "inputCurrentAtVddA": 0.013330782
+      },
+      {
+        "vendor": "TI",
+        "model": "Model_1002",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": -0.00037302785,
+        "smallSignalResistanceAroundVrefOhm": 47.21271264419875,
+        "inputCurrentAtGroundA": -0.016519507,
+        "inputCurrentAtVddA": 0.013330782
+      },
+      {
+        "vendor": "TI",
+        "model": "Model_490",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": 8.74033681e-10,
+        "smallSignalResistanceAroundVrefOhm": 432151846.7501393,
+        "inputCurrentAtGroundA": -2.43370575e-9,
+        "inputCurrentAtVddA": 3.2021764e-9
+      },
+      {
+        "vendor": "TI",
+        "model": "Model_994",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": 8.74033681e-10,
+        "smallSignalResistanceAroundVrefOhm": 432151846.7501393,
+        "inputCurrentAtGroundA": -2.43370575e-9,
+        "inputCurrentAtVddA": 3.2021764e-9
+      },
+      {
+        "vendor": "Winbond",
+        "model": "ODT_20",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": 0.000558437103,
+        "smallSignalResistanceAroundVrefOhm": 23.198683607401755,
+        "inputCurrentAtGroundA": -0.0314113,
+        "inputCurrentAtVddA": 0.0276941115
+      },
+      {
+        "vendor": "Winbond",
+        "model": "ODT_30",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": 0.000372251258,
+        "smallSignalResistanceAroundVrefOhm": 34.79699625508115,
+        "inputCurrentAtGroundA": -0.020949,
+        "inputCurrentAtVddA": 0.0184630639
+      },
+      {
+        "vendor": "Winbond",
+        "model": "ODT_40",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": 0.000279193371,
+        "smallSignalResistanceAroundVrefOhm": 46.374760136117985,
+        "inputCurrentAtGroundA": -0.0157226,
+        "inputCurrentAtVddA": 0.0138487322
+      },
+      {
+        "vendor": "Winbond",
+        "model": "ODT_60",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": 0.000186111216,
+        "smallSignalResistanceAroundVrefOhm": 69.60386847999641,
+        "inputCurrentAtGroundA": -0.0104724,
+        "inputCurrentAtVddA": 0.00923173224
+      },
+      {
+        "vendor": "Winbond",
+        "model": "ODT_120",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": 0.0000930239679,
+        "smallSignalResistanceAroundVrefOhm": 139.22898672542738,
+        "inputCurrentAtGroundA": -0.00523954,
+        "inputCurrentAtVddA": 0.00461625788
+      },
+      {
+        "vendor": "Winbond",
+        "model": "ODT_off",
+        "corner": "typical",
+        "supplyV": 1.5,
+        "inputCurrentAtVrefA": 0,
+        "smallSignalResistanceAroundVrefOhm": null,
+        "inputCurrentAtGroundA": 0,
+        "inputCurrentAtVddA": 1.13773285e-8
+      }
+    ],
+    "evidence": "input-termination-proof/termination-proof.json",
+    "limitation": "DC derivative of converted vendor input clamp/termination tables across VREF +/-100mV; not an independent vendor characterization and not a PCB simulation."
+  },
+  "packageChecks": [
+    {
+      "component": "cpu",
+      "error": "IbisError: Coupled vendor package models are unsupported; choose omit explicitly to exclude them"
+    },
+    {
+      "component": "ram",
+      "error": "IbisError: A1: nonzero vendor reference/supply-pin package impedance is unsupported; choose packagePolicy=omit explicitly"
+    }
+  ],
+  "writeTiming": {
+    "source": "Winbond W631GG6MB RevA02 sections10.6 and10.16.5: Tables18/19/54/55/57, pp102-104 and157-158",
+    "partGrade": "-12 DDR3-1600",
+    "baseSetupSeconds": 1e-11,
+    "baseHoldSeconds": 4.5e-11,
+    "baseReference": "DQ1V/ns, differentialDQS2V/ns; setup measured at AC150, hold at DC100.",
+    "conservativeScreen": {
+      "vrefV": 0.75,
+      "thresholds": {
+        "vilAcV": 0.6,
+        "vilDcV": 0.65,
+        "vihDcV": 0.85,
+        "vihAcV": 0.9
+      },
+      "setupSeconds": 8.5e-11,
+      "holdSeconds": 9.5e-11,
+      "minimumStrobeDifferentialV": 0.3
+    },
+    "screenMeaning": "85/95ps = base10/45ps + maximum listed supported-cell derating75/50ps. An engineering screen, not a complete characterized mask: still must verify each actual DQ/DQS slew pair is supported, tangent-line conditions and tVAC.",
+    "tVacSeconds": [
+      {
+        "dqSlewVperNs": 2,
+        "minimum": 1.05e-10
+      },
+      {
+        "dqSlewVperNs": 1.5,
+        "minimum": 8e-11
+      },
+      {
+        "dqSlewVperNs": 1,
+        "minimum": 3e-11
+      },
+      {
+        "dqSlewVperNs": 0.9,
+        "minimum": 1.3e-11
+      }
+    ],
+    "vref": "Actual receiver VREFDQ H1; constant ideal half supply assumed. VREF DC and AC deviations not simulated."
+  },
+  "readTiming": {
+    "source": "TI AM335x SPRS717L section5.7 and7.7.2.3 https://www.ti.com/lit/ds/sprs717j/sprs717j.pdf",
+    "dcThresholds": "DDR_VREF +/-100mV at nominal1.5V. CPU DDR_VREF isJ4. Model498/1002 receiver thresholds correlate with selected corner.",
+    "acMask": "TI provides DDR3 rule-based PCB routing/timing specification rather than a complete public receiver AC setup/hold mask. Do not reuse DRAM write setup/hold as CPU read limits.",
+    "phase": "Winbond read DQS launches edge-aligned with read DQ. Any halfUI capture offset is an explicit PHY delay assumption, not proof of training."
+  },
+  "modelSettingAssumptions": {
+    "tiDrive": "Slow9mA SR01 I100, 0.88*Rext, nominalRext50ohm. Fast9mA SR00 I100. Correct PHY register profile and actual VTP reference must match.",
+    "winbondWrite": "ODT60 nominalRZQ/4 with240ohmRZQ; MR1/MR2 and ODT control must select the actual burst termination.",
+    "winbondRead": "DATA40 representsRZQ/6 output setting; DATA34 representsRZQ/7. Match actualMR1 setting.",
+    "noVendorTailTruncation": true
+  },
+  "omissions": [
+    "Vendor package parasitics excluded: coupled TI package and nonzero reference/supply package impedance unsupported by this converter.",
+    "Static IBIS ODT/drive selections assume matching actual PHY, MR1/MR2 and ODT control during a burst.",
+    "Minimum/maximum IBIS tables are vendor correlated corners; all corner combinations and VREF noise are not covered.",
+    "Write DQS is launched half a UI after DQ; read DQS is edge aligned and needs an explicit receiver sampling shift.",
+    "TI publishes rule-based DDR3 PCB timing limits; its public datasheet does not provide a complete read receiver AC setup/hold mask."
+  ],
+  "reproduction": [
+    "bun work/ibis-model-review/check-bindings.ts",
+    "bun work/ibis-model-review/prove-fixtures.ts",
+    "bun work/ibis-model-review/check-input-termination.ts",
+    "bun work/ibis-model-review/audit-models.ts",
+    "bun work/ibis-model-review/save-receipt.ts"
+  ]
+}
