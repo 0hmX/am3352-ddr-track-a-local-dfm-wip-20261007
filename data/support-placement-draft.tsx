@@ -547,8 +547,8 @@ const data = {
     "pcbRotation": 0
   },
   "C_VREF_2": {
-    "pcbX": 0.75,
-    "pcbY": -4.0,
+    "pcbX": 1.5,
+    "pcbY": -2.5,
     "layer": "bottom",
     "pcbRotation": 0
   },

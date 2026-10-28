@@ -96,7 +96,7 @@ const data = {
     "layer": "bottom"
   },
   "RN_HDMI_6": {
-    "pcbX": 4.75,
+    "pcbX": 5.8,
     "pcbY": -8.5,
     "pcbRotation": 180,
     "layer": "bottom"

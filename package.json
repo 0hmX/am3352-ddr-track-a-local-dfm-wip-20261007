@@ -9,9 +9,11 @@
   },
   "scripts": {
     "dev": "sh scripts/dev.sh",
-    "build": "sh scripts/build.sh"
+    "build": "sh scripts/build.sh",
+    "route:ddr": "bun scripts/reroute-ddr.tsx --apply"
   },
   "devDependencies": {
+    "@tscircuit/bus-lanes-solver": "https://jscdn.tscircuit.com/@tscircuit/bus-lanes-solver/0.0.35.tgz",
     "@types/react": "^19.3.0"
   },
   "repository": {

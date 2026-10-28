@@ -6,7 +6,7 @@ export function DdrRoutes() {
     {ddrRoutes.map(route => {
       const first=route.points[0], last=route.points.at(-1)!
       return <trace key={route.name} name={route.name} from={route.from} to={route.to} width={0.1}
-        pcbPath={[route.from,
+        pcbPath={route.layer === "top" ? [route.from, ...route.points.map(([x,y])=>({x,y})), route.to] : [route.from,
           {x:first[0],y:first[1],via:true,fromLayer:"top",toLayer:route.layer},
           ...route.points.map(([x,y])=>({x,y})),
           {x:last[0],y:last[1],via:true,fromLayer:route.layer,toLayer:"top"},route.to]} />
@@ -21,8 +21,18 @@ export function DdrRoutes() {
     ])}
     <via name="DDR_GND_STITCH" pcbX={12} pcbY={-17} fromLayer="inner1" toLayer="inner6"
       holeDiameter={0.15} outerDiameter={0.3} connectsTo="net.GND" />
-    {(["inner1","inner6"] as const).map(layer=><copperpour key={layer} name={`DDR_GND_${layer}`}
+    {[{from:".U1 > .H5",name:"DDR_PWR_CPU",x:-1.2,y:-3.6},
+      {from:".U3 > .B2",name:"DDR_PWR_RAM",x:-2.400046,y:-21.800239}].flatMap(p=>[
+      <via key={p.name} name={p.name} pcbX={p.x} pcbY={p.y} fromLayer="top" toLayer="inner5"
+        holeDiameter={0.15} outerDiameter={0.3} connectsTo="net.DDR_1V5" />,
+      <trace key={`${p.name}_lead`} from={p.from} to={`.${p.name} > .top`}
+        connectsTo={[p.from,`.${p.name} > .top`,"net.DDR_1V5"]} width={0.15}
+        pcbPath={[p.from,`.${p.name} > .top`]} />,
+    ])}
+    {(["inner1","inner3","inner6"] as const).map(layer=><copperpour key={layer} name={`DDR_GND_${layer}`}
       layer={layer} connectsTo="net.GND" unbroken clearance={0.2} coveredWithSolderMask
       outline={[{x:-14,y:1},{x:14,y:1},{x:14,y:-37},{x:-14,y:-37}]} />)}
+    <copperpour name="DDR_1V5_inner5" layer="inner5" connectsTo="net.DDR_1V5" unbroken clearance={0.2} coveredWithSolderMask
+      outline={[{x:-14,y:1},{x:14,y:1},{x:14,y:-37},{x:-14,y:-37}]} />
   </>
 }
