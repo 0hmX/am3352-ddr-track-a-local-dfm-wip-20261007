@@ -31,8 +31,8 @@ export function DdrRoutes() {
     ])}
     {(["inner1","inner3","inner6"] as const).map(layer=><copperpour key={layer} name={`DDR_GND_${layer}`}
       layer={layer} connectsTo="net.GND" unbroken clearance={0.2} coveredWithSolderMask
-      outline={[{x:-14,y:1},{x:14,y:1},{x:14,y:-37},{x:-14,y:-37}]} />)}
+      outline={[{x:-27.7,y:26.2},{x:69.7,y:26.2},{x:69.7,y:-38.7},{x:-27.7,y:-38.7}]} />)}
     <copperpour name="DDR_1V5_inner5" layer="inner5" connectsTo="net.DDR_1V5" unbroken clearance={0.2} coveredWithSolderMask
-      outline={[{x:-14,y:1},{x:14,y:1},{x:14,y:-37},{x:-14,y:-37}]} />
+      outline={[{x:-27.7,y:26.2},{x:69.7,y:26.2},{x:69.7,y:-38.7},{x:-27.7,y:-38.7}]} />
   </>
 }

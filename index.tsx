@@ -8,6 +8,8 @@ import { HDMIInterface } from "./hdmi/HDMIInterface"
 import placement from "./hdmi/data/placement-selected"
 import hdmiParts from "./hdmi/data/all-components"
 import { PinSheets, pinSheets } from "./schematic/PinSheets"
+import { PlaneConnections } from "./layout/PlaneConnections"
+import { DdrPowerConnections } from "./layout/DdrPowerConnections"
 import { DdrRoutes } from "./layout/DdrRoutes"
 export { ramNet } from "./logic/connections"
 const hdmiSheets = ["HDMI source resistors", "HDMI transmitter and protection", "HDMI power"]
@@ -19,7 +21,7 @@ const hdmiPlacement = Object.fromEntries(hdmiParts.map(p => {
   const i = sheetCounts[sheet] ?? 0; sheetCounts[sheet] = i + 1
   return [p.name, { ...placement[p.name as keyof typeof placement], schSheetName: sheet, schX: ((i % 4) - 1.5) * 14, schY: ((Math.ceil(hdmiParts.filter(part => (part.kind === "resistor_array" ? hdmiSheets[0] : /5V|1V2|FB_HDMI|C_HDMI_REF/.test(part.name) ? hdmiSheets[2] : hdmiSheets[1]) === sheet).length / 4) - 1) / 2 - Math.floor(i / 4)) * 12 }]
 }))
-/** DDR-only copper with native connectivity and the original component placement. */
+/** Native DDR routes and incremental board power/ground routing. */
 export default function Board() {
   const cpuConnections = Object.fromEntries(Object.entries(cpuLabels).flatMap(([pin, [ball]]) => cpuNets[ball] ? [[pin, `net.${cpuNets[ball]}`]] : []))
   const ramConnections = Object.fromEntries(Object.entries(ramLabels).flatMap(([pin, [, signal]]) => ramNet(signal) ? [[pin, `net.${ramNet(signal)}`]] : []))
@@ -38,5 +40,7 @@ export default function Board() {
     <HDMIInterface placement={hdmiPlacement} />
     <SavedSilkscreen />
     <DdrRoutes />
+    <PlaneConnections />
+    <DdrPowerConnections />
   </board>
 }
