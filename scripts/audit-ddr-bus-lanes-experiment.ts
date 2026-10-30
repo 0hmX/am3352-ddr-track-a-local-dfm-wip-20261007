@@ -6,7 +6,10 @@ import { checkMeanderGap } from './check-meander-gap'
 const layer = process.argv[2]
 if (!['top', 'inner2', 'inner4', 'bottom'].includes(layer)) throw Error('Choose top, inner2, inner4, or bottom')
 const pairOnly = process.argv.includes('--pair')
-const candidate = await Bun.file(`work/ddr/experiments/${layer}${pairOnly ? '-pair' : ''}.json`).json()
+const groupName = process.argv.find(arg => arg.startsWith('--separate-group='))?.split('=')[1]?.toUpperCase()
+if (groupName && !['BYTE0','BYTE1','ADDRESS'].includes(groupName)) throw Error('Choose BYTE0, BYTE1, or ADDRESS for --separate-group')
+const caseName = `${groupName ? `separate-${groupName.toLowerCase()}-` : ''}${layer}${pairOnly ? '-pair' : ''}`
+const candidate = await Bun.file(`work/ddr/experiments/${caseName}.json`).json()
 const keepout = { minX: -2, maxX: 2, minY: -19, maxY: -12 }
 type Point = [number, number]
 function crossesBox(a: Point, b: Point) {
@@ -56,7 +59,7 @@ const traces = candidate.traces.map((trace: any) => {
 })
 const report = { layer, keepout, traces,
   limitations: ['Bend count depends on simplification and angle threshold.', 'The gap screen checks opposing return arms only and is not a full copper clearance check.', 'Meander amplitude, external-side tuning, pair coupling, all other-net spacing, and full-board timing/DRC remain unverified.'] }
-await Bun.write(`work/ddr/experiments/${layer}${pairOnly ? '-pair' : ''}-audit.json`, JSON.stringify(report,null,2))
+await Bun.write(`work/ddr/experiments/${caseName}-audit.json`, JSON.stringify(report,null,2))
 console.log(JSON.stringify(report,null,2))
 
 if (traces.some((t: any) => t.crossesCenterKeepout || t.bendsAtLeast10DegreesAfter003mmSimplification < 2 || t.maxTurnDegrees > 30 + 1e-4 || !t.returnArmGapScreen.ok)) process.exitCode = 1

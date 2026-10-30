@@ -8,7 +8,10 @@ import { getFullConnectivityMapFromCircuitJson } from 'circuit-json-to-connectiv
 import { Children, cloneElement, createElement } from 'react'
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import Board from '../index'
-import { ProvisionalDdrRoutes } from '../layout/ProvisionalDdrRoutes'
+import { ProvisionalDdrRoutes, provisionalDqs1Routes } from '../layout/ProvisionalDdrRoutes'
+import { ProvisionalDdrAddressRoutes, provisionalAddressRoutes } from '../layout/ProvisionalDdrAddressRoutes'
+import { ProvisionalDdrByte0Routes, provisionalByte0Routes } from '../layout/ProvisionalDdrByte0Routes'
+import { ProvisionalDdrByte1Routes, provisionalByte1Routes } from '../layout/ProvisionalDdrByte1Routes'
 import { ddrRoutes } from '../data/ddr-routes'
 import { checkMeanderGap } from './check-meander-gap'
 
@@ -50,8 +53,12 @@ const failures: { check: string; detail: unknown }[] = []
 const fail = (check: string, detail: unknown) => failures.push({check, detail})
 mkdirSync(output, {recursive:true})
 try {
-  if (process.argv.length < 3) throw Error('Supply solver JSON files containing traces; all DDR signals are required')
-  const candidates = process.argv.slice(2).flatMap(path => {
+  const arguments_ = process.argv.slice(2), requireSeparateLayers = arguments_.includes('--separate-layers')
+  const paths = arguments_.filter(arg => arg !== '--separate-layers')
+  if (!paths.length) throw Error('Supply --mounted or solver JSON files containing traces; all DDR signals are required')
+  const mounted = paths.length === 1 && paths[0] === '--mounted'
+  const sourceRoutes = [...provisionalAddressRoutes, ...provisionalByte0Routes, ...provisionalByte1Routes, ...provisionalDqs1Routes.map(route => ({...route, layer:'bottom' as const}))]
+  const candidates = mounted ? sourceRoutes.map(({name,layer,points})=>({connection_name:name,route:points.map(([x,y])=>({route_type:'wire',x,y,layer,width:0.1}))})) : paths.flatMap(path => {
     const value = JSON.parse(readFileSync(path, 'utf8'))
     if (!Array.isArray(value.traces)) throw Error(`${path}: expected traces array`)
     return value.traces
@@ -71,7 +78,7 @@ try {
   if (missing.length) fail('complete DDR coverage', missing)
   const circuit = new Circuit({platform:{partsEngineDisabled:true,netlistDrcChecksDisabled:true}})
   circuit.schematicDisabled = true
-  const board = Board(), children = Children.toArray(board.props.children).filter((child:any)=>child.type!==ProvisionalDdrRoutes)
+  const board = Board(), children = Children.toArray(board.props.children).filter((child:any)=>![ProvisionalDdrRoutes, ProvisionalDdrAddressRoutes, ProvisionalDdrByte0Routes, ProvisionalDdrByte1Routes].includes(child.type))
   for (const candidate of candidates) {
     const meta = ddrRoutes.find(r=>r.name===candidate.connection_name)!
     const from = meta.from.replace('.U1', '.Processor > .U1'), to = meta.to.replace('.U3', '.DDR3 > .U3')
@@ -187,14 +194,24 @@ try {
     ADDRESS:ddrRoutes.map(r=>r.name).filter(n=>!/^DDR_D/.test(n)),
     DQS0:['DDR_DQS0','DDR_DQSn0'],DQS1:['DDR_DQS1','DDR_DQSn1'],CK:['DDR_CK','DDR_CKn'],
   }
+  const layerAssignments = (['BYTE0','BYTE1','ADDRESS'] as const).map(group=>{
+    const names=groups[group], members=routes.filter(route=>names.includes(route.name))
+    return {group,routed:members.length,expected:names.length,layers:[...new Set(members.map(route=>route.layer))].sort()}
+  })
+  const sharedLayers = layerAssignments.flatMap((a,i)=>layerAssignments.slice(i+1).flatMap(b=>a.layers.filter(layer=>b.layers.includes(layer)).map(layer=>({layer,groups:[a.group,b.group]}))))
+  if (requireSeparateLayers && (layerAssignments.some(g=>g.routed!==g.expected || g.layers.length!==1) || sharedLayers.length)) fail('one dedicated layer per complete DDR group',{layerAssignments,sharedLayers})
   const skew = Object.entries(groups).map(([group,names])=>{
     const rows=routes.filter(r=>names.includes(r.name)), limitMm=['DQS0','DQS1','CK'].includes(group)?0.127:0.635
-    const planarSkewMm=rows.length===names.length ? Math.max(...rows.map(r=>r.planarMm))-Math.min(...rows.map(r=>r.planarMm)) : null
-    const nominalTotalSkewMm=rows.length===names.length && rows.every(r=>r.totalMm!==null) ? Math.max(...rows.map(r=>r.totalMm!))-Math.min(...rows.map(r=>r.totalMm!)) : null
-    if (nominalTotalSkewMm===null || nominalTotalSkewMm>limitMm+epsilon) fail('nominal total length skew',{group,planarSkewMm,nominalTotalSkewMm,limitMm})
-    return {group,planarSkewMm,nominalTotalSkewMm,limitMm}
+    const complete=rows.length===names.length
+    const observedPlanarSkewMm=rows.length>1 ? Math.max(...rows.map(r=>r.planarMm))-Math.min(...rows.map(r=>r.planarMm)) : null
+    const observedNominalTotalSkewMm=rows.length>1 && rows.every(r=>r.totalMm!==null) ? Math.max(...rows.map(r=>r.totalMm!))-Math.min(...rows.map(r=>r.totalMm!)) : null
+    const planarSkewMm=complete ? observedPlanarSkewMm : null
+    const nominalTotalSkewMm=complete ? observedNominalTotalSkewMm : null
+    const result={group,complete,routed:rows.length,expected:names.length,planarSkewMm,nominalTotalSkewMm,observedPlanarSkewMm,observedNominalTotalSkewMm,limitMm}
+    if (nominalTotalSkewMm===null || nominalTotalSkewMm>limitMm+epsilon) fail('nominal total length skew',result)
+    return result
   })
-  const report={status:failures.length?'FAIL':'INCOMPLETE',qualified:false,electricalSignoff:false,scope:'Necessary geometry screening only; never complete electrical or fabrication signoff',keepout,widthMm:width,viaDimensions,nativeChecks,informational,routes,skew,failures,
+  const report={status:failures.length?'FAIL':'INCOMPLETE',qualified:false,electricalSignoff:false,scope:'Necessary geometry screening only; never complete electrical or fabrication signoff',keepout,widthMm:width,viaDimensions,nativeChecks,informational,routes,skew,layerAssignments,sharedLayers,failures,
     bendHeuristic:'0.03 mm RDP; >=10 degree turns; same-direction turns <=1 mm apart along simplified path count as one run; may undercount close corners or split large rounded corners',
     unverified:['TI inter-net DDR spacing by signal class (including 3w/4w center-to-center rules); native overlap and clearance checks do not enforce these rules','Differential impedance and pair coupling, including separation consistency and uncoupled lengths','External-facing meander orientation','Fabrication-confirmed stackup (total lengths include nominal jlcpcb_standard copper-center via depths only)','Return-leg gap screen covers opposing sampled chords, not arbitrary curve geometry','Reference-plane continuity, impedance and signal integrity']}
   writeFileSync(`${output}/report.json`,JSON.stringify(report,null,2))

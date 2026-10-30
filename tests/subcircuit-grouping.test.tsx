@@ -4,6 +4,9 @@ import { Children, cloneElement } from "react"
 import { getFullConnectivityMapFromCircuitJson } from "circuit-json-to-connectivity-map"
 import Board from "../index"
 import { ProvisionalDdrRoutes } from "../layout/ProvisionalDdrRoutes"
+import { ProvisionalDdrAddressRoutes } from "../layout/ProvisionalDdrAddressRoutes"
+import { ProvisionalDdrByte0Routes } from "../layout/ProvisionalDdrByte0Routes"
+import { ProvisionalDdrByte1Routes } from "../layout/ProvisionalDdrByte1Routes"
 import { subcircuitComponents } from "../subcircuits"
 import { parts as supportParts } from "../support"
 
@@ -11,7 +14,7 @@ async function compile(flat: boolean) {
   const circuit = new Circuit({ platform: { partsEngineDisabled: true, netlistDrcChecksDisabled: true } })
   circuit.schematicDisabled = flat
   const board = Board()
-  const children = Children.toArray(board.props.children).filter((child: any) => child.type !== ProvisionalDdrRoutes)
+  const children = Children.toArray(board.props.children).filter((child: any) => ![ProvisionalDdrRoutes, ProvisionalDdrAddressRoutes, ProvisionalDdrByte0Routes, ProvisionalDdrByte1Routes].includes(child.type))
   // Expand only the known wrapper components; keep the production tree idiomatic.
   const expanded = flat ? children.map((child: any) => subcircuitComponents.includes(child.type) ? child.type(child.props) : child) : children
   circuit.add(cloneElement(board, {}, flat ? expanded.flatMap((child: any) =>

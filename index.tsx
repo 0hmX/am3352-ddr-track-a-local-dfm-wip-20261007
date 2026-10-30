@@ -3,6 +3,9 @@ import { supportSheets, parts as supportParts } from "./support"
 import { pinSheets } from "./schematic/PinSheets"
 import { hdmiSheets, sheetCounts, subcircuitComponents } from "./subcircuits"
 import { ProvisionalDdrRoutes } from "./layout/ProvisionalDdrRoutes"
+import { ProvisionalDdrAddressRoutes } from "./layout/ProvisionalDdrAddressRoutes"
+import { ProvisionalDdrByte0Routes } from "./layout/ProvisionalDdrByte0Routes"
+import { ProvisionalDdrByte1Routes } from "./layout/ProvisionalDdrByte1Routes"
 export { ramNet } from "./logic/connections"
 const sheets = [...pinSheets, ...supportSheets, "Debug rails and power status", ...hdmiSheets]
 const supportCounts = Object.fromEntries(supportSheets.map(sheet => [sheet, supportParts.filter(p => p.sheet === sheet).length]))
@@ -18,5 +21,8 @@ export default function Board() {
     {subcircuitComponents.map(Component => <Component key={Component.name} />)}
     <SavedSilkscreen />
     <ProvisionalDdrRoutes />
+    <ProvisionalDdrAddressRoutes />
+    <ProvisionalDdrByte0Routes />
+    <ProvisionalDdrByte1Routes />
   </board>
 }
