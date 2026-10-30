@@ -24,7 +24,7 @@ function ImportedFootprint({part}:{part:any}) {
   return <smtpad key={i} portHints={hints} pcbX={p.x} pcbY={p.y} shape="rect" width={Math.abs(p.rotation)%180===90?p.height:p.width} height={Math.abs(p.rotation)%180===90?p.width:p.height}/>
  })}</footprint>
 }
-export function Support(){const counts:Record<string,number>={};return <>{parts.map((p:any)=>{
+export function Support({ sheets = supportSheets }: { sheets?: string[] } = {}){const counts:Record<string,number>={};return <>{parts.filter(p => sheets.includes(p.sheet)).map((p:any)=>{
  const i=counts[p.sheet]??0; counts[p.sheet]=i+1
  if(p.kind==='capacitor' && p.package==='1210' && !p.useImportedFootprint)throw Error(`Declared 1210 capacitor ${p.name} cannot use a fallback footprint`)
  const props={pcbStyle:savedRefdesStyle(p.name),name:p.name,manufacturerPartNumber:p.mpn??undefined,connections:Object.fromEntries(Object.entries(p.connections).map(([pin,net])=>[p.kind==='chip'?safe(p,pin):'pin'+pin,`net.${net}`])),...(placement as any)[p.name],schSheetName:p.sheet,schX:((i%4)-1.5)*13,schY:((Math.ceil(parts.filter(part=>part.sheet===p.sheet).length/4)-1)/2-Math.floor(i/4))*9}

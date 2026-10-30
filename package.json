@@ -4,13 +4,12 @@
   "type": "module",
   "description": "Native TSX AM3352 DDR3/RGB888 HDMI design; saved layout migration is in progress.",
   "dependencies": {
-    "@tscircuit/core": "0.0.2225",
-    "tscircuit": "0.0.3033"
+    "@tscircuit/core": "0.0.2236",
+    "tscircuit": "0.0.3040"
   },
   "scripts": {
     "dev": "sh scripts/dev.sh",
-    "build": "sh scripts/build.sh",
-    "route:ddr": "bun scripts/reroute-ddr.tsx --apply"
+    "build": "sh scripts/build.sh"
   },
   "devDependencies": {
     "@tscircuit/bus-lanes-solver": "https://jscdn.tscircuit.com/@tscircuit/bus-lanes-solver/0.0.35.tgz",

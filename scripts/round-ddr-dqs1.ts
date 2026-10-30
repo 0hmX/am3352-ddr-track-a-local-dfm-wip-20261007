@@ -1,0 +1,25 @@
+import {exteriorPairSpacingReports} from '@tscircuit/bus-lanes-solver'
+import {checkMeanderGap} from './check-meander-gap'
+import {createHash} from 'node:crypto'
+import {rmSync} from 'node:fs'
+// This postprocessor is specific to one solver result; fail if its escapes change.
+const output='work/ddr/experiments/bottom-rounded-pair.json'
+rmSync(output,{force:true})
+const input=await Bun.file('work/ddr/experiments/bottom-pair.json').json()
+const signature=createHash('sha256').update(JSON.stringify(input.traces.map((t:any)=>({name:t.connection_name,points:t.route.map((p:any)=>[p.x,p.y])})))).digest('hex')
+if(signature!=='637477aa73e9e7882bcb8f4543a753f3e79feb85871ec9b7c991d7e52dd63d95') throw Error('Solver candidate changed; review the package escapes before rounding')
+type P={x:number,y:number,[k:string]:any};const dist=(a:P,b:P)=>Math.hypot(a.x-b.x,a.y-b.y),cross=(a:P,b:P)=>a.x*b.y-a.y*b.x,unit=(a:P,b:P)=>({x:(b.x-a.x)/dist(a,b),y:(b.y-a.y)/dist(a,b)}),dot=(a:P,b:P)=>a.x*b.x+a.y*b.y
+const paths=input.traces.map((t:any)=>{const p:P[]=[];for(const q of t.route){if(p.length&&dist(p.at(-1)!,q)<1e-5)continue;p.push(q)};let change=true;while(change){change=false;for(let i=1;i<p.length-1;i++)if(Math.abs(cross(unit(p[i-1],p[i]),unit(p[i],p[i+1])))<1e-5){p.splice(i,1);change=true;break}}return p})
+// Remove the microscopic CPU zigzag; keep pad endpoints and the coupled trunk.
+// Two RAM approach vertices shift 0.04 mm diagonally to keep the fillet coupled through the handoff.
+const initial=paths[0];paths[0]=[initial[0],{...initial[4],x:initial[4].x,y:initial[0].y-Math.abs(initial[4].x-initial[0].x)},...initial.slice(5)]
+for(const i of [5,6,7]){paths[1][i]={...paths[1][i],x:paths[1][i].x+Number(process.env[`P${i}X`]??(i===5?-.08:i===7?.04:0)),y:paths[1][i].y+Number(process.env[`P${i}Y`]??(i===5?-.08:0))}}
+if(process.env.DROP6!=='0')paths[1].splice(6,1)
+const radii=paths.map((p:P[])=>p.map(()=>.18));const angles=paths.map((p:P[])=>p.map((q:P,i:number)=>i&&i<p.length-1?Math.atan2(cross(unit(p[i-1],q),unit(q,p[i+1])),dot(unit(p[i-1],q),unit(q,p[i+1]))):0))
+for(let i=1;i<paths[0].length-1;i++)for(let j=1;j<paths[1].length-1;j++){
+ const a=paths[0][i],b=paths[1][j],ua=unit(paths[0][i-1],a),ub=unit(paths[1][j-1],b),va=unit(a,paths[0][i+1]),vb=unit(b,paths[1][j+1]);if(dot(ua,ub)<.99999||dot(va,vb)<.99999||dist(a,b)>.6)continue;const side=cross(ua,{x:b.x-a.x,y:b.y-a.y});if(Math.abs(Math.abs(side)-.22)>.001)continue;const bInner=side*angles[0][i]>0;const cap=(p:P[],j:number)=>Math.min(dist(p[j-1],p[j]),dist(p[j],p[j+1]))*.42/Math.tan(Math.abs(angles[p===paths[0]?0:1][j])/2);const inner=Math.min(.18,cap(paths[bInner?1:0],bInner?j:i),cap(paths[bInner?0:1],bInner?i:j)-.22);if(inner>0){radii[0][i]=bInner?inner+.22:inner;radii[1][j]=bInner?inner:inner+.22;}
+}
+const applied:any[]=[]
+input.traces.forEach((t:any,k:number)=>{const p=paths[k],result:P[]=[p[0]];for(let i=1;i<p.length-1;i++){const a=p[i-1],b=p[i],c=p[i+1],u=unit(a,b),v=unit(b,c),theta=angles[k][i],tan=Math.tan(Math.abs(theta)/2);if(Math.abs(theta)<1e-8){result.push(b);continue}const trim=Math.min(radii[k][i]*tan,dist(a,b)*.42,dist(b,c)*.42),r=trim/tan,start={...b,x:b.x-u.x*trim,y:b.y-u.y*trim},end={...b,x:b.x+v.x*trim,y:b.y+v.y*trim},sign=Math.sign(theta),center={x:start.x-u.y*r*sign,y:start.y+u.x*r*sign},ang=Math.atan2(start.y-center.y,start.x-center.x),n=Math.ceil(Math.abs(theta)/(Math.PI/60));result.push(start);for(let j=1;j<=n;j++)result.push({...b,x:center.x+r*Math.cos(ang+theta*j/n),y:center.y+r*Math.sin(ang+theta*j/n)});applied.push({name:t.connection_name,vertex:i,radius:r,angle:theta*180/Math.PI})}result.push(p.at(-1));t.route=result;delete t.coupledSection;delete t.curvedSegments})
+let minViaGap=Infinity;for(const t of input.traces)for(const o of input.obstacles.filter((o:any)=>o.type==='via'&&o.layers.includes('bottom')&&!o.connectedTo.includes(t.connection_name)))for(let i=1;i<t.route.length;i++){const a=t.route[i-1],b=t.route[i],dx=b.x-a.x,dy=b.y-a.y,u=Math.max(0,Math.min(1,((o.center.x-a.x)*dx+(o.center.y-a.y)*dy)/(dx*dx+dy*dy)));minViaGap=Math.min(minViaGap,Math.hypot(o.center.x-a.x-u*dx,o.center.y-a.y-u*dy)-.2)}
+const report={minViaGap,fillets:applied,routes:input.traces.map((t:any)=>{const p=t.route;let max=0;for(let i=1;i<p.length-1;i++)max=Math.max(max,Math.acos(Math.max(-1,Math.min(1,dot(unit(p[i-1],p[i]),unit(p[i],p[i+1])))))*180/Math.PI);return {name:t.connection_name,maxTurn:max,length:p.slice(1).reduce((s:number,q:P,i:number)=>s+dist(p[i],q),0),gap:checkMeanderGap(p.map((q:P)=>[q.x,q.y]),.1,.2)}}),coupling:exteriorPairSpacingReports({...input,traces:[]},input.traces)};console.log(JSON.stringify(report,null,2));if(minViaGap<.1-1e-6 || report.routes.some((r:any)=>r.maxTurn>30+1e-4||!r.gap.ok) || !report.coupling.every((p:any)=>p.matched) || Math.abs(report.routes[0].length-report.routes[1].length)>.127+1e-6) throw Error('Rounded pair failed its preliminary geometry screens');await Bun.write(output,JSON.stringify(input));await Bun.write('work/ddr/experiments/bottom-rounded-pair-report.json',JSON.stringify(report,null,2))

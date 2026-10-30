@@ -17,7 +17,7 @@ const split = (labels: Record<string, readonly string[]>, classify: typeof cpuSh
 export const pinGroups = [...split(cpu, cpuSheet, "U1"), ...split(ram, ramSheet, "U3")]
 export const pinSheets = [...new Set(pinGroups.map(p => p.sheet))]
 /** Native projections share the physical chip's existing source ports. Every ball appears once. */
-export function PinSheets() { return <>{pinGroups.map(group => {
+export function PinSheets({ chip }: { chip?: string } = {}) { return <>{pinGroups.filter(group => !chip || group.chip === chip).map(group => {
   const keys = group.entries.map(([pin]) => pin)
   return <schematicbox key={group.name} name={group.name} title={group.name} chipRef={`chip[name="${group.chip}"]`}
     schSheetName={group.sheet} schX={(group.index % 2) * 25 - 12.5} schY={-Math.floor(group.index / 2) * 18}
