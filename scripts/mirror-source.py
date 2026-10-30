@@ -10,7 +10,7 @@ IMPORTS = re.compile(r'(?:from\s*|import\s*)["\'](\.[^"\']+)["\']')
 
 
 def collect(source):
-    pending, files = [source / 'index.tsx'], {}
+    pending, files = [source / 'index.tsx', *source.glob('subcircuits/*.tsx')], {}
     while pending:
         path = pending.pop().resolve()
         relative = path.relative_to(source)
@@ -33,6 +33,7 @@ def main():
     parser.add_argument('--source', type=Path, required=True)
     parser.add_argument('--preview', type=Path, required=True)
     parser.add_argument('--once', action='store_true')
+    parser.add_argument('--show-subcircuits', action='store_true')
     args = parser.parse_args()
     source, preview = args.source.resolve(), args.preview.resolve()
     if source == preview:
@@ -54,6 +55,10 @@ def main():
             for name in ('package.json', 'tscircuit.config.json'):
                 target = preview / name
                 contents = (source / name).read_bytes()
+                if name == 'tscircuit.config.json' and args.show_subcircuits:
+                    config = json.loads(contents)
+                    config['includeBoardFiles'] = ['index.tsx', 'subcircuits/*.tsx']
+                    contents = (json.dumps(config, indent=2) + '\n').encode()
                 if not target.exists() or target.read_bytes() != contents:
                     target.write_bytes(contents)
             modules = preview / 'node_modules'

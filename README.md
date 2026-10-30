@@ -11,7 +11,7 @@ bun install --frozen-lockfile
 bun run dev
 ```
 
-Open `http://localhost:3020/#file=index.tsx&tab=pcb`. The development script mirrors the active TSX source and watches it for changes. `bun run build` generates the site in ignored `dist/`.
+Open `http://localhost:3020/#file=index.tsx&tab=pcb`. The development script mirrors the active TSX source and watches it for changes. The file picker shows the main board and the files in `subcircuits/`; `subcircuits/DDR3Preview.tsx` shows the processor, DDR and provisional routes together. `bun run build` generates the site in ignored `dist/`.
 
 The PCB is organized into 11 native functional subcircuits, each defined in its own file under `subcircuits/`. Each PCB group has a two-dimensional bounding box covering its components on both sides of the board. The current component positions are preserved, so some boxes overlap; the boxes are organization boundaries, not physical keepouts. Run `bun test tests/subcircuit-grouping.test.tsx` to check placement, group bounds and electrical connectivity against the equivalent ungrouped board.
 

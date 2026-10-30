@@ -12,8 +12,8 @@ cleanup() {
 trap cleanup EXIT
 trap 'exit 130' INT
 trap 'exit 143' TERM
-python3 "$board_root/scripts/mirror-source.py" --source "$board_root" --preview "$preview_dir" --once
-python3 "$board_root/scripts/mirror-source.py" --source "$board_root" --preview "$preview_dir" &
+python3 "$board_root/scripts/mirror-source.py" --source "$board_root" --preview "$preview_dir" --show-subcircuits --once
+python3 "$board_root/scripts/mirror-source.py" --source "$board_root" --preview "$preview_dir" --show-subcircuits &
 sync_pid=$!
 printf 'TSX PCB: http://localhost:%s/#file=index.tsx&tab=pcb\n' "${PORT:-3020}"
 cd "$preview_dir"
