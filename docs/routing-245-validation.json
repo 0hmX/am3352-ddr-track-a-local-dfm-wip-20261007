@@ -1,0 +1,144 @@
+{
+  "sourceCheckpoint": "1e510ebc2cd7ab2c717df2535519618d9f1ce30b",
+  "sourceArchiveSha256": "874307f6b9b8e3887af1755354d21ccb59b6ba6355005904cf79afbc2fe330c3",
+  "nativeSha256": "d7e6fa332016d35d2097d6193dc486b28fcfb1830e6d159ce4d7b6b57923389e",
+  "namedNets": 251,
+  "connectedNets": 245,
+  "previousConnectionsLost": [],
+  "remainingNets": [
+    "HDMI_D0",
+    "HDMI_D11",
+    "HDMI_D15",
+    "HDMI_D8",
+    "SYSBOOT10",
+    "SYSBOOT2"
+  ],
+  "directProductionNativeBytesMatchValidatedCandidate": true,
+  "nativeStrict": {
+    "baselineCheckpoint": "3278cc54eb9747336d3907b282f8525856c136e5",
+    "exitCode": 0,
+    "newFailureSignatures": 0,
+    "inheritedProjectedWarnings": 23,
+    "supplementalPhysicalFindings": {
+      "drillSpacing": 0,
+      "traceToPlatedHole": 0,
+      "physicalDifferentNetContacts": 0
+    }
+  },
+  "independentExport": {
+    "connectedNets": 245,
+    "shorts": 0,
+    "missingPinCopper": 0,
+    "missingBarrelCopper": 0,
+    "missingDrills": 0
+  },
+  "postDrill": {
+    "newReferenceCuts": 0,
+    "groundPins": 393,
+    "groundGroups": 1,
+    "ddrAreaFindings": 10
+  },
+  "ddr": {
+    "routes": 46,
+    "signalVias": 68,
+    "maximumPerRoute": 2,
+    "routeBodiesLengthsLayersWidthsAndViasUnchanged": true
+  },
+  "placement": {
+    "pcb_component_outside_board_error": 2,
+    "pcb_component_missing_courtyard_warning": 15
+  },
+  "officialTraceLintIssues": 0,
+  "signal": {
+    "layer": "inner5",
+    "widthMm": 0.1,
+    "cpuToArrayLengthMm": 8.227691193458119,
+    "pullToCpuLengthMm": 2.537056274847714,
+    "physicalSignalVias": 3,
+    "viaCenters": [
+      [
+        5.2,
+        -5.2
+      ],
+      [
+        6.5,
+        -12.475
+      ],
+      [
+        3.16,
+        -4
+      ]
+    ],
+    "padsAndPlacementsUnchanged": true,
+    "cpuReturnDistanceMm": 2.080865
+  },
+  "power": {
+    "removedTrace": "CLOUD_V1V8_REBUILD_41",
+    "removedLayer": "inner5",
+    "removedWidthMm": 0.3,
+    "removedLengthMm": 8.778279938,
+    "newTrace": "RN3_V1V8_REAL_PAD_TIE_I4",
+    "newLayer": "inner4",
+    "newWidthMm": 0.3,
+    "newLengthMm": 11.624373908,
+    "existingTargetPad": {
+      "selector": "C_PWR12_B.pin1",
+      "center": [
+        10.35,
+        -5.2
+      ],
+      "span": [
+        "top",
+        "inner5"
+      ],
+      "holeMm": 0.15,
+      "landMm": 0.3
+    },
+    "newPadCenteredBarrel": {
+      "selector": "C_SRAM_MPU_0.pin1",
+      "center": [
+        12.26,
+        2.5
+      ],
+      "span": [
+        "bottom",
+        "inner4"
+      ],
+      "holeMm": 0.15,
+      "landMm": 0.3
+    },
+    "newBarrelDependentPads": 38,
+    "newBarrelDependentCpuPins": 16,
+    "existingTargetBarrelDependentPads": 39,
+    "oscillatorPathBarrelSitesBeforeAfter": [
+      4,
+      9
+    ],
+    "oscillatorExistingThinBranchWidthMm": 0.15,
+    "remainingLimits": [
+      "New capacitor barrel and existing bulk-capacitor barrel are single-point supply dependencies.",
+      "Upstream PMIC barrel and 0.20 mm source / 0.30 mm Bottom copper limitations remain.",
+      "No current-capacity equivalence, impedance, transient, SI or fabrication qualification."
+    ]
+  },
+  "hsyncCompanion": {
+    "trace": "RN6_INPUT_HDMI_HSYNC",
+    "addedLengthMm": 0.141421356,
+    "endpointViasUnchanged": true,
+    "purpose": "Clear new SYS6 CPU barrel reference opening"
+  },
+  "rawPowerTieReferenceMarginMm": 0.009999585109779658,
+  "strictPointZeroOneMarginClaim": false,
+  "openViaInventory": {
+    "rawViaRecords": 1160,
+    "uniqueDrillSpanStructures": 1157,
+    "redundantCoincidentRecords": 3,
+    "intermediateSignalCount": 3
+  },
+  "limits": [
+    "No SI, PI, current capacity, impedance, timing, boot or fabrication qualification.",
+    "SYSBOOT10 proposal and unaccepted SYS2/HDMI alternatives excluded.",
+    "Ten DDR reference-area cases, additional low margins, three signal midpoints and nine off-pad power joins remain.",
+    "All rail pins connected does not establish power-capacity equivalence."
+  ]
+}

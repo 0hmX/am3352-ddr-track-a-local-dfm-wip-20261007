@@ -1,6 +1,6 @@
 # AM3352 DDR3 and RGB888 HDMI
 
-This is a partially routed native tscircuit board: **244/251 named nets connected**, with seven remaining. The active board is `index.tsx`; files in `layout/` and `data/` also include historical route sets, so presence does not imply a set is mounted. See the [current routing checkpoint](docs/routing-244-checkpoint.md) and [validation summary](docs/routing-244-validation.json).
+This is a partially routed native tscircuit board: **245/251 named nets connected**, with six remaining. The active board is `index.tsx`; files in `layout/` and `data/` also include historical route sets, so presence does not imply a set is mounted. See the [current routing checkpoint](docs/routing-245-checkpoint.md) and [validation summary](docs/routing-245-validation.json).
 
 ## Development
 
@@ -20,3 +20,5 @@ Validate the composed board with native continuity, clearance, placement and tra
 All 46 DDR timing routes are connected, but 10 DDR reference-area findings and additional low margins remain. Board-wide via-in-pad compliance is incomplete: three signal midpoints and nine off-pad power joins remain. The actual fabrication stack, configured DDR rate, impedance, timing and current capacity are unverified. Filled/capped via-in-pad processing and blind/buried layer construction require fabricator qualification. RAM power retains capacitor-barrel dependencies. This is routing WIP, not a fabrication release or SI/PI/boot signoff.
 
 The cloud checkpoint does not include offline Mac work. The prior [240-net snapshot](docs/routing-240-snapshot.md) is historical.
+
+The SYSBOOT6 increment uses a reviewed V1V8 feed redistribution. Its capacitor-barrel dependencies remain open power-capacity limitations. See the current [routing TODO](docs/routing-todo.md).
