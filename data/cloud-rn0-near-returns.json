@@ -1,0 +1,29 @@
+[
+  {
+    "name": "HDMI_D16_SOURCE_RETURN",
+    "net": "GND",
+    "x": 41.45,
+    "y": -22.7,
+    "fromLayer": "inner1",
+    "toLayer": "inner3",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "action": "move existing",
+    "old": [
+      41.175,
+      -21.85
+    ]
+  },
+  {
+    "name": "RN0_MOVED_I4_REFERENCE",
+    "net": "GND",
+    "x": 10.76112159321605,
+    "y": 3.675000000001252,
+    "fromLayer": "inner1",
+    "toLayer": "inner3",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "distanceD2": 0.8499999999999995,
+    "distanceD17": 1.1821590417542183
+  }
+]

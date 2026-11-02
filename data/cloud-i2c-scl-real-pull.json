@@ -1,0 +1,240 @@
+{
+  "baselineNative": "work/cloud/combined-v41/native/board.circuit.json",
+  "placement": {
+    "center": [
+      -7.95,
+      7.94
+    ],
+    "rotation": 90,
+    "layer": "bottom",
+    "signal": [
+      -7.95,
+      8.45
+    ],
+    "v3": [
+      -7.95,
+      7.43
+    ]
+  },
+  "beforePlacement": {
+    "center": [
+      22.05,
+      1.05
+    ],
+    "layer": "bottom",
+    "rotation": 270,
+    "signal": [
+      22.05,
+      0.54
+    ],
+    "v3": [
+      22.05,
+      1.56
+    ]
+  },
+  "routes": [
+    {
+      "name": "CLOUD_LOCAL_LAYERED_9_NEXT_I2C0_SCL",
+      "net": "I2C0_SCL",
+      "from": ".Processor > .U1 > .C16",
+      "to": ".Power_management > .R_PWR6 > .pin1",
+      "points": [
+        {
+          "x": -5.2,
+          "y": 5.2,
+          "via": true,
+          "fromLayer": "top",
+          "toLayer": "inner2"
+        },
+        {
+          "x": -5.2,
+          "y": 5.2,
+          "layer": "inner2"
+        },
+        {
+          "x": -5.2,
+          "y": 5.699999999999999,
+          "layer": "inner2"
+        },
+        {
+          "x": -7.95,
+          "y": 8.45,
+          "layer": "inner2"
+        },
+        {
+          "x": -7.95,
+          "y": 8.45,
+          "via": true,
+          "fromLayer": "inner2",
+          "toLayer": "bottom"
+        }
+      ]
+    },
+    {
+      "name": "CLOUD_LOCAL_0_NEXT_I2C0_SCL",
+      "net": "I2C0_SCL",
+      "from": ".Power_management > .R_PWR6 > .pin1",
+      "to": ".Power_management > .U_PMIC > .3",
+      "points": [
+        {
+          "x": -7.95,
+          "y": 8.45,
+          "layer": "bottom"
+        },
+        {
+          "x": -5.749999999999999,
+          "y": 10.65,
+          "layer": "bottom"
+        },
+        {
+          "x": 1.0999999999999996,
+          "y": 10.65,
+          "layer": "bottom"
+        },
+        {
+          "x": 2.75,
+          "y": 9.0,
+          "layer": "bottom"
+        },
+        {
+          "x": 10.65,
+          "y": 9.0,
+          "layer": "bottom"
+        },
+        {
+          "x": 12.825,
+          "y": 6.825000000000001,
+          "layer": "bottom"
+        },
+        {
+          "x": 12.825,
+          "y": 5.525,
+          "layer": "bottom"
+        },
+        {
+          "x": 14.6,
+          "y": 3.75,
+          "layer": "bottom"
+        },
+        {
+          "x": 15.9,
+          "y": 3.75,
+          "layer": "bottom"
+        },
+        {
+          "x": 18.475,
+          "y": 1.174999999999999,
+          "layer": "bottom"
+        },
+        {
+          "x": 18.475,
+          "y": -0.3749999999999979,
+          "layer": "bottom"
+        },
+        {
+          "x": 18.25,
+          "y": -0.6,
+          "layer": "bottom"
+        },
+        {
+          "x": 18.0625,
+          "y": -0.6,
+          "layer": "bottom"
+        },
+        {
+          "x": 18.0625,
+          "y": -0.6,
+          "via": true,
+          "fromLayer": "bottom",
+          "toLayer": "top"
+        }
+      ]
+    },
+    {
+      "name": "CLOUD_LOCAL_54_I2C0_SCL",
+      "net": "I2C0_SCL",
+      "from": ".HDMI > .U_HDMI > .12",
+      "to": ".Power_management > .U_PMIC > .3",
+      "points": [
+        {
+          "x": 44.75006,
+          "y": -31.20008,
+          "via": true,
+          "fromLayer": "top",
+          "toLayer": "inner4"
+        },
+        {
+          "x": 44.75006,
+          "y": -31.20008,
+          "layer": "inner4"
+        },
+        {
+          "x": 44.75006,
+          "y": -28.97506,
+          "layer": "inner4"
+        },
+        {
+          "x": 37.775,
+          "y": -22.0,
+          "layer": "inner4"
+        },
+        {
+          "x": 28.4,
+          "y": -22.0,
+          "layer": "inner4"
+        },
+        {
+          "x": 18.7,
+          "y": -12.3,
+          "layer": "inner4"
+        },
+        {
+          "x": 18.7,
+          "y": 0.1999999999999993,
+          "layer": "inner4"
+        },
+        {
+          "x": 18.25,
+          "y": 0.65,
+          "layer": "inner4"
+        },
+        {
+          "x": 17.974999999999998,
+          "y": 0.65,
+          "layer": "inner4"
+        },
+        {
+          "x": 17.65,
+          "y": 0.3249999999999993,
+          "layer": "inner4"
+        },
+        {
+          "x": 17.65,
+          "y": -0.3749999999999979,
+          "layer": "inner4"
+        },
+        {
+          "x": 17.875,
+          "y": -0.6,
+          "layer": "inner4"
+        },
+        {
+          "x": 18.0625,
+          "y": -0.6,
+          "layer": "inner4"
+        }
+      ],
+      "reuseFinalActualFullBarrel": true
+    }
+  ],
+  "removedMidpoint": [
+    -7.95,
+    8.35
+  ],
+  "existingGroundReturn": {
+    "x": -8.458133742881207,
+    "y": 8.560475887800802,
+    "fromLayer": "inner1",
+    "toLayer": "inner6"
+  }
+}

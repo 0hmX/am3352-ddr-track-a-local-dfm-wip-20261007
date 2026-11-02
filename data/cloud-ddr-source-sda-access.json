@@ -1,0 +1,47 @@
+{
+  "net": "DDR_1V5",
+  "a": [
+    22.5,
+    4.3
+  ],
+  "b": [
+    9.4125,
+    -3.5
+  ],
+  "fromLayer": "inner5",
+  "toLayer": "inner5",
+  "layer": "inner5",
+  "width": 0.6,
+  "points": [
+    [
+      22.5,
+      4.3
+    ],
+    [
+      22.5,
+      3.3999999999999986
+    ],
+    [
+      19.450000000000003,
+      0.3500000000000014
+    ],
+    [
+      18.9,
+      0.3500000000000014
+    ],
+    [
+      18.35,
+      0.8999999999999986
+    ],
+    [
+      13.812499999999998,
+      0.8999999999999986
+    ],
+    [
+      9.4125,
+      -3.5
+    ]
+  ],
+  "lengthMm": 17.30120849898476,
+  "status": "Conditional same-width body relief only. Old off-pad source join retained, no new or moved via. No source edit."
+}

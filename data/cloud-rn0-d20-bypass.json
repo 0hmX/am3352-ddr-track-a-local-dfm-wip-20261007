@@ -1,0 +1,125 @@
+{
+  "status": "Conditional RN0 move/input/D9 packet, fixed RN1 and complete actual V45 PGOOD/MDIO retained. No source change.",
+  "trial": {
+    "points": [
+      [
+        6,
+        2
+      ],
+      [
+        6.44,
+        2
+      ],
+      [
+        6.44,
+        1.64
+      ],
+      [
+        7.725,
+        1.64
+      ],
+      [
+        8.4,
+        1.64
+      ],
+      [
+        8.66,
+        1.9
+      ],
+      [
+        9.4,
+        1.9
+      ],
+      [
+        9.5,
+        2
+      ],
+      [
+        9.5,
+        4
+      ],
+      [
+        9,
+        4.5
+      ],
+      [
+        9,
+        7.475
+      ],
+      [
+        8,
+        8.475
+      ]
+    ],
+    "findings": [],
+    "reference": [
+      {
+        "plane": "inner1",
+        "uncoveredAreaMm2": 0.013786469117121294,
+        "edgeMarginMm": 0.0
+      }
+    ]
+  },
+  "route": {
+    "net": "HDMI_RGB_D20",
+    "a": [
+      6,
+      2
+    ],
+    "b": [
+      8,
+      8.475
+    ],
+    "fromLayer": "top",
+    "toLayer": "bottom",
+    "layer": "top",
+    "width": 0.1,
+    "points": [
+      [
+        6,
+        2
+      ],
+      [
+        6.44,
+        2
+      ],
+      [
+        6.44,
+        1.64
+      ],
+      [
+        7.725,
+        1.64
+      ],
+      [
+        9.04,
+        1.64
+      ],
+      [
+        9.5,
+        2.1000000000000014
+      ],
+      [
+        9.5,
+        5.300000000000004
+      ],
+      [
+        8.0,
+        6.800000000000004
+      ],
+      [
+        8,
+        8.475
+      ]
+    ],
+    "lengthMm": 11.046858582251266,
+    "physicalFindings": [],
+    "reference": [
+      {
+        "plane": "inner1",
+        "uncoveredAreaMm2": 0.0,
+        "edgeMarginMm": 0.05499999999999993
+      }
+    ]
+  }
+}

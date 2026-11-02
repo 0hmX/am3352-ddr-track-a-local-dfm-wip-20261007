@@ -1,0 +1,71 @@
+{
+  "status": "Physical pair permutation, no external net/pin-function changes",
+  "actualPart": "CAT10-330J4LF",
+  "before": {
+    "1": "SYSBOOT13",
+    "8": "HDMI_D5",
+    "2": "SYSBOOT1",
+    "7": "HDMI_D20",
+    "3": "SYSBOOT5",
+    "6": "HDMI_D10",
+    "4": "SYSBOOT9",
+    "5": "HDMI_D14"
+  },
+  "after": {
+    "3": "SYSBOOT1",
+    "4": "SYSBOOT9",
+    "1": "SYSBOOT13",
+    "2": "SYSBOOT5",
+    "8": "HDMI_D5",
+    "6": "HDMI_D20",
+    "7": "HDMI_D10",
+    "5": "HDMI_D14"
+  },
+  "beforeEdges": [
+    [
+      "HDMI_D10",
+      "SYSBOOT5",
+      "33ohm"
+    ],
+    [
+      "HDMI_D14",
+      "SYSBOOT9",
+      "33ohm"
+    ],
+    [
+      "HDMI_D20",
+      "SYSBOOT1",
+      "33ohm"
+    ],
+    [
+      "HDMI_D5",
+      "SYSBOOT13",
+      "33ohm"
+    ]
+  ],
+  "afterEdges": [
+    [
+      "HDMI_D10",
+      "SYSBOOT5",
+      "33ohm"
+    ],
+    [
+      "HDMI_D14",
+      "SYSBOOT9",
+      "33ohm"
+    ],
+    [
+      "HDMI_D20",
+      "SYSBOOT1",
+      "33ohm"
+    ],
+    [
+      "HDMI_D5",
+      "SYSBOOT13",
+      "33ohm"
+    ]
+  ],
+  "equal": true,
+  "sourceDefinition": "hdmi/components/SeriesDampingArray.tsx",
+  "sourceSha256": "a9ff9d3898b8c621ab7c8d0a42a718fec9d7bb961be52e22654685262ec6e336"
+}

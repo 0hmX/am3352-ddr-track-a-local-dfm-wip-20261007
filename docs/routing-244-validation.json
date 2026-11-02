@@ -1,0 +1,67 @@
+{
+  "sourceCheckpoint": "a96772d3de9d3d049a4ac00c8e1cde366c3d8803",
+  "sourceArchiveSha256": "84c8329db00e66020bbeb06081521bd3d2240e8337ac1000055dbd741bfff654",
+  "nativeSha256": "dc9676ecd03e5611117619153797c043be185ebea2580e025443f9fa90508df2",
+  "namedNets": 251,
+  "connectedNets": 244,
+  "previousConnectionsLost": [],
+  "remainingNets": [
+    "HDMI_D0",
+    "HDMI_D8",
+    "HDMI_D11",
+    "HDMI_D15",
+    "SYSBOOT2",
+    "SYSBOOT6",
+    "SYSBOOT10"
+  ],
+  "actualGerberExcellon": {
+    "shorts": 0,
+    "missingPinCopper": 0,
+    "missingBarrelCopper": 0,
+    "missingDrills": 0
+  },
+  "sameDepthPhysicalChecks": {
+    "differentNetContacts": 0,
+    "drillSpacingFindings": 0,
+    "drillToTraceFindings": 0
+  },
+  "postDrill": {
+    "groundTerminals": 393,
+    "groundGroups": 1,
+    "newReferenceCuts": 0,
+    "ddrAreaFindings": 13,
+    "additionalZeroOrLowMarginsRemain": true
+  },
+  "ddr": {
+    "timingRoutes": 46,
+    "signalVias": 68,
+    "routesWithZeroVias": 12,
+    "routesWithTwoVias": 34,
+    "allSignalViasPadCentered": true,
+    "lengthsLayersWidthsPreserved": true
+  },
+  "nativeStrict": {
+    "exitCode": 1,
+    "newSelectedDepthDisjointProjectedWarnings": 2,
+    "totalProjectedWarnings": 23,
+    "physicalFabricationStackQualified": false
+  },
+  "placement": {
+    "overlaps": 0,
+    "connectorOverhangs": 2,
+    "missingCourtyards": 15
+  },
+  "style": {
+    "officialIssues": 0,
+    "broaderSharpTurnTraces": 78
+  },
+  "boardViaInventory": {
+    "rawRecords": 1156,
+    "uniqueDrillSpanStructures": 1153,
+    "coincidentDuplicates": 3,
+    "intermediateSignalTransitions": 3,
+    "offPadPowerJoins": 9,
+    "centeredStackJoins": 1
+  },
+  "qualification": "Routing WIP. No SI, PI, timing, impedance, current-capacity, manufacturing or boot signoff. Actual stack and configured DDR rate remain unverified."
+}

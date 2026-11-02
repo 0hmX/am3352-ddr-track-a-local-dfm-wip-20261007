@@ -1,3 +1,19 @@
+import {applyCloudRouting244} from './layout/CloudRouting244Overrides'
+import {CloudRn4NearRoutes} from './layout/CloudRn4NearRoutes'
+import {CloudD21CpuReturn} from './layout/CloudD21D22Inner4'
+import {applyPgoodReferenceReturns} from "./layout/CloudPgoodReferenceReturns"
+import {applyCloudRouting242} from './layout/CloudRouting242Overrides'
+import {CloudRn0NearRoutes} from './layout/CloudRn0NearRoutes'
+import {CloudD14TwoReferenceScopes} from './layout/CloudD14ReferenceScopes'
+import { CloudA4EightReferenceScopes } from "./layout/CloudA4ReferenceScopes"
+import {applyMdioInner4Candidate, CloudMdioReferenceBridges} from './layout/CloudMdioInner4Routes'
+import {applyFixedPgood48Top} from './layout/CloudPgoodTopRoute'
+import {CloudA11ThreeReferenceScopes} from './layout/CloudA11ReferenceScopes'
+import {CloudBa1SixReferenceScopes} from './layout/CloudBa1ReferenceScopes'
+import {applyTypecCorners} from './layout/CloudTypecControlCorners'
+import {applyCloudRouting240Cleanup} from './layout/CloudRouting240Cleanup'
+import {CloudI2cRealPullReturn} from './layout/CloudI2cPullReturn'
+import {CloudDqm1D11CpuReferenceScopes} from './layout/CloudDqm1D11CpuReferenceScopes'
 import {CloudD12Rn5AwareRoute, CloudD12DdrCap9Bridge} from './layout/CloudD12Inner5Routes'
 import {applyCloudRouting239} from './layout/CloudRouting239Overrides'
 import {CloudCkeTwoScopeOverlaysV1} from './layout/CloudRn5CkeScopes'
@@ -85,7 +101,7 @@ const sheets = [...pinSheets, ...supportSheets, "Debug rails and power status", 
 const supportCounts = Object.fromEntries(supportSheets.map(sheet => [sheet, supportParts.filter(p => p.sheet === sheet).length]))
 /** DDR routing is in progress; candidate copper is screened before mounting. */
 export default function Board() {
-  return applyCloudRouting239(applyCloudRouting235(applyCloudControlCleanup(applyCloudRouting233(applyCloudRouting232(applyCloudRouting230(applyCloudRouting228(applyCloudRouting226(<board width={98} height={65.5} layers={8} thickness={1.2} pcbRelative routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
+  return applyCloudRouting244(applyPgoodReferenceReturns(applyCloudRouting242(applyMdioInner4Candidate(applyFixedPgood48Top(applyTypecCorners(applyCloudRouting240Cleanup(applyCloudRouting239(applyCloudRouting235(applyCloudControlCleanup(applyCloudRouting233(applyCloudRouting232(applyCloudRouting230(applyCloudRouting228(applyCloudRouting226(<board width={98} height={65.5} layers={8} thickness={1.2} pcbRelative routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
     outline={[{x:-28,y:26.5},{x:70,y:26.5},{x:70,y:-39},{x:-28,y:-39}]}
     minTraceWidth={0.1} minViaHoleDiameter={0.15} minViaPadDiameter={0.3}
     minViaHoleEdgeToViaHoleEdgeClearance={0.1} minPlatedHoleDrillEdgeToDrillEdgeClearance={0.15}
@@ -165,5 +181,15 @@ export default function Board() {
     <CloudD12DdrCapBridge />
     <CloudD12Rn5AwareRoute />
     <CloudD12DdrCap9Bridge />
-  </board>))))))))
+    <CloudI2cRealPullReturn />
+    <CloudDqm1D11CpuReferenceScopes />
+    <CloudMdioReferenceBridges />
+    <CloudA11ThreeReferenceScopes />
+    <CloudBa1SixReferenceScopes />
+    <CloudD14TwoReferenceScopes />
+    <CloudA4EightReferenceScopes />
+    <CloudRn0NearRoutes />
+    <CloudD21CpuReturn />
+    <CloudRn4NearRoutes />
+  </board>)))))))))))))))
 }

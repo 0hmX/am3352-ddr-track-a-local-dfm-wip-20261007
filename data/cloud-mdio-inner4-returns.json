@@ -1,0 +1,32 @@
+[
+  {
+    "net": "GND",
+    "x": 1.4831690585677504,
+    "y": 5.811888921170882,
+    "fromLayer": "inner1",
+    "toLayer": "inner3",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "label": "CPU",
+    "distance": 0.55,
+    "referenceLandEdge": {
+      "inner1": 0.050024866874316995,
+      "inner3": 0.050024866874316995
+    }
+  },
+  {
+    "net": "GND",
+    "x": 45.65,
+    "y": -0.725,
+    "fromLayer": "inner1",
+    "toLayer": "inner3",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "label": "U_ETH_ISO1",
+    "distance": 0.55,
+    "referenceLandEdge": {
+      "inner1": 0.04999999999999716,
+      "inner3": 0.04999999999999716
+    }
+  }
+]
