@@ -1,7 +1,7 @@
 {
-  "sourceCheckpoint": "a96772d3de9d3d049a4ac00c8e1cde366c3d8803",
-  "sourceArchiveSha256": "84c8329db00e66020bbeb06081521bd3d2240e8337ac1000055dbd741bfff654",
-  "nativeSha256": "dc9676ecd03e5611117619153797c043be185ebea2580e025443f9fa90508df2",
+  "sourceCheckpoint": "04c8392cd67fcb02fc3fbbea145e08fea783f968",
+  "sourceArchiveSha256": "0a038a141d4a38bc6811823a8512c6e418f4ff24047bb83a8019033415c1d3be",
+  "nativeSha256": "d9b286798e6317005bff30e948a3bb500ebf8841e1840f461bb3b211cba7b728",
   "namedNets": 251,
   "connectedNets": 244,
   "previousConnectionsLost": [],
@@ -29,7 +29,7 @@
     "groundTerminals": 393,
     "groundGroups": 1,
     "newReferenceCuts": 0,
-    "ddrAreaFindings": 13,
+    "ddrAreaFindings": 12,
     "additionalZeroOrLowMarginsRemain": true
   },
   "ddr": {
@@ -41,9 +41,10 @@
     "lengthsLayersWidthsPreserved": true
   },
   "nativeStrict": {
-    "exitCode": 1,
-    "newSelectedDepthDisjointProjectedWarnings": 2,
-    "totalProjectedWarnings": 23,
+    "exitCode": 0,
+    "baselineCheckpoint": "a96772d3de9d3d049a4ac00c8e1cde366c3d8803",
+    "newFailureSignatures": 0,
+    "totalInheritedProjectedWarnings": 23,
     "physicalFabricationStackQualified": false
   },
   "placement": {
@@ -63,5 +64,20 @@
     "offPadPowerJoins": 9,
     "centeredStackJoins": 1
   },
-  "qualification": "Routing WIP. No SI, PI, timing, impedance, current-capacity, manufacturing or boot signoff. Actual stack and configured DDR rate remain unverified."
+  "qualification": "Routing WIP. No SI, PI, timing, impedance, current-capacity, manufacturing or boot signoff. Actual stack and configured DDR rate remain unverified.",
+  "a10Repair": {
+    "layer": "top",
+    "widthMm": 0.1,
+    "planarLengthMm": 41.750161,
+    "signalVias": 0,
+    "uncoveredAreaMm2": 0,
+    "fullBodyReferenceMarginMm": 0.010677,
+    "newPlaneScopes": 0,
+    "otherTracesUnchanged": 580,
+    "allPoursPadsPlacementsViasHolesUnchanged": true,
+    "nominalCopperEdgeMinimumMm": 0.1,
+    "finishedHoleEdgeMinimumMm": 0.21081464445001677,
+    "redistributedFromExistingTuningMm": 1.712917233244184,
+    "directProductionNativeBytesMatchValidatedCandidate": true
+  }
 }
