@@ -11,3 +11,6 @@ simulations-next/model-review/*.ibs
 validation-source/native-source.circuit.json
 validation-source/native-render-manifest.json
 validation-source/*.svg
+
+# Local simulation inputs, downloaded sources and private run logs
+.simulation/
