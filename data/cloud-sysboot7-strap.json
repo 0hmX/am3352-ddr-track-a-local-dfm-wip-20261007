@@ -1,0 +1,25 @@
+{
+  "net": "SYSBOOT7",
+  "name": "SYSBOOT7_BOTTOM_STRAP",
+  "from": ".HDMI > .RN_HDMI_2 > .3",
+  "to": ".Boot_and_clock > .R_BOOT7 > .pin1",
+  "layer": "bottom",
+  "width": 0.1,
+  "fromLayer": "bottom",
+  "toLayer": "bottom",
+  "points": [
+    [
+      6.0,
+      -10.225
+    ],
+    [
+      6.0,
+      -9.59
+    ],
+    [
+      6.49,
+      -9.1
+    ]
+  ],
+  "lengthMm": 1.3279646455628167
+}

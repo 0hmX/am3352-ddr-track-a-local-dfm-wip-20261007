@@ -1,0 +1,106 @@
+{
+  "status": "Review-only; zero nominal secondary Inner3 terminal margin remains unresolved. No plane exceptions.",
+  "placement": {
+    "center": [
+      8.875,
+      0.675
+    ],
+    "rotation": 270,
+    "layer": "top",
+    "signal": [
+      8.875,
+      1.185
+    ],
+    "v3": [
+      8.875,
+      0.165
+    ]
+  },
+  "routes": [
+    {
+      "name": "CLOUD_LOCAL_62_NEXT_PMIC_INT_N",
+      "net": "PMIC_INT_N",
+      "from": ".Processor > .U1 > .V8",
+      "to": ".Power_management > .R_PWR4 > .pin1",
+      "fromLayer": "top",
+      "toLayer": "top",
+      "layer": "top",
+      "width": 0.1,
+      "points": [
+        [
+          6.8,
+          -1.2
+        ],
+        [
+          8.15,
+          0.15
+        ],
+        [
+          8.15,
+          0.46
+        ],
+        [
+          8.875,
+          1.185
+        ]
+      ],
+      "lengthMm": 3.2444931419241723,
+      "planningReference": [
+        {
+          "layer": "inner1",
+          "missingArea": 0.0,
+          "edgeMargin": 0.00999981175282499
+        }
+      ]
+    },
+    {
+      "name": "CLOUD_LOCAL_36_PMIC_INT_N",
+      "net": "PMIC_INT_N",
+      "from": ".Power_management > .U_PMIC > .45",
+      "to": ".Power_management > .R_PWR4 > .pin1",
+      "fromLayer": "top",
+      "toLayer": "top",
+      "layer": "inner2",
+      "width": 0.1,
+      "points": [
+        [
+          20,
+          0.9375
+        ],
+        [
+          20,
+          1.15
+        ],
+        [
+          19.775,
+          1.375
+        ],
+        [
+          13.65,
+          1.375
+        ],
+        [
+          13.46,
+          1.185
+        ],
+        [
+          8.875,
+          1.185
+        ]
+      ],
+      "lengthMm": 11.509398628384833,
+      "planningReference": [
+        {
+          "layer": "inner1",
+          "missingArea": 0.0,
+          "edgeMargin": 0.009999585109779016
+        },
+        {
+          "layer": "inner3",
+          "missingArea": 0.0,
+          "edgeMargin": 0.0
+        }
+      ]
+    }
+  ]
+}

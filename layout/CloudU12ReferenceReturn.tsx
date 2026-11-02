@@ -1,0 +1,1 @@
+export function CloudU12ReferenceReturn(){return <via name="U12_SCL_REFERENCE_RETURN" pcbX={45.138969} pcbY={-30.811171} fromLayer="inner1" toLayer="inner3" holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/>}

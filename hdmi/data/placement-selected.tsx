@@ -84,10 +84,10 @@ const data = {
     "layer": "bottom"
   },
   "RN_HDMI_4": {
-    "pcbX": -1.25,
-    "pcbY": -9.25,
-    "pcbRotation": 180,
-    "layer": "top"
+    "pcbX": 11.375,
+    "pcbY": -5.3,
+    "pcbRotation": 270,
+    "layer": "bottom"
   },
   "RN_HDMI_5": {
     "pcbX": 6.0,
@@ -96,8 +96,8 @@ const data = {
     "layer": "bottom"
   },
   "RN_HDMI_6": {
-    "pcbX": 5.8,
-    "pcbY": -8.5,
+    "pcbX": 9.4,
+    "pcbY": -10,
     "pcbRotation": 180,
     "layer": "bottom"
   },

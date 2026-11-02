@@ -1,0 +1,30 @@
+{
+  "name": "MPU_CAP1_CAP0_INNER5_DIRECT",
+  "net": "VDD_MPU",
+  "layer": "inner5",
+  "width": 0.3,
+  "points": [
+    [
+      1.495,
+      1.8
+    ],
+    [
+      1.245,
+      1.55
+    ],
+    [
+      0.2,
+      1.55
+    ],
+    [
+      -0.24999999999999994,
+      2
+    ],
+    [
+      -0.99,
+      2
+    ]
+  ],
+  "lengthMm": 2.7749494936611665,
+  "physicalClear": true
+}

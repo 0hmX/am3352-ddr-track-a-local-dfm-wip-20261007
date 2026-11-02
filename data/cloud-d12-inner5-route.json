@@ -1,0 +1,77 @@
+{
+  "net": "HDMI_D12",
+  "from": ".HDMI > .U_HDMI > .47",
+  "to": ".HDMI > .RN_HDMI_2 > .6",
+  "a": [
+    39.75007,
+    -22.29992
+  ],
+  "b": [
+    6,
+    -11.275
+  ],
+  "fromLayer": "top",
+  "toLayer": "bottom",
+  "layer": "inner5",
+  "points": [
+    [
+      39.75007,
+      -22.29992
+    ],
+    [
+      39.09999,
+      -22.950000000000003
+    ],
+    [
+      5.700000000000003,
+      -22.950000000000003
+    ],
+    [
+      5.450000000000003,
+      -22.700000000000003
+    ],
+    [
+      5.450000000000003,
+      -22.1
+    ],
+    [
+      5.100000000000001,
+      -21.75
+    ],
+    [
+      5.100000000000001,
+      -14.600000000000001
+    ],
+    [
+      6.0,
+      -13.700000000000003
+    ],
+    [
+      6,
+      -11.275
+    ]
+  ],
+  "lengthMm": 46.61566229618715,
+  "vias": [
+    {
+      "net": "HDMI_D12",
+      "x": 39.75007,
+      "y": -22.29992,
+      "fromLayer": "top",
+      "toLayer": "inner5",
+      "holeDiameter": 0.15,
+      "outerDiameter": 0.3
+    },
+    {
+      "net": "HDMI_D12",
+      "x": 6,
+      "y": -11.275,
+      "fromLayer": "bottom",
+      "toLayer": "inner5",
+      "holeDiameter": 0.15,
+      "outerDiameter": 0.3
+    }
+  ],
+  "barrelConflicts": [],
+  "status": "Read-only against actual whole RN5 native + frozen R4 feed. No adoption."
+}

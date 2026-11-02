@@ -1,0 +1,112 @@
+{
+  "routes": [
+    {
+      "name": "SYSBOOT3_CPU_STRAP_V2",
+      "net": "SYSBOOT3",
+      "from": ".Processor > .U1 > .R4",
+      "to": ".Boot_and_clock > .R_BOOT3 > .pin1",
+      "fromLayer": "top",
+      "toLayer": "bottom",
+      "layer": "bottom",
+      "points": [
+        [
+          4.4,
+          -4.4
+        ],
+        [
+          5.65,
+          -5.65
+        ],
+        [
+          6.1499999999999995,
+          -5.65
+        ],
+        [
+          6.35,
+          -5.8500000000000005
+        ],
+        [
+          6.35,
+          -8.26
+        ],
+        [
+          5.5,
+          -9.11
+        ]
+      ],
+      "width": 0.1,
+      "lengthMm": 6.162691193458117,
+      "sections": [
+        {
+          "layer": "bottom",
+          "points": [
+            [
+              4.4,
+              -4.4
+            ],
+            [
+              5.65,
+              -5.65
+            ],
+            [
+              6.1499999999999995,
+              -5.65
+            ],
+            [
+              6.35,
+              -5.8500000000000005
+            ],
+            [
+              6.35,
+              -8.26
+            ],
+            [
+              5.5,
+              -9.11
+            ]
+          ]
+        }
+      ],
+      "rawLengthMm": 6.148046532517444,
+      "rawPointCount": 11
+    },
+    {
+      "name": "SYSBOOT3_STRAP_RN2",
+      "net": "SYSBOOT3",
+      "from": ".Boot_and_clock > .R_BOOT3 > .pin1",
+      "to": ".HDMI > .RN_HDMI_2 > .2",
+      "fromLayer": "bottom",
+      "toLayer": "bottom",
+      "layer": "bottom",
+      "points": [
+        [
+          5.5,
+          -9.11
+        ],
+        [
+          5.5,
+          -10.225
+        ]
+      ],
+      "width": 0.1,
+      "lengthMm": 1.1150000000000002,
+      "sections": [
+        {
+          "layer": "bottom",
+          "points": [
+            [
+              5.5,
+              -9.11
+            ],
+            [
+              5.5,
+              -10.225
+            ]
+          ]
+        }
+      ],
+      "rawLengthMm": 1.115,
+      "rawPointCount": 2
+    }
+  ]
+}

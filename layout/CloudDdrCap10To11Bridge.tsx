@@ -1,0 +1,2 @@
+/** Review companion: join the existing adjacent real DDR supply capacitor pads; no added barrels. */
+export function CloudD12DdrCapBridge(){return <trace name="D12_DDR_SUPPLY_CAP_BRIDGE" from=".DDR3 > .C_RAM_10 > .pin1" to=".DDR3 > .C_RAM_11 > .pin1" width={.6} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[".DDR3 > .C_RAM_10 > .pin1",{x:5.93,y:-22.5,layer:"bottom"},{x:5.93,y:-21.5,layer:"bottom"},".DDR3 > .C_RAM_11 > .pin1"]]}/>}

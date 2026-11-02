@@ -1,0 +1,2 @@
+/** Both endpoints are the actual ends of centered manual pad vias; no intermediate routing via. */
+export function CloudPmicPullPowerJoin(){return <trace name="R_PWR4_COMPACT_V3_JOIN" from="V3V3_FEED_50.inner2" to="V3V3_FEED_33.inner2" width={.30} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[["V3V3_FEED_50.inner2",{x:8.875,y:.165,layer:"inner2"},{x:11.865,y:.165,layer:"inner2"},{x:11.95,y:.25,layer:"inner2"},"V3V3_FEED_33.inner2"]]}/>}

@@ -1,0 +1,59 @@
+[
+  {
+    "ref": "R_BOOT4",
+    "center": [
+      6.875,
+      -16.31
+    ],
+    "rotation": 90,
+    "layer": "bottom",
+    "signal": [
+      6.875,
+      -15.8
+    ],
+    "other": [
+      6.875,
+      -16.82
+    ],
+    "otherNet": "V3V3",
+    "otherEnd": "inner5"
+  },
+  {
+    "ref": "R_BOOT12",
+    "center": [
+      6.415,
+      -14.83
+    ],
+    "rotation": 0,
+    "layer": "bottom",
+    "signal": [
+      6.925,
+      -14.83
+    ],
+    "other": [
+      5.905,
+      -14.83
+    ],
+    "otherNet": "GND",
+    "otherEnd": "inner6"
+  },
+  {
+    "ref": "R_BOOT8",
+    "center": [
+      14.75,
+      -14.975
+    ],
+    "rotation": 180,
+    "layer": "bottom",
+    "signal": [
+      14.24,
+      -14.975
+    ],
+    "other": [
+      15.26,
+      -14.975
+    ],
+    "otherNet": "GND",
+    "otherEnd": "inner6"
+  }
+]

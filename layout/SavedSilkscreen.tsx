@@ -1,7 +1,7 @@
 /** Checked fabrication labels and explicitly positioned reference designators. */
 const references = [
   ["R_PWR6",22.6,-16.28,"top",0], ["C_VDD_CORE_6",8.5,4.53,"bottom",0],
-  ["R_BOOT12",3.5,-9.28,"top",0], ["R_CLOCK_OE_PD",4,-14.72,"top",0],
+  ["R_BOOT12",7.65,-7.1,"top",90], ["R_CLOCK_OE_PD",3.7,-15.2,"top",0],
   ["C_ETH_RAMP_CT",43,-9.53,"top",0], ["R_ETH_MDC_SRC",-2.4,16.32,"top",180],
   ["R_HDMI_1V2_EN",52.5,-15.78,"top",0], ["C_HDMI_1V2_EN",50.5,-17.22,"top",180],
   ["C_HDMI_ESD_SUPPLY",55.5,-30.28,"top",0],

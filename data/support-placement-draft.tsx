@@ -667,9 +667,10 @@ const data = {
     "layer": "top"
   },
   "R_BOOT1": {
-    "pcbX": 2.0,
-    "pcbY": 12.25,
-    "layer": "top"
+    "pcbX": 11.7,
+    "pcbY": -7.55,
+    "layer": "bottom",
+    "pcbRotation": 90
   },
   "R_BOOT2": {
     "pcbX": 4.0,
@@ -677,9 +678,10 @@ const data = {
     "layer": "top"
   },
   "R_BOOT3": {
-    "pcbX": 10.5,
-    "pcbY": -10.0,
-    "layer": "top"
+    "pcbX": 5.5,
+    "pcbY": -8.6,
+    "layer": "bottom",
+    "pcbRotation": 270
   },
   "R_BOOT4": {
     "pcbX": 5.0,
@@ -692,15 +694,16 @@ const data = {
     "layer": "top"
   },
   "R_BOOT6": {
-    "pcbX": 3.75,
-    "pcbY": -4.0,
+    "pcbX": 2.65,
+    "pcbY": -4,
     "layer": "bottom",
     "pcbRotation": 0
   },
   "R_BOOT7": {
-    "pcbX": 8.5,
-    "pcbY": -13.25,
-    "layer": "top"
+    "pcbX": 9.1,
+    "pcbY": -13.05,
+    "layer": "top",
+    "pcbRotation": 0
   },
   "R_BOOT8": {
     "pcbX": 10.1,
@@ -709,15 +712,16 @@ const data = {
     "pcbRotation": 0
   },
   "R_BOOT9": {
-    "pcbX": 11.5,
-    "pcbY": -13.0,
-    "layer": "top"
+    "pcbX": 11.4,
+    "pcbY": -3.5,
+    "layer": "bottom",
+    "pcbRotation": 180
   },
   "R_BOOT10": {
-    "pcbX": 1,
-    "pcbY": -12,
+    "pcbX": 9.5,
+    "pcbY": -7.1,
     "layer": "top",
-    "pcbRotation": 0
+    "pcbRotation": 90
   },
   "R_BOOT11": {
     "pcbX": 6.0,
@@ -725,26 +729,28 @@ const data = {
     "layer": "top"
   },
   "R_BOOT12": {
-    "pcbX": 3.5,
-    "pcbY": -10.5,
-    "layer": "top"
+    "pcbX": 8.5,
+    "pcbY": -7.1,
+    "layer": "top",
+    "pcbRotation": 90
   },
   "R_BOOT13": {
-    "pcbX": 8.5,
+    "pcbX": 8.6,
     "pcbY": -15,
     "layer": "top",
     "pcbRotation": 0
   },
   "R_BOOT14": {
-    "pcbX": 11.5,
-    "pcbY": -16.0,
-    "layer": "top"
+    "pcbX": 10.7,
+    "pcbY": -15.6,
+    "layer": "top",
+    "pcbRotation": 0
   },
   "R_BOOT15": {
-    "pcbX": 8.95,
-    "pcbY": -1.6,
-    "pcbRotation": 0,
-    "layer": "top"
+    "pcbX": 9.65,
+    "pcbY": -1.9,
+    "pcbRotation": 180,
+    "layer": "bottom"
   },
   "Y_SOC": {
     "pcbX": 7.1,
@@ -957,8 +963,9 @@ const data = {
   },
   "R_CLOCK_OE_PD": {
     "pcbX": 4.0,
-    "pcbY": -13.5,
-    "layer": "top"
+    "pcbY": -14.5,
+    "layer": "top",
+    "pcbRotation": 180
   },
   "R_SD_CLK": {
     "pcbX": -2.75,

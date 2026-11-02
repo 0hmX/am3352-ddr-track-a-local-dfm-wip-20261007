@@ -1,0 +1,70 @@
+{
+  "routes": [
+    {
+      "name": "RN6_DE_TOP",
+      "net": "LCD_DE",
+      "from": ".Processor > .U1 > .R6",
+      "to": ".HDMI > .RN_HDMI_6 > .2",
+      "fromLayer": "top",
+      "toLayer": "bottom",
+      "width": 0.1,
+      "sections": [
+        {
+          "layer": "top",
+          "points": [
+            [
+              4.4,
+              -2.8
+            ],
+            [
+              4.4,
+              -3.025
+            ],
+            [
+              4.55,
+              -3.175
+            ],
+            [
+              10.475,
+              -3.175
+            ],
+            [
+              11.875,
+              -4.575
+            ],
+            [
+              11.875,
+              -5.85
+            ],
+            [
+              10.425,
+              -7.299999999999999
+            ],
+            [
+              10.425,
+              -10.375
+            ],
+            [
+              10.325000000000001,
+              -10.475
+            ],
+            [
+              9.15,
+              -10.475
+            ],
+            [
+              9.15,
+              -9.475
+            ]
+          ]
+        }
+      ],
+      "lengthMm": 17.059062043356597,
+      "rawLengthMm": 16.663656197958428,
+      "rawPointCount": 26,
+      "referenceAdjustment": "Move BGA horizontal segment0.05mm toward ground neck center, preserving45-degree bends and length."
+    }
+  ],
+  "removedDdrForPlanning": [],
+  "rule": "all four use only true pad-centered top/inner2 and bottom/inner2 terminal vias; no intermediate transitions"
+}
