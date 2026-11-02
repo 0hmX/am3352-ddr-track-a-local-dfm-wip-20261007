@@ -1,3 +1,5 @@
+import { applyD1TraceOnlyReferenceRelief } from "./layout/CloudD1TraceReferenceRelief"
+import { CloudD1TwoInner1Scopes } from "./layout/CloudD1ReferenceScopes"
 import { applyA10TraceOnlyReferenceRelief } from "./layout/CloudA10TraceReferenceRelief"
 import {applyCloudRouting244} from './layout/CloudRouting244Overrides'
 import {CloudRn4NearRoutes} from './layout/CloudRn4NearRoutes'
@@ -102,7 +104,7 @@ const sheets = [...pinSheets, ...supportSheets, "Debug rails and power status", 
 const supportCounts = Object.fromEntries(supportSheets.map(sheet => [sheet, supportParts.filter(p => p.sheet === sheet).length]))
 /** DDR routing is in progress; candidate copper is screened before mounting. */
 export default function Board() {
-  return applyA10TraceOnlyReferenceRelief(applyCloudRouting244(applyPgoodReferenceReturns(applyCloudRouting242(applyMdioInner4Candidate(applyFixedPgood48Top(applyTypecCorners(applyCloudRouting240Cleanup(applyCloudRouting239(applyCloudRouting235(applyCloudControlCleanup(applyCloudRouting233(applyCloudRouting232(applyCloudRouting230(applyCloudRouting228(applyCloudRouting226(<board width={98} height={65.5} layers={8} thickness={1.2} pcbRelative routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
+  return applyD1TraceOnlyReferenceRelief(applyA10TraceOnlyReferenceRelief(applyCloudRouting244(applyPgoodReferenceReturns(applyCloudRouting242(applyMdioInner4Candidate(applyFixedPgood48Top(applyTypecCorners(applyCloudRouting240Cleanup(applyCloudRouting239(applyCloudRouting235(applyCloudControlCleanup(applyCloudRouting233(applyCloudRouting232(applyCloudRouting230(applyCloudRouting228(applyCloudRouting226(<board width={98} height={65.5} layers={8} thickness={1.2} pcbRelative routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
     outline={[{x:-28,y:26.5},{x:70,y:26.5},{x:70,y:-39},{x:-28,y:-39}]}
     minTraceWidth={0.1} minViaHoleDiameter={0.15} minViaPadDiameter={0.3}
     minViaHoleEdgeToViaHoleEdgeClearance={0.1} minPlatedHoleDrillEdgeToDrillEdgeClearance={0.15}
@@ -192,5 +194,6 @@ export default function Board() {
     <CloudRn0NearRoutes />
     <CloudD21CpuReturn />
     <CloudRn4NearRoutes />
-  </board>))))))))))))))))
+    <CloudD1TwoInner1Scopes />
+  </board>)))))))))))))))))
 }

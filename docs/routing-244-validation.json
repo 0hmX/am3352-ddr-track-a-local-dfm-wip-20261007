@@ -1,7 +1,7 @@
 {
-  "sourceCheckpoint": "04c8392cd67fcb02fc3fbbea145e08fea783f968",
-  "sourceArchiveSha256": "0a038a141d4a38bc6811823a8512c6e418f4ff24047bb83a8019033415c1d3be",
-  "nativeSha256": "d9b286798e6317005bff30e948a3bb500ebf8841e1840f461bb3b211cba7b728",
+  "sourceCheckpoint": "f5bcf91cbe8917ec2a03b140c5bf60a396aab0ee",
+  "sourceArchiveSha256": "a88b994a15aca83ae3f097d0dd285f8b51248832e2dfa45004a00e8e47a6fd17",
+  "nativeSha256": "8e7d2ce8dd9e34bd5db0fa9dfd4e337026693978fc0f6f3aaa70a322367b8083",
   "namedNets": 251,
   "connectedNets": 244,
   "previousConnectionsLost": [],
@@ -29,7 +29,7 @@
     "groundTerminals": 393,
     "groundGroups": 1,
     "newReferenceCuts": 0,
-    "ddrAreaFindings": 12,
+    "ddrAreaFindings": 11,
     "additionalZeroOrLowMarginsRemain": true
   },
   "ddr": {
@@ -42,7 +42,7 @@
   },
   "nativeStrict": {
     "exitCode": 0,
-    "baselineCheckpoint": "a96772d3de9d3d049a4ac00c8e1cde366c3d8803",
+    "baselineCheckpoint": "04c8392cd67fcb02fc3fbbea145e08fea783f968",
     "newFailureSignatures": 0,
     "totalInheritedProjectedWarnings": 23,
     "physicalFabricationStackQualified": false
@@ -78,6 +78,41 @@
     "nominalCopperEdgeMinimumMm": 0.1,
     "finishedHoleEdgeMinimumMm": 0.21081464445001677,
     "redistributedFromExistingTuningMm": 1.712917233244184,
+    "directProductionNativeBytesMatchValidatedCandidate": true
+  },
+  "d1Repair": {
+    "layer": "top",
+    "widthMm": 0.1,
+    "planarLengthMm": 25.075,
+    "signalVias": 0,
+    "uncoveredAreaMm2": 0,
+    "fullBodyReferenceMarginMm": 0.010854,
+    "referenceScopes": [
+      {
+        "layer": "inner1",
+        "terminal": "U1.K2/DDR_D10",
+        "center": [
+          0.4,
+          -6
+        ]
+      },
+      {
+        "layer": "inner1",
+        "terminal": "U1.K1/DDR_D9",
+        "center": [
+          0.4,
+          -6.8
+        ]
+      }
+    ],
+    "maximumScopeRadiusMm": 0.374998,
+    "minimumLandClearanceMm": 0.175026947,
+    "minimumFinishedHoleClearanceMm": 0.250026947,
+    "scopeSha256": "384c715b2c924ba96ba5afb9b7fb0cabef1890154b531e96e7835ed35c2c61aa",
+    "newGroundRemovalMm2": 0,
+    "outOfScopeGroundAdditionMm2": 0,
+    "otherTracesUnchanged": 580,
+    "allExistingPoursPadsPlacementsViasHolesUnchanged": true,
     "directProductionNativeBytesMatchValidatedCandidate": true
   }
 }
