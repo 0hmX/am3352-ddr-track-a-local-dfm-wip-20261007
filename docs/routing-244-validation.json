@@ -1,7 +1,7 @@
 {
-  "sourceCheckpoint": "f5bcf91cbe8917ec2a03b140c5bf60a396aab0ee",
-  "sourceArchiveSha256": "a88b994a15aca83ae3f097d0dd285f8b51248832e2dfa45004a00e8e47a6fd17",
-  "nativeSha256": "8e7d2ce8dd9e34bd5db0fa9dfd4e337026693978fc0f6f3aaa70a322367b8083",
+  "sourceCheckpoint": "3278cc54eb9747336d3907b282f8525856c136e5",
+  "sourceArchiveSha256": "d52560b876087d95318c5f1b0559a780f22e82e455d25983fe5a465cffe32b5f",
+  "nativeSha256": "a67ba602cd5ad28a9b3adc3e96f0171671f41f2fe9bcec1c5da660e025f42c4d",
   "namedNets": 251,
   "connectedNets": 244,
   "previousConnectionsLost": [],
@@ -29,7 +29,7 @@
     "groundTerminals": 393,
     "groundGroups": 1,
     "newReferenceCuts": 0,
-    "ddrAreaFindings": 11,
+    "ddrAreaFindings": 10,
     "additionalZeroOrLowMarginsRemain": true
   },
   "ddr": {
@@ -42,7 +42,7 @@
   },
   "nativeStrict": {
     "exitCode": 0,
-    "baselineCheckpoint": "04c8392cd67fcb02fc3fbbea145e08fea783f968",
+    "baselineCheckpoint": "f5bcf91cbe8917ec2a03b140c5bf60a396aab0ee",
     "newFailureSignatures": 0,
     "totalInheritedProjectedWarnings": 23,
     "physicalFabricationStackQualified": false
@@ -113,6 +113,24 @@
     "outOfScopeGroundAdditionMm2": 0,
     "otherTracesUnchanged": 580,
     "allExistingPoursPadsPlacementsViasHolesUnchanged": true,
+    "directProductionNativeBytesMatchValidatedCandidate": true
+  },
+  "ba2Repair": {
+    "layer": "inner2",
+    "widthMm": 0.1,
+    "planarLengthMm": 41.070761,
+    "signalVias": 2,
+    "uncoveredAreaMm2": 0,
+    "referenceMarginsMm": {
+      "inner1": 0.0109,
+      "inner3": 0.0109
+    },
+    "physicalCopperGapMm": 0.1875,
+    "finishedHoleEdgeGapMm": 0.2625,
+    "newScopes": 0,
+    "otherTracesUnchanged": 580,
+    "allPoursPadsPlacementsViasHolesUnchanged": true,
+    "sourceDeltaSha256": "08ece5ff566330c809f6c10ec6f692973ee333f315887953238cb4353b41fec0",
     "directProductionNativeBytesMatchValidatedCandidate": true
   }
 }
