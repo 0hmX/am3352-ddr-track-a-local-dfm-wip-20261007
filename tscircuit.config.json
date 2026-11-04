@@ -9,6 +9,5 @@
     "routingDisabled": true,
     "previewImages": false,
     "typescriptLibrary": false
-  },
-  "buildCommand": "sh scripts/build.sh"
+  }
 }

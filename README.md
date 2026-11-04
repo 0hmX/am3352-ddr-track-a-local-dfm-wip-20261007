@@ -1,6 +1,6 @@
 # AM3352 DDR3 and RGB888 HDMI
 
-This is a partially routed native tscircuit board: **245/251 named nets connected**, with six remaining. The active board is `index.tsx`; files in `layout/` and `data/` also include historical route sets, so presence does not imply a set is mounted. See the [current routing checkpoint](docs/routing-245-checkpoint.md) and [validation summary](docs/routing-245-validation.json).
+This is a native tscircuit board with **251/251 named nets connected** (routing WIP; see limitations below). The active board is `index.tsx`; files in `layout/` and `data/` also include historical route sets, so presence does not imply a set is mounted. See the [251-net checkpoint](docs/routing-251-checkpoint.md), the prior [245-net checkpoint](docs/routing-245-checkpoint.md) and [validation summary](docs/routing-245-validation.json).
 
 ## Development
 
