@@ -8,4 +8,3 @@ The HDMI design was checked against the BeagleBone Black Rev D reference, commit
 
 Optional RAM 3D models reference the public tscircuit model CDN and are not bundled.
 
-The experimental `simulations-next/saved-board.tsx` adapter is derived from `tscircuit/pcb-spice-pipeline`, commit `63d15671`, under MIT; its only noted change preserves the saved outline. The upstream MIT notice is in `licenses/pcb-spice-pipeline-MIT.txt`.

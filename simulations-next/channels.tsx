@@ -5,6 +5,10 @@ function endpointPortId(point, first) {
   return explicit ?? legacy
 }
 
+/** Board-level selectors for pins inside the Processor and DDR3 subcircuits. */
+export const cpuPin = ".Processor > .U1 > ."
+export const ramPin = ".DDR3 > .U3 > ."
+
 /** Resolve actual physical PCB endpoints, including legacy endpoint IDs. */
 export function resolveDdrChannel(circuitJson, logicalSignal) {
   const cpu = circuitJson.find(r => r.type === "source_component" && r.name === "U1")
@@ -27,8 +31,8 @@ export function resolveDdrChannel(circuitJson, logicalSignal) {
   if (source.subcircuit_connectivity_map_key !== load.subcircuit_connectivity_map_key) throw new Error(`${logicalSignal} physical endpoints are on different logical nets`)
   return {
     logicalSignal,
-    source: `.U1 > .${source.name}`,
-    load: `.U3 > .${load.name}`,
+    source: `${cpuPin}${source.name}`,
+    load: `${ramPin}${load.name}`,
     sourcePort,
     loadPort,
     sourcePortId: source.source_port_id,

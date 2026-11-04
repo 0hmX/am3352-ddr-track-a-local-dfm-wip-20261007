@@ -4,8 +4,8 @@
   "type": "module",
   "description": "Native TSX AM3352 DDR3/RGB888 HDMI design; saved layout migration is in progress.",
   "dependencies": {
-    "@tscircuit/core": "0.0.2266",
-    "tscircuit": "0.0.3075"
+    "@tscircuit/core": "0.0.2268",
+    "tscircuit": "0.0.3082"
   },
   "scripts": {
     "dev": "sh scripts/dev.sh",

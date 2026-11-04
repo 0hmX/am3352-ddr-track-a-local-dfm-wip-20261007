@@ -15,9 +15,15 @@ Run the native byte-0 write experiments from the project root:
 bunx tsci simulate simulations-next/run-ddr.circuit.tsx --output work/ddr-run
 ```
 
-The entry compiles the same physical TSX and nominal stackup as the verifier, supplies it to `ibis.circuit.tsx`, and lets the CLI serialize its native declarations. The saved-board bridge rejects existing simulation declarations, so this DDR-only entry removes the seven unrelated HDMI resistor-array SPICE subcircuits; all physical records are retained. Unexpected simulation records are still rejected by the bridge. `ibis.circuit.tsx` is a parameterized component, not a standalone CLI entry. To verify composition without running the solvers, run `bun test tests/ddr-simulation-entry.test.tsx`.
+The entry renders the actual TSX board from `index.tsx` with the native simulation declarations from `ibis.circuit.tsx` as board children; `tsci simulate` runs it like any other TSX board. The board is compiled once beforehand only to resolve the routed DQ/DQS pads. `ibis.circuit.tsx` is a parameterized component, not a standalone CLI entry. To verify composition without running the solvers, run `bun test tests/ddr-simulation-entry.test.tsx`.
 
-The currently pinned CLI contains the older pipeline at commit `63d15671`; with that version the above command reaches the pipeline but fails on the board's native via-hole field (`modeling_input: via_hole_diameter / hole_diameter must be a positive number`). A CLI release incorporating the upstream pipeline fix is needed before this command can progress past that error. Further extraction or solver failures may remain.
+The pinned `tscircuit` CLI bundles `@tscircuit/pcb-spice-pipeline` 0.1.6. The native entry also needs:
+
+- [tscircuit/core#5155](https://github.com/tscircuit/core/pull/5155): board-level declarations reference U1 and U3 inside the `Processor` and `DDR3` subcircuits.
+- Schema-valid core output for the pipeline's strict check ([tscircuit/core#5006](https://github.com/tscircuit/core/pull/5006) and [tscircuit/core#5157](https://github.com/tscircuit/core/pull/5157)).
+- [tscircuit/pcb-spice-pipeline#45](https://github.com/tscircuit/pcb-spice-pipeline/pull/45): the GND bands on inner1, inner3 and inner6 touch, and meshing them separately made FastHenry stop with `filaments had identical centers`.
+
+With those applied locally, the run reaches FastHenry and stops with `mutual inductance = infinity` on the finely sampled DQS0/DQSn0 curves ([tscircuit/pcb-spice-pipeline#46](https://github.com/tscircuit/pcb-spice-pipeline/issues/46)).
 
 No accepted eye result exists for this routing. The previously observed native-via, channel-cut and sampled-copper preparation failures were addressed upstream in [pcb-spice-pipeline #9](https://github.com/tscircuit/pcb-spice-pipeline/pull/9), but the updated pipeline has not yet produced an accepted result for this layout. Its documented historical AM3352 routed-copper case still encounters a FastHenry numerical failure. These are tooling investigations, not reasons to change PCB geometry or relax numerical acceptance. Diagnostic evidence is isolated under ignored `work/bug-handoffs/simulation/`; no replacement simulation runner, clipping override, or curve simplifier is part of this board.
 
