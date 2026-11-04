@@ -8,8 +8,8 @@
     "tscircuit": "0.0.3075"
   },
   "scripts": {
-    "dev": "sh scripts/dev.sh",
-    "build": "sh scripts/build.sh"
+    "dev": "tsci dev",
+    "build": "tsci build"
   },
   "devDependencies": {
     "@tscircuit/bus-lanes-solver": "https://jscdn.tscircuit.com/@tscircuit/bus-lanes-solver/0.0.35.tgz",
