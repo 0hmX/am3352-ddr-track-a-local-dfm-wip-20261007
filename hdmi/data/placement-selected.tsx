@@ -1,6 +1,6 @@
 const data = {
   "J_HDMI": {
-    "pcbX": 64.625,
+    "pcbX": 62.975,
     "pcbY": -28.5,
     "pcbRotation": 0,
     "layer": "top"
