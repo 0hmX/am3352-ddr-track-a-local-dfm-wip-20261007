@@ -2623,35 +2623,35 @@ const groundPads = [
   },
   {
     "selector": ".HDMI > .J_HDMI > .2",
-    "x": 61.34,
+    "x": 59.69,
     "y": -24.5,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".HDMI > .J_HDMI > .5",
-    "x": 61.34,
+    "x": 59.69,
     "y": -26,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".HDMI > .J_HDMI > .8",
-    "x": 61.34,
+    "x": 59.69,
     "y": -27.5,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".HDMI > .J_HDMI > .11",
-    "x": 61.34,
+    "x": 59.69,
     "y": -29,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".HDMI > .J_HDMI > .17",
-    "x": 61.34,
+    "x": 59.69,
     "y": -32,
     "fromLayer": "top",
     "toLayer": "inner1"
