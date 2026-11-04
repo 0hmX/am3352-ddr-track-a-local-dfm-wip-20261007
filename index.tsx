@@ -1,4 +1,5 @@
 import { applySys6R41CandidateV2, CloudSys6RealTerminalRoutes } from "./layout/CloudSys6RealTerminalRoutes"
+import { CloudSysboot2And10Routes } from "./layout/CloudSysboot2And10Routes"
 import { applyBa2TraceOnlyReferenceRelief } from "./layout/CloudBa2TraceReferenceRelief"
 import { applyD1TraceOnlyReferenceRelief } from "./layout/CloudD1TraceReferenceRelief"
 import { CloudD1TwoInner1Scopes } from "./layout/CloudD1ReferenceScopes"
@@ -198,5 +199,6 @@ export default function Board() {
     <CloudRn4NearRoutes />
     <CloudD1TwoInner1Scopes />
     <CloudSys6RealTerminalRoutes />
+    <CloudSysboot2And10Routes />
   </board>)))))))))))))))))))
 }
