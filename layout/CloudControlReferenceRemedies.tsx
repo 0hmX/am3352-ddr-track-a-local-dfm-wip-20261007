@@ -14,7 +14,7 @@ export function applyControlReferenceRemedies(node:any):any{
  if(typeof node.type==='function')return applyControlReferenceRemedies(node.type(node.props))
  const p:any={...node.props}
  if(node.type==='via'&&p.connectsTo==='.HDMI > .J_HDMI > .17'){
-  if(p.pcbX!==61.34||p.pcbY!==-32||p.fromLayer!=='top')throw Error('Unexpected J17 GND pad geometry')
+  if(p.pcbX!==59.69||p.pcbY!==-32||p.fromLayer!=='top')throw Error('Unexpected J17 GND pad geometry')
   p.toLayer='inner3'
  }
  if(node.type==='trace'&&p.name==='HDMIPWR_HDMI_5V_13'){
