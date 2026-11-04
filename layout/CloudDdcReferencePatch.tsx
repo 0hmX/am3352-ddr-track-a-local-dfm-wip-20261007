@@ -1,0 +1,1 @@
+export function CloudDdcReferencePatch(){return <copperpour name="DDC_ESD_REFERENCE_1766" layer="inner1" connectsTo="net.GND" unbroken clearance={.1766} boardEdgeMargin={0} coveredWithSolderMask outline={[{x:54.7,y:-27.2},{x:55.8,y:-27.2},{x:55.8,y:-26.2},{x:54.7,y:-26.2}]}/> }

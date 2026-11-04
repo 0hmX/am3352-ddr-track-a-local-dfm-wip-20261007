@@ -1,0 +1,44 @@
+[
+  {
+    "name": "RN4_NEAR_RETURN_R1",
+    "net": "GND",
+    "x": 11.659657,
+    "y": -11.016316999999999,
+    "fromLayer": "inner1",
+    "toLayer": "inner3",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "distanceMm": 0.55
+  },
+  {
+    "name": "RN4_NEAR_RETURN_R9",
+    "net": "GND",
+    "x": 11.487111,
+    "y": -4.45881,
+    "fromLayer": "inner1",
+    "toLayer": "inner6",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "distanceMm": 0.6
+  },
+  {
+    "name": "RN4_NEAR_BANK_RETURN_0",
+    "net": "GND",
+    "x": 19.25,
+    "y": -16.3,
+    "fromLayer": "inner1",
+    "toLayer": "inner6",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3
+  },
+  {
+    "name": "RN4_NEAR_BANK_RETURN_1",
+    "net": "GND",
+    "x": 17.95,
+    "y": -16.7,
+    "fromLayer": "inner1",
+    "toLayer": "inner6",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3
+  }
+]

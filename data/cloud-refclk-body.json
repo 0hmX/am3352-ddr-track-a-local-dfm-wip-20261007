@@ -1,0 +1,363 @@
+{
+  "status": "Unmounted interim body-only improvement; existing non-pad midpoint retained, none added. Not VIP complete.",
+  "name": "CLOUD_ETH_LAYERED_RMII1_REFCLK",
+  "net": "RMII1_REFCLK",
+  "width": 0.1,
+  "oldRoute": [
+    {
+      "route_type": "wire",
+      "x": -1.2000000000000002,
+      "y": 6.800000000000001,
+      "width": 0.1,
+      "layer": "top",
+      "start_pcb_port_id": "pcb_port_649"
+    },
+    {
+      "route_type": "via",
+      "x": -1.2000000000000002,
+      "y": 6.800000000000001,
+      "from_layer": "top",
+      "to_layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": -1.2000000000000002,
+      "y": 6.800000000000001,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 0.8499999999999996,
+      "y": 4.750000000000001,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 0.8499999999999996,
+      "y": 3.45,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 3.55,
+      "y": 0.75,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 3.75,
+      "y": 0.75,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 4.05,
+      "y": 0.4500000000000002,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 4.05,
+      "y": 0.07499999999999973,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 5.75,
+      "y": -1.6250000000000004,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 5.75,
+      "y": -1.6499999999999986,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "via",
+      "x": 5.75,
+      "y": -1.6499999999999986,
+      "from_layer": "inner4",
+      "to_layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 5.7500000000000036,
+      "y": -1.6499999999999986,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 5.825000000000003,
+      "y": -1.6499999999999986,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 15.650000000000004,
+      "y": -11.475,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 15.650000000000004,
+      "y": -12.649999999999997,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 16.650000000000006,
+      "y": -13.649999999999999,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 18.650000000000002,
+      "y": -13.649999999999999,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 21.750000000000004,
+      "y": -16.75,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 21.750000000000004,
+      "y": -17.650000000000002,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 21.950000000000003,
+      "y": -17.85,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 23.525,
+      "y": -17.85,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 36.1,
+      "y": -5.275,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "via",
+      "x": 36.1,
+      "y": -5.275,
+      "from_layer": "inner2",
+      "to_layer": "top"
+    },
+    {
+      "route_type": "wire",
+      "x": 36.1,
+      "y": -5.275,
+      "width": 0.1,
+      "layer": "top",
+      "end_pcb_port_id": "pcb_port_1443"
+    }
+  ],
+  "route": [
+    {
+      "route_type": "wire",
+      "x": -1.2000000000000002,
+      "y": 6.800000000000001,
+      "width": 0.1,
+      "layer": "top",
+      "start_pcb_port_id": "pcb_port_649"
+    },
+    {
+      "route_type": "via",
+      "x": -1.2000000000000002,
+      "y": 6.800000000000001,
+      "from_layer": "top",
+      "to_layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": -1.2000000000000002,
+      "y": 6.800000000000001,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 0.8499999999999996,
+      "y": 4.750000000000001,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 0.8499999999999996,
+      "y": 3.45,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 3.55,
+      "y": 0.75,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 3.75,
+      "y": 0.75,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 4.05,
+      "y": 0.4500000000000002,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 4.05,
+      "y": 0.07499999999999973,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 5.75,
+      "y": -1.6250000000000004,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "wire",
+      "x": 5.75,
+      "y": -1.6499999999999986,
+      "width": 0.1,
+      "layer": "inner4"
+    },
+    {
+      "route_type": "via",
+      "x": 5.75,
+      "y": -1.6499999999999986,
+      "from_layer": "inner4",
+      "to_layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 5.7500000000000036,
+      "y": -1.6499999999999986,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 5.825000000000003,
+      "y": -1.6499999999999986,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 8.15,
+      "y": -3.975,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 16.525,
+      "y": -3.975,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 19.225,
+      "y": -6.675,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 34.7,
+      "y": -6.675,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "wire",
+      "x": 36.1,
+      "y": -5.275,
+      "width": 0.1,
+      "layer": "inner2"
+    },
+    {
+      "route_type": "via",
+      "x": 36.1,
+      "y": -5.275,
+      "from_layer": "inner2",
+      "to_layer": "top"
+    },
+    {
+      "route_type": "wire",
+      "x": 36.1,
+      "y": -5.275,
+      "width": 0.1,
+      "layer": "top",
+      "end_pcb_port_id": "pcb_port_1443"
+    }
+  ],
+  "beforePlanarLengthMm": 54.930443661380025,
+  "afterPlanarLengthMm": 44.45726368426553,
+  "lengthDeltaMm": -10.473179977114498,
+  "unchangedVias": [
+    {
+      "route_type": "via",
+      "x": -1.2000000000000002,
+      "y": 6.800000000000001,
+      "from_layer": "top",
+      "to_layer": "inner4"
+    },
+    {
+      "route_type": "via",
+      "x": 5.75,
+      "y": -1.6499999999999986,
+      "from_layer": "inner4",
+      "to_layer": "inner2"
+    },
+    {
+      "route_type": "via",
+      "x": 36.1,
+      "y": -5.275,
+      "from_layer": "inner2",
+      "to_layer": "top"
+    }
+  ],
+  "plannedBaseline": "work/cloud/combined-v34/native/board.circuit.json"
+}

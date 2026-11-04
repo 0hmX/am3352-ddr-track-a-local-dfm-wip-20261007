@@ -1,0 +1,123 @@
+[
+  {
+    "name": "RN4_NEAR_R1",
+    "net": "SYSBOOT1",
+    "x": 11.5,
+    "y": -10.49,
+    "fromLayer": "top",
+    "toLayer": "inner4",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".Boot_and_clock > .R_BOOT1 > .pin1"
+  },
+  {
+    "name": "RN4_NEAR_R9",
+    "net": "SYSBOOT9",
+    "x": 10.89,
+    "y": -4.4,
+    "fromLayer": "bottom",
+    "toLayer": "inner2",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".Boot_and_clock > .R_BOOT9 > .pin1"
+  },
+  {
+    "name": "RN4_NEAR_ARRAY_3",
+    "net": "SYSBOOT1",
+    "x": 18.474999999999998,
+    "y": -16.25,
+    "fromLayer": "bottom",
+    "toLayer": "inner4",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .RN_HDMI_4 > .3"
+  },
+  {
+    "name": "RN4_NEAR_ARRAY_4",
+    "net": "SYSBOOT9",
+    "x": 18.474999999999998,
+    "y": -15.75,
+    "fromLayer": "bottom",
+    "toLayer": "inner2",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .RN_HDMI_4 > .4"
+  },
+  {
+    "name": "RN4_NEAR_ARRAY_1",
+    "net": "SYSBOOT13",
+    "x": 18.474999999999998,
+    "y": -17.25,
+    "fromLayer": "bottom",
+    "toLayer": "top",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .RN_HDMI_4 > .1"
+  },
+  {
+    "name": "RN4_NEAR_ARRAY_2",
+    "net": "SYSBOOT5",
+    "x": 18.474999999999998,
+    "y": -16.749999999999996,
+    "fromLayer": "bottom",
+    "toLayer": "inner2",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .RN_HDMI_4 > .2"
+  },
+  {
+    "name": "RN4_NEAR_ARRAY_8",
+    "net": "HDMI_D5",
+    "x": 19.525000000000002,
+    "y": -17.25,
+    "fromLayer": "bottom",
+    "toLayer": "top",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .RN_HDMI_4 > .8"
+  },
+  {
+    "name": "RN4_NEAR_U39",
+    "net": "HDMI_D20",
+    "x": 43.750062,
+    "y": -22.29992,
+    "fromLayer": "top",
+    "toLayer": "bottom",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .U_HDMI > .39"
+  },
+  {
+    "name": "RN4_NEAR_ARRAY_7",
+    "net": "HDMI_D10",
+    "x": 19.525000000000002,
+    "y": -16.749999999999996,
+    "fromLayer": "bottom",
+    "toLayer": "inner2",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .RN_HDMI_4 > .7"
+  },
+  {
+    "name": "RN4_NEAR_U49",
+    "net": "HDMI_D10",
+    "x": 38.54992,
+    "y": -22.999944,
+    "fromLayer": "top",
+    "toLayer": "inner2",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .U_HDMI > .49"
+  },
+  {
+    "name": "RN4_NEAR_U45",
+    "net": "HDMI_D14",
+    "x": 40.750068,
+    "y": -22.29992,
+    "fromLayer": "top",
+    "toLayer": "bottom",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "selector": ".HDMI > .U_HDMI > .45"
+  }
+]

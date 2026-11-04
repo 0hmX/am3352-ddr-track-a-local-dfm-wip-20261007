@@ -1,0 +1,20 @@
+[
+  {
+    "x": -0.481259,
+    "y": 2.80765,
+    "fromLayer": "inner1",
+    "toLayer": "inner6",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "distanceToSignalTransitionMm": 0.55
+  },
+  {
+    "x": -0.615,
+    "y": 10.85,
+    "fromLayer": "inner1",
+    "toLayer": "inner6",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "distanceToSignalTransitionMm": 0.55
+  }
+]

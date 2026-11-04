@@ -1,0 +1,162 @@
+{
+  "placement": {
+    "center": [
+      22.05,
+      1.05
+    ],
+    "layer": "bottom",
+    "rotation": 270,
+    "signalPad": [
+      22.05,
+      0.54
+    ],
+    "v3Pad": [
+      22.05,
+      1.56
+    ]
+  },
+  "routes": [
+    {
+      "net": "I2C0_SCL",
+      "layer": "bottom",
+      "points": [
+        [
+          22.05,
+          0.54
+        ],
+        [
+          21.465,
+          1.125
+        ],
+        [
+          18.3,
+          1.125
+        ],
+        [
+          18.0625,
+          0.8874999999999993
+        ],
+        [
+          18.0625,
+          -0.6
+        ]
+      ],
+      "lengthMm": 5.8156906550518706,
+      "width": 0.1,
+      "name": "CLOUD_LOCAL_0_NEXT_I2C0_SCL",
+      "fromLayer": "bottom",
+      "toLayer": "top",
+      "from": ".Power_management > .R_PWR6 > .pin1",
+      "to": ".Power_management > .U_PMIC > .3",
+      "omitFinalVia": true
+    },
+    {
+      "net": "I2C0_SCL",
+      "layer": "inner4",
+      "points": [
+        [
+          22.05,
+          0.54
+        ],
+        [
+          22.19,
+          0.4
+        ],
+        [
+          23.125,
+          0.4
+        ],
+        [
+          23.425,
+          0.09999999999999931
+        ],
+        [
+          23.425,
+          -2.100000000000005
+        ],
+        [
+          38.575,
+          -17.250000000000007
+        ],
+        [
+          38.575,
+          -22.275000000000002
+        ],
+        [
+          44.75006,
+          -28.450059999999997
+        ],
+        [
+          44.75006,
+          -31.20008
+        ]
+      ],
+      "lengthMm": 41.69046303786415,
+      "width": 0.1,
+      "name": "CLOUD_LOCAL_54_I2C0_SCL",
+      "fromLayer": "bottom",
+      "toLayer": "top",
+      "from": ".Power_management > .R_PWR6 > .pin1",
+      "to": ".HDMI > .U_HDMI > .12"
+    },
+    {
+      "net": "RMII1_TXD0_DAMPED",
+      "layer": "bottom",
+      "points": [
+        [
+          36.1,
+          -1.375
+        ],
+        [
+          25,
+          -1.375
+        ],
+        [
+          24.5,
+          -1.375
+        ],
+        [
+          22.675,
+          0.4499999999999993
+        ],
+        [
+          22.675,
+          2.0499999999999985
+        ],
+        [
+          21.075,
+          3.65
+        ],
+        [
+          19.5,
+          3.65
+        ],
+        [
+          10.05,
+          13.1
+        ],
+        [
+          9.01,
+          13.1
+        ]
+      ],
+      "lengthMm": 34.022999615553594,
+      "width": 0.1,
+      "name": "CLOUD_ETH_57_RMII1_TXD0_DAMPED",
+      "fromLayer": "top",
+      "toLayer": "top"
+    }
+  ],
+  "status": "Frozen geometry candidate: native placement/power/reference proof pending",
+  "return": {
+    "x": 21.868827,
+    "y": -0.136148,
+    "net": "GND",
+    "fromLayer": "inner3",
+    "toLayer": "inner6",
+    "holeDiameter": 0.15,
+    "outerDiameter": 0.3,
+    "distanceMm": 0.6999998384521244,
+    "name": "R_PWR6_SCL_RETURN"
+  }
+}

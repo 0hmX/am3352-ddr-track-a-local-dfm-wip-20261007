@@ -1,0 +1,3 @@
+import data from '../data/cloud-sysboot3-routes.json'
+/** Genuine terminal via only; V2 preserves the frozen full U2 barrel and SYS9 bottom copper. */
+export function CloudSysboot3RoutesV2(){return <group name="CloudSysboot3RoutesV2" pcbRelative pcbStyle={{viaHoleDiameter:.15,viaPadDiameter:.3}}>{data.routes.map((r,i)=>{const ps=r.points;const path:any[]=[r.from];if(r.fromLayer!=='bottom')path.push({x:ps[0][0],y:ps[0][1],via:true,fromLayer:r.fromLayer,toLayer:'bottom'});path.push(...ps.map(([x,y])=>({x,y,layer:'bottom'})),r.to);return <trace key={i} name={'SYSBOOT3_BOTTOM_V2_'+i} from={r.from} to={r.to} width={.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[path]}/>})}</group>}

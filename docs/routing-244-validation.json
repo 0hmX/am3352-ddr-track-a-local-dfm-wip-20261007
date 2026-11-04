@@ -1,0 +1,136 @@
+{
+  "sourceCheckpoint": "3278cc54eb9747336d3907b282f8525856c136e5",
+  "sourceArchiveSha256": "d52560b876087d95318c5f1b0559a780f22e82e455d25983fe5a465cffe32b5f",
+  "nativeSha256": "a67ba602cd5ad28a9b3adc3e96f0171671f41f2fe9bcec1c5da660e025f42c4d",
+  "namedNets": 251,
+  "connectedNets": 244,
+  "previousConnectionsLost": [],
+  "remainingNets": [
+    "HDMI_D0",
+    "HDMI_D8",
+    "HDMI_D11",
+    "HDMI_D15",
+    "SYSBOOT2",
+    "SYSBOOT6",
+    "SYSBOOT10"
+  ],
+  "actualGerberExcellon": {
+    "shorts": 0,
+    "missingPinCopper": 0,
+    "missingBarrelCopper": 0,
+    "missingDrills": 0
+  },
+  "sameDepthPhysicalChecks": {
+    "differentNetContacts": 0,
+    "drillSpacingFindings": 0,
+    "drillToTraceFindings": 0
+  },
+  "postDrill": {
+    "groundTerminals": 393,
+    "groundGroups": 1,
+    "newReferenceCuts": 0,
+    "ddrAreaFindings": 10,
+    "additionalZeroOrLowMarginsRemain": true
+  },
+  "ddr": {
+    "timingRoutes": 46,
+    "signalVias": 68,
+    "routesWithZeroVias": 12,
+    "routesWithTwoVias": 34,
+    "allSignalViasPadCentered": true,
+    "lengthsLayersWidthsPreserved": true
+  },
+  "nativeStrict": {
+    "exitCode": 0,
+    "baselineCheckpoint": "f5bcf91cbe8917ec2a03b140c5bf60a396aab0ee",
+    "newFailureSignatures": 0,
+    "totalInheritedProjectedWarnings": 23,
+    "physicalFabricationStackQualified": false
+  },
+  "placement": {
+    "overlaps": 0,
+    "connectorOverhangs": 2,
+    "missingCourtyards": 15
+  },
+  "style": {
+    "officialIssues": 0,
+    "broaderSharpTurnTraces": 78
+  },
+  "boardViaInventory": {
+    "rawRecords": 1156,
+    "uniqueDrillSpanStructures": 1153,
+    "coincidentDuplicates": 3,
+    "intermediateSignalTransitions": 3,
+    "offPadPowerJoins": 9,
+    "centeredStackJoins": 1
+  },
+  "qualification": "Routing WIP. No SI, PI, timing, impedance, current-capacity, manufacturing or boot signoff. Actual stack and configured DDR rate remain unverified.",
+  "a10Repair": {
+    "layer": "top",
+    "widthMm": 0.1,
+    "planarLengthMm": 41.750161,
+    "signalVias": 0,
+    "uncoveredAreaMm2": 0,
+    "fullBodyReferenceMarginMm": 0.010677,
+    "newPlaneScopes": 0,
+    "otherTracesUnchanged": 580,
+    "allPoursPadsPlacementsViasHolesUnchanged": true,
+    "nominalCopperEdgeMinimumMm": 0.1,
+    "finishedHoleEdgeMinimumMm": 0.21081464445001677,
+    "redistributedFromExistingTuningMm": 1.712917233244184,
+    "directProductionNativeBytesMatchValidatedCandidate": true
+  },
+  "d1Repair": {
+    "layer": "top",
+    "widthMm": 0.1,
+    "planarLengthMm": 25.075,
+    "signalVias": 0,
+    "uncoveredAreaMm2": 0,
+    "fullBodyReferenceMarginMm": 0.010854,
+    "referenceScopes": [
+      {
+        "layer": "inner1",
+        "terminal": "U1.K2/DDR_D10",
+        "center": [
+          0.4,
+          -6
+        ]
+      },
+      {
+        "layer": "inner1",
+        "terminal": "U1.K1/DDR_D9",
+        "center": [
+          0.4,
+          -6.8
+        ]
+      }
+    ],
+    "maximumScopeRadiusMm": 0.374998,
+    "minimumLandClearanceMm": 0.175026947,
+    "minimumFinishedHoleClearanceMm": 0.250026947,
+    "scopeSha256": "384c715b2c924ba96ba5afb9b7fb0cabef1890154b531e96e7835ed35c2c61aa",
+    "newGroundRemovalMm2": 0,
+    "outOfScopeGroundAdditionMm2": 0,
+    "otherTracesUnchanged": 580,
+    "allExistingPoursPadsPlacementsViasHolesUnchanged": true,
+    "directProductionNativeBytesMatchValidatedCandidate": true
+  },
+  "ba2Repair": {
+    "layer": "inner2",
+    "widthMm": 0.1,
+    "planarLengthMm": 41.070761,
+    "signalVias": 2,
+    "uncoveredAreaMm2": 0,
+    "referenceMarginsMm": {
+      "inner1": 0.0109,
+      "inner3": 0.0109
+    },
+    "physicalCopperGapMm": 0.1875,
+    "finishedHoleEdgeGapMm": 0.2625,
+    "newScopes": 0,
+    "otherTracesUnchanged": 580,
+    "allPoursPadsPlacementsViasHolesUnchanged": true,
+    "sourceDeltaSha256": "08ece5ff566330c809f6c10ec6f692973ee333f315887953238cb4353b41fec0",
+    "directProductionNativeBytesMatchValidatedCandidate": true
+  }
+}

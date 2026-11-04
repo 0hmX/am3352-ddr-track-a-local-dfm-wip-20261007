@@ -1,0 +1,748 @@
+[
+  {
+    "net": "SYSBOOT1",
+    "a": [
+      4.4,
+      -6
+    ],
+    "b": [
+      11.5,
+      -10.49
+    ],
+    "fromLayer": "top",
+    "toLayer": "top",
+    "layer": "top",
+    "pin": "CPU",
+    "width": 0.1,
+    "points": [
+      [
+        4.4,
+        -6
+      ],
+      [
+        4.793615014110055,
+        -6.393615014110055
+      ],
+      [
+        4.793615014110055,
+        -9.018615014110054
+      ],
+      [
+        5.6,
+        -9.825
+      ],
+      [
+        8.568478880014958,
+        -9.825
+      ],
+      [
+        8.80670244410597,
+        -10.063223564091011
+      ],
+      [
+        8.80670244410597,
+        -10.61715055759921
+      ],
+      [
+        9.25895927429876,
+        -11.069407387792001
+      ],
+      [
+        10.920592612208,
+        -11.069407387792001
+      ],
+      [
+        11.5,
+        -10.49
+      ]
+    ],
+    "lengthMm": 11.3019880103836,
+    "vias": [],
+    "barrelConflicts": [],
+    "rawLengthMm": 11.376546451610757,
+    "name": "RN4_NEAR_SYSBOOT1_CPU",
+    "fromSelector": ".Processor > .U1 > .R2",
+    "toSelector": ".RN4_NEAR_R1 > .top"
+  },
+  {
+    "net": "V3V3",
+    "a": [
+      11.5,
+      -9.47
+    ],
+    "b": [
+      11,
+      -7.59
+    ],
+    "fromLayer": "top",
+    "toLayer": "top",
+    "layer": "top",
+    "pin": "V3",
+    "width": 0.15,
+    "points": [
+      [
+        11.5,
+        -9.47
+      ],
+      [
+        11.5,
+        -8.09
+      ],
+      [
+        11,
+        -7.59
+      ]
+    ],
+    "lengthMm": 2.0871067811865482,
+    "vias": [],
+    "barrelConflicts": [],
+    "rawLengthMm": 1.9071067811865485,
+    "name": "RN4_NEAR_V3V3_V3",
+    "fromSelector": ".Boot_and_clock > .R_BOOT1 > .pin2",
+    "toSelector": ".Boot_and_clock > .R_PGOOD_RAW > .pin2"
+  },
+  {
+    "net": "SYSBOOT9",
+    "a": [
+      6,
+      -6
+    ],
+    "b": [
+      10.89,
+      -4.4
+    ],
+    "fromLayer": "top",
+    "toLayer": "bottom",
+    "sourceComponent": "U1",
+    "sourcePort": "U2",
+    "pin": "R9",
+    "options": [
+      "bottom"
+    ],
+    "width": 0.1,
+    "layer": "bottom",
+    "points": [
+      [
+        6,
+        -6
+      ],
+      [
+        5.349999999999998,
+        -6.0
+      ],
+      [
+        3.9499999999999993,
+        -4.600000000000001
+      ],
+      [
+        3.9499999999999993,
+        -3.9499999999999993
+      ],
+      [
+        5.149999999999999,
+        -2.75
+      ],
+      [
+        6.899999999999999,
+        -2.75
+      ],
+      [
+        7.25,
+        -2.3999999999999986
+      ],
+      [
+        9.75,
+        -2.3999999999999986
+      ],
+      [
+        10.89,
+        -3.539999999999999
+      ],
+      [
+        10.89,
+        -4.4
+      ]
+    ],
+    "lengthMm": 12.194133470105964,
+    "vias": [
+      {
+        "net": "SYSBOOT9",
+        "x": 6,
+        "y": -6,
+        "fromLayer": "top",
+        "toLayer": "bottom",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "barrelConflicts": [],
+    "rawLengthMm": 12.202417741353425,
+    "name": "RN4_NEAR_SYSBOOT9_R9",
+    "fromSelector": ".SYS9_CPU_VIP > .bottom",
+    "toSelector": ".RN4_NEAR_R9 > .bottom"
+  },
+  {
+    "net": "SYSBOOT1",
+    "a": [
+      11.5,
+      -10.49
+    ],
+    "fromLayer": "top",
+    "layer": "inner4",
+    "clear": true,
+    "b": [
+      18.474999999999998,
+      -16.25
+    ],
+    "toLayer": "bottom",
+    "pin": 3,
+    "width": 0.1,
+    "points": [
+      [
+        11.5,
+        -10.49
+      ],
+      [
+        16.06,
+        -15.05
+      ],
+      [
+        17.1,
+        -15.05
+      ],
+      [
+        18.3,
+        -16.25
+      ],
+      [
+        18.475,
+        -16.25
+      ]
+    ],
+    "lengthMm": 9.360870119269025,
+    "vias": [
+      {
+        "net": "SYSBOOT1",
+        "x": 11.5,
+        "y": -10.49,
+        "fromLayer": "top",
+        "toLayer": "inner4",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      },
+      {
+        "net": "SYSBOOT1",
+        "x": 18.474999999999998,
+        "y": -16.25,
+        "fromLayer": "bottom",
+        "toLayer": "inner4",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "name": "RN4_NEAR_SYSBOOT1_pin3",
+    "fromSelector": ".RN4_NEAR_R1 > .inner4",
+    "toSelector": ".RN4_NEAR_ARRAY_3 > .inner4"
+  },
+  {
+    "net": "SYSBOOT9",
+    "a": [
+      10.89,
+      -4.4
+    ],
+    "fromLayer": "bottom",
+    "layer": "inner2",
+    "clear": true,
+    "b": [
+      18.474999999999998,
+      -15.75
+    ],
+    "toLayer": "bottom",
+    "pin": 4,
+    "width": 0.1,
+    "points": [
+      [
+        10.89,
+        -4.4
+      ],
+      [
+        18.15,
+        -11.66
+      ],
+      [
+        18.15,
+        -15.45
+      ],
+      [
+        18.45,
+        -15.75
+      ],
+      [
+        18.475,
+        -15.75
+      ]
+    ],
+    "lengthMm": 14.506454531540596,
+    "vias": [
+      {
+        "net": "SYSBOOT9",
+        "x": 10.89,
+        "y": -4.4,
+        "fromLayer": "bottom",
+        "toLayer": "inner2",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      },
+      {
+        "net": "SYSBOOT9",
+        "x": 18.474999999999998,
+        "y": -15.75,
+        "fromLayer": "bottom",
+        "toLayer": "inner2",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "name": "RN4_NEAR_SYSBOOT9_pin4",
+    "fromSelector": ".RN4_NEAR_R9 > .inner2",
+    "toSelector": ".RN4_NEAR_ARRAY_4 > .inner2"
+  },
+  {
+    "net": "SYSBOOT13",
+    "a": [
+      8.09,
+      -15
+    ],
+    "fromLayer": "top",
+    "layer": "top",
+    "clear": true,
+    "b": [
+      18.474999999999998,
+      -17.25
+    ],
+    "toLayer": "bottom",
+    "pin": 1,
+    "width": 0.1,
+    "points": [
+      [
+        8.09,
+        -15
+      ],
+      [
+        9.09,
+        -16.0
+      ],
+      [
+        12.55,
+        -16.0
+      ],
+      [
+        13.55,
+        -15.0
+      ],
+      [
+        18.85,
+        -15.0
+      ],
+      [
+        18.95,
+        -15.1
+      ],
+      [
+        18.95,
+        -16.75
+      ],
+      [
+        18.475,
+        -17.225
+      ],
+      [
+        18.475,
+        -17.25
+      ]
+    ],
+    "lengthMm": 14.076599923110724,
+    "vias": [
+      {
+        "net": "SYSBOOT13",
+        "x": 18.474999999999998,
+        "y": -17.25,
+        "fromLayer": "bottom",
+        "toLayer": "top",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "name": "RN4_NEAR_SYSBOOT13_pin1",
+    "fromSelector": ".SYS13_STRAP_VIP > .top",
+    "toSelector": ".RN4_NEAR_ARRAY_1 > .top"
+  },
+  {
+    "net": "SYSBOOT5",
+    "a": [
+      8.6,
+      -5.2
+    ],
+    "fromLayer": "bottom",
+    "layer": "inner2",
+    "clear": true,
+    "b": [
+      18.474999999999998,
+      -16.749999999999996
+    ],
+    "toLayer": "bottom",
+    "pin": 2,
+    "width": 0.1,
+    "points": [
+      [
+        8.6,
+        -5.2
+      ],
+      [
+        9.25,
+        -5.2
+      ],
+      [
+        17.9,
+        -13.85
+      ],
+      [
+        17.9,
+        -16.175
+      ],
+      [
+        18.475,
+        -16.75
+      ]
+    ],
+    "lengthMm": 16.021120112891797,
+    "vias": [
+      {
+        "net": "SYSBOOT5",
+        "x": 8.6,
+        "y": -5.2,
+        "fromLayer": "bottom",
+        "toLayer": "inner2",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      },
+      {
+        "net": "SYSBOOT5",
+        "x": 18.474999999999998,
+        "y": -16.749999999999996,
+        "fromLayer": "bottom",
+        "toLayer": "inner2",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "name": "RN4_NEAR_SYSBOOT5_pin2",
+    "fromSelector": "net.SYSBOOT5",
+    "toSelector": ".RN4_NEAR_ARRAY_2 > .inner2"
+  },
+  {
+    "net": "HDMI_D5",
+    "a": [
+      38.54992,
+      -25.999938
+    ],
+    "fromLayer": "top",
+    "layer": "top",
+    "clear": true,
+    "b": [
+      19.525000000000002,
+      -17.25
+    ],
+    "toLayer": "bottom",
+    "pin": 8,
+    "width": 0.1,
+    "points": [
+      [
+        38.54992,
+        -25.999938
+      ],
+      [
+        37.800062,
+        -25.999938
+      ],
+      [
+        37.35,
+        -26.45
+      ],
+      [
+        33.35,
+        -26.45
+      ],
+      [
+        24.95,
+        -18.05
+      ],
+      [
+        24.95,
+        -17.15
+      ],
+      [
+        24.8,
+        -17.0
+      ],
+      [
+        19.775,
+        -17.0
+      ],
+      [
+        19.525,
+        -17.25
+      ]
+    ],
+    "lengthMm": 23.756421133192,
+    "vias": [
+      {
+        "net": "HDMI_D5",
+        "x": 19.525000000000002,
+        "y": -17.25,
+        "fromLayer": "bottom",
+        "toLayer": "top",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "name": "RN4_NEAR_HDMI_D5_pin8",
+    "fromSelector": ".HDMI > .U_HDMI > .55",
+    "toSelector": ".RN4_NEAR_ARRAY_8 > .top"
+  },
+  {
+    "net": "HDMI_D20",
+    "a": [
+      43.750062,
+      -22.29992
+    ],
+    "fromLayer": "top",
+    "layer": "bottom",
+    "clear": true,
+    "b": [
+      19.525000000000002,
+      -16.25
+    ],
+    "toLayer": "bottom",
+    "pin": 6,
+    "width": 0.1,
+    "points": [
+      [
+        43.750062,
+        -22.29992
+      ],
+      [
+        43.750062,
+        -22.150062
+      ],
+      [
+        37.85,
+        -16.25
+      ],
+      [
+        19.525,
+        -16.25
+      ]
+    ],
+    "lengthMm": 26.818805699242127,
+    "vias": [
+      {
+        "net": "HDMI_D20",
+        "x": 43.750062,
+        "y": -22.29992,
+        "fromLayer": "top",
+        "toLayer": "bottom",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "name": "RN4_NEAR_HDMI_D20_pin6",
+    "fromSelector": ".RN4_NEAR_U39 > .bottom",
+    "toSelector": ".HDMI > .RN_HDMI_4 > .6"
+  },
+  {
+    "net": "HDMI_D10",
+    "a": [
+      38.54992,
+      -22.999944
+    ],
+    "fromLayer": "top",
+    "layer": "inner2",
+    "clear": true,
+    "b": [
+      19.525000000000002,
+      -16.749999999999996
+    ],
+    "toLayer": "bottom",
+    "pin": 7,
+    "width": 0.1,
+    "points": [
+      [
+        38.54992,
+        -22.999944
+      ],
+      [
+        34.899976,
+        -19.35
+      ],
+      [
+        15.2,
+        -19.35
+      ],
+      [
+        12.1,
+        -16.25
+      ],
+      [
+        12.1,
+        -15.95
+      ],
+      [
+        11.7,
+        -15.55
+      ],
+      [
+        11.7,
+        -14.9
+      ],
+      [
+        11.9,
+        -14.7
+      ],
+      [
+        12.05,
+        -14.7
+      ],
+      [
+        12.1,
+        -14.65
+      ],
+      [
+        12.35,
+        -14.65
+      ],
+      [
+        12.7,
+        -15.0
+      ],
+      [
+        12.7,
+        -15.4
+      ],
+      [
+        15.0,
+        -17.7
+      ],
+      [
+        18.7,
+        -17.7
+      ],
+      [
+        19.05,
+        -17.35
+      ],
+      [
+        19.05,
+        -17.05
+      ],
+      [
+        19.35,
+        -16.75
+      ],
+      [
+        19.525,
+        -16.75
+      ]
+    ],
+    "lengthMm": 40.75698192143261,
+    "vias": [
+      {
+        "net": "HDMI_D10",
+        "x": 38.54992,
+        "y": -22.999944,
+        "fromLayer": "top",
+        "toLayer": "inner2",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      },
+      {
+        "net": "HDMI_D10",
+        "x": 19.525000000000002,
+        "y": -16.749999999999996,
+        "fromLayer": "bottom",
+        "toLayer": "inner2",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "name": "RN4_NEAR_HDMI_D10_pin7",
+    "fromSelector": ".RN4_NEAR_U49 > .inner2",
+    "toSelector": ".RN4_NEAR_ARRAY_7 > .inner2"
+  },
+  {
+    "net": "HDMI_D14",
+    "a": [
+      40.750068,
+      -22.29992
+    ],
+    "fromLayer": "top",
+    "layer": "bottom",
+    "clear": true,
+    "b": [
+      19.525000000000002,
+      -15.75
+    ],
+    "toLayer": "bottom",
+    "pin": 5,
+    "width": 0.1,
+    "points": [
+      [
+        40.750068,
+        -22.29992
+      ],
+      [
+        40.750068,
+        -22.000068
+      ],
+      [
+        36.45,
+        -17.7
+      ],
+      [
+        19.3,
+        -17.7
+      ],
+      [
+        19.05,
+        -17.45
+      ],
+      [
+        19.05,
+        -16.05
+      ],
+      [
+        19.35,
+        -15.75
+      ],
+      [
+        19.525,
+        -15.75
+      ]
+    ],
+    "lengthMm": 25.883883944031744,
+    "vias": [
+      {
+        "net": "HDMI_D14",
+        "x": 40.750068,
+        "y": -22.29992,
+        "fromLayer": "top",
+        "toLayer": "bottom",
+        "holeDiameter": 0.15,
+        "outerDiameter": 0.3
+      }
+    ],
+    "name": "RN4_NEAR_HDMI_D14_pin5",
+    "fromSelector": ".RN4_NEAR_U45 > .bottom",
+    "toSelector": ".HDMI > .RN_HDMI_4 > .5"
+  }
+]

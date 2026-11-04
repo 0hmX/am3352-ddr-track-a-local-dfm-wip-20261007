@@ -149,7 +149,13 @@ function failureKeys(report: any, records: any[]) {
     if (typeof value === "string") return elements.has(value) ? stable(label(value)) : value
     if (typeof value === "number") return Math.round(value*1e6)/1e6
     if (Array.isArray(value)) return value.map(stable)
-    if (value && typeof value === "object") return Object.fromEntries(Object.keys(value).sort().filter(k=>k!=="message" && k!=="pcb_error_id" && !k.endsWith("_error_id")).map(k=>[k,stable(value[k])]))
+    if (value && typeof value === "object") return Object.fromEntries(Object.keys(value).sort().filter(k=>k!=="message" && k!=="pcb_error_id" && !k.endsWith("_error_id")).map(k=>{
+      const normalized=stable(value[k])
+      // Native checks enumerate unordered via pairs in insertion order. Compare
+      // their actual geometry without turning a reversed pair into a new error.
+      if(k==="pcb_via_ids" && Array.isArray(normalized)) normalized.sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)))
+      return [k,normalized]
+    }))
     return value
   }
   return Object.fromEntries([...Object.entries(report.native),...Object.entries(report.supplemental)].map(([name,errors]:any)=>[name,errors.map((e:any)=>sha(JSON.stringify(stable(e))))]))
