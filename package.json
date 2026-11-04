@@ -1,6 +1,6 @@
 {
   "name": "@tsci/0hmX.am3352-ddr-track-a-local-dfm-wip-20261007",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "description": "Native TSX AM3352 DDR3/RGB888 HDMI design; saved layout migration is in progress.",
   "dependencies": {
