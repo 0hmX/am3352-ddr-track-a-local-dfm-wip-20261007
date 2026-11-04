@@ -810,7 +810,7 @@ const data = {
   },
   "J_POWER": {
     "pcbX": 26,
-    "pcbY": 21.36,
+    "pcbY": 22.825,
     "pcbRotation": 180,
     "layer": "top",
     "isAllowedToBeOffBoard": true

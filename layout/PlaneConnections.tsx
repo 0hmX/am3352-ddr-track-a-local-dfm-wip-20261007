@@ -213,8 +213,8 @@ export function PlaneConnections(){return <>
 <via name="PLANE_PAD_210" pcbX={-26.775} pcbY={-20.174999999999997} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".J_MICROSD > .pin11_internal_3" />
 <via name="PLANE_PAD_211" pcbX={-9.49} pcbY={-3.25} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".C_SD_HF > .pin2" />
 <via name="PLANE_PAD_212" pcbX={-8.925} pcbY={-4.75} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".C_SD_BULK > .pin2" />
-<via name="PLANE_PAD_213" pcbX={29.2} pcbY={17.68} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".J_POWER > .A1" />
-<via name="PLANE_PAD_214" pcbX={22.8} pcbY={17.68} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".J_POWER > .A12" />
+<via name="PLANE_PAD_213" pcbX={29.2} pcbY={19.145} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".J_POWER > .A1" />
+<via name="PLANE_PAD_214" pcbX={22.8} pcbY={19.145} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".J_POWER > .A12" />
 <via name="PLANE_PAD_215" pcbX={-17.49} pcbY={13} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".R_TRST_N > .pin2" />
 <via name="PLANE_PAD_216" pcbX={-12.6} pcbY={11.5} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".SW_RESET > .2" />
 <via name="PLANE_PAD_217" pcbX={-5.4} pcbY={11.5} fromLayer="top" toLayer="inner1" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".SW_RESET > .pin2_internal_1" />
