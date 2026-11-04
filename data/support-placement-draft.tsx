@@ -1362,10 +1362,11 @@ const data = {
     "layer": "top"
   },
   "J_ETH": {
-    "pcbX": 49.5,
+    "pcbX": 50.31,
     "pcbY": 20,
     "pcbRotation": 0,
-    "layer": "top"
+    "layer": "top",
+    "isAllowedToBeOffBoard": true
   },
   "R_ETH_GREEN": {
     "pcbX": 45.0,
