@@ -8,5 +8,7 @@
 bun.lock text eol=lf
 *.circuit.json -text -diff
 *.png -text -diff
+*.step -text -diff
+*.glb -text -diff
 # Preserve unified-diff context whitespace in the reviewed kernel patch.
 *.patch -whitespace

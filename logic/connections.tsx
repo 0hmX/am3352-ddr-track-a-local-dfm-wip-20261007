@@ -5,6 +5,8 @@ import permutation from "../validation-next/final-ddr/permutation"
 // The AM3352 ball names are stable physical identities. Unmentioned bindings remain intact.
 export const cpuNets: Record<string, string> = { ...originalCpu, ...display.bindings }
 for (const ball of display.unbound_balls ?? []) delete cpuNets[ball]
+// USB1 host port (data/usb-host.tsx). ID tied to VSS selects host mode; DRVVBUS F15 unused.
+Object.assign(cpuNets, { R17: "USB1_DP", R18: "USB1_DM", T18: "USB1_VBUS", P17: "GND" })
 const ramData = Object.fromEntries(Object.entries(permutation.cpu_to_ram).map(([net, ram]) => [ram, net]))
 export function ramNet(signal: string): string | undefined {
   if (signal.startsWith("VSS")) return "GND"

@@ -4,6 +4,7 @@ import selectedPlacement from "./data/placement-selected"
 import { Hdmifootprint } from "./components/Hdmifootprint"
 import { SeriesDampingArray } from "./components/SeriesDampingArray"
 import { HdmiPowerRail } from "./power/PowerRail"
+import { cadModelForFootprint } from "../models"
 
 /** Selected V8 source bank and ESD pair order; full-board routing is in progress. */
 export function HDMIInterface({ placement = selectedPlacement, components = parts }: {
@@ -18,6 +19,7 @@ export function HDMIInterface({ placement = selectedPlacement, components = part
         manufacturerPartNumber={p.mpn} {...placement[p.name]} />
       const props = {
         name: p.name, manufacturerPartNumber: p.mpn, ...placement[p.name], pcbStyle: savedRefdesStyle(p.name),
+        cadModel: cadModelForFootprint(p.footprintKey),
         connections: Object.fromEntries(Object.entries(p.connections).map(([pin, net]) => [`pin${pin}`, `net.${net}`])),
       }
       const footprint = p.footprintKey ? <Hdmifootprint footprintKey={p.footprintKey} /> : p.footprint

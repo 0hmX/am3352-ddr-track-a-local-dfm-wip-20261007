@@ -1,10 +1,15 @@
 import { savedRefdesStyle } from "./layout/SavedSilkscreen"
 import originalParts from './data/support-components'
-export const parts = originalParts.filter(p => !p.name.startsWith('U_LCD') && !/^[RCLDJ]_LCD/.test(p.name) && !['C_PANEL_100N','C_PANEL_1U'].includes(p.name))
+import { usbHostParts, usbHostPlacement, usbHostFootprints, usbHostCourtyards } from './data/usb-host'
+export const parts = [...originalParts.filter(p => !p.name.startsWith('U_LCD') && !/^[RCLDJ]_LCD/.test(p.name) && !['C_PANEL_100N','C_PANEL_1U'].includes(p.name)), ...usbHostParts] as any[]
 export const supportSheets = [...new Set(parts.map(p => p.sheet))]
-import library from './data/support-footprints'
+import supportFootprints from './data/support-footprints'
 import mechanics from './data/support-mechanics'
-import placement from './data/support-placement-draft'
+import supportPlacement from './data/support-placement-draft'
+const library = { ...supportFootprints, ...usbHostFootprints }
+const courtyards = { ...mechanics.courtyards, ...usbHostCourtyards }
+const placement = { ...supportPlacement, ...usbHostPlacement }
+import { cadModelForFootprint, enclosureOpeningFor } from './models'
 const safe=(p:any,s:string)=>'pin'+(Object.keys(p.pinLabels).indexOf(s)+1)
 function ImportedFootprint({part}:{part:any}) {
  const lib=(library as any)[part.footprintKey]
@@ -12,8 +17,9 @@ function ImportedFootprint({part}:{part:any}) {
   if(part.name.startsWith('TP_UART'))return <footprint><smtpad portHints={['pin1']} shape="circle" radius={0.6} pcbX={0} pcbY={0}/></footprint>
   return part.footprint??'0402'
  }
- const court=(mechanics as any).courtyards[part.footprintKey]?.bounds
- return <footprint>{court&&<courtyardrect pcbX={(court[0]+court[2])/2} pcbY={(court[1]+court[3])/2} width={court[2]-court[0]} height={court[3]-court[1]}/>} {lib.pads.map((p:any,i:number)=>{
+ const court=(courtyards as any)[part.footprintKey]?.bounds
+ const opening=enclosureOpeningFor(part.footprintKey)
+ return <footprint insertionDirection={opening.insertionDirection}>{opening.aperture}{court&&<courtyardrect pcbX={(court[0]+court[2])/2} pcbY={(court[1]+court[3])/2} width={court[2]-court[0]} height={court[3]-court[1]}/>} {lib.pads.map((p:any,i:number)=>{
   const hints=p.pin?[safe(part,p.pin)]:[]
   if(p.type==='np_thru_hole')return <hole key={i} pcbX={p.x} pcbY={p.y} diameter={Number(p.drill?.[0]??p.width)}/>
   if(p.type==='thru_hole') {
@@ -27,7 +33,7 @@ function ImportedFootprint({part}:{part:any}) {
 export function Support({ sheets = supportSheets }: { sheets?: string[] } = {}){const counts:Record<string,number>={};return <>{parts.filter(p => sheets.includes(p.sheet)).map((p:any)=>{
  const i=counts[p.sheet]??0; counts[p.sheet]=i+1
  if(p.kind==='capacitor' && p.package==='1210' && !p.useImportedFootprint)throw Error(`Declared 1210 capacitor ${p.name} cannot use a fallback footprint`)
- const props={pcbStyle:savedRefdesStyle(p.name),name:p.name,manufacturerPartNumber:p.mpn??undefined,connections:Object.fromEntries(Object.entries(p.connections).map(([pin,net])=>[p.kind==='chip'?safe(p,pin):'pin'+pin,`net.${net}`])),...(placement as any)[p.name],schSheetName:p.sheet,schX:((i%4)-1.5)*13,schY:((Math.ceil(parts.filter(part=>part.sheet===p.sheet).length/4)-1)/2-Math.floor(i/4))*9}
+ const props={pcbStyle:savedRefdesStyle(p.name),name:p.name,manufacturerPartNumber:p.mpn??undefined,connections:Object.fromEntries(Object.entries(p.connections).map(([pin,net])=>[p.kind==='chip'?safe(p,pin):'pin'+pin,`net.${net}`])),...(placement as any)[p.name],schSheetName:p.sheet,cadModel:p.name.startsWith('TP_')?null:(p.kind==='chip'||p.kind==='inductor'||p.useImportedFootprint)&&(library as any)[p.footprintKey]?cadModelForFootprint(p.footprintKey):undefined,schX:((i%4)-1.5)*13,schY:((Math.ceil(parts.filter(part=>part.sheet===p.sheet).length/4)-1)/2-Math.floor(i/4))*9}
  if(p.kind==='resistor')return <resistor key={p.name} {...props} resistance={p.value} footprint={p.useImportedFootprint?<ImportedFootprint part={p}/>:p.footprint??'0402'}/>
  if(p.kind==='capacitor')return <capacitor key={p.name} {...props} capacitance={p.value} footprint={p.useImportedFootprint?<ImportedFootprint part={p}/>:p.footprint??'0402'}/>
  if(p.kind==='inductor')return <inductor key={p.name} {...props} inductance={p.value} footprint={<ImportedFootprint part={p}/>}/>

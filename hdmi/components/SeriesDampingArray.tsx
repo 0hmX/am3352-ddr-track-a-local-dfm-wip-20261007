@@ -1,4 +1,5 @@
 import { Hdmifootprint } from "./Hdmifootprint"
+import { cadModelForFootprint } from "../../models"
 
 /** Four isolated nominal 33-ohm elements; package lands follow the selected BOM. */
 export function SeriesDampingArray({ name, connections, footprintKey = "CAT16_4X33", manufacturerPartNumber = "CAT16-330J4LF", ...placement }: {
@@ -13,6 +14,7 @@ export function SeriesDampingArray({ name, connections, footprintKey = "CAT16_4X
     pinLabels={Object.fromEntries(Array.from({ length: 8 }, (_, i) => [`pin${i+1}`, [`${i+1}`, `P${i+1}`]]))}
     connections={Object.fromEntries(Object.entries(connections).map(([pin, net]) => [`pin${pin}`, `net.${net}`]))}
     footprint={<Hdmifootprint footprintKey={footprintKey} />}
+    cadModel={cadModelForFootprint(footprintKey)}
     spiceModel={<spicemodel source={`.subckt ${modelName} P1 P2 P3 P4 P5 P6 P7 P8
 R1 P1 P8 33
 R2 P2 P7 33

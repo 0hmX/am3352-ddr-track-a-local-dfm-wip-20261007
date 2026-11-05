@@ -1,6 +1,7 @@
 import { savedRefdesStyle } from "../../layout/SavedSilkscreen"
 import parts from "./power-components"
 import { Hdmifootprint } from "../components/Hdmifootprint"
+import { cadModelForFootprint } from "../../models"
 
 /** Actual converter circuit. The encrypted vendor model is not a native SPICE model. */
 export function HdmiPowerRail({ placement }: { placement: Record<string, any> }) {
@@ -10,6 +11,7 @@ export function HdmiPowerRail({ placement }: { placement: Record<string, any> })
       name: p.name, pcbStyle: savedRefdesStyle(p.name),
       manufacturerPartNumber: p.mpn,
       ...placement[p.name],
+      cadModel: p.kind === "resistor" ? undefined : cadModelForFootprint(p.footprintKey),
       connections: Object.fromEntries(Object.entries(p.connections).map(([pin, net]) =>
         [`pin${pin}`, `net.${net}`])),
     }
