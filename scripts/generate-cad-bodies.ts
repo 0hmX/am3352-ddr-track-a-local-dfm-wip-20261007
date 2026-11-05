@@ -95,8 +95,6 @@ function plug(o: { shellW: number; shellH: number; insert: number; stickOut: num
 }
 // HDMI Type A plug: 13.9 x 4.45mm shell, ~9mm insertion
 const hdmiPlug = plug({ shellW: 13.9, shellH: 4.45, insert: 9, stickOut: 1.5, moldW: 21, moldH: 10.5, moldL: 28, cableD: 6.5, cableL: 45 })
-// USB Type-A plug: 12.0 x 4.5mm shell, ~11.5mm insertion
-const usbAPlug = plug({ shellW: 12, shellH: 4.5, insert: 11.5, stickOut: 0.3, moldW: 16, moldH: 8, moldL: 24, cableD: 4.5, cableL: 45 })
 // USB Type-C plug: 8.25 x 2.4mm shell, ~6.6mm insertion
 const usbCPlug = plug({ shellW: 8.25, shellH: 2.4, insert: 6.6, stickOut: 2.9, moldW: 12, moldH: 6, moldL: 20, cableD: 4, cableL: 45 })
 
@@ -104,6 +102,5 @@ const dir = new URL("../models/generated/", import.meta.url).pathname
 await Bun.write(dir + "RJ45_Wuerth_7499010121A_Horizontal.glb", glb(rj45))
 await Bun.write(dir + "Texas_RSV0016A_UQFN-16_1.8x2.6mm_P0.4mm.glb", glb(rsv))
 await Bun.write(dir + "Plug_HDMI_TypeA_Cable.glb", glb(hdmiPlug))
-await Bun.write(dir + "Plug_USB_TypeA_Cable.glb", glb(usbAPlug))
 await Bun.write(dir + "Plug_USB_TypeC_Cable.glb", glb(usbCPlug))
 console.log("wrote", dir)

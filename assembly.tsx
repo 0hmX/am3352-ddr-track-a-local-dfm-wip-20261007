@@ -2,7 +2,6 @@ import { cloneElement, type ReactElement } from "react"
 import { assembly, enclosure } from "tscircuit"
 import Board from "./index"
 import hdmiPlug from "./models/generated/Plug_HDMI_TypeA_Cable.glb"
-import usbAPlug from "./models/generated/Plug_USB_TypeA_Cable.glb"
 import usbCPlug from "./models/generated/Plug_USB_TypeC_Cable.glb"
 
 /**
@@ -13,8 +12,6 @@ import usbCPlug from "./models/generated/Plug_USB_TypeC_Cable.glb"
 const matingPlugs = [
   // J_HDMI at (62.975, -28.5), Molex 208658 body reaches local x = 8.57
   { name: "CABLE_HDMI", displayName: "HDMI cable", model: hdmiPlug, mouth: { x: 71.55, y: -28.5, z: 3.95 }, outward: 0 },
-  // J_USB_HOST at (-15.6, 18) rot 180, Molex 67643 mouth 13.1mm from the pin row
-  { name: "CABLE_USB_A", displayName: "USB-A device cable", model: usbAPlug, mouth: { x: -19.1, y: 31.1, z: 4.0 }, outward: 90 },
   // J_POWER at (26, 22.825) rot 180, GCT USB4105 mouth on the board edge
   { name: "CABLE_USB_C", displayName: "USB-C power cable", model: usbCPlug, mouth: { x: 26, y: 26.5, z: 2.73 }, outward: 90 },
 ]

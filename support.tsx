@@ -1,14 +1,10 @@
 import { savedRefdesStyle } from "./layout/SavedSilkscreen"
 import originalParts from './data/support-components'
-import { usbHostParts, usbHostPlacement, usbHostFootprints, usbHostCourtyards } from './data/usb-host'
-export const parts = [...originalParts.filter(p => !p.name.startsWith('U_LCD') && !/^[RCLDJ]_LCD/.test(p.name) && !['C_PANEL_100N','C_PANEL_1U'].includes(p.name)), ...usbHostParts] as any[]
+export const parts = originalParts.filter(p => !p.name.startsWith('U_LCD') && !/^[RCLDJ]_LCD/.test(p.name) && !['C_PANEL_100N','C_PANEL_1U'].includes(p.name))
 export const supportSheets = [...new Set(parts.map(p => p.sheet))]
-import supportFootprints from './data/support-footprints'
+import library from './data/support-footprints'
 import mechanics from './data/support-mechanics'
-import supportPlacement from './data/support-placement-draft'
-const library = { ...supportFootprints, ...usbHostFootprints }
-const courtyards = { ...mechanics.courtyards, ...usbHostCourtyards }
-const placement = { ...supportPlacement, ...usbHostPlacement }
+import placement from './data/support-placement-draft'
 import { cadModelForFootprint, enclosureOpeningFor } from './models'
 const safe=(p:any,s:string)=>'pin'+(Object.keys(p.pinLabels).indexOf(s)+1)
 function ImportedFootprint({part}:{part:any}) {
@@ -17,7 +13,7 @@ function ImportedFootprint({part}:{part:any}) {
   if(part.name.startsWith('TP_UART'))return <footprint><smtpad portHints={['pin1']} shape="circle" radius={0.6} pcbX={0} pcbY={0}/></footprint>
   return part.footprint??'0402'
  }
- const court=(courtyards as any)[part.footprintKey]?.bounds
+ const court=(mechanics as any).courtyards[part.footprintKey]?.bounds
  const opening=enclosureOpeningFor(part.footprintKey)
  return <footprint insertionDirection={opening.insertionDirection}>{opening.aperture}{court&&<courtyardrect pcbX={(court[0]+court[2])/2} pcbY={(court[1]+court[3])/2} width={court[2]-court[0]} height={court[3]-court[1]}/>} {lib.pads.map((p:any,i:number)=>{
   const hints=p.pin?[safe(part,p.pin)]:[]

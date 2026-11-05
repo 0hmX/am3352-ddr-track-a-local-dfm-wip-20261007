@@ -40,7 +40,6 @@ import TL3305A from "./kicad/SW_SPST_TL3305A.step"
 import USB4105 from "./kicad/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 import DM3AT from "./kicad/microSD_HC_Hirose_DM3AT-SF-PEJM5.step"
 import HDMI_208658 from "./kicad/HDMI_A_Molex_208658-1001_Horizontal.step"
-import USB_A_67643 from "./kicad/USB_A_Molex_67643_Horizontal.step"
 import RJ45_7499010121A from "./generated/RJ45_Wuerth_7499010121A_Horizontal.glb"
 import RSV0016A from "./generated/Texas_RSV0016A_UQFN-16_1.8x2.6mm_P0.4mm.glb"
 
@@ -86,7 +85,6 @@ const byFootprintKey: Record<string, () => JSX.Element> = {
   MICROSD: () => step(DM3AT),
   HDMI_A_MOLEX_2086581001: () => step(HDMI_208658),
   RJ45_7499010121A: () => glb(RJ45_7499010121A),
-  USB_A_MOLEX_67643: () => step(USB_A_67643),
 }
 
 /** `undefined` keeps tscircuit's default (footprinter strings already get models). */
@@ -116,8 +114,6 @@ const enclosureOpenings: Record<string, { insertionDirection: "from_bottom" | "f
   RJ45_7499010121A: { insertionDirection: "from_right", aperture: () => <enclosure.cutoutaperture shape="rect" width={16.2} height={13.65} margin={0.4} /> },
   // Hirose DM3AT card slot; J_MICROSD is rotated 270deg so local -Y faces the left edge
   MICROSD: { insertionDirection: "from_bottom", aperture: () => <enclosure.cutoutaperture shape="rect" width={12} height={2.2} margin={0.4} /> },
-  // Molex 67643 USB-A: mouth on local -Y (J_USB_HOST is rotated 180deg to face the top edge)
-  USB_A_MOLEX_67643: { insertionDirection: "from_bottom", aperture: () => <enclosure.cutoutaperture shape="rect" width={13.2} height={5.8} margin={0.5} /> },
   // TL3305A plunger is actuated through the lid
   TACT_TL3305A: { insertionDirection: "from_above", aperture: () => <enclosure.cutoutaperture shape="circle" radius={1.6} margin={0.3} /> },
 }

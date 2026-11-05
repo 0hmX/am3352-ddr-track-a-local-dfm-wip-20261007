@@ -104,7 +104,6 @@ import { CloudDdrCleanupReferenceOverlays } from "./layout/CloudDdrCleanupRefere
 import { CloudSysboot1Routes } from "./layout/CloudSysboot1Routes"
 import { CloudSys1Ground1766 } from "./layout/CloudSys1Ground1766"
 import { CloudHdmiD0D8Routes } from "./layout/CloudHdmiD0D8Routes"
-import { UsbHostRoutes } from "./layout/UsbHostRoutes"
 export { ramNet } from "./logic/connections"
 const sheets = [...pinSheets, ...supportSheets, "Debug rails and power status", ...hdmiSheets]
 const supportCounts = Object.fromEntries(supportSheets.map(sheet => [sheet, supportParts.filter(p => p.sheet === sheet).length]))
@@ -205,6 +204,5 @@ export default function Board() {
     <CloudSysboot2And10Routes />
     <CloudHdmiD11D15Routes />
     <CloudHdmiD0D8Routes />
-    <UsbHostRoutes />
   </board>)))))))))))))))))))
 }
