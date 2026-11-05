@@ -78,7 +78,32 @@ const rsv: Box[] = [
   { min: [-0.7, 0.95, 0.55], max: [-0.5, 1.15, 0.56], color: marker },
 ]
 
+/**
+ * Mating cable plugs for the assembly view. Local frame: +X points out of the
+ * socket, origin at the socket mouth on the plug axis. The metal shell reaches
+ * `insert` mm into the socket; overmold and cable start `stickOut` mm outside it.
+ */
+const steel: Box["color"] = [0.82, 0.83, 0.85, 1], mould: Box["color"] = [0.12, 0.12, 0.13, 1], jacket: Box["color"] = [0.05, 0.05, 0.05, 1]
+function plug(o: { shellW: number; shellH: number; insert: number; stickOut: number; moldW: number; moldH: number; moldL: number; cableD: number; cableL: number }): Box[] {
+  const s0 = -o.insert, s1 = o.stickOut, m1 = s1 + o.moldL, strain = 6
+  return [
+    { min: [s0, -o.shellW / 2, -o.shellH / 2], max: [s1, o.shellW / 2, o.shellH / 2], color: steel, metallic: 0.9, roughness: 0.3 },
+    { min: [s1, -o.moldW / 2, -o.moldH / 2], max: [m1, o.moldW / 2, o.moldH / 2], color: mould, roughness: 0.7 },
+    { min: [m1, -o.cableD * 0.75, -o.cableD * 0.75], max: [m1 + strain, o.cableD * 0.75, o.cableD * 0.75], color: mould, roughness: 0.7 },
+    { min: [m1 + strain, -o.cableD / 2, -o.cableD / 2], max: [m1 + strain + o.cableL, o.cableD / 2, o.cableD / 2], color: jacket, roughness: 0.8 },
+  ]
+}
+// HDMI Type A plug: 13.9 x 4.45mm shell, ~9mm insertion
+const hdmiPlug = plug({ shellW: 13.9, shellH: 4.45, insert: 9, stickOut: 1.5, moldW: 21, moldH: 10.5, moldL: 28, cableD: 6.5, cableL: 45 })
+// USB Type-A plug: 12.0 x 4.5mm shell, ~11.5mm insertion
+const usbAPlug = plug({ shellW: 12, shellH: 4.5, insert: 11.5, stickOut: 0.3, moldW: 16, moldH: 8, moldL: 24, cableD: 4.5, cableL: 45 })
+// USB Type-C plug: 8.25 x 2.4mm shell, ~6.6mm insertion
+const usbCPlug = plug({ shellW: 8.25, shellH: 2.4, insert: 6.6, stickOut: 2.9, moldW: 12, moldH: 6, moldL: 20, cableD: 4, cableL: 45 })
+
 const dir = new URL("../models/generated/", import.meta.url).pathname
 await Bun.write(dir + "RJ45_Wuerth_7499010121A_Horizontal.glb", glb(rj45))
 await Bun.write(dir + "Texas_RSV0016A_UQFN-16_1.8x2.6mm_P0.4mm.glb", glb(rsv))
+await Bun.write(dir + "Plug_HDMI_TypeA_Cable.glb", glb(hdmiPlug))
+await Bun.write(dir + "Plug_USB_TypeA_Cable.glb", glb(usbAPlug))
+await Bun.write(dir + "Plug_USB_TypeC_Cable.glb", glb(usbCPlug))
 console.log("wrote", dir)

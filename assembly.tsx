@@ -1,6 +1,23 @@
 import { cloneElement, type ReactElement } from "react"
 import { assembly, enclosure } from "tscircuit"
 import Board from "./index"
+import hdmiPlug from "./models/generated/Plug_HDMI_TypeA_Cable.glb"
+import usbAPlug from "./models/generated/Plug_USB_TypeA_Cable.glb"
+import usbCPlug from "./models/generated/Plug_USB_TypeC_Cable.glb"
+
+/**
+ * Socket mouths in board mm (z from board centre) and the outward axis angle.
+ * x/y from the KiCad socket models at their placements; z from the enclosure cutout
+ * centres, which core sizes from the same socket bodies.
+ */
+const matingPlugs = [
+  // J_HDMI at (62.975, -28.5), Molex 208658 body reaches local x = 8.57
+  { name: "CABLE_HDMI", displayName: "HDMI cable", model: hdmiPlug, mouth: { x: 71.55, y: -28.5, z: 3.95 }, outward: 0 },
+  // J_USB_HOST at (-15.6, 18) rot 180, Molex 67643 mouth 13.1mm from the pin row
+  { name: "CABLE_USB_A", displayName: "USB-A device cable", model: usbAPlug, mouth: { x: -19.1, y: 31.1, z: 4.0 }, outward: 90 },
+  // J_POWER at (26, 22.825) rot 180, GCT USB4105 mouth on the board edge
+  { name: "CABLE_USB_C", displayName: "USB-C power cable", model: usbCPlug, mouth: { x: 26, y: 26.5, z: 2.73 }, outward: 90 },
+]
 
 /**
  * Product assembly: the unchanged AM3352 board inside a generated two-part FDM
@@ -36,6 +53,9 @@ export default function Assembly() {
         // bottom side carries 1210 MLCCs (2.5mm) and resistor arrays
         standoffHeight={4}
       />
+      {/* Mating cables plugged into the external ports (assembly view only, not BOM). */}
+      {matingPlugs.map(p => <assembly.part key={p.name} name={p.name} displayName={p.displayName}
+        cadModel={{ glbUrl: p.model, positionOffset: p.mouth, rotationOffset: { x: 0, y: 0, z: p.outward }, modelBoardNormalDirection: "z+" }} />)}
       <assembly.drawing.page name="am3352-assembly" displayName="AM3352 assembly" size="iso_a3">
         <assembly.drawing.titleblock title="AM3352 DDR3 + HDMI SBC assembly" creator="tscircuit" revisionIndex="WIP" />
         <assembly.drawing.partview name="top" partRef=".ENCLOSURE" direction="z+" width={180} height={120} centerX={110} centerY={150} />
