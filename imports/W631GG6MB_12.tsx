@@ -1,5 +1,6 @@
 import type { ChipProps } from "@tscircuit/props"
 import { withViaInPad, type ViaInPadProps } from "../layout/ViaInPadFootprint"
+import { enclosure } from "tscircuit"
 
 export const pinLabels = {
   "pin1": [
@@ -399,7 +400,9 @@ export const W631GG6MB_12 = ({ viaInPad = false, viaInPadToLayer = "bottom", ...
   ]
 }}
       manufacturerPartNumber="W631GG6MB-12"
-      footprint={withViaInPad(<footprint>
+      footprint={withViaInPad(<footprint insertionDirection="from_above">
+        {/* lid window: 7.5 x 13mm FBGA-96 body plus 1mm each side */}
+        <enclosure.cutoutaperture shape="rect" width={9.5} height={15} margin={0} />
         <smtpad portHints={["pin1"]} pcbX="-3.199892mm" pcbY="5.999861mm" radius="0.175006mm" shape="circle" />
 <smtpad portHints={["pin2"]} pcbX="-3.199892mm" pcbY="5.199761mm" radius="0.175006mm" shape="circle" />
 <smtpad portHints={["pin3"]} pcbX="-3.199892mm" pcbY="4.399915mm" radius="0.175006mm" shape="circle" />

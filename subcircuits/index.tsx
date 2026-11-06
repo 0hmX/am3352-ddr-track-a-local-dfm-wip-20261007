@@ -9,7 +9,8 @@ import { UartDebug } from "./UartDebug"
 import { EthernetAndRgbExpansion } from "./EthernetAndRgbExpansion"
 import { DebugStatus } from "./DebugStatus"
 import { HDMI } from "./HDMI"
+import { UsbProgramming } from "./UsbProgramming"
 
 export { hdmiSheets, sheetCounts } from "./HDMI"
 export const subcircuitComponents = [Processor, DDR3, PowerManagement, BootAndClock, MicroSD, PowerInput,
-  DebugAndReset, UartDebug, EthernetAndRgbExpansion, DebugStatus, HDMI] as const
+  DebugAndReset, UartDebug, EthernetAndRgbExpansion, DebugStatus, HDMI, UsbProgramming] as const

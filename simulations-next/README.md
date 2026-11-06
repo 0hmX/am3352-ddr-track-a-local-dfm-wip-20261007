@@ -17,13 +17,16 @@ bunx tsci simulate simulations-next/run-ddr.circuit.tsx --output work/ddr-run
 
 The entry renders the actual TSX board from `index.tsx` with the native simulation declarations from `ibis.circuit.tsx` as board children; `tsci simulate` runs it like any other TSX board. The board is compiled once beforehand only to resolve the routed DQ/DQS pads. `ibis.circuit.tsx` is a parameterized component, not a standalone CLI entry. To verify composition without running the solvers, run `bun test tests/ddr-simulation-entry.test.tsx`.
 
-The pinned `tscircuit` CLI bundles `@tscircuit/pcb-spice-pipeline` 0.1.6. The native entry also needs:
+The pinned `tscircuit` CLI bundles `@tscircuit/pcb-spice-pipeline` 0.1.6. The native entry needs `@tscircuit/core` 0.0.2286 or later. That release includes:
 
-- [tscircuit/core#5155](https://github.com/tscircuit/core/pull/5155): board-level declarations reference U1 and U3 inside the `Processor` and `DDR3` subcircuits.
-- Schema-valid core output for the pipeline's strict check ([tscircuit/core#5006](https://github.com/tscircuit/core/pull/5006) and [tscircuit/core#5157](https://github.com/tscircuit/core/pull/5157)).
-- [tscircuit/pcb-spice-pipeline#45](https://github.com/tscircuit/pcb-spice-pipeline/pull/45): the GND bands on inner1, inner3 and inner6 touch, and meshing them separately made FastHenry stop with `filaments had identical centers`.
+- [tscircuit/core#5155](https://github.com/tscircuit/core/pull/5155): board-level declarations can reference U1 and U3 inside the `Processor` and `DDR3` subcircuits;
+- [#5157](https://github.com/tscircuit/core/pull/5157) and [#5231](https://github.com/tscircuit/core/pull/5231): core output passes the pipeline's strict schema check.
 
-With those applied locally, the run reaches FastHenry and stops with `mutual inductance = infinity` on the finely sampled DQS0/DQSn0 curves ([tscircuit/pcb-spice-pipeline#46](https://github.com/tscircuit/pcb-spice-pipeline/issues/46)).
+`tscircuit` 0.0.3102 still depends on an older core, so `package.json` uses `overrides` to force one core version for the CLI.
+
+The `routed-copper` entry also needs [tscircuit/pcb-spice-pipeline#45](https://github.com/tscircuit/pcb-spice-pipeline/pull/45), which is still open. The GND bands on inner1, inner3 and inner6 touch, and meshing them separately made FastHenry stop with `filaments had identical centers`.
+
+With #45 applied locally, the run reaches FastHenry and stops with `mutual inductance = infinity` on the finely sampled DQS0/DQSn0 curves ([tscircuit/pcb-spice-pipeline#46](https://github.com/tscircuit/pcb-spice-pipeline/issues/46)).
 
 Joining the short curve pieces, as an experiment on #46, gets past that error but still doesn't converge, for two reasons:
 - **Coarse settings** (3 mm ground cells, 3 filaments): resistance changes 17 % between the coarse and refined solves; the limit is 5 %.

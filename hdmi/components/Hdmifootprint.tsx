@@ -1,11 +1,14 @@
 import library from "../data/footprints"
+import { enclosureOpeningFor } from "../../models"
 
 /** Literal selected copper lands; coordinates are mm with +Y upward. */
 export function Hdmifootprint({ footprintKey }: { footprintKey: keyof typeof library }) {
   const footprint: any = library[footprintKey]
   if (!footprint) throw new Error(`Unknown verified HDMI footprint: ${footprintKey}`)
   const c = footprint.courtyard
-  return <footprint>
+  const opening = enclosureOpeningFor(footprintKey)
+  return <footprint insertionDirection={opening.insertionDirection}>
+    {opening.aperture}
     {c && <courtyardrect pcbX={c.centerX ?? 0} pcbY={c.centerY ?? 0} width={c.width} height={c.height} />}
     {footprint.pads.map((p: any, i: number) => {
       const portHints = [`pin${p.portIndex}`]

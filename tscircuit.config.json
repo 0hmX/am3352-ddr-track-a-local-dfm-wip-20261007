@@ -1,10 +1,11 @@
 {
   "mainEntrypoint": "index.tsx",
   "includeBoardFiles": [
+    "assembly.tsx",
     "index.tsx"
   ],
-  "previewComponentPath": "index.tsx",
-  "siteDefaultComponentPath": "index.tsx",
+  "previewComponentPath": "assembly.tsx",
+  "siteDefaultComponentPath": "assembly.tsx",
   "build": {
     "routingDisabled": true,
     "previewImages": false,

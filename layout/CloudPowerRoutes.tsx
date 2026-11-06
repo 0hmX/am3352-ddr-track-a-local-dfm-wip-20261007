@@ -1763,14 +1763,14 @@ const groundPads = [
   {
     "selector": ".Power_input > .J_POWER > .A1",
     "x": 29.2,
-    "y": 17.68,
+    "y": 19.145,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".Power_input > .J_POWER > .A12",
     "x": 22.8,
-    "y": 17.68,
+    "y": 19.145,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
@@ -2623,35 +2623,35 @@ const groundPads = [
   },
   {
     "selector": ".HDMI > .J_HDMI > .2",
-    "x": 61.34,
+    "x": 59.69,
     "y": -24.5,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".HDMI > .J_HDMI > .5",
-    "x": 61.34,
+    "x": 59.69,
     "y": -26,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".HDMI > .J_HDMI > .8",
-    "x": 61.34,
+    "x": 59.69,
     "y": -27.5,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".HDMI > .J_HDMI > .11",
-    "x": 61.34,
+    "x": 59.69,
     "y": -29,
     "fromLayer": "top",
     "toLayer": "inner1"
   },
   {
     "selector": ".HDMI > .J_HDMI > .17",
-    "x": 61.34,
+    "x": 59.69,
     "y": -32,
     "fromLayer": "top",
     "toLayer": "inner1"
@@ -2764,38 +2764,6 @@ const groundRegions=[
         "x": 69.7,
         "y": 18.755
       },
-      {
-        "x": 29.465,
-        "y": 18.755
-      },
-      {
-        "x": 29.465,
-        "y": 19.33
-      },
-      {
-        "x": 28.315,
-        "y": 19.33
-      },
-      {
-        "x": 28.315,
-        "y": 18.755
-      },
-      {
-        "x": 23.685,
-        "y": 18.755
-      },
-      {
-        "x": 23.685,
-        "y": 19.33
-      },
-      {
-        "x": 22.535,
-        "y": 19.33
-      },
-      {
-        "x": 22.535,
-        "y": 18.755
-      }
     ]
   },
   {
@@ -2806,38 +2774,6 @@ const groundRegions=[
       },
       {
         "x": -27.7,
-        "y": 18.755
-      },
-      {
-        "x": 22.535,
-        "y": 18.755
-      },
-      {
-        "x": 22.535,
-        "y": 18.18
-      },
-      {
-        "x": 23.685,
-        "y": 18.18
-      },
-      {
-        "x": 23.685,
-        "y": 18.755
-      },
-      {
-        "x": 28.315,
-        "y": 18.755
-      },
-      {
-        "x": 28.315,
-        "y": 18.18
-      },
-      {
-        "x": 29.465,
-        "y": 18.18
-      },
-      {
-        "x": 29.465,
         "y": 18.755
       },
       {

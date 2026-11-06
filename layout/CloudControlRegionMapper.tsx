@@ -11,7 +11,7 @@ const replacements=[
       [
         "DDC_J15_VIP.inner2",
         {
-          "x": 61.34,
+          "x": 59.69,
           "y": -31
         },
         {
@@ -127,7 +127,7 @@ const replacements=[
       [
         "DDC_J16_VIP.inner2",
         {
-          "x": 61.34,
+          "x": 59.69,
           "y": -31.5
         },
         {
@@ -188,19 +188,19 @@ const replacements=[
           "y": -26.386904761904763
         },
         {
-          "x": 58.21190476190476,
+          "x": 56.5619,
           "y": -26.386904761904763
         },
         {
-          "x": 61.675,
+          "x": 60.025,
           "y": -29.85
         },
         {
-          "x": 61.675,
+          "x": 60.025,
           "y": -31.165000000000006
         },
         {
-          "x": 61.34,
+          "x": 59.69,
           "y": -31.5
         },
         "DDC_J16_VIP.inner2"
@@ -221,15 +221,15 @@ const replacements=[
           "y": -30.500056
         },
         {
-          "x": 61.03,
+          "x": 59.38,
           "y": -30.500056
         },
         {
-          "x": 61.03,
+          "x": 59.38,
           "y": -30
         },
         {
-          "x": 61.34,
+          "x": 59.69,
           "y": -30
         },
         "CEC_J13_VIP.inner2"
@@ -366,7 +366,7 @@ const vias=[
   },
   {
     "name": "DDC_J16_VIP",
-    "pcbX": 61.34,
+    "pcbX": 59.69,
     "pcbY": -31.5,
     "fromLayer": "top",
     "toLayer": "inner2",
@@ -376,7 +376,7 @@ const vias=[
   },
   {
     "name": "DDC_J15_VIP",
-    "pcbX": 61.34,
+    "pcbX": 59.69,
     "pcbY": -31,
     "fromLayer": "top",
     "toLayer": "inner2",
@@ -406,7 +406,7 @@ const vias=[
   },
   {
     "name": "CEC_J13_VIP",
-    "pcbX": 61.34,
+    "pcbX": 59.69,
     "pcbY": -30,
     "fromLayer": "top",
     "toLayer": "inner2",
