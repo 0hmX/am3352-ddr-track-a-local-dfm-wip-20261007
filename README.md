@@ -11,6 +11,18 @@ bun run dev
 
 Open `http://localhost:3020/#file=index.tsx&tab=pcb`. `bun run build` creates the site in ignored `dist/`. Functional subcircuit group boxes are organizational boundaries, not physical keepouts.
 
+## DDR simulation
+
+```sh
+tsci simulate simulate.circuit.tsx     # or: bun run simulate
+```
+
+This runs the byte-0 DQ0 write simulation on the real board in about 4 minutes. It goes through FastHenry, FasterCap, the vendor IBIS models and ngspice, then writes the report, with the eye diagram, to `.tscircuit/simulation-simulate-<time>/results.html`. Open it and choose **Plots → Eye**.
+
+**Before the first run,** place the two vendor IBIS files in `simulations-next/model-review/`: `sprm552c-candidate-models.ibs` (TI) and `W631GG6MB-12.ibs` (Winbond). They aren't distributed with this repo. Their source URLs and SHA-256 hashes are in `simulations-next/model-review/review-receipt.json`.
+
+The result is DQ0 alone with an ideal strobe, not a byte-0 verdict. What is and isn't modeled: [simulations-next/README.md](simulations-next/README.md).
+
 ## Routing requirements and limitations
 
 Keep processor and DDR memory placement fixed. Use actual component-pad-centered signal transitions and deliberate straight/45-degree routing. DDR point-to-point routes have at most two physical signal vias including endpoint escapes; ground stitches are separate. Preserve true pad positions and exact resistor-channel mappings. Bounded local spacing decisions do not waive physical shorts or same-depth drill clearance.

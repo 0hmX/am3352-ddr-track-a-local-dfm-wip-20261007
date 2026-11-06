@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "tsci dev",
-    "build": "tsci build"
+    "build": "tsci build",
+    "simulate": "tsci simulate simulate.circuit.tsx"
   },
   "devDependencies": {
     "@tscircuit/bus-lanes-solver": "https://jscdn.tscircuit.com/@tscircuit/bus-lanes-solver/0.0.35.tgz",
