@@ -1,16 +1,11 @@
-import { resolveDdrChannel } from "./channels"
 import DdrIbisBoard from "./ibis.circuit"
 import { physicalRecords } from "./run-ddr.circuit"
-import { groundReturnProfile, singleLayerRoute } from "./stage-profiles"
 
 // DQ0 alone through the pipeline's straightened-stages reduction, with an ideal
-// strobe. DQ0 is routed on one layer with no vias; its return profile comes from
-// the board stackup (top over the inner1 GND plane). DQS0/DQSn0 change layer and
-// run between two GND planes, which this reduction cannot model yet
-// (tscircuit/pcb-spice-pipeline#49, #50).
-const layer = singleLayerRoute(resolveDdrChannel(physicalRecords, "DDR_D0"))
-const { profile } = groundReturnProfile(physicalRecords, layer)
-
+// strobe. The pipeline derives DQ0's return from pcb_stackup and the GND pours
+// (top over the inner1 plane). One run: without simulated DQS lanes the quiet
+// and switching-strobe cases are identical. DQS0/DQSn0 change layer, which
+// this reduction cannot share with DQ0 yet (tscircuit/pcb-spice-pipeline#49).
 export const dqStagesChannel = {
   reduction: "straightened-stages" as const,
   sections: 12,
@@ -20,10 +15,8 @@ export const dqStagesChannel = {
     capacitanceTolerance: 0.02, reciprocityTolerance: 0.025,
     dcResistanceTolerance: 0.002, maxPanelLength: "0.5mm",
   },
-  relativePermittivity: profile.relativePermittivity,
-  straightenedStageProfiles: { [layer]: profile },
 }
 
 export default function RunDqStages() {
-  return <DdrIbisBoard circuitJson={physicalRecords} lanes={["DQ"]} pcbSpiceChannel={dqStagesChannel} />
+  return <DdrIbisBoard circuitJson={physicalRecords} lanes={["DQ"]} activities={["QUIET"]} pcbSpiceChannel={dqStagesChannel} />
 }

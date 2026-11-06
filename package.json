@@ -4,8 +4,8 @@
   "type": "module",
   "description": "Native TSX AM3352 DDR3/RGB888 HDMI design; saved layout migration is in progress.",
   "dependencies": {
-    "@tscircuit/core": "0.0.2286",
-    "tscircuit": "0.0.3102"
+    "@tscircuit/core": "0.0.2287",
+    "tscircuit": "0.0.3104"
   },
   "scripts": {
     "dev": "tsci dev",
@@ -19,8 +19,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/0hmX/am3352-ddr-track-a-local-dfm-wip-20261007.git"
-  },
-  "overrides": {
-    "@tscircuit/core": "0.0.2286"
   }
 }
