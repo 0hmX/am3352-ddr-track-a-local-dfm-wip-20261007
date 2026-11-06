@@ -1,11 +1,17 @@
+import { resolveDdrChannel } from "./channels"
 import DdrIbisBoard from "./ibis.circuit"
 import { physicalRecords } from "./run-ddr.circuit"
+import { groundReturnProfile, singleLayerRoute } from "./stage-profiles"
 
-// DQ0 alone through the pipeline's straightened-stages reduction. DQ0 is routed
-// entirely on `top`; its return is the inner1 GND plane directly below
-// (stackup: top 1.1076-1.1426 mm, inner1 0.9930-1.0082 mm => centres 0.1245 mm apart).
-// The plane is modeled as a finite return bar under the trace.
-export const dqStagesChannel = (returnWidth = "2mm") => ({
+// DQ0 alone through the pipeline's straightened-stages reduction, with an ideal
+// strobe. DQ0 is routed on one layer with no vias; its return profile comes from
+// the board stackup (top over the inner1 GND plane). DQS0/DQSn0 change layer and
+// run between two GND planes, which this reduction cannot model yet
+// (tscircuit/pcb-spice-pipeline#49, #50).
+const layer = singleLayerRoute(resolveDdrChannel(physicalRecords, "DDR_D0"))
+const { profile } = groundReturnProfile(physicalRecords, layer)
+
+export const dqStagesChannel = {
   reduction: "straightened-stages" as const,
   sections: 12,
   extraction: {
@@ -14,13 +20,10 @@ export const dqStagesChannel = (returnWidth = "2mm") => ({
     capacitanceTolerance: 0.02, reciprocityTolerance: 0.025,
     dcResistanceTolerance: 0.002, maxPanelLength: "0.5mm",
   },
-  relativePermittivity: 4.1,
-  straightenedStageProfiles: {
-    top: { spacing: "0.2mm", relativePermittivity: 4.1,
-      return: { width: returnWidth, thickness: "0.0152mm", lengthFactor: 1, centerY: "0mm", centerZ: "-0.1245mm" } },
-  },
-})
+  relativePermittivity: profile.relativePermittivity,
+  straightenedStageProfiles: { [layer]: profile },
+}
 
 export default function RunDqStages() {
-  return <DdrIbisBoard circuitJson={physicalRecords} lanes={["DQ"]} pcbSpiceChannel={dqStagesChannel()} />
+  return <DdrIbisBoard circuitJson={physicalRecords} lanes={["DQ"]} pcbSpiceChannel={dqStagesChannel} />
 }
