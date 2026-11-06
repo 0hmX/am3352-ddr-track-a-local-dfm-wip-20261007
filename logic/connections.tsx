@@ -5,6 +5,8 @@ import permutation from "../validation-next/final-ddr/permutation"
 // The AM3352 ball names are stable physical identities. Unmentioned bindings remain intact.
 export const cpuNets: Record<string, string> = { ...originalCpu, ...display.bindings }
 for (const ball of display.unbound_balls ?? []) delete cpuNets[ball]
+// USB0 device port on the J_USB_PROG USB-C (data/usb-c-ports.tsx). USB0_ID (P16) stays open = B-device.
+Object.assign(cpuNets, { N17: "USB0_DP", N18: "USB0_DM", P15: "USB0_VBUS" })
 const ramData = Object.fromEntries(Object.entries(permutation.cpu_to_ram).map(([net, ram]) => [ram, net]))
 export function ramNet(signal: string): string | undefined {
   if (signal.startsWith("VSS")) return "GND"

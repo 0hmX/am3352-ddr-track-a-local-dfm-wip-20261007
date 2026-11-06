@@ -13,13 +13,15 @@ const matingPlugs = [
   // J_HDMI at (62.975, -28.5), Molex 208658 body reaches local x = 8.57
   { name: "CABLE_HDMI", displayName: "HDMI cable", model: hdmiPlug, mouth: { x: 71.55, y: -28.5, z: 3.95 }, outward: 0 },
   // J_POWER at (26, 22.825) rot 180, GCT USB4105 mouth on the board edge
-  { name: "CABLE_USB_C", displayName: "USB-C power cable", model: usbCPlug, mouth: { x: 26, y: 26.5, z: 2.73 }, outward: 90 },
+  { name: "CABLE_USB_C", displayName: "USB-C power cable (PD)", model: usbCPlug, mouth: { x: 26, y: 26.5, z: 2.73 }, outward: 90 },
+  // J_USB_PROG at (-17, 22.825) rot 180, same GCT USB4105 on the same edge
+  { name: "CABLE_USB_C_PROG", displayName: "USB-C programming cable", model: usbCPlug, mouth: { x: -17, y: 26.5, z: 2.73 }, outward: 90 },
 ]
 
 /**
  * Product assembly: the unchanged AM3352 board inside a generated two-part FDM
  * enclosure (base + friction-fit lid). Openings come from the
- * <enclosure.cutoutaperture> declared on J_POWER, J_HDMI, J_ETH, J_MICROSD and
+ * <enclosure.cutoutaperture> declared on J_POWER, J_USB_PROG, J_HDMI, J_ETH, J_MICROSD and
  * the two tact switches (see models/index.tsx).
  *
  * index.tsx stays the board-only entrypoint used by scripts/ and validation.

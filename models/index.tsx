@@ -30,6 +30,7 @@ import WSON8_2x2 from "./kicad/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.step"
 import DFN8_3x3 from "./kicad/DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm.step"
 import USON10 from "./kicad/USON-10_2.5x1.0mm_P0.5mm.step"
 import UQFN12_2x2 from "./kicad/UQFN-12-1EP_2x2mm_P0.4mm_EP1.1x1.1mm.step"
+import QFN24_4x4 from "./kicad/QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm.step"
 import WQFN24_3x3 from "./kicad/Texas_RRW0024A_WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm.step"
 import TQFN48_6x6 from "./kicad/Qorvo_TQFN66-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm.step"
 import QFN64_9x9 from "./kicad/QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm.step"
@@ -74,6 +75,8 @@ const byFootprintKey: Record<string, () => JSX.Element> = {
   ESD204_DQA: () => step(USON10),
   TUSB320: () => step(UQFN12_2x2),
   PHY_RMQ: () => step(WQFN24_3x3),
+  // CYPD3177 (Cypress 002-16934, EP 2.75 nom): closest KiCad body is the EP2.7 4x4 QFN-24
+  CYPD3177_QFN24: () => step(QFN24_4x4),
   PMIC: () => step(TQFN48_6x6),
   IT66122_REVD: () => step(QFN64_9x9),
   TSSOP20: () => step(TSSOP20),
