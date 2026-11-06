@@ -31,6 +31,7 @@ export default function DdrIbisBoard({
   ramOdt = "ODT_60",
   uiNs = 1.5625,
   lanes = ["DQ", "DQS", "DQSn"],
+  activities = ["QUIET", "SWITCHING"],
   pcbSpiceChannel = undefined,
 }) {
   const data = resolveDdrChannel(circuitJson, dataSignal)
@@ -79,7 +80,7 @@ export default function DdrIbisBoard({
       <voltageprobe name="DQ_RX" connectsTo={input(data)} referenceTo={receiverGround} />
       <voltageprobe name="DQ_TX" connectsTo={output(data)} referenceTo={driverGround} />
       {withStrobe && <voltageprobe name="DQS_RX" connectsTo={input(dqs)} referenceTo={input(dqsn)} />}
-      {(["QUIET", "SWITCHING"] as const).map(activity => {
+      {activities.map(activity => {
         const name = `BYTE${byte}_${direction.toUpperCase()}_${activity}`
         const simulationRef = `.${name}`
         return [

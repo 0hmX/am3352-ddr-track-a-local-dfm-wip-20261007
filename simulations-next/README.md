@@ -17,12 +17,10 @@ bunx tsci simulate simulations-next/run-ddr.circuit.tsx --output work/ddr-run
 
 The entry renders the actual TSX board from `index.tsx` with the native simulation declarations from `ibis.circuit.tsx` as board children; `tsci simulate` runs it like any other TSX board. The board is compiled once beforehand only to resolve the routed DQ/DQS pads. `ibis.circuit.tsx` is a parameterized component, not a standalone CLI entry. To verify composition without running the solvers, run `bun test tests/ddr-simulation-entry.test.tsx`.
 
-The pinned `tscircuit` CLI bundles `@tscircuit/pcb-spice-pipeline` 0.1.6. The native entry needs `@tscircuit/core` 0.0.2286 or later. That release includes:
+The pinned `tscircuit` 0.0.3104 ships CLI 0.1.2443, which bundles `@tscircuit/pcb-spice-pipeline` 0.1.8. The native entry needs `@tscircuit/core` 0.0.2286 or later. That release includes:
 
 - [tscircuit/core#5155](https://github.com/tscircuit/core/pull/5155): board-level declarations can reference U1 and U3 inside the `Processor` and `DDR3` subcircuits;
 - [#5157](https://github.com/tscircuit/core/pull/5157) and [#5231](https://github.com/tscircuit/core/pull/5231): core output passes the pipeline's strict schema check.
-
-`tscircuit` 0.0.3102 still depends on an older core, so `package.json` uses `overrides` to force one core version for the CLI.
 
 The `routed-copper` entry also needs [tscircuit/pcb-spice-pipeline#45](https://github.com/tscircuit/pcb-spice-pipeline/pull/45), which is still open. The GND bands on inner1, inner3 and inner6 touch, and meshing them separately made FastHenry stop with `filaments had identical centers`.
 
@@ -37,14 +35,16 @@ The cause is physical. DQ0 is 0.12 mm above inner1, so the cells under it must b
 ## DQ0 through `straightened-stages`
 
 ```sh
-bunx tsci simulate simulations-next/run-dq-stages.circuit.tsx --output work/dq-stages
+tsci simulate simulate.circuit.tsx     # or: bun run simulate
 ```
 
-This runs DQ0 alone (ideal strobe) through the pipeline's `straightened-stages` reduction. Each route is reduced to straight stages over one finite return bar per layer. `stage-profiles.tsx` derives that bar from the compiled board instead of hand-typed numbers:
+This runs DQ0 alone, with an ideal strobe, through the pipeline's `straightened-stages` reduction, as one run (`BYTE0_WRITE_QUIET`). Without simulated DQS lanes the quiet and switching-strobe cases are identical. Each route is reduced to straight stages over a finite return bar. The board declares no return profile: pipeline 0.1.8 ([tscircuit/pcb-spice-pipeline#55](https://github.com/tscircuit/pcb-spice-pipeline/pull/55)) builds the bar from the board itself.
 
-- the reference is the nearest copper layer with a GND pour (DQ0 on `top` returns on `inner1`);
-- height, thickness and dielectric come from `pcb_stackup` (centres 0.1245 mm apart, εr 4.1);
-- only the bar width (2 mm) is a modeling choice.
+- **Reference plane:** each directly adjacent copper layer with a pour on the reference GND net. DQ0 on `top` returns on `inner1`.
+- **Height, thickness and dielectric:** from `pcb_stackup` (centres 0.1245 mm apart, εr 4.1).
+- **Bar width:** 2 mm, the pipeline default.
+
+The run takes about 3 minutes.
 
 The run passes every extraction check: L and R change less than 0.7 % from 9 to 15 filaments, C converges within 0.7 %, and DC resistance matches the analytic value. The DQ0 eye is about 0.96 V high and about 1.45 ns wide in the 1.5625 ns UI.
 
@@ -53,7 +53,7 @@ Sensitivity checked:
 - **Straightening:** over the same solid inner1 plane, the straightened route has about 4 % higher loop L than the real curved route (9.89 nH vs 9.53 nH, 0.1 mm cells).
 
 This is not a byte-0 verdict. It leaves out:
-- DQS0/DQSn0: they change layer and run on `inner2` between the `inner1` and `inner3` GND planes. The reduction can't share stages between DQ and DQS ([tscircuit/pcb-spice-pipeline#49](https://github.com/tscircuit/pcb-spice-pipeline/issues/49)) or model two return planes ([#50](https://github.com/tscircuit/pcb-spice-pipeline/issues/50)), and `stage-profiles.tsx` rejects both cases instead of modeling them against one plane.
+- DQS0/DQSn0: they change layer and run on `inner2` between the `inner1` and `inner3` GND planes. The reduction can't share stages between DQ and DQS ([tscircuit/pcb-spice-pipeline#49](https://github.com/tscircuit/pcb-spice-pipeline/issues/49)) Pipeline 0.1.8 gives a two-plane stripline both returns ([#50](https://github.com/tscircuit/pcb-spice-pipeline/issues/50)), but the DQS via stages still need a hand-written `via` profile.
 - Neighbour coupling, plane cutouts, and supply impedance.
 
 ## `routed-copper` status
