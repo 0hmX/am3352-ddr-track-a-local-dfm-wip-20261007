@@ -346,13 +346,7 @@ const groundPads = [
     "toLayer": "bottom"
   },
   null /* CLOUD_GND_PAD_114: native surface link to CLOUD_GND_PAD_113. */,
-  {
-    "selector": ".DDR3 > .U3 > .G1",
-    "x": -3.199892,
-    "y": -25.800231,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_115: DDR surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .U3 > .M1",
     "x": -3.199892,
@@ -381,13 +375,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".DDR3 > .U3 > .J2",
-    "x": -2.400046,
-    "y": -27.400177,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_120: DDR surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .U3 > .B3",
     "x": -1.599946,
@@ -431,27 +419,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .U3 > .F9",
-    "x": 3.199892,
-    "y": -25.000131,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".DDR3 > .U3 > .G9",
-    "x": 3.199892,
-    "y": -25.800231,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".DDR3 > .U3 > .M9",
-    "x": 3.199892,
-    "y": -29.800223,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_128: DDR surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_129: DDR surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_130: DDR surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .U3 > .P9",
     "x": 3.199892,
@@ -466,21 +436,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .R_DDR_ZQ > .pin2",
-    "x": 5.99,
-    "y": -29.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_133: DDR surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_134: CPU surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".DDR3 > .R_VREF_BOT > .pin2",
-    "x": -9.76,
-    "y": -23.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_135: DDR surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .C_VREF_0 > .pin2",
     "x": -7.96,
@@ -488,13 +446,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".DDR3 > .C_VREF_1 > .pin2",
-    "x": 5.29,
-    "y": -30.55,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_137: DDR surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_138: native surface link to CLOUD_GND_PAD_12. */,
   {
     "selector": ".DDR3 > .C_VREF_3 > .pin2",
@@ -503,20 +455,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .C_RAM_0 > .pin2",
-    "x": -0.33,
-    "y": -32.4,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".DDR3 > .C_RAM_1 > .pin2",
-    "x": 0.07,
-    "y": -31.6,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_140: DDR surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_141: DDR surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_142: native surface link to CLOUD_GND_PAD_143. */,
   {
     "selector": ".DDR3 > .C_RAM_3 > .pin2",
@@ -556,13 +496,7 @@ const groundPads = [
     "toLayer": "bottom"
   },
   null /* CLOUD_GND_PAD_150: native surface link to CLOUD_GND_PAD_149. */,
-  {
-    "selector": ".DDR3 > .C_RAM_11 > .pin2",
-    "x": 5.27,
-    "y": -21.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_151: DDR surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .C_RAM_B > .pin2",
     "x": -8.9125,
@@ -1033,13 +967,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Boot_and_clock > .U_CLOCK_GATE > .3",
-    "x": 3.8625,
-    "y": -17.95,
-    "fromLayer": "top",
-    "toLayer": "inner3"
-  },
+  null /* CLOUD_GND_PAD_238: DDR surface GND reaches an existing through barrel. */,
   {
     "selector": ".Boot_and_clock > .U_RESET_DELAY > .2",
     "x": -1.1375,
@@ -1047,13 +975,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Boot_and_clock > .C_CLOCK_GATE > .pin2",
-    "x": 8.709999999999999,
-    "y": -17,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_240: DDR surface GND reaches an existing through barrel. */,
   {
     "selector": ".Boot_and_clock > .C_RESET_DELAY > .pin2",
     "x": -2.99,
