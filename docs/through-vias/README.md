@@ -40,7 +40,7 @@ and supplemental checks after any edit. No SI/PI, timing or current-capacity
 qualification is implied.
 
 [Baseline validation](baseline-validation.json): 686/686 connectivity entries
-connected (251 distinct named nets), zero shorted nets, zero physical different-net
+connected (257 distinct source-net names in this native revision), zero shorted nets, zero physical different-net
 contacts. Absolute native checks retain **20 different-net + 3 same-net via-spacing
 findings**; all other recorded native/supplemental checks are clear. Absolute
 verification exits 1 for those inherited findings. Follow-up changes must preserve
