@@ -1933,7 +1933,7 @@ const groundPads = [
     "x": 37.4625,
     "y": 14,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_PHY > .25",
@@ -1947,63 +1947,63 @@ const groundPads = [
     "x": 36.51,
     "y": 20,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .R_ETH_STRAP1 > .pin2",
     "x": 38.76,
     "y": 20,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .R_ETH_STRAP2 > .pin2",
     "x": 40.86,
     "y": 20,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .R_ETH_STRAP3 > .pin2",
     "x": 39.26,
     "y": 9.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .R_ETH_STRAP4 > .pin2",
     "x": 42.51,
     "y": 22.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .R_ETH_STRAP5 > .pin2",
     "x": 42.51,
     "y": 16.75,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .R_ETH_BIAS > .pin2",
     "x": 40.26,
     "y": 16.8,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .Y_ETH > .2",
     "x": 39.95,
     "y": 22.25,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_OSC > .pin2",
     "x": 36.51,
     "y": 23,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_RESET > .2",
@@ -2017,14 +2017,14 @@ const groundPads = [
     "x": 38.76,
     "y": 3.75,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_A0 > .pin2",
     "x": 39.24,
     "y": 10.9,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_A1 > .pin2",
@@ -2045,7 +2045,7 @@ const groundPads = [
     "x": 36.2,
     "y": 24.75,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_IO0 > .pin2",
@@ -2059,21 +2059,21 @@ const groundPads = [
     "x": 32.49,
     "y": 16.1,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_IO2 > .pin2",
     "x": 36.51,
     "y": 21.25,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_IO3 > .pin2",
     "x": 50.2,
     "y": 5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_CT_TX_100N > .pin2",
@@ -2101,14 +2101,14 @@ const groundPads = [
     "x": 39.74,
     "y": 18,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ESD > .3",
     "x": 41.815000000000005,
     "y": 14,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ESD > .8",
@@ -2122,14 +2122,14 @@ const groundPads = [
     "x": 56.775,
     "y": 4.3,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .R_ETH_CHASSIS > .pin2",
     "x": 58.4625,
     "y": 0.75,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_RAMP > .2",
@@ -2143,14 +2143,14 @@ const groundPads = [
     "x": 43.51,
     "y": -10.75,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO0 > .10",
     "x": 36.1,
     "y": -5.925,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_ISO0 > .pin2",
@@ -2164,35 +2164,35 @@ const groundPads = [
     "x": 45.1,
     "y": -2.025,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .5",
     "x": 45.1,
     "y": -2.675,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .6",
     "x": 45.1,
     "y": -3.325,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .7",
     "x": 45.1,
     "y": -3.975,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .8",
     "x": 45.1,
     "y": -4.625,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .9",
@@ -2213,42 +2213,42 @@ const groundPads = [
     "x": 50.9,
     "y": -5.925,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .12",
     "x": 50.9,
     "y": -5.275,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .13",
     "x": 50.9,
     "y": -4.625,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .14",
     "x": 50.9,
     "y": -3.975,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .15",
     "x": 50.9,
     "y": -3.325,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .16",
     "x": 50.9,
     "y": -2.675,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_ISO1 > .pin2",
@@ -2269,14 +2269,14 @@ const groundPads = [
     "x": 53.76,
     "y": -1,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_RMII_RETURN_A > .pin1",
     "x": 21,
     "y": 13.01,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_RMII_RETURN_B > .pin1",

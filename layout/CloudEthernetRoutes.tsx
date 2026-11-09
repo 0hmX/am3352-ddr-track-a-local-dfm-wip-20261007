@@ -4996,10 +4996,10 @@ export const cloudEthernetGroundStitches = [
     "toLayer": "bottom"
   },
   {
-    "x": 7.699999999999999,
-    "y": -2.6,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
+    "x": 7.7,
+    "y": -2.7,
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "x": 19.450000000000006,
@@ -5020,10 +5020,10 @@ export const cloudEthernetGroundStitches = [
     "toLayer": "bottom"
   },
   {
-    "x": 42.4,
-    "y": 12.4,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
+    "x": 42.5,
+    "y": 12.5,
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "x": 36.824000000000005,
@@ -5092,13 +5092,13 @@ export const cloudEthernetGroundStitches = [
   {
     "net": "GND",
     "name": "ETH_ENDPOINT_RETURN_RMII1_TXD1_DAMPED",
-    "x": 12.01,
-    "y": 13.1,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
+    "x": 12.06,
+    "y": 12.8,
+    "fromLayer": "top",
+    "toLayer": "bottom",
     "holeDiameter": 0.15,
     "outerDiameter": 0.3,
-    "distanceMm": 0.5
+    "distanceMm": 0.6264982043070834
   }
 ]
 export function CloudEthernetRoutes(){return <group name="Cloud_ethernet_routes" pcbX={0} pcbY={0} pcbRelative pcbStyle={{viaHoleDiameter:0.15,viaPadDiameter:0.3}}><via name="MDIO_PHY_THROUGH" pcbX={39} pcbY={15.5375} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo=".Ethernet_and_RGB_expansion > .U_ETH_PHY > .15"><port name="inner2" layer="inner2" ref={p=>p?.registerMatch(p.parent as any)}/></via>{cloudEthernetRoutes.map((r:any)=>{

@@ -107,3 +107,15 @@ passes. SI/PI, reference-area coverage and current capacity remain unqualified.
 
 Independent Gerber/Excellon reparse for this increment also passes: 257/257 named-net
 groups connected, zero shorts or missing copper/drills, 1,236 barrel records matched.
+
+## Ethernet increment: 38 barrels
+
+[Source changes and bounded screen](ethernet-increment.md),
+[validation](ethernet-validation.json). Native TSX extends 35 Ethernet ground-pad
+barrels and nudges three ground stitches by 0.10–0.3042 mm. No route-data JSON
+changes. Result: **228 through / 982 non-through**, all 686 native connectivity
+entries connected, no physical shorts or new enforced findings. Trace copper and
+all component placements stay unchanged. Independent Gerber/Excellon verification
+also passes: 257/257 named-net groups connected; no shorts or missing copper/drills.
+Nine other Ethernet stitches had no valid sampled move within 0.4 mm; their
+original copper is retained. This local screen does not establish impossibility.
