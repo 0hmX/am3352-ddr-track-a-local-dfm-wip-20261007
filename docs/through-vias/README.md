@@ -215,3 +215,12 @@ including DDR_A12/A9, remains visible in the report.
 Native and exported connectivity pass with no new enforced clearance findings;
 trace copper, pin-net assignments and placements are unchanged. Twelve additional
 reference-area findings and one optional plated-hole margin are recorded.
+
+## Ethernet endpoint/supply: 49 barrels
+
+[Native TSX signal route and via ports](ethernet-through-increment.md),
+[validation](ethernet-through-validation.json). **556 through / 654 non-through**
+remain. All nonzero wire geometry, normal pin nets and placements are preserved.
+Native and exported connectivity pass with no new enforced clearance findings.
+Ten additional reference-area pairs and five optional plated-hole margins remain
+visible.

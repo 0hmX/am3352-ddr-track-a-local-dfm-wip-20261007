@@ -1,3 +1,5 @@
+import { applyEthernetThroughVias } from "./layout/StandardEthernetThroughVias"
+import { applyEthernetEndpointRoutes } from "./layout/StandardEthernetEndpointRoutes"
 import { applyHdmiThroughVias } from "./layout/StandardHdmiThroughVias"
 import { applyCpuPmicThroughVias } from "./layout/StandardCpuPmicThroughVias"
 import { applyControlGroundThroughVias } from "./layout/StandardControlGroundThroughVias"
@@ -115,7 +117,7 @@ const sheets = [...pinSheets, ...supportSheets, "Debug rails and power status", 
 const supportCounts = Object.fromEntries(supportSheets.map(sheet => [sheet, supportParts.filter(p => p.sheet === sheet).length]))
 /** DDR routing is in progress; candidate copper is screened before mounting. */
 export default function Board() {
-  return applyHdmiThroughVias(applyCpuPmicThroughVias(applyControlGroundThroughVias(applyStandardDdrThroughVias(applyUsbCPortRework(applySys6R41CandidateV2(applyBa2TraceOnlyReferenceRelief(applyD1TraceOnlyReferenceRelief(applyA10TraceOnlyReferenceRelief(applyCloudRouting244(applyPgoodReferenceReturns(applyCloudRouting242(applyMdioInner4Candidate(applyFixedPgood48Top(applyTypecCorners(applyCloudRouting240Cleanup(applyCloudRouting239(applyCloudRouting235(applyCloudControlCleanup(applyCloudRouting233(applyCloudRouting232(applyCloudRouting230(applyCloudRouting228(applyCloudRouting226(<board width={98} height={65.5} layers={8} thickness={1.2} pcbRelative routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
+  return applyEthernetEndpointRoutes(applyEthernetThroughVias(applyHdmiThroughVias(applyCpuPmicThroughVias(applyControlGroundThroughVias(applyStandardDdrThroughVias(applyUsbCPortRework(applySys6R41CandidateV2(applyBa2TraceOnlyReferenceRelief(applyD1TraceOnlyReferenceRelief(applyA10TraceOnlyReferenceRelief(applyCloudRouting244(applyPgoodReferenceReturns(applyCloudRouting242(applyMdioInner4Candidate(applyFixedPgood48Top(applyTypecCorners(applyCloudRouting240Cleanup(applyCloudRouting239(applyCloudRouting235(applyCloudControlCleanup(applyCloudRouting233(applyCloudRouting232(applyCloudRouting230(applyCloudRouting228(applyCloudRouting226(<board width={98} height={65.5} layers={8} thickness={1.2} pcbRelative routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
     outline={[{x:-28,y:26.5},{x:70,y:26.5},{x:70,y:-39},{x:-28,y:-39}]}
     minTraceWidth={0.1} minViaHoleDiameter={0.15} minViaPadDiameter={0.3}
     minViaHoleEdgeToViaHoleEdgeClearance={0.1} minPlatedHoleDrillEdgeToDrillEdgeClearance={0.15}
@@ -211,5 +213,5 @@ export default function Board() {
     <CloudHdmiD11D15Routes />
     <CloudHdmiD0D8Routes />
     <UsbCPortRoutes />
-  </board>))))))))))))))))))))))))
+  </board>))))))))))))))))))))))))))
 }
