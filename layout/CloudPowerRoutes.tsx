@@ -38,27 +38,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Processor > .U1 > .J6",
-    "x": -0.4,
-    "y": -2.8000000000000003,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .M6",
-    "x": 2,
-    "y": -2.8000000000000003,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .A7",
-    "x": -6.800000000000001,
-    "y": -2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_5: native surface link to CLOUD_GND_PAD_12. */,
+  null /* CLOUD_GND_PAD_6: native surface link to CLOUD_GND_PAD_14. */,
+  null /* CLOUD_GND_PAD_7: native surface link to CLOUD_GND_PAD_70. */,
   {
     "selector": ".Processor > .U1 > .B7",
     "x": -6,
@@ -73,20 +55,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Processor > .U1 > .H7",
-    "x": -1.2000000000000002,
-    "y": -2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .J7",
-    "x": -0.4,
-    "y": -2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_10: native surface link to CLOUD_GND_PAD_22. */,
+  null /* CLOUD_GND_PAD_11: native surface link to CLOUD_GND_PAD_23. */,
   {
     "selector": ".Processor > .U1 > .K7",
     "x": 0.4,
@@ -94,13 +64,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .U1 > .M7",
-    "x": 2,
-    "y": -2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_13: native surface link to CLOUD_GND_PAD_14. */,
   {
     "selector": ".Processor > .U1 > .N7",
     "x": 2.8000000000000003,
@@ -108,13 +72,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .U1 > .A8",
-    "x": -6.800000000000001,
-    "y": -1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_15: native surface link to CLOUD_GND_PAD_70. */,
   {
     "selector": ".Processor > .U1 > .B8",
     "x": -6,
@@ -136,13 +94,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Processor > .U1 > .E8",
-    "x": -3.6,
-    "y": -1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_19: native surface link to CLOUD_GND_PAD_20. */,
   {
     "selector": ".Processor > .U1 > .F8",
     "x": -2.8000000000000003,
@@ -171,20 +123,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .U1 > .M8",
-    "x": 2,
-    "y": -1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .A9",
-    "x": -6.800000000000001,
-    "y": -0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_24: native surface link to CLOUD_GND_PAD_14. */,
+  null /* CLOUD_GND_PAD_25: native surface link to CLOUD_GND_PAD_70. */,
   {
     "selector": ".Processor > .U1 > .B9",
     "x": -6,
@@ -199,27 +139,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Processor > .U1 > .G9",
-    "x": -2,
-    "y": -0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .H9",
-    "x": -1.2000000000000002,
-    "y": -0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .J9",
-    "x": -0.4,
-    "y": -0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_28: native surface link to CLOUD_GND_PAD_21. */,
+  null /* CLOUD_GND_PAD_29: native surface link to CLOUD_GND_PAD_22. */,
+  null /* CLOUD_GND_PAD_30: native surface link to CLOUD_GND_PAD_31. */,
   {
     "selector": ".Processor > .U1 > .K9",
     "x": 0.4,
@@ -241,27 +163,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Processor > .U1 > .J10",
-    "x": -0.4,
-    "y": 0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .K10",
-    "x": 0.4,
-    "y": 0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .L10",
-    "x": 1.2000000000000002,
-    "y": 0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_34: native surface link to CLOUD_LOCAL_RETURN_5. */,
+  null /* CLOUD_GND_PAD_35: native surface link to CLOUD_GND_PAD_31. */,
+  null /* CLOUD_GND_PAD_36: native surface link to CLOUD_GND_PAD_31. */,
   {
     "selector": ".Processor > .U1 > .M10",
     "x": 2,
@@ -284,13 +188,7 @@ const groundPads = [
     "toLayer": "inner1"
   },
   null /* CLOUD_GND_PAD_40: same surface GND reaches a nearby through barrel. */,
-  {
-    "selector": ".Processor > .U1 > .K11",
-    "x": 0.4,
-    "y": 1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_41: native surface link to CLOUD_LOCAL_RETURN_5. */,
   {
     "selector": ".Processor > .U1 > .L11",
     "x": 1.2000000000000002,
@@ -446,13 +344,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_VDD_MPU_1 > .pin2",
-    "x": 0.475,
-    "y": 1.8,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_65: native surface link to CLOUD_LOCAL_RETURN_5. */,
   {
     "selector": ".Processor > .C_VDD_MPU_2 > .pin2",
     "x": 2.99,
@@ -474,13 +366,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_VDDS_B > .pin2",
-    "x": 7.5875,
-    "y": 1.75,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_69: native surface link to CLOUD_ETH_RETURN_12. */,
   {
     "selector": ".Processor > .C_VDDS_0 > .pin2",
     "x": -7.26,
@@ -502,13 +388,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_VDDS_3 > .pin2",
-    "x": 7.74,
-    "y": 3.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_73: native surface link to CLOUD_ETH_RETURN_12. */,
   {
     "selector": ".Processor > .C_SRAM_CORE_B > .pin2",
     "x": 2.5875,
@@ -607,13 +487,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .C_IO4_0 > .pin2",
-    "x": -9.51,
-    "y": -2.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_88: native surface link to CLOUD_GND_PAD_249. */,
   {
     "selector": ".Processor > .C_IO4_1 > .pin2",
     "x": -2.51,
@@ -951,13 +825,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".DDR3 > .C_VREF_2 > .pin2",
-    "x": 0.99,
-    "y": -2.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_138: native surface link to CLOUD_GND_PAD_12. */,
   {
     "selector": ".DDR3 > .C_VREF_3 > .pin2",
     "x": -10.01,
@@ -1063,20 +931,8 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_1 > .pin2",
-    "x": -2.33,
-    "y": -2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_2 > .pin2",
-    "x": -0.8300000000000001,
-    "y": -2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_154: native surface link to CLOUD_GND_PAD_21. */,
+  null /* CLOUD_GND_PAD_155: native surface link to CLOUD_GND_PAD_22. */,
   {
     "selector": ".DDR3 > .C_SOC_DDR_3 > .pin2",
     "x": -9.33,
@@ -1140,13 +996,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_12 > .pin2",
-    "x": 0.6699999999999999,
-    "y": 3,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_165: native surface link to SYSBOOT4_RETURN_0. */,
   {
     "selector": ".DDR3 > .C_SOC_DDR_13 > .pin2",
     "x": -9.33,
@@ -1182,13 +1032,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_18 > .pin2",
-    "x": 1.8250000000000002,
-    "y": 5.33,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_171: native surface link to MDIO_I4_RETURN_0. */,
   {
     "selector": ".DDR3 > .C_SOC_DDR_19 > .pin2",
     "x": 2.67,
@@ -1442,13 +1286,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Power_management > .C_RTC_LDO > .pin2",
-    "x": -7.7,
-    "y": -6.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_209: native surface link to MPU_GND_RETURN_0. */,
   {
     "selector": ".Power_management > .R_RTC_WAKE > .pin2",
     "x": 20.51,
@@ -1554,13 +1392,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Boot_and_clock > .R_BOOT3 > .pin2",
-    "x": 5.5,
-    "y": -8.09,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_225: native surface link to SYS4_SHARED_CPU_RETURN. */,
   {
     "selector": ".Boot_and_clock > .R_BOOT5 > .pin2",
     "x": 6.51,

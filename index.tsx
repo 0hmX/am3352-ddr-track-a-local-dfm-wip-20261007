@@ -1,3 +1,4 @@
+import {CpuGroundSurfaceStubs} from "./layout/CpuGroundSurfaceStubs"
 import { applySdClockThroughRelief } from "./layout/StandardSdClockThroughRelief"
 import { applySdClockThroughVias } from "./layout/StandardSdClockThroughVias"
 import { applyWakeupThroughRelief } from "./layout/StandardWakeupThroughRelief"
@@ -226,5 +227,6 @@ export default function Board() {
     <CloudHdmiD11D15Routes />
     <CloudHdmiD0D8Routes />
     <UsbCPortRoutes />
-  </board>)))))))))))))))))))))))))))))))))))))))))
+  <CpuGroundSurfaceStubs />
+</board>)))))))))))))))))))))))))))))))))))))))))
 }
