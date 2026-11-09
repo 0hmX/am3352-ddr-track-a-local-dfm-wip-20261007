@@ -33,7 +33,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_103",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_2"
   },
   {
