@@ -1,11 +1,12 @@
 import {Children, cloneElement, isValidElement} from "react"
 
 // Literal native routes replace the selected JSON-backed DDR paths after the
-// historical mappers. Wire coordinates/layers stay fixed; physical barrels span
-// Top..Bottom and expose only the inner ports used by these signal paths.
+// historical mappers. Barrels span Top..Bottom and expose the original signal
+// layers. BA0 meanders clear the clock/A7 columns with compensated XY length;
+// other signal wire geometry is retained. See docs/through-vias/.
 const routes = {
-  "DDR_CK": <trace name="DDR_CK" from=".Processor > .U1 > .D2" to="STD_DDR_CK_DDR.inner4" width={0.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[
-      ".Processor > .U1 > .D2", {"x":-4.4,"y":-6,"via":true,"fromLayer":"top","toLayer":"inner4"}, {"x":-4.4,"y":-6},
+  "DDR_CK": <trace name="DDR_CK" from="STD_DDR_CK_CPU.inner4" to="STD_DDR_CK_DDR.inner4" width={0.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[
+      "STD_DDR_CK_CPU.inner4", {"x":-4.4,"y":-6},
       {"x":-3.98,"y":-6.42}, {"x":-3.98,"y":-7.691}, {"x":-4.289,"y":-8},
       {"x":-4.289,"y":-8.4}, {"x":-4.289000000000001,"y":-8.5}, {"x":-4.289000000000001,"y":-8.554022294576587},
       {"x":-4.254022294576587,"y":-8.588999999999999}, {"x":-3.7252295247412723,"y":-8.588999999999999}, {"x":-3.5602072301646857,"y":-8.754022294576584},
@@ -44,8 +45,8 @@ const routes = {
       {"x":-0.2599999999999137,"y":-25.940000000000154}, {"x":1.2001769999999308,"y":-27.400177}, {"x":1.599946,"y":-27.400177},
       "STD_DDR_CK_DDR.inner4",
     ]]} />,
-  "DDR_CKn": <trace name="DDR_CKn" from=".Processor > .U1 > .D1" to="STD_DDR_CKn_DDR.inner4" width={0.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[
-      ".Processor > .U1 > .D1", {"x":-4.4,"y":-6.8,"via":true,"fromLayer":"top","toLayer":"inner4"}, {"x":-4.4,"y":-6.8},
+  "DDR_CKn": <trace name="DDR_CKn" from="STD_DDR_CKn_CPU.inner4" to="STD_DDR_CKn_DDR.inner4" width={0.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[
+      "STD_DDR_CKn_CPU.inner4", {"x":-4.4,"y":-6.8},
       {"x":-4.511,"y":-6.911}, {"x":-4.511,"y":-7.05}, {"x":-4.461,"y":-7.1},
       {"x":-4.3967818927871996,"y":-7.1}, {"x":-4.3467818927872,"y":-7.1499999999999995}, {"x":-4.3467818927872,"y":-7.5},
       {"x":-4.3967818927871996,"y":-7.55}, {"x":-4.461,"y":-7.55}, {"x":-4.511,"y":-7.6},
@@ -261,8 +262,8 @@ const routes = {
       {"x":-2.625,"y":-30.1875}, {"x":-0.5,"y":-30.1875}, {"x":1.1,"y":-31.7875},
       {"x":2.0127150000000005,"y":-31.7875}, {"x":2.400046,"y":-31.400169}, "STD_DDR_A4_DDR.inner2",
     ]]} />,
-  "DDR_A7": <trace name="DDR_A7" from=".Processor > .U1 > .E2" to="STD_DDR_A7_DDR.inner4" width={0.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[
-      ".Processor > .U1 > .E2", {"x":-3.6,"y":-6,"via":true,"fromLayer":"top","toLayer":"inner4"}, {"x":-3.6,"y":-6},
+  "DDR_A7": <trace name="DDR_A7" from="STD_DDR_A7_CPU.inner4" to="STD_DDR_A7_DDR.inner4" width={0.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[
+      "STD_DDR_A7_CPU.inner4", {"x":-3.6,"y":-6},
       {"x":-3.323701971215063,"y":-6.506546386107008}, {"x":-3.321033548398601,"y":-6.511348474027734}, {"x":-3.318295384663715,"y":-6.516098379146641},
       {"x":-3.3154874800104057,"y":-6.520796101463729}, {"x":-3.3126098344386703,"y":-6.525441640978998}, {"x":-3.309662447948511,"y":-6.530034997692446},
       {"x":-3.306645320539928,"y":-6.534576171604076}, {"x":-3.3035584522129198,"y":-6.539065162713887}, {"x":-3.3004018429674873,"y":-6.543501971021877},
@@ -407,6 +408,30 @@ const routes = {
       {"x":4.050000000000285,"y":-15.950000000001197}, {"x":4.40000000000029,"y":-16.3000000000012}, {"x":4.40000000000029,"y":-24.60012299999971},
       {"x":2.400046,"y":-26.600077}, "STD_DDR_D7_DDR.inner4",
     ]]} />,
+  "DDR_BA0": <trace name="DDR_BA0" from=".Processor > .U1 > .C4" to=".DDR3 > .U3 > .M2" width={0.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[
+      ".Processor > .U1 > .C4", {"x":-5.2,"y":-4.4,"via":true,"fromLayer":"top","toLayer":"bottom"}, {"x":-5.2,"y":-4.4},
+      {"x":-4.7749999999999995,"y":-4.825000000000001}, {"x":-4.7749999999998405,"y":-5.452388589284859}, {"x":-4.6,"y":-5.627388589284859},
+      {"x":-4.025,"y":-5.627388589284859}, {"x":-3.9250000000000003,"y":-5.7273885892848595}, {"x":-3.9250000000000003,"y":-6.2250000000000005},
+      {"x":-4.025,"y":-6.325}, {"x":-4.674999999999841,"y":-6.325}, {"x":-4.7749999999998405,"y":-6.425},
+      {"x":-4.7749999999998405,"y":-7.452388589284859}, {"x":-4.674999999999841,"y":-7.552388589284859}, {"x":-3.5249879225775946,"y":-7.552388589284859},
+      {"x":-3.4249879225775945,"y":-7.652388589284859}, {"x":-3.4249879225775945,"y":-7.8523885892848595}, {"x":-3.5249879225775946,"y":-7.95238858928486},
+      {"x":-5.074999999999841,"y":-7.95238858928486}, {"x":-5.174999999999841,"y":-8.05238858928486}, {"x":-5.174999999999841,"y":-8.452388589284858},
+      {"x":-5.074999999999841,"y":-8.552388589284858}, {"x":-3.5924201012276393,"y":-8.552388589284858}, {"x":-3.4924201012276392,"y":-8.652388589284858},
+      {"x":-3.4924201012276392,"y":-8.852388589284859}, {"x":-3.5924201012276393,"y":-8.952388589284858}, {"x":-5.074999999999841,"y":-8.952388589284858},
+      {"x":-5.174999999999841,"y":-9.052388589284858}, {"x":-5.174999999999841,"y":-9.452388589284858}, {"x":-5.074999999999841,"y":-9.552388589284858},
+      {"x":-3.6749879225775945,"y":-9.552388589284858}, {"x":-3.5749879225775945,"y":-9.652388589284858}, {"x":-3.5749879225775945,"y":-9.852388589284859},
+      {"x":-3.6749879225775945,"y":-9.952388589284858}, {"x":-5.074999999999841,"y":-9.952388589284858}, {"x":-5.174999999999841,"y":-10.052388589284858},
+      {"x":-5.174999999999841,"y":-10.452388589284858}, {"x":-5.074999999999841,"y":-10.552388589284858}, {"x":-3.6749879225775945,"y":-10.552388589284858},
+      {"x":-3.5749879225775945,"y":-10.652388589284858}, {"x":-3.5749879225775945,"y":-10.852388589284859}, {"x":-3.6749879225775945,"y":-10.952388589284858},
+      {"x":-4.674999999999841,"y":-10.952388589284858}, {"x":-4.7749999999998405,"y":-11.052388589284858}, {"x":-4.7749999999998405,"y":-27.075000000000546},
+      {"x":-4.774345308190493,"y":-27.108062172598746}, {"x":-4.772381232762451,"y":-27.140582023726687}, {"x":-4.7691077737157155,"y":-27.172559553384364},
+      {"x":-4.764524931050285,"y":-27.203994761571767}, {"x":-4.75863270476616,"y":-27.23488764828891}, {"x":-4.75143109486334,"y":-27.2652382135358},
+      {"x":-4.742920101341825,"y":-27.29504645731241}, {"x":-4.733099724201616,"y":-27.32431237961876}, {"x":-4.721969963442713,"y":-27.353035980454855},
+      {"x":-4.709530819065115,"y":-27.38121725982068}, {"x":-4.695782291068823,"y":-27.40885621771624}, {"x":-4.680724379453837,"y":-27.43595285414154},
+      {"x":-4.664357084220155,"y":-27.462507169096572}, {"x":-4.646680405367778,"y":-27.488519162581337}, {"x":-4.627694342896708,"y":-27.513988834595843},
+      {"x":-4.607398896806944,"y":-27.53891618514009}, {"x":-4.585794067098484,"y":-27.563301214214064}, {"x":-4.562879853771331,"y":-27.587143921817777},
+      {"x":-2.400046,"y":-29.800223}, {"x":-2.400046,"y":-29.800223,"via":true,"fromLayer":"bottom","toLayer":"top"}, ".DDR3 > .U3 > .M2",
+    ]]} />,
 }
 
 function replaceRoutes(node:any):any {
@@ -478,6 +503,15 @@ export function applyStandardDdrThroughVias(node:any):any {
       <port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} />
     </via>
     <via name="STD_DDR_D7_DDR" pcbX={2.400046} pcbY={-26.600077} fromLayer="top" toLayer="bottom" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".DDR3 > .U3 > .H8">
+      <port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} />
+    </via>
+    <via name="STD_DDR_CK_CPU" pcbX={-4.4} pcbY={-6} fromLayer="top" toLayer="bottom" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".Processor > .U1 > .D2">
+      <port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} />
+    </via>
+    <via name="STD_DDR_CKn_CPU" pcbX={-4.4} pcbY={-6.8} fromLayer="top" toLayer="bottom" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".Processor > .U1 > .D1">
+      <port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} />
+    </via>
+    <via name="STD_DDR_A7_CPU" pcbX={-3.6} pcbY={-6} fromLayer="top" toLayer="bottom" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".Processor > .U1 > .E2">
       <port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} />
     </via>
   </>})
