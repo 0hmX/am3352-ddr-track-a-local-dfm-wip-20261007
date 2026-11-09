@@ -1,0 +1,370 @@
+{
+  "nativeInputSha256": "ed06712a3c34089a96f63f29059a0d0f1c5a75ed4c4c9d58f49fb198c5a7e8e1",
+  "inventorySummary": {
+    "totalVias": 1162,
+    "throughVias": 636,
+    "nonThroughVias": 526,
+    "shortingConversions": 519,
+    "clearanceOnlyConversions": 7,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 1,
+    "nonPourConflicts": 525,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 16,
+    "checkSameNetViaSpacing": 1,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 0,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": false,
+    "nonzeroTraceSegmentCount": 8176,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": false,
+    "traceCopperShapeCount": 8249,
+    "traceCopperSha256": "a24f0b1f59155d1f1d3f0f2dd514e623a19bd607d0bbc1870b3ed0c055e5756a",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": false,
+    "removedViaKeys": [
+      "[\"GND\",-0.33,-30.6,0.15,0.3]",
+      "[\"GND\",-3.199892,-24.200031,0.15,0.3]",
+      "[\"GND\",3.199892,-21.000139,0.15,0.3]",
+      "[\"GND\",5.27,-22.5,0.15,0.3]",
+      "[\"GND\",5.27,-26.5,0.15,0.3]",
+      "[\"GND\",5.27,-27.5,0.15,0.3]",
+      "[\"GND\",5.905,-14.83,0.15,0.3]"
+    ],
+    "addedViaKeys": [],
+    "allRetainedViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 0,
+    "allNonzeroCenterlineSegmentsIncludingViaJoinsUnchanged": false,
+    "centerlineSegmentCountIncludingViaJoins": 8177,
+    "roundingMm": 1e-08,
+    "changedTraces": [
+      "STD_GROUND_SURFACE_114",
+      "STD_GROUND_SURFACE_126",
+      "STD_GROUND_SURFACE_142",
+      "STD_GROUND_SURFACE_145",
+      "STD_GROUND_SURFACE_146",
+      "STD_GROUND_SURFACE_150",
+      "STD_GROUND_SURFACE_233"
+    ],
+    "allOriginalTraceCenterlinesPreserved": true
+  },
+  "convertedViaInventory": [],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1188,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 492,
+    "failures": []
+  },
+  "referenceDelta": {
+    "comparisonIdentity": "net/signal-layer/reference-layer uncovered-area unions",
+    "checkerSha256": "113f55a4f0caab45eafa91fe7dd753e6924df0a6cb23fb334cd95858fd7d7efd",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "c1773e7ba0fc35d4236e06ba62a6dfa8c67aa2c6821b0235c4eef8bb7ca45101",
+    "afterAnalysisSha256": "5c9f9d68dc843c2b6155c9c1166e94e6d5bab6df31552ac6681604c7e1bbcaa8",
+    "beforeNativeSha256": "2fa9704112240d81efe9d1bfcbc392d4aecdffe7174909c67127b2c33c129caa",
+    "afterNativeSha256": "ed06712a3c34089a96f63f29059a0d0f1c5a75ed4c4c9d58f49fb198c5a7e8e1",
+    "newReferenceCuts": [],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-cpu-v3-surface/gerber/In1_Cu.gbr": "3d2ab6bb79975e62bf74fc119c0dfb15320e15c0c6b003eee711d2f0b84e3e56",
+      "work/through-vias/native-cpu-v3-surface/gerber/In3_Cu.gbr": "1cc6ec5155a5b60c70a1ad792d8fe45aa583b168783aaf85e6819cfa7441c99a",
+      "work/through-vias/native-cpu-v3-surface/gerber/In6_Cu.gbr": "a2ce07a13a2c3e5a5a20eab9122a668b2c79746299c449f3af6e95a1beadb708",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L2-L8.drl": "fe6c81952920226147352feb2b69f1395711fd814eda90ee75c8965043e94e5b",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L5-L6.drl": "bb7032e49cccecbbb441372ed218a914c2c4ee0e36fbcd48a1017fb2ae02640c",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L1-L5.drl": "487d79ebf4620eafe3c453f9b8576d60234f43d773f66760d4376f27422a7850",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L1-L4.drl": "01f78271631eee6a03958aba7df61bd775b3ee4510820a18029d2112608fa232",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L1-L6.drl": "bf6563ef1bd32f7e9bbc4b7952833405bb0f3fff1e5fbaa0df56007fd6f33f12",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L1-L7.drl": "bb8f65f7ad03216ecfd27de1f6ea91a523e54d078eca56dfef20c47abffdcaea",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L1-L3.drl": "515cde375ae00cbe92646b02dd781362eceb3ee696de30b3846fa5601f176d9e",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L3-L6.drl": "aff06ada232a18aa437b49659b89c611d8cfae6fd7e13741c9fe72ff3d419d13",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L1-L2.drl": "f33fdb0094de2fd13c6e5d1054ba8139a980e73e7e1d35be72624ce8324c909b",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L3-L5.drl": "b9be216c9997e6169e1920e7c25480925c212f040d0d552e9ee6987cfb4e5b87",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L6-L8.drl": "da48d90976409c1ffe2e894cbdbb77223bd800f8883437f37974c922805471cf",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L3-L8.drl": "aa1afb102db80c660db0be0b9e1d7ba771cf76f5f506e264fdb61247c1433b17",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L4-L7.drl": "a8fc55ad6e55742e312662bac6c3ba47fbb344b0c9688fa84a24cd92976207f4",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L1-L8.drl": "8505fc587991d036071520989e5e25d4efcf426d4ac0073d4423e723443cd07f",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill_npth.drl": "0fe056a894e17bbc66adf71cf56bfbd2e72aff9e6f198d909fe9db2394522def",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L5-L8.drl": "d020f55566232dd849dded292c5ac10bfa5b51ebcc981b34e60debee917a9942",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L2-L4.drl": "002f061534c38a9e552c3704cd959607210d1175e736caaf89e66103a4011e42",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L7-L8.drl": "986740fe46d16a8b06c45f3e6698aed83a026ee3986feb43fe2a5327c2ed3e76",
+      "work/through-vias/native-cpu-v3-surface/gerber/drill-L2-L7.drl": "c150bbeeb73d514c79ae5c933fdf65189771d0d4751231efca5e77447f82a691",
+      "work/through-vias/native-ddr-ground-surface/gerber/In1_Cu.gbr": "9a7dad615619570af61835678aebdf6372512963c70fe3faea7ce7bdbb60cccc",
+      "work/through-vias/native-ddr-ground-surface/gerber/In3_Cu.gbr": "2b56d69beb98f23af7a1dad5f8319193549cc8cab86414aec94490827c65f46d",
+      "work/through-vias/native-ddr-ground-surface/gerber/In6_Cu.gbr": "cb5170a783c4ae0d72b6765c9b2165e34859f888c7933a2be0e927c8f0ec59c1",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L2-L8.drl": "103ce434156c3d3632266055dab1154b2ccb483570f2e4a0885f7bd800ad17bd",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L5-L6.drl": "2b6c18d0944884103c7ee92dcf3f2466dd9358172924510255b6e81f9779b9fb",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L1-L5.drl": "ad8b443e3427317789bda2ad30fce367011b4dcfce4caf5544f937a9eb26b93f",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L1-L4.drl": "57b02d4036407344814186fbda2eccbef6ebb9168f6ed7033e390dc9fdced019",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L1-L6.drl": "76cc08699c35770df786d8b24ec086ee864add51c5db4b70e9bf6f915193af9b",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L1-L7.drl": "7dc07d9c76fa5a3d34c7e9955420829cdd82ceb494c9f0c244c734b544220926",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L1-L3.drl": "491c57ad4532c0d83876cde02b03372146d294cd593bf0319cf06c9169595966",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L3-L6.drl": "bc2cdbd4a38a45b5dbf6949b5b222a3a00c8238201ebc0a918e3a261b8f2f3ca",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L1-L2.drl": "c50e0731f51b088ad9811ebc139a8388f82a0091734042e20c18a8d43d947920",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L3-L5.drl": "41a3797f8f440db8a592c4d1bc9607bb933d0ed53693a717202ed57df153f771",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L6-L8.drl": "bbbe9d120c5a001f5991fe8a88f550b55b81607fd1ad134789fb3d639b647904",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L3-L8.drl": "a6ef74c4eaa09ba87718d8630a7090f189ff2a184b5cc11807deef11dba58c10",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L4-L7.drl": "526b7fd3446fc7ef2c5efce62f71b804b15c8e45eff360d42d3ce38246a20cd8",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L1-L8.drl": "e1f9247f5bc02015a8c0275f4893b660105e55c169b5a97b71b0f29ab0b73c71",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill_npth.drl": "50ccbbc20b7137e710274527223016497b62d7d5da8352bd3904c2b16b1085c4",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L5-L8.drl": "b12e6cb85e190c5538e457b076070c7cf4b33fa49d0147d44f18747b8607908c",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L2-L4.drl": "8648a8b61f61c955c16d486c269547a223631e5adb54bc54e27afe70c9680dd2",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L7-L8.drl": "7288258362616f9f36c61d8ad4dddc660d10253b2461fdf0bd398ba61bf1a858",
+      "work/through-vias/native-ddr-ground-surface/gerber/drill-L2-L7.drl": "394af78c9c97ba6fa48549c4c5233753563d0f2048cbab779d636694579fb55d"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  },
+  "removedPadViaInventory": [
+    {
+      "name": "CLOUD_GND_PAD_114",
+      "index": "114",
+      "selector": ".DDR3 > .U3 > .E1",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_113",
+      "distanceMm": "0.7998459999999987"
+    },
+    {
+      "name": "CLOUD_GND_PAD_126",
+      "index": "126",
+      "selector": ".DDR3 > .U3 > .A9",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_127",
+      "distanceMm": "0.8001000000000005"
+    },
+    {
+      "name": "CLOUD_GND_PAD_142",
+      "index": "142",
+      "selector": ".DDR3 > .C_RAM_2 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_GND_PAD_143",
+      "distanceMm": "1"
+    },
+    {
+      "name": "CLOUD_GND_PAD_145",
+      "index": "145",
+      "selector": ".DDR3 > .C_RAM_5 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_GND_PAD_144",
+      "distanceMm": "1"
+    },
+    {
+      "name": "CLOUD_GND_PAD_146",
+      "index": "146",
+      "selector": ".DDR3 > .C_RAM_6 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_GND_PAD_147",
+      "distanceMm": "0.8000000000000007"
+    },
+    {
+      "name": "CLOUD_GND_PAD_150",
+      "index": "150",
+      "selector": ".DDR3 > .C_RAM_10 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_GND_PAD_149",
+      "distanceMm": "1"
+    },
+    {
+      "name": "CLOUD_GND_PAD_233",
+      "index": "233",
+      "selector": ".Boot_and_clock > .R_BOOT12 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "SYS8_12_ARRAY_RETURN",
+      "distanceMm": "0.5493884043998373"
+    }
+  ],
+  "quality": {
+    "placementCounts": {
+      "checkPcbComponentOverlap": 0,
+      "checkPcbComponentsMissingCourtyard": 15,
+      "checkPcbCourtyardOverKeepout": 0
+    },
+    "fullPlacementCounts": {
+      "pcb_component_outside_board_error": 5,
+      "pcb_component_missing_courtyard_warning": 15,
+      "pcb_courtyard_overlap_error": 3,
+      "pcb_connector_not_in_accessible_orientation_warning": 1
+    },
+    "traceCount": 696,
+    "sharpTurnTraceCount": 86,
+    "addedGroundLinks": [
+      {
+        "name": "STD_GROUND_SURFACE_114",
+        "planarLengthMm": 0.7998459999999987,
+        "endpointManhattanMm": 0.7998459999999987,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_126",
+        "planarLengthMm": 0.8001000000000005,
+        "endpointManhattanMm": 0.8001000000000005,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_142",
+        "planarLengthMm": 1,
+        "endpointManhattanMm": 1,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_145",
+        "planarLengthMm": 1,
+        "endpointManhattanMm": 1,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_146",
+        "planarLengthMm": 0.8000000000000007,
+        "endpointManhattanMm": 0.8000000000000007,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_150",
+        "planarLengthMm": 1,
+        "endpointManhattanMm": 1,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_233",
+        "planarLengthMm": 0.5937207609610663,
+        "endpointManhattanMm": 0.7333329999999991,
+        "detourRatio": 0.8096195875012675,
+        "maximumSampledTurnDegrees": 45.00000000000011,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      }
+    ],
+    "limitations": [
+      "placement preserves the original three-check subset for historical comparison; fullPlacement contains the complete upstream placement suite without suppression.",
+      "Supplemental geometry metrics only; run cloud-trace-lint.ts separately for the official trace-style analyzer.",
+      "Curved routes are sampled; small successive turns do not establish deliberate path quality. Inspect enlarged native layer images.",
+      "Lengths are planar geometry, not electrical timing or impedance checks."
+    ]
+  }
+}
