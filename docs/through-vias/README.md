@@ -186,3 +186,14 @@ across 25 traces, including six DDR paths; three Inner6 routes are unassessed.
 Post-drill GND connectivity passes for all 416 component terminals. A separate
 native reproduction exposes the routing verifier's false-success exit on a lost
 physical connection; the next stacked fix must reject that condition.
+
+## CPU/control ground relief: nine barrels
+
+[Native source and bounded screen](control-ground-increment.md),
+[validation](control-ground-validation.json). Nine GND stitches become through
+with small moves; the two candidates that split V3V3 pour pieces are excluded.
+**419 through / 791 non-through** remain. Native and exported connectivity pass,
+including all 416 component GND terminals after actual drilling. No new enforced
+clearance findings; optional plated-drill margins and the small additional
+PMIC_PGOOD reference gap remain visible. The routing verifier now exits 1 on lost
+physical connectivity, as covered by the native TSX reproduction.
