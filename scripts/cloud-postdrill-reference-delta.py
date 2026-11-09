@@ -49,13 +49,19 @@ def read(folder):
  for f in (folder/'gerber').glob('*.drl'):hashes[str(f)]=hashlib.sha256(f.read_bytes()).hexdigest()
  return traces,hashes,unassessed
 before,after,out=map(Path,sys.argv[1:4]);A,ah,au=read(before);B,bh,bu=read(after);cuts=[];newrows=[]
+spatial='--match-net-layers'in sys.argv[4:];old_missing={}
+if spatial:
+ for trace in A.values():
+  if not trace['net']:raise ValueError('Cannot spatially match an unnamed net')
+  for key,e in trace['entries'].items():old_missing.setdefault((trace['net'],key),[]).append(e['missing'])
+ old_missing={key:unary_union(parts)for key,parts in old_missing.items()}
 for name,t in B.items():
  old=A.get(name)
  if old:assert old['net']==t['net']
  for key,e in t['entries'].items():
-  prev=old['entries'].get(key)if old else None;delta=e['missing'].difference(prev['missing'].buffer(.000002))if prev else e['missing']
+  prev=old['entries'].get(key)if old else None;previous=old_missing.get((t['net'],key))if spatial else prev['missing']if prev else None;delta=e['missing'].difference(previous.buffer(.000002))if previous is not None else e['missing']
   row=dict(trace=name,net=t['net'],signalLayer=key[0],referenceLayer=key[1],uncoveredMm2=e['missing'].area,newUncoveredMm2=delta.area,marginMm=e['margin'])
   if not old:newrows.append(row)
   if delta.area>1e-9:cuts.append(dict(row,newBounds=list(delta.bounds)))
-r=dict(checkerSha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),gerberCheckerSha256=hashlib.sha256(Path('scripts/cloud-gerber-check.py').read_bytes()).hexdigest(),beforeAnalysisSha256=hashlib.sha256((before/'copper.json').read_bytes()).hexdigest(),afterAnalysisSha256=hashlib.sha256((after/'copper.json').read_bytes()).hexdigest(),beforeNativeSha256=hashlib.sha256((before/'board.circuit.json').read_bytes()).hexdigest(),afterNativeSha256=hashlib.sha256((after/'board.circuit.json').read_bytes()).hexdigest(),newReferenceCuts=cuts,newTraceRows=newrows,unassessedTraceLayers=bu,referenceLayers=refs,gerberHashes={**ah,**bh},scope='Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification.')
+r=dict(comparisonIdentity='net/signal-layer/reference-layer uncovered-area unions'if spatial else 'trace-name/signal-layer/reference-layer',checkerSha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),gerberCheckerSha256=hashlib.sha256(Path('scripts/cloud-gerber-check.py').read_bytes()).hexdigest(),beforeAnalysisSha256=hashlib.sha256((before/'copper.json').read_bytes()).hexdigest(),afterAnalysisSha256=hashlib.sha256((after/'copper.json').read_bytes()).hexdigest(),beforeNativeSha256=hashlib.sha256((before/'board.circuit.json').read_bytes()).hexdigest(),afterNativeSha256=hashlib.sha256((after/'board.circuit.json').read_bytes()).hexdigest(),newReferenceCuts=cuts,newTraceRows=newrows,unassessedTraceLayers=bu,referenceLayers=refs,gerberHashes={**ah,**bh},scope='Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification.')
 out.write_text(json.dumps(r,indent=2)+'\n');print(json.dumps({k:v for k,v in r.items()if k!='gerberHashes'},indent=2))
