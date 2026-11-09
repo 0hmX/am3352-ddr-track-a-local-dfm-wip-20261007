@@ -138,3 +138,12 @@ All native connectivity entries remain connected, no physical shorts or new
 enforced findings; independent Gerber connectivity also passes. Five additional
 optional plated-drill margin findings are recorded. Placements, trace copper,
 via positions/nets/diameters and all JSON route data remain unchanged.
+
+## DDR-supply increment: 39 barrels
+
+[Source inventory](ddr-supply-increment.md), [validation](ddr-supply-validation.json).
+Native TSX converts 39 DDR_1V5 supply barrels, exposing matched inner-layer ports
+for the existing traces. **333 through / 877 non-through** remain. All 686 native
+connectivity entries and all 257 exported named-net groups remain connected, no
+physical shorts or new enforced findings. One optional plated-drill margin is
+recorded. Trace copper, placements and via positions/nets/diameters are unchanged.
