@@ -48,3 +48,19 @@ test("through-via inventory detects other-net traces, SMT pads, pour copper and 
   expect(report.batchSafeIds).not.toContain(at(-4,5).id)
   expect(report.batchSafeIds).toContain(at(10).id)
 }, 30000)
+
+test("a through barrel exposes an explicit inner-layer port without changing adjoining trace layers", async () => {
+  const circuit = new Circuit({platform:{partsEngineDisabled:true, netlistDrcChecksDisabled:true}})
+  circuit.schematicDisabled = true
+  circuit.add(<board width={10} height={10} layers={8} pcbRelative routingDisabled>
+    <net name="A" />
+    <via name="LEFT" pcbX={-1} pcbY={0} fromLayer="top" toLayer="bottom" connectsTo="net.A"><port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} /></via>
+    <via name="RIGHT" pcbX={1} pcbY={0} fromLayer="top" toLayer="bottom" connectsTo="net.A"><port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} /></via>
+    <trace from="LEFT.inner4" to="RIGHT.inner4" width={.1} pcbPaths={[["LEFT.inner4",{x:0,y:0},{x:2,y:0},"RIGHT.inner4"]]} />
+  </board>)
+  await circuit.renderUntilSettled()
+  const records = circuit.getCircuitJson() as any[]
+  expect(records.filter(r=>r.type.endsWith('_error'))).toEqual([])
+  expect(records.filter(r=>r.type==='pcb_via').every(v=>v.layers.length===8)).toBe(true)
+  expect(records.filter(r=>r.type==='pcb_trace').flatMap(t=>t.route).every(p=>p.route_type==='wire' && p.layer==='inner4')).toBe(true)
+}, 30000)

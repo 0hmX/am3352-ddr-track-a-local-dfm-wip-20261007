@@ -408,8 +408,8 @@
     "net": "GND",
     "x": -4.2,
     "y": 8.49,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
+    "fromLayer": "top",
+    "toLayer": "bottom",
     "name": "I2C_R_PWR5_REAL_JUNCTION_RETURN",
     "holeDiameter": 0.15,
     "outerDiameter": 0.3

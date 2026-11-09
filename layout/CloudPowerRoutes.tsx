@@ -1652,8 +1652,8 @@ const groundPads = [
     "selector": ".Boot_and_clock > .R_BOOT15 > .pin2",
     "x": 10.16,
     "y": -1.9,
-    "fromLayer": "bottom",
-    "toLayer": "inner1"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Boot_and_clock > .Y_SOC > .2",

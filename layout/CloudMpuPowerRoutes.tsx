@@ -961,8 +961,8 @@ export const returns=[
     "name": "MPU226_GND_RETURN_3",
     "x": 9.0,
     "y": 5.0,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
+    "fromLayer": "top",
+    "toLayer": "bottom",
     "holeDiameter": 0.15,
     "outerDiameter": 0.3
   }

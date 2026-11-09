@@ -2688,9 +2688,9 @@ export const cloudLocalRoutes = [
   {
     "name": "CLOUD_LOCAL_61_RTC_RESET_N",
     "net": "RTC_RESET_N",
-    "from": ".Processor > .U1 > .B5",
+    "from": "RTC_RESET_CPU_THROUGH.inner4",
     "to": ".Power_management > .U_RTC_RESET_DELAY > .8",
-    "fromLayer": "top",
+    "fromLayer": "inner4",
     "toLayer": "top",
     "points": [
       {
@@ -5288,8 +5288,8 @@ export const localReturnStitches=[
   {
     "x": 6.088908729652604,
     "y": 12.488908729652602,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
+    "fromLayer": "top",
+    "toLayer": "bottom",
     "signalTransition": {
       "x": 5.700000000000003,
       "y": 12.100000000000001,
@@ -5302,8 +5302,8 @@ export const localReturnStitches=[
   {
     "x": 10.100000000000001,
     "y": 8.650000000000002,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
+    "fromLayer": "top",
+    "toLayer": "bottom",
     "signalTransition": {
       "x": 10.100000000000001,
       "y": 8.100000000000001,
@@ -5450,7 +5450,7 @@ export const localReturnStitches=[
     "distance": 0.55
   }
 ]
-export function CloudLocalRoutes(){return <group name="CloudLocalRoutes" pcbX={0} pcbY={0} pcbRelative pcbStyle={{viaHoleDiameter:.15,viaPadDiameter:.3}}>{cloudLocalRoutes.map((r:any)=>{
+export function CloudLocalRoutes(){return <group name="CloudLocalRoutes" pcbX={0} pcbY={0} pcbRelative pcbStyle={{viaHoleDiameter:.15,viaPadDiameter:.3}}><via name="RTC_RESET_CPU_THROUGH" pcbX={-6} pcbY={-3.6} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo=".Processor > .U1 > .B5"><port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)}/></via>{cloudLocalRoutes.map((r:any)=>{
 const sections=r.sections??[{layer:r.layer,points:r.points}],first=sections[0].points[0],last=sections.at(-1).points.at(-1),path:any[]=[r.from];
 if(r.fromLayer!==sections[0].layer)path.push({...first,via:true,fromLayer:r.fromLayer,toLayer:sections[0].layer});
 for(let i=0;i<sections.length;i++){const s=sections[i];if(i)path.push({...s.points[0],via:true,fromLayer:sections[i-1].layer,toLayer:s.layer});path.push(...s.points.map((p:any)=>({x:p.x,y:p.y})));}

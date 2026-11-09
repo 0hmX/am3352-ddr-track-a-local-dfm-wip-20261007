@@ -45,3 +45,40 @@ contacts. Absolute native checks retain **20 different-net + 3 same-net via-spac
 findings**; all other recorded native/supplemental checks are clear. Absolute
 verification exits 1 for those inherited findings. Follow-up changes must preserve
 all connections and introduce no additional findings.
+
+## First conversion: 18 barrels
+
+[Converted via list](safe-converted-vias.json), [validation](safe-validation.json).
+All 18 previously batch-safe vias are now through at their native mounted TSX/data
+sources. Trace-emitted RTC_RESET_N and ETH_MDIO_ISO endpoint barrels are explicit
+through-via primitives; their inner-layer ports retain the existing trace layers.
+The installed Via constructor initializes ports before attachment and sees only a
+two-layer board; explicit matched inner ports avoid losing those connections.
+The focused native TSX tests cover this boundary.
+
+Result: **158 through, 1,052 non-through, 1,052 blocked conversions** (1,041 shorts,
+11 clearance-only; 450 pour-only, 602 involving other copper). Trace copper shapes,
+all component placements including U1/U3, and all via coordinates/nets/diameters
+match the baseline. Native continuity remains 686/686, zero shorts, zero new
+enforced findings. Placement findings and trace geometry remain inherited.
+
+One additional *informational* plated-drill margin is 0.175 mm versus the optional
+0.2 mm screen; the configured 0.1 mm trace-to-via-copper rule passes. The board's
+`minTraceToHoleEdgeClearance` applies to NPTH, not plated barrels.
+
+Independent CLI Gerber export and reparse: 257/257 exported named-net groups
+connected, zero shorts/missing pins/missing barrel copper/missing drills; 1,236
+via/PTH records matched to exported drill geometry. Multiple drill spans remain.
+The verifier now walks polygon arc edges directly and expands explicit G85 slots
+into equivalent parser-only routing commands. The emitted files are unchanged;
+arc/slot geometry fixtures exercise the compatibility path.
+
+```sh
+python3.11 -m venv work/through-vias/venv
+work/through-vias/venv/bin/pip install gerbonara==1.5.0 shapely==2.2.0
+# tsci -o must be absolute. This writes a ZIP even when the name lacks .zip.
+./node_modules/.bin/tsci export work/through-vias/safe.circuit.json -f gerbers -o "$PWD/work/through-vias/safe-gerbers.zip"
+# Extract into work/through-vias/native-safe/gerber; put the native JSON at
+# work/through-vias/native-safe/board.circuit.json, then:
+work/through-vias/venv/bin/python scripts/cloud-gerber-check.py work/through-vias/native-safe
+```
