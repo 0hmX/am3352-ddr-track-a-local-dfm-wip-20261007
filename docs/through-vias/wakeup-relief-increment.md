@@ -15,9 +15,9 @@ connected, without render errors, shorts, lost nets or new enforced clearance
 findings. Five optional plated-hole margins remain visible. All original pin-net
 assignments, placements and via positions/nets/diameters are unchanged. Only the
 wakeup wire changes nonzero geometry: 63.085143 to 63.585061 mm planar length.
-Placement findings and 86 sampled sharp-turn traces remain inherited; changed
-wakeup geometry uses straight/45-degree turns. Official style analysis remains
-unavailable.
+Placement findings and 86 sampled sharp-turn traces remain inherited. New
+detours use straight/45-degree turns; the original 90-degree corner at
+(-3.55, -33.35) mm remains unchanged. Official style analysis remains unavailable.
 
 Independent exported Gerber/Excellon parsing passes for 257/257 named groups,
 zero shorts/missing copper/drills, and 1,234 barrel records matched. Actual
