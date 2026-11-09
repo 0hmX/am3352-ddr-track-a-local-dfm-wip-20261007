@@ -83,3 +83,29 @@ test("native pour regeneration clears a new through barrel on an inner layer", a
   const { checkCopperPourShorts } = await import('@tscircuit/checks')
   expect(checkCopperPourShorts(records)).toEqual([])
 }, 30000)
+
+test("pad-centered through barrels retain original SMT pin nets and contiguous inner routing", async () => {
+  const circuit = new Circuit({platform:{partsEngineDisabled:true, netlistDrcChecksDisabled:true}})
+  circuit.schematicDisabled = true
+  circuit.add(<board width={10} height={10} layers={8} pcbRelative routingDisabled isViaInPadAllowed>
+    <net name="A" />
+    <chip name="P1" pcbX={-1} pcbY={0} pinLabels={{pin1:'A'}} connections={{pin1:'net.A'}} footprint={<footprint><smtpad portHints={['1']} pcbX={0} pcbY={0} shape="circle" radius={.2} /></footprint>} />
+    <chip name="P2" pcbX={1} pcbY={0} pinLabels={{pin1:'A'}} footprint={<footprint><smtpad portHints={['1']} pcbX={0} pcbY={0} shape="circle" radius={.2} /></footprint>} />
+    <via name="LEFT" pcbX={-1} pcbY={0} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo=".P1 > .pin1"><port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} /></via>
+    <via name="RIGHT" pcbX={1} pcbY={0} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo=".P2 > .pin1"><port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} /></via>
+    <trace from="LEFT.inner4" to="RIGHT.inner4" width={.1} pcbPaths={[["LEFT.inner4","RIGHT.inner4"]]} />
+  </board>)
+  await circuit.renderUntilSettled()
+  const records=circuit.getCircuitJson() as any[]
+  const {getFullConnectivityMapFromCircuitJson}=await import('circuit-json-to-connectivity-map')
+  const {checkTracesAreContiguous,checkDanglingTraces}=await import('@tscircuit/checks')
+  const component=records.find(r=>r.type==='source_component'&&r.name==='P2')
+  const pin=records.find(r=>r.type==='source_port'&&r.source_component_id===component.source_component_id)
+  const net=records.find(r=>r.type==='source_net'&&r.name==='A')
+  expect(records.filter(r=>r.type.endsWith('_error'))).toEqual([])
+  expect(getFullConnectivityMapFromCircuitJson(records).areIdsConnected(pin.source_port_id,net.source_net_id)).toBe(true)
+  expect(checkTracesAreContiguous(records)).toEqual([])
+  expect(checkDanglingTraces(records)).toEqual([])
+  expect(records.filter(r=>r.type==='pcb_via').map(v=>v.layers.length)).toEqual([8,8])
+  expect(records.filter(r=>r.type==='pcb_trace').flatMap(t=>t.route).every(p=>p.route_type==='wire'&&p.layer==='inner4')).toBe(true)
+}, 30000)
