@@ -1,0 +1,304 @@
+{
+  "nativeInputSha256": "e745310f1b20997062718eeb2be5ae01ad0862dc1a0fc61fca4410da69bcced8",
+  "inventorySummary": {
+    "totalVias": 1210,
+    "throughVias": 620,
+    "nonThroughVias": 590,
+    "shortingConversions": 581,
+    "clearanceOnlyConversions": 9,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 2,
+    "nonPourConflicts": 588,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 20,
+    "checkSameNetViaSpacing": 2,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 0,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": true,
+    "nonzeroTraceSegmentCount": 8106,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": true,
+    "traceCopperShapeCount": 8177,
+    "traceCopperSha256": "e48eb761b5f7e839a3b9c6aee6b21c8542f9135f6c0819a6ad4b811590f62dce",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": true,
+    "removedViaKeys": [],
+    "addedViaKeys": [],
+    "allRetainedViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 4,
+    "allNonzeroCenterlineSegmentsIncludingViaJoinsUnchanged": true,
+    "centerlineSegmentCountIncludingViaJoins": 8107,
+    "roundingMm": 1e-08,
+    "changedTraces": []
+  },
+  "convertedViaInventory": [
+    {
+      "name": "RN0_MOVED_I4_REFERENCE",
+      "nets": "GND",
+      "x": "10.76112159321605",
+      "y": "3.675000000001252",
+      "oldFrom": "inner1",
+      "oldTo": "inner3"
+    },
+    {
+      "name": "RN4_NEAR_R1",
+      "nets": "SYSBOOT1",
+      "x": "11.5",
+      "y": "-10.49",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "name": "RN4_NEAR_ARRAY_3",
+      "nets": "SYSBOOT1",
+      "x": "18.474999999999998",
+      "y": "-16.25",
+      "oldFrom": "bottom",
+      "oldTo": "inner4"
+    },
+    {
+      "name": "RN4_NEAR_ARRAY_2",
+      "nets": "SYSBOOT5",
+      "x": "18.474999999999998",
+      "y": "-16.749999999999996",
+      "oldFrom": "bottom",
+      "oldTo": "inner2"
+    }
+  ],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1236,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 533,
+    "failures": []
+  },
+  "referenceDelta": {
+    "comparisonIdentity": "net/signal-layer/reference-layer uncovered-area unions",
+    "checkerSha256": "113f55a4f0caab45eafa91fe7dd753e6924df0a6cb23fb334cd95858fd7d7efd",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "e20288edf9953b7b744c03cd8952eb8cc644e6197a5888c7c0dc5699ed110e24",
+    "afterAnalysisSha256": "cf2568dda7dc1b03b96ec5b3a81aaa995cd3a1a308de3c7ee21fb5574278fb06",
+    "beforeNativeSha256": "bf55e5eeb6d4a9f6f61e5bdf4b204e8596326763b543934b6770edff0f117d83",
+    "afterNativeSha256": "e745310f1b20997062718eeb2be5ae01ad0862dc1a0fc61fca4410da69bcced8",
+    "newReferenceCuts": [
+      {
+        "trace": "RN4_NEAR_SYSBOOT13_pin1",
+        "net": "SYSBOOT13",
+        "signalLayer": "top",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 0.008302522449110126,
+        "newUncoveredMm2": 0.008302522449110126,
+        "marginMm": 0.0,
+        "newBounds": [
+          18.677159668550555,
+          -16.992499577923727,
+          18.8190689817624,
+          -16.810220340118946
+        ]
+      },
+      {
+        "trace": "RN4_NEAR_SYSBOOT5_pin2",
+        "net": "SYSBOOT5",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 0.02655718239011547,
+        "newUncoveredMm2": 0.005023725463319849,
+        "marginMm": 0.0,
+        "newBounds": [
+          18.139446352315495,
+          -16.492499577923724,
+          18.258268515369213,
+          -16.34373567419684
+        ]
+      },
+      {
+        "trace": "RN4_NEAR_SYSBOOT5_pin2",
+        "net": "SYSBOOT5",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.02655718239011547,
+        "newUncoveredMm2": 0.005023725463319849,
+        "marginMm": 0.0,
+        "newBounds": [
+          18.139446352315495,
+          -16.492499577923724,
+          18.258268515369213,
+          -16.34373567419684
+        ]
+      }
+    ],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-usb-input/gerber/In1_Cu.gbr": "1c3dd521a956bb1133da6b7e20006594b3a6ce45e2994ae2f8963c0a07d332c0",
+      "work/through-vias/native-usb-input/gerber/In3_Cu.gbr": "a2f5778e0335425a7ea345809101ee602031014811f2b8cadcaea8b5006fea25",
+      "work/through-vias/native-usb-input/gerber/In6_Cu.gbr": "ad095e18d7055d9b0b7ebf9b8164d698a0c4216fb47e2883aa7c48ef28565724",
+      "work/through-vias/native-usb-input/gerber/drill-L2-L8.drl": "acfbe4ae6e4a516653e5d420687ffe023742b33823afa3e7e1790adaffee6465",
+      "work/through-vias/native-usb-input/gerber/drill-L5-L6.drl": "3dc846d112df3b60ce86f16ab66e43e43006279bd2472c2aca1ba63fb0bee6d2",
+      "work/through-vias/native-usb-input/gerber/drill-L1-L5.drl": "bdb8643e2407dd0b0afd18235cf158cf38b6a48cd0b371785520ec4ba15e9b04",
+      "work/through-vias/native-usb-input/gerber/drill-L1-L4.drl": "6f1df741dfe78191a68c437e5cfc1cef047a086d26398793d20c04307182d6b5",
+      "work/through-vias/native-usb-input/gerber/drill-L1-L6.drl": "1697931b9796dd791e8180611db77298431bf3e19e06e204ec23828509112cd1",
+      "work/through-vias/native-usb-input/gerber/drill-L1-L7.drl": "2ea3b69f15d0defc5bcdd4b2231dfbd4f475944307ff18491d8b065f479be4c1",
+      "work/through-vias/native-usb-input/gerber/drill-L1-L3.drl": "dbb8fc84c4c73907a37600aae885fbcc0dcf77611c0052e85b3116bf389f147d",
+      "work/through-vias/native-usb-input/gerber/drill-L3-L6.drl": "33db78118d4bf281cda2531681bab252dc00c7b122c9ff2fe0fe070b2ab6e7f8",
+      "work/through-vias/native-usb-input/gerber/drill-L1-L2.drl": "bf9bdb0e95a8b87ad272234391064020fc7f6050613f51b6de99a5d858ea9206",
+      "work/through-vias/native-usb-input/gerber/drill-L3-L5.drl": "6d0b4d83e05d92ec081774d171e07401b3321d5332f46daaf887eaf8c6e90f56",
+      "work/through-vias/native-usb-input/gerber/drill-L6-L8.drl": "e022b438dbee7c27cd9b5ac92ec627a15e94d0e171f6580a596806492aba935a",
+      "work/through-vias/native-usb-input/gerber/drill-L3-L8.drl": "ca019b3843355f103c54cc6f14086eca72eb133757bdc41c2e949e917495b1ce",
+      "work/through-vias/native-usb-input/gerber/drill-L4-L7.drl": "70f019f032fafd35f039650fcb76eae44c75dd79d0e17993b9d610a33dfc7f1b",
+      "work/through-vias/native-usb-input/gerber/drill-L1-L8.drl": "4a151b73ee5839c00d472f7a9d0b8fb9405ae2c0b3c43b67559e8f0ce21dbab8",
+      "work/through-vias/native-usb-input/gerber/drill_npth.drl": "2ea564c08fdbdf2b2b74da388afee0e36d6269b9069c912f24bcf08e39be3cc1",
+      "work/through-vias/native-usb-input/gerber/drill-L5-L8.drl": "bf061342d979cce657e5718a2ac9a9c029744cd979fd8923758810112c3c4d1b",
+      "work/through-vias/native-usb-input/gerber/drill-L2-L4.drl": "11537979a1d2a8b4567636c6da736af568728240966065e33b6d5ecccfe3c018",
+      "work/through-vias/native-usb-input/gerber/drill-L7-L8.drl": "3cc34f9c2678d65b9e4128e53ff12ddad78b62f17c78aa0cb6f6659d114f7189",
+      "work/through-vias/native-usb-input/gerber/drill-L2-L7.drl": "11b3ef3e466322d73193588d85c61db34df22105396e15c0ec6d7fba22b3d29d",
+      "work/through-vias/native-remaining-four/gerber/In1_Cu.gbr": "5c72d910fd3ab20ebb4417a6bca9a5866899a1622b1e504a30d82d612c2e4327",
+      "work/through-vias/native-remaining-four/gerber/In3_Cu.gbr": "5b9c42090f2d0e4c0cd0f83de649b3de1df05d853ed82caacdc2ba8cbc2af788",
+      "work/through-vias/native-remaining-four/gerber/In6_Cu.gbr": "d5d355d91ca0b938fca4cc920e43ffac016d79cda1f8450d38f6f70382e1ddd3",
+      "work/through-vias/native-remaining-four/gerber/drill-L2-L8.drl": "adcdeee61e72c3a0e7ef8f37ab1bb0f7912112ba0213bc1f5a43d97a26e883af",
+      "work/through-vias/native-remaining-four/gerber/drill-L5-L6.drl": "fb4c9c8dd6711db4bf6b68a6ab31d3dd315972bb3ec9fbb9f0a6858bb6a3d3b8",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L5.drl": "51b33ad08f1499cb89888c70c721a7306bf3a7e1db449e066e1957afd1e0b37d",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L4.drl": "3ee01a804c821f59dddf610077d2d58d673df7484b9231961389bcf9cfdf9fdf",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L6.drl": "be46eaa5ee955d92664ab32d032190f6b538b880ccdc700e5ea055bdd1e6407f",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L7.drl": "762edafcec22299851a23a7ae137790b070498ed1e454f080044370ed8c6189e",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L3.drl": "a4a3e682a42f40ffeb5b3b9513f06dc2daaf0ac9aefb4d00f166d0dbd07db32d",
+      "work/through-vias/native-remaining-four/gerber/drill-L3-L6.drl": "26ba12981bb426b998b2f651e2c9448ae5e79b75062da05017d4a0f5a90dec25",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L2.drl": "5b2cfd46ee7f879837689d1eb846b839a58d4b3f1d6025e847b838a3ab05fdfa",
+      "work/through-vias/native-remaining-four/gerber/drill-L3-L5.drl": "92aac77568e2351d565dfeb0b6858e65edf773bdf2680d4760b19658b132135d",
+      "work/through-vias/native-remaining-four/gerber/drill-L6-L8.drl": "39fbdb2db4317844a0e033ffdb145a3a8c7fd8f7d5678ceb442908bd70314c4c",
+      "work/through-vias/native-remaining-four/gerber/drill-L3-L8.drl": "d2f1e77a9ab45c42aca8a17bfa138510f675de9e299d80359b11c4e032ff0ac4",
+      "work/through-vias/native-remaining-four/gerber/drill-L4-L7.drl": "f51caf8b2ef87a3c2ac0990e7fef2ea6b75648e06a771cc0d38bc84b90b7e79e",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L8.drl": "cf699d19e10946cac1c49158f1be3dcc13eb0dc5e5974f06ced9356749b5f824",
+      "work/through-vias/native-remaining-four/gerber/drill_npth.drl": "8d706e09336be0f27e12a90a36a8e8ce482148af6c9b33c71c9516919571c801",
+      "work/through-vias/native-remaining-four/gerber/drill-L5-L8.drl": "10e062a8e5caa8810af86709e3a55e885a402341a092c6338937e67f8524262b",
+      "work/through-vias/native-remaining-four/gerber/drill-L2-L4.drl": "bf40e356f5bacc19713e41486562c06c462f177d13f9cb7b88180b9ca6331b7a",
+      "work/through-vias/native-remaining-four/gerber/drill-L7-L8.drl": "b1221e337a7b41b3767b41e51118837f208725f0cc93939d67a5f5264824377a",
+      "work/through-vias/native-remaining-four/gerber/drill-L2-L7.drl": "02e6f48dd36c5b08053f931376225ee0cb061bf25558dd2a6bde8436e44d97fb"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  },
+  "rejectedCandidates": [
+    {
+      "stage": "remaining-pour",
+      "nativeInputSha256": "6230448857313a41a7fdaa9cbec84bd1edd796f68266e387617566fa7f71dcc3",
+      "connectedEntries": 676,
+      "newlyDisconnectedNets": [
+        "V3V3"
+      ],
+      "v3PhysicalGroupSizes": [
+        10,
+        90,
+        1
+      ],
+      "nativeVerifierExitCode": 1
+    },
+    {
+      "stage": "remaining-pour-safe",
+      "nativeInputSha256": "b580a8ff577f69d13b582dca6b8ce37f7279b6c29123b395702a16a20f94a3b0",
+      "connectedEntries": 676,
+      "newlyDisconnectedNets": [
+        "V3V3"
+      ],
+      "v3PhysicalGroupSizes": [
+        100,
+        1
+      ],
+      "nativeVerifierExitCode": 1
+    }
+  ],
+  "rejectedCandidatesNote": "Full six extensions split V3V3 into 10/90/1 terminals; removing only D21 restores the ten-terminal branch but leaves R_BOOT14 isolated. Reverting DDR_BA1 restores all 101 V3V3 terminals in the accepted four-via increment. Both excluded vias remain at their prior native spans and positions."
+}
