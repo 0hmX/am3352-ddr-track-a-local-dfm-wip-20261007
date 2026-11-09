@@ -9,7 +9,7 @@ export const vias = [
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_96",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "CLOUD_PWR_PAD_13"
   },
   {
@@ -21,7 +21,7 @@ export const vias = [
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_99",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "CLOUD_PWR_PAD_14"
   },
   {
@@ -33,7 +33,7 @@ export const vias = [
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_136",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "CLOUD_PWR_PAD_20"
   },
   {
@@ -57,7 +57,7 @@ export const vias = [
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_154",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "CLOUD_PWR_PAD_22"
   },
   {
@@ -172,7 +172,7 @@ export const vias = [
     "width": 0.2,
     "height": 0.825,
     "padId": "pcb_smtpad_674",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "CLOUD_PWR_PAD_140"
   },
   {
@@ -198,7 +198,7 @@ export const vias = [
     "width": 2.7,
     "height": 1.15,
     "padId": "pcb_smtpad_697",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "CLOUD_CORE_C7B"
   }
 ] as const
@@ -817,6 +817,6 @@ export const routes = [
   }
 ] as const
 export function CloudCorePowerRoutes(){return <>
- {vias.map(v=><via key={v.viaName} name={v.viaName} pcbX={v.x} pcbY={v.y} fromLayer={v.layer} toLayer="inner5" holeDiameter={0.15} outerDiameter={0.3} connectsTo={v.selector}/>)}
+ {vias.map(v=><via key={v.viaName} name={v.viaName} pcbX={v.x} pcbY={v.y} fromLayer={v.layer} toLayer={v.toLayer ?? "inner5"} holeDiameter={0.15} outerDiameter={0.3} connectsTo={v.selector}>{v.toLayer === "bottom" && <port name="inner5" layer="inner5" ref={p=>p?.registerMatch(p.parent as any)}/>}</via>)}
  {routes.map(r=><trace key={r.name} name={r.name} from={r.from} to={r.to} width={r.width} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[r.from,...r.points.map(([x,y])=>({x,y})),r.to]]}/>)}
 </>}

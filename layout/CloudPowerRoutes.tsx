@@ -1275,7 +1275,7 @@ const groundPads = [
     "x": 23.2,
     "y": -4.9375,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .U_PMIC > .25",
@@ -1296,21 +1296,21 @@ const groundPads = [
     "x": 23.9375,
     "y": -2.2,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .U_PMIC > .31",
     "x": 23.9375,
     "y": -1.8,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .U_PMIC > .32",
     "x": 23.9375,
     "y": -1.4,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .U_PMIC > .33",
@@ -1331,7 +1331,7 @@ const groundPads = [
     "x": 17.2,
     "y": 3.45,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR3 > .pin2",
@@ -1366,56 +1366,56 @@ const groundPads = [
     "x": 17,
     "y": 14.05,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR7 > .pin2",
     "x": 13.7,
     "y": 14.05,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR8_B > .pin2",
     "x": 23.6,
     "y": 14.05,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR8 > .pin2",
     "x": 20.3,
     "y": 14.05,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR9_B > .pin2",
     "x": 30.2,
     "y": 14.05,
     "fromLayer": "top",
-    "toLayer": "inner3"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR9 > .pin2",
     "x": 26.9,
     "y": 14.05,
     "fromLayer": "top",
-    "toLayer": "inner3"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR10 > .pin2",
     "x": 20.45,
     "y": -10.125,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR11 > .pin2",
     "x": 24.01,
     "y": -6.25,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR12_B > .pin2",
@@ -1435,8 +1435,8 @@ const groundPads = [
     "selector": ".Power_management > .C_PWR13 > .pin2",
     "x": 27.025,
     "y": -0.20000000000000012,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .R_PWR1 > .pin2",
@@ -1450,7 +1450,7 @@ const groundPads = [
     "x": 20.4,
     "y": -25.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .SW_PWR1 > .pin2_internal_1",
@@ -1478,7 +1478,7 @@ const groundPads = [
     "x": 20.51,
     "y": -18.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .R_PMIC_EN > .pin2",
@@ -1499,14 +1499,14 @@ const groundPads = [
     "x": 11.4,
     "y": 9.525,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .U_RTC_RESET_DELAY > .6",
     "x": 11.4,
     "y": 10.175,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .U_RTC_RESET_DELAY > .9",
@@ -1555,7 +1555,7 @@ const groundPads = [
     "x": 17.01,
     "y": -15.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_RTC_GATE_BYP > .pin2",
@@ -1568,8 +1568,8 @@ const groundPads = [
     "selector": ".Power_management > .C_PWR10_B > .pin2",
     "x": 22.025,
     "y": -9.6,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .C_PWR10_C > .pin2",
@@ -1765,14 +1765,14 @@ const groundPads = [
     "x": 29.2,
     "y": 19.145,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .J_POWER > .A12",
     "x": 22.8,
     "y": 19.145,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .U_TYPEC > .3",
@@ -1800,56 +1800,56 @@ const groundPads = [
     "x": 14.8625,
     "y": 19.1,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .U_INPUT_EFUSE > .8",
     "x": 14.95,
     "y": 23.25,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .U_INPUT_EFUSE > .9",
     "x": 14,
     "y": 22.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .R_TYPEC_ENABLE_PD > .pin2",
     "x": 11.26,
     "y": 20,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .R_INPUT_LIMIT > .pin2",
     "x": 13.75,
     "y": 24.49,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .C_INPUT_DVDT > .pin2",
     "x": 11.51,
     "y": 23,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .C_RAW_TYPEC > .pin2",
     "x": 16.75,
     "y": 23.01,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .C_RAW_NOR > .pin2",
     "x": 13.31,
     "y": 19.1,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .C_RAW_EFUSE > .pin2",
@@ -1863,7 +1863,7 @@ const groundPads = [
     "x": 27.325,
     "y": -6,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_input > .R_SYS_BLEED > .pin2",
