@@ -1,0 +1,354 @@
+[
+  {
+    "sourceIndex": 14,
+    "sourceName": "CLOUD_GND_PAD_14",
+    "x": 2.8000000000000003,
+    "y": -2,
+    "selector": ".Processor > .U1 > .N7",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 20,
+    "sourceName": "CLOUD_GND_PAD_20",
+    "x": -2.8000000000000003,
+    "y": -1.2000000000000002,
+    "selector": ".Processor > .U1 > .F8",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 21,
+    "sourceName": "CLOUD_GND_PAD_21",
+    "x": -2,
+    "y": -1.2000000000000002,
+    "selector": ".Processor > .U1 > .G8",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 22,
+    "sourceName": "CLOUD_GND_PAD_22",
+    "x": -1.2000000000000002,
+    "y": -1.2000000000000002,
+    "selector": ".Processor > .U1 > .H8",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 23,
+    "sourceName": "CLOUD_GND_PAD_23",
+    "x": -0.4,
+    "y": -1.2000000000000002,
+    "selector": ".Processor > .U1 > .J8",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 31,
+    "sourceName": "CLOUD_GND_PAD_31",
+    "x": 0.4,
+    "y": -0.4,
+    "selector": ".Processor > .U1 > .K9",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 54,
+    "sourceName": "CLOUD_GND_PAD_54",
+    "x": -8.4125,
+    "y": 5.5,
+    "selector": ".Processor > .C_VDD_CORE_B > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 70,
+    "sourceName": "CLOUD_GND_PAD_70",
+    "x": -7.26,
+    "y": -1,
+    "selector": ".Processor > .C_VDDS_0 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 78,
+    "sourceName": "CLOUD_GND_PAD_78",
+    "x": -12.5,
+    "y": 2.25,
+    "selector": ".Processor > .C_IO1_B > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 81,
+    "sourceName": "CLOUD_GND_PAD_81",
+    "x": 0.5000000000000002,
+    "y": 11.75,
+    "selector": ".Processor > .C_IO2_B > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 85,
+    "sourceName": "CLOUD_GND_PAD_85",
+    "x": 13.24,
+    "y": -2,
+    "selector": ".Processor > .C_IO3_0 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 87,
+    "sourceName": "CLOUD_GND_PAD_87",
+    "x": -16,
+    "y": -1.25,
+    "selector": ".Processor > .C_IO4_B > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 90,
+    "sourceName": "CLOUD_GND_PAD_90",
+    "x": 14.95,
+    "y": 0.2499999999999998,
+    "selector": ".Processor > .C_IO5_B > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 94,
+    "sourceName": "CLOUD_GND_PAD_94",
+    "x": -12.01,
+    "y": -11,
+    "selector": ".Processor > .C_IO6_0 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 113,
+    "sourceName": "CLOUD_GND_PAD_113",
+    "x": -3.199892,
+    "y": -23.400185,
+    "selector": ".DDR3 > .U3 > .D1",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 123,
+    "sourceName": "CLOUD_GND_PAD_123",
+    "x": 2.400046,
+    "y": -24.200031,
+    "selector": ".DDR3 > .U3 > .E8",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 124,
+    "sourceName": "CLOUD_GND_PAD_124",
+    "x": 2.400046,
+    "y": -25.800231,
+    "selector": ".DDR3 > .U3 > .G8",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 132,
+    "sourceName": "CLOUD_GND_PAD_132",
+    "x": 3.199892,
+    "y": -33.000115,
+    "selector": ".DDR3 > .U3 > .T9",
+    "originalLayers": [
+      "top",
+      "inner1"
+    ]
+  },
+  {
+    "sourceIndex": 139,
+    "sourceName": "CLOUD_GND_PAD_139",
+    "x": -10.01,
+    "y": -26.75,
+    "selector": ".DDR3 > .C_VREF_3 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 143,
+    "sourceName": "CLOUD_GND_PAD_143",
+    "x": -0.33,
+    "y": -29.6,
+    "selector": ".DDR3 > .C_RAM_3 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 144,
+    "sourceName": "CLOUD_GND_PAD_144",
+    "x": 5.27,
+    "y": -28.5,
+    "selector": ".DDR3 > .C_RAM_4 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 147,
+    "sourceName": "CLOUD_GND_PAD_147",
+    "x": 5.27,
+    "y": -25.7,
+    "selector": ".DDR3 > .C_RAM_7 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 148,
+    "sourceName": "CLOUD_GND_PAD_148",
+    "x": 5.27,
+    "y": -24.5,
+    "selector": ".DDR3 > .C_RAM_8 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 149,
+    "sourceName": "CLOUD_GND_PAD_149",
+    "x": 5.27,
+    "y": -23.5,
+    "selector": ".DDR3 > .C_RAM_9 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 152,
+    "sourceName": "CLOUD_GND_PAD_152",
+    "x": -8.9125,
+    "y": -25,
+    "selector": ".DDR3 > .C_RAM_B > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 156,
+    "sourceName": "CLOUD_GND_PAD_156",
+    "x": -9.33,
+    "y": -7.5,
+    "selector": ".DDR3 > .C_SOC_DDR_3 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 158,
+    "sourceName": "CLOUD_GND_PAD_158",
+    "x": -9.33,
+    "y": -9,
+    "selector": ".DDR3 > .C_SOC_DDR_5 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 159,
+    "sourceName": "CLOUD_GND_PAD_159",
+    "x": -9.33,
+    "y": -6.5,
+    "selector": ".DDR3 > .C_SOC_DDR_6 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 160,
+    "sourceName": "CLOUD_GND_PAD_160",
+    "x": -9.33,
+    "y": -10.5,
+    "selector": ".DDR3 > .C_SOC_DDR_7 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 164,
+    "sourceName": "CLOUD_GND_PAD_164",
+    "x": -9.33,
+    "y": -5.5,
+    "selector": ".DDR3 > .C_SOC_DDR_11 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 166,
+    "sourceName": "CLOUD_GND_PAD_166",
+    "x": -9.33,
+    "y": -12,
+    "selector": ".DDR3 > .C_SOC_DDR_13 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  },
+  {
+    "sourceIndex": 175,
+    "sourceName": "CLOUD_GND_PAD_175",
+    "x": -8.9125,
+    "y": -29,
+    "selector": ".DDR3 > .C_RAM_B1 > .pin2",
+    "originalLayers": [
+      "inner6",
+      "bottom"
+    ]
+  }
+]

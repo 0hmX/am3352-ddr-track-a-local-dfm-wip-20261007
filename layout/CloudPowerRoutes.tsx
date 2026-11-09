@@ -106,7 +106,7 @@ const groundPads = [
     "x": 2.8000000000000003,
     "y": -2,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .U1 > .A8",
@@ -148,28 +148,28 @@ const groundPads = [
     "x": -2.8000000000000003,
     "y": -1.2000000000000002,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .U1 > .G8",
     "x": -2,
     "y": -1.2000000000000002,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .U1 > .H8",
     "x": -1.2000000000000002,
     "y": -1.2000000000000002,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .U1 > .J8",
     "x": -0.4,
     "y": -1.2000000000000002,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .U1 > .M8",
@@ -225,7 +225,7 @@ const groundPads = [
     "x": 0.4,
     "y": -0.4,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .U1 > .M9",
@@ -385,8 +385,8 @@ const groundPads = [
     "selector": ".Processor > .C_VDD_CORE_B > .pin2",
     "x": -8.4125,
     "y": 5.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .C_VDD_CORE_0 > .pin2",
@@ -497,8 +497,8 @@ const groundPads = [
     "selector": ".Processor > .C_VDDS_0 > .pin2",
     "x": -7.26,
     "y": -1,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .C_VDDS_1 > .pin2",
@@ -553,8 +553,8 @@ const groundPads = [
     "selector": ".Processor > .C_IO1_B > .pin2",
     "x": -12.5,
     "y": 2.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .C_IO1_0 > .pin2",
@@ -574,8 +574,8 @@ const groundPads = [
     "selector": ".Processor > .C_IO2_B > .pin2",
     "x": 0.5000000000000002,
     "y": 11.75,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .C_IO2_0 > .pin2",
@@ -602,8 +602,8 @@ const groundPads = [
     "selector": ".Processor > .C_IO3_0 > .pin2",
     "x": 13.24,
     "y": -2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .C_IO3_1 > .pin2",
@@ -616,8 +616,8 @@ const groundPads = [
     "selector": ".Processor > .C_IO4_B > .pin2",
     "x": -16,
     "y": -1.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .C_IO4_0 > .pin2",
@@ -637,8 +637,8 @@ const groundPads = [
     "selector": ".Processor > .C_IO5_B > .pin2",
     "x": 14.95,
     "y": 0.2499999999999998,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .C_IO5_0 > .pin2",
@@ -665,8 +665,8 @@ const groundPads = [
     "selector": ".Processor > .C_IO6_0 > .pin2",
     "x": -12.01,
     "y": -11,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Processor > .C_IO6_1 > .pin2",
@@ -799,7 +799,7 @@ const groundPads = [
     "x": -3.199892,
     "y": -23.400185,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .U3 > .E1",
@@ -869,14 +869,14 @@ const groundPads = [
     "x": 2.400046,
     "y": -24.200031,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .U3 > .G8",
     "x": 2.400046,
     "y": -25.800231,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .U3 > .J8",
@@ -932,7 +932,7 @@ const groundPads = [
     "x": 3.199892,
     "y": -33.000115,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .R_DDR_ZQ > .pin2",
@@ -980,8 +980,8 @@ const groundPads = [
     "selector": ".DDR3 > .C_VREF_3 > .pin2",
     "x": -10.01,
     "y": -26.75,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_RAM_0 > .pin2",
@@ -1008,15 +1008,15 @@ const groundPads = [
     "selector": ".DDR3 > .C_RAM_3 > .pin2",
     "x": -0.33,
     "y": -29.6,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_RAM_4 > .pin2",
     "x": 5.27,
     "y": -28.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_RAM_5 > .pin2",
@@ -1036,22 +1036,22 @@ const groundPads = [
     "selector": ".DDR3 > .C_RAM_7 > .pin2",
     "x": 5.27,
     "y": -25.7,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_RAM_8 > .pin2",
     "x": 5.27,
     "y": -24.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_RAM_9 > .pin2",
     "x": 5.27,
     "y": -23.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_RAM_10 > .pin2",
@@ -1071,8 +1071,8 @@ const groundPads = [
     "selector": ".DDR3 > .C_RAM_B > .pin2",
     "x": -8.9125,
     "y": -25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_SOC_DDR_0 > .pin2",
@@ -1099,8 +1099,8 @@ const groundPads = [
     "selector": ".DDR3 > .C_SOC_DDR_3 > .pin2",
     "x": -9.33,
     "y": -7.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_SOC_DDR_4 > .pin2",
@@ -1113,22 +1113,22 @@ const groundPads = [
     "selector": ".DDR3 > .C_SOC_DDR_5 > .pin2",
     "x": -9.33,
     "y": -9,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_SOC_DDR_6 > .pin2",
     "x": -9.33,
     "y": -6.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_SOC_DDR_7 > .pin2",
     "x": -9.33,
     "y": -10.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_SOC_DDR_8 > .pin2",
@@ -1155,8 +1155,8 @@ const groundPads = [
     "selector": ".DDR3 > .C_SOC_DDR_11 > .pin2",
     "x": -9.33,
     "y": -5.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_SOC_DDR_12 > .pin2",
@@ -1169,8 +1169,8 @@ const groundPads = [
     "selector": ".DDR3 > .C_SOC_DDR_13 > .pin2",
     "x": -9.33,
     "y": -12,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".DDR3 > .C_SOC_DDR_14 > .pin2",
@@ -1232,8 +1232,8 @@ const groundPads = [
     "selector": ".DDR3 > .C_RAM_B1 > .pin2",
     "x": -8.9125,
     "y": -29,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "selector": ".Power_management > .U_PMIC > .9",

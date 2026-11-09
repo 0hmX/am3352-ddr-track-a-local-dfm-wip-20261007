@@ -10,7 +10,7 @@ trace/via/SMT pad/PTH/pour on newly spanned layers. There are 1,210 vias total;
 140 are already through. Converting in place would short 1,041 vias; 11 more
 violate clearance only. **18 are conflict-free**, including a batch pair check.
 450 blocked conversions conflict only with emitted pour copper; 602 also
-conflict with other copper. Frozen planes do not automatically grow antipads.
+conflict with other copper. The emitted snapshot does not include prospective antipads; native regeneration must be verified.
 
 [Visual via map](baseline-conflicts.svg): red = physical short on extension,
 amber = clearance violation, green = no current conflict. Hover for via/net IDs.
@@ -82,3 +82,25 @@ work/through-vias/venv/bin/pip install gerbonara==1.5.0 shapely==2.2.0
 # work/through-vias/native-safe/board.circuit.json, then:
 work/through-vias/venv/bin/python scripts/cloud-gerber-check.py work/through-vias/native-safe
 ```
+
+## Processor/DDR ground-pad increment: 32 barrels
+
+[Source inventory](ground-converted-vias.json), [validation](ground-validation.json).
+Extends 14 processor and 18 DDR ground-pad vias to Top..Bottom in the mounted
+`CloudPowerRoutes` source. Positions and all component placements stay fixed.
+These candidates previously collided only with emitted pour copper. The native
+pour solver regenerates antipads around the extended barrels; a native TSX
+fixture checks this behavior. The inventory checks an emitted snapshot and does
+not assume those prospective antipads exist.
+
+Result: **190 through, 1,020 non-through, 1,020 blocked conversions**: 1,008 would
+short the current snapshot and 12 violate clearance only; 418 are pour-only and
+602 involve other copper. Native connectivity is still 686/686, zero physical
+shorts, zero new enforced findings. Trace copper geometry, via coordinates,
+net assignments and drill diameters are unchanged. The inherited 20+3 via-spacing
+findings and placement/style findings remain visible. Three additional optional
+plated-drill margins are 0.1952, 0.1888 and 0.1790 mm; configured copper clearance
+passes. SI/PI, reference-area coverage and current capacity remain unqualified.
+
+Independent Gerber/Excellon reparse for this increment also passes: 257/257 named-net
+groups connected, zero shorts or missing copper/drills, 1,236 barrel records matched.
