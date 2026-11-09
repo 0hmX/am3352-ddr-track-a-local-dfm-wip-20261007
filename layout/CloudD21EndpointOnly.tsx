@@ -22,18 +22,7 @@ export const vias = [
     "holeDiameter": 0.15,
     "outerDiameter": 0.3
   },
-  {
-    "name": "D21_RN1_GND_RETURN",
-    "net": "GND",
-    "x": 7.750007,
-    "y": 8.849161,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "distanceMm": 0.4499999488555534,
-    "selector": "net.GND"
-  }
+
 ]
 export const routes = [
   {

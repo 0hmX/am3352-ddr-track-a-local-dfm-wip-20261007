@@ -110,7 +110,6 @@ import { CloudV3RegulatorBridge } from "./layout/CloudV3RegulatorBridge"
 import { CloudHdmiPowerRoutes } from "./layout/CloudHdmiPowerRoutes"
 import { CloudHdmi3V3SupplyRoutes } from "./layout/CloudHdmi3V3SupplyRoutes"
 import { CloudDdrRoutes } from "./layout/CloudDdrRoutes"
-import { CloudD4D7CpuReturn } from "./layout/CloudD4D7CpuReturn"
 import { CloudDdrClockReturns } from "./layout/CloudDdrClockReturns"
 import { CloudV3CompletionBridges } from "./layout/CloudV3CompletionBridges"
 import { CloudRn6RestoredInputs } from "./layout/CloudRn6RestoredInputs"
@@ -119,7 +118,6 @@ import { CloudHdmiLayeredRoutes } from "./layout/CloudHdmiLayeredRoutes"
 import { CloudSysboot9Routes } from "./layout/CloudSysboot9Routes"
 import { CloudCkeReferenceOverlays } from "./layout/CloudCkeReferenceOverlays"
 import { CloudSysboot3RoutesV2 } from "./layout/CloudSysboot3RoutesV2"
-import { CloudSysboot3Return } from "./layout/CloudSysboot3Return"
 import { CloudSysbootEthernetRoutes } from "./layout/CloudSysbootEthernetRoutes"
 import { CloudD21EndpointOnly } from "./layout/CloudD21EndpointOnly"
 import { CloudSysboot15EndpointRoutes } from "./layout/CloudSysboot15EndpointRoutes"
@@ -163,7 +161,6 @@ export default function Board() {
     <CloudHdmiPowerRoutes />
     <CloudHdmi3V3SupplyRoutes />
     <CloudDdrRoutes />
-    <CloudD4D7CpuReturn />
     <CloudDdrClockReturns />
     <CloudV3CompletionBridges />
     <CloudRn6RestoredInputs />
@@ -172,7 +169,6 @@ export default function Board() {
     <CloudSysboot9Routes />
     <CloudCkeReferenceOverlays />
     <CloudSysboot3RoutesV2 />
-    <CloudSysboot3Return />
     <CloudSysbootEthernetRoutes />
     <CloudD21EndpointOnly />
     <CloudSysboot15EndpointRoutes />

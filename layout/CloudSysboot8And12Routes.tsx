@@ -204,16 +204,7 @@ const returns=[
     "holeDiameter": 0.15,
     "outerDiameter": 0.3
   },
-  {
-    "name": "SYS12_CPU_RETURN",
-    "net": "GND",
-    "x": 7.3,
-    "y": -6,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3
-  }
+
 ] as const
 export function CloudSysboot8And12Routes(){return <>
  {vias.map(v=><via key={v.name} name={v.name} pcbX={v.x} pcbY={v.y} fromLayer={v.fromLayer} toLayer={v.toLayer} holeDiameter={.15} outerDiameter={.30} connectsTo={v.selector}/>)}

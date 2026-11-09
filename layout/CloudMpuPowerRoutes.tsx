@@ -921,15 +921,7 @@ export const returns=[
     "holeDiameter": 0.15,
     "outerDiameter": 0.3
   },
-  {
-    "name": "MPU_GND_RETURN_1",
-    "x": 1.7,
-    "y": 1.3,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3
-  },
+
   {
     "name": "MPU_GND_RETURN_2",
     "x": 12.1,

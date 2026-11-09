@@ -1,7 +1,6 @@
 import {Children,cloneElement,isValidElement} from 'react'
 import {CloudHdmiVideoRoutes as BaseVideo49} from './CloudHdmiVideoBaseRoutes'
 import route from '../data/cloud-sysboot4-route.json'
-import returns from '../data/cloud-sysboot4-returns.json'
 const sections=route.sections
 const first=sections[0].points[0],last=sections.at(-1)!.points.at(-1)!
 const path:any[]=[route.from,{x:first[0],y:first[1],via:true,fromLayer:'top',toLayer:sections[0].layer}]
@@ -17,5 +16,5 @@ function replace(node:any):any{
  if(node.type==='trace'&&p.name==='VIDEO_SYSBOOT4_20')return cloneElement(node,{pcbPaths:[path]} as any)
  return cloneElement(node,{},...Children.toArray(p.children).map(replace))
 }
-/** Same video49, with the single SYSBOOT4 trunk replaced and two local GND reference bridges. */
-export function CloudHdmiVideoRoutes(){return <>{replace(BaseVideo49())}{returns.map((v,i)=><via key={i} name={`SYSBOOT4_RETURN_${i}`} pcbX={v.x} pcbY={v.y} fromLayer={v.fromLayer as any} toLayer={v.toLayer as any} holeDiameter={v.holeDiameter} outerDiameter={v.outerDiameter} connectsTo="net.GND"/>)}</>}
+/** Same video49, with the single SYSBOOT4 trunk replaced and one retained through Ground return. */
+export function CloudHdmiVideoRoutes(){return <>{replace(BaseVideo49())}<via name="SYSBOOT4_RETURN_0" pcbX={-.131259} pcbY={2.40765} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/></>}

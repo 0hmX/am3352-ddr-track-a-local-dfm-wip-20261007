@@ -5049,24 +5049,14 @@ export const cloudEthernetGroundStitches = [
     "fromLayer": "inner1",
     "toLayer": "inner6"
   },
-  {
-    "x": 4.1,
-    "y": 2.8,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_ETH_RETURN_11: auxiliary Ground stitch removed; see validation. */,
   {
     "x": 7.300000000000001,
     "y": 2.1,
     "fromLayer": "inner1",
     "toLayer": "inner6"
   },
-  {
-    "x": 8.3,
-    "y": 0.19999999999999996,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_ETH_RETURN_13: auxiliary Ground stitch removed; see validation. */,
   {
     "name": "PHY_CENTERED_RETURN_RMII1_TXD1_ISO",
     "net": "GND",
@@ -5114,4 +5104,4 @@ export function CloudEthernetRoutes(){return <group name="Cloud_ethernet_routes"
   geometry=[...(r.fromLayer!==r.layer?[{...first,via:true,fromLayer:r.fromLayer,toLayer:r.layer}]:[]),...r.points,...(r.toLayer!==r.layer?[{...last,via:true,fromLayer:r.layer,toLayer:r.toLayer}]:[])]
  }
  return <trace name={r.name} from={r.from} to={r.to} width={r.width||0.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[r.from,...geometry,r.to]]}/>
- })}{cloudEthernetGroundStitches.map((p,i)=><via name={`CLOUD_ETH_RETURN_${i}`} pcbX={p.x} pcbY={p.y} fromLayer={p.fromLayer} toLayer={p.toLayer} holeDiameter={0.15} outerDiameter={0.3} connectsTo="net.GND" />)}</group>}
+ })}{cloudEthernetGroundStitches.map((p,i)=>p&&<via name={`CLOUD_ETH_RETURN_${i}`} pcbX={p.x} pcbY={p.y} fromLayer={p.fromLayer} toLayer={p.toLayer} holeDiameter={0.15} outerDiameter={0.3} connectsTo="net.GND" />)}</group>}

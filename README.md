@@ -58,3 +58,6 @@ leaves **458 non-through vias**, with all native/exported nets and post-drill gr
 
 DDR surface ground: [native pours replace thirteen more blind pad vias](docs/through-vias/ddr-surface-pad-removal-increment.md)
 leaves **445 non-through vias**; native and exported connectivity and actual post-drill ground continuity pass.
+
+CPU auxiliary ground: [nineteen unused pad-free stitches removed in native TSX](docs/through-vias/cpu-aux-ground-removal-increment.md)
+leaves **426 non-through vias**, with unchanged trace copper and verified connectivity.

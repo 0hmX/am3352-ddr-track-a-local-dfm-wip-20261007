@@ -126,28 +126,8 @@ const routes=[
   }
 ] as const
 const returns=[
-  {
-    "name": "SYS15_RETURN_CPU",
-    "net": "GND",
-    "x": 5.6,
-    "y": -3.6,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "distanceMm": 0.39999999999999947
-  },
-  {
-    "name": "SYS15_RETURN_ARRAY",
-    "net": "GND",
-    "x": 5.38890873,
-    "y": -10.61390873,
-    "fromLayer": "inner3",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "distanceMm": 0.5500000004912965
-  }
+
+
 ] as const
 export function CloudSysboot15EndpointRoutes(){return <>
  {vias.map(v=><via key={v.name} name={v.name} pcbX={v.x} pcbY={v.y} fromLayer={v.fromLayer} toLayer={v.toLayer} holeDiameter={.15} outerDiameter={.30} connectsTo={v.selector}/>)}
