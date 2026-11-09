@@ -1,4 +1,5 @@
-import {Children, cloneElement, isValidElement} from "react"
+import {cloneElement} from "react"
+import {mapNativeElements} from "./mapNativeElements"
 
 // Literal native routes replace the selected JSON-backed DDR paths after the
 // historical mappers. Barrels span Top..Bottom and expose the original signal
@@ -434,16 +435,8 @@ const routes = {
     ]]} />,
 }
 
-function replaceRoutes(node:any):any {
-  if(Array.isArray(node))return node.map(replaceRoutes)
-  if(!isValidElement<any>(node))return node
-  if(typeof node.type==='function')return replaceRoutes(node.type(node.props))
-  if(node.type==='trace' && Object.hasOwn(routes,node.props.name))return routes[node.props.name as keyof typeof routes]
-  return node.props.children===undefined?node:cloneElement(node,{children:Children.map(node.props.children,replaceRoutes)})
-}
-
 export function applyStandardDdrThroughVias(node:any):any {
-  const board=replaceRoutes(node)
+  const board=mapNativeElements(node,element=>element.type==='trace'&&Object.hasOwn(routes,element.props.name)?routes[element.props.name as keyof typeof routes]:element)
   return cloneElement(board,{children:<>{board.props.children}
     <via name="STD_DDR_CK_DDR" pcbX={1.599946} pcbY={-27.400177} fromLayer="top" toLayer="bottom" holeDiameter={0.15} outerDiameter={0.3} connectsTo=".DDR3 > .U3 > .J7">
       <port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)} />
