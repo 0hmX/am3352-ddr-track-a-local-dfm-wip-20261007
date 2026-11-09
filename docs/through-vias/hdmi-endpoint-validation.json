@@ -1,0 +1,667 @@
+{
+  "nativeInputSha256": "34bbd62269289fab5204517f8cbe7e86d13417caefcdc71014898b0a81656b4f",
+  "inventorySummary": {
+    "totalVias": 1210,
+    "throughVias": 584,
+    "nonThroughVias": 626,
+    "shortingConversions": 617,
+    "clearanceOnlyConversions": 9,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 38,
+    "nonPourConflicts": 588,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 20,
+    "checkSameNetViaSpacing": 2,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 3,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": false,
+    "nonzeroTraceSegmentCount": 8106,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": false,
+    "traceCopperShapeCount": 8179,
+    "traceCopperSha256": "bf6389003b9eebe9e870d74ddf6747abcbd52a1b809fabf9aa13e830aa090ff0",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 28,
+    "allNonzeroCenterlineSegmentsIncludingViaJoinsUnchanged": true,
+    "centerlineSegmentCountIncludingViaJoins": 8107,
+    "wireOnlyCountExplanation": "Eleven existing via-to-wire or wire-to-via segments become adjacent wire records. Full centerline comparison includes those joins and preserves all 8107 segments/layers/widths at 1e-8 mm rounding."
+  },
+  "convertedViaInventory": [
+    {
+      "trace": "HDMI_PAIR_HDMI_TXC_N_TX",
+      "id": "pcb_via_1063",
+      "name": "STD_HDMI_PAIR_HDMI_TXC_N_TX_BEGIN",
+      "x": "47.45008",
+      "y": "-28.50006",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TXC_P_TX",
+      "id": "pcb_via_1065",
+      "name": "STD_HDMI_PAIR_HDMI_TXC_P_TX_BEGIN",
+      "x": "47.45008",
+      "y": "-27.999934",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TXC_P_TX",
+      "id": "pcb_via_1066",
+      "name": "STD_HDMI_PAIR_HDMI_TXC_P_TX_END",
+      "x": "56.35",
+      "y": "-29.200000000000003",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX0_N_TX",
+      "id": "pcb_via_1067",
+      "name": "STD_HDMI_PAIR_HDMI_TX0_N_TX_BEGIN",
+      "x": "47.45008",
+      "y": "-26.999936",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX0_P_TX",
+      "id": "pcb_via_1069",
+      "name": "STD_HDMI_PAIR_HDMI_TX0_P_TX_BEGIN",
+      "x": "47.45008",
+      "y": "-26.500064000000002",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX0_P_TX",
+      "id": "pcb_via_1070",
+      "name": "STD_HDMI_PAIR_HDMI_TX0_P_TX_END",
+      "x": "56.55",
+      "y": "-28.2",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX1_N_TX",
+      "id": "pcb_via_1071",
+      "name": "STD_HDMI_PAIR_HDMI_TX1_N_TX_BEGIN",
+      "x": "47.45008",
+      "y": "-25.999938",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX1_N_TX",
+      "id": "pcb_via_1072",
+      "name": "STD_HDMI_PAIR_HDMI_TX1_N_TX_END",
+      "x": "56.55",
+      "y": "-27.8",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX1_P_TX",
+      "id": "pcb_via_1073",
+      "name": "STD_HDMI_PAIR_HDMI_TX1_P_TX_BEGIN",
+      "x": "47.45008",
+      "y": "-25.500066",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX1_P_TX",
+      "id": "pcb_via_1074",
+      "name": "STD_HDMI_PAIR_HDMI_TX1_P_TX_END",
+      "x": "56.55",
+      "y": "-27.400000000000002",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX2_N_TX",
+      "id": "pcb_via_1075",
+      "name": "STD_HDMI_PAIR_HDMI_TX2_N_TX_BEGIN",
+      "x": "47.45008",
+      "y": "-24.500068",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX2_N_TX",
+      "id": "pcb_via_1076",
+      "name": "STD_HDMI_PAIR_HDMI_TX2_N_TX_END",
+      "x": "56.35",
+      "y": "-26.8",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX2_P_TX",
+      "id": "pcb_via_1077",
+      "name": "STD_HDMI_PAIR_HDMI_TX2_P_TX_BEGIN",
+      "x": "47.45008",
+      "y": "-23.999942",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "HDMI_PAIR_HDMI_TX2_P_TX",
+      "id": "pcb_via_1078",
+      "name": "STD_HDMI_PAIR_HDMI_TX2_P_TX_END",
+      "x": "55.95",
+      "y": "-26.8",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "VIDEO_HDMI_RGB_D23_3",
+      "id": "pcb_via_1082",
+      "name": "STD_VIDEO_HDMI_RGB_D23_3_END",
+      "x": "6.5",
+      "y": "8.475",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "bottom"
+    },
+    {
+      "trace": "VIDEO_HDMI_ENTEST_9",
+      "id": "pcb_via_1084",
+      "name": "STD_VIDEO_HDMI_ENTEST_9_BEGIN",
+      "x": "47.45008",
+      "y": "-23.50007",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "VIDEO_HDMI_ENTEST_9",
+      "id": "pcb_via_1085",
+      "name": "STD_VIDEO_HDMI_ENTEST_9_END",
+      "x": "43.49",
+      "y": "-18",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "VIDEO_HDMI_PCADR_10",
+      "id": "pcb_via_1086",
+      "name": "STD_VIDEO_HDMI_PCADR_10_BEGIN",
+      "x": "47.45008",
+      "y": "-22.999944",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "VIDEO_HDMI_HPD_39",
+      "id": "pcb_via_1094",
+      "name": "STD_VIDEO_HDMI_HPD_39_BEGIN",
+      "x": "45.750058",
+      "y": "-31.20008",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "VIDEO_HDMI_HPD_39",
+      "id": "pcb_via_1095",
+      "name": "STD_VIDEO_HDMI_HPD_39_END",
+      "x": "59.69",
+      "y": "-33",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "RN6_INPUT_HDMI_HSYNC",
+      "id": "pcb_via_1144",
+      "name": "STD_RN6_INPUT_HDMI_HSYNC_END",
+      "x": "9.65",
+      "y": "-9.475",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "bottom"
+    },
+    {
+      "trace": "CLOUD_HDMI_LAYERED_HDMI_VSYNC_RX",
+      "id": "pcb_via_1148",
+      "name": "STD_CLOUD_HDMI_LAYERED_HDMI_VSYNC_RX_BEGIN",
+      "x": "38.54992",
+      "y": "-30.500056",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_HDMI_LAYERED_HDMI_PCLK_RX",
+      "id": "pcb_via_1154",
+      "name": "STD_CLOUD_HDMI_LAYERED_HDMI_PCLK_RX_BEGIN",
+      "x": "38.54992",
+      "y": "-23.999942",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_HDMI_LAYERED_HDMI_D4",
+      "id": "pcb_via_1161",
+      "name": "STD_CLOUD_HDMI_LAYERED_HDMI_D4_BEGIN",
+      "x": "38.54992",
+      "y": "-26.999935999999998",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_RN0_NEAR_HDMI_RGB_D17",
+      "id": "pcb_via_1202",
+      "name": "STD_CLOUD_RN0_NEAR_HDMI_RGB_D17_BEGIN",
+      "x": "6.800000000000001",
+      "y": "2.8000000000000003",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_RN0_NEAR_HDMI_D2",
+      "id": "pcb_via_1204",
+      "name": "STD_CLOUD_RN0_NEAR_HDMI_D2_BEGIN",
+      "x": "38.54992",
+      "y": "-27.999934",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_RN0_NEAR_HDMI_D2",
+      "id": "pcb_via_1205",
+      "name": "STD_CLOUD_RN0_NEAR_HDMI_D2_END",
+      "x": "10.025",
+      "y": "3.25",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_RN0_NEAR_HDMI_D18",
+      "id": "pcb_via_1208",
+      "name": "STD_CLOUD_RN0_NEAR_HDMI_D18_BEGIN",
+      "x": "42.750064",
+      "y": "-22.29992",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    }
+  ],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1236,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 533,
+    "failures": []
+  },
+  "referenceDelta": {
+    "checkerSha256": "f1b53968bcd41f34460c75bd84619ef10f39d28491ba39619c256ce6e28585cf",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "be18ef1012464babfc385be990bcf36f63b96769a0cee6b5c5c8ae40065cf16b",
+    "afterAnalysisSha256": "cde9d09f8495d85e23af0990cc931dd998cc151a82463294725359b253c16c76",
+    "beforeNativeSha256": "dbfd773e68f35d3c0e429148e14d572d74affc6e2c7bafc412732cdcd79c5f9a",
+    "afterNativeSha256": "34bbd62269289fab5204517f8cbe7e86d13417caefcdc71014898b0a81656b4f",
+    "newReferenceCuts": [
+      {
+        "trace": "HDMI_PAIR_HDMI_TX0_N_TX",
+        "net": "HDMI_TX0_N",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.009491971840372263,
+        "newUncoveredMm2": 0.009491971840372265,
+        "marginMm": 0.0,
+        "newBounds": [
+          56.336037179957266,
+          -28.55,
+          56.568853793956535,
+          -28.475
+        ]
+      },
+      {
+        "trace": "HDMI_PAIR_HDMI_TX2_N_TX",
+        "net": "HDMI_TX2_N",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.0005479962003423926,
+        "newUncoveredMm2": 0.0005479962003423926,
+        "marginMm": 0.0,
+        "newBounds": [
+          56.251895653528244,
+          -27.218815024590416,
+          56.312659269756224,
+          -27.156407540156074
+        ]
+      },
+      {
+        "trace": "VIDEO_HDMI_RGB_D22_2",
+        "net": "HDMI_RGB_D22",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.027243318725838038,
+        "newUncoveredMm2": 0.02724331872583804,
+        "marginMm": 0.0,
+        "newBounds": [
+          6.15,
+          8.456146206043464,
+          6.713962820042732,
+          8.825
+        ]
+      },
+      {
+        "trace": "VIDEO_HDMI_ENTEST_9",
+        "net": "HDMI_ENTEST",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.0050131446591504016,
+        "newUncoveredMm2": 0.005013144659150402,
+        "marginMm": 0.0,
+        "newBounds": [
+          47.666811484630784,
+          -23.24251316499733,
+          47.78557878231502,
+          -23.09386053956632
+        ]
+      },
+      {
+        "trace": "VIDEO_HDMI_D1_17",
+        "net": "HDMI_D1",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.025727623884816378,
+        "newUncoveredMm2": 0.012058039876517676,
+        "marginMm": 0.0,
+        "newBounds": [
+          38.73687205377328,
+          -28.24250316499733,
+          38.89670423997836,
+          -28.032585081902972
+        ]
+      },
+      {
+        "trace": "VIDEO_HDMI_DDC_SDA_22",
+        "net": "HDMI_DDC_SDA",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.0050352970651707536,
+        "newUncoveredMm2": 0.005035297065170753,
+        "marginMm": 0.0,
+        "newBounds": [
+          45.84359810244816,
+          -31.5356929742227,
+          45.9924868862934,
+          -31.416808285200442
+        ]
+      },
+      {
+        "trace": "HDMI_CEC_DIODE_TO_U17",
+        "net": "HDMI_CEC",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.02118162226875225,
+        "newUncoveredMm2": 0.02118162226875225,
+        "marginMm": 0.0,
+        "newBounds": [
+          45.400058,
+          -31.37760996895869,
+          45.6561242351604,
+          -30.86458644295826
+        ]
+      },
+      {
+        "trace": "CLOUD_HDMI_AVCC_1V2_V2_3",
+        "net": "HDMI_AVCC_1V2",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.015554933047920485,
+        "newUncoveredMm2": 0.015554933047920485,
+        "marginMm": 0.0,
+        "newBounds": [
+          47.62390853208808,
+          -27.990560137443286,
+          47.79915678120597,
+          -27.7575051137066
+        ]
+      },
+      {
+        "trace": "CLOUD_HDMI_OVDD_3V3_V3_0",
+        "net": "HDMI_OVDD_3V3",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.01555813844630229,
+        "newUncoveredMm2": 0.015558138446302293,
+        "marginMm": 0.0,
+        "newBounds": [
+          38.20660111625665,
+          -30.432219571712036,
+          38.484819002713905,
+          -30.1564677074302
+        ]
+      },
+      {
+        "trace": "RN6_INPUT_LCD_PCLK",
+        "net": "LCD_PCLK",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 0.023529317707400632,
+        "newUncoveredMm2": 0.011764658853700316,
+        "marginMm": 0.0,
+        "newBounds": [
+          9.472361521333166,
+          -9.825,
+          9.827638478666834,
+          -9.774999999999999
+        ]
+      },
+      {
+        "trace": "CLOUD_HDMI_LAYERED_HDMI_D19",
+        "net": "HDMI_D19",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.005034473927233906,
+        "newUncoveredMm2": 0.005034473927233906,
+        "marginMm": 0.0,
+        "newBounds": [
+          42.84361593794847,
+          -22.635529383932866,
+          42.9924928862934,
+          -22.51665148463078
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_61_RMII1_RX_ER",
+        "net": "RMII1_RX_ER",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.00875546286634694,
+        "newUncoveredMm2": 0.007637205496349927,
+        "marginMm": 0.0,
+        "newBounds": [
+          6.586037179957268,
+          2.450468601290707,
+          6.795242076827948,
+          2.525
+        ]
+      },
+      {
+        "trace": "CLOUD_HDMI_D0_R0",
+        "net": "HDMI_D0",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.049698880777607576,
+        "newUncoveredMm2": 0.02462067181171032,
+        "marginMm": 0.0,
+        "newBounds": [
+          38.20311806179073,
+          -27.34673793820927,
+          38.517448616327925,
+          -27.032407383672076
+        ]
+      }
+    ],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-ethernet-through/gerber/In1_Cu.gbr": "769535e29911ec86a99a34e92094fc81962187f38dd4ac6568e1fa781c754ae4",
+      "work/through-vias/native-ethernet-through/gerber/In3_Cu.gbr": "33ca4a92f2838b4a4d60dc09403d31fc2c6e7eb7e129e372bbd9df223e3d86c9",
+      "work/through-vias/native-ethernet-through/gerber/In6_Cu.gbr": "18710d1a399c4fb1989209c853acb588e5322bd5346124d4735765d70abec681",
+      "work/through-vias/native-ethernet-through/gerber/drill-L2-L8.drl": "bac54d9b67756aed78ebedfb8dfa83a774df2b12f79e78ed760970003615185b",
+      "work/through-vias/native-ethernet-through/gerber/drill-L5-L6.drl": "fbada949450fd1d9f1224616c1eb281d07bd219847d43d0392b8bb4d3b4a6659",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L5.drl": "14cc644cb2905e739b88ab70e72e6261357f5873fc7ae09141ec3ece8935ffac",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L4.drl": "b98f9d11c9332113f6873ac7a051724bc6afde11d5836fe4e42da0aadb723083",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L6.drl": "12a7945f275d1227007b1836809a9ca16ecf77069bc5fdac021217f237aa7a0e",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L7.drl": "544e11a0f67f71d6c406562f8831e7414113167a310ad8cca8ef86732516d81d",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L3.drl": "3ff12a10532d86eeef5693e64da237918ef7718a6f10eb8dc1b714d0192556af",
+      "work/through-vias/native-ethernet-through/gerber/drill-L3-L6.drl": "25f126dd0ba00a80b33be368aa7a1f04b86df78c61e2e7d03bc0d65b2b7e9957",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L2.drl": "c75d3b2037b70a0820ce5721a51818275511d956b372a6cca5797559db2ab2cf",
+      "work/through-vias/native-ethernet-through/gerber/drill-L3-L5.drl": "33b6f7119191bfd129b8d867e37c3a4553499c11f7187bef0d5d74530b35df0f",
+      "work/through-vias/native-ethernet-through/gerber/drill-L6-L8.drl": "58655b2766df3740233664b98dce614ab3d2076bf3ee72e3e0afa991ae32ed18",
+      "work/through-vias/native-ethernet-through/gerber/drill-L3-L8.drl": "75f5774e6dfcefc13c6ad61b5451fcb644fb20cfcd7bbbab3366d6911836aefc",
+      "work/through-vias/native-ethernet-through/gerber/drill-L4-L7.drl": "6bf85e2f580d5ecd3d8e439cfc4a0d53184677d779e8232fe961222575985050",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L8.drl": "ccc2fe0a24db726695904c61a86d8cb6be663b587bb4fe55c45c839421fab61c",
+      "work/through-vias/native-ethernet-through/gerber/drill_npth.drl": "ba823705e7a4573dab57bb5802abcac3bea03f93142c1727dfe3054d34617b34",
+      "work/through-vias/native-ethernet-through/gerber/drill-L5-L8.drl": "6cf03459b24c2bf21fb6072c239c98d2799209b1777d440f1f87c8d4f5204e20",
+      "work/through-vias/native-ethernet-through/gerber/drill-L2-L4.drl": "54e909a397e562ca7d8fc019da25ff0e4459b36ff6f5bad62c106d923dff60b5",
+      "work/through-vias/native-ethernet-through/gerber/drill-L7-L8.drl": "1eb8d4f12bdca8ad34391cdc5b18bb1add1dcc148255072e3c979d9f6aba6ac9",
+      "work/through-vias/native-ethernet-through/gerber/drill-L2-L7.drl": "9aad154780771e601b0d6a7666ea872609b62fa68968260d39734e44b42f4784",
+      "work/through-vias/native-hdmi-endpoint/gerber/In1_Cu.gbr": "4f9b8d9e199286216e56ee9540c4f4b81dc53dedb7e536b374d4d7447f7c7479",
+      "work/through-vias/native-hdmi-endpoint/gerber/In3_Cu.gbr": "408225d3cad689c69f855585c15a94961347150419fe023c26f2f8aa6c9b11d7",
+      "work/through-vias/native-hdmi-endpoint/gerber/In6_Cu.gbr": "67b72ccf4dcc82466431830f7bb252eec2fe130ef132e2cfc778299d83e8f6af",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L2-L8.drl": "14e085eea0b3539c2e0f4652a3f4449195758c411e4991b8c6ffbd7246bd269f",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L5-L6.drl": "f1ffba6280920447962a0eaf70036a72dd93817f8639918e204cef0dc09f3090",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L1-L5.drl": "6943f428fb2a1cf6af1dc112dea60d014c9d66c5d9a1310aae460b6d68e09a8c",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L1-L4.drl": "b4d0e9ddbebe432d6c5fdef2f2e069f5a4b1707d373c85c8b28191bc837c9eaf",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L1-L6.drl": "04ac344c78ec3a1372753bde58bf390e91d0e70b75b41af53375265760e3ceb3",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L1-L7.drl": "a40f73db4d65823e0220bb54f8e6540adb4097f33432d977eb4a2ec0021fd165",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L1-L3.drl": "5b45da7cc2b6843907fd5415ee181289dd3d498ef82ee791f2cd49030808e822",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L3-L6.drl": "1b8ebe4bf8afd1002a39274766f52810a06e8df70bec37c69ec1451c7bc36889",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L1-L2.drl": "7a7f2715c01d62e408ce1cb0788178eabfca61a23afc05107031761f4c04e2dd",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L3-L5.drl": "b7ad7127e4f78503055ab20fc59a340cbb73210a3546b342b8ea69c9b9c538b3",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L6-L8.drl": "44e6923969e6e9df04951134871443885c2797ef1e8d1b23519e519fac9f2541",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L3-L8.drl": "92e5b4f70aa1acfbf32036fcd3d785b42a6d9d87e2e409af416261976ec71437",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L4-L7.drl": "625806408e59c1dec67973635faff9e089e0a0b15ca70762abc7ddc3f7bacc89",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L1-L8.drl": "2155ae6de99fe77d9a0de6a3fb6425eed795422f83922a07463267286c1aaae0",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill_npth.drl": "e51135d74f9fa329549b4bc34200a7c0a361eca54f49ee43658c8ad50d5cd6e3",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L5-L8.drl": "633cc733733074b74f51b86c08a7751e9f760a908ccc118da310930e42815fd2",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L2-L4.drl": "1c2f83ce5cd1861b607679bd875483994b7626e674ce5a4201b43fb88494f996",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L7-L8.drl": "269b0eb6828f25fb0c184b8f625e8fe476f373c3ace3279f6f920a47e5607acd",
+      "work/through-vias/native-hdmi-endpoint/gerber/drill-L2-L7.drl": "c037678ba4a78989d8aef1b69c1174272770fa52f0d5da288df58b50579b5797"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  }
+}

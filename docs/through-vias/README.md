@@ -224,3 +224,12 @@ remain. All nonzero wire geometry, normal pin nets and placements are preserved.
 Native and exported connectivity pass with no new enforced clearance findings.
 Ten additional reference-area pairs and five optional plated-hole margins remain
 visible.
+
+## HDMI signal endpoints: 28 barrels
+
+[Literal native traces and via ports](hdmi-endpoint-increment.md),
+[validation](hdmi-endpoint-validation.json). **584 through / 626 non-through**
+remain. A complete centerline comparison includes via joins and confirms all
+nonzero trace geometry unchanged. Native and exported connectivity pass with no
+new enforced clearance findings. Thirteen additional reference-area pairs and
+three optional plated-hole margins remain visible.
