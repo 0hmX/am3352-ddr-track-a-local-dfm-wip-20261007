@@ -283,13 +283,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Processor > .U1 > .J11",
-    "x": -0.4,
-    "y": 1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_40: same surface GND reaches a nearby through barrel. */,
   {
     "selector": ".Processor > .U1 > .K11",
     "x": 0.4,
@@ -437,13 +431,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_VDD_CORE_7 > .pin2",
-    "x": -5.51,
-    "y": 7.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_62: same surface GND reaches a nearby through barrel. */,
   {
     "selector": ".Processor > .C_VDD_MPU_B > .pin2",
     "x": -3.5875,
@@ -745,13 +733,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_VDDA1P8V_USB1 > .pin2",
-    "x": 2.99,
-    "y": -2.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_106: same surface GND reaches a nearby through barrel. */,
   {
     "selector": ".Processor > .C_VDDA3P3V_USB0 > .pin2",
     "x": 5.24,
@@ -1214,13 +1196,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_B0 > .pin2",
-    "x": 7.5875,
-    "y": -3.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_173: same surface GND reaches a nearby through barrel. */,
   {
     "selector": ".DDR3 > .C_SOC_DDR_B1 > .pin2",
     "x": 7.5875,
@@ -2842,7 +2818,7 @@ const groundRegions=[
 export function CloudPowerRoutes() {
  return <>
   {(['inner1','inner3','inner6'] as const).flatMap(layer=>groundRegions.map((r,i)=><copperpour key={`${layer}_${i}`} name={`CLOUD_GND_${layer}_${i}`} layer={layer} connectsTo="net.GND" unbroken clearance={0.2} boardEdgeMargin={0} coveredWithSolderMask outline={r.outline}/>))}
-  {groundPads.map((p,i)=><via key={i} name={`CLOUD_GND_PAD_${i}`} pcbX={p.x} pcbY={p.y} fromLayer={p.fromLayer} toLayer={p.toLayer} holeDiameter={0.15} outerDiameter={0.3} connectsTo={p.selector} />)}
+  {groundPads.map((p,i)=>p&&<via key={i} name={`CLOUD_GND_PAD_${i}`} pcbX={p.x} pcbY={p.y} fromLayer={p.fromLayer} toLayer={p.toLayer} holeDiameter={0.15} outerDiameter={0.3} connectsTo={p.selector} />)}
   {[[-26,24],[68,24],[-26,-37],[68,-37]].map(([x,y],i)=><via key={i} name={`CLOUD_GND_STITCH_${i}`} pcbX={x} pcbY={y} fromLayer="top" toLayer="bottom" holeDiameter={0.3} outerDiameter={0.6} connectsTo="net.GND" />)}
  </>
 }

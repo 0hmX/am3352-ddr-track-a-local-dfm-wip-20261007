@@ -37,3 +37,6 @@ The SYSBOOT6 increment uses a reviewed V1V8 feed redistribution. Its capacitor-b
 
 SD clock relief: [native TSX detours and checks](docs/through-vias/sd-clock-relief-increment.md)
 leave **572 non-through vias**; all 686 native connectivity entries remain connected.
+
+CPU-area ground simplification: [four redundant pad barrels removed in native TSX](docs/through-vias/cpu-ground-pad-removal-increment.md)
+leaves **568 non-through vias**, with unchanged trace copper and verified connectivity.
