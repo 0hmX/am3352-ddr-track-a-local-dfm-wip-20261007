@@ -279,3 +279,12 @@ remain. Only the reset trace changes nonzero geometry. Native and exported
 connectivity pass, including all 416 post-drill GND terminals; no new enforced
 clearance findings. Three additional reference-area pairs and seven optional
 plated-hole margins are retained. Other reset sections remain for later work.
+
+## Wakeup corridor and DDR support: five barrels
+
+[Native top-layer detours](wakeup-relief-increment.md),
+[validation](wakeup-relief-validation.json). **633 through / 575 non-through**
+remain. Only the wakeup wire changes; all pin nets and placements are preserved.
+Native and exported connectivity pass with no new enforced clearance findings,
+including all 416 post-drill GND terminals. Four additional reference-area pairs
+and five optional plated-hole margins are recorded.
