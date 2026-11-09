@@ -34,3 +34,6 @@ All 46 DDR timing routes are connected, but 10 DDR reference-area findings and a
 The cloud checkpoint does not include offline Mac work. The prior [240-net snapshot](docs/routing-240-snapshot.md) is historical.
 
 The SYSBOOT6 increment uses a reviewed V1V8 feed redistribution. Its capacitor-barrel dependencies remain open power-capacity limitations. See the current [routing TODO](docs/routing-todo.md).
+
+SD clock relief: [native TSX detours and checks](docs/through-vias/sd-clock-relief-increment.md)
+leave **572 non-through vias**; all 686 native connectivity entries remain connected.
