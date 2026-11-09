@@ -209,16 +209,6 @@ const grounds=[
   },
   {
     "net": "GND",
-    "x": 40.249942,
-    "y": -21.74992,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "name": "RN5_EAST_RETURN_1"
-  },
-  {
-    "net": "GND",
     "x": 45.249932,
     "y": -21.74992,
     "fromLayer": "inner1",
