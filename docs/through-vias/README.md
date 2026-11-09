@@ -50,7 +50,10 @@ all connections and introduce no additional findings.
 
 [Converted via list](safe-converted-vias.json), [validation](safe-validation.json).
 All 18 previously batch-safe vias are now through at their native mounted TSX/data
-sources. Trace-emitted RTC_RESET_N and ETH_MDIO_ISO endpoint barrels are explicit
+sources. The two affected ground returns formerly read from JSON are now literal
+`<via>` elements in `CloudSclPullReturn.tsx` and `CloudI2cPullReturn.tsx`; their JSON
+inputs are restored unchanged. All via/route implementation changes are TSX-only.
+Trace-emitted RTC_RESET_N and ETH_MDIO_ISO endpoint barrels are explicit
 through-via primitives; their inner-layer ports retain the existing trace layers.
 The installed Via constructor initializes ports before attachment and sees only a
 two-layer board; explicit matched inner ports avoid losing those connections.
