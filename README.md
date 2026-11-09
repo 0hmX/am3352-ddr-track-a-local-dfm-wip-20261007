@@ -49,3 +49,6 @@ leave **533 non-through vias**; the C_IO1_0 bridge is retained and all connectiv
 
 DDR-area ground links: [seven blind pad vias replaced by native surface links](docs/through-vias/ddr-ground-surface-increment.md)
 leave **526 non-through vias**, with fixed DDR placement and verified native/exported connectivity.
+
+CPU surface ground: [checked native fills and 68 pad-via removal candidates](docs/through-vias/cpu-surface-ground-increment.md).
+This groundwork retains **526 non-through vias**; actual removal is a separate stacked increment.
