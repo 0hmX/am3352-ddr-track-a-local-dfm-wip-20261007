@@ -1,0 +1,3747 @@
+{
+  "main": "6647689bdae3266971dbd1816e4632d00f0c69c7",
+  "count": 372,
+  "byRule": {
+    "GenericSchematicBoxTooWide": 15,
+    "SchematicPinPaddingToEdgeTooLarge": 16,
+    "SchematicBoxInnerLabelOutOfBounds": 5,
+    "SchematicBoxInnerLabelCollision": 16,
+    "TwoPinComponentShouldBeVertical": 280,
+    "DecouplingCapacitorsNotCloseTogether": 27,
+    "InductorSeparatedFromChipPin": 3,
+    "ResistorSeparatedFromChipPin": 5,
+    "InductorSeparatedFromChipPins": 1,
+    "RailPathTooSpreadOut": 3,
+    "ResistorDividerSeparatedFromChip": 1
+  },
+  "bySheet": {
+    "CPU supplies": 8,
+    "CPU DDR interface": 4,
+    "CPU video and I2C": 2,
+    "CPU peripheral and boot pins": 6,
+    "CPU Ethernet and USB": 2,
+    "DDR memory supplies": 4,
+    "DDR memory address and control": 3,
+    "DDR memory data": 2,
+    "Power management": 48,
+    "microSD": 11,
+    "Power input": 25,
+    "Ethernet and RGB expansion": 48,
+    "Boot and clock": 23,
+    "HDMI transmitter and protection": 19,
+    "CPU bypass": 59,
+    "CPU power": 3,
+    "DDR reference": 11,
+    "DDR bypass": 37,
+    "Debug and reset": 5,
+    "Debug rails and power status": 3,
+    "HDMI power": 45,
+    "USB programming": 4
+  },
+  "findings": [
+    {
+      "sheet": "CPU supplies",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "11.045",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "3.955"
+    },
+    {
+      "sheet": "CPU supplies",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "10",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "5"
+    },
+    {
+      "sheet": "CPU supplies",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "10.665",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "4.335"
+    },
+    {
+      "sheet": "CPU supplies",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "11.045",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "3.955"
+    },
+    {
+      "sheet": "CPU supplies",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU supplies",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU supplies",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU supplies",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU DDR interface",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "11.52",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "3.48"
+    },
+    {
+      "sheet": "CPU DDR interface",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "11.9",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "3.1"
+    },
+    {
+      "sheet": "CPU DDR interface",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU DDR interface",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU video and I2C",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "10.57",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "4.43"
+    },
+    {
+      "sheet": "CPU video and I2C",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU peripheral and boot pins",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "10.855",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "4.145"
+    },
+    {
+      "sheet": "CPU peripheral and boot pins",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "10.285",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "4.715"
+    },
+    {
+      "sheet": "CPU peripheral and boot pins",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "11.14",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "3.86"
+    },
+    {
+      "sheet": "CPU peripheral and boot pins",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU peripheral and boot pins",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU peripheral and boot pins",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "CPU Ethernet and USB",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U1",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "10.665",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "4.335"
+    },
+    {
+      "sheet": "CPU Ethernet and USB",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U1",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "DDR memory supplies",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U3",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "12.09",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "2.91"
+    },
+    {
+      "sheet": "DDR memory supplies",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U3",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "13.14",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "1.86"
+    },
+    {
+      "sheet": "DDR memory supplies",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U3",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "DDR memory supplies",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U3",
+      "pinSides": "left",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "5.6"
+    },
+    {
+      "sheet": "DDR memory address and control",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U3",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "12.622",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "2.378"
+    },
+    {
+      "sheet": "DDR memory address and control",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U3",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "DDR memory address and control",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U3",
+      "pinSides": "left",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "2"
+    },
+    {
+      "sheet": "DDR memory data",
+      "rule": "GenericSchematicBoxTooWide",
+      "message": "Shrink schematic box width",
+      "componentName": "U3",
+      "currentSchWidth": "14",
+      "measuredInnerLabelHorizontalEmptySpace": "12.47",
+      "maxAllowedInnerLabelHorizontalEmptySpace": "1",
+      "suggestedSchWidth": "2.53"
+    },
+    {
+      "sheet": "DDR memory data",
+      "rule": "SchematicPinPaddingToEdgeTooLarge",
+      "message": "Move schematic pins closer to the box edge or change the schematic box height",
+      "componentName": "U3",
+      "pinSides": "left,right",
+      "edgeSides": "top,bottom",
+      "suggestedSchHeight": "9.8"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "SchematicBoxInnerLabelOutOfBounds",
+      "message": "Inner pin labels extend outside the schematic box. Increase schWidth to contain the labels with 0.1 schematic units of edge clearance.",
+      "componentName": "U_PMIC",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "5.2",
+      "suggestedSchWidth": "1.576"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels IN_DCDC1_1 (left) and THERMAL_PAD_49 (right) overlap. Labels SDA_2 (left) and THERMAL_PAD_49 (right) overlap. Labels SCL_3 (left) and FB1_47 (right) are too close. Labels LDO1_4 (left) and PWR_EN_46 (right) overlap. Labels LDO1_4 (left) and FB1_47 (right) are too close. Labels IN_LDO1_5 (left) and nINT_45 (right) overlap. Labels IN_LDO1_5 (left) and PWR_EN_46 (right) overlap. Labels IN_LS_6 (left) and PB_44 (right) are too close. Labels IN_LS_6 (left) and nINT_45 (right) overlap. Labels LS_7 (left) and IN_DCDC2_43 (right) overlap. Labels PGOOD_8 (left) and L2_42 (right) overlap. Labels PGOOD_8 (left) and IN_DCDC2_43 (right) overlap. Labels AC_DET_9 (left) and FB2_41 (right) overlap. Labels AC_DET_9 (left) and L2_42 (right) overlap. Labels nPFO_10 (left) and nWAKEUP_40 (right) overlap. Labels nPFO_10 (left) and FB2_41 (right) overlap. Labels GPIO1_11 (left) and FB3_39 (right) overlap. Labels GPIO1_11 (left) and nWAKEUP_40 (right) overlap. Labels IN_DCDC4_12 (left) and L3_38 (right) overlap. Labels IN_DCDC4_12 (left) and FB3_39 (right) overlap. Labels L4A_13 (left) and IN_DCDC3_37 (right) overlap. Labels L4B_14 (left) and IN_BIAS_36 (right) overlap. Labels L4B_14 (left) and IN_DCDC3_37 (right) overlap. Labels DCDC4_15 (left) and INT_LDO_35 (right) overlap. Labels DCDC4_15 (left) and IN_BIAS_36 (right) overlap. Labels PFI_16 (left) and NC34_34 (right) overlap. Labels PFI_16 (left) and INT_LDO_35 (right) overlap. Labels DC34_SEL_17 (left) and GND33_33 (right) overlap. Labels DC34_SEL_17 (left) and NC34_34 (right) overlap. Labels NC18_18 (left) and GND32_32 (right) overlap. Labels NC18_18 (left) and GND33_33 (right) overlap. Labels NC19_19 (left) and GND31_31 (right) overlap. Labels NC19_19 (left) and GND32_32 (right) overlap. Labels GND20_20 (left) and GND30_30 (right) overlap. Labels GND20_20 (left) and GND31_31 (right) overlap. Labels GND21_21 (left) and NC29_29 (right) overlap. Labels GND21_21 (left) and GND30_30 (right) overlap. Labels GND22_22 (left) and NC28_28 (right) overlap. Labels GND22_22 (left) and NC29_29 (right) overlap. Labels GND23_23 (left) and GND27_27 (right) overlap. Labels GND23_23 (left) and NC28_28 (right) overlap. Labels GND24_24 (left) and GPIO2_26 (right) overlap. Labels GND24_24 (left) and GND27_27 (right) overlap. Labels GND25_25 (left) and GPIO2_26 (right) overlap. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_PMIC",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "5.2",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "2.552"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels VDD_1 (left) and EP_GND_9 (right) overlap. Labels CWD_2 (left) and RESET_N_8 (right) overlap. Labels CWD_2 (left) and EP_GND_9 (right) overlap. Labels MR_N_3 (left) and WDO_N_7 (right) overlap. Labels MR_N_3 (left) and RESET_N_8 (right) overlap. Labels GND_4 (left) and WDO_N_7 (right) overlap. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_RTC_RESET_DELAY",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "1.2",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.743"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels GND_3 (left) and Y_OD_4 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_RTC_POR_GATE",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "0.8",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.323"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR4",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR4 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR5",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR5 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR6",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR6 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR7_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR7_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR7",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR7 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR8_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR8_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR8",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR8 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR9_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR9_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR9",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR9 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR10",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR10 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR11",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR11 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR12_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR12_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR12",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR12 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR13",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_PWR13 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PWR1",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_PWR1 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PWR2",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PWR2 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PWR3",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PWR3 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PWR4",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PWR4 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PWR5",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PWR5 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PWR6",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PWR6 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PWR7",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PWR7 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_RTC_RESET",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_RTC_RESET by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_RTC_LDO",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_RTC_LDO by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RTC_LDO",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RTC_LDO by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_RTC_WAKE",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_RTC_WAKE by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PMIC_EN",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_PMIC_EN by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RTC_RESET_BYP",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RTC_RESET_BYP by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RTC_GATE_BYP",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RTC_GATE_BYP by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR10_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR10_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PWR10_C",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PWR10_C by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power management",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "SYS_5V",
+      "ground": "GND",
+      "capacitorNames": "C_PWR1, C_PWR2, C_PWR3, C_PWR4, C_PWR5, C_PWR6",
+      "maxBodyGap": "12.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between SYS_5V and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "VDD_CORE",
+      "ground": "GND",
+      "capacitorNames": "C_PWR7_B, C_PWR7",
+      "maxBodyGap": "39.297",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between VDD_CORE and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "VDD_MPU",
+      "ground": "GND",
+      "capacitorNames": "C_PWR8_B, C_PWR8",
+      "maxBodyGap": "12.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between VDD_MPU and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "DDR_1V5",
+      "ground": "GND",
+      "capacitorNames": "C_PWR9_B, C_PWR9",
+      "maxBodyGap": "39.297",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between DDR_1V5 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "V3V3",
+      "ground": "GND",
+      "capacitorNames": "C_PWR10, C_PWR11, C_PWR10_B, C_PWR10_C",
+      "maxBodyGap": "46.051",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "V1V8",
+      "ground": "GND",
+      "capacitorNames": "C_PWR12_B, C_PWR12, C_RTC_RESET_BYP, C_RTC_GATE_BYP",
+      "maxBodyGap": "39.297",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "InductorSeparatedFromChipPin",
+      "hostComponentName": "U_PMIC",
+      "inductorName": "L_PWR1",
+      "pinDistance": "11.613",
+      "maxRecommendedPinDistance": "6",
+      "message": "Place L_PWR1 near its directly connected pin on U_PMIC so the inductor and its supply return to the chip can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "InductorSeparatedFromChipPin",
+      "hostComponentName": "U_PMIC",
+      "inductorName": "L_PWR2",
+      "pinDistance": "24.439",
+      "maxRecommendedPinDistance": "6",
+      "message": "Place L_PWR2 near its directly connected pin on U_PMIC so the inductor and its supply return to the chip can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "InductorSeparatedFromChipPin",
+      "hostComponentName": "U_PMIC",
+      "inductorName": "L_PWR3",
+      "pinDistance": "37.422",
+      "maxRecommendedPinDistance": "6",
+      "message": "Place L_PWR3 near its directly connected pin on U_PMIC so the inductor and its supply return to the chip can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "ResistorSeparatedFromChipPin",
+      "hostComponentName": "U_PMIC",
+      "resistorName": "R_PWR1",
+      "pinDistance": "51.664",
+      "maxRecommendedPinDistance": "4",
+      "message": "Place R_PWR1 beside its connected pin on the left side of U_PMIC so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "Power management",
+      "rule": "InductorSeparatedFromChipPins",
+      "hostComponentName": "U_PMIC",
+      "inductorName": "L_PWR4",
+      "maxPinDistance": "9.013",
+      "maxRecommendedPinDistance": "3",
+      "message": "Place L_PWR4 beside its two connected pins on the left side of U_PMIC so the connections can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "microSD",
+      "rule": "SchematicBoxInnerLabelOutOfBounds",
+      "message": "Inner pin labels extend outside the schematic box. Increase schWidth to contain the labels with 0.1 schematic units of edge clearance.",
+      "componentName": "J_MICROSD",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "1.4",
+      "suggestedSchWidth": "1.697"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels DAT3_2 (left) and CARD_SWITCH_B_10 (right) overlap. Labels CMD_3 (left) and CARD_SWITCH_A_9 (right) overlap. Labels CMD_3 (left) and CARD_SWITCH_B_10 (right) overlap. Labels VDD_4 (left) and DAT1_8 (right) are too close. Labels VDD_4 (left) and CARD_SWITCH_A_9 (right) overlap. Labels CLK_5 (left) and DAT0_7 (right) are too close. Labels CLK_5 (left) and DAT1_8 (right) are too close. Labels VSS_6 (left) and DAT0_7 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "J_MICROSD",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "1.4",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "2.351"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_SD_CMD",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_SD_CMD by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_SD_DAT0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_SD_DAT0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_SD_DAT1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_SD_DAT1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_SD_DAT2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_SD_DAT2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_SD_DAT3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_SD_DAT3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_SD_CD",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_SD_CD by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SD_HF",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SD_HF by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SD_BULK",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SD_BULK by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "microSD",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "V3V3",
+      "ground": "GND",
+      "capacitorNames": "C_SD_HF, C_SD_BULK",
+      "maxBodyGap": "39.297",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power input",
+      "rule": "SchematicBoxInnerLabelOutOfBounds",
+      "message": "Inner pin labels extend outside the schematic box. Increase schWidth to contain the labels with 0.1 schematic units of edge clearance.",
+      "componentName": "U_PD",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "2.8",
+      "suggestedSchWidth": "1.475"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels EN_UVLO_2 (left) and GND_8 (right) overlap. Labels EN_UVLO_2 (left) and EP_9 (right) overlap. Labels OUT_5 (left) and FLT_N_6 (right) overlap. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_INPUT_EFUSE",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "1.2",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.625"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels VBUS_MIN_1 (left) and EPAD_25 (right) overlap. Labels VBUS_MAX_2 (left) and VCCD_24 (right) overlap. Labels VBUS_MAX_2 (left) and EPAD_25 (right) overlap. Labels VBUS_FET_EN_3 (left) and VDDD_23 (right) overlap. Labels VBUS_FET_EN_3 (left) and VCCD_24 (right) overlap. Labels SAFE_PWR_EN_4 (left) and VSS_22 (right) overlap. Labels SAFE_PWR_EN_4 (left) and VDDD_23 (right) overlap. Labels ISNK_COARSE_5 (left) and DNU2_21 (right) overlap. Labels ISNK_COARSE_5 (left) and VSS_22 (right) overlap. Labels ISNK_FINE_6 (left) and DNU1_20 (right) overlap. Labels ISNK_FINE_6 (left) and DNU2_21 (right) overlap. Labels HPI_INT_7 (left) and GND_19 (right) overlap. Labels HPI_INT_7 (left) and DNU1_20 (right) overlap. Labels GPIO_1_8 (left) and VBUS_IN_18 (right) overlap. Labels GPIO_1_8 (left) and GND_19 (right) overlap. Labels FAULT_9 (left) and DP_17 (right) overlap. Labels FAULT_9 (left) and VBUS_IN_18 (right) overlap. Labels FLIP_10 (left) and DM_16 (right) are too close. Labels FLIP_10 (left) and DP_17 (right) are too close. Labels VDC_OUT_11 (left) and CC1_15 (right) overlap. Labels VDC_OUT_11 (left) and DM_16 (right) overlap. Labels HPI_SDA_12 (left) and CC2_14 (right) overlap. Labels HPI_SDA_12 (left) and CC1_15 (right) overlap. Labels HPI_SCL_13 (left) and CC2_14 (right) overlap. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_PD",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "2.8",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "2.229"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_TYPEC_ENABLE_PD",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_TYPEC_ENABLE_PD by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_INPUT_LIMIT",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_INPUT_LIMIT by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_INPUT_FAULT",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_INPUT_FAULT by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_INPUT_DVDT",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_INPUT_DVDT by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAW_TYPEC",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAW_TYPEC by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAW_NOR",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAW_NOR by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAW_EFUSE",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAW_EFUSE by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_EFUSE_OUT",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_EFUSE_OUT by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_SYS_BLEED",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_SYS_BLEED by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PD_VBUS",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PD_VBUS by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PD_VDDD",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PD_VDDD by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PD_VDDD_HF1",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PD_VDDD_HF1 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PD_VDDD_HF2",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PD_VDDD_HF2 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PD_VCCD",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PD_VCCD by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PD_ISNK_UP",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PD_ISNK_UP by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PD_ISNK_DN",
+      "railPin": "pin1",
+      "railType": "ground",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_PD_ISNK_DN by 90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Power input",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "USBC_VBUS_RAW",
+      "ground": "GND",
+      "capacitorNames": "C_RAW_TYPEC, C_RAW_NOR, C_RAW_EFUSE, C_PD_VBUS",
+      "maxBodyGap": "26.737",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between USBC_VBUS_RAW and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power input",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "PD_VDDD",
+      "ground": "GND",
+      "capacitorNames": "C_PD_VDDD, C_PD_VDDD_HF1, C_PD_VDDD_HF2",
+      "maxBodyGap": "26.737",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between PD_VDDD and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Power input",
+      "rule": "ResistorSeparatedFromChipPin",
+      "hostComponentName": "U_INPUT_EFUSE",
+      "resistorName": "R_INPUT_LIMIT",
+      "pinDistance": "28.762",
+      "maxRecommendedPinDistance": "4",
+      "message": "Place R_INPUT_LIMIT beside its connected pin on the right side of U_INPUT_EFUSE so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "Power input",
+      "rule": "RailPathTooSpreadOut",
+      "hostName": "U_PD",
+      "pinName": "VBUS_IN_18",
+      "railType": "power",
+      "pathSpan": "9.3",
+      "pathLength": "14.945",
+      "message": "Visible path from U_PD.VBUS_IN_18 to power spans 9.30 schematic units; move the connected support elements closer together near the pin and recompute their schematic traces."
+    },
+    {
+      "sheet": "Power input",
+      "rule": "RailPathTooSpreadOut",
+      "hostName": "U_PD",
+      "pinName": "VCCD_24",
+      "railType": "power",
+      "pathSpan": "13.841",
+      "pathLength": "13.842",
+      "message": "Visible path from U_PD.VCCD_24 to power spans 13.84 schematic units; move the connected support elements closer together near the pin and recompute their schematic traces."
+    },
+    {
+      "sheet": "Power input",
+      "rule": "ResistorDividerSeparatedFromChip",
+      "hostComponentName": "U_PD",
+      "supplyResistorName": "R_PD_ISNK_UP",
+      "groundResistorName": "R_PD_ISNK_DN",
+      "message": "Place the divider R_PD_ISNK_UP / R_PD_ISNK_DN beside its connected pin on the left side of U_PD. Both resistors are beyond the opposite chip edge. Keep supply above ground and make the tap connection direct, preserving values, symbols and all pin connections. Leave room for labels and reroute affected traces."
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "SchematicBoxInnerLabelOutOfBounds",
+      "message": "Inner pin labels extend outside the schematic box. Increase schWidth to contain the labels with 0.1 schematic units of edge clearance.",
+      "componentName": "U_ETH_PHY",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "2.8",
+      "suggestedSchWidth": "1.594"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "SchematicBoxInnerLabelOutOfBounds",
+      "message": "Inner pin labels extend outside the schematic box. Increase schWidth to contain the labels with 0.1 schematic units of edge clearance.",
+      "componentName": "J_ETH",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "1.6",
+      "suggestedSchWidth": "2.107"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels TX_EN_1 (left) and EP_GND_25 (right) overlap. Labels 50MHzOut_LED2_2 (left) and TX_D1_24 (right) overlap. Labels 50MHzOut_LED2_2 (left) and EP_GND_25 (right) overlap. Labels INTR_PWRDN_3 (left) and TX_D0_23 (right) overlap. Labels INTR_PWRDN_3 (left) and TX_D1_24 (right) overlap. Labels LED0_4 (left) and RX_ER_22 (right) overlap. Labels LED0_4 (left) and TX_D0_23 (right) overlap. Labels RST_N_5 (left) and GND_21 (right) overlap. Labels RST_N_5 (left) and RX_ER_22 (right) overlap. Labels VDDA3V3_6 (left) and CRS_DV_20 (right) overlap. Labels VDDA3V3_6 (left) and GND_21 (right) overlap. Labels RD_M_7 (left) and VDDIO_19 (right) overlap. Labels RD_M_7 (left) and CRS_DV_20 (right) overlap. Labels RD_P_8 (left) and RX_D0_18 (right) overlap. Labels RD_P_8 (left) and VDDIO_19 (right) overlap. Labels GND_9 (left) and RX_D1_17 (right) overlap. Labels GND_9 (left) and RX_D0_18 (right) overlap. Labels TD_M_10 (left) and MDC_16 (right) overlap. Labels TD_M_10 (left) and RX_D1_17 (right) overlap. Labels TD_P_11 (left) and MDIO_15 (right) overlap. Labels TD_P_11 (left) and MDC_16 (right) overlap. Labels XO_12 (left) and RBIAS_14 (right) overlap. Labels XO_12 (left) and MDIO_15 (right) are too close. Labels XI_13 (left) and RBIAS_14 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_ETH_PHY",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "2.8",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "2.532"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels RESET_N_1 (left) and SENSE_5 (right) are too close. Labels RESET_N_1 (left) and VDD_6 (right) overlap. Labels GND_2 (left) and SENSE_5 (right) overlap. Labels MR_N_3 (left) and SENSE_5 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_ETH_RESET",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "0.8",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.826"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels CTD_2 (left) and YELLOW_A_12 (right) overlap. Labels TD_N_3 (left) and YELLOW_K_11 (right) overlap. Labels TD_N_3 (left) and YELLOW_A_12 (right) overlap. Labels RD_P_4 (left) and GREEN_A_10 (right) overlap. Labels RD_P_4 (left) and YELLOW_K_11 (right) overlap. Labels CRD_5 (left) and GREEN_K_9 (right) overlap. Labels CRD_5 (left) and GREEN_A_10 (right) overlap. Labels RD_N_6 (left) and CHASSIS_TERMINATION_8 (right) overlap. Labels RD_N_6 (left) and GREEN_K_9 (right) overlap. Labels NC_7 (left) and CHASSIS_TERMINATION_8 (right) overlap. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "J_ETH",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "1.6",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "2.76"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels GND_2 (left) and VOUT_6 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_ETH_RAMP",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "0.8",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.34"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels NC_1 (left) and OE_N_19 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_ETH_ISO0",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "2.2",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.307"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels NC_1 (left) and OE_N_19 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_ETH_ISO1",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "2.2",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.307"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_LDO_IN",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_LDO_IN by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_LDO_OUT",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_LDO_OUT by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_STRAP0",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_ETH_STRAP0 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_STRAP1",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_ETH_STRAP1 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_STRAP2",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_ETH_STRAP2 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_STRAP3",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_ETH_STRAP3 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_STRAP4",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_ETH_STRAP4 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_STRAP5",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_ETH_STRAP5 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_BIAS",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_ETH_BIAS by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_MDIO_PU",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_ETH_MDIO_PU by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_INT_PU",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_ETH_INT_PU by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_OSC",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_OSC by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_RESET_PU",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_ETH_RESET_PU by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_RESET",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_RESET by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_A0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_A0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_A1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_A1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_A2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_A2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_A3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_A3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_IO0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_IO0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_IO1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_IO1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_IO2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_IO2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_IO3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_IO3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_YELLOW",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_ETH_YELLOW by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_CT_TX_100N",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_ETH_CT_TX_100N by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_CT_TX_1U",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_ETH_CT_TX_1U by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_CT_RX_100N",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_ETH_CT_RX_100N by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_CT_RX_1U",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_ETH_CT_RX_1U by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_CHASSIS",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_ETH_CHASSIS by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_CHASSIS",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_ETH_CHASSIS by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_RAMP_CT",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_ETH_RAMP_CT by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_ISO0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_ISO0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_ISO1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_ISO1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_ETH_ISO_OE_PU",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_ETH_ISO_OE_PU by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_ETH_ISO_OE",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_ETH_ISO_OE by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RMII_RETURN_A",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RMII_RETURN_A by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RMII_RETURN_B",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RMII_RETURN_B by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RMII_RETURN_C",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RMII_RETURN_C by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RMII_RETURN_D",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RMII_RETURN_D by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "ETH_3V3",
+      "ground": "GND",
+      "capacitorNames": "C_ETH_OSC, C_ETH_RESET, C_ETH_A0, C_ETH_A1, C_ETH_A2, C_ETH_A3, C_ETH_IO0, C_ETH_IO1, C_ETH_IO2, C_ETH_IO3, C_ETH_ISO0, C_ETH_ISO1, C_ETH_ISO_OE",
+      "maxBodyGap": "35.35",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between ETH_3V3 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Ethernet and RGB expansion",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "V1V8",
+      "ground": "GND",
+      "capacitorNames": "C_RMII_RETURN_A, C_RMII_RETURN_B, C_RMII_RETURN_C, C_RMII_RETURN_D",
+      "maxBodyGap": "14.949",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels RESET_N_1 (left) and SENSE_5 (right) are too close. Labels RESET_N_1 (left) and VDD_6 (right) overlap. Labels GND_2 (left) and SENSE_5 (right) overlap. Labels MR_N_3 (left) and SENSE_5 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_RESET_DELAY",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "0.8",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.826"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT0",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_BOOT0 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT1",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_BOOT1 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT2",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_BOOT2 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT3",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT3 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT4",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_BOOT4 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT5",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT5 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT6",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT6 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT7",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT7 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT8",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT8 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT9",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT9 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT10",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT10 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT11",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT11 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT12",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT12 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT13",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT13 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT14",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_BOOT14 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_BOOT15",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_BOOT15 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_CLOCK",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_CLOCK by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_CLOCK_GATE",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_CLOCK_GATE by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RESET_DELAY",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RESET_DELAY by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PGOOD_RAW",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PGOOD_RAW by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_CLOCK_OE_PD",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_CLOCK_OE_PD by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Boot and clock",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "V1V8",
+      "ground": "GND",
+      "capacitorNames": "C_SOC_CLOCK, C_CLOCK_GATE",
+      "maxBodyGap": "14.949",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels OVDD_1 (left) and GND_EP (right) overlap. Labels I2S3_SPDIF (left) and VSYNC (right) overlap. Labels I2S3_SPDIF (left) and GND_EP (right) overlap. Labels SCK_MCLK (left) and D2 (right) are too close. Labels SCK_MCLK (left) and D1 (right) are too close. Labels PCSDA (left) and IVDD12_56 (right) overlap. Labels DDCSDA (left) and PCLK (right) are too close. Labels DDCSCL (left) and PCLK (right) are too close. Labels ENTEST (left) and IVDD12_35 (right) overlap. Labels PCADR (left) and OVDD_34 (right) overlap. Labels PCADR (left) and IVDD12_35 (right) overlap. Labels SYSRSTN (left) and OVDD_34 (right) overlap. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_HDMI",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "6.8",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.716"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels 5V_SUPPLY (left) and D0_N (right) are too close. Labels 5V_SUPPLY (left) and D0_P (right) overlap. Labels 5V_SUPPLY (left) and CTRL1 (right) are too close. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "U_HDMI_ESD",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "1.8",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.658"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "SchematicBoxInnerLabelCollision",
+      "message": "Labels HDMI_5 (left) and HDMI_19 (right) overlap. Labels HDMI_6 (left) and HDMI_18 (right) overlap. Labels HDMI_6 (left) and HDMI_19 (right) overlap. Labels HDMI_7 (left) and HDMI_17 (right) overlap. Labels HDMI_7 (left) and HDMI_18 (right) overlap. Labels HDMI_8 (left) and HDMI_16 (right) overlap. Labels HDMI_8 (left) and HDMI_17 (right) overlap. Labels HDMI_9 (left) and HDMI_15 (right) overlap. Labels HDMI_9 (left) and HDMI_16 (right) overlap. Labels HDMI_10 (left) and HDMI_14 (right) overlap. Labels HDMI_10 (left) and HDMI_15 (right) overlap. Labels HDMI_11 (left) and HDMI_13 (right) overlap. Labels HDMI_11 (left) and HDMI_14 (right) overlap. Labels HDMI_12 (left) and HDMI_13 (right) overlap. Increase the schWidth to leave at least 0.1 schematic units between these labels.",
+      "componentName": "J_HDMI",
+      "currentSchWidth": "1.3",
+      "currentSchHeight": "2.6",
+      "overlappingSides": "left,right",
+      "minimumLabelGap": "0.1",
+      "suggestedSchWidth": "1.551"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R146",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_REF_R146 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R147",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_REF_R147 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R158",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_REF_R158 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R166",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_REF_R166 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R176",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_HDMI_REF_R176 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R177",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_HDMI_REF_R177 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R181",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_HDMI_REF_R181 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R183",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_REF_R183 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_REF_R188",
+      "railPin": "pin1",
+      "railType": "ground",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_HDMI_REF_R188 by 90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_RESET_GPIO_PU",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_RESET_GPIO_PU by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_RESET_DECOUPLE",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_RESET_DECOUPLE by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_ESD_SUPPLY",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_ESD_SUPPLY by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_ESD_OUT",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_ESD_OUT by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_UTILITY",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_HDMI_UTILITY by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "ResistorSeparatedFromChipPin",
+      "hostComponentName": "U_HDMI",
+      "resistorName": "R_HDMI_REF_R176",
+      "pinDistance": "30.186",
+      "maxRecommendedPinDistance": "4",
+      "message": "Place R_HDMI_REF_R176 beside its connected pin on the left side of U_HDMI so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "HDMI transmitter and protection",
+      "rule": "ResistorSeparatedFromChipPin",
+      "hostComponentName": "U_HDMI",
+      "resistorName": "R_HDMI_REF_R177",
+      "pinDistance": "44.244",
+      "maxRecommendedPinDistance": "4",
+      "message": "Place R_HDMI_REF_R177 beside its connected pin on the left side of U_HDMI so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_4",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_4 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_5",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_5 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_6",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_6 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_CORE_7",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_CORE_7 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_MPU_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_MPU_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_MPU_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_MPU_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_MPU_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_MPU_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_MPU_2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_MPU_2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_MPU_3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_MPU_3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDD_MPU_4",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDD_MPU_4 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SRAM_CORE_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SRAM_CORE_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SRAM_CORE_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SRAM_CORE_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SRAM_MPU_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SRAM_MPU_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SRAM_MPU_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SRAM_MPU_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO1_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO1_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO1_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO1_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO1_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO1_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO2_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO2_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO2_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO2_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO2_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO2_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO3_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO3_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO3_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO3_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO3_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO3_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO4_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO4_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO4_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO4_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO4_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO4_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO5_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO5_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO5_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO5_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO5_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO5_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO6_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO6_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO6_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO6_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO6_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO6_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO6_2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO6_2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO6_3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO6_3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO6_4",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO6_4 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_IO6_5",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_IO6_5 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_PLL_DDR",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_PLL_DDR by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_PLL_CORE_LCD",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_PLL_CORE_LCD by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_PLL_MPU",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_PLL_MPU by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_OSC",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_OSC by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDS_RTC",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDS_RTC by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDA1P8V_USB0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDA1P8V_USB0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDA1P8V_USB1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDA1P8V_USB1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDA3P3V_USB0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDA3P3V_USB0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VDDA3P3V_USB1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VDDA3P3V_USB1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "VDD_CORE",
+      "ground": "GND",
+      "capacitorNames": "C_VDD_CORE_B, C_VDD_CORE_0, C_VDD_CORE_1, C_VDD_CORE_2, C_VDD_CORE_3, C_VDD_CORE_4, C_VDD_CORE_5, C_VDD_CORE_6, C_VDD_CORE_7",
+      "maxBodyGap": "12.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between VDD_CORE and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "VDD_MPU",
+      "ground": "GND",
+      "capacitorNames": "C_VDD_MPU_B, C_VDD_MPU_0, C_VDD_MPU_1, C_VDD_MPU_2, C_VDD_MPU_3, C_VDD_MPU_4",
+      "maxBodyGap": "12.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between VDD_MPU and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "V1V8",
+      "ground": "GND",
+      "capacitorNames": "C_VDDS_B, C_VDDS_0, C_VDDS_1, C_VDDS_2, C_VDDS_3, C_SRAM_CORE_B, C_SRAM_CORE_0, C_SRAM_MPU_B, C_SRAM_MPU_0, C_VDDS_PLL_DDR, C_VDDS_PLL_CORE_LCD, C_VDDS_PLL_MPU, C_VDDS_OSC, C_VDDS_RTC, C_VDDA1P8V_USB0, C_VDDA1P8V_USB1",
+      "maxBodyGap": "53.35",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "CPU bypass",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "V3V3",
+      "ground": "GND",
+      "capacitorNames": "C_IO1_B, C_IO1_0, C_IO1_1, C_IO2_B, C_IO2_0, C_IO2_1, C_IO3_B, C_IO3_0, C_IO3_1, C_IO4_B, C_IO4_0, C_IO4_1, C_IO5_B, C_IO5_0, C_IO5_1, C_IO6_B, C_IO6_0, C_IO6_1, C_IO6_2, C_IO6_3, C_IO6_4, C_IO6_5, C_VDDA3P3V_USB0, C_VDDA3P3V_USB1",
+      "maxBodyGap": "17.35",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "CPU power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_CAP_VDD_SRAM_CORE",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_CAP_VDD_SRAM_CORE by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_CAP_VDD_SRAM_MPU",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_CAP_VDD_SRAM_MPU by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "CPU power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_CAP_VBB_MPU",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_CAP_VBB_MPU by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_DDR_ZQ",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_DDR_ZQ by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_DDR_VTP",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_DDR_VTP by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_VREF_TOP",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_VREF_TOP by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_VREF_BOT",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_VREF_BOT by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VREF_TOP",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VREF_TOP by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VREF_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VREF_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VREF_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VREF_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VREF_2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VREF_2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_VREF_3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_VREF_3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_DDR_RESET",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_DDR_RESET by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR reference",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "DDR_VREF",
+      "ground": "GND",
+      "capacitorNames": "C_VREF_0, C_VREF_1, C_VREF_2, C_VREF_3",
+      "maxBodyGap": "14.949",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between DDR_VREF and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_4",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_4 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_5",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_5 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_6",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_6 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_7",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_7 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_8",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_8 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_9",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_9 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_10",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_10 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_11",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_11 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_B",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_B by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_3",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_3 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_4",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_4 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_5",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_5 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_6",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_6 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_7",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_7 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_8",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_8 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_9",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_9 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_10",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_10 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_11",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_11 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_12",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_12 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_13",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_13 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_14",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_14 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_15",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_15 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_16",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_16 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_17",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_17 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_18",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_18 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_19",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_19 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_B0",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_B0 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_SOC_DDR_B1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_SOC_DDR_B1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_RAM_B1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_RAM_B1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "DDR bypass",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "DDR_1V5",
+      "ground": "GND",
+      "capacitorNames": "C_RAM_0, C_RAM_1, C_RAM_2, C_RAM_3, C_RAM_4, C_RAM_5, C_RAM_6, C_RAM_7, C_RAM_8, C_RAM_9, C_RAM_10, C_RAM_11, C_RAM_B, C_SOC_DDR_0, C_SOC_DDR_1, C_SOC_DDR_2, C_SOC_DDR_3, C_SOC_DDR_4, C_SOC_DDR_5, C_SOC_DDR_6, C_SOC_DDR_7, C_SOC_DDR_8, C_SOC_DDR_9, C_SOC_DDR_10, C_SOC_DDR_11, C_SOC_DDR_12, C_SOC_DDR_13, C_SOC_DDR_14, C_SOC_DDR_15, C_SOC_DDR_16, C_SOC_DDR_17, C_SOC_DDR_18, C_SOC_DDR_19, C_SOC_DDR_B0, C_SOC_DDR_B1, C_RAM_B1",
+      "maxBodyGap": "12.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between DDR_1V5 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "Debug and reset",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_TRST_N",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_TRST_N by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "Debug and reset",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_TMS",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_TMS by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Debug and reset",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_TDI",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_TDI by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Debug and reset",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_EMU0",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_EMU0 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Debug and reset",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_EMU1",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_EMU1 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Debug rails and power status",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PG_LED",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_PG_LED by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Debug rails and power status",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_PG_LED",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_PG_LED by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "Debug rails and power status",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PG_PULLDOWN",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_PG_PULLDOWN by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C144",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C144 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C145",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C145 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C146",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C146 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C147",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C147 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C148",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C148 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C149",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C149 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C150",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C150 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C151",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C151 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C176",
+      "railPin": "pin2",
+      "railType": "power",
+      "deltaSchRotation": "90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C176 by 90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C177",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C177 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C178",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C178 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C179",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C179 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C180",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C180 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C181",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C181 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C182",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C182 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C183",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C183 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C184",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C184 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C185",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C185 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C186",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C186 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C187",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C187 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C188",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_REF_C188 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_REF_C193",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate C_HDMI_REF_C193 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "FB_HDMI_FB10",
+      "railPin": "1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate FB_HDMI_FB10 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "FB_HDMI_FB11",
+      "railPin": "1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate FB_HDMI_FB11 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "FB_HDMI_FB12",
+      "railPin": "1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate FB_HDMI_FB12 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "FB_HDMI_FB13",
+      "railPin": "1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate FB_HDMI_FB13 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "FB_HDMI_FB5",
+      "railPin": "1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate FB_HDMI_FB5 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "FB_HDMI_FB9",
+      "railPin": "1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate FB_HDMI_FB9 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_1V2_EN",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_1V2_EN by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_1V2_IN",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_1V2_IN by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_1V2_EN",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_1V2_EN by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_5V_TOP",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_5V_TOP by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_HDMI_5V_BOTTOM",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate R_HDMI_5V_BOTTOM by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_5V_IN",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_5V_IN by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_5V_OUT1",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_5V_OUT1 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "C_HDMI_5V_OUT2",
+      "railPin": "pin1",
+      "railType": "power",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "up",
+      "message": "rotate C_HDMI_5V_OUT2 by -90\u00b0 so its power-connected pin faces up and the component is vertical"
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "HDMI_PVCC_1V2",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_REF_C144, C_HDMI_REF_C180",
+      "maxBodyGap": "35.35",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between HDMI_PVCC_1V2 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "HDMI_1V2",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_REF_C145, C_HDMI_REF_C146, C_HDMI_REF_C148",
+      "maxBodyGap": "17.561",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between HDMI_1V2 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "HDMI_IVDD_1V2",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_REF_C147, C_HDMI_REF_C149, C_HDMI_REF_C150, C_HDMI_REF_C151",
+      "maxBodyGap": "13.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between HDMI_IVDD_1V2 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "V3V3",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_REF_C176, C_HDMI_REF_C186, C_HDMI_1V2_IN, C_HDMI_5V_IN",
+      "maxBodyGap": "36",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "HDMI_3V3",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_REF_C177, C_HDMI_REF_C178, C_HDMI_REF_C179",
+      "maxBodyGap": "13.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between HDMI_3V3 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "HDMI_AVCC_1V2",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_REF_C181, C_HDMI_REF_C182, C_HDMI_REF_C183",
+      "maxBodyGap": "13.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between HDMI_AVCC_1V2 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "HDMI_DVDD_1V2",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_REF_C184, C_HDMI_REF_C185",
+      "maxBodyGap": "13.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between HDMI_DVDD_1V2 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "HDMI_OVDD_3V3",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_REF_C187, C_HDMI_REF_C188",
+      "maxBodyGap": "42.928",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between HDMI_OVDD_3V3 and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "HDMI power",
+      "rule": "DecouplingCapacitorsNotCloseTogether",
+      "rail": "HDMI_5V_SUPPLY",
+      "ground": "GND",
+      "capacitorNames": "C_HDMI_5V_OUT1, C_HDMI_5V_OUT2",
+      "maxBodyGap": "13.4",
+      "maxRecommendedBodyGap": "1",
+      "message": "Group the decoupling capacitors between HDMI_5V_SUPPLY and GND closer together in this schematic block. Preserve their net connections."
+    },
+    {
+      "sheet": "USB programming",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PROG_CC1",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_PROG_CC1 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "USB programming",
+      "rule": "TwoPinComponentShouldBeVertical",
+      "componentName": "R_PROG_CC2",
+      "railPin": "pin2",
+      "railType": "ground",
+      "deltaSchRotation": "-90",
+      "suggestedRailFacingDirection": "down",
+      "message": "rotate R_PROG_CC2 by -90\u00b0 so its ground-connected pin faces down and the component is vertical"
+    },
+    {
+      "sheet": "USB programming",
+      "rule": "ResistorSeparatedFromChipPin",
+      "hostComponentName": "J_USB_PROG",
+      "resistorName": "R_PROG_CC1",
+      "pinDistance": "13.756",
+      "maxRecommendedPinDistance": "4",
+      "message": "Place R_PROG_CC1 beside its connected pin on the left side of J_USB_PROG so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required."
+    },
+    {
+      "sheet": "USB programming",
+      "rule": "RailPathTooSpreadOut",
+      "hostName": "J_USB_PROG",
+      "pinName": "B5",
+      "railType": "ground",
+      "pathSpan": "31.225",
+      "pathLength": "31.725",
+      "message": "Visible path from J_USB_PROG.B5 to ground spans 31.22 schematic units; move the connected support elements closer together near the pin and recompute their schematic traces."
+    }
+  ]
+}
