@@ -1,0 +1,286 @@
+{
+  "nativeInputSha256": "62998380fd011639e783fe3384384cdea1165d48081486a2bfd236cb6970ac72",
+  "inventorySummary": {
+    "totalVias": 1208,
+    "throughVias": 636,
+    "nonThroughVias": 572,
+    "shortingConversions": 563,
+    "clearanceOnlyConversions": 9,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 1,
+    "nonPourConflicts": 571,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 20,
+    "checkSameNetViaSpacing": 1,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 1,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": false,
+    "nonzeroTraceSegmentCount": 8115,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": false,
+    "traceCopperShapeCount": 8186,
+    "traceCopperSha256": "14d1a25e8be530fa14e2d1098ee95f705ef9d4967c6e749547b6da758abcadbb",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": true,
+    "removedViaKeys": [],
+    "addedViaKeys": [],
+    "allRetainedViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 3,
+    "allNonzeroCenterlineSegmentsIncludingViaJoinsUnchanged": false,
+    "centerlineSegmentCountIncludingViaJoins": 8116,
+    "roundingMm": 1e-08,
+    "changedTraces": [
+      "CLOUD_LOCAL_0_NEXT_SD_CLK"
+    ],
+    "sdClockPlanarLengthBeforeMm": 31.215172426372398,
+    "sdClockPlanarLengthAfterMm": 32.05221610626682
+  },
+  "convertedViaInventory": [
+    {
+      "name": "V3V3_FEED_72",
+      "nets": "V3V3",
+      "x": "-10.575",
+      "y": "-4.75",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "CLOUD_GND_PAD_243",
+      "nets": "GND",
+      "x": "-11.674999999999997",
+      "y": "-10.775000000000002",
+      "oldFrom": "top",
+      "oldTo": "inner1"
+    },
+    {
+      "name": "CLOUD_GND_PAD_249",
+      "nets": "GND",
+      "x": "-9.49",
+      "y": "-3.25",
+      "oldFrom": "top",
+      "oldTo": "inner1"
+    }
+  ],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1234,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 531,
+    "failures": []
+  },
+  "referenceDelta": {
+    "comparisonIdentity": "net/signal-layer/reference-layer uncovered-area unions",
+    "checkerSha256": "113f55a4f0caab45eafa91fe7dd753e6924df0a6cb23fb334cd95858fd7d7efd",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "f9e82c8a6608bd5de95450a662a19ceaaa02fff2c24ef7999a6f9c7ee75bcb90",
+    "afterAnalysisSha256": "2d1bf90ff5b60b2641327754d6548597f62652603f0cda90873b025cd4a38b63",
+    "beforeNativeSha256": "09e0a45eefc0a0cdfa8a22d8a89a5f40ab56a7c7a67aa6bcd04e47c38e26c379",
+    "afterNativeSha256": "62998380fd011639e783fe3384384cdea1165d48081486a2bfd236cb6970ac72",
+    "newReferenceCuts": [
+      {
+        "trace": "CLOUD_LOCAL_0_NEXT_SD_CLK",
+        "net": "SD_CLK",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.03285419935539986,
+        "newUncoveredMm2": 0.03285419935539987,
+        "marginMm": 0.0,
+        "newBounds": [
+          -10.570242076827947,
+          -5.099531398709293,
+          -10.225468601290707,
+          -4.754757923172051
+        ]
+      },
+      {
+        "trace": "CLOUD_V1V8_REBUILD_43",
+        "net": "V1V8",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.0031412375995970958,
+        "newUncoveredMm2": 0.003141237599597095,
+        "marginMm": 0.0,
+        "newBounds": [
+          -10.250000000000002,
+          -4.878526096751523,
+          -10.225,
+          -4.679501140236452
+        ]
+      }
+    ],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-wakeup-relief/gerber/In1_Cu.gbr": "69d6ba8532991d50120a3d1625402119669f8b6c1e7fd4e8cb1fc6e68c9b862e",
+      "work/through-vias/native-wakeup-relief/gerber/In3_Cu.gbr": "df8a4d8a13785baeabcd84e7c50abf76abddd48cc87bd26890a6827bc65d30bb",
+      "work/through-vias/native-wakeup-relief/gerber/In6_Cu.gbr": "6aac504974794c06f41d8c3b8003ea1aa8d9126b6fda48a6932217a9f28c1381",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L2-L8.drl": "40360a93f2145426a9bffc39b5f3d7f69bb68a3e501c9b64b940a27e34709d1a",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L5-L6.drl": "fb8b269fa50fc3d5fefe4bdc478db2fdf416a39e9262f36bb48c5286f2e06037",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L1-L5.drl": "142a9b27ce5add2e0fbd0ade71cd872f89032ed29c97dbfba31229fff58a65b7",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L1-L4.drl": "f7a506f4d5c3f6fcc4baa0e1d59a7d1b1136bb00b5a8be5d1aa49ab55b06b016",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L1-L6.drl": "9581e87d7ba196bdacf47c8e8203aba0edf6a88c26035029df13c36b35755b8b",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L1-L7.drl": "5162de922eb0a7c1677b3d0078770c3bcdf0296a32cc716c4b2c7d8d269491bc",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L1-L3.drl": "6ac47e3c0c1c172d68c8d0b23b5d4f2eae865abf61415336f83acd04db095af7",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L3-L6.drl": "146a67830db7175a047ab3bdc111d5fd590f7828bffbcae7e8950d436336018f",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L1-L2.drl": "e455db05ce6e06b8bd18cfea9f3081d11f4cf9030f424b606db2f9cdb2c7be70",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L3-L5.drl": "c1d89940786297049f834fc3f9cbaea883f030faa2494e2f813e936e11c70144",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L6-L8.drl": "1dc8ca89624c150ca048796415d2bc8c84ebc4d0d54b4ea4a53365564de2e5fb",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L3-L8.drl": "670529cc81dc1b0557b5ac94c2e58215fb2723a006ca8898b0dbe127bb97137b",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L4-L7.drl": "84f211e6c6d8691536c9174f182eb2e640dff47af47cf82bf660108c9b96e46c",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L1-L8.drl": "073224537c8c61bcd584049d57626424fe321f01047a29d5b79e9ce1107b60b9",
+      "work/through-vias/native-wakeup-relief/gerber/drill_npth.drl": "5d43c9e5507db9544bcd3107ca12d928e4a78dd192ef5c87f67e686f2ed7bcc3",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L5-L8.drl": "71c64865037b1b179a476932a374fb1a99a9f1fb32e665cff157767024de9717",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L2-L4.drl": "359e3d0ceec966b604a9ae9309c750535fcbf2582c3af8e8450a97432d61e20c",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L7-L8.drl": "f761c4af00f20b71624199af167c64e1390f2f4440810f158ebde752e83d01c8",
+      "work/through-vias/native-wakeup-relief/gerber/drill-L2-L7.drl": "806c1f343e2f1444708d9ff7b4849d8b36719210379f73696a80e8c022d1b7a4",
+      "work/through-vias/native-sd-clock-relief/gerber/In1_Cu.gbr": "4740173b22616465250ab2c6116d4e1d2d5bbd65a4e5e10794b66a3df274f075",
+      "work/through-vias/native-sd-clock-relief/gerber/In3_Cu.gbr": "4db839282859d6883161cb8290e085ba63e19f3bb95abea9e193352dadaf371d",
+      "work/through-vias/native-sd-clock-relief/gerber/In6_Cu.gbr": "6ac2a321463fb9a5879b1dfe0c8fe924be5e38e97e5d8ed3f5ece0f411fa5de2",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L2-L8.drl": "d6bf1a08778fe081789e699e1cb7b5c4f4758a93483b7ba4b23678ee45895bf2",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L5-L6.drl": "c96e06167c4402289268008b276414d48bd254c12b78afe0729d0974ccd692e9",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L1-L5.drl": "754697405b735ec3717913deae5c887eaab705489ce9d2f7b42da9791a546d91",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L1-L4.drl": "0018ee2d5c3b123e4c709aa1d2dfc9be98bd0d7463e60084e1da1054794ee6dd",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L1-L6.drl": "fd5fd6c4829523bf660e837861765fcd57fb80b49115d08f27385a96f390ec55",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L1-L7.drl": "35397e00a76933ea6988e0739339a68f0e4f11639a7cdbc304e9e3ab7f60bd12",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L1-L3.drl": "28a6a9db6a16b18e3d4079177f961ddd5584233b06790744bee57ab19074bf34",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L3-L6.drl": "7ad41828738c9565edb2c048b12f14a41c8b6074eb449817f7eef83c44419266",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L1-L2.drl": "23a8963fdba07fac314a0a134f0c7c3365e1bc95945cf6e327a5fe0f332b36b4",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L3-L5.drl": "4f9d9fe08a814ffb650cfe6bc0bbd331dc21fb0550f82970c77733b850f9adf6",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L6-L8.drl": "05031640271eef009f190e860e1f33f237a11ca9fc22e09244d89890462d3046",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L3-L8.drl": "941efa2d7898ec8a433fcd4c1f213194565f289233da993349a644ef180449f8",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L4-L7.drl": "c88ce7a3f0aa3a82f337b134a9397a9fba730d9160396009c1a5e0df378d0687",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L1-L8.drl": "065cf5aaece99bfebee050f792b3f6bb0d2e7b0d2395f7f441cc94fdda86a81e",
+      "work/through-vias/native-sd-clock-relief/gerber/drill_npth.drl": "8b6e4b313cadc7f1bb14593c563e327ae2cae97ee59c2eea3c277eb9981708bd",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L5-L8.drl": "1fb37bb4ce11781daea8969c60a8e6d7311e8f1e1224d6ca14ab7e79730a0a98",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L2-L4.drl": "bee914b52f2877b757f00267618cc2d1ab5384b8d1815fe740d24152a3317dc9",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L7-L8.drl": "f6b2938fc8218946a6ec0b01e15d602f9967022054f517052e96d039f7b0e21d",
+      "work/through-vias/native-sd-clock-relief/gerber/drill-L2-L7.drl": "54ffd43351fdf769a35de7c32a030f07b60548e840841e948058ca7271449178"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  },
+  "quality": {
+    "placementCounts": {
+      "checkPcbComponentOverlap": 0,
+      "checkPcbComponentsMissingCourtyard": 15,
+      "checkPcbCourtyardOverKeepout": 0
+    },
+    "fullPlacementCounts": {
+      "pcb_component_outside_board_error": 5,
+      "pcb_component_missing_courtyard_warning": 15,
+      "pcb_courtyard_overlap_error": 3,
+      "pcb_connector_not_in_accessible_orientation_warning": 1
+    },
+    "traceCount": 653,
+    "sharpTurnTraceCount": 86,
+    "changedTrace": {
+      "name": "CLOUD_LOCAL_0_NEXT_SD_CLK",
+      "planarLengthMm": 32.05221610626681,
+      "endpointManhattanMm": 30.810000000000002,
+      "detourRatio": 1.0403186013069396,
+      "maximumSampledTurnDegrees": 90,
+      "turnsAbove45": 5,
+      "reversalsAbove135": 0
+    },
+    "inheritedSharpCornersUnchanged": true,
+    "limitations": [
+      "placement preserves the original three-check subset for historical comparison; fullPlacement contains the complete upstream placement suite without suppression.",
+      "Supplemental geometry metrics only; run cloud-trace-lint.ts separately for the official trace-style analyzer.",
+      "Curved routes are sampled; small successive turns do not establish deliberate path quality. Inspect enlarged native layer images.",
+      "Lengths are planar geometry, not electrical timing or impedance checks."
+    ]
+  }
+}
