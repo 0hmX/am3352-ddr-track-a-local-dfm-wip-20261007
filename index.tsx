@@ -1,3 +1,4 @@
+import {HdmiSurfaceGround} from "./layout/HdmiSurfaceGround"
 import {withDdrFineThroughEndpointNudges} from "./layout/DdrFineThroughEndpointNudges"
 import {withEthernetThroughEndpointNudges} from "./layout/EthernetThroughEndpointNudges"
 import {withDdrThroughEndpointNudges} from "./layout/DdrThroughEndpointNudges"
@@ -230,6 +231,7 @@ export default function Board() {
     <UsbCPortRoutes />
   <CpuSurfaceGround />
   <DdrSurfaceGround />
+  <HdmiSurfaceGround />
 <CpuPowerSurfaceStubs />
 </board>)))))))))))))))))))))))))))))))))))))))))))
 }
