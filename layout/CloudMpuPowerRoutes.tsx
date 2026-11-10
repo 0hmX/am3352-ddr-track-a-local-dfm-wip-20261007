@@ -922,33 +922,9 @@ export const returns=[
     "outerDiameter": 0.3
   },
 
-  {
-    "name": "MPU_GND_RETURN_2",
-    "x": 12.1,
-    "y": 5.0,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3
-  },
-  {
-    "name": "MPU226_GND_RETURN_1",
-    "x": 20.2,
-    "y": 4.4,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3
-  },
-  {
-    "name": "MPU226_GND_RETURN_2",
-    "x": 20.2,
-    "y": 8.3,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3
-  },
+
+
+
   {
     "name": "MPU226_GND_RETURN_3",
     "x": 9.0,

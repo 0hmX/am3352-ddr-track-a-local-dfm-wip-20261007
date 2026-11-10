@@ -4983,12 +4983,7 @@ export const cloudEthernetRoutes = [
   }
 ]
 export const cloudEthernetGroundStitches = [
-  {
-    "x": 14.500000000000007,
-    "y": 9.95,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_ETH_RETURN_0: auxiliary Ground stitch removed; see validation. */,
   {
     "x": 7.249999999999999,
     "y": 2.849999999999997,
@@ -5037,12 +5032,7 @@ export const cloudEthernetGroundStitches = [
     "fromLayer": "inner1",
     "toLayer": "inner6"
   },
-  {
-    "x": 35.09,
-    "y": 13.2,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_ETH_RETURN_9: auxiliary Ground stitch removed; see validation. */,
   {
     "x": 41.3,
     "y": -5.275,
@@ -5057,28 +5047,8 @@ export const cloudEthernetGroundStitches = [
     "toLayer": "inner6"
   },
   null /* CLOUD_ETH_RETURN_13: auxiliary Ground stitch removed; see validation. */,
-  {
-    "name": "PHY_CENTERED_RETURN_RMII1_TXD1_ISO",
-    "net": "GND",
-    "x": 37.24,
-    "y": 11.2,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "distanceMm": 0.5
-  },
-  {
-    "name": "PHY_CENTERED_RETURN_RMII1_REFCLK_ISO",
-    "net": "GND",
-    "x": 41.912455,
-    "y": 10.340393,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "distanceMm": 0.500000321473897
-  },
+  null /* CLOUD_ETH_RETURN_14: auxiliary Ground stitch removed; see validation. */,
+  null /* CLOUD_ETH_RETURN_15: auxiliary Ground stitch removed; see validation. */,
   {
     "net": "GND",
     "name": "ETH_ENDPOINT_RETURN_RMII1_TXD1_DAMPED",

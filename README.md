@@ -67,3 +67,6 @@ leave **422 non-through vias**, preserving all original route centerlines and ve
 
 CPU peripheral ground: [wider native fills replace nineteen more blind pad vias](docs/through-vias/cpu-peripheral-pad-removal-increment.md)
 leaves **403 non-through vias**, with unchanged trace copper and verified connectivity.
+
+Ethernet relief: [ten auxiliary stitches removed and two endpoint barrels moved through in TSX](docs/through-vias/ethernet-through-relief-increment.md)
+leaves **391 non-through vias**, with all original route centerlines preserved and connectivity verified.

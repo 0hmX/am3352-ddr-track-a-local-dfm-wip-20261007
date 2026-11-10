@@ -5405,22 +5405,7 @@ export const localReturnStitches=[
     "distance": 0.55
   },
   null /* CLOUD_LOCAL_RETURN_11: auxiliary Ground stitch removed; see validation. */,
-  {
-    "x": 18.111091270347398,
-    "y": 0.31109127034739814,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "signalTransition": {
-      "x": 18.5,
-      "y": 0.6999999999999993,
-      "fromLayer": "inner2",
-      "toLayer": "bottom",
-      "fromGroundLayer": "inner1",
-      "toGroundLayer": "inner6",
-      "trace": "CLOUD_LOCAL_INPUT8_REPAIR_V2_3_NEXT_WARMRST_N"
-    },
-    "distance": 0.55
-  }
+  null /* CLOUD_LOCAL_RETURN_12: auxiliary Ground stitch removed; see validation. */
 ]
 export function CloudLocalRoutes(){return <group name="CloudLocalRoutes" pcbX={0} pcbY={0} pcbRelative pcbStyle={{viaHoleDiameter:.15,viaPadDiameter:.3}}><via name="RTC_RESET_CPU_THROUGH" pcbX={-6} pcbY={-3.6} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo=".Processor > .U1 > .B5"><port name="inner4" layer="inner4" ref={p=>p?.registerMatch(p.parent as any)}/></via>{cloudLocalRoutes.map((r:any)=>{
 const sections=r.sections??[{layer:r.layer,points:r.points}],first=sections[0].points[0],last=sections.at(-1).points.at(-1),path:any[]=[r.from];
