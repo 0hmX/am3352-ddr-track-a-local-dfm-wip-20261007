@@ -40,3 +40,6 @@ leave **572 non-through vias**; all 686 native connectivity entries remain conne
 
 CPU-area ground simplification: [four redundant pad barrels removed in native TSX](docs/through-vias/cpu-ground-pad-removal-increment.md)
 leaves **568 non-through vias**, with unchanged trace copper and verified connectivity.
+
+CPU-area ground links: [28 native surface links replace blind pad barrels](docs/through-vias/cpu-ground-surface-increment.md)
+leave **540 non-through vias**, preserving every original trace centerline and verified connectivity.

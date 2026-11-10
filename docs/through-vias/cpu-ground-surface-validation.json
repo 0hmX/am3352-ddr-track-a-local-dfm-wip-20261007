@@ -1,0 +1,811 @@
+{
+  "nativeInputSha256": "fb92286220f1d13d7f7fda3342e4c0cb9a6b6aed26a33aa2d1ef6ccc3293ea76",
+  "inventorySummary": {
+    "totalVias": 1176,
+    "throughVias": 636,
+    "nonThroughVias": 540,
+    "shortingConversions": 533,
+    "clearanceOnlyConversions": 7,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 1,
+    "nonPourConflicts": 539,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 16,
+    "checkSameNetViaSpacing": 1,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 0,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": false,
+    "nonzeroTraceSegmentCount": 8159,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": false,
+    "traceCopperShapeCount": 8232,
+    "traceCopperSha256": "20912cb55250bb9c099c42883def014e2fd137fa25e547c6a8cede630b015f22",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": false,
+    "removedViaKeys": [
+      "[\"GND\",-0.4,-0.4,0.15,0.3]",
+      "[\"GND\",-0.4,-2,0.15,0.3]",
+      "[\"GND\",-0.4,-2.8,0.15,0.3]",
+      "[\"GND\",-0.4,0.4,0.15,0.3]",
+      "[\"GND\",-0.83,-2,0.15,0.3]",
+      "[\"GND\",-1.2,-0.4,0.15,0.3]",
+      "[\"GND\",-1.2,-2,0.15,0.3]",
+      "[\"GND\",-2,-0.4,0.15,0.3]",
+      "[\"GND\",-2.33,-2,0.15,0.3]",
+      "[\"GND\",-3.6,-1.2,0.15,0.3]",
+      "[\"GND\",-6.8,-0.4,0.15,0.3]",
+      "[\"GND\",-6.8,-1.2,0.15,0.3]",
+      "[\"GND\",-6.8,-2,0.15,0.3]",
+      "[\"GND\",-7.7,-6.25,0.15,0.3]",
+      "[\"GND\",-9.51,-2.25,0.15,0.3]",
+      "[\"GND\",0.4,0.4,0.15,0.3]",
+      "[\"GND\",0.4,1.2,0.15,0.3]",
+      "[\"GND\",0.475,1.8,0.15,0.3]",
+      "[\"GND\",0.67,3,0.15,0.3]",
+      "[\"GND\",0.99,-2.5,0.15,0.3]",
+      "[\"GND\",1.2,0.4,0.15,0.3]",
+      "[\"GND\",1.825,5.33,0.15,0.3]",
+      "[\"GND\",2,-1.2,0.15,0.3]",
+      "[\"GND\",2,-2,0.15,0.3]",
+      "[\"GND\",2,-2.8,0.15,0.3]",
+      "[\"GND\",5.5,-8.09,0.15,0.3]",
+      "[\"GND\",7.5875,1.75,0.15,0.3]",
+      "[\"GND\",7.74,3.5,0.15,0.3]"
+    ],
+    "addedViaKeys": [],
+    "allRetainedViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 0,
+    "allNonzeroCenterlineSegmentsIncludingViaJoinsUnchanged": false,
+    "centerlineSegmentCountIncludingViaJoins": 8160,
+    "roundingMm": 1e-08,
+    "changedTraces": [
+      "STD_GROUND_SURFACE_10",
+      "STD_GROUND_SURFACE_11",
+      "STD_GROUND_SURFACE_13",
+      "STD_GROUND_SURFACE_15",
+      "STD_GROUND_SURFACE_19",
+      "STD_GROUND_SURFACE_25",
+      "STD_GROUND_SURFACE_28",
+      "STD_GROUND_SURFACE_29",
+      "STD_GROUND_SURFACE_30",
+      "STD_GROUND_SURFACE_35",
+      "STD_GROUND_SURFACE_41",
+      "STD_GROUND_SURFACE_65",
+      "STD_GROUND_SURFACE_73",
+      "STD_GROUND_SURFACE_138",
+      "STD_GROUND_SURFACE_171",
+      "STD_GROUND_SURFACE_225",
+      "STD_GROUND_SURFACE_5",
+      "STD_GROUND_SURFACE_6",
+      "STD_GROUND_SURFACE_7",
+      "STD_GROUND_SURFACE_24",
+      "STD_GROUND_SURFACE_34",
+      "STD_GROUND_SURFACE_36",
+      "STD_GROUND_SURFACE_69",
+      "STD_GROUND_SURFACE_88",
+      "STD_GROUND_SURFACE_154",
+      "STD_GROUND_SURFACE_155",
+      "STD_GROUND_SURFACE_165",
+      "STD_GROUND_SURFACE_209"
+    ],
+    "allOriginalTraceCenterlinesPreserved": true
+  },
+  "convertedViaInventory": [],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1202,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 499,
+    "failures": []
+  },
+  "referenceDelta": {
+    "comparisonIdentity": "net/signal-layer/reference-layer uncovered-area unions",
+    "checkerSha256": "113f55a4f0caab45eafa91fe7dd753e6924df0a6cb23fb334cd95858fd7d7efd",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "e27f0088370d208bd116f04d159869e7b89cbd191ca3215462044b2b9c4ee4e5",
+    "afterAnalysisSha256": "fd622a9b0598b69baf0e25c289c04a09ac04edc11802554ab022d14c6b7f3d3e",
+    "beforeNativeSha256": "ac317b9d5dbf2ebc4f04b30e491d7ce14c50c74dcef5ee413dd74a46c767fdf1",
+    "afterNativeSha256": "fb92286220f1d13d7f7fda3342e4c0cb9a6b6aed26a33aa2d1ef6ccc3293ea76",
+    "newReferenceCuts": [],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/In1_Cu.gbr": "c4fc0feee032e6434750a3d137b3640c614e32a19710da8ec3fbc6f855426cb0",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/In3_Cu.gbr": "b788de398d6b07f7513e54bbd72ad5b2dcbad76be403b692301f23433a025e90",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/In6_Cu.gbr": "2f3a43f993c4714cfc5765b0ce2e33a2078fd481b22ec7afa1cc5a6340eb2d72",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L2-L8.drl": "513665974a1bbeb6d166913c9b61632f6bc848cc0bb602d6cd32a91d2f90fa47",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L5-L6.drl": "27caf8f0bb695fb8aa0eaf1b9f427546770806bd0360fcc6f95a7699d2e8c06f",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L1-L5.drl": "eac5ac3f9d7faa5554f44a2643108df322a42f8015729c7b3eba86ce85bd745c",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L1-L4.drl": "7bcdd090bbc969debf3134176ac2205a270f6fe1f0f673fbf595e00b9aff2a4d",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L1-L6.drl": "d16656672e92cccb6166ec237ec70c3f1690ccea13a240690a3390ec6ca30bf1",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L1-L7.drl": "3a6156f34bf15716d1c6c87552210ac73c309186ac3bdff416730c3da833593c",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L1-L3.drl": "ffd9290bdfc8c592ce96589d2c0895fa78b40f944185f1fdeb0c692872862843",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L3-L6.drl": "0167c1526793211a9cdd59261a67d7215596506048a791a484d50cd0c395fddf",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L1-L2.drl": "afdac6c27be32c6249f92427e6e251e7c1a1f56d670015c896edcb7d174512c0",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L3-L5.drl": "37ba58603ea54493a8b7445505cc4253fa3e9c68f3513006865e78ec29a18492",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L6-L8.drl": "b5964997e35fa75416d2305f06f2aea3dcd02fd04d043c207a137c75ea7c57af",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L3-L8.drl": "8847986f1f9f600fdccec1796e9b98988d529763d049433e564deee3df5e211a",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L4-L7.drl": "ef7ae76c433352ef6dc24ec0e22b89098db4ed9afb9a296d08b545c37e520f40",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L1-L8.drl": "438c1d0866e146b299b8a3a79bfde94eb813e9073521bcb87d2f7c15649f9433",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill_npth.drl": "4426ee4d8192c3a6e99ad6251bed9985902dbf7d82b156458a5abbd124ac45d7",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L5-L8.drl": "bc52874f8aa6878ce3b1b5231ee24cb88b6a65b962ec8d96c8514c60d921720d",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L2-L4.drl": "1d18507a544851b6484e39ef015703f4b8d4dc26655d49c9b0508b76b19d7f5a",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L7-L8.drl": "58fb962be9c549a28660a9bc91014ac7cbe2360a963c23db5d9654af433a94f1",
+      "work/through-vias/native-cpu-ground-pad-removal/gerber/drill-L2-L7.drl": "8a878f1bf7d7a117122eb683093667995e7ae424b70030a174285ee2cc50ea59",
+      "work/through-vias/native-cpu-ground-surface/gerber/In1_Cu.gbr": "515a8bd695a8aa7c29c4a0df8e5a91025503588b94864ca925f7215ef18ccacf",
+      "work/through-vias/native-cpu-ground-surface/gerber/In3_Cu.gbr": "31985af7cdf2217181fc747a71a15aaea9c47fd546fe91c725a4b05da4441b90",
+      "work/through-vias/native-cpu-ground-surface/gerber/In6_Cu.gbr": "cbb25b612553f618ef08fef467869768826639dee92681c99ec848e21266d1bf",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L2-L8.drl": "9654449b5f12c53b85c1ad7a779cb82464d6092ee56d82ded6c71a374e4e4a95",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L5-L6.drl": "18b4b735ee6512f46afbd9b41221c7dfc0203b8acccea622ece3fa7967496871",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L1-L5.drl": "ef8ec1ab3d118e3244c57d37f0a87d27adbcf549d583a438643fac98a7d06109",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L1-L4.drl": "238bbeb881cda80628e79f095d7e5410c57287574894588dc7aabe59d7f77dbd",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L1-L6.drl": "f8cee6865746e77aca5ef9b522b5b5d3d23a471474abe351b7035db564b62d45",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L1-L7.drl": "2d38af725c7b6ddc15e7050d8fba527e0f172f19310f305cd01c55968fbf9d35",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L1-L3.drl": "e81a517bc07192f48eb052ee86982153141d4a49b91207d7431c51cfb13cfab8",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L3-L6.drl": "9de0538b4ad7df01bfc585477d2ef32184057d0a715c540be1c9662ad2f17dc6",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L1-L2.drl": "e7207c44a04114af9c5de9b44c31d781ad26179a37069d276718ef6fc0d6ef45",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L3-L5.drl": "d2bf9583e31a8aece35d58fa53615f4931d31e87cf4389e4c01deb9ff56d018d",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L6-L8.drl": "16d3cd12cf1077677d9e1384488db4823f5ecff2c29644f13346d2083649b59f",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L3-L8.drl": "9589ea35ad82dbf45e87ea894a40f1f126e1e7735f9446411b1dd69ebbe4eafb",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L4-L7.drl": "925414738d73f5fc74d70740e7c17af6f58eb48ae0ac9480f71464868b6a923e",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L1-L8.drl": "cf8befe6720463fdf7a2d891b864b60dde2a042c63d392e87319d6b426551fa5",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill_npth.drl": "e0ee3a6e6df10c77d4d89ceef875029a0c11ea2a26171640cf967e41988dfd4d",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L5-L8.drl": "e82473f7cfbd191963e75ff1c2a8108150e5d33d97e56187e24a35225ac2cf37",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L2-L4.drl": "67cc5719995d1dcc8a128965ffebdb4340835879e766317c02157951f4c9594f",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L7-L8.drl": "c92c1f25b9285d140a6938ed199fbb623f66461fba00d7cb453203a2ef074a18",
+      "work/through-vias/native-cpu-ground-surface/gerber/drill-L2-L7.drl": "aba0b9204ecb5fb58001746ca81624d02c42968e005e24c2320db4862a5c8cf3"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  },
+  "removedPadViaInventory": [
+    {
+      "name": "CLOUD_GND_PAD_10",
+      "index": "10",
+      "selector": ".Processor > .U1 > .H7",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_22",
+      "distanceMm": "0.7999999999999998"
+    },
+    {
+      "name": "CLOUD_GND_PAD_11",
+      "index": "11",
+      "selector": ".Processor > .U1 > .J7",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_23",
+      "distanceMm": "0.7999999999999998"
+    },
+    {
+      "name": "CLOUD_GND_PAD_13",
+      "index": "13",
+      "selector": ".Processor > .U1 > .M7",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_14",
+      "distanceMm": "0.8000000000000003"
+    },
+    {
+      "name": "CLOUD_GND_PAD_15",
+      "index": "15",
+      "selector": ".Processor > .U1 > .A8",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_70",
+      "distanceMm": "0.5015974481593773"
+    },
+    {
+      "name": "CLOUD_GND_PAD_19",
+      "index": "19",
+      "selector": ".Processor > .U1 > .E8",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_20",
+      "distanceMm": "0.7999999999999998"
+    },
+    {
+      "name": "CLOUD_GND_PAD_25",
+      "index": "25",
+      "selector": ".Processor > .U1 > .A9",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_70",
+      "distanceMm": "0.7560423268574313"
+    },
+    {
+      "name": "CLOUD_GND_PAD_28",
+      "index": "28",
+      "selector": ".Processor > .U1 > .G9",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_21",
+      "distanceMm": "0.8000000000000002"
+    },
+    {
+      "name": "CLOUD_GND_PAD_29",
+      "index": "29",
+      "selector": ".Processor > .U1 > .H9",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_22",
+      "distanceMm": "0.8000000000000002"
+    },
+    {
+      "name": "CLOUD_GND_PAD_30",
+      "index": "30",
+      "selector": ".Processor > .U1 > .J9",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_31",
+      "distanceMm": "0.8"
+    },
+    {
+      "name": "CLOUD_GND_PAD_35",
+      "index": "35",
+      "selector": ".Processor > .U1 > .K10",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_31",
+      "distanceMm": "0.8"
+    },
+    {
+      "name": "CLOUD_GND_PAD_41",
+      "index": "41",
+      "selector": ".Processor > .U1 > .K11",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_LOCAL_RETURN_5",
+      "distanceMm": "0.5024937810560445"
+    },
+    {
+      "name": "CLOUD_GND_PAD_65",
+      "index": "65",
+      "selector": ".Processor > .C_VDD_MPU_1 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_LOCAL_RETURN_5",
+      "distanceMm": "0.7956915231419774"
+    },
+    {
+      "name": "CLOUD_GND_PAD_73",
+      "index": "73",
+      "selector": ".Processor > .C_VDDS_3 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_ETH_RETURN_12",
+      "distanceMm": "0.8050465825031491"
+    },
+    {
+      "name": "CLOUD_GND_PAD_138",
+      "index": "138",
+      "selector": ".DDR3 > .C_VREF_2 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_GND_PAD_12",
+      "distanceMm": "0.7733692520394123"
+    },
+    {
+      "name": "CLOUD_GND_PAD_171",
+      "index": "171",
+      "selector": ".DDR3 > .C_SOC_DDR_18 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "MDIO_I4_RETURN_0",
+      "distanceMm": "0.4273620723484949"
+    },
+    {
+      "name": "CLOUD_GND_PAD_225",
+      "index": "225",
+      "selector": ".Boot_and_clock > .R_BOOT3 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "SYS4_SHARED_CPU_RETURN",
+      "distanceMm": "0.7523961722390666"
+    },
+    {
+      "name": "CLOUD_GND_PAD_5",
+      "index": "5",
+      "selector": ".Processor > .U1 > .J6",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_12",
+      "distanceMm": "1.1313708498984762"
+    },
+    {
+      "name": "CLOUD_GND_PAD_6",
+      "index": "6",
+      "selector": ".Processor > .U1 > .M6",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_14",
+      "distanceMm": "1.1313708498984765"
+    },
+    {
+      "name": "CLOUD_GND_PAD_7",
+      "index": "7",
+      "selector": ".Processor > .U1 > .A7",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_70",
+      "distanceMm": "1.1007270324653606"
+    },
+    {
+      "name": "CLOUD_GND_PAD_24",
+      "index": "24",
+      "selector": ".Processor > .U1 > .M8",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_14",
+      "distanceMm": "1.1313708498984762"
+    },
+    {
+      "name": "CLOUD_GND_PAD_34",
+      "index": "34",
+      "selector": ".Processor > .U1 > .J10",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_LOCAL_RETURN_5",
+      "distanceMm": "0.9013878188659973"
+    },
+    {
+      "name": "CLOUD_GND_PAD_36",
+      "index": "36",
+      "selector": ".Processor > .U1 > .L10",
+      "layer": "top",
+      "oldFrom": "top",
+      "oldTo": "inner1",
+      "targetThrough": "CLOUD_GND_PAD_31",
+      "distanceMm": "1.1313708498984762"
+    },
+    {
+      "name": "CLOUD_GND_PAD_69",
+      "index": "69",
+      "selector": ".Processor > .C_VDDS_B > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_ETH_RETURN_12",
+      "distanceMm": "0.9520537012164809"
+    },
+    {
+      "name": "CLOUD_GND_PAD_88",
+      "index": "88",
+      "selector": ".Processor > .C_IO4_0 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_GND_PAD_249",
+      "distanceMm": "1.000199980003999"
+    },
+    {
+      "name": "CLOUD_GND_PAD_154",
+      "index": "154",
+      "selector": ".DDR3 > .C_SOC_DDR_1 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_GND_PAD_21",
+      "distanceMm": "0.8653900854527973"
+    },
+    {
+      "name": "CLOUD_GND_PAD_155",
+      "index": "155",
+      "selector": ".DDR3 > .C_SOC_DDR_2 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "CLOUD_GND_PAD_22",
+      "distanceMm": "0.8814193099768123"
+    },
+    {
+      "name": "CLOUD_GND_PAD_165",
+      "index": "165",
+      "selector": ".DDR3 > .C_SOC_DDR_12 > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "SYSBOOT4_RETURN_0",
+      "distanceMm": "0.9964409202662243"
+    },
+    {
+      "name": "CLOUD_GND_PAD_209",
+      "index": "209",
+      "selector": ".Power_management > .C_RTC_LDO > .pin2",
+      "layer": "bottom",
+      "oldFrom": "bottom",
+      "oldTo": "inner6",
+      "targetThrough": "MPU_GND_RETURN_0",
+      "distanceMm": "0.8558621384311841"
+    }
+  ],
+  "quality": {
+    "placementCounts": {
+      "checkPcbComponentOverlap": 0,
+      "checkPcbComponentsMissingCourtyard": 15,
+      "checkPcbCourtyardOverKeepout": 0
+    },
+    "fullPlacementCounts": {
+      "pcb_component_outside_board_error": 5,
+      "pcb_component_missing_courtyard_warning": 15,
+      "pcb_courtyard_overlap_error": 3,
+      "pcb_connector_not_in_accessible_orientation_warning": 1
+    },
+    "traceCount": 681,
+    "sharpTurnTraceCount": 86,
+    "addedGroundLinks": [
+      {
+        "name": "STD_GROUND_SURFACE_10",
+        "planarLengthMm": 0.7999999999999998,
+        "endpointManhattanMm": 0.7999999999999998,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_11",
+        "planarLengthMm": 0.7999999999999998,
+        "endpointManhattanMm": 0.7999999999999998,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_13",
+        "planarLengthMm": 0.8000000000000003,
+        "endpointManhattanMm": 0.8000000000000003,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_15",
+        "planarLengthMm": 0.5428427124746182,
+        "endpointManhattanMm": 0.6599999999999993,
+        "detourRatio": 0.822488958294877,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_19",
+        "planarLengthMm": 0.7999999999999998,
+        "endpointManhattanMm": 0.7999999999999998,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_25",
+        "planarLengthMm": 0.7905382386916233,
+        "endpointManhattanMm": 1.0599999999999992,
+        "detourRatio": 0.7457907912185131,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_28",
+        "planarLengthMm": 0.8000000000000002,
+        "endpointManhattanMm": 0.8000000000000002,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_29",
+        "planarLengthMm": 0.8000000000000002,
+        "endpointManhattanMm": 0.8000000000000002,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_30",
+        "planarLengthMm": 0.8,
+        "endpointManhattanMm": 0.8,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_35",
+        "planarLengthMm": 0.8,
+        "endpointManhattanMm": 0.8,
+        "detourRatio": 1,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_41",
+        "planarLengthMm": 0.5207106781186547,
+        "endpointManhattanMm": 0.5499999999999998,
+        "detourRatio": 0.9467466874884634,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_65",
+        "planarLengthMm": 0.8028174593052022,
+        "endpointManhattanMm": 1.125,
+        "detourRatio": 0.713615519382402,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_73",
+        "planarLengthMm": 0.8372792206135783,
+        "endpointManhattanMm": 0.8899999999999997,
+        "detourRatio": 0.94076316922874,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_138",
+        "planarLengthMm": 0.7971067811865475,
+        "endpointManhattanMm": 1.0899999999999999,
+        "detourRatio": 0.7312906249417869,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_171",
+        "planarLengthMm": 0.46134800188359326,
+        "endpointManhattanMm": 0.5737200000000002,
+        "detourRatio": 0.8041344242550252,
+        "maximumSampledTurnDegrees": 44.99999999999993,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_225",
+        "planarLengthMm": 0.814264068711928,
+        "endpointManhattanMm": 0.9899999999999993,
+        "detourRatio": 0.8224889582948773,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_5",
+        "planarLengthMm": 1.1313708498984762,
+        "endpointManhattanMm": 1.6000000000000003,
+        "detourRatio": 0.7071067811865476,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_6",
+        "planarLengthMm": 1.1313708498984765,
+        "endpointManhattanMm": 1.6000000000000005,
+        "detourRatio": 0.7071067811865476,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_7",
+        "planarLengthMm": 1.1905382386916235,
+        "endpointManhattanMm": 1.459999999999999,
+        "detourRatio": 0.8154371497887837,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_24",
+        "planarLengthMm": 1.1313708498984758,
+        "endpointManhattanMm": 1.6,
+        "detourRatio": 0.7071067811865474,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_34",
+        "planarLengthMm": 0.9742640687119285,
+        "endpointManhattanMm": 1.15,
+        "detourRatio": 0.8471861467060249,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_36",
+        "planarLengthMm": 1.1313708498984762,
+        "endpointManhattanMm": 1.6,
+        "detourRatio": 0.7071067811865476,
+        "maximumSampledTurnDegrees": 0,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_69",
+        "planarLengthMm": 0.9758883476483187,
+        "endpointManhattanMm": 1.0125000000000002,
+        "detourRatio": 0.9638403433563639,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_88",
+        "planarLengthMm": 1.0082842712474618,
+        "endpointManhattanMm": 1.0199999999999996,
+        "detourRatio": 0.9885139914190806,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_154",
+        "planarLengthMm": 0.9366904755831212,
+        "endpointManhattanMm": 1.13,
+        "detourRatio": 0.8289296244098419,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_155",
+        "planarLengthMm": 0.953259018078045,
+        "endpointManhattanMm": 1.17,
+        "detourRatio": 0.8147512975026027,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_165",
+        "planarLengthMm": 1.0466184036717028,
+        "endpointManhattanMm": 1.393609,
+        "detourRatio": 0.7510129481595647,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      },
+      {
+        "name": "STD_GROUND_SURFACE_209",
+        "planarLengthMm": 0.891421356237309,
+        "endpointManhattanMm": 0.9499999999999993,
+        "detourRatio": 0.9383382697234839,
+        "maximumSampledTurnDegrees": 45,
+        "turnsAbove45": 0,
+        "reversalsAbove135": 0
+      }
+    ],
+    "limitations": [
+      "placement preserves the original three-check subset for historical comparison; fullPlacement contains the complete upstream placement suite without suppression.",
+      "Supplemental geometry metrics only; run cloud-trace-lint.ts separately for the official trace-style analyzer.",
+      "Curved routes are sampled; small successive turns do not establish deliberate path quality. Inspect enlarged native layer images.",
+      "Lengths are planar geometry, not electrical timing or impedance checks."
+    ]
+  }
+}
