@@ -1,0 +1,142 @@
+{
+  "pcb_board": {
+    "count": 1,
+    "sha256": "aa46de17fbb168b1f3d3ebcd6bc978c173ccffe61bc51c4efe924c8e87b3db8b"
+  },
+  "pcb_component": {
+    "count": 1152,
+    "sha256": "d51aa291f25f9b4e9cbe3b2462ebddf715826b62b2ae35275d34b2bbd7b44d12"
+  },
+  "pcb_copper_pour": {
+    "count": 362,
+    "sha256": "0f06fead64ea8185a7bb00679b36c4684f0d4fa89175fae6f5452ba1d5fc6a7f"
+  },
+  "pcb_courtyard_outline": {
+    "count": 1,
+    "sha256": "4ba0ef71fcabf404a473629f8df4d865dfb8e8d9ea8fb369fb666ccafaafc1db"
+  },
+  "pcb_courtyard_rect": {
+    "count": 339,
+    "sha256": "f52a8936bc119177df7ca385fc455ab00c803be34c7770778bb5a18bc49748d5"
+  },
+  "pcb_fabrication_note_path": {
+    "count": 4,
+    "sha256": "1972d7f3adc50203546092b456b22490050b4265e3702a86d368a560604bee2c"
+  },
+  "pcb_fabrication_note_text": {
+    "count": 4,
+    "sha256": "0ff847ca54f15b7da428ecabdf2e4e484d9cc9f3891014d670cd4875d9f2ea92"
+  },
+  "pcb_group": {
+    "count": 79,
+    "sha256": "d929dc32c8d720b38c12ab109c45700440301ee5f5365e4720f13d66b7abaac3"
+  },
+  "pcb_hole": {
+    "count": 6,
+    "sha256": "2af527881f97744081f21271712d380f4361201a0537ec06e7c54ae25f685df5"
+  },
+  "pcb_plated_hole": {
+    "count": 26,
+    "sha256": "cef4776ad92a3073616aeb61e35bdd89152301ada284b1980d91a43f3a627c8b"
+  },
+  "pcb_port": {
+    "count": 4720,
+    "sha256": "54fe97815a07af275ab456636fb3fb1468f6e306e9cc4e50cf84c83d17c25de3"
+  },
+  "pcb_silkscreen_circle": {
+    "count": 2,
+    "sha256": "70847716c171fd861b107da8a9e5f1afbaf8c769033c66ee38f98361ade8e228"
+  },
+  "pcb_silkscreen_path": {
+    "count": 355,
+    "sha256": "8cbce9aee3e9c23c51c530dd2447ddb4293e22929c465344a30287cf4a0075b6"
+  },
+  "pcb_silkscreen_rect": {
+    "count": 2,
+    "sha256": "95fe29da356194860abde59df16ecbeae066c91acc57fd156eb7218ce2765ea5"
+  },
+  "pcb_silkscreen_text": {
+    "count": 272,
+    "sha256": "2327fdaf28ba8895e2bd3ff8d52165620cff1e2fff9f37d1e67b71b6c3ce2409"
+  },
+  "pcb_smtpad": {
+    "count": 1505,
+    "sha256": "f2f1e9b16108ce7b6a0a0bb29b5f1f889f61ce6c5b9c1b4091bb62d293a33d48"
+  },
+  "pcb_solder_paste": {
+    "count": 1537,
+    "sha256": "546559c2cf34b4198d87199e15ab2af2e29f1b406fc74ca9c2d8af20b76545f0"
+  },
+  "pcb_trace": {
+    "count": 747,
+    "sha256": "1a72c15e1d785eaaa0dccadf615ab62e4a3d17872bfb19b79a2f6d787bff5720"
+  },
+  "pcb_via": {
+    "count": 940,
+    "sha256": "2138621c2e07e8df0ef94870accfcc9139c56865a54a977de9e28bdc357e85e1"
+  },
+  "source_board": {
+    "count": 1,
+    "sha256": "98930a8bf64800031506688fd0f41b2406a6fa64187a59e9fdc67ccdbce412bf"
+  },
+  "source_component": {
+    "count": 355,
+    "sha256": "8dd1a63e9d812f24409f11c209aabec5c8cead0efde8bfbe3423fa3df5ad5cbc"
+  },
+  "source_component_availability_warning": {
+    "count": 2,
+    "sha256": "5e4d168958e2bb5b382a537d72176c3bfdf1866610f30f78810163e0be31b125"
+  },
+  "source_component_internal_connection": {
+    "count": 8,
+    "sha256": "b9e87d219f9d0b52a70fbf853f8b27d5dcbe9fad3a6392bc230e8be02ef9f33d"
+  },
+  "source_component_pins_underspecified_warning": {
+    "count": 38,
+    "sha256": "2792bb00b9193c4fef44527f7334916e28b2b93b822cfdc3993e1fda4952afc4"
+  },
+  "source_group": {
+    "count": 80,
+    "sha256": "58024b53f4a265bd71ebcebce0982a76b87f1bf059d37cc88f079fd482d80363"
+  },
+  "source_manually_placed_via": {
+    "count": 797,
+    "sha256": "825fdbcd138eb8480634d4ea55753bc9cdfa9a0a8e8a8d00f57440c4d257bbb2"
+  },
+  "source_missing_manufacturer_part_number_warning": {
+    "count": 9,
+    "sha256": "e9018d3aee70ea068b32cf9c0d38e51e6f54fd1382863cfff1bec25f1a56cdee"
+  },
+  "source_net": {
+    "count": 686,
+    "sha256": "d18ebdc749335b2c18daf6c90dc9ddab3abcbe1904aff9311380de1d2d8bddb6"
+  },
+  "source_no_ground_pin_defined_warning": {
+    "count": 49,
+    "sha256": "cdfe5c818457af83f80e6fbe5ee728619180a65127cc3582e4189f10ffa78a8d"
+  },
+  "source_no_power_pin_defined_warning": {
+    "count": 49,
+    "sha256": "d4fc71fbc8ce4876b629441d146935dd696ec08951e78f47662b6e4153e3b20f"
+  },
+  "source_part_not_found_warning": {
+    "count": 6,
+    "sha256": "f71ca8c12be295ca41eb390d576442d244b4a4b669d8f1cdbb4d9d20a1254fdf"
+  },
+  "source_port": {
+    "count": 4720,
+    "sha256": "a45241e23f2ff2da7d589219bbd7355811cf6df123cc256cb2a6f73e16432c8c"
+  },
+  "source_project_metadata": {
+    "count": 1,
+    "sha256": "83a1c04601c0993170bef0ae8b74adc06b7921633b6ff69d479d6df7c9a26c3b"
+  },
+  "source_refdes_convention_warning": {
+    "count": 31,
+    "sha256": "05b5bf5d3394d233c58bc14bbd96bcc15e14ef5809eb05c54a301d70f015b98c"
+  },
+  "source_trace": {
+    "count": 3241,
+    "sha256": "92843252247d5a000c2468ddd3f7daab5a64db6b9ef8a16958c012c68db5d137"
+  }
+}

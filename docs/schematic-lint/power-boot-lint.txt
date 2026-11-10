@@ -1,0 +1,244 @@
+<SchematicSheet name="microSD" id="schematic_sheet_14">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R_SD_CMD" positionAnchor="center" schX="-6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_DAT0" positionAnchor="center" schX="6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_DAT1" positionAnchor="center" schX="19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_DAT2" positionAnchor="center" schX="-19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_DAT3" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_CD" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SD_HF" positionAnchor="center" schX="19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SD_BULK" positionAnchor="center" schX="-19.5" schY="-9" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_SD_CMD" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_CMD by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_DAT0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_DAT0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_DAT1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_DAT1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_DAT2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_DAT2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_DAT3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_DAT3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_CD" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_CD by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SD_HF" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SD_HF by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SD_BULK" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SD_BULK by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="V3V3" ground="GND" capacitorNames="C_SD_HF, C_SD_BULK" maxBodyGap="39.297" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Ethernet and RGB expansion" id="schematic_sheet_18">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="C_ETH_LDO_IN" positionAnchor="center" schX="-6.5" schY="67.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_LDO_OUT" positionAnchor="center" schX="6.5" schY="67.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP0" positionAnchor="center" schX="-6.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP1" positionAnchor="center" schX="6.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP2" positionAnchor="center" schX="19.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP3" positionAnchor="center" schX="-19.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP4" positionAnchor="center" schX="-6.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP5" positionAnchor="center" schX="6.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_BIAS" positionAnchor="center" schX="19.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_MDIO_PU" positionAnchor="center" schX="-19.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_INT_PU" positionAnchor="center" schX="-6.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_OSC" positionAnchor="center" schX="-19.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_RESET_PU" positionAnchor="center" schX="6.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_RESET" positionAnchor="center" schX="19.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_A0" positionAnchor="center" schX="-19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_A1" positionAnchor="center" schX="-6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_A2" positionAnchor="center" schX="6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_A3" positionAnchor="center" schX="19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_IO0" positionAnchor="center" schX="-19.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_IO1" positionAnchor="center" schX="-6.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_IO2" positionAnchor="center" schX="6.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_IO3" positionAnchor="center" schX="19.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_YELLOW" positionAnchor="center" schX="6.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CT_TX_100N" positionAnchor="center" schX="19.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CT_TX_1U" positionAnchor="center" schX="-19.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CT_RX_100N" positionAnchor="center" schX="-6.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CT_RX_1U" positionAnchor="center" schX="6.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CHASSIS" positionAnchor="center" schX="-19.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_CHASSIS" positionAnchor="center" schX="-6.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_RAMP_CT" positionAnchor="center" schX="19.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_ISO0" positionAnchor="center" schX="-6.5" schY="-40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_ISO1" positionAnchor="center" schX="19.5" schY="-40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_ISO_OE_PU" positionAnchor="center" schX="-6.5" schY="-49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_ISO_OE" positionAnchor="center" schX="6.5" schY="-49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RMII_RETURN_A" positionAnchor="center" schX="19.5" schY="-58.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RMII_RETURN_B" positionAnchor="center" schX="-19.5" schY="-67.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RMII_RETURN_C" positionAnchor="center" schX="-6.5" schY="-67.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RMII_RETURN_D" positionAnchor="center" schX="6.5" schY="-67.5" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="C_ETH_LDO_IN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_LDO_IN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_LDO_OUT" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_LDO_OUT by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP0" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP0 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP1" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP1 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP2" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP2 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP3" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP3 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP4" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP4 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP5" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP5 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_BIAS" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_BIAS by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_MDIO_PU" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_ETH_MDIO_PU by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_INT_PU" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_ETH_INT_PU by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_OSC" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_OSC by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_RESET_PU" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_ETH_RESET_PU by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_RESET" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_RESET by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_A0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_A0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_A1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_A1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_A2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_A2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_A3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_A3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_IO0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_IO0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_IO1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_IO1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_IO2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_IO2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_IO3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_IO3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_YELLOW" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_ETH_YELLOW by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CT_TX_100N" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CT_TX_100N by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CT_TX_1U" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CT_TX_1U by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CT_RX_100N" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CT_RX_100N by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CT_RX_1U" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CT_RX_1U by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CHASSIS" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CHASSIS by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_CHASSIS" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_CHASSIS by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_RAMP_CT" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_RAMP_CT by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_ISO0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_ISO0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_ISO1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_ISO1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_ISO_OE_PU" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_ETH_ISO_OE_PU by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_ISO_OE" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_ISO_OE by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RMII_RETURN_A" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_RMII_RETURN_A by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RMII_RETURN_B" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_RMII_RETURN_B by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RMII_RETURN_C" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_RMII_RETURN_C by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RMII_RETURN_D" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_RMII_RETURN_D by 90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="ETH_3V3" ground="GND" capacitorNames="C_ETH_OSC, C_ETH_RESET, C_ETH_A0, C_ETH_A1, C_ETH_A2, C_ETH_A3, C_ETH_IO0, C_ETH_IO1, C_ETH_IO2, C_ETH_IO3, C_ETH_ISO0, C_ETH_ISO1, C_ETH_ISO_OE" maxBodyGap="35.35" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between ETH_3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="V1V8" ground="GND" capacitorNames="C_RMII_RETURN_A, C_RMII_RETURN_B, C_RMII_RETURN_C, C_RMII_RETURN_D" maxBodyGap="14.949" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="HDMI power" id="schematic_sheet_23">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="C_HDMI_REF_C144" positionAnchor="center" schX="-21" schY="54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C145" positionAnchor="center" schX="-7" schY="54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C146" positionAnchor="center" schX="7" schY="54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C147" positionAnchor="center" schX="21" schY="54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C148" positionAnchor="center" schX="-21" schY="42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C149" positionAnchor="center" schX="-7" schY="42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C150" positionAnchor="center" schX="7" schY="42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C151" positionAnchor="center" schX="21" schY="42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C176" positionAnchor="center" schX="-21" schY="30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C177" positionAnchor="center" schX="-7" schY="30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C178" positionAnchor="center" schX="7" schY="30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C179" positionAnchor="center" schX="21" schY="30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C180" positionAnchor="center" schX="-21" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C181" positionAnchor="center" schX="-7" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C182" positionAnchor="center" schX="7" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C183" positionAnchor="center" schX="21" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C184" positionAnchor="center" schX="-21" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C185" positionAnchor="center" schX="-7" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C186" positionAnchor="center" schX="7" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C187" positionAnchor="center" schX="21" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C188" positionAnchor="center" schX="-21" schY="-6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C193" positionAnchor="center" schX="-7" schY="-6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB10" positionAnchor="center" schX="7" schY="-6" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB11" positionAnchor="center" schX="21" schY="-6" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB12" positionAnchor="center" schX="-21" schY="-18" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB13" positionAnchor="center" schX="-7" schY="-18" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB5" positionAnchor="center" schX="7" schY="-18" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB9" positionAnchor="center" schX="21" schY="-18" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="R_HDMI_1V2_EN" positionAnchor="center" schX="-7" schY="-30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_1V2_IN" positionAnchor="center" schX="7" schY="-30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_1V2_EN" positionAnchor="center" schX="21" schY="-30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_5V_TOP" positionAnchor="center" schX="7" schY="-42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_5V_BOTTOM" positionAnchor="center" schX="21" schY="-42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_5V_IN" positionAnchor="center" schX="-21" schY="-54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_5V_OUT1" positionAnchor="center" schX="-7" schY="-54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_5V_OUT2" positionAnchor="center" schX="7" schY="-54" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C144" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C144 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C145" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C145 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C146" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C146 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C147" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C147 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C148" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C148 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C149" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C149 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C150" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C150 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C151" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C151 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C176" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C176 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C177" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C177 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C178" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C178 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C179" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C179 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C180" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C180 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C181" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C181 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C182" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C182 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C183" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C183 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C184" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C184 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C185" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C185 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C186" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C186 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C187" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C187 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C188" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C188 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C193" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_HDMI_REF_C193 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB10" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB10 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB11" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB11 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB12" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB12 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB13" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB13 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB5" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB5 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB9" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB9 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_1V2_EN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_1V2_EN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_1V2_IN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_1V2_IN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_1V2_EN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_1V2_EN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_5V_TOP" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_5V_TOP by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_5V_BOTTOM" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_5V_BOTTOM by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_5V_IN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_5V_IN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_5V_OUT1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_5V_OUT1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_5V_OUT2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_5V_OUT2 by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_PVCC_1V2" ground="GND" capacitorNames="C_HDMI_REF_C144, C_HDMI_REF_C180" maxBodyGap="35.35" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_PVCC_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_1V2" ground="GND" capacitorNames="C_HDMI_REF_C145, C_HDMI_REF_C146, C_HDMI_REF_C148" maxBodyGap="17.561" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_IVDD_1V2" ground="GND" capacitorNames="C_HDMI_REF_C147, C_HDMI_REF_C149, C_HDMI_REF_C150, C_HDMI_REF_C151" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_IVDD_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="V3V3" ground="GND" capacitorNames="C_HDMI_REF_C176, C_HDMI_REF_C186, C_HDMI_1V2_IN, C_HDMI_5V_IN" maxBodyGap="36" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_3V3" ground="GND" capacitorNames="C_HDMI_REF_C177, C_HDMI_REF_C178, C_HDMI_REF_C179" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_AVCC_1V2" ground="GND" capacitorNames="C_HDMI_REF_C181, C_HDMI_REF_C182, C_HDMI_REF_C183" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_AVCC_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_DVDD_1V2" ground="GND" capacitorNames="C_HDMI_REF_C184, C_HDMI_REF_C185" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_DVDD_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_OVDD_3V3" ground="GND" capacitorNames="C_HDMI_REF_C187, C_HDMI_REF_C188" maxBodyGap="42.928" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_OVDD_3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_5V_SUPPLY" ground="GND" capacitorNames="C_HDMI_5V_OUT1, C_HDMI_5V_OUT2" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_5V_SUPPLY and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="HDMI transmitter and protection" id="schematic_sheet_22">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="U_HDMI" positionAnchor="center" schX="-21" schY="24" width="1.74" height="6.8" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R146" positionAnchor="center" schX="7" schY="24" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R147" positionAnchor="center" schX="21" schY="24" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R158" positionAnchor="center" schX="-21" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R166" positionAnchor="center" schX="-7" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R176" positionAnchor="center" schX="7" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R177" positionAnchor="center" schX="21" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R181" positionAnchor="center" schX="-21" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R183" positionAnchor="center" schX="-7" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R188" positionAnchor="center" schX="7" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_RESET_GPIO_PU" positionAnchor="center" schX="-21" schY="-12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_RESET_DECOUPLE" positionAnchor="center" schX="-7" schY="-12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_ESD_SUPPLY" positionAnchor="center" schX="21" schY="-12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_ESD_OUT" positionAnchor="center" schX="-21" schY="-24" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_UTILITY" positionAnchor="center" schX="-7" schY="-24" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R146" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R146 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R147" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R147 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R158" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R158 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R166" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R166 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R176" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_HDMI_REF_R176 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R177" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_HDMI_REF_R177 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R181" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_HDMI_REF_R181 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R183" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R183 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R188" railPin="pin1" railType="ground" deltaSchRotation="90" suggestedRailFacingDirection="down" message="rotate R_HDMI_REF_R188 by 90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_RESET_GPIO_PU" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_RESET_GPIO_PU by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_RESET_DECOUPLE" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_RESET_DECOUPLE by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_ESD_SUPPLY" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_ESD_SUPPLY by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_ESD_OUT" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_ESD_OUT by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_UTILITY" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_HDMI_UTILITY by -90° so its ground-connected pin faces down and the component is vertical" />
+<ResistorSeparatedFromChipPin hostComponentName="U_HDMI" resistorName="R_HDMI_REF_R176" pinDistance="30.396" maxRecommendedPinDistance="4" message="Place R_HDMI_REF_R176 beside its connected pin on the left side of U_HDMI so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<ResistorSeparatedFromChipPin hostComponentName="U_HDMI" resistorName="R_HDMI_REF_R177" pinDistance="44.457" maxRecommendedPinDistance="4" message="Place R_HDMI_REF_R177 beside its connected pin on the left side of U_HDMI so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="USB programming" id="schematic_sheet_19">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J_USB_PROG" positionAnchor="center" schX="-19.5" schY="0" width="1.3" height="2" />
+<SchematicBoxPlacement componentName="R_PROG_CC1" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PROG_CC2" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_PROG_CC1" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_PROG_CC1 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PROG_CC2" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_PROG_CC2 by -90° so its ground-connected pin faces down and the component is vertical" />
+<ResistorSeparatedFromChipPin hostComponentName="J_USB_PROG" resistorName="R_PROG_CC1" pinDistance="13.756" maxRecommendedPinDistance="4" message="Place R_PROG_CC1 beside its connected pin on the left side of J_USB_PROG so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<RailPathTooSpreadOut hostName="J_USB_PROG" pinName="B5" railType="ground" pathSpan="31.225" pathLength="31.725" message="Visible path from J_USB_PROG.B5 to ground spans 31.22 schematic units; move the connected support elements closer together near the pin and recompute their schematic traces." />
+</SchematicPlacementIssues>
+</SchematicSheet>
