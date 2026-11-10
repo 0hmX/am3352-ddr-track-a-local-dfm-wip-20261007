@@ -64,3 +64,6 @@ leaves **426 non-through vias**, with unchanged trace copper and verified connec
 
 DDR BGA escapes: [four nearby through columns with native TSX links](docs/through-vias/ddr-endpoint-nudges-increment.md)
 leave **422 non-through vias**, preserving all original route centerlines and verified connectivity.
+
+CPU peripheral ground: [wider native fills replace nineteen more blind pad vias](docs/through-vias/cpu-peripheral-pad-removal-increment.md)
+leaves **403 non-through vias**, with unchanged trace copper and verified connectivity.

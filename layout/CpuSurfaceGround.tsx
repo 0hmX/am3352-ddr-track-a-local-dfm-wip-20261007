@@ -4,6 +4,6 @@ export function CpuSurfaceGround() {
   return <>{(["top", "bottom"] as const).map(layer => <copperpour
     key={layer} name={`STANDARD_CPU_SURFACE_GND_${layer}`} layer={layer}
     connectsTo="net.GND" unbroken coveredWithSolderMask clearance={0.105}
-    outline={[{x:-10,y:-12},{x:10,y:-12},{x:10,y:12},{x:-10,y:12}]}
+    outline={[{x:-14,y:-13},{x:15,y:-13},{x:15,y:13},{x:-14,y:13}]}
   />)}</>
 }

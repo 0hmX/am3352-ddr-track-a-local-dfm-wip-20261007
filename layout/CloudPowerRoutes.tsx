@@ -152,13 +152,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_SRAM_MPU_0 > .pin2",
-    "x": 11.24,
-    "y": 2.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_77: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Processor > .C_IO1_B > .pin2",
     "x": -12.5,
@@ -177,13 +171,7 @@ const groundPads = [
   },
   null /* CLOUD_GND_PAD_82: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_83: CPU surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".Processor > .C_IO3_B > .pin2",
-    "x": 10.25,
-    "y": 10.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_84: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Processor > .C_IO3_0 > .pin2",
     "x": 13.24,
@@ -191,13 +179,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .C_IO3_1 > .pin2",
-    "x": -12.01,
-    "y": -4,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_86: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Processor > .C_IO4_B > .pin2",
     "x": -16,
@@ -214,13 +196,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .C_IO5_0 > .pin2",
-    "x": 11.24,
-    "y": 3.75,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_91: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Processor > .C_IO5_1 > .pin2",
     "x": 12.99,
@@ -228,13 +204,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_IO6_B > .pin2",
-    "x": 14.5,
-    "y": 6,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_93: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Processor > .C_IO6_0 > .pin2",
     "x": -12.01,
@@ -242,21 +212,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .C_IO6_1 > .pin2",
-    "x": -12.01,
-    "y": -5.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_95: extended CPU surface GND reaches a through barrel. */,
   null /* CLOUD_GND_PAD_96: CPU surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".Processor > .C_IO6_3 > .pin2",
-    "x": -12.01,
-    "y": -7,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_97: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Processor > .C_IO6_4 > .pin2",
     "x": 12.99,
@@ -278,35 +236,11 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_VDDS_PLL_CORE_LCD > .pin2",
-    "x": 12.99,
-    "y": -12.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDDS_PLL_MPU > .pin2",
-    "x": -12.01,
-    "y": -9.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_101: extended CPU surface GND reaches a through barrel. */,
+  null /* CLOUD_GND_PAD_102: extended CPU surface GND reaches a through barrel. */,
   null /* CLOUD_GND_PAD_103: CPU surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".Processor > .C_VDDS_RTC > .pin2",
-    "x": -12.01,
-    "y": -8.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDDA1P8V_USB0 > .pin2",
-    "x": 4.49,
-    "y": 8.2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_104: extended CPU surface GND reaches a through barrel. */,
+  null /* CLOUD_GND_PAD_105: extended CPU surface GND reaches a through barrel. */,
   null /* CLOUD_GND_PAD_106: same surface GND reaches a nearby through barrel. */,
   {
     "selector": ".Processor > .C_VDDA3P3V_USB0 > .pin2",
@@ -659,13 +593,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Power_management > .C_PWR1 > .pin2",
-    "x": 12.9,
-    "y": -0.04999999999999982,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_188: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Power_management > .C_PWR2 > .pin2",
     "x": 17.2,
@@ -680,13 +608,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Power_management > .C_PWR4 > .pin2",
-    "x": 13.4,
-    "y": -4.45,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_191: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Power_management > .C_PWR5 > .pin2",
     "x": 26.35,
@@ -694,13 +616,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Power_management > .C_PWR6 > .pin2",
-    "x": 14.39,
-    "y": -2.22,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_193: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Power_management > .C_PWR7_B > .pin2",
     "x": 17,
@@ -757,13 +673,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_management > .C_PWR12_B > .pin2",
-    "x": 10.35,
-    "y": -2.2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_202: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Power_management > .C_PWR12 > .pin2",
     "x": 17.5,
@@ -821,13 +731,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Power_management > .U_RTC_RESET_DELAY > .4",
-    "x": 8.6,
-    "y": 9.525,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_212: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Power_management > .U_RTC_RESET_DELAY > .5",
     "x": 11.4,
@@ -842,13 +746,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_management > .U_RTC_RESET_DELAY > .9",
-    "x": 10,
-    "y": 10.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_215: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Power_management > .U_RTC_RESET_DELAY > .9",
     "x": 9.675,
@@ -931,13 +829,7 @@ const groundPads = [
     "toLayer": "inner6"
   },
   null /* CLOUD_GND_PAD_231: CPU surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".Boot_and_clock > .R_BOOT11 > .pin2",
-    "x": 6.51,
-    "y": -13.25,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_232: extended CPU surface GND reaches a through barrel. */,
   null /* CLOUD_GND_PAD_233: native surface link to SYS8_12_ARRAY_RETURN. */,
   {
     "selector": ".Boot_and_clock > .R_BOOT13 > .pin2",
@@ -983,13 +875,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Boot_and_clock > .R_CLOCK_OE_PD > .pin2",
-    "x": 3.49,
-    "y": -14.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_242: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".microSD > .J_MICROSD > .6",
     "x": -11.674999999999997,
