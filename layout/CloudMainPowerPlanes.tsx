@@ -2049,16 +2049,7 @@ const extraVias=[
     "holeDiameter": 0.25,
     "outerDiameter": 0.5
   },
-  {
-    "viaName": "DDR15_SOURCE_RETURN",
-    "net": "GND",
-    "x": 21.4,
-    "y": 5,
-    "fromLayer": "inner3",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3
-  }
+
 ] as const
 const routes=[
   {
