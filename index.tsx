@@ -1,3 +1,4 @@
+import {PmicSurfaceGround} from "./layout/PmicSurfaceGround"
 import {DdrPowerSurfaceFeeds} from "./layout/DdrPowerSurfaceFeeds"
 import {EthernetSurfaceGround} from "./layout/EthernetSurfaceGround"
 import {HdmiSurfaceGround} from "./layout/HdmiSurfaceGround"
@@ -235,6 +236,7 @@ export default function Board() {
   <DdrSurfaceGround />
   <HdmiSurfaceGround />
   <EthernetSurfaceGround />
+  <PmicSurfaceGround />
   <DdrPowerSurfaceFeeds />
 <CpuPowerSurfaceStubs />
 </board>)))))))))))))))))))))))))))))))))))))))))))

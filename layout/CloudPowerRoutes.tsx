@@ -662,13 +662,7 @@ const groundPads = [
     "toLayer": "bottom"
   },
   null /* CLOUD_GND_PAD_202: extended CPU surface GND reaches a through barrel. */,
-  {
-    "selector": ".Power_management > .C_PWR12 > .pin2",
-    "x": 17.5,
-    "y": -6.3,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_203: checked PMIC surface Ground path. */,
   {
     "selector": ".Power_management > .C_PWR13 > .pin2",
     "x": 27.025,
@@ -676,13 +670,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_management > .R_PWR1 > .pin2",
-    "x": 20.4,
-    "y": -4.29,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_205: checked PMIC surface Ground path. */,
   {
     "selector": ".Power_management > .SW_PWR1 > .2",
     "x": 20.4,
@@ -697,13 +685,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Power_management > .R_RTC_LDO > .pin2",
-    "x": 19.51,
-    "y": -15.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_208: checked PMIC surface Ground path. */,
   null /* CLOUD_GND_PAD_209: native surface link to MPU_GND_RETURN_0. */,
   {
     "selector": ".Power_management > .R_RTC_WAKE > .pin2",
@@ -777,13 +759,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_management > .C_RTC_GATE_BYP > .pin2",
-    "x": 17.76,
-    "y": -17,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_222: checked PMIC surface Ground path. */,
   {
     "selector": ".Power_management > .C_PWR10_B > .pin2",
     "x": 22.025,
@@ -791,24 +767,12 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_management > .C_PWR10_C > .pin2",
-    "x": 24.975,
-    "y": -6.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_224: checked PMIC surface Ground path. */,
   null /* CLOUD_GND_PAD_225: native surface link to SYS4_SHARED_CPU_RETURN. */,
   null /* CLOUD_GND_PAD_226: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_227: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_228: CPU surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".Boot_and_clock > .R_BOOT8 > .pin2",
-    "x": 10.61,
-    "y": -11.95,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_229: checked PMIC surface Ground path. */,
   {
     "selector": ".Boot_and_clock > .R_BOOT9 > .pin2",
     "x": 11.91,
@@ -1333,13 +1297,7 @@ const groundPads = [
   null /* CLOUD_GND_PAD_325: checked Ethernet surface Ground path. */,
   null /* CLOUD_GND_PAD_326: checked Ethernet surface Ground path. */,
   null /* CLOUD_GND_PAD_327: checked Ethernet surface Ground path. */,
-  {
-    "selector": ".Debug_status > .TP_DBG_GND > .GND",
-    "x": 29.325,
-    "y": -6,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_328: checked PMIC surface Ground path. */,
   {
     "selector": ".Debug_status > .U_PG_LED > .GND",
     "x": -5.15,
