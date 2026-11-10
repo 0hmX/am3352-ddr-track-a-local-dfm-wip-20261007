@@ -64,3 +64,22 @@ test("a through barrel exposes an explicit inner-layer port without changing adj
   expect(records.filter(r=>r.type==='pcb_via').every(v=>v.layers.length===8)).toBe(true)
   expect(records.filter(r=>r.type==='pcb_trace').flatMap(t=>t.route).every(p=>p.route_type==='wire' && p.layer==='inner4')).toBe(true)
 }, 30000)
+
+test("native pour regeneration clears a new through barrel on an inner layer", async () => {
+  const circuit = new Circuit({platform:{partsEngineDisabled:true, netlistDrcChecksDisabled:true}})
+  circuit.schematicDisabled = true
+  circuit.add(<board width={12} height={12} layers={8} pcbRelative routingDisabled>
+    <net name="A" /><net name="B" />
+    <via name="A" pcbX={0} pcbY={0} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo="net.A" />
+    <via name="B" pcbX={3} pcbY={0} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo="net.B" />
+    <copperpour layer="inner4" connectsTo="net.B" unbroken clearance={.2} outline={[{x:-4,y:-4},{x:4,y:-4},{x:4,y:4},{x:-4,y:4}]} />
+  </board>)
+  await circuit.renderUntilSettled()
+  const records = circuit.getCircuitJson() as any[]
+  const pours = records.filter(r=>r.type==='pcb_copper_pour')
+  expect(records.filter(r=>r.type.endsWith('_error'))).toEqual([])
+  expect(pours).toHaveLength(1)
+  expect(pours[0].brep_shape.inner_rings.length).toBeGreaterThan(0)
+  const { checkCopperPourShorts } = await import('@tscircuit/checks')
+  expect(checkCopperPourShorts(records)).toEqual([])
+}, 30000)
