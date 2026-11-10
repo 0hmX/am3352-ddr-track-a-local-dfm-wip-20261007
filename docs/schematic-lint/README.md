@@ -38,7 +38,9 @@ bun scripts/schematic-lint-evidence.tsx docs/schematic-lint/after work/schematic
 The evidence script compares canonical SHA-256 hashes of **complete arrays for
 all 35 `pcb_*` and `source_*` record types**, preserving record order and every
 field, including IDs, pad/via/hole geometry, component positions, trace routes,
-copper pours, net membership and source connectivity. It fails on any change.
+copper pours, net membership and source connectivity. It fails on any physical/electrical change. Supplier availability/fetch warnings
+(random IDs and HTTP 429 results) and `source_project_metadata` (the edited TSX
+hash) are excluded from comparison; all records are still fingerprinted.
 [Main fingerprints](before/pcb-source-fingerprints.json) are committed; the 24 MB
 native build stays in ignored `work/`. The baseline documentation PR changes no
 board TSX: lint **372 → 372**, PCB/source fingerprints unchanged by construction.
@@ -49,7 +51,7 @@ project `tscircuit` 0.0.3104; no dependency or lockfile changes.
 ## Baseline schematic snapshots
 
 These SVGs are rendered from main's actual `tsci build` output with
-`convertCircuitJsonToSchematicSvg`, one per sheet. For this documentation-only
+`convertCircuitJsonToSchematicSvg`, one per sheet (24 total; 22 have baseline findings). For this documentation-only
 increment, before and after are the same snapshot. Fix PRs add after snapshots.
 
 - [CPU supplies](before/cpu-supplies.svg)
@@ -76,3 +78,5 @@ increment, before and after are the same snapshot. Fix PRs add after snapshots.
 - [USB programming](before/usb-programming.svg)
 
 This remains a routing WIP; unchanged PCB geometry is not fabrication or SI signoff.
+
+[Box fixes: 52 → 0](boxes.md)
