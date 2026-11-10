@@ -1,3 +1,4 @@
+import { cpuDdrSheetSizes } from "./schematic/CpuDdrLayout"
 import{withPeripheralOriginalThroughRelief}from'./layout/StandardPeripheralOriginalThroughRelief'
 import {withPeripheralManualThroughColumns} from './layout/StandardPeripheralManualThroughColumns'
 import {withCpuControlThroughRelief} from './layout/StandardCpuControlThroughRelief'
@@ -156,7 +157,7 @@ export default function Board() {
     minTraceToHoleEdgeClearance={0.2} minTraceToPadEdgeClearance={0.1} minPadEdgeToPadEdgeClearance={0.1} minBoardEdgeClearance={0.2}
     schAutoLayoutEnabled={false} placementDrcChecksDisabled title="AM3352 DDR3 + RGB888 HDMI">
     <CloudMainPowerPlanes />
-    {sheets.map((name, i) => <schematicsheet key={name} name={name} displayName={name} sheetIndex={i} sheetWidth={name === "Power management" ? undefined : 700} sheetHeight={name === "Power management" ? undefined : Math.max(name === "Ethernet and RGB expansion" ? 2200 : 500, ((supportCounts[name] ? Math.ceil(supportCounts[name] / 4) * 9 : sheetCounts[name] ? Math.ceil(sheetCounts[name] / 4) * 12 : 30) + 20) * 10)} />)}
+    {sheets.map((name, i) => <schematicsheet key={name} name={name} displayName={name} sheetIndex={i} sheetWidth={cpuDdrSheetSizes[name]?.[0] ?? (name === "Power management" ? undefined : 700)} sheetHeight={cpuDdrSheetSizes[name]?.[1] ?? (name === "Power management" ? undefined : Math.max(name === "Ethernet and RGB expansion" ? 2200 : 500, ((supportCounts[name] ? Math.ceil(supportCounts[name] / 4) * 9 : sheetCounts[name] ? Math.ceil(sheetCounts[name] / 4) * 12 : 30) + 20) * 10))} />)}
     {subcircuitComponents.map(Component => <Component key={Component.name} />)}
     <SavedSilkscreen />
     <CloudCpuDdrReturnStitches />

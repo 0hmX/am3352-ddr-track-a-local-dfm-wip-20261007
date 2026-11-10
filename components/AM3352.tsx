@@ -1,3 +1,4 @@
+import { namedConnections, type WirePlan } from "../schematic/NamedConnections"
 import type { ChipProps } from "@tscircuit/props"
 import ballMap from "../design/am3352-ballmap"
 import { withViaInPad, type ViaInPadProps } from "../layout/ViaInPadFootprint"
@@ -1302,14 +1303,14 @@ export const pinLabels = {
     "VSS_V18"
   ]
 } as const
-export function AM3352({ viaInPad = false, viaInPadToLayer = "bottom", ...props }: ChipProps<typeof pinLabels> & ViaInPadProps) {
- return <chip cadModel={cadModels.am3352()} {...props} manufacturerPartNumber="AM3352BZCZ100" supplierPartNumbers={{jlcpcb:["C468247"]}} pinLabels={pinLabels} footprint={withViaInPad(<footprint insertionDirection="from_above">
+export function AM3352({ schematicWirePlan, viaInPad = false, viaInPadToLayer = "bottom", ...props }: ChipProps<typeof pinLabels> & ViaInPadProps & { schematicWirePlan?: WirePlan }) {
+ return <chip cadModel={cadModels.am3352()} {...props} connections={undefined} manufacturerPartNumber="AM3352BZCZ100" supplierPartNumbers={{jlcpcb:["C468247"]}} pinLabels={pinLabels} footprint={withViaInPad(<footprint insertionDirection="from_above">
  {/* lid window: 15 x 15mm ZCZ body plus 1mm each side, room for a heatsink */}
  <enclosure.cutoutaperture shape="rect" width={17} height={17} margin={0} />
  {Object.entries(pinLabels).map(([pin,[ball]]) => <smtpad key={pin} portHints={[pin,ball]} pcbX={("ABCDEFGHJKLMNPRTUV".indexOf(ball[0])-8.5)*0.8} pcbY={(Number(ball.slice(1))-9.5)*0.8} shape="circle" radius={0.2} />)}
  <courtyardrect pcbX={0} pcbY={0} width={16} height={16}/>
  <silkscreenrect pcbX={0} pcbY={0} width={15.4} height={15.4} />
  <silkscreencircle pcbX={-7.8} pcbY={-7.8} radius={0.3} />
- </footprint>, viaInPad, props.connections, pinLabels, viaInPadToLayer)} />
+ </footprint>, viaInPad, props.connections, pinLabels, viaInPadToLayer)}>{namedConnections(String(props.name), props.connections as Record<string, string> ?? {}, schematicWirePlan)}</chip>
 }
 export { ballMap }

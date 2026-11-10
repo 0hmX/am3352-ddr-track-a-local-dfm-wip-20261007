@@ -1,0 +1,314 @@
+[
+  {
+    "metrics": {
+      "components": 4,
+      "wires": 73,
+      "netLabels": 20,
+      "netLabelShare": 0.20618556701030927,
+      "sheetMm": [
+        270,
+        210
+      ],
+      "contentBoundsMm": [
+        168.88690909090909,
+        152.8618181818182
+      ],
+      "boundingBoxFill": 0.4553149910184092
+    },
+    "sheet": "CPU supplies",
+    "image": "cpu-supplies.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"CPU supplies\" uses a non-default size (270 × 210 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 2,
+      "wires": 0,
+      "netLabels": 49,
+      "netLabelShare": 0.9607843137254902,
+      "sheetMm": [
+        230,
+        110
+      ],
+      "contentBoundsMm": [
+        143.07127272727274,
+        69.73454545454545
+      ],
+      "boundingBoxFill": 0.3943482281122399
+    },
+    "sheet": "CPU DDR interface",
+    "image": "cpu-ddr-interface.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"CPU DDR interface\" uses a non-default size (230 × 110 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 1,
+      "wires": 0,
+      "netLabels": 32,
+      "netLabelShare": 0.9696969696969697,
+      "sheetMm": [
+        100,
+        100
+      ],
+      "contentBoundsMm": [
+        65.34727272727272,
+        69.73454545454545
+      ],
+      "boundingBoxFill": 0.4556962360330578
+    },
+    "sheet": "CPU video and I2C",
+    "image": "cpu-video-and-i2c.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"CPU video and I2C\" uses a non-default size (100 × 100 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 3,
+      "wires": 8,
+      "netLabels": 26,
+      "netLabelShare": 0.7027027027027027,
+      "sheetMm": [
+        270,
+        210
+      ],
+      "contentBoundsMm": [
+        163.89927272727272,
+        152.8618181818182
+      ],
+      "boundingBoxFill": 0.44186844493419036
+    },
+    "sheet": "CPU peripheral and boot pins",
+    "image": "cpu-peripheral-and-boot-pins.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"CPU peripheral and boot pins\" uses a non-default size (270 × 210 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 1,
+      "wires": 0,
+      "netLabels": 13,
+      "netLabelShare": 0.9285714285714286,
+      "sheetMm": [
+        100,
+        100
+      ],
+      "contentBoundsMm": [
+        60.359636363636355,
+        69.73454545454545
+      ],
+      "boundingBoxFill": 0.42091518056198346
+    },
+    "sheet": "CPU Ethernet and USB",
+    "image": "cpu-ethernet-and-usb.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"CPU Ethernet and USB\" uses a non-default size (100 × 100 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 2,
+      "wires": 35,
+      "netLabels": 6,
+      "netLabelShare": 0.13953488372093023,
+      "sheetMm": [
+        210,
+        110
+      ],
+      "contentBoundsMm": [
+        128.6025090909091,
+        69.73454545454545
+      ],
+      "boundingBoxFill": 0.3882267322843548
+    },
+    "sheet": "DDR memory supplies",
+    "image": "ddr-memory-supplies.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"DDR memory supplies\" uses a non-default size (210 × 110 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 2,
+      "wires": 0,
+      "netLabels": 28,
+      "netLabelShare": 0.9333333333333333,
+      "sheetMm": [
+        160,
+        110
+      ],
+      "contentBoundsMm": [
+        99.2909090909091,
+        69.73454545454545
+      ],
+      "boundingBoxFill": 0.3934094552967693
+    },
+    "sheet": "DDR memory address and control",
+    "image": "ddr-memory-address-and-control.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"DDR memory address and control\" uses a non-default size (160 × 110 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 1,
+      "wires": 0,
+      "netLabels": 20,
+      "netLabelShare": 0.9523809523809523,
+      "sheetMm": [
+        70,
+        100
+      ],
+      "contentBoundsMm": [
+        34.728727272727276,
+        69.73454545454545
+      ],
+      "boundingBoxFill": 0.3459702872255018
+    },
+    "sheet": "DDR memory data",
+    "image": "ddr-memory-data.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"DDR memory data\" uses a non-default size (70 × 100 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 55,
+      "wires": 104,
+      "netLabels": 12,
+      "netLabelShare": 0.07017543859649122,
+      "sheetMm": [
+        280,
+        200
+      ],
+      "contentBoundsMm": [
+        223.51999999999995,
+        162.09818181818179
+      ],
+      "boundingBoxFill": 0.6470033142857141
+    },
+    "sheet": "CPU bypass",
+    "image": "cpu-bypass.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"CPU bypass\" uses a non-default size (280 × 200 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 3,
+      "wires": 0,
+      "netLabels": 6,
+      "netLabelShare": 0.6666666666666666,
+      "sheetMm": [
+        120,
+        30
+      ],
+      "contentBoundsMm": [
+        86.82181818181817,
+        9.051636363636364
+      ],
+      "boundingBoxFill": 0.21829986850321392
+    },
+    "sheet": "CPU power",
+    "image": "cpu-power.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"CPU power\" uses a non-default size (120 × 30 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      },
+      {
+        "type": "schematic_element_outside_sheet_warning",
+        "message": "schematic_net_label schematic_net_label_51 extends outside the drawing area of schematic sheet \"CPU power\""
+      },
+      {
+        "type": "schematic_element_outside_sheet_warning",
+        "message": "schematic_net_label schematic_net_label_53 extends outside the drawing area of schematic sheet \"CPU power\""
+      },
+      {
+        "type": "schematic_element_outside_sheet_warning",
+        "message": "schematic_net_label schematic_net_label_55 extends outside the drawing area of schematic sheet \"CPU power\""
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 10,
+      "wires": 12,
+      "netLabels": 11,
+      "netLabelShare": 0.3333333333333333,
+      "sheetMm": [
+        220,
+        140
+      ],
+      "contentBoundsMm": [
+        138.08363636363634,
+        78.60145454545454
+      ],
+      "boundingBoxFill": 0.35238878789309863
+    },
+    "sheet": "DDR reference",
+    "image": "ddr-reference.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"DDR reference\" uses a non-default size (220 × 140 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 36,
+      "wires": 68,
+      "netLabels": 6,
+      "netLabelShare": 0.05454545454545454,
+      "sheetMm": [
+        280,
+        170
+      ],
+      "contentBoundsMm": [
+        203.19999999999996,
+        109.4509090909091
+      ],
+      "boundingBoxFill": 0.46723581359816646
+    },
+    "sheet": "DDR bypass",
+    "image": "ddr-bypass.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"DDR bypass\" uses a non-default size (280 × 170 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  }
+]

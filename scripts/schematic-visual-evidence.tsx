@@ -1,16 +1,18 @@
-import { readFileSync, mkdirSync, writeFileSync } from "node:fs"
+import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs"
 import { convertCircuitJsonToSchematicSvg } from "circuit-to-svg"
 import { Resvg } from "@resvg/resvg-js"
 const [input, output] = process.argv.slice(2)
 const circuit = JSON.parse(readFileSync(input, "utf8"))
 mkdirSync(output, { recursive: true })
 const rows = []
+const unitMm = 10.16 / 1.1
+const fonts = ["/System/Library/Fonts/Supplemental/Arial.ttf", "/System/Library/Fonts/Menlo.ttc", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"].filter(existsSync)
 for (const sheet of circuit.filter((r: any) => r.type === "schematic_sheet")) {
   const slug = sheet.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")
   const records = circuit.filter((r: any) => (["source_component", "source_port", "source_net", "source_trace", "source_component_internal_connection"].includes(r.type)) || (r.type.startsWith("schematic_") && r.schematic_sheet_id === sheet.schematic_sheet_id))
   // Keep the real sheet frame: fit-to-sheet problems must remain visible.
   const svg = convertCircuitJsonToSchematicSvg(records, { width: 1600, height: 1100 })
-  writeFileSync(`${output}/${slug}.png`, new Resvg(svg, { font: { loadSystemFonts: false, fontFiles: ["/System/Library/Fonts/Supplemental/Arial.ttf", "/System/Library/Fonts/Menlo.ttc"], defaultFontFamily: "Arial" } }).render().asPng())
+  writeFileSync(`${output}/${slug}.png`, new Resvg(svg, { font: { loadSystemFonts: false, fontFiles: fonts, defaultFontFamily: "Arial" } }).render().asPng())
   const warnings = records.filter((r: any) => r.type.startsWith("schematic_") && /_(warning|error)$/.test(r.type))
   const components = records.filter((r: any) => r.type === "schematic_component")
   const wires = records.filter((r: any) => r.type === "schematic_trace")
@@ -27,8 +29,8 @@ for (const sheet of circuit.filter((r: any) => r.type === "schematic_sheet")) {
   const height = Math.max(...points.map(p => p.y)) - Math.min(...points.map(p => p.y))
   const metrics = { components: components.length, wires: wires.length, netLabels: labels.length,
     netLabelShare: labels.length / (components.length + wires.length + labels.length),
-    sheetMm: [sheet.sheet_width, sheet.sheet_height], contentBoundsMm: [width * 10, height * 10],
-    boundingBoxFill: width * height * 100 / (sheet.sheet_width * sheet.sheet_height) }
+    sheetMm: [sheet.sheet_width, sheet.sheet_height], contentBoundsMm: [width * unitMm, height * unitMm],
+    boundingBoxFill: width * height * unitMm ** 2 / (sheet.sheet_width * sheet.sheet_height) }
   rows.push({ metrics, sheet: sheet.name, image: `${slug}.png`, warnings: warnings.map((r: any) => ({ type: r.type, message: r.message })) })
 }
 writeFileSync(`${output}/sheets.json`, JSON.stringify(rows, null, 2) + "\n")

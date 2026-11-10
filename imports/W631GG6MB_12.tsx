@@ -1,3 +1,4 @@
+import { namedConnections, type WirePlan } from "../schematic/NamedConnections"
 import type { ChipProps } from "@tscircuit/props"
 import { withViaInPad, type ViaInPadProps } from "../layout/ViaInPadFootprint"
 import { enclosure } from "tscircuit"
@@ -389,7 +390,7 @@ export const pinLabels = {
   ]
 } as const
 
-export const W631GG6MB_12 = ({ viaInPad = false, viaInPadToLayer = "bottom", ...props }: ChipProps<typeof pinLabels> & ViaInPadProps) => {
+export const W631GG6MB_12 = ({ schematicWirePlan, viaInPad = false, viaInPadToLayer = "bottom", ...props }: ChipProps<typeof pinLabels> & ViaInPadProps & { schematicWirePlan?: WirePlan }) => {
   return (
     <chip
       // Keep ball designators distinct from signal aliases (A1 is both a ball and an address signal).
@@ -511,6 +512,7 @@ export const W631GG6MB_12 = ({ viaInPad = false, viaInPadToLayer = "bottom", ...
         modelOriginPosition: { x: 0.000012700000070253736, y: 0.00012700000002041634, z: -0.325 },
       }}
       {...props}
-    />
+      connections={undefined}
+    >{namedConnections(String(props.name), props.connections as Record<string, string> ?? {}, schematicWirePlan)}</chip>
   )
 }

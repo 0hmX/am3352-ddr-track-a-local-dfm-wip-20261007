@@ -57,3 +57,11 @@ bun scripts/schematic-lint-evidence.tsx work/schematic-visual/check work/schemat
 Power management metrics: labels **59.9% → 42.0%**; sheet **700×1190 → 297×210 mm**; content bounding-box fill **50.9% → 78.8%**; sheet warnings **1 → 0**. [Detailed receipt](power/sheets.json).
 
 Two RTC bypass capacitors gain the core’s inferred default `max_decoupling_trace_length: 1` when native local paths make their existing decoupling relationship explicit. This source constraint is recorded in [the delta receipt](power/inferred-capacitor-constraints.json); the comparator accepts only newly inferred value 1 and retains all other source component fields. It changes no terminal/net connectivity or PCB record.
+
+## CPU/DDR draft
+
+The twelve [focused CPU/DDR after renders and receipts](cpu-ddr/sheets.json) compact the original projections and banks, preserve physical aliases, and draw local supply buses. Interface-only projections and three isolated internal-regulator capacitors remain above 50% labels because their signals leave the sheet. No placeholder wires are added.
+
+Custom-size warnings are intentional. CPU power additionally has three false outside-sheet warnings caused by the native utility treating horizontal power labels as vertical text: [minimal TSX reproduction](reproductions/power-label-sheet-bounds.tsx). No renderer patch is used. Full-stack PCB/connectivity and board-wide CLI verification remain pending for this layer.
+
+Fill receipts use `10.16 / 1.1` mm per native schematic unit and estimated visible label widths. This corrects the earlier rounded-unit fill figures; the source label counts and paper dimensions are unchanged.
