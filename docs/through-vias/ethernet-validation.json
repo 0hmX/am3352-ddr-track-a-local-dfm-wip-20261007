@@ -1,0 +1,176 @@
+{
+  "nativeInputSha256": "654abfe6613e1b3821632836564d982db1444400158d2c8586efdd643d0b6f71",
+  "inventorySummary": {
+    "totalVias": 1210,
+    "throughVias": 228,
+    "nonThroughVias": 982,
+    "shortingConversions": 971,
+    "clearanceOnlyConversions": 11,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 383,
+    "nonPourConflicts": 599,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 20,
+    "checkSameNetViaSpacing": 3,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 3,
+    "physicalDifferentNetContacts": 0
+  },
+  "allTraceCopperUnchanged": true,
+  "allComponentPlacementsUnchanged": true,
+  "convertedViaCount": 38,
+  "movedGroundStitchCount": 3,
+  "movedStitches": [
+    {
+      "id": "pcb_via_799",
+      "from": [
+        7.699999999999999,
+        -2.6
+      ],
+      "to": [
+        7.7,
+        -2.7
+      ],
+      "originalLayers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ],
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "bottom"
+      ]
+    },
+    {
+      "id": "pcb_via_803",
+      "from": [
+        42.4,
+        12.4
+      ],
+      "to": [
+        42.5,
+        12.5
+      ],
+      "originalLayers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ],
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "bottom"
+      ]
+    },
+    {
+      "id": "pcb_via_813",
+      "from": [
+        12.01,
+        13.1
+      ],
+      "to": [
+        12.06,
+        12.8
+      ],
+      "originalLayers": [
+        "inner1",
+        "inner2",
+        "inner3"
+      ],
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "bottom"
+      ]
+    }
+  ],
+  "newInformationalPlatedDrillMarginsMm": [
+    0.17900000000000488,
+    0.17500000000000177,
+    0.1749999999999982
+  ],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1236,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": [],
+    "selfTests": {
+      "explicitG85SlotGeometry": true,
+      "arcRegionAndStrokeArea": true,
+      "isolatedNetsRemainSeparate": true,
+      "deliberateBridgeDetected": true,
+      "apertureRotation90AndTdState": true,
+      "clearPolarityBreaksConnection": true
+    }
+  }
+}
