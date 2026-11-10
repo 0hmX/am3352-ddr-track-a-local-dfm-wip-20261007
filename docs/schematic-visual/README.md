@@ -7,7 +7,7 @@ The PNGs retain the actual sheet frame, so fit-to-sheet problems stay visible.
 
 ## Power management
 
-Status: draft candidate. The PNG is a native focused TSX render. The full-board build and strict PCB/connectivity comparison for the wired revision are running; this revision is not yet claimed verified. Earlier label-only candidates passed the complete PCB comparison.
+Status: full native Power management revision built and compared with #70. Every PCB record and the complete terminal/net connectivity partition match. Native placement on the full build: **0 findings**.
 
 [Before](before/power-management.png) · [After](power/power-management.png)
 
@@ -53,3 +53,7 @@ Render again with:
 bun scripts/schematic-visual-evidence.tsx dist/index/circuit.json work/schematic-visual/current
 bun scripts/schematic-lint-evidence.tsx work/schematic-visual/check work/schematic-visual/pr70.circuit.json
 ```
+
+Power management metrics: labels **59.9% → 42.0%**; sheet **700×1190 → 297×210 mm**; content bounding-box fill **50.9% → 78.8%**; sheet warnings **1 → 0**. [Detailed receipt](power/sheets.json).
+
+Two RTC bypass capacitors gain the core’s inferred default `max_decoupling_trace_length: 1` when native local paths make their existing decoupling relationship explicit. This source constraint is recorded in [the delta receipt](power/inferred-capacitor-constraints.json); the comparator accepts only newly inferred value 1 and retains all other source component fields. It changes no terminal/net connectivity or PCB record.

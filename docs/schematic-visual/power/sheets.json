@@ -1,0 +1,22 @@
+[
+  {
+    "metrics": {
+      "components": 41,
+      "wires": 60,
+      "netLabels": 73,
+      "netLabelShare": 0.41954022988505746,
+      "sheetMm": [
+        297,
+        210
+      ],
+      "contentBoundsMm": [
+        269,
+        182.8
+      ],
+      "boundingBoxFill": 0.7884110950777619
+    },
+    "sheet": "Power management",
+    "image": "power-management.png",
+    "warnings": []
+  }
+]

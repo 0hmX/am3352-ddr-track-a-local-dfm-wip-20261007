@@ -18,7 +18,7 @@ const summarize = (records: any[]) => Object.fromEntries([...new Set(physical(re
   // Stock capacitor symbols reorder, and sometimes omit, polarity synonyms on
   // rotation. Numbered pin identities and every connection remain comparable.
   const elements = records.filter(r => r.type === type).map(r => type === "source_port" ?
-    { ...r, port_hints: r.port_hints?.filter((hint: string) => !["pos", "neg", "anode", "cathode"].includes(hint)).sort() } : type === "source_missing_manufacturer_part_number_warning" ?
+    { ...r, port_hints: r.port_hints?.filter((hint: string) => !["pos", "neg", "anode", "cathode"].includes(hint)).sort() } : type === "source_component" ? (({ max_decoupling_trace_length, ...component }) => component)(r) : type === "source_missing_manufacturer_part_number_warning" ?
     { ...r, message: r.message.replace(/chip#\d+/g, "chip#runtime") } : r)
   return [type, { count: elements.length, sha256: digest(elements) }]
 }))
@@ -43,6 +43,13 @@ const summary = summarize(circuit)
 if (baseline) {
   const original = JSON.parse(readFileSync(baseline, "utf8"))
   const before = summarize(original)
+  const inferred = circuit.filter((r: any) => r.type === "source_component" && r.max_decoupling_trace_length !== undefined).flatMap((r: any) => {
+    const prior = original.find((p: any) => p.source_component_id === r.source_component_id && p.type === "source_component")
+    return prior?.max_decoupling_trace_length === r.max_decoupling_trace_length ? [] : [{ name: r.name, before: prior?.max_decoupling_trace_length ?? null, after: r.max_decoupling_trace_length }]
+  })
+  if (inferred.some((r: any) => r.before !== null || r.after !== 1)) throw new Error("Unexpected capacitor constraint change")
+  mkdirSync(output, { recursive: true })
+  writeFileSync(`${output}/inferred-capacitor-constraints.json`, JSON.stringify(inferred, null, 2) + "\n")
   if (digest(connectivity(original)) !== digest(connectivity(circuit))) throw new Error("Source terminal/net connectivity changed")
   const changed = [...new Set([...Object.keys(before), ...Object.keys(summary)])]
     .filter(type => type !== "source_trace" && !volatile.has(type) && JSON.stringify(before[type]) !== JSON.stringify(summary[type]))
