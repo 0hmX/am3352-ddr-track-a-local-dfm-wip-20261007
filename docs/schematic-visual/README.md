@@ -1,67 +1,40 @@
-# Schematic visual review
+# Schematic visual evidence
 
-Baseline: PR #70, `292cd0fc0cb432626d11cb41357b5a362561144b`.
-All 24 actual sheets were rendered and inspected, including UART debug and HDMI
-source resistors. The previous lint report covered 22 sheets with findings.
-The PNGs retain the actual sheet frame, so fit-to-sheet problems stay visible.
+Draft stack: [#71 Power management](https://github.com/0hmX/am3352-ddr-track-a-local-dfm-wip-20261007/pull/71), [#72 CPU/DDR and browser regression](https://github.com/0hmX/am3352-ddr-track-a-local-dfm-wip-20261007/pull/72). Baseline is PR #70, `292cd0f`. The design actually contains 24 sheets. Interface and HDMI work remains pending.
 
-## Power management
+The [browser regression report](browser-duplicate-pin.md) identifies port 537, explains the TSX workaround, and links the six-capacitor reproduction. The unsafe CPU/DDR bus candidate is superseded. Power is 297×210 mm with a readable central PMIC, local supply groups and named rails. CPU/DDR symbols and passive banks use compact sheets; their bus topology is deliberately conservative until the renderer handles overlapping connection lists.
 
-Status: full native Power management revision built and compared with #70. Every PCB record and the complete terminal/net connectivity partition match. Native placement on the full build: **0 findings**.
+Counts below use the actual full board, not isolated previews. Net-label share is labels / (components + schematic traces + labels); ports, reference text and frames are excluded. Fill is the visible-content bounding rectangle / paper area, not ink coverage. Text bounds are estimates. The millimetre conversion is 10.16/1.1 per schematic unit; this corrects the earlier fill estimates without changing the baseline circuit.
 
-[Before](before/power-management.png) · [After](power/power-management.png)
+Each non-A4 sheet receives a viewer styling warning because compact custom paper is intentional. CPU power also has renderer bounds warnings: the bounds utility treats horizontal power-label text as vertical; see [the TSX repro](reproductions/power-label-sheet-bounds.tsx). The viewer's badge totals warnings from all sheets, rather than counting just the selected Power sheet. Power itself has no schematic warnings. Other source/PCB diagnostics predate this visual work.
 
-The 700 × 1190 mm frame becomes default A4. The PMIC is central, capacitor
-banks follow the existing supply rails, and the RTC/reset circuit is local.
-Native explicit traces attach existing net names to schematic labels instead of
-port-derived names. Native schematicbox projections clean display labels while
-retaining the physical chip's original pin names, aliases, numbered selectors,
-no-connect declarations and footprint mapping.
+Shares above 50% on CPU/DDR signal sections are true inter-sheet terminals. Bypass/supply/reference shares above 50% are a documented limitation of the duplicate-pin workaround, and remain unfinished visual work. The independent CPU regulator outputs also naturally require separate power/ground labels. No auto-generated pin-name labels are introduced by the named connection helper.
 
-The original viewer's 24-warning badge is global: one non-default-sheet-size
-warning on each of 24 sheets. Power management contributes **1 → 0**; this
-increment leaves 23 on the untouched sheets. These are styling warnings, not
-24 faults in the PMIC circuit.
+| Sheet | PNGs | Net-label share | Paper mm | Bounding-box fill | Viewer warnings | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPU supplies | [before](before/cpu-supplies.png) · [after](cpu-ddr/cpu-supplies.png) | 81.5% → 76.7% | 700×500 → 270×210 | 21.4% → 45.5% | 1 → 1 | Power/CPU/DDR increment |
+| CPU DDR interface | [before](before/cpu-ddr-interface.png) · [after](cpu-ddr/cpu-ddr-interface.png) | 96.1% → 96.1% | 700×500 → 230×110 | 7.2% → 39.4% | 1 → 1 | Power/CPU/DDR increment |
+| CPU video and I2C | [before](before/cpu-video-and-i2c.png) · [after](cpu-ddr/cpu-video-and-i2c.png) | 97.0% → 97.0% | 700×500 → 100×100 | 1.7% → 45.6% | 1 → 1 | Power/CPU/DDR increment |
+| CPU peripheral and boot pins | [before](before/cpu-peripheral-and-boot-pins.png) · [after](cpu-ddr/cpu-peripheral-and-boot-pins.png) | 91.9% → 91.9% | 700×500 → 270×210 | 23.1% → 44.2% | 1 → 1 | Power/CPU/DDR increment |
+| CPU Ethernet and USB | [before](before/cpu-ethernet-and-usb.png) · [after](cpu-ddr/cpu-ethernet-and-usb.png) | 78.6% → 78.6% | 700×500 → 100×100 | 1.6% → 42.1% | 1 → 1 | Power/CPU/DDR increment |
+| DDR memory supplies | [before](before/ddr-memory-supplies.png) · [after](cpu-ddr/ddr-memory-supplies.png) | 95.3% → 95.3% | 700×500 → 210×110 | 6.6% → 37.9% | 1 → 1 | Power/CPU/DDR increment |
+| DDR memory address and control | [before](before/ddr-memory-address-and-control.png) · [after](cpu-ddr/ddr-memory-address-and-control.png) | 93.3% → 93.3% | 700×500 → 160×110 | 6.7% → 39.3% | 1 → 1 | Power/CPU/DDR increment |
+| DDR memory data | [before](before/ddr-memory-data.png) · [after](cpu-ddr/ddr-memory-data.png) | 95.2% → 95.2% | 700×500 → 70×100 | 1.0% → 34.6% | 1 → 1 | Power/CPU/DDR increment |
+| Power management | [before](before/power-management.png) · [after](cpu-ddr/power-management.png) | 59.9% → 46.4% | 700×1190 → 297×210 | 43.5% → 71.3% | 1 → 0 | Power/CPU/DDR increment |
+| CPU bypass | [before](before/cpu-bypass.png) · [after](cpu-ddr/cpu-bypass.png) | 54.9% → 53.4% | 700×1460 → 230×170 | 5.1% → 63.3% | 1 → 1 | Power/CPU/DDR increment |
+| CPU power | [before](before/cpu-power.png) · [after](cpu-ddr/cpu-power.png) | 54.5% → 54.5% | 700×500 → 120×30 | 0.6% → 26.7% | 1 → 3 | Power/CPU/DDR increment |
+| DDR reference | [before](before/ddr-reference.png) · [after](cpu-ddr/ddr-reference.png) | 62.1% → 58.6% | 700×500 → 220×140 | 19.6% → 28.1% | 1 → 1 | Power/CPU/DDR increment |
+| DDR bypass | [before](before/ddr-bypass.png) · [after](cpu-ddr/ddr-bypass.png) | 62.7% → 61.5% | 700×1010 → 200×110 | 1.4% → 45.1% | 1 → 1 | Power/CPU/DDR increment |
+| Boot and clock | [before](before/boot-and-clock.png) · [after](cpu-ddr/boot-and-clock.png) | 57.3% → 57.3% | 700×740 → 700×740 | 33.9% → 33.9% | 1 → 1 | Pending visual pass |
+| microSD | [before](before/microsd.png) · [after](cpu-ddr/microsd.png) | 62.8% → 62.8% | 700×500 → 700×500 | 21.1% → 21.1% | 1 → 1 | Pending visual pass |
+| Power input | [before](before/power-input.png) · [after](cpu-ddr/power-input.png) | 54.2% → 54.2% | 700×650 → 700×650 | 5.4% → 5.4% | 1 → 1 | Pending visual pass |
+| Debug and reset | [before](before/debug-and-reset.png) · [after](cpu-ddr/debug-and-reset.png) | 57.1% → 57.1% | 700×500 → 700×500 | 9.9% → 9.9% | 1 → 1 | Pending visual pass |
+| UART debug | [before](before/uart-debug.png) · [after](cpu-ddr/uart-debug.png) | 50.0% → 50.0% | 700×500 → 700×500 | 0.4% → 0.4% | 1 → 1 | Pending visual pass |
+| Ethernet and RGB expansion | [before](before/ethernet-and-rgb-expansion.png) · [after](cpu-ddr/ethernet-and-rgb-expansion.png) | 69.1% → 69.1% | 700×2200 → 700×2200 | 42.3% → 42.3% | 1 → 1 | Pending visual pass |
+| USB programming | [before](before/usb-programming.png) · [after](cpu-ddr/usb-programming.png) | 61.5% → 61.5% | 700×500 → 700×500 | 3.0% → 3.0% | 1 → 1 | Pending visual pass |
+| Debug rails and power status | [before](before/debug-rails-and-power-status.png) · [after](cpu-ddr/debug-rails-and-power-status.png) | 54.5% → 54.5% | 700×500 → 700×500 | 7.7% → 7.7% | 1 → 1 | Pending visual pass |
+| HDMI source resistors | [before](before/hdmi-source-resistors.png) · [after](cpu-ddr/hdmi-source-resistors.png) | 88.9% → 88.9% | 700×500 → 700×500 | 14.8% → 14.8% | 1 → 1 | Pending visual pass |
+| HDMI transmitter and protection | [before](before/hdmi-transmitter-and-protection.png) · [after](cpu-ddr/hdmi-transmitter-and-protection.png) | 80.4% → 80.4% | 700×800 → 700×800 | 40.1% → 40.1% | 1 → 1 | Pending visual pass |
+| HDMI power | [before](before/hdmi-power.png) · [after](cpu-ddr/hdmi-power.png) | 59.2% → 59.2% | 700×1400 → 700×1400 | 30.9% → 30.9% | 1 → 1 | Pending visual pass |
 
-[TSX renderer reproduction](reproductions/exposed-net-labels.tsx): removing the
-`schDisplayLabel` props reproduces the exposed-net naming fallback. No library
-patch or hand-authored Circuit JSON is used. The native traces replace the connections prop in the same order. Local paths include a nearby terminal already on the same named net; the original net remains in each path.
-
-## Metrics
-
-The sheet manifests report net-label share as labels / (component symbols + native routed wires + labels). Ports, pin text, reference/value text and sheet frames do not inflate this denominator. Fill is the content bounding-box area / sheet area; label widths are estimated from text length, so this is a layout metric rather than ink coverage. Native per-sheet styling warnings are listed individually.
-
-## Verification
-
-`tsci build index.tsx` and the native schematic placement
-check; all 35 `pcb_*`/`source_*` types are fingerprinted by
-`scripts/schematic-lint-evidence.tsx` against a fresh #70 build, retained locally
-as `work/schematic-visual/pr70.circuit.json`. Every complete PCB array must match,
-including IDs, traces, pads, holes, vias, positions, copper pours and net bindings.
-Source components, ports, nets and internal connections must match. Native source traces retain their IDs/order and named net membership; local paths additionally mention terminals already on that net. The complete electrical partition of every numbered terminal and every scoped net must match, so those redundant path endpoints cannot introduce or remove a connection.
-
-The pre-existing comparator normalizes stock-symbol polarity synonyms and
-excludes supplier fetch diagnostics and the edited TSX metadata hash. This
-increment additionally normalizes only the transient `chip#<instance counter>`
-inside missing-MPN warning messages; warning counts, component IDs and the rest
-of those warnings remain compared. It does not exempt any geometry or
-connectivity record.
-
-Render again with:
-
-```sh
-bun scripts/schematic-visual-evidence.tsx dist/index/circuit.json work/schematic-visual/current
-bun scripts/schematic-lint-evidence.tsx work/schematic-visual/check work/schematic-visual/pr70.circuit.json
-```
-
-Power management metrics: labels **59.9% → 42.0%**; sheet **700×1190 → 297×210 mm**; content bounding-box fill **50.9% → 78.8%**; sheet warnings **1 → 0**. [Detailed receipt](power/sheets.json).
-
-Two RTC bypass capacitors gain the core’s inferred default `max_decoupling_trace_length: 1` when native local paths make their existing decoupling relationship explicit. This source constraint is recorded in [the delta receipt](power/inferred-capacitor-constraints.json); the comparator accepts only newly inferred value 1 and retains all other source component fields. It changes no terminal/net connectivity or PCB record.
-
-## CPU/DDR draft
-
-The twelve [focused CPU/DDR after renders and receipts](cpu-ddr/sheets.json) compact the original projections and banks, preserve physical aliases, and draw local supply buses. Interface-only projections and three isolated internal-regulator capacitors remain above 50% labels because their signals leave the sheet. No placeholder wires are added.
-
-Custom-size warnings are intentional. CPU power additionally has three false outside-sheet warnings caused by the native utility treating horizontal power labels as vertical text: [minimal TSX reproduction](reproductions/power-label-sheet-bounds.tsx). No renderer patch is used. Full-stack PCB/connectivity and board-wide CLI verification remain pending for this layer.
-
-Fill receipts use `10.16 / 1.1` mm per native schematic unit and estimated visible label widths. This corrects the earlier rounded-unit fill figures; the source label counts and paper dimensions are unchanged.
+Verification receipts under `cpu-ddr/` compare complete `pcb_*` arrays (every field, ID and order) with the fresh #70 build, and compare the electrical partition of every source terminal and scoped net. Only stock-symbol polarity hint synonyms, runtime warning counters, supplier fetch diagnostics and the TSX metadata hash are normalized or excluded; no PCB field is excluded. Any inferred capacitor constraint changes are recorded separately. The final build and exact CLI placement check are recorded in `cpu-ddr/verification.json`.

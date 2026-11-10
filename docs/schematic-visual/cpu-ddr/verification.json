@@ -1,0 +1,311 @@
+{
+  "verifiedAt": "2026-11-10 11:35:56 UTC",
+  "baseline": "292cd0fc0cb432626d11cb41357b5a362561144b",
+  "regressionParent": "4283c13ef76794663c4a27e2ee3adaa8131709bc",
+  "cli": {
+    "build": "tsci build index.tsx",
+    "buildExitCode": 0,
+    "placementCheck": "tsci check schematic-placement index.tsx",
+    "placementFindings": 0,
+    "placementOutputBytes": 1,
+    "reproductionCheck": "bun scripts/check-schematic-bus-repro.tsx",
+    "reproduction": "expected duplicate-pin error; workaround renders"
+  },
+  "browser": {
+    "url": "http://localhost:3050",
+    "count": 26241,
+    "evalVersion": "0.0.1727",
+    "schematicComponents": 369,
+    "schematicErrors": [],
+    "sheets": [
+      {
+        "height": 210,
+        "name": "CPU supplies",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"CPU supplies\" uses a non-default size (270 × 210 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 270
+      },
+      {
+        "height": 110,
+        "name": "CPU DDR interface",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"CPU DDR interface\" uses a non-default size (230 × 110 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 230
+      },
+      {
+        "height": 100,
+        "name": "CPU video and I2C",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"CPU video and I2C\" uses a non-default size (100 × 100 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 100
+      },
+      {
+        "height": 210,
+        "name": "CPU peripheral and boot pins",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"CPU peripheral and boot pins\" uses a non-default size (270 × 210 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 270
+      },
+      {
+        "height": 100,
+        "name": "CPU Ethernet and USB",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"CPU Ethernet and USB\" uses a non-default size (100 × 100 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 100
+      },
+      {
+        "height": 110,
+        "name": "DDR memory supplies",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"DDR memory supplies\" uses a non-default size (210 × 110 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 210
+      },
+      {
+        "height": 110,
+        "name": "DDR memory address and control",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"DDR memory address and control\" uses a non-default size (160 × 110 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 160
+      },
+      {
+        "height": 100,
+        "name": "DDR memory data",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"DDR memory data\" uses a non-default size (70 × 100 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "height": 210,
+        "name": "Power management",
+        "warnings": [],
+        "width": 297
+      },
+      {
+        "height": 170,
+        "name": "CPU bypass",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"CPU bypass\" uses a non-default size (230 × 170 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 230
+      },
+      {
+        "height": 30,
+        "name": "CPU power",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"CPU power\" uses a non-default size (120 × 30 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          },
+          {
+            "message": "schematic_net_label schematic_net_label_107 extends outside the drawing area of schematic sheet \"CPU power\"",
+            "type": "schematic_element_outside_sheet_warning"
+          },
+          {
+            "message": "schematic_net_label schematic_net_label_109 extends outside the drawing area of schematic sheet \"CPU power\"",
+            "type": "schematic_element_outside_sheet_warning"
+          }
+        ],
+        "width": 120
+      },
+      {
+        "height": 140,
+        "name": "DDR reference",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"DDR reference\" uses a non-default size (220 × 140 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 220
+      },
+      {
+        "height": 110,
+        "name": "DDR bypass",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"DDR bypass\" uses a non-default size (200 × 110 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 200
+      },
+      {
+        "height": 740,
+        "name": "Boot and clock",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"Boot and clock\" uses a non-default size (700 × 740 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 500,
+        "name": "microSD",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"microSD\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 650,
+        "name": "Power input",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"Power input\" uses a non-default size (700 × 650 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 500,
+        "name": "Debug and reset",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"Debug and reset\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 500,
+        "name": "UART debug",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"UART debug\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 2200,
+        "name": "Ethernet and RGB expansion",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"Ethernet and RGB expansion\" uses a non-default size (700 × 2200 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 500,
+        "name": "USB programming",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"USB programming\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 500,
+        "name": "Debug rails and power status",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"Debug rails and power status\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 500,
+        "name": "HDMI source resistors",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"HDMI source resistors\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 800,
+        "name": "HDMI transmitter and protection",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"HDMI transmitter and protection\" uses a non-default size (700 × 800 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      },
+      {
+        "height": 1400,
+        "name": "HDMI power",
+        "warnings": [
+          {
+            "message": "Schematic sheet \"HDMI power\" uses a non-default size (700 × 1400 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling.",
+            "type": "schematic_sheet_styling_warning"
+          }
+        ],
+        "width": 700
+      }
+    ],
+    "sourceFiles": {
+      "schematic/CpuDdrLayout.tsx": "b403c14af0ac7d6ea4fd9c4994291e0b6c2c0cf0a0060913296c1acfc8c644ff",
+      "schematic/PinSheets.tsx": "151461862314c349d9155af7fb921c3873ac3cebe48d0b78e0115e67c5dda61a",
+      "schematic/PowerManagementLayout.tsx": "e79703e1b8d1f4b01d01b8f51c00f1e9f221867c55988ad9e345dabed88fe8d1",
+      "subcircuits/DDR3.tsx": "45dad7e6e9a91da690a5664ee07f8dc74fa13effd1e635425a2a3c85ad70abd1",
+      "subcircuits/Processor.tsx": "e4fe3666d752965278bfd9667223a4853f0094a0e51cbf152551827f9ba072c7",
+      "support.tsx": "bca5359e43eea3a283e25979bfc014369f770d439cfdda35cc2956d284479684"
+    },
+    "warningTotal": 25
+  },
+  "pcbComparison": {
+    "method": "Complete pcb_* arrays, including IDs, order and every field; no PCB field normalized",
+    "result": "identical",
+    "fingerprints": "pcb-source-fingerprints.json"
+  },
+  "sourceConnectivity": {
+    "method": "Union partitions over every source_port and scoped source_net, source_trace and source_component_internal_connection",
+    "result": "identical",
+    "sha256": "10494abef7b2a2cbc2f0b14eb3dc04bc2d494b84e9d427f68719a537b385cd88",
+    "groups": 3153
+  },
+  "constraints": "inferred-capacitor-constraints.json"
+}

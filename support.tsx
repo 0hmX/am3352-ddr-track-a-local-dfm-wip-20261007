@@ -1,6 +1,6 @@
 import { Fragment } from "react"
 import { savedRefdesStyle } from "./layout/SavedSilkscreen"
-import { cpuDdrLayout, cpuDdrWiring } from "./schematic/CpuDdrLayout"
+import { cpuDdrLayout } from "./schematic/CpuDdrLayout"
 import { namedConnections } from "./schematic/NamedConnections"
 import { PowerManagementChip, powerManagementLayout, powerManagementWiring } from "./schematic/PowerManagementLayout"
 import { passiveLayout } from "./schematic/PassiveLayout"
@@ -37,7 +37,6 @@ Object.assign(schematicPlacement, {
   R_PD_ISNK_DN: { schX: -4.5, schY: -0.4, schRotation: 90 },
 })
 
-const cpuWiring = cpuDdrWiring(parts, schematicPlacement)
 import supportFootprints from './data/support-footprints'
 import mechanics from './data/support-mechanics'
 import supportPlacement from './data/support-placement-draft'
@@ -72,7 +71,7 @@ export function Support({ sheets = supportSheets }: { sheets?: string[] } = {}){
  Object.assign(props, schematicPlacement[p.name])
  if(["Power management", "CPU bypass", "CPU power", "DDR bypass", "DDR reference"].includes(p.sheet)) {
   Object.assign(props, powerManagementLayout[p.name])
-  Object.assign(props, { children: namedConnections(p.name, props.connections, p.sheet === "Power management" ? powerWiring : cpuWiring, props) })
+  Object.assign(props, { children: namedConnections(p.name, props.connections, p.sheet === "Power management" ? powerWiring : undefined, props) })
   delete (props as any).connections
  }
  if(p.kind==='resistor')return <resistor key={p.name} {...props} resistance={p.value} footprint={p.useImportedFootprint?<ImportedFootprint part={p}/>:p.footprint??'0402'}/>

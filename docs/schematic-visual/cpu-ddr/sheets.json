@@ -2,9 +2,9 @@
   {
     "metrics": {
       "components": 4,
-      "wires": 73,
-      "netLabels": 20,
-      "netLabelShare": 0.20618556701030927,
+      "wires": 24,
+      "netLabels": 92,
+      "netLabelShare": 0.7666666666666667,
       "sheetMm": [
         270,
         210
@@ -77,9 +77,9 @@
   {
     "metrics": {
       "components": 3,
-      "wires": 8,
-      "netLabels": 26,
-      "netLabelShare": 0.7027027027027027,
+      "wires": 0,
+      "netLabels": 34,
+      "netLabelShare": 0.918918918918919,
       "sheetMm": [
         270,
         210
@@ -102,9 +102,9 @@
   {
     "metrics": {
       "components": 1,
-      "wires": 0,
-      "netLabels": 13,
-      "netLabelShare": 0.9285714285714286,
+      "wires": 2,
+      "netLabels": 11,
+      "netLabelShare": 0.7857142857142857,
       "sheetMm": [
         100,
         100
@@ -127,18 +127,18 @@
   {
     "metrics": {
       "components": 2,
-      "wires": 35,
-      "netLabels": 6,
-      "netLabelShare": 0.13953488372093023,
+      "wires": 0,
+      "netLabels": 41,
+      "netLabelShare": 0.9534883720930233,
       "sheetMm": [
         210,
         110
       ],
       "contentBoundsMm": [
-        128.6025090909091,
+        125.45290909090909,
         69.73454545454545
       ],
-      "boundingBoxFill": 0.3882267322843548
+      "boundingBoxFill": 0.37871868361060423
     },
     "sheet": "DDR memory supplies",
     "image": "ddr-memory-supplies.png",
@@ -201,44 +201,64 @@
   },
   {
     "metrics": {
-      "components": 55,
-      "wires": 104,
-      "netLabels": 12,
-      "netLabelShare": 0.07017543859649122,
+      "components": 41,
+      "wires": 55,
+      "netLabels": 83,
+      "netLabelShare": 0.46368715083798884,
       "sheetMm": [
-        280,
-        200
+        297,
+        210
       ],
       "contentBoundsMm": [
-        223.51999999999995,
-        162.09818181818179
+        246.7494545454545,
+        180.1090909090909
       ],
-      "boundingBoxFill": 0.6470033142857141
+      "boundingBoxFill": 0.7125512255971759
+    },
+    "sheet": "Power management",
+    "image": "power-management.png",
+    "warnings": []
+  },
+  {
+    "metrics": {
+      "components": 55,
+      "wires": 21,
+      "netLabels": 87,
+      "netLabelShare": 0.5337423312883436,
+      "sheetMm": [
+        230,
+        170
+      ],
+      "contentBoundsMm": [
+        186.57454545454544,
+        132.63418181818182
+      ],
+      "boundingBoxFill": 0.6328941735156729
     },
     "sheet": "CPU bypass",
     "image": "cpu-bypass.png",
     "warnings": [
       {
         "type": "schematic_sheet_styling_warning",
-        "message": "Schematic sheet \"CPU bypass\" uses a non-default size (280 × 200 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+        "message": "Schematic sheet \"CPU bypass\" uses a non-default size (230 × 170 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
       }
     ]
   },
   {
     "metrics": {
       "components": 3,
-      "wires": 0,
+      "wires": 2,
       "netLabels": 6,
-      "netLabelShare": 0.6666666666666666,
+      "netLabelShare": 0.5454545454545454,
       "sheetMm": [
         120,
         30
       ],
       "contentBoundsMm": [
-        86.82181818181817,
-        9.051636363636364
+        85.89818181818183,
+        11.194472727272727
       ],
-      "boundingBoxFill": 0.21829986850321392
+      "boundingBoxFill": 0.2671069038016529
     },
     "sheet": "CPU power",
     "image": "cpu-power.png",
@@ -249,33 +269,29 @@
       },
       {
         "type": "schematic_element_outside_sheet_warning",
-        "message": "schematic_net_label schematic_net_label_51 extends outside the drawing area of schematic sheet \"CPU power\""
+        "message": "schematic_net_label schematic_net_label_107 extends outside the drawing area of schematic sheet \"CPU power\""
       },
       {
         "type": "schematic_element_outside_sheet_warning",
-        "message": "schematic_net_label schematic_net_label_53 extends outside the drawing area of schematic sheet \"CPU power\""
-      },
-      {
-        "type": "schematic_element_outside_sheet_warning",
-        "message": "schematic_net_label schematic_net_label_55 extends outside the drawing area of schematic sheet \"CPU power\""
+        "message": "schematic_net_label schematic_net_label_109 extends outside the drawing area of schematic sheet \"CPU power\""
       }
     ]
   },
   {
     "metrics": {
       "components": 10,
-      "wires": 12,
-      "netLabels": 11,
-      "netLabelShare": 0.3333333333333333,
+      "wires": 2,
+      "netLabels": 17,
+      "netLabelShare": 0.5862068965517241,
       "sheetMm": [
         220,
         140
       ],
       "contentBoundsMm": [
-        138.08363636363634,
-        78.60145454545454
+        156.46399999999997,
+        55.23345454545454
       ],
-      "boundingBoxFill": 0.35238878789309863
+      "boundingBoxFill": 0.28058594909090906
     },
     "sheet": "DDR reference",
     "image": "ddr-reference.png",
@@ -289,25 +305,300 @@
   {
     "metrics": {
       "components": 36,
-      "wires": 68,
-      "netLabels": 6,
-      "netLabelShare": 0.05454545454545454,
+      "wires": 6,
+      "netLabels": 67,
+      "netLabelShare": 0.6146788990825688,
       "sheetMm": [
-        280,
-        170
+        200,
+        110
       ],
       "contentBoundsMm": [
-        203.19999999999996,
-        109.4509090909091
+        130.048,
+        76.3016
       ],
-      "boundingBoxFill": 0.46723581359816646
+      "boundingBoxFill": 0.45103956712727267
     },
     "sheet": "DDR bypass",
     "image": "ddr-bypass.png",
     "warnings": [
       {
         "type": "schematic_sheet_styling_warning",
-        "message": "Schematic sheet \"DDR bypass\" uses a non-default size (280 × 170 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+        "message": "Schematic sheet \"DDR bypass\" uses a non-default size (200 × 110 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 24,
+      "wires": 14,
+      "netLabels": 51,
+      "netLabelShare": 0.5730337078651685,
+      "sheetMm": [
+        700,
+        740
+      ],
+      "contentBoundsMm": [
+        413.7429090909091,
+        424.78960000000006
+      ],
+      "boundingBoxFill": 0.33929282790649357
+    },
+    "sheet": "Boot and clock",
+    "image": "boot-and-clock.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"Boot and clock\" uses a non-default size (700 × 740 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 10,
+      "wires": 6,
+      "netLabels": 27,
+      "netLabelShare": 0.627906976744186,
+      "sheetMm": [
+        700,
+        500
+      ],
+      "contentBoundsMm": [
+        395.5565090909091,
+        186.4821818181818
+      ],
+      "boundingBoxFill": 0.21075497385044628
+    },
+    "sheet": "microSD",
+    "image": "microsd.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"microSD\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 20,
+      "wires": 24,
+      "netLabels": 52,
+      "netLabelShare": 0.5416666666666666,
+      "sheetMm": [
+        700,
+        650
+      ],
+      "contentBoundsMm": [
+        197.19636363636366,
+        124.59854545454544
+      ],
+      "boundingBoxFill": 0.054000835336300075
+    },
+    "sheet": "Power input",
+    "image": "power-input.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"Power input\" uses a non-default size (700 × 650 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 6,
+      "wires": 3,
+      "netLabels": 12,
+      "netLabelShare": 0.5714285714285714,
+      "sheetMm": [
+        700,
+        500
+      ],
+      "contentBoundsMm": [
+        374.0819636363637,
+        92.28050909090909
+      ],
+      "boundingBoxFill": 0.09862992584597309
+    },
+    "sheet": "Debug and reset",
+    "image": "debug-and-reset.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"Debug and reset\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 4,
+      "wires": 0,
+      "netLabels": 4,
+      "netLabelShare": 0.5,
+      "sheetMm": [
+        700,
+        500
+      ],
+      "contentBoundsMm": [
+        387.6501818181818,
+        3.694545454545455
+      ],
+      "boundingBoxFill": 0.00409197490625738
+    },
+    "sheet": "UART debug",
+    "image": "uart-debug.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"UART debug\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 63,
+      "wires": 19,
+      "netLabels": 183,
+      "netLabelShare": 0.690566037735849,
+      "sheetMm": [
+        700,
+        2200
+      ],
+      "contentBoundsMm": [
+        416.69854545454547,
+        1564.5476363636362
+      ],
+      "boundingBoxFill": 0.4233407301084899
+    },
+    "sheet": "Ethernet and RGB expansion",
+    "image": "ethernet-and-rgb-expansion.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"Ethernet and RGB expansion\" uses a non-default size (700 × 2200 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 4,
+      "wires": 6,
+      "netLabels": 16,
+      "netLabelShare": 0.6153846153846154,
+      "sheetMm": [
+        700,
+        500
+      ],
+      "contentBoundsMm": [
+        410.0945454545454,
+        25.769454545454547
+      ],
+      "boundingBoxFill": 0.030194036424085004
+    },
+    "sheet": "USB programming",
+    "image": "usb-programming.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"USB programming\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 12,
+      "wires": 3,
+      "netLabels": 18,
+      "netLabelShare": 0.5454545454545454,
+      "sheetMm": [
+        700,
+        500
+      ],
+      "contentBoundsMm": [
+        214.46836363636362,
+        126.44581818181815
+      ],
+      "boundingBoxFill": 0.07748179346890201
+    },
+    "sheet": "Debug rails and power status",
+    "image": "debug-rails-and-power-status.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"Debug rails and power status\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 7,
+      "wires": 0,
+      "netLabels": 56,
+      "netLabelShare": 0.8888888888888888,
+      "sheetMm": [
+        700,
+        500
+      ],
+      "contentBoundsMm": [
+        431.8,
+        120.07272727272728
+      ],
+      "boundingBoxFill": 0.14813543896103898
+    },
+    "sheet": "HDMI source resistors",
+    "image": "hdmi-source-resistors.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"HDMI source resistors\" uses a non-default size (700 × 500 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 19,
+      "wires": 11,
+      "netLabels": 123,
+      "netLabelShare": 0.803921568627451,
+      "sheetMm": [
+        700,
+        800
+      ],
+      "contentBoundsMm": [
+        457.2092363636364,
+        490.82036363636365
+      ],
+      "boundingBoxFill": 0.40072786366054314
+    },
+    "sheet": "HDMI transmitter and protection",
+    "image": "hdmi-transmitter-and-protection.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"HDMI transmitter and protection\" uses a non-default size (700 × 800 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
+      }
+    ]
+  },
+  {
+    "metrics": {
+      "components": 39,
+      "wires": 12,
+      "netLabels": 74,
+      "netLabelShare": 0.592,
+      "sheetMm": [
+        700,
+        1400
+      ],
+      "contentBoundsMm": [
+        441.96000000000004,
+        686.0770909090909
+      ],
+      "boundingBoxFill": 0.3094067664267162
+    },
+    "sheet": "HDMI power",
+    "image": "hdmi-power.png",
+    "warnings": [
+      {
+        "type": "schematic_sheet_styling_warning",
+        "message": "Schematic sheet \"HDMI power\" uses a non-default size (700 × 1400 mm). Prefer the default A4 sheet size (297 × 210 mm) for consistent schematic styling."
       }
     ]
   }
