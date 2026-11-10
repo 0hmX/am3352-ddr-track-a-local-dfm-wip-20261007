@@ -176,3 +176,13 @@ Converts 54 V3V3 distribution vias and removes obsolete via-placement/span overr
 placements, trace copper and via positions/nets/diameters are preserved. Native
 and independent exported-copper checks pass with no new enforced findings;
 two optional plated-drill margin findings are recorded. No route-data JSON edits.
+
+## Post-drill reference and validator reproduction
+
+[Audit and actual-TSX reproductions](postdrill-reference-check.md). The published
+board stays **410 through / 800 non-through**. Cumulative emitted reference
+comparison finds additional uncovered area in 29 trace/reference-layer pairs
+across 25 traces, including six DDR paths; three Inner6 routes are unassessed.
+Post-drill GND connectivity passes for all 416 component terminals. A separate
+native reproduction exposes the routing verifier's false-success exit on a lost
+physical connection; the next stacked fix must reject that condition.

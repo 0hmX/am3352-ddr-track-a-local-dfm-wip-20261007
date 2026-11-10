@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "status": "pass",
+    "nativeSha256": "29e8cc17b74cf52cfdec9a19036e15f07a11050fd957b80320bb6c493e73c30c",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 533,
+    "failures": [],
+    "checkerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "method": "Actual GND Gerber islands minus actual Excellon holes; rebuild island union through exported GND barrel wall boundaries on their real spans. Component terminals inside holes seed actual annular copper, never the empty drill center.",
+    "limits": [
+      "Ground-only connectivity check; no SI, impedance, return-current distribution or fabrication qualification.",
+      "Metal assignment uses the no-short pre-drill net graph, but connectivity is recomputed entirely after subtracting actual drill shapes."
+    ]
+  },
+  "v3-feed": {
+    "status": "pass",
+    "nativeSha256": "4ba1ebc0996cc05d4752a6cbe25b1035cfcda0d66f6f7037920825cd713f3ea1",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 533,
+    "failures": [],
+    "checkerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "method": "Actual GND Gerber islands minus actual Excellon holes; rebuild island union through exported GND barrel wall boundaries on their real spans. Component terminals inside holes seed actual annular copper, never the empty drill center.",
+    "limits": [
+      "Ground-only connectivity check; no SI, impedance, return-current distribution or fabrication qualification.",
+      "Metal assignment uses the no-short pre-drill net graph, but connectivity is recomputed entirely after subtracting actual drill shapes."
+    ]
+  },
+  "placement": {
+    "checkPcbComponentOverlap": 0,
+    "checkPcbComponentsMissingCourtyard": 15,
+    "checkPcbCourtyardOverKeepout": 0
+  },
+  "fullPlacementCounts": {
+    "pcb_component_outside_board_error": 5,
+    "pcb_component_missing_courtyard_warning": 15,
+    "pcb_courtyard_overlap_error": 3,
+    "pcb_connector_not_in_accessible_orientation_warning": 1
+  },
+  "sharpTurnTraces": 86
+}

@@ -1,0 +1,528 @@
+{
+  "checkerSha256": "f1b53968bcd41f34460c75bd84619ef10f39d28491ba39619c256ce6e28585cf",
+  "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+  "beforeAnalysisSha256": "a12d282b5745767b90c08b8bd999d0402210c2242f1b48796843e5345afa1533",
+  "afterAnalysisSha256": "47eff07ec000f14086ebcd2d360fb9f719e96002624fc32010da1b462c0451ec",
+  "beforeNativeSha256": "29e8cc17b74cf52cfdec9a19036e15f07a11050fd957b80320bb6c493e73c30c",
+  "afterNativeSha256": "4ba1ebc0996cc05d4752a6cbe25b1035cfcda0d66f6f7037920825cd713f3ea1",
+  "newReferenceCuts": [
+    {
+      "trace": "CLOUD_DDR15_BRANCH_22",
+      "net": "DDR_1V5",
+      "signalLayer": "inner5",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.08232412617966144,
+      "newUncoveredMm2": 0.06669105693755202,
+      "marginMm": 0.0,
+      "newBounds": [
+        -3.7776384786668395,
+        0.7000000000000043,
+        -0.7000000000000007,
+        3.777638478666833
+      ]
+    },
+    {
+      "trace": "CLOUD_VDD_CORE_20",
+      "net": "VDD_CORE",
+      "signalLayer": "inner5",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.0331722755008586,
+      "newUncoveredMm2": 0.015503843364483674,
+      "marginMm": 0.0,
+      "newBounds": [
+        2.604314456130677,
+        4.05,
+        2.9956855438693233,
+        4.11
+      ]
+    },
+    {
+      "trace": "CLOUD_LOCAL_5_PG_LED_SENSE",
+      "net": "PG_LED_SENSE",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.03224772981977032,
+      "newUncoveredMm2": 0.03224772981977032,
+      "marginMm": 0.0,
+      "newBounds": [
+        -4.36,
+        17.652107326374775,
+        -4.031396648256119,
+        18.07587215960123
+      ]
+    },
+    {
+      "trace": "CLOUD_LOCAL_55_RTC_KALDO_EN_N",
+      "net": "RTC_KALDO_EN_N",
+      "signalLayer": "top",
+      "referenceLayer": "inner1",
+      "uncoveredMm2": 0.07054151532308735,
+      "newUncoveredMm2": 0.02268908327502534,
+      "marginMm": 0.0,
+      "newBounds": [
+        5.608929771467676,
+        -27.36178090665098,
+        6.274615223457087,
+        -26.554674098424258
+      ]
+    },
+    {
+      "trace": "CLOUD_LOCAL_2_NEXT_MMC0_DAT3",
+      "net": "MMC0_DAT3",
+      "signalLayer": "inner2",
+      "referenceLayer": "inner1",
+      "uncoveredMm2": 0.24916803730662263,
+      "newUncoveredMm2": 0.006557399781122311,
+      "marginMm": 0.0,
+      "newBounds": [
+        -11.34,
+        -7.168284193482569,
+        -11.294999999999996,
+        -6.94382219628437
+      ]
+    },
+    {
+      "trace": "CLOUD_LOCAL_2_NEXT_MMC0_DAT3",
+      "net": "MMC0_DAT3",
+      "signalLayer": "inner2",
+      "referenceLayer": "inner3",
+      "uncoveredMm2": 0.21301133460018684,
+      "newUncoveredMm2": 0.006557399781122311,
+      "marginMm": 0.0,
+      "newBounds": [
+        -11.34,
+        -7.168284193482569,
+        -11.294999999999996,
+        -6.94382219628437
+      ]
+    },
+    {
+      "trace": "CLOUD_LOCAL_COMPACT_7_NEXT_MMC0_DAT2",
+      "net": "MMC0_DAT2",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.027819678098602408,
+      "newUncoveredMm2": 0.027819678098602408,
+      "marginMm": 0.0,
+      "newBounds": [
+        -10.857892673625225,
+        -1.9786033517438792,
+        -10.53139664825612,
+        -1.6521073263747752
+      ]
+    },
+    {
+      "trace": "CLOUD_DDR_VTP_V2_0",
+      "net": "DDR_VTP",
+      "signalLayer": "inner5",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.053015307758716074,
+      "newUncoveredMm2": 0.023388479960652037,
+      "marginMm": 0.0,
+      "newBounds": [
+        -6.128526096751523,
+        -6.474999999999999,
+        -3.270823215279102,
+        -6.11475719810112
+      ]
+    },
+    {
+      "trace": "CLOUD_DDR_VREF_V2_4",
+      "net": "DDR_VREF",
+      "signalLayer": "inner5",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.05154630749972117,
+      "newUncoveredMm2": 0.046292991651521995,
+      "marginMm": 0.0,
+      "newBounds": [
+        0.2802278424792984,
+        -3.95,
+        1.2672891714547314,
+        -3.25
+      ]
+    },
+    {
+      "trace": "CLOUD_DDR_VREF_V2_8",
+      "net": "DDR_VREF",
+      "signalLayer": "inner5",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.00592867162326491,
+      "newUncoveredMm2": 0.002805743723501799,
+      "marginMm": 0.0,
+      "newBounds": [
+        0.05,
+        -5.324551460478775,
+        0.07499973014726408,
+        -5.143436603497126
+      ]
+    },
+    {
+      "trace": "CLOUD_CAP_VDD_SRAM_MPU_V2_0",
+      "net": "CAP_VDD_SRAM_MPU",
+      "signalLayer": "inner5",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.05805942636445313,
+      "newUncoveredMm2": 0.03298820973884794,
+      "marginMm": 0.0,
+      "newBounds": [
+        -3.777638478666829,
+        1.5000000000000013,
+        -2.1581832727155645,
+        3.777638478666834
+      ]
+    },
+    {
+      "trace": "CLOUD_V1V8_REBUILD_39",
+      "net": "V1V8",
+      "signalLayer": "inner5",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.011764658853700323,
+      "newUncoveredMm2": 0.011764658853700323,
+      "marginMm": 0.0,
+      "newBounds": [
+        1.0223615213331658,
+        -1.55,
+        1.377638478666834,
+        -1.4999999999999987
+      ]
+    },
+    {
+      "trace": "DDR_BA0",
+      "net": "DDR_BA0",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.052040871823358786,
+      "newUncoveredMm2": 0.052040871823358786,
+      "marginMm": 0.0,
+      "newBounds": [
+        -4.75,
+        -6.928526096752044,
+        -3.8750000000000004,
+        -5.65
+      ]
+    },
+    {
+      "trace": "DDR_A1",
+      "net": "DDR_A1",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.004044046992757122,
+      "newUncoveredMm2": 0.004044046992757122,
+      "marginMm": 0.0,
+      "newBounds": [
+        2.050046,
+        -30.728443456344667,
+        2.075000000000255,
+        -30.47169454365533
+      ]
+    },
+    {
+      "trace": "DDR_A6",
+      "net": "DDR_A6",
+      "signalLayer": "inner4",
+      "referenceLayer": "inner3",
+      "uncoveredMm2": 0.01339316991671596,
+      "newUncoveredMm2": 0.001126332654119554,
+      "marginMm": 0.0,
+      "newBounds": [
+        -1.8981295787647672,
+        -29.298306578764766,
+        -1.7809827431166558,
+        -29.181159743116655
+      ]
+    },
+    {
+      "trace": "DDR_A12",
+      "net": "DDR_A12",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.024576991636060294,
+      "newUncoveredMm2": 0.024576991636060305,
+      "marginMm": 0.0,
+      "newBounds": [
+        -2.367420430809317,
+        -26.567451430809317,
+        -2.0532592473097937,
+        -26.253290247309796
+      ]
+    },
+    {
+      "trace": "DDR_A7",
+      "net": "DDR_A7",
+      "signalLayer": "inner4",
+      "referenceLayer": "inner3",
+      "uncoveredMm2": 0.02204336065492497,
+      "newUncoveredMm2": 4.296943057886259e-08,
+      "marginMm": 0.0,
+      "newBounds": [
+        2.7500000000002673,
+        -31.400636059030745,
+        2.750046,
+        -30.599601940969258
+      ]
+    },
+    {
+      "trace": "DDR_DQSn1",
+      "net": "DDR_DQSn1",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.012205372440725996,
+      "newUncoveredMm2": 0.012205372440725995,
+      "marginMm": 0.0,
+      "newBounds": [
+        1.888097162629192,
+        -21.177676452386365,
+        1.949946,
+        -20.80220067538228
+      ]
+    },
+    {
+      "trace": "CLOUD_ETH_61_RMII1_RX_ER",
+      "net": "RMII1_RX_ER",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.0011182573699970123,
+      "newUncoveredMm2": 0.0011182573699970114,
+      "marginMm": 0.0,
+      "newBounds": [
+        2.5018956535282513,
+        4.101895653528251,
+        2.618815024590403,
+        4.218815024590403
+      ]
+    },
+    {
+      "trace": "SYS14_ARRAY_STRAP_BOTTOM",
+      "net": "SYSBOOT14",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.24583965094244398,
+      "newUncoveredMm2": 0.008111728836267911,
+      "marginMm": 0.0,
+      "newBounds": [
+        0.2714739032484823,
+        -5.55,
+        1.3285260967515178,
+        -5.525
+      ]
+    },
+    {
+      "trace": "INT_ENDPOINT_CPU",
+      "net": "HDMI_INT_N",
+      "signalLayer": "inner4",
+      "referenceLayer": "inner3",
+      "uncoveredMm2": 2.3800036992067235e-06,
+      "newUncoveredMm2": 2.3800036992067227e-06,
+      "marginMm": 0.0,
+      "newBounds": [
+        13.75937924768973,
+        -9.75062075231027,
+        13.766331430428925,
+        -9.743668569571074
+      ]
+    },
+    {
+      "trace": "WARMRST_ENDPOINT_CPU_TO_R3",
+      "net": "WARMRST_N",
+      "signalLayer": "bottom",
+      "referenceLayer": "inner6",
+      "uncoveredMm2": 0.004055864418134198,
+      "newUncoveredMm2": 0.004055864418134198,
+      "marginMm": 0.0,
+      "newBounds": [
+        1.0714739032484786,
+        -1.55,
+        1.3285260967515213,
+        -1.5249999999999992
+      ]
+    },
+    {
+      "trace": "CLOUD_RN0_NEAR_HDMI_D9",
+      "net": "HDMI_D9",
+      "signalLayer": "top",
+      "referenceLayer": "inner1",
+      "uncoveredMm2": 0.008201140782807499,
+      "newUncoveredMm2": 0.008201140782807499,
+      "marginMm": 0.0,
+      "newBounds": [
+        13.678800746718645,
+        -9.831199253281357,
+        13.901909931400011,
+        -9.60809006859999
+      ]
+    },
+    {
+      "trace": "CLOUD_RN0_NEAR_HDMI_D18",
+      "net": "HDMI_D18",
+      "signalLayer": "inner2",
+      "referenceLayer": "inner1",
+      "uncoveredMm2": 0.008398974984048582,
+      "newUncoveredMm2": 0.008398974984048582,
+      "marginMm": 0.0,
+      "newBounds": [
+        14.341070091701708,
+        2.65,
+        14.658929908298292,
+        2.69
+      ]
+    },
+    {
+      "trace": "CLOUD_RN0_NEAR_HDMI_D18",
+      "net": "HDMI_D18",
+      "signalLayer": "inner2",
+      "referenceLayer": "inner3",
+      "uncoveredMm2": 0.008398974984048582,
+      "newUncoveredMm2": 0.008398974984048582,
+      "marginMm": 0.0,
+      "newBounds": [
+        14.341070091701708,
+        2.65,
+        14.658929908298292,
+        2.69
+      ]
+    },
+    {
+      "trace": "RN4_NEAR_SYSBOOT9_pin4",
+      "net": "SYSBOOT9",
+      "signalLayer": "inner2",
+      "referenceLayer": "inner1",
+      "uncoveredMm2": 0.006063592880025365,
+      "newUncoveredMm2": 0.006063592880025366,
+      "marginMm": 0.0,
+      "newBounds": [
+        13.683155141121793,
+        -7.326844858878208,
+        13.887555536996864,
+        -7.122444463003138
+      ]
+    },
+    {
+      "trace": "RN4_NEAR_SYSBOOT9_pin4",
+      "net": "SYSBOOT9",
+      "signalLayer": "inner2",
+      "referenceLayer": "inner3",
+      "uncoveredMm2": 0.006063592880025455,
+      "newUncoveredMm2": 0.006063592880025455,
+      "marginMm": 0.0,
+      "newBounds": [
+        13.683155141121793,
+        -7.326844858878208,
+        13.887555536996864,
+        -7.122444463003137
+      ]
+    },
+    {
+      "trace": "RN4_NEAR_SYSBOOT5_pin2",
+      "net": "SYSBOOT5",
+      "signalLayer": "inner2",
+      "referenceLayer": "inner1",
+      "uncoveredMm2": 0.02153345692679562,
+      "newUncoveredMm2": 0.021533456926795626,
+      "marginMm": 0.0,
+      "newBounds": [
+        13.664292293153533,
+        -9.845707706846467,
+        13.966418384965122,
+        -9.543581615034878
+      ]
+    },
+    {
+      "trace": "RN4_NEAR_SYSBOOT5_pin2",
+      "net": "SYSBOOT5",
+      "signalLayer": "inner2",
+      "referenceLayer": "inner3",
+      "uncoveredMm2": 0.02153345692679562,
+      "newUncoveredMm2": 0.021533456926795626,
+      "marginMm": 0.0,
+      "newBounds": [
+        13.664292293153533,
+        -9.845707706846467,
+        13.966418384965122,
+        -9.543581615034878
+      ]
+    }
+  ],
+  "newTraceRows": [],
+  "unassessedTraceLayers": [
+    {
+      "trace": "SYS2_CPU_ARRAY_I6",
+      "net": "SYSBOOT2",
+      "signalLayer": "inner6"
+    },
+    {
+      "trace": "SYS10_CPU_ARRAY_I6",
+      "net": "SYSBOOT10",
+      "signalLayer": "inner6"
+    },
+    {
+      "trace": "SYS10_PULL_I6",
+      "net": "SYSBOOT10",
+      "signalLayer": "inner6"
+    }
+  ],
+  "referenceLayers": {
+    "top": [
+      "inner1"
+    ],
+    "inner2": [
+      "inner1",
+      "inner3"
+    ],
+    "inner4": [
+      "inner3"
+    ],
+    "inner5": [
+      "inner6"
+    ],
+    "bottom": [
+      "inner6"
+    ]
+  },
+  "gerberHashes": {
+    "work/through-vias/native-baseline/gerber/In1_Cu.gbr": "27d4e0e99b60bb9e3851aa4b1d0d8ce90260bb78cc926ed7dc067c5a6d70376c",
+    "work/through-vias/native-baseline/gerber/In3_Cu.gbr": "bb189f3dc9c3cd705697ee742ce1fbada5ee39fb2117379f02c853dff057a3fd",
+    "work/through-vias/native-baseline/gerber/In6_Cu.gbr": "bde155e66588acdf25769232a7780e230cafe3aee0f9ac1dd2782cd4a890640e",
+    "work/through-vias/native-baseline/gerber/drill-L2-L8.drl": "185c92adce5ee3195c61a54ee9d440c1e80ce85d99becea259aae4ce6b91d325",
+    "work/through-vias/native-baseline/gerber/drill-L5-L6.drl": "6ea0cef4d68ac004899528d3471be26993007b58546132a2666f47b1f3c0a520",
+    "work/through-vias/native-baseline/gerber/drill-L1-L5.drl": "a72af2341f102b845a031afeae5c4aa5bc042c2b7a469d6e1906039b78c27181",
+    "work/through-vias/native-baseline/gerber/drill-L1-L4.drl": "ff44d84b9639473e888821fdddc22b71b05e8dbc213ba2d1597ea7a98cf3c3c1",
+    "work/through-vias/native-baseline/gerber/drill-L1-L6.drl": "2afc234b1bbb929ff07f320dbfa4580c71b94cd23f098a906ed9dde5b64781ca",
+    "work/through-vias/native-baseline/gerber/drill-L1-L7.drl": "363eec58fc99e20f10136f18fcf44c712cd038fc99f20a370f01ad505237166d",
+    "work/through-vias/native-baseline/gerber/drill-L1-L3.drl": "d7aabaf892f59b1aa9ba4f61cf2cd57f5238ff4ef251222a11cd6bb0a85518e2",
+    "work/through-vias/native-baseline/gerber/drill-L3-L6.drl": "2cec661a15565ac9d45d59807c4de220fa8f19160c8f2fae6106575d94ee6d3a",
+    "work/through-vias/native-baseline/gerber/drill-L1-L2.drl": "df1aebbd2f6f14dcab0971207696d485396799488faad447e2edd3100a1b5a55",
+    "work/through-vias/native-baseline/gerber/drill-L3-L5.drl": "940ec429cfb7f33d9831f5582889e8f78f5165d24d8457ef68c751212c61fb51",
+    "work/through-vias/native-baseline/gerber/drill-L6-L8.drl": "c6cbc2de89a6d85a206adb52db2c97bbe758ed5ec7d7a9b694164a6508c89c70",
+    "work/through-vias/native-baseline/gerber/drill-L3-L8.drl": "840cf495d1fdfc83f8b74cc4d6521e54c23b402630d754d0dd8c6c31c5b3ee7f",
+    "work/through-vias/native-baseline/gerber/drill-L4-L7.drl": "7239a1348ab8a38c3fc88703ac2d75e5c588848ef2dd55e0dc6cb19aba92d52b",
+    "work/through-vias/native-baseline/gerber/drill-L1-L8.drl": "d6a2d5764fc8c0e1e093e29df7c4f0e7e9025af3ae73ed2d650061a0b2893b89",
+    "work/through-vias/native-baseline/gerber/drill_npth.drl": "4af06caa5b33fcd8425b30312039d5a68e9791b34721e21f960a13ee17b4a121",
+    "work/through-vias/native-baseline/gerber/drill-L5-L8.drl": "681cdb6bdec055d2c0f69d225490e4b10698144298fedca9835c9f455b8b5614",
+    "work/through-vias/native-baseline/gerber/drill-L2-L4.drl": "4601b6fe99808d319c1c0d9bae2979da97b710b28fdf6f9176435c163fc472db",
+    "work/through-vias/native-baseline/gerber/drill-L7-L8.drl": "00f192c55ed6f29d0f2be48edf2b8b25c0a7f3d7c36ab358eac49d1c54444ba3",
+    "work/through-vias/native-baseline/gerber/drill-L2-L7.drl": "87a8569f8f09ee84c8c42929b97bea09b528e0457967b029de6abd1b458fe504",
+    "work/through-vias/native-v3-feed/gerber/In1_Cu.gbr": "c2ef78a0693b0b397ba3db91143873ce08504aa52ad6090fb25f9a7d9d8fe809",
+    "work/through-vias/native-v3-feed/gerber/In3_Cu.gbr": "1b1f4dc346e45575419add5a1b8e03d38e16cf471b0cd6d23e219707fe0b93b5",
+    "work/through-vias/native-v3-feed/gerber/In6_Cu.gbr": "84c6d1bfe88a98dd4b35e1f551c8d90332d1249be61402f1eaec35af91e3d4ee",
+    "work/through-vias/native-v3-feed/gerber/drill-L2-L8.drl": "f37e65dfa9f50a46bb57d80eceb2b6d2af3d568c4956bb82129744354526a1e1",
+    "work/through-vias/native-v3-feed/gerber/drill-L5-L6.drl": "5d590a49a08f8098cc10c9e985f95f6b5e4fc50d1daf595be254fbf3c76da126",
+    "work/through-vias/native-v3-feed/gerber/drill-L1-L5.drl": "9d9ba9d91a40f08717e5ecc8ede797e449a428ca78244d4b495762416a7aa2a0",
+    "work/through-vias/native-v3-feed/gerber/drill-L1-L4.drl": "966f3f8f2d0a62602e673f237ba990b49f24adb2330b6a5bac1c18fc03174c95",
+    "work/through-vias/native-v3-feed/gerber/drill-L1-L6.drl": "ca5a7b5499946a35abb9007b65274b7b9c6ede35648dd54f1bf30183c54ef49d",
+    "work/through-vias/native-v3-feed/gerber/drill-L1-L7.drl": "c44bd56eaa316d93d0ca540e38c9283fcc118eeb5c9c5c24eb1dfc71a464985c",
+    "work/through-vias/native-v3-feed/gerber/drill-L1-L3.drl": "cbdc26be4571ab0430e05c4f8b719cef61ad11856a309ed73ae55eb5507b9707",
+    "work/through-vias/native-v3-feed/gerber/drill-L3-L6.drl": "c7a636b2c1c6a2f79268be778492c86270cf440b21147ce6fbe2c40a942c4569",
+    "work/through-vias/native-v3-feed/gerber/drill-L1-L2.drl": "09ada1efab6d424f76b143b8eded017a128beb17d8f82f9f466b8e818f765605",
+    "work/through-vias/native-v3-feed/gerber/drill-L3-L5.drl": "1478a272290358af79a77d9c024b7e1f13a484e0aca49ba92c5a6c6801bad138",
+    "work/through-vias/native-v3-feed/gerber/drill-L6-L8.drl": "48f55b1001ea100f897e23c61cca02bdc71b0548b49e21938704dc5ed4d695a6",
+    "work/through-vias/native-v3-feed/gerber/drill-L3-L8.drl": "64c4115d8eb603c4136cf5ba5da79679757109a9d99a15098473f73344f17f33",
+    "work/through-vias/native-v3-feed/gerber/drill-L4-L7.drl": "f70ab4300c36c3cb7e12c3286bf2d01734bd16bd3506b83ae46af8c74d4ad8a4",
+    "work/through-vias/native-v3-feed/gerber/drill-L1-L8.drl": "1867046e98c593105bc7c265b5979c9351201769fb8a75371c3f2223386d6b11",
+    "work/through-vias/native-v3-feed/gerber/drill_npth.drl": "49ccf740374c10bb68d7ae9fb14c4b0b790de41786e881567049faa8a1b10ab0",
+    "work/through-vias/native-v3-feed/gerber/drill-L5-L8.drl": "4f517c5669882b263bd90e504b967aad74ebcd85d3dbe1e8e4d8d72541e92a7c",
+    "work/through-vias/native-v3-feed/gerber/drill-L2-L4.drl": "10a2aade25d986417d6293b51df05db1eaf694765e7dd85b5febff2f135a9a58",
+    "work/through-vias/native-v3-feed/gerber/drill-L7-L8.drl": "a0ff325700e680a89c2b4e9e17041828e44a2fc96760b7a04ef01e3aba2849af",
+    "work/through-vias/native-v3-feed/gerber/drill-L2-L7.drl": "00959caa3c0806e7b3a9335df0f9241db19b5470e1961353c06ca9516b009d78"
+  },
+  "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+}

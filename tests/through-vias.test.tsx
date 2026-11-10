@@ -109,3 +109,63 @@ test("pad-centered through barrels retain original SMT pin nets and contiguous i
   expect(records.filter(r=>r.type==='pcb_via').map(v=>v.layers.length)).toEqual([8,8])
   expect(records.filter(r=>r.type==='pcb_trace').flatMap(t=>t.route).every(p=>p.route_type==='wire'&&p.layer==='inner4')).toBe(true)
 }, 30000)
+
+test("a clearance-safe through extension can create a ground-reference gap", async () => {
+  const {convert}=await import('../scripts/board-check-geometry')
+  const {Point}=await import('@flatten-js/core')
+  const {checkViaTraceClearance}=await import('@tscircuit/checks')
+  async function groundCoversTrace(through:boolean){
+    const circuit=new Circuit({platform:{partsEngineDisabled:true,netlistDrcChecksDisabled:true}})
+    circuit.schematicDisabled=true
+    circuit.add(<board width={10} height={10} layers={8} pcbRelative routingDisabled allowBlindAndBuriedVias
+      minTraceToPadEdgeClearance={.1} minPadEdgeToPadEdgeClearance={.1}>
+      <net name="A"/><net name="B"/><net name="GND"/>
+      <via name="LEFT" pcbX={-1} pcbY={.325} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo="net.A"/>
+      <via name="RIGHT" pcbX={1} pcbY={.325} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo="net.A"/>
+      <via name="B" pcbX={0} pcbY={0} fromLayer="top" toLayer={through?'bottom':'inner5'} holeDiameter={.15} outerDiameter={.3} connectsTo="net.B"/>
+      <via name="GROUND" pcbX={3} pcbY={3} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/>
+      <trace from="LEFT.bottom" to="RIGHT.bottom" width={.1} pcbPaths={[["LEFT.bottom","RIGHT.bottom"]]}/>
+      <copperpour layer="inner6" connectsTo="net.GND" unbroken clearance={.2} outline={[{x:-4,y:-4},{x:4,y:-4},{x:4,y:4},{x:-4,y:4}]}/>
+    </board>)
+    await circuit.renderUntilSettled()
+    const records=circuit.getCircuitJson() as any[]
+    expect(records.filter(r=>r.type.endsWith('_error'))).toEqual([])
+    expect(checkViaTraceClearance(records)).toEqual([])
+    return convert(records,{elementTypes:['pcb_copper_pour'],includeDrillHoles:false,strict:true,curveTolerance:1e-6}).elements.some((e:any)=>e.shapes.some((s:any)=>s.contains(new Point(0,.325))))
+  }
+  expect(await groundCoversTrace(false)).toBe(true)
+  expect(await groundCoversTrace(true)).toBe(false)
+},30000)
+
+
+test("reproduces CLI success after a native physical connection is removed", async () => {
+  const {mkdtempSync,mkdirSync,readFileSync,writeFileSync,rmSync}=await import('node:fs')
+  const {resolve}=await import('node:path')
+  mkdirSync('work/through-vias',{recursive:true})
+  const directory=mkdtempSync(resolve('work/through-vias/connectivity-repro-'))
+  async function render(connected:boolean){
+    const circuit=new Circuit({platform:{partsEngineDisabled:true,netlistDrcChecksDisabled:true}})
+    circuit.schematicDisabled=true
+    circuit.add(<board width={10} height={10} layers={8} pcbRelative routingDisabled>
+      <net name="PWR"/>
+      <chip name="P1" pcbX={-1} pcbY={0} pinLabels={{pin1:'PWR'}} connections={{pin1:'net.PWR'}} footprint={<footprint><smtpad portHints={['1']} pcbX={0} pcbY={0} shape="circle" radius={.2}/></footprint>}/>
+      <chip name="P2" pcbX={1} pcbY={0} pinLabels={{pin1:'PWR'}} connections={{pin1:'net.PWR'}} footprint={<footprint><smtpad portHints={['1']} pcbX={0} pcbY={0} shape="circle" radius={.2}/></footprint>}/>
+      {connected&&<trace name="FEED" from=".P1 > .pin1" to=".P2 > .pin1" width={.1} pcbPaths={[[".P1 > .pin1",".P2 > .pin1"]]}/>}
+    </board>)
+    await circuit.renderUntilSettled()
+    const records=circuit.getCircuitJson() as any[]
+    expect(records.filter(r=>r.type.endsWith('_error'))).toEqual([])
+    return records
+  }
+  try{
+    const before=resolve(directory,'before.circuit.json'),after=resolve(directory,'after.circuit.json'),output=resolve(directory,'check')
+    writeFileSync(before,JSON.stringify(await render(true)))
+    writeFileSync(after,JSON.stringify(await render(false)))
+    const child=Bun.spawn([process.execPath,'scripts/verify-board-routing.tsx','--json',after,'--baseline',before,'--output',output],{stdout:'ignore',stderr:'pipe'})
+    const exit=await child.exited,report=JSON.parse(readFileSync(resolve(output,'report.json'),'utf8'))
+    expect(report.baseline.connectivity.nets.find((n:any)=>n.name==='PWR').connected).toBe(true)
+    expect(report.current.connectivity.nets.find((n:any)=>n.name==='PWR').physicalGroups).toBe(2)
+    // Reproduces the current false-success exit; the stacked fix must change this to 1.
+    expect(exit).toBe(0)
+  }finally{rmSync(directory,{recursive:true,force:true})}
+},30000)
