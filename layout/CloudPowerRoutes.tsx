@@ -1297,13 +1297,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_RAMP > .2",
-    "x": 41.8625,
-    "y": -8.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_304: checked HDMI surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_RAMP_CT > .pin2",
     "x": 43.51,
@@ -1360,20 +1354,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .9",
-    "x": 45.1,
-    "y": -5.275,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .10",
-    "x": 45.1,
-    "y": -5.925,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_313: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_314: checked HDMI surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO1 > .11",
     "x": 50.9,
@@ -1570,13 +1552,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C148 > .pin2",
-    "x": 47.5,
-    "y": -17.99,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_343: checked HDMI surface Ground path. */,
   {
     "selector": ".HDMI > .C_HDMI_REF_C149 > .pin2",
     "x": 46.51,
@@ -1598,48 +1574,12 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C176 > .pin1",
-    "x": 46.5875,
-    "y": -16.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C177 > .pin2",
-    "x": 44.5,
-    "y": -32.49,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C178 > .pin2",
-    "x": 43.9,
-    "y": -29.99,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C179 > .pin2",
-    "x": 49,
-    "y": -28.99,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C180 > .pin2",
-    "x": 49.5,
-    "y": -30.99,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C181 > .pin2",
-    "x": 52.5,
-    "y": -32.49,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_347: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_348: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_349: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_350: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_351: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_352: checked HDMI surface Ground path. */,
   {
     "selector": ".HDMI > .C_HDMI_REF_C182 > .pin2",
     "x": 49,
@@ -1661,13 +1601,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C185 > .pin2",
-    "x": 42.5,
-    "y": -19.99,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_356: checked HDMI surface Ground path. */,
   {
     "selector": ".HDMI > .C_HDMI_REF_C186 > .pin2",
     "x": 48.51,
@@ -1682,27 +1616,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C188 > .pin2",
-    "x": 47.5,
-    "y": -19.99,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".HDMI > .C_HDMI_REF_C193 > .pin2",
-    "x": 46.51,
-    "y": -18,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".HDMI > .R_HDMI_REF_R176 > .pin2",
-    "x": 44.51,
-    "y": -18,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_359: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_360: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_361: checked HDMI surface Ground path. */,
   {
     "selector": ".HDMI > .R_HDMI_REF_R177 > .pin2",
     "x": 48.51,
@@ -1710,20 +1626,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".HDMI > .R_HDMI_REF_R181 > .pin2",
-    "x": 41.5,
-    "y": -19.99,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".HDMI > .R_HDMI_REF_R188 > .pin1",
-    "x": 46.99,
-    "y": -36.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_363: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_364: checked HDMI surface Ground path. */,
   {
     "selector": ".HDMI > .U_HDMI_1V2 > .2",
     "x": 49.2,
@@ -1738,13 +1642,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".HDMI > .C_HDMI_1V2_IN > .pin2",
-    "x": 48,
-    "y": -19.810000000000002,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_367: checked HDMI surface Ground path. */,
   {
     "selector": ".HDMI > .C_HDMI_1V2_EN > .pin2",
     "x": 49.99,
@@ -1780,13 +1678,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".HDMI > .R_HDMI_UTILITY > .pin2",
-    "x": 53.8,
-    "y": -30.860000000000003,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_373: checked HDMI surface Ground path. */,
   {
     "selector": ".HDMI > .J_HDMI > .2",
     "x": 59.69,
@@ -1822,20 +1714,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".HDMI > .U_HDMI_5V_BOOST > .6",
-    "x": 59.74,
-    "y": -13.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".HDMI > .R_HDMI_5V_BOTTOM > .pin2",
-    "x": 58.5,
-    "y": -15.01,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_379: checked HDMI surface Ground path. */,
+  null /* CLOUD_GND_PAD_380: checked HDMI surface Ground path. */,
   {
     "selector": ".HDMI > .C_HDMI_5V_IN > .pin2",
     "x": 53.775,
