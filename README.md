@@ -43,3 +43,6 @@ leaves **568 non-through vias**, with unchanged trace copper and verified connec
 
 CPU-area ground links: [28 native surface links replace blind pad barrels](docs/through-vias/cpu-ground-surface-increment.md)
 leave **540 non-through vias**, preserving every original trace centerline and verified connectivity.
+
+CPU V3V3 feeds: [seven blind barrels replaced by native surface links](docs/through-vias/cpu-v3-surface-increment.md)
+leave **533 non-through vias**; the C_IO1_0 bridge is retained and all connectivity checks pass.

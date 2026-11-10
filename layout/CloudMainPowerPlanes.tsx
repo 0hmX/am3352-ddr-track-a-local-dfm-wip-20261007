@@ -1,29 +1,7 @@
 // Staged V7: actual pad centers, RN6/boot relocation, explicit source paths, early-priority broad pours.
 const vias=[
-  {
-    "net": "V3V3",
-    "selector": ".Processor > .U1 > .N5",
-    "x": 2.8000000000000003,
-    "y": -3.6,
-    "layer": "top",
-    "shape": "circle",
-    "radius": 0.2,
-    "padId": "pcb_smtpad_84",
-    "toLayer": "inner5",
-    "viaName": "V3V3_FEED_0"
-  },
-  {
-    "net": "V3V3",
-    "selector": ".Processor > .U1 > .P5",
-    "x": 3.6,
-    "y": -3.6,
-    "layer": "top",
-    "shape": "circle",
-    "radius": 0.2,
-    "padId": "pcb_smtpad_85",
-    "toLayer": "inner5",
-    "viaName": "V3V3_FEED_1"
-  },
+
+
   {
     "net": "V3V3",
     "selector": ".Processor > .U1 > .P6",
@@ -36,18 +14,7 @@ const vias=[
     "toLayer": "bottom",
     "viaName": "V3V3_FEED_2"
   },
-  {
-    "net": "V3V3",
-    "selector": ".Processor > .U1 > .P7",
-    "x": 3.6,
-    "y": -2,
-    "layer": "top",
-    "shape": "circle",
-    "radius": 0.2,
-    "padId": "pcb_smtpad_121",
-    "toLayer": "inner5",
-    "viaName": "V3V3_FEED_3"
-  },
+
   {
     "net": "V3V3",
     "selector": ".Processor > .U1 > .E10",
@@ -84,30 +51,8 @@ const vias=[
     "toLayer": "bottom",
     "viaName": "V3V3_FEED_7"
   },
-  {
-    "net": "V3V3",
-    "selector": ".Processor > .U1 > .P11",
-    "x": 3.6,
-    "y": 1.2000000000000002,
-    "layer": "top",
-    "shape": "circle",
-    "radius": 0.2,
-    "padId": "pcb_smtpad_193",
-    "toLayer": "inner5",
-    "viaName": "V3V3_FEED_8"
-  },
-  {
-    "net": "V3V3",
-    "selector": ".Processor > .U1 > .E12",
-    "x": -3.6,
-    "y": 2,
-    "layer": "top",
-    "shape": "circle",
-    "radius": 0.2,
-    "padId": "pcb_smtpad_202",
-    "toLayer": "inner5",
-    "viaName": "V3V3_FEED_9"
-  },
+
+
   {
     "net": "V3V3",
     "selector": ".Processor > .U1 > .P12",
@@ -144,6 +89,7 @@ const vias=[
     "toLayer": "inner5",
     "viaName": "V3V3_FEED_12"
   },
+
   {
     "net": "V3V3",
     "selector": ".Processor > .U1 > .F14",
@@ -192,18 +138,7 @@ const vias=[
     "toLayer": "bottom",
     "viaName": "V3V3_FEED_16"
   },
-  {
-    "net": "V3V3",
-    "selector": ".Processor > .U1 > .K14",
-    "x": 0.4,
-    "y": 3.6,
-    "layer": "top",
-    "shape": "circle",
-    "radius": 0.2,
-    "padId": "pcb_smtpad_243",
-    "toLayer": "inner5",
-    "viaName": "V3V3_FEED_17"
-  },
+
   {
     "net": "V3V3",
     "selector": ".Processor > .U1 > .L14",
@@ -359,19 +294,7 @@ const vias=[
     "toLayer": "bottom",
     "viaName": "V3V3_FEED_31"
   },
-  {
-    "net": "V3V3",
-    "selector": ".Processor > .C_IO4_1 > .pin1",
-    "x": -1.49,
-    "y": 4,
-    "layer": "bottom",
-    "shape": "rect",
-    "width": 0.54,
-    "height": 0.64,
-    "padId": "pcb_smtpad_394",
-    "toLayer": "inner5",
-    "viaName": "V3V3_FEED_32"
-  },
+
   {
     "net": "V3V3",
     "selector": ".Processor > .C_IO5_B > .pin1",
