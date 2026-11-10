@@ -270,3 +270,12 @@ removed at their TSX sources; all 416 component GND terminals remain connected
 after actual drilling. Native and exported continuity pass with no new enforced
 clearance findings. Two additional reference-area pairs and six optional plated-
 hole margins remain visible; local return inductance remains unqualified.
+
+## CPU reset corridor: two barrels
+
+[Native reset reroute and PMIC endpoint port](cpu-reset-relief-increment.md),
+[validation](cpu-reset-relief-validation.json). **628 through / 580 non-through**
+remain. Only the reset trace changes nonzero geometry. Native and exported
+connectivity pass, including all 416 post-drill GND terminals; no new enforced
+clearance findings. Three additional reference-area pairs and seven optional
+plated-hole margins are retained. Other reset sections remain for later work.
