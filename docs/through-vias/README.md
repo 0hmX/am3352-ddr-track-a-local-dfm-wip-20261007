@@ -233,3 +233,12 @@ remain. A complete centerline comparison includes via joins and confirms all
 nonzero trace geometry unchanged. Native and exported connectivity pass with no
 new enforced clearance findings. Thirteen additional reference-area pairs and
 three optional plated-hole margins remain visible.
+
+## Local control and microSD/debug: 25 barrels
+
+[Native TSX endpoint/pad ports](control-endpoint-increment.md),
+[validation](control-endpoint-validation.json). **609 through / 601 non-through**
+remain. Complete nonzero centerlines, normal pin nets and placements are preserved.
+Native and exported connectivity pass with no new enforced clearance findings.
+Five additional reference-area pairs and five optional plated-hole margins are
+recorded. Two off-pad input-fault transitions remain for a separate native port.
