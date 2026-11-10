@@ -1,3 +1,4 @@
+import {BoardSurfaceGround} from "./layout/BoardSurfaceGround"
 import {withDdrByte1CpuThrough} from './layout/StandardDdrByte1Through'
 import {withPeripheralPadThroughColumns} from './layout/StandardPeripheralPadThroughColumns'
 import {withCpuManualThroughColumns} from './layout/StandardCpuManualThroughColumns'
@@ -243,6 +244,7 @@ export default function Board() {
   <HdmiSurfaceGround />
   <EthernetSurfaceGround />
   <PmicSurfaceGround />
+  <BoardSurfaceGround />
   <DdrPowerSurfaceFeeds />
 <CpuPowerSurfaceStubs />
 </board>)))))))))))))))))))))))))))))))))))))))))))))))))
