@@ -1,0 +1,467 @@
+[
+  {
+    "before": {
+      "key": "[\"ETH_MDIO_ISO\",39,15.5375,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "top"
+      ]
+    },
+    "after": {
+      "key": "[\"ETH_MDIO_ISO\",39,15.5375,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",-4.2,8.49,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",-4.2,8.49,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",10.1,8.65,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",10.1,8.65,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",10.16,-1.9,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",10.16,-1.9,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",19.45,-3.75,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",19.45,-3.75,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",21.868827,-0.136148,0.15,0.3]",
+      "layers": [
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",21.868827,-0.136148,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",23.55,-5.75,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",23.55,-5.75,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",27.81,-11.25,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",27.81,-11.25,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",36.824,9.9137342,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",36.824,9.9137342,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",37.8,-29.98,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",37.8,-29.98,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",5.2,-7.4,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",5.2,-7.4,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",6.08890873,12.48890873,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",6.08890873,12.48890873,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",6.35,-1.65,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",6.35,-1.65,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",7.25,2.85,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",7.25,2.85,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"GND\",9,5,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6"
+      ]
+    },
+    "after": {
+      "key": "[\"GND\",9,5,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"RTC_RESET_N\",-6,-3.6,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "top"
+      ]
+    },
+    "after": {
+      "key": "[\"RTC_RESET_N\",-6,-3.6,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"SYSBOOT10\",6,-5.2,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    },
+    "after": {
+      "key": "[\"SYSBOOT10\",6,-5.2,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  },
+  {
+    "before": {
+      "key": "[\"SYSBOOT10\",8.5,-7.6,0.15,0.3]",
+      "layers": [
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    },
+    "after": {
+      "key": "[\"SYSBOOT10\",8.5,-7.6,0.15,0.3]",
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "inner5",
+        "inner6",
+        "top"
+      ]
+    }
+  }
+]

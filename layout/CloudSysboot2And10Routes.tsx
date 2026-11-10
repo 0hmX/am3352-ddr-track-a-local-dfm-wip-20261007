@@ -4,7 +4,7 @@
  * The SYS6 pull-up Inner5 jog (data/cloud-sys6-real-terminal-routes.json pullToCpu) was moved off the R3 ball.
  */
 const via = (name: string, x: number, y: number, from: string, to: string, connectsTo: string) =>
-  <via name={name} pcbX={x} pcbY={y} fromLayer={from as any} toLayer={to as any} holeDiameter={.15} outerDiameter={.30} connectsTo={connectsTo} />
+  <via name={name} pcbX={x} pcbY={y} fromLayer={from as any} toLayer={to as any} holeDiameter={.15} outerDiameter={.30} connectsTo={connectsTo}>{to === "bottom" && <port name="inner6" layer="inner6" ref={p=>p?.registerMatch(p.parent as any)}/>}</via>
 const path = (pts: number[][], layer: string) => pts.map(([x, y]) => ({ x, y, layer }))
 const REF = ".Processor > .U1 > .A1"
 export function CloudSysboot2And10Routes() {
@@ -13,9 +13,9 @@ export function CloudSysboot2And10Routes() {
   return <group name="Cloud_SYSBOOT2_10" pcbX={0} pcbY={0} pcbRelative>
     {via("SYS2_CPU_VIP", 4.4, -5.2, "top", "inner6", ".Processor > .U1 > .R3")}
     {via("SYS2_RN3_VIP", 6, -12.475, "bottom", "inner6", ".HDMI > .RN_HDMI_3 > .2")}
-    {via("SYS10_CPU_VIP", 6, -5.2, "top", "inner6", ".Processor > .U1 > .U3")}
+    {via("SYS10_CPU_VIP", 6, -5.2, "top", "bottom", ".Processor > .U1 > .U3")}
     {via("SYS10_RN3_VIP", 7, -12.475, "bottom", "inner6", ".HDMI > .RN_HDMI_3 > .4")}
-    {via("SYS10_PULL_VIP", 8.5, -7.6, "top", "inner6", "net.SYSBOOT10")}
+    {via("SYS10_PULL_VIP", 8.5, -7.6, "top", "bottom", "net.SYSBOOT10")}
     <trace name="SYS2_CPU_ARRAY_I6" from="SYS2_CPU_VIP.inner6" to="SYS2_RN3_VIP.inner6" width={.1} pcbPathRelativeTo={REF}
       pcbPaths={[["SYS2_CPU_VIP.inner6", ...path(sys2, "inner6"), "SYS2_RN3_VIP.inner6"]] as any} />
     <trace name="SYS10_CPU_ARRAY_I6" from="SYS10_CPU_VIP.inner6" to="SYS10_RN3_VIP.inner6" width={.1} pcbPathRelativeTo={REF}

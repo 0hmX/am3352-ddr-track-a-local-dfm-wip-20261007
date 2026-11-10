@@ -15,7 +15,7 @@ from pathlib import Path
 
 from gerbonara import ExcellonFile, GerberFile
 from gerbonara.graphic_objects import Flash, Region
-from gerbonara.utils import MM
+from gerbonara.utils import MM, approximate_arc
 from shapely import affinity, make_valid
 from shapely.geometry import GeometryCollection, LineString, Point, Polygon, box
 from shapely.ops import unary_union
@@ -42,9 +42,20 @@ def primitive_shape(p):
         shape = box(p.x - p.w / 2, p.y - p.h / 2, p.x + p.w / 2, p.y + p.h / 2)
         # Gerbonara's primitive rotation convention is clockwise radians.
         return affinity.rotate(shape, -p.rotation, origin=(p.x, p.y), use_radians=True)
-    if kind in ('Arc', 'ArcPoly'):
-        poly = p.to_arc_poly().approximate_arcs(max_error=ERROR_MM)
-        return Polygon(poly.outline)
+    if kind == 'Arc':
+        points = approximate_arc(p.cx, p.cy, p.x1, p.y1, p.x2, p.y2, p.clockwise, max_error=ERROR_MM)
+        return round_buffer(LineString(points), p.width / 2)
+    if kind == 'ArcPoly':
+        # Gerbonara 1.5's approximate_arcs calls its segments property as a
+        # function. Walk the parser's actual line/arc edges instead.
+        outline = []
+        for a, b, arc in p.segments:
+            if arc and arc[0] is not None:
+                clockwise, center = arc
+                outline.extend(approximate_arc(*center, *a, *b, clockwise, max_error=ERROR_MM))
+            else:
+                outline.append(a)
+        return Polygon(outline)
     raise ValueError(f'Unsupported Gerber primitive: {kind}')
 
 
@@ -166,6 +177,20 @@ def logical_nets(records):
     return net_for
 
 
+def normalize_excellon_slots(data):
+    """Expand the exporter's explicit-decimal G85 slots into equivalent routing.
+
+    Gerbonara does not implement G85. Endpoints and the active tool come only
+    from emitted Excellon text; unsupported modal/implicit forms fail closed.
+    """
+    xy = r'X[+-]?\d+\.\d+Y[+-]?\d+\.\d+'
+    data, count = re.subn(rf'(?m)^({xy})\nG85({xy})$',
+                          r'G00\1\nM15\nG01\2\nM16\nG05', data)
+    if 'G85' in data:
+        raise ValueError('Unsupported Excellon G85 slot syntax')
+    return data, count
+
+
 def read_drills(directory):
     drills = []
     warning_messages = []
@@ -176,7 +201,10 @@ def read_drills(directory):
         span = LAYERS[int(match[1]) - 1:int(match[2])]
         with warnings.catch_warnings(record=True) as captured:
             warnings.simplefilter('always')
-            file = ExcellonFile.open(path)
+            data, slots = normalize_excellon_slots(path.read_text())
+            file = ExcellonFile.from_string(data, filename=str(path))
+        if slots:
+            warning_messages.append(f'{path.name}: expanded {slots} explicit G85 slots into equivalent G00/M15/G01/M16/G05 parser input')
         for warning in captured:
             message = str(warning.message)
             # Parser accepts the exported absolute-mode command but notes its
@@ -284,7 +312,18 @@ def self_test():
     cut = header + 'X0Y0D02*\nX1000000Y0D01*\n%LPC*%\n%ADD11R,0.1X1*%\nD11*\nX500000Y0D03*\nM02*\n'
     d, _ = read_copper(cut, 'fixture-clear')
     assert len(list(polygons(d))) == 2
-    return {'isolatedNetsRemainSeparate': True, 'deliberateBridgeDetected': True,
+    arc_region = header + 'G75*\nG36*\nX1000000Y0D02*\nG03X-1000000Y0I-1000000J0D01*\nG01X1000000Y0D01*\nG37*\nM02*\n'
+    e, _ = read_copper(arc_region, 'fixture-arc-region')
+    assert abs(e.area - math.pi / 2) < 0.0001
+    arc_stroke = header + 'G75*\nX1000000Y0D02*\nG03X-1000000Y0I-1000000J0D01*\nM02*\n'
+    f, _ = read_copper(arc_stroke, 'fixture-arc-stroke')
+    assert abs(f.area - (math.pi * 0.4 + math.pi * 0.2 ** 2)) < 0.0001
+    slot, count = normalize_excellon_slots('M48\nMETRIC\nT1C0.6\n%\nT1\nX0.000Y0.000\nG85X0.000Y1.100\nM30\n')
+    slots = ExcellonFile.from_string(slot)
+    slot_shape = unary_union([primitive_shape(p) for obj in slots.objects for p in obj.to_primitives(unit=MM)])
+    assert count == 1 and len(slots.objects) == 1
+    assert abs(slot_shape.area - (0.6 * 1.1 + math.pi * 0.3 ** 2)) < 0.0001
+    return {'explicitG85SlotGeometry': True, 'arcRegionAndStrokeArea': True, 'isolatedNetsRemainSeparate': True, 'deliberateBridgeDetected': True,
             'apertureRotation90AndTdState': True, 'clearPolarityBreaksConnection': True}
 
 

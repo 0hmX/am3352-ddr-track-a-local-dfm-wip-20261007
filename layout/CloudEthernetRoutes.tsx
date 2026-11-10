@@ -1411,10 +1411,10 @@ export const cloudEthernetRoutes = [
   {
     "name": "CLOUD_ETH_30_ETH_MDIO_ISO",
     "net": "ETH_MDIO_ISO",
-    "from": ".Ethernet_and_RGB_expansion > .U_ETH_PHY > .15",
+    "from": "MDIO_PHY_THROUGH.inner2",
     "to": ".Ethernet_and_RGB_expansion > .R_ETH_MDIO_PU > .pin1",
     "layer": "inner2",
-    "fromLayer": "top",
+    "fromLayer": "inner2",
     "toLayer": "top",
     "points": [
       {
@@ -4992,8 +4992,8 @@ export const cloudEthernetGroundStitches = [
   {
     "x": 7.249999999999999,
     "y": 2.849999999999997,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "x": 7.699999999999999,
@@ -5004,20 +5004,20 @@ export const cloudEthernetGroundStitches = [
   {
     "x": 19.450000000000006,
     "y": -3.75,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "x": 23.550000000000004,
     "y": -5.750000000000004,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "x": 6.350000000000003,
     "y": -1.6499999999999986,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "x": 42.4,
@@ -5028,8 +5028,8 @@ export const cloudEthernetGroundStitches = [
   {
     "x": 36.824000000000005,
     "y": 9.913734198184516,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
+    "fromLayer": "top",
+    "toLayer": "bottom"
   },
   {
     "x": 41,
@@ -5101,7 +5101,7 @@ export const cloudEthernetGroundStitches = [
     "distanceMm": 0.5
   }
 ]
-export function CloudEthernetRoutes(){return <group name="Cloud_ethernet_routes" pcbX={0} pcbY={0} pcbRelative pcbStyle={{viaHoleDiameter:0.15,viaPadDiameter:0.3}}>{cloudEthernetRoutes.map((r:any)=>{
+export function CloudEthernetRoutes(){return <group name="Cloud_ethernet_routes" pcbX={0} pcbY={0} pcbRelative pcbStyle={{viaHoleDiameter:0.15,viaPadDiameter:0.3}}><via name="MDIO_PHY_THROUGH" pcbX={39} pcbY={15.5375} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo=".Ethernet_and_RGB_expansion > .U_ETH_PHY > .15"><port name="inner2" layer="inner2" ref={p=>p?.registerMatch(p.parent as any)}/></via>{cloudEthernetRoutes.map((r:any)=>{
  let geometry:any[]=[]
  if(r.layeredPoints){
   const ps=r.layeredPoints,first=ps[0],last=ps[ps.length-1]

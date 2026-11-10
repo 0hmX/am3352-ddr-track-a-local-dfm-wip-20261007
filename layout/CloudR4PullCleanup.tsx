@@ -21,4 +21,4 @@ export function applyR4PullCleanup(node:any):any {
  return cloneElement(node,p,...Children.toArray(node.props.children).map(applyR4PullCleanup))
 }
 /** Shared with the conditional SYS4 array branch: emit this physical stitch once. */
-export function CloudR4CpuReferenceReturn(){return <via name="SYS4_SHARED_CPU_RETURN" pcbX={5.2} pcbY={-7.4} fromLayer="inner1" toLayer="inner6" holeDiameter={.15} outerDiameter={.30} connectsTo="net.GND"/>}
+export function CloudR4CpuReferenceReturn(){return <via name="SYS4_SHARED_CPU_RETURN" pcbX={5.2} pcbY={-7.4} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.30} connectsTo="net.GND"/>}
