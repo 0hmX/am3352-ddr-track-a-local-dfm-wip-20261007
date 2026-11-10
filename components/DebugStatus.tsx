@@ -20,14 +20,14 @@ export function DebugStatus() {
     <chip name="D_PG_LED" pcbX={-6.75} pcbY={22.75} layer="bottom" pcbRotation={0} manufacturerPartNumber="APT1608SGC" footprint={twoPads(1.65, 0.8, 0.8)} cadModel={cadModels.led0603()} pinLabels={{ pin1: "K", pin2: "A" }}
       connections={{ pin1: "net.PG_LED_K", pin2: "net.PG_LED_A" }} {...sheet} schX={9} schY={0} />
     <resistor name="R_PG_LED" pcbX={-9.5} pcbY={22.75} layer="bottom" pcbRotation={180} resistance="1k" manufacturerPartNumber="RC0402FR-071KL" footprint={twoPads(1.1, 0.6, 0.6)} cadModel={cadModels.r0402()}
-      connections={{ pin1: "net.V3V3", pin2: "net.PG_LED_A" }} {...sheet} schX={9} schY={4} />
+      connections={{ pin1: "net.V3V3", pin2: "net.PG_LED_A" }} {...sheet} schX={9} schY={4} schRotation={-90} />
     <resistor name="R_PG_LEAK" pcbX={-7.25} pcbY={21} layer="bottom" pcbRotation={0} resistance="10k" manufacturerPartNumber="RC0402FR-0710KL" footprint={twoPads(1.1, 0.6, 0.6)} cadModel={cadModels.r0402()}
       connections={{ pin1: "net.PG_LED_K", pin2: "net.PG_LED_A" }} {...sheet} schX={9} schY={-4} />
     <capacitor name="C_PG_LED" pcbX={-7} pcbY={19} layer="bottom" pcbRotation={180} capacitance="100nF" manufacturerPartNumber="GRM155R71C104KA88D" footprint={twoPads(0.8, 0.4, 0.5)} cadModel={cadModels.c0402()}
-      connections={{ pin1: "net.V3V3", pin2: "net.GND" }} {...sheet} schX={0} schY={-5} />
+      connections={{ pin1: "net.V3V3", pin2: "net.GND" }} {...sheet} schX={0} schY={-5} schRotation={-90} />
     <resistor name="R_PG_SENSE" pcbX={-1.1615} pcbY={17.05} layer="bottom" pcbRotation={0} resistance="100k" manufacturerPartNumber="RC0402FR-07100KL" footprint={twoPads(1.1, 0.6, 0.6)} cadModel={cadModels.r0402()}
       connections={{ pin1: "net.PMIC_PGOOD", pin2: "net.PG_LED_SENSE" }} {...sheet} schX={-9} schY={0} />
     <resistor name="R_PG_PULLDOWN" pcbX={-3.75} pcbY={16.75} layer="bottom" pcbRotation={90} resistance="100k" manufacturerPartNumber="RC0402FR-07100KL" footprint={twoPads(1.1, 0.6, 0.6)} cadModel={cadModels.r0402()}
-      connections={{ pin1: "net.PG_LED_SENSE", pin2: "net.GND" }} {...sheet} schX={-9} schY={-4} />
+      connections={{ pin1: "net.PG_LED_SENSE", pin2: "net.GND" }} {...sheet} schX={-9} schY={-4} schRotation={-90} />
   </>
 }

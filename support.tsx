@@ -5,7 +5,32 @@ import { usbCPortParts, usbCPortPlacement, usbCPortFootprints, usbCPortCourtyard
 export const parts = [...originalParts.filter(p => !p.name.startsWith('U_LCD') && !/^[RCLDJ]_LCD/.test(p.name) && !['C_PANEL_100N','C_PANEL_1U',...removedPowerParts].includes(p.name))
   .map(p => connectionOverrides[p.name] ? { ...p, connections: connectionOverrides[p.name] } : p), ...usbCPortParts] as any[]
 export const supportSheets = [...new Set(parts.map(p => p.sheet))]
-const schematicPlacement = passiveLayout(parts, ["CPU bypass", "CPU power", "DDR bypass", "DDR reference"])
+const schematicPlacement = passiveLayout(parts, ["CPU bypass", "CPU power", "DDR bypass", "DDR reference", "Power management", "Power input", "Boot and clock", "Debug and reset"])
+// Explicit local networks sit beside their chip pins. Units are schematic-only.
+Object.assign(schematicPlacement, {
+  L_PWR1: { schX: -15, schY: 48 }, L_PWR2: { schX: -14, schY: 46 },
+  L_PWR3: { schX: -15, schY: 44 }, L_PWR4: { schX: -23, schY: 44.9, schRotation: -90 },
+  R_PWR1: { schX: -23, schY: 43.4, schRotation: -90 },
+  J_POWER: { schX: -3, schY: 8 }, U_TYPEC_NOR: { schX: -6.46, schY: 2 },
+  U_INPUT_EFUSE: { schX: 8.08, schY: 0 }, U_PD: { schX: 0.53, schY: 0 },
+  R_TYPEC_ENABLE_PD: { schX: -7, schY: -2, schRotation: -90 },
+  R_INPUT_LIMIT: { schX: 11.5, schY: -0.9, schRotation: -90 },
+  R_INPUT_FAULT: { schX: 11.5, schY: 0.5, schRotation: -90 },
+  C_INPUT_DVDT: { schX: 4.64, schY: -0.4, schRotation: -90 },
+  C_EFUSE_OUT: { schX: 5.29, schY: -3, schRotation: -90 },
+  R_SYS_BLEED: { schX: 8, schY: -4, schRotation: -90 },
+  C_RAW_TYPEC: { schX: 1, schY: 5, schRotation: -90 },
+  C_RAW_NOR: { schX: 2.5, schY: 6, schRotation: -90 },
+  C_RAW_EFUSE: { schX: 4, schY: 5, schRotation: -90 },
+  C_PD_VBUS: { schX: 5.5, schY: 6, schRotation: 90 },
+  C_PD_VDDD: { schX: -4.56, schY: 3, schRotation: 90 },
+  C_PD_VDDD_HF1: { schX: -3.57, schY: 4, schRotation: 90 },
+  C_PD_VDDD_HF2: { schX: -2, schY: 3, schRotation: 90 },
+  C_PD_VCCD: { schX: 6, schY: 1.5, schRotation: 90 },
+  R_PD_ISNK_UP: { schX: -4.56, schY: 1.2, schRotation: -90 },
+  R_PD_ISNK_DN: { schX: -4.5, schY: -0.4, schRotation: 90 },
+})
+
 import supportFootprints from './data/support-footprints'
 import mechanics from './data/support-mechanics'
 import supportPlacement from './data/support-placement-draft'

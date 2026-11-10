@@ -90,3 +90,5 @@ remains an exact comparison without this normalization. See the
 [recorded alias-only deltas](cpu-ddr/symbol-alias-changes.json).
 
 [CPU/DDR passive fixes: 110 → 0](cpu-ddr.md)
+
+[Power/boot/debug passive fixes: 96 → 0](power-boot.md)
