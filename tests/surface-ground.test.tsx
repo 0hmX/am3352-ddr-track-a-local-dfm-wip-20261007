@@ -29,11 +29,12 @@ test("0.105mm source offset preserves the board's 0.1mm copper rule",async()=>{
  expect(Math.min(...r.minimums.map(x=>x.minimumOtherNetCopperGapMm))).toBeGreaterThanOrEqual(.1)
 })
 
-// The current checker reports ten false gaps (including zero) for this native
-// geometry. Keep the desired 0.1 mm rule as an expected failure until fixed.
+// The unnormalized checker reported ten false gaps, including zero.
 import {renderMicronPourRepro} from "./micron-pour-repro"
-test.failing("micron-sized pour edges do not create phantom clearance failures",async()=>{
+test("micron-sized pour edges do not create phantom clearance failures",async()=>{
  const records=await renderMicronPourRepro()
  expect(records.filter(r=>r.type.endsWith("_error"))).toEqual([])
- expect(checkSurfacePourClearance(records).failures).toEqual([])
+ const result=checkSurfacePourClearance(records)
+ expect(result.failures).toEqual([])
+ expect(Math.min(...result.minimums.map(x=>x.minimumOtherNetCopperGapMm))).toBeGreaterThan(.103)
 })
