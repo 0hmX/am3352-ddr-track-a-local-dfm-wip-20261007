@@ -1,5 +1,5 @@
 /** Schematic-only rail orientation and capacitor banks; never returns PCB props. */
-export function passiveLayout(parts: any[], sheets: string[]) {
+export function passiveLayout(parts: any[], sheets: string[], bankY: Record<string, number> = {}) {
   const result: Record<string, { schX?: number; schY?: number; schRotation?: number }> = {}
   const power = /^(CAP_|VDD|V[0-9]V[0-9]$|SYS_5V$|DDR_(1V5|VREF|VTP)$|ETH_3V3|HDMI_.*(1V2|3V3|5V)|PD_VCC[DD]$|PD_VDDD$|USB0_VBUS$|USBC_VBUS_RAW$)/
   for (const sheet of sheets) {
@@ -16,7 +16,7 @@ export function passiveLayout(parts: any[], sheets: string[]) {
       if (part.kind === 'capacitor' && ground >= 0) (banks[nets[1 - ground]] ??= []).push(part)
     }
     Object.values(banks).forEach((bank, row) => bank.forEach((part, column) => {
-      result[part.name] = { ...result[part.name], schX: (column - (bank.length - 1) / 2) * 1.5, schY: -10 - row * 5 + column % 2 }
+      result[part.name] = { ...result[part.name], schX: (column - (bank.length - 1) / 2) * 1.5, schY: (bankY[sheet] ?? -10) - row * 5 + column % 2 }
     }))
   }
   return result

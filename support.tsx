@@ -5,9 +5,12 @@ import { usbCPortParts, usbCPortPlacement, usbCPortFootprints, usbCPortCourtyard
 export const parts = [...originalParts.filter(p => !p.name.startsWith('U_LCD') && !/^[RCLDJ]_LCD/.test(p.name) && !['C_PANEL_100N','C_PANEL_1U',...removedPowerParts].includes(p.name))
   .map(p => connectionOverrides[p.name] ? { ...p, connections: connectionOverrides[p.name] } : p), ...usbCPortParts] as any[]
 export const supportSheets = [...new Set(parts.map(p => p.sheet))]
-const schematicPlacement = passiveLayout(parts, ["CPU bypass", "CPU power", "DDR bypass", "DDR reference", "Power management", "Power input", "Boot and clock", "Debug and reset"])
+const schematicPlacement = passiveLayout(parts, ["CPU bypass", "CPU power", "DDR bypass", "DDR reference", "Power management", "Power input", "Boot and clock", "Debug and reset", "microSD", "Ethernet and RGB expansion", "USB programming"], { "Ethernet and RGB expansion": -65 })
 // Explicit local networks sit beside their chip pins. Units are schematic-only.
 Object.assign(schematicPlacement, {
+  C_ETH_RAMP_CT: { schX: 10, schY: -32.5, schRotation: -90 },
+  R_PROG_CC1: { schX: -23, schY: -0.4, schRotation: -90 },
+  R_PROG_CC2: { schX: -16.5, schY: -1.3, schRotation: -90 },
   L_PWR1: { schX: -15, schY: 48 }, L_PWR2: { schX: -14, schY: 46 },
   L_PWR3: { schX: -15, schY: 44 }, L_PWR4: { schX: -23, schY: 44.9, schRotation: -90 },
   R_PWR1: { schX: -23, schY: 43.4, schRotation: -90 },
