@@ -79,3 +79,6 @@ leave **274 non-through vias**, preserving all existing connections and fixed pl
 
 DDR_BA1 relief: [a native TSX through column with a 0.070711 mm nudge](docs/through-vias/ddr-ba1-through-column-increment.md)
 leaves **273 non-through vias**, with all native/exported connections preserved.
+
+CPU manual columns: [nine through vias and native power/USB links](docs/through-vias/cpu-manual-through-columns-increment.md)
+leave **264 non-through vias**, with fixed placements and verified native/exported connectivity.
