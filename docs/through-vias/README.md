@@ -167,3 +167,12 @@ barrels become through. **356 through / 854 non-through** remain. Native and
 independent exported-copper checks pass with no new findings; all original
 component-pin net assignments and placements are retained. Other signal wire
 geometry is unchanged. The nearby ground-return region still needs work.
+
+## 3.3 V distribution: 54 barrels
+
+[Native source cleanup](v3-feed-increment.md), [validation](v3-feed-validation.json).
+Converts 54 V3V3 distribution vias and removes obsolete via-placement/span overrides.
+**410 through / 800 non-through** remain. All original pin-net assignments,
+placements, trace copper and via positions/nets/diameters are preserved. Native
+and independent exported-copper checks pass with no new enforced findings;
+two optional plated-drill margin findings are recorded. No route-data JSON edits.

@@ -5,7 +5,7 @@ function applyFeedDepths(node:any):any {
  if(!isValidElement(node))return node
  if(typeof node.type==='function')return applyFeedDepths(node.type(node.props))
  const p:any={...node.props}
- if(node.type==='via'&&(p.name==='V3V3_FEED_50'||p.name==='V3V3_FEED_33'))p.toLayer='inner2'
+ if(node.type==='via'&&p.name==='V3V3_FEED_50')p.toLayer='inner2'
  if(p.footprint&&isValidElement(p.footprint))p.footprint=applyFeedDepths(p.footprint)
  return cloneElement(node,p,...Children.toArray(node.props.children).map(applyFeedDepths))
 }

@@ -57,7 +57,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_166",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_5"
   },
   {
@@ -69,7 +69,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_175",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_6"
   },
   {
@@ -81,7 +81,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_184",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_7"
   },
   {
@@ -165,7 +165,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_240",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_14"
   },
   {
@@ -177,7 +177,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_241",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_15"
   },
   {
@@ -189,7 +189,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_242",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_16"
   },
   {
@@ -221,12 +221,12 @@ const vias=[
     "selector": ".Processor > .C_IO1_B > .pin1",
     "x": -9.5,
     "y": 2.25,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 1.15,
     "height": 2.7,
     "padId": "pcb_smtpad_372",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_21"
   },
   {
@@ -260,12 +260,12 @@ const vias=[
     "selector": ".Processor > .C_IO2_B > .pin1",
     "x": 0.4999999999999997,
     "y": 8.75,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 2.7,
     "height": 1.15,
     "padId": "pcb_smtpad_378",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_24"
   },
   {
@@ -299,12 +299,12 @@ const vias=[
     "selector": ".Processor > .C_IO3_B > .pin1",
     "x": 10.25,
     "y": 7.25,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 2.7,
     "height": 1.15,
     "padId": "pcb_smtpad_384",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_27"
   },
   {
@@ -325,12 +325,12 @@ const vias=[
     "selector": ".Processor > .C_IO3_1 > .pin1",
     "x": -10.99,
     "y": -4,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_388",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_29"
   },
   {
@@ -338,12 +338,12 @@ const vias=[
     "selector": ".Processor > .C_IO4_B > .pin1",
     "x": -13,
     "y": -1.25,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 1.15,
     "height": 2.7,
     "padId": "pcb_smtpad_390",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_30"
   },
   {
@@ -351,12 +351,12 @@ const vias=[
     "selector": ".Processor > .C_IO4_0 > .pin1",
     "x": -8.49,
     "y": -2.25,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_392",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_31"
   },
   {
@@ -377,12 +377,12 @@ const vias=[
     "selector": ".Processor > .C_IO5_B > .pin1",
     "x": 11.95,
     "y": 0.25000000000000017,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 1.15,
     "height": 2.7,
     "padId": "pcb_smtpad_396",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_33"
   },
   {
@@ -416,12 +416,12 @@ const vias=[
     "selector": ".Processor > .C_IO6_B > .pin1",
     "x": 14.5,
     "y": 3,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 2.7,
     "height": 1.15,
     "padId": "pcb_smtpad_402",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_36"
   },
   {
@@ -442,12 +442,12 @@ const vias=[
     "selector": ".Processor > .C_IO6_1 > .pin1",
     "x": -10.99,
     "y": -5.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_406",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_38"
   },
   {
@@ -468,12 +468,12 @@ const vias=[
     "selector": ".Processor > .C_IO6_3 > .pin1",
     "x": -10.99,
     "y": -7,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_410",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_40"
   },
   {
@@ -481,12 +481,12 @@ const vias=[
     "selector": ".Processor > .C_IO6_4 > .pin1",
     "x": 14.01,
     "y": -7,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_412",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_41"
   },
   {
@@ -520,12 +520,12 @@ const vias=[
     "selector": ".Processor > .C_VDDA3P3V_USB1 > .pin1",
     "x": 14.01,
     "y": -9.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_432",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_44"
   },
   {
@@ -538,7 +538,7 @@ const vias=[
     "width": 0.2,
     "height": 0.825,
     "padId": "pcb_smtpad_642",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_45"
   },
   {
@@ -551,7 +551,7 @@ const vias=[
     "width": 2.7,
     "height": 1.15,
     "padId": "pcb_smtpad_709",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_46"
   },
   {
@@ -564,7 +564,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_711",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_47"
   },
   {
@@ -577,7 +577,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_722",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_48"
   },
   {
@@ -622,14 +622,14 @@ const vias=[
   {
     "net": "V3V3",
     "selector": ".Power_management > .R_PWR6 > .pin2",
-    "x": 23.110000000000003,
-    "y": -17.5,
+    "x": -7.95,
+    "y": 7.43,
     "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_730",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_52"
   },
   {
@@ -650,12 +650,12 @@ const vias=[
     "selector": ".Power_management > .C_PWR10_C > .pin1",
     "x": 22.025,
     "y": -6.25,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 1.15,
     "height": 2.7,
     "padId": "pcb_smtpad_771",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_54"
   },
   {
@@ -733,7 +733,7 @@ const vias=[
     "width": 1.325,
     "height": 0.6,
     "padId": "pcb_smtpad_820",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_60"
   },
   {
@@ -746,7 +746,7 @@ const vias=[
     "width": 1.325,
     "height": 0.6,
     "padId": "pcb_smtpad_821",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_61"
   },
   {
@@ -759,7 +759,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_824",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_62"
   },
   {
@@ -798,7 +798,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_844",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_65"
   },
   {
@@ -824,7 +824,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_848",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_67"
   },
   {
@@ -837,7 +837,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_850",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_68"
   },
   {
@@ -850,7 +850,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_852",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_69"
   },
   {
@@ -863,7 +863,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_854",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_70"
   },
   {
@@ -876,7 +876,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_856",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_71"
   },
   {
@@ -915,7 +915,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_934",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_74"
   },
   {
@@ -928,7 +928,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_936",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_75"
   },
   {
@@ -941,7 +941,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_938",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_76"
   },
   {
@@ -953,7 +953,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.6,
     "padId": "pcb_smtpad_946",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_77"
   },
   {
@@ -978,7 +978,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.6,
     "padId": "pcb_smtpad_1155",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_79"
   },
   {
@@ -986,12 +986,12 @@ const vias=[
     "selector": ".Debug_status > .U_PG_LED > .VCC",
     "x": -3.8499999999999996,
     "y": 21.1,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.4,
     "height": 0.95,
     "padId": "pcb_smtpad_1163",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_80"
   },
   {
@@ -999,12 +999,12 @@ const vias=[
     "selector": ".Debug_status > .R_PG_LED > .pin1",
     "x": -10.05,
     "y": 22.75,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.6,
     "height": 0.6,
     "padId": "pcb_smtpad_1166",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_81"
   },
   {
@@ -1012,12 +1012,12 @@ const vias=[
     "selector": ".Debug_status > .C_PG_LED > .pin1",
     "x": -7.4,
     "y": 19,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.4,
     "height": 0.5,
     "padId": "pcb_smtpad_1170",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_82"
   },
   {
@@ -1030,7 +1030,7 @@ const vias=[
     "width": 1.025,
     "height": 1.4,
     "padId": "pcb_smtpad_1258",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_83"
   },
   {
@@ -1043,7 +1043,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_1277",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_84"
   },
   {
@@ -1056,20 +1056,20 @@ const vias=[
     "width": 1.025,
     "height": 1.4,
     "padId": "pcb_smtpad_1296",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_86"
   },
   {
     "net": "V3V3",
     "selector": ".HDMI > .R_HDMI_REF_R158 > .pin1",
-    "x": 39.5,
-    "y": -34.51,
+    "x": 24.24,
+    "y": -21.75,
     "layer": "top",
     "shape": "rect",
     "width": 0.64,
     "height": 0.54,
     "padId": "pcb_smtpad_1303",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_87"
   },
   {
@@ -1082,7 +1082,7 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_1306",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_88"
   },
   {
@@ -1121,20 +1121,20 @@ const vias=[
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_1327",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_92"
   },
   {
     "net": "V3V3",
     "selector": ".HDMI > .R_HDMI_RESET_GPIO_PU > .pin1",
-    "x": 36.99,
-    "y": -20,
+    "x": 33.445,
+    "y": 13,
     "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_1329",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_93"
   },
   {
@@ -1160,7 +1160,7 @@ const vias=[
     "width": 0.67,
     "height": 0.3,
     "padId": "pcb_smtpad_1434",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_96"
   },
   {
@@ -1173,7 +1173,7 @@ const vias=[
     "width": 0.67,
     "height": 0.3,
     "padId": "pcb_smtpad_1435",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_97"
   },
   {
@@ -1199,7 +1199,7 @@ const vias=[
     "width": 0.98,
     "height": 3.4,
     "padId": "pcb_smtpad_1442",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_99"
   },
   {
@@ -1212,7 +1212,7 @@ const vias=[
     "width": 1.15,
     "height": 1.8,
     "padId": "pcb_smtpad_1448",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "V3V3_FEED_100"
   },
   {
@@ -1224,7 +1224,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_264",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "MAIN_RESERVED_95",
     "pendingSignalAccess": true
   },
@@ -1251,7 +1251,7 @@ const vias=[
     "width": 1.4,
     "height": 1.025,
     "padId": "pcb_smtpad_1292",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "MAIN_RESERVED_97",
     "pendingSignalAccess": true
   },
