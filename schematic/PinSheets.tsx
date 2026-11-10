@@ -19,13 +19,13 @@ export const pinSheets = [...new Set(pinGroups.map(p => p.sheet))]
 /** Native projections share the physical chip's existing source ports. Every ball appears once. */
 export function PinSheets({ chip }: { chip?: string } = {}) { return <>{pinGroups.filter(group => !chip || group.chip === chip).map(group => {
   const keys = group.entries.map(([pin]) => pin)
-  const labels = group.entries.map(([, [ball, signal]]) => signal.endsWith(`_${ball}`) ? signal : `${signal}_${ball}`)
+  const labels = group.entries.map(([, [ball, signal]]) => signal.replace(new RegExp(`_${ball}$`), ""))
   const columnWidth = (column: string[]) => Math.max(0, ...column.map(label => label.length * 0.105))
   return <schematicbox key={group.name} name={group.name} title={group.name} chipRef={`chip[name="${group.chip}"]`}
-    schSheetName={group.sheet} schX={(group.index % 2) * 25 - 12.5} schY={-Math.floor(group.index / 2) * 18}
+    schSheetName={group.sheet} schX={pinGroups.filter(g => g.sheet === group.sheet).length === 1 ? 0 : (group.index % 2 - 0.5) * (group.sheet === "DDR memory address and control" ? 8 : 11)} schY={(Math.ceil(pinGroups.filter(g => g.sheet === group.sheet).length / 2) - 1) * 4.5 - Math.floor(group.index / 2) * 9}
     width={0.35 + columnWidth(labels.slice(0, 16)) + columnWidth(labels.slice(16))}
-    height={0.8 + (Math.min(16, keys.length) - 1) * 0.6}
+    height={0.8 + (Math.min(16, keys.length) - 1) * 0.45}
     pinLabels={Object.fromEntries(group.entries.map(([pin, [ball]], i) => [pin, [labels[i], ball]]))}
     schPinArrangement={{ leftSide: keys.slice(0, 16), rightSide: keys.slice(16) }}
-    schPinStyle={Object.fromEntries(keys.map(pin => [pin, { marginBottom: 0.4 }]))} />
+    schPinStyle={Object.fromEntries(keys.map(pin => [pin, { marginBottom: 0.25 }]))} />
 })}</> }

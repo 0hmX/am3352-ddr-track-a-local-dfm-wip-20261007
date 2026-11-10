@@ -1,6 +1,5 @@
 import { createHash } from "node:crypto"
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
-import { convertCircuitJsonToSchematicSvg } from "circuit-to-svg"
 
 // Run after `tsci build index.tsx`. Compare complete PCB and source records,
 // including IDs, geometry, net membership, routes, pours, and component positions.
@@ -57,13 +56,4 @@ if (baseline) {
 }
 mkdirSync(output, { recursive: true })
 writeFileSync(`${output}/pcb-source-fingerprints.json`, JSON.stringify({ ...summary, electrical_connectivity: { sha256: digest(connectivity(circuit)), groups: connectivity(circuit).length } }, null, 2) + "\n")
-for (const sheet of circuit.filter((r: any) => r.type === "schematic_sheet")) {
-  const name = sheet.name ?? sheet.display_name ?? sheet.schematic_sheet_id
-  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-")
-  // Fit the actual sheet contents rather than shrinking them inside a large frame.
-  const focused = circuit.filter((r: any) => r.type !== "schematic_sheet" &&
-    (!r.type.startsWith("schematic_") || r.schematic_sheet_id === sheet.schematic_sheet_id))
-  const svg = convertCircuitJsonToSchematicSvg(focused, { width: 1400, height: 1000 })
-  writeFileSync(`${output}/${slug}.svg`, svg)
-}
-console.log(`${Object.keys(summary).length} PCB/source record types fingerprinted; ${baseline ? "PCB exact and terminal/net partitions identical (native trace forms may differ; polarity synonyms and runtime chip counters normalized; supplier diagnostics and TSX hash excluded); " : ""}schematic sheets rendered to ${output}`)
+console.log(`${Object.keys(summary).length} PCB/source record types fingerprinted; ${baseline ? "PCB exact and terminal/net partitions identical (native trace forms may differ; polarity synonyms and runtime chip counters normalized; supplier diagnostics and TSX hash excluded); " : ""}fingerprints written to ${output}`)

@@ -1,5 +1,6 @@
 import { Fragment } from "react"
 import { savedRefdesStyle } from "./layout/SavedSilkscreen"
+import { cpuDdrLayout } from "./schematic/CpuDdrLayout"
 import { namedConnections } from "./schematic/NamedConnections"
 import { PowerManagementChip, powerManagementLayout, powerManagementWiring } from "./schematic/PowerManagementLayout"
 import { passiveLayout } from "./schematic/PassiveLayout"
@@ -11,6 +12,7 @@ export const supportSheets = [...new Set(parts.map(p => p.sheet))]
 const schematicPlacement = passiveLayout(parts, ["CPU bypass", "CPU power", "DDR bypass", "DDR reference", "Power management", "Power input", "Boot and clock", "Debug and reset", "microSD", "Ethernet and RGB expansion", "USB programming"], { "Ethernet and RGB expansion": -65 })
 const powerWiring = powerManagementWiring(parts, schematicPlacement)
 // Explicit local networks sit beside their chip pins. Units are schematic-only.
+for (const [name, location] of Object.entries(cpuDdrLayout(parts))) Object.assign(schematicPlacement[name] ??= {}, location)
 Object.assign(schematicPlacement, {
   C_ETH_RAMP_CT: { schX: 10, schY: -32.5, schRotation: -90 },
   R_PROG_CC1: { schX: -23, schY: -0.4, schRotation: -90 },
@@ -67,9 +69,9 @@ export function Support({ sheets = supportSheets }: { sheets?: string[] } = {}){
  if(p.kind==='capacitor' && p.package==='1210' && !p.useImportedFootprint)throw Error(`Declared 1210 capacitor ${p.name} cannot use a fallback footprint`)
  const props={pcbStyle:savedRefdesStyle(p.name),name:p.name,manufacturerPartNumber:p.mpn??undefined,connections:Object.fromEntries(Object.entries(p.connections).map(([pin,net])=>[p.kind==='chip'?safe(p,pin):'pin'+pin,`net.${net}`])),...(placement as any)[p.name],schSheetName:p.sheet,cadModel:p.name.startsWith('TP_')?null:(p.kind==='chip'||p.kind==='inductor'||p.useImportedFootprint)&&(library as any)[p.footprintKey]?cadModelForFootprint(p.footprintKey):undefined,schX:((i%4)-1.5)*13,schY:((Math.ceil(parts.filter(part=>part.sheet===p.sheet).length/4)-1)/2-Math.floor(i/4))*9}
  Object.assign(props, schematicPlacement[p.name])
- if(p.sheet === "Power management") {
+ if(["Power management", "CPU bypass", "CPU power", "DDR bypass", "DDR reference"].includes(p.sheet)) {
   Object.assign(props, powerManagementLayout[p.name])
-  Object.assign(props, { children: namedConnections(p.name, props.connections, powerWiring, props) })
+  Object.assign(props, { children: namedConnections(p.name, props.connections, p.sheet === "Power management" ? powerWiring : undefined, props) })
   delete (props as any).connections
  }
  if(p.kind==='resistor')return <resistor key={p.name} {...props} resistance={p.value} footprint={p.useImportedFootprint?<ImportedFootprint part={p}/>:p.footprint??'0402'}/>
