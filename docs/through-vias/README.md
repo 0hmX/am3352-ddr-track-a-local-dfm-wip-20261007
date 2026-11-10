@@ -147,3 +147,13 @@ for the existing traces. **333 through / 877 non-through** remain. All 686 nativ
 connectivity entries and all 257 exported named-net groups remain connected, no
 physical shorts or new enforced findings. One optional plated-drill margin is
 recorded. Trace copper, placements and via positions/nets/diameters are unchanged.
+
+## DDR signal endpoints: 20 barrels
+
+[Native TSX port and source inventory](ddr-endpoint-increment.md),
+[validation](ddr-endpoint-validation.json). Sixteen affected DDR paths now live as
+literal TSX traces; 20 pad-centered barrels become explicit through vias with
+matched inner ports. **353 through / 857 non-through** remain. All 1,527 original
+component-pin net assignments and all nonzero wire segments are preserved.
+Native and independent exported-copper continuity pass, no new enforced findings;
+one optional plated-drill margin is recorded. CPU/DDR placement stays fixed.
