@@ -1,0 +1,693 @@
+<SchematicSheet name="CPU bypass" id="schematic_sheet_9">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="C_VDD_CORE_B" positionAnchor="center" schX="-19.5" schY="58.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_CORE_0" positionAnchor="center" schX="-6.5" schY="58.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_CORE_1" positionAnchor="center" schX="6.5" schY="58.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_CORE_2" positionAnchor="center" schX="19.5" schY="58.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_CORE_3" positionAnchor="center" schX="-19.5" schY="49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_CORE_4" positionAnchor="center" schX="-6.5" schY="49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_CORE_5" positionAnchor="center" schX="6.5" schY="49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_CORE_6" positionAnchor="center" schX="19.5" schY="49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_CORE_7" positionAnchor="center" schX="-19.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_MPU_B" positionAnchor="center" schX="-6.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_MPU_0" positionAnchor="center" schX="6.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_MPU_1" positionAnchor="center" schX="19.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_MPU_2" positionAnchor="center" schX="-19.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_MPU_3" positionAnchor="center" schX="-6.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDD_MPU_4" positionAnchor="center" schX="6.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_B" positionAnchor="center" schX="19.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_0" positionAnchor="center" schX="-19.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_1" positionAnchor="center" schX="-6.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_2" positionAnchor="center" schX="6.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_3" positionAnchor="center" schX="19.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SRAM_CORE_B" positionAnchor="center" schX="-19.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SRAM_CORE_0" positionAnchor="center" schX="-6.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SRAM_MPU_B" positionAnchor="center" schX="6.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SRAM_MPU_0" positionAnchor="center" schX="19.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO1_B" positionAnchor="center" schX="-19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO1_0" positionAnchor="center" schX="-6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO1_1" positionAnchor="center" schX="6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO2_B" positionAnchor="center" schX="19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO2_0" positionAnchor="center" schX="-19.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO2_1" positionAnchor="center" schX="-6.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO3_B" positionAnchor="center" schX="6.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO3_0" positionAnchor="center" schX="19.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO3_1" positionAnchor="center" schX="-19.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO4_B" positionAnchor="center" schX="-6.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO4_0" positionAnchor="center" schX="6.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO4_1" positionAnchor="center" schX="19.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO5_B" positionAnchor="center" schX="-19.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO5_0" positionAnchor="center" schX="-6.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO5_1" positionAnchor="center" schX="6.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO6_B" positionAnchor="center" schX="19.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO6_0" positionAnchor="center" schX="-19.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO6_1" positionAnchor="center" schX="-6.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO6_2" positionAnchor="center" schX="6.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO6_3" positionAnchor="center" schX="19.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO6_4" positionAnchor="center" schX="-19.5" schY="-40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_IO6_5" positionAnchor="center" schX="-6.5" schY="-40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_PLL_DDR" positionAnchor="center" schX="6.5" schY="-40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_PLL_CORE_LCD" positionAnchor="center" schX="19.5" schY="-40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_PLL_MPU" positionAnchor="center" schX="-19.5" schY="-49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_OSC" positionAnchor="center" schX="-6.5" schY="-49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDS_RTC" positionAnchor="center" schX="6.5" schY="-49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDA1P8V_USB0" positionAnchor="center" schX="19.5" schY="-49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDA1P8V_USB1" positionAnchor="center" schX="-19.5" schY="-58.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDA3P3V_USB0" positionAnchor="center" schX="-6.5" schY="-58.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VDDA3P3V_USB1" positionAnchor="center" schX="6.5" schY="-58.5" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_4" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_4 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_5" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_5 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_6" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_6 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_CORE_7" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_CORE_7 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_MPU_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_MPU_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_MPU_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_MPU_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_MPU_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_MPU_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_MPU_2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_MPU_2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_MPU_3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_MPU_3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDD_MPU_4" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDD_MPU_4 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SRAM_CORE_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SRAM_CORE_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SRAM_CORE_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SRAM_CORE_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SRAM_MPU_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SRAM_MPU_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SRAM_MPU_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SRAM_MPU_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO1_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO1_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO1_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO1_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO1_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO1_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO2_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO2_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO2_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO2_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO2_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO2_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO3_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO3_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO3_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO3_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO3_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO3_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO4_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO4_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO4_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO4_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO4_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO4_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO5_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO5_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO5_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO5_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO5_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO5_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO6_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO6_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO6_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO6_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO6_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO6_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO6_2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO6_2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO6_3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO6_3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO6_4" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO6_4 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_IO6_5" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_IO6_5 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_PLL_DDR" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_PLL_DDR by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_PLL_CORE_LCD" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_PLL_CORE_LCD by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_PLL_MPU" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_PLL_MPU by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_OSC" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_OSC by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDS_RTC" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDS_RTC by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDA1P8V_USB0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDA1P8V_USB0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDA1P8V_USB1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDA1P8V_USB1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDA3P3V_USB0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDA3P3V_USB0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VDDA3P3V_USB1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VDDA3P3V_USB1 by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="VDD_CORE" ground="GND" capacitorNames="C_VDD_CORE_B, C_VDD_CORE_0, C_VDD_CORE_1, C_VDD_CORE_2, C_VDD_CORE_3, C_VDD_CORE_4, C_VDD_CORE_5, C_VDD_CORE_6, C_VDD_CORE_7" maxBodyGap="12.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between VDD_CORE and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="VDD_MPU" ground="GND" capacitorNames="C_VDD_MPU_B, C_VDD_MPU_0, C_VDD_MPU_1, C_VDD_MPU_2, C_VDD_MPU_3, C_VDD_MPU_4" maxBodyGap="12.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between VDD_MPU and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="V1V8" ground="GND" capacitorNames="C_VDDS_B, C_VDDS_0, C_VDDS_1, C_VDDS_2, C_VDDS_3, C_SRAM_CORE_B, C_SRAM_CORE_0, C_SRAM_MPU_B, C_SRAM_MPU_0, C_VDDS_PLL_DDR, C_VDDS_PLL_CORE_LCD, C_VDDS_PLL_MPU, C_VDDS_OSC, C_VDDS_RTC, C_VDDA1P8V_USB0, C_VDDA1P8V_USB1" maxBodyGap="53.35" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="V3V3" ground="GND" capacitorNames="C_IO1_B, C_IO1_0, C_IO1_1, C_IO2_B, C_IO2_0, C_IO2_1, C_IO3_B, C_IO3_0, C_IO3_1, C_IO4_B, C_IO4_0, C_IO4_1, C_IO5_B, C_IO5_0, C_IO5_1, C_IO6_B, C_IO6_0, C_IO6_1, C_IO6_2, C_IO6_3, C_IO6_4, C_IO6_5, C_VDDA3P3V_USB0, C_VDDA3P3V_USB1" maxBodyGap="17.35" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="CPU power" id="schematic_sheet_10">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="C_CAP_VDD_SRAM_CORE" positionAnchor="center" schX="-19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_CAP_VDD_SRAM_MPU" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_CAP_VBB_MPU" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="C_CAP_VDD_SRAM_CORE" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_CAP_VDD_SRAM_CORE by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_CAP_VDD_SRAM_MPU" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_CAP_VDD_SRAM_MPU by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_CAP_VBB_MPU" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_CAP_VBB_MPU by -90° so its power-connected pin faces up and the component is vertical" />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="DDR reference" id="schematic_sheet_11">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R_DDR_ZQ" positionAnchor="center" schX="-19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_DDR_VTP" positionAnchor="center" schX="-6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_VREF_TOP" positionAnchor="center" schX="6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_VREF_BOT" positionAnchor="center" schX="19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VREF_TOP" positionAnchor="center" schX="-19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VREF_0" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VREF_1" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VREF_2" positionAnchor="center" schX="19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_VREF_3" positionAnchor="center" schX="-19.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_DDR_RESET" positionAnchor="center" schX="-6.5" schY="-9" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_DDR_ZQ" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_DDR_ZQ by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_DDR_VTP" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_DDR_VTP by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_VREF_TOP" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_VREF_TOP by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_VREF_BOT" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_VREF_BOT by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VREF_TOP" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VREF_TOP by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VREF_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VREF_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VREF_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VREF_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VREF_2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VREF_2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_VREF_3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_VREF_3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_DDR_RESET" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_DDR_RESET by 90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="DDR_VREF" ground="GND" capacitorNames="C_VREF_0, C_VREF_1, C_VREF_2, C_VREF_3" maxBodyGap="14.949" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between DDR_VREF and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="DDR bypass" id="schematic_sheet_12">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="C_RAM_0" positionAnchor="center" schX="-19.5" schY="36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_1" positionAnchor="center" schX="-6.5" schY="36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_2" positionAnchor="center" schX="6.5" schY="36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_3" positionAnchor="center" schX="19.5" schY="36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_4" positionAnchor="center" schX="-19.5" schY="27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_5" positionAnchor="center" schX="-6.5" schY="27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_6" positionAnchor="center" schX="6.5" schY="27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_7" positionAnchor="center" schX="19.5" schY="27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_8" positionAnchor="center" schX="-19.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_9" positionAnchor="center" schX="-6.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_10" positionAnchor="center" schX="6.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_11" positionAnchor="center" schX="19.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_B" positionAnchor="center" schX="-19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_0" positionAnchor="center" schX="-6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_1" positionAnchor="center" schX="6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_2" positionAnchor="center" schX="19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_3" positionAnchor="center" schX="-19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_4" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_5" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_6" positionAnchor="center" schX="19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_7" positionAnchor="center" schX="-19.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_8" positionAnchor="center" schX="-6.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_9" positionAnchor="center" schX="6.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_10" positionAnchor="center" schX="19.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_11" positionAnchor="center" schX="-19.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_12" positionAnchor="center" schX="-6.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_13" positionAnchor="center" schX="6.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_14" positionAnchor="center" schX="19.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_15" positionAnchor="center" schX="-19.5" schY="-27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_16" positionAnchor="center" schX="-6.5" schY="-27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_17" positionAnchor="center" schX="6.5" schY="-27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_18" positionAnchor="center" schX="19.5" schY="-27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_19" positionAnchor="center" schX="-19.5" schY="-36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_B0" positionAnchor="center" schX="-6.5" schY="-36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_DDR_B1" positionAnchor="center" schX="6.5" schY="-36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAM_B1" positionAnchor="center" schX="19.5" schY="-36" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="C_RAM_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_4" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_4 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_5" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_5 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_6" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_6 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_7" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_7 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_8" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_8 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_9" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_9 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_10" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_10 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_11" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_11 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_4" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_4 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_5" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_5 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_6" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_6 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_7" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_7 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_8" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_8 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_9" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_9 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_10" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_10 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_11" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_11 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_12" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_12 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_13" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_13 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_14" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_14 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_15" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_15 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_16" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_16 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_17" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_17 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_18" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_18 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_19" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_19 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_B0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_B0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_DDR_B1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_DDR_B1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAM_B1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAM_B1 by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="DDR_1V5" ground="GND" capacitorNames="C_RAM_0, C_RAM_1, C_RAM_2, C_RAM_3, C_RAM_4, C_RAM_5, C_RAM_6, C_RAM_7, C_RAM_8, C_RAM_9, C_RAM_10, C_RAM_11, C_RAM_B, C_SOC_DDR_0, C_SOC_DDR_1, C_SOC_DDR_2, C_SOC_DDR_3, C_SOC_DDR_4, C_SOC_DDR_5, C_SOC_DDR_6, C_SOC_DDR_7, C_SOC_DDR_8, C_SOC_DDR_9, C_SOC_DDR_10, C_SOC_DDR_11, C_SOC_DDR_12, C_SOC_DDR_13, C_SOC_DDR_14, C_SOC_DDR_15, C_SOC_DDR_16, C_SOC_DDR_17, C_SOC_DDR_18, C_SOC_DDR_19, C_SOC_DDR_B0, C_SOC_DDR_B1, C_RAM_B1" maxBodyGap="12.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between DDR_1V5 and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Power management" id="schematic_sheet_8">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="U_PMIC" positionAnchor="center" schX="-19.5" schY="45" width="2.57" height="5.2" />
+<SchematicBoxPlacement componentName="L_PWR1" positionAnchor="center" schX="-6.5" schY="45" width="1.056" height="0.46" />
+<SchematicBoxPlacement componentName="L_PWR2" positionAnchor="center" schX="6.5" schY="45" width="1.056" height="0.46" />
+<SchematicBoxPlacement componentName="L_PWR3" positionAnchor="center" schX="19.5" schY="45" width="1.056" height="0.46" />
+<SchematicBoxPlacement componentName="L_PWR4" positionAnchor="center" schX="-19.5" schY="36" width="1.056" height="0.46" />
+<SchematicBoxPlacement componentName="C_PWR1" positionAnchor="center" schX="-6.5" schY="36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR2" positionAnchor="center" schX="6.5" schY="36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR3" positionAnchor="center" schX="19.5" schY="36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR4" positionAnchor="center" schX="-19.5" schY="27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR5" positionAnchor="center" schX="-6.5" schY="27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR6" positionAnchor="center" schX="6.5" schY="27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR7_B" positionAnchor="center" schX="19.5" schY="27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR7" positionAnchor="center" schX="-19.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR8_B" positionAnchor="center" schX="-6.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR8" positionAnchor="center" schX="6.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR9_B" positionAnchor="center" schX="19.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR9" positionAnchor="center" schX="-19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR10" positionAnchor="center" schX="-6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR11" positionAnchor="center" schX="6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR12_B" positionAnchor="center" schX="19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR12" positionAnchor="center" schX="-19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR13" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PWR1" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PWR2" positionAnchor="center" schX="19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PWR3" positionAnchor="center" schX="-19.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PWR4" positionAnchor="center" schX="-6.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PWR5" positionAnchor="center" schX="6.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PWR6" positionAnchor="center" schX="19.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PWR7" positionAnchor="center" schX="-19.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_RTC_RESET" positionAnchor="center" schX="6.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_RTC_LDO" positionAnchor="center" schX="19.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RTC_LDO" positionAnchor="center" schX="-19.5" schY="-27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_RTC_WAKE" positionAnchor="center" schX="-6.5" schY="-27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PMIC_EN" positionAnchor="center" schX="6.5" schY="-27" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RTC_RESET_BYP" positionAnchor="center" schX="-6.5" schY="-36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RTC_GATE_BYP" positionAnchor="center" schX="6.5" schY="-36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR10_B" positionAnchor="center" schX="19.5" schY="-36" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PWR10_C" positionAnchor="center" schX="-19.5" schY="-45" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="C_PWR1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR4" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR4 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR5" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR5 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR6" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR6 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR7_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR7_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR7" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR7 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR8_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR8_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR8" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR8 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR9_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR9_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR9" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR9 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR10" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR10 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR11" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR11 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR12_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR12_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR12" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR12 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR13" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_PWR13 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PWR1" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_PWR1 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PWR2" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_PWR2 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PWR3" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_PWR3 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PWR4" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_PWR4 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PWR5" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_PWR5 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PWR6" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_PWR6 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PWR7" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_PWR7 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_RTC_RESET" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_RTC_RESET by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_RTC_LDO" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_RTC_LDO by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RTC_LDO" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RTC_LDO by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_RTC_WAKE" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_RTC_WAKE by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PMIC_EN" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_PMIC_EN by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RTC_RESET_BYP" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RTC_RESET_BYP by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RTC_GATE_BYP" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RTC_GATE_BYP by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR10_B" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR10_B by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PWR10_C" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PWR10_C by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="SYS_5V" ground="GND" capacitorNames="C_PWR1, C_PWR2, C_PWR3, C_PWR4, C_PWR5, C_PWR6" maxBodyGap="12.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between SYS_5V and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="VDD_CORE" ground="GND" capacitorNames="C_PWR7_B, C_PWR7" maxBodyGap="39.297" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between VDD_CORE and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="VDD_MPU" ground="GND" capacitorNames="C_PWR8_B, C_PWR8" maxBodyGap="12.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between VDD_MPU and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="DDR_1V5" ground="GND" capacitorNames="C_PWR9_B, C_PWR9" maxBodyGap="39.297" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between DDR_1V5 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="V3V3" ground="GND" capacitorNames="C_PWR10, C_PWR11, C_PWR10_B, C_PWR10_C" maxBodyGap="46.051" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="V1V8" ground="GND" capacitorNames="C_PWR12_B, C_PWR12, C_RTC_RESET_BYP, C_RTC_GATE_BYP" maxBodyGap="39.297" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections." />
+<InductorSeparatedFromChipPin hostComponentName="U_PMIC" inductorName="L_PWR1" pinDistance="10.989" maxRecommendedPinDistance="6" message="Place L_PWR1 near its directly connected pin on U_PMIC so the inductor and its supply return to the chip can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<InductorSeparatedFromChipPin hostComponentName="U_PMIC" inductorName="L_PWR2" pinDistance="23.804" maxRecommendedPinDistance="6" message="Place L_PWR2 near its directly connected pin on U_PMIC so the inductor and its supply return to the chip can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<InductorSeparatedFromChipPin hostComponentName="U_PMIC" inductorName="L_PWR3" pinDistance="36.787" maxRecommendedPinDistance="6" message="Place L_PWR3 near its directly connected pin on U_PMIC so the inductor and its supply return to the chip can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<ResistorSeparatedFromChipPin hostComponentName="U_PMIC" resistorName="R_PWR1" pinDistance="51.996" maxRecommendedPinDistance="4" message="Place R_PWR1 beside its connected pin on the left side of U_PMIC so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<InductorSeparatedFromChipPins hostComponentName="U_PMIC" inductorName="L_PWR4" maxPinDistance="9.077" maxRecommendedPinDistance="3" message="Place L_PWR4 beside its two connected pins on the left side of U_PMIC so the connections can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Boot and clock" id="schematic_sheet_13">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R_BOOT0" positionAnchor="center" schX="-19.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT1" positionAnchor="center" schX="-6.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT2" positionAnchor="center" schX="6.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT3" positionAnchor="center" schX="19.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT4" positionAnchor="center" schX="-19.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT5" positionAnchor="center" schX="-6.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT6" positionAnchor="center" schX="6.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT7" positionAnchor="center" schX="19.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT8" positionAnchor="center" schX="-19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT9" positionAnchor="center" schX="-6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT10" positionAnchor="center" schX="6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT11" positionAnchor="center" schX="19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT12" positionAnchor="center" schX="-19.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT13" positionAnchor="center" schX="-6.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT14" positionAnchor="center" schX="6.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_BOOT15" positionAnchor="center" schX="19.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SOC_CLOCK" positionAnchor="center" schX="-6.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_CLOCK_GATE" positionAnchor="center" schX="-19.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RESET_DELAY" positionAnchor="center" schX="-6.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PGOOD_RAW" positionAnchor="center" schX="6.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_CLOCK_OE_PD" positionAnchor="center" schX="19.5" schY="-22.5" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_BOOT0" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_BOOT0 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT1" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_BOOT1 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT2" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_BOOT2 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT3" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT3 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT4" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_BOOT4 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT5" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT5 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT6" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT6 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT7" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT7 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT8" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT8 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT9" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT9 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT10" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT10 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT11" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT11 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT12" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT12 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT13" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT13 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT14" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_BOOT14 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_BOOT15" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_BOOT15 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SOC_CLOCK" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SOC_CLOCK by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_CLOCK_GATE" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_CLOCK_GATE by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RESET_DELAY" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RESET_DELAY by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PGOOD_RAW" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_PGOOD_RAW by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_CLOCK_OE_PD" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_CLOCK_OE_PD by -90° so its ground-connected pin faces down and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="V1V8" ground="GND" capacitorNames="C_SOC_CLOCK, C_CLOCK_GATE" maxBodyGap="14.949" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="microSD" id="schematic_sheet_14">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R_SD_CMD" positionAnchor="center" schX="-6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_DAT0" positionAnchor="center" schX="6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_DAT1" positionAnchor="center" schX="19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_DAT2" positionAnchor="center" schX="-19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_DAT3" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SD_CD" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SD_HF" positionAnchor="center" schX="19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_SD_BULK" positionAnchor="center" schX="-19.5" schY="-9" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_SD_CMD" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_CMD by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_DAT0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_DAT0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_DAT1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_DAT1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_DAT2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_DAT2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_DAT3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_DAT3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SD_CD" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SD_CD by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SD_HF" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SD_HF by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_SD_BULK" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_SD_BULK by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="V3V3" ground="GND" capacitorNames="C_SD_HF, C_SD_BULK" maxBodyGap="39.297" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Power input" id="schematic_sheet_15">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="U_INPUT_EFUSE" positionAnchor="center" schX="6.5" schY="18" width="1.65" height="1.2" />
+<SchematicBoxPlacement componentName="R_TYPEC_ENABLE_PD" positionAnchor="center" schX="19.5" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_INPUT_LIMIT" positionAnchor="center" schX="-19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_INPUT_FAULT" positionAnchor="center" schX="-6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_INPUT_DVDT" positionAnchor="center" schX="6.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAW_TYPEC" positionAnchor="center" schX="19.5" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAW_NOR" positionAnchor="center" schX="-19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RAW_EFUSE" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_EFUSE_OUT" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_SYS_BLEED" positionAnchor="center" schX="19.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="U_PD" positionAnchor="center" schX="-19.5" schY="-9" width="2.25" height="2.8" />
+<SchematicBoxPlacement componentName="C_PD_VBUS" positionAnchor="center" schX="-6.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PD_VDDD" positionAnchor="center" schX="6.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PD_VDDD_HF1" positionAnchor="center" schX="19.5" schY="-9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PD_VDDD_HF2" positionAnchor="center" schX="-19.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PD_VCCD" positionAnchor="center" schX="-6.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PD_ISNK_UP" positionAnchor="center" schX="6.5" schY="-18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PD_ISNK_DN" positionAnchor="center" schX="19.5" schY="-18" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_TYPEC_ENABLE_PD" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_TYPEC_ENABLE_PD by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_INPUT_LIMIT" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_INPUT_LIMIT by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_INPUT_FAULT" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_INPUT_FAULT by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_INPUT_DVDT" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_INPUT_DVDT by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAW_TYPEC" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAW_TYPEC by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAW_NOR" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAW_NOR by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RAW_EFUSE" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_RAW_EFUSE by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_EFUSE_OUT" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_EFUSE_OUT by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_SYS_BLEED" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_SYS_BLEED by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PD_VBUS" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_PD_VBUS by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PD_VDDD" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_PD_VDDD by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PD_VDDD_HF1" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_PD_VDDD_HF1 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PD_VDDD_HF2" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_PD_VDDD_HF2 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PD_VCCD" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_PD_VCCD by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PD_ISNK_UP" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_PD_ISNK_UP by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PD_ISNK_DN" railPin="pin1" railType="ground" deltaSchRotation="90" suggestedRailFacingDirection="down" message="rotate R_PD_ISNK_DN by 90° so its ground-connected pin faces down and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="USBC_VBUS_RAW" ground="GND" capacitorNames="C_RAW_TYPEC, C_RAW_NOR, C_RAW_EFUSE, C_PD_VBUS" maxBodyGap="26.737" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between USBC_VBUS_RAW and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="PD_VDDD" ground="GND" capacitorNames="C_PD_VDDD, C_PD_VDDD_HF1, C_PD_VDDD_HF2" maxBodyGap="26.737" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between PD_VDDD and GND closer together in this schematic block. Preserve their net connections." />
+<ResistorSeparatedFromChipPin hostComponentName="U_INPUT_EFUSE" resistorName="R_INPUT_LIMIT" pinDistance="28.928" maxRecommendedPinDistance="4" message="Place R_INPUT_LIMIT beside its connected pin on the right side of U_INPUT_EFUSE so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<RailPathTooSpreadOut hostName="U_PD" pinName="VBUS_IN_18" railType="power" pathSpan="9.3" pathLength="14.708" message="Visible path from U_PD.VBUS_IN_18 to power spans 9.30 schematic units; move the connected support elements closer together near the pin and recompute their schematic traces." />
+<RailPathTooSpreadOut hostName="U_PD" pinName="VCCD_24" railType="power" pathSpan="13.366" pathLength="13.367" message="Visible path from U_PD.VCCD_24 to power spans 13.37 schematic units; move the connected support elements closer together near the pin and recompute their schematic traces." />
+<ResistorDividerSeparatedFromChip hostComponentName="U_PD" supplyResistorName="R_PD_ISNK_UP" groundResistorName="R_PD_ISNK_DN" message="Place the divider R_PD_ISNK_UP / R_PD_ISNK_DN beside its connected pin on the left side of U_PD. Both resistors are beyond the opposite chip edge. Keep supply above ground and make the tap connection direct, preserving values, symbols and all pin connections. Leave room for labels and reroute affected traces." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Debug and reset" id="schematic_sheet_16">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R_TRST_N" positionAnchor="center" schX="-19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_TMS" positionAnchor="center" schX="-6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_TDI" positionAnchor="center" schX="6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_EMU0" positionAnchor="center" schX="19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_EMU1" positionAnchor="center" schX="-19.5" schY="-4.5" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_TRST_N" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_TRST_N by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_TMS" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_TMS by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_TDI" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_TDI by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_EMU0" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_EMU0 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_EMU1" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_EMU1 by 90° so its power-connected pin faces up and the component is vertical" />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Ethernet and RGB expansion" id="schematic_sheet_18">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="C_ETH_LDO_IN" positionAnchor="center" schX="-6.5" schY="67.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_LDO_OUT" positionAnchor="center" schX="6.5" schY="67.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP0" positionAnchor="center" schX="-6.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP1" positionAnchor="center" schX="6.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP2" positionAnchor="center" schX="19.5" schY="40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP3" positionAnchor="center" schX="-19.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP4" positionAnchor="center" schX="-6.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_STRAP5" positionAnchor="center" schX="6.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_BIAS" positionAnchor="center" schX="19.5" schY="31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_MDIO_PU" positionAnchor="center" schX="-19.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_INT_PU" positionAnchor="center" schX="-6.5" schY="22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_OSC" positionAnchor="center" schX="-19.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_RESET_PU" positionAnchor="center" schX="6.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_RESET" positionAnchor="center" schX="19.5" schY="13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_A0" positionAnchor="center" schX="-19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_A1" positionAnchor="center" schX="-6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_A2" positionAnchor="center" schX="6.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_A3" positionAnchor="center" schX="19.5" schY="4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_IO0" positionAnchor="center" schX="-19.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_IO1" positionAnchor="center" schX="-6.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_IO2" positionAnchor="center" schX="6.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_IO3" positionAnchor="center" schX="19.5" schY="-4.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_YELLOW" positionAnchor="center" schX="6.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CT_TX_100N" positionAnchor="center" schX="19.5" schY="-13.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CT_TX_1U" positionAnchor="center" schX="-19.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CT_RX_100N" positionAnchor="center" schX="-6.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CT_RX_1U" positionAnchor="center" schX="6.5" schY="-22.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_CHASSIS" positionAnchor="center" schX="-19.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_CHASSIS" positionAnchor="center" schX="-6.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_RAMP_CT" positionAnchor="center" schX="19.5" schY="-31.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_ISO0" positionAnchor="center" schX="-6.5" schY="-40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_ISO1" positionAnchor="center" schX="19.5" schY="-40.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_ETH_ISO_OE_PU" positionAnchor="center" schX="-6.5" schY="-49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_ETH_ISO_OE" positionAnchor="center" schX="6.5" schY="-49.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RMII_RETURN_A" positionAnchor="center" schX="19.5" schY="-58.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RMII_RETURN_B" positionAnchor="center" schX="-19.5" schY="-67.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RMII_RETURN_C" positionAnchor="center" schX="-6.5" schY="-67.5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_RMII_RETURN_D" positionAnchor="center" schX="6.5" schY="-67.5" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="C_ETH_LDO_IN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_LDO_IN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_LDO_OUT" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_LDO_OUT by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP0" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP0 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP1" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP1 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP2" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP2 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP3" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP3 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP4" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP4 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_STRAP5" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_STRAP5 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_BIAS" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_BIAS by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_MDIO_PU" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_ETH_MDIO_PU by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_INT_PU" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_ETH_INT_PU by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_OSC" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_OSC by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_RESET_PU" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_ETH_RESET_PU by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_RESET" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_RESET by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_A0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_A0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_A1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_A1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_A2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_A2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_A3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_A3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_IO0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_IO0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_IO1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_IO1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_IO2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_IO2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_IO3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_IO3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_YELLOW" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_ETH_YELLOW by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CT_TX_100N" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CT_TX_100N by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CT_TX_1U" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CT_TX_1U by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CT_RX_100N" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CT_RX_100N by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CT_RX_1U" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CT_RX_1U by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_CHASSIS" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_CHASSIS by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_CHASSIS" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_ETH_CHASSIS by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_RAMP_CT" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_ETH_RAMP_CT by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_ISO0" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_ISO0 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_ISO1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_ISO1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_ETH_ISO_OE_PU" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_ETH_ISO_OE_PU by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_ETH_ISO_OE" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_ETH_ISO_OE by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RMII_RETURN_A" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_RMII_RETURN_A by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RMII_RETURN_B" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_RMII_RETURN_B by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RMII_RETURN_C" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_RMII_RETURN_C by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_RMII_RETURN_D" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_RMII_RETURN_D by 90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="ETH_3V3" ground="GND" capacitorNames="C_ETH_OSC, C_ETH_RESET, C_ETH_A0, C_ETH_A1, C_ETH_A2, C_ETH_A3, C_ETH_IO0, C_ETH_IO1, C_ETH_IO2, C_ETH_IO3, C_ETH_ISO0, C_ETH_ISO1, C_ETH_ISO_OE" maxBodyGap="35.35" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between ETH_3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="V1V8" ground="GND" capacitorNames="C_RMII_RETURN_A, C_RMII_RETURN_B, C_RMII_RETURN_C, C_RMII_RETURN_D" maxBodyGap="14.949" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V1V8 and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Debug rails and power status" id="schematic_sheet_20">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R_PG_LED" positionAnchor="center" schX="9" schY="4" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_PG_LED" positionAnchor="center" schX="0" schY="-5" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PG_PULLDOWN" positionAnchor="center" schX="-9" schY="-4" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_PG_LED" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_PG_LED by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_PG_LED" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_PG_LED by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PG_PULLDOWN" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_PG_PULLDOWN by -90° so its ground-connected pin faces down and the component is vertical" />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="HDMI power" id="schematic_sheet_23">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="C_HDMI_REF_C144" positionAnchor="center" schX="-21" schY="54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C145" positionAnchor="center" schX="-7" schY="54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C146" positionAnchor="center" schX="7" schY="54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C147" positionAnchor="center" schX="21" schY="54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C148" positionAnchor="center" schX="-21" schY="42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C149" positionAnchor="center" schX="-7" schY="42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C150" positionAnchor="center" schX="7" schY="42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C151" positionAnchor="center" schX="21" schY="42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C176" positionAnchor="center" schX="-21" schY="30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C177" positionAnchor="center" schX="-7" schY="30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C178" positionAnchor="center" schX="7" schY="30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C179" positionAnchor="center" schX="21" schY="30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C180" positionAnchor="center" schX="-21" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C181" positionAnchor="center" schX="-7" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C182" positionAnchor="center" schX="7" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C183" positionAnchor="center" schX="21" schY="18" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C184" positionAnchor="center" schX="-21" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C185" positionAnchor="center" schX="-7" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C186" positionAnchor="center" schX="7" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C187" positionAnchor="center" schX="21" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C188" positionAnchor="center" schX="-21" schY="-6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_REF_C193" positionAnchor="center" schX="-7" schY="-6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB10" positionAnchor="center" schX="7" schY="-6" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB11" positionAnchor="center" schX="21" schY="-6" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB12" positionAnchor="center" schX="-21" schY="-18" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB13" positionAnchor="center" schX="-7" schY="-18" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB5" positionAnchor="center" schX="7" schY="-18" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="FB_HDMI_FB9" positionAnchor="center" schX="21" schY="-18" width="1.3" height="0.4" />
+<SchematicBoxPlacement componentName="R_HDMI_1V2_EN" positionAnchor="center" schX="-7" schY="-30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_1V2_IN" positionAnchor="center" schX="7" schY="-30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_1V2_EN" positionAnchor="center" schX="21" schY="-30" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_5V_TOP" positionAnchor="center" schX="7" schY="-42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_5V_BOTTOM" positionAnchor="center" schX="21" schY="-42" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_5V_IN" positionAnchor="center" schX="-21" schY="-54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_5V_OUT1" positionAnchor="center" schX="-7" schY="-54" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_5V_OUT2" positionAnchor="center" schX="7" schY="-54" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C144" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C144 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C145" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C145 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C146" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C146 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C147" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C147 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C148" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C148 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C149" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C149 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C150" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C150 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C151" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C151 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C176" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C176 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C177" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C177 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C178" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C178 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C179" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C179 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C180" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C180 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C181" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C181 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C182" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C182 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C183" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C183 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C184" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C184 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C185" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C185 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C186" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C186 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C187" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C187 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C188" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_REF_C188 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_REF_C193" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C_HDMI_REF_C193 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB10" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB10 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB11" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB11 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB12" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB12 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB13" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB13 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB5" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB5 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="FB_HDMI_FB9" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate FB_HDMI_FB9 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_1V2_EN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_1V2_EN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_1V2_IN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_1V2_IN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_1V2_EN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_1V2_EN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_5V_TOP" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_5V_TOP by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_5V_BOTTOM" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_5V_BOTTOM by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_5V_IN" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_5V_IN by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_5V_OUT1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_5V_OUT1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_5V_OUT2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_5V_OUT2 by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_PVCC_1V2" ground="GND" capacitorNames="C_HDMI_REF_C144, C_HDMI_REF_C180" maxBodyGap="35.35" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_PVCC_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_1V2" ground="GND" capacitorNames="C_HDMI_REF_C145, C_HDMI_REF_C146, C_HDMI_REF_C148" maxBodyGap="17.561" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_IVDD_1V2" ground="GND" capacitorNames="C_HDMI_REF_C147, C_HDMI_REF_C149, C_HDMI_REF_C150, C_HDMI_REF_C151" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_IVDD_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="V3V3" ground="GND" capacitorNames="C_HDMI_REF_C176, C_HDMI_REF_C186, C_HDMI_1V2_IN, C_HDMI_5V_IN" maxBodyGap="36" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_3V3" ground="GND" capacitorNames="C_HDMI_REF_C177, C_HDMI_REF_C178, C_HDMI_REF_C179" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_AVCC_1V2" ground="GND" capacitorNames="C_HDMI_REF_C181, C_HDMI_REF_C182, C_HDMI_REF_C183" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_AVCC_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_DVDD_1V2" ground="GND" capacitorNames="C_HDMI_REF_C184, C_HDMI_REF_C185" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_DVDD_1V2 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_OVDD_3V3" ground="GND" capacitorNames="C_HDMI_REF_C187, C_HDMI_REF_C188" maxBodyGap="42.928" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_OVDD_3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="HDMI_5V_SUPPLY" ground="GND" capacitorNames="C_HDMI_5V_OUT1, C_HDMI_5V_OUT2" maxBodyGap="13.4" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between HDMI_5V_SUPPLY and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="HDMI transmitter and protection" id="schematic_sheet_22">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="U_HDMI" positionAnchor="center" schX="-21" schY="24" width="1.74" height="6.8" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R146" positionAnchor="center" schX="7" schY="24" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R147" positionAnchor="center" schX="21" schY="24" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R158" positionAnchor="center" schX="-21" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R166" positionAnchor="center" schX="-7" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R176" positionAnchor="center" schX="7" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R177" positionAnchor="center" schX="21" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R181" positionAnchor="center" schX="-21" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R183" positionAnchor="center" schX="-7" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_REF_R188" positionAnchor="center" schX="7" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_RESET_GPIO_PU" positionAnchor="center" schX="-21" schY="-12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_RESET_DECOUPLE" positionAnchor="center" schX="-7" schY="-12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_ESD_SUPPLY" positionAnchor="center" schX="21" schY="-12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C_HDMI_ESD_OUT" positionAnchor="center" schX="-21" schY="-24" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_HDMI_UTILITY" positionAnchor="center" schX="-7" schY="-24" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R146" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R146 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R147" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R147 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R158" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R158 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R166" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R166 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R176" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_HDMI_REF_R176 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R177" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_HDMI_REF_R177 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R181" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_HDMI_REF_R181 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R183" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_REF_R183 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_REF_R188" railPin="pin1" railType="ground" deltaSchRotation="90" suggestedRailFacingDirection="down" message="rotate R_HDMI_REF_R188 by 90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_RESET_GPIO_PU" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_HDMI_RESET_GPIO_PU by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_RESET_DECOUPLE" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_RESET_DECOUPLE by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_ESD_SUPPLY" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_ESD_SUPPLY by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C_HDMI_ESD_OUT" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C_HDMI_ESD_OUT by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_HDMI_UTILITY" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_HDMI_UTILITY by -90° so its ground-connected pin faces down and the component is vertical" />
+<ResistorSeparatedFromChipPin hostComponentName="U_HDMI" resistorName="R_HDMI_REF_R176" pinDistance="30.396" maxRecommendedPinDistance="4" message="Place R_HDMI_REF_R176 beside its connected pin on the left side of U_HDMI so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<ResistorSeparatedFromChipPin hostComponentName="U_HDMI" resistorName="R_HDMI_REF_R177" pinDistance="44.457" maxRecommendedPinDistance="4" message="Place R_HDMI_REF_R177 beside its connected pin on the left side of U_HDMI so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="USB programming" id="schematic_sheet_19">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J_USB_PROG" positionAnchor="center" schX="-19.5" schY="0" width="1.3" height="2" />
+<SchematicBoxPlacement componentName="R_PROG_CC1" positionAnchor="center" schX="-6.5" schY="0" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R_PROG_CC2" positionAnchor="center" schX="6.5" schY="0" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R_PROG_CC1" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_PROG_CC1 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R_PROG_CC2" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R_PROG_CC2 by -90° so its ground-connected pin faces down and the component is vertical" />
+<ResistorSeparatedFromChipPin hostComponentName="J_USB_PROG" resistorName="R_PROG_CC1" pinDistance="13.756" maxRecommendedPinDistance="4" message="Place R_PROG_CC1 beside its connected pin on the left side of J_USB_PROG so the resistor-to-ground branch can be read together. Preserve pin connections, leave room for labels, and reroute affected traces; exact alignment is not required." />
+<RailPathTooSpreadOut hostName="J_USB_PROG" pinName="B5" railType="ground" pathSpan="31.225" pathLength="31.725" message="Visible path from J_USB_PROG.B5 to ground spans 31.22 schematic units; move the connected support elements closer together near the pin and recompute their schematic traces." />
+</SchematicPlacementIssues>
+</SchematicSheet>

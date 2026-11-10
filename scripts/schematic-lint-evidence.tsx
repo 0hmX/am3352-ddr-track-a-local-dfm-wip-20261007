@@ -4,6 +4,9 @@ import { convertCircuitJsonToSchematicSvg } from "circuit-to-svg"
 
 // Run after `tsci build index.tsx`. Compare complete PCB and source records,
 // including IDs, geometry, net membership, routes, pours, and component positions.
+// Supplier fetch diagnostics have random IDs/network results, and the project
+// metadata intentionally hashes the edited TSX. Neither describes connectivity.
+const volatile = new Set(["source_component_availability_warning", "source_part_not_found_warning", "source_project_metadata"])
 const [output, baseline] = process.argv.slice(2)
 if (!output) throw new Error("Usage: bun scripts/schematic-lint-evidence.tsx <output-dir> [baseline-circuit.json]")
 const circuit = JSON.parse(readFileSync("dist/index/circuit.json", "utf8"))
@@ -18,9 +21,9 @@ const summarize = (records: any[]) => Object.fromEntries([...new Set(physical(re
 const summary = summarize(circuit)
 if (baseline) {
   const before = summarize(JSON.parse(readFileSync(baseline, "utf8")))
-  if (JSON.stringify(before) !== JSON.stringify(summary)) {
-    throw new Error(`PCB/source records changed: ${[...new Set([...Object.keys(before), ...Object.keys(summary)])].filter(type => JSON.stringify(before[type]) !== JSON.stringify(summary[type])).join(", ")}`)
-  }
+  const changed = [...new Set([...Object.keys(before), ...Object.keys(summary)])]
+    .filter(type => !volatile.has(type) && JSON.stringify(before[type]) !== JSON.stringify(summary[type]))
+  if (changed.length) throw new Error(`PCB/source records changed: ${changed.join(", ")}`)
 }
 mkdirSync(output, { recursive: true })
 writeFileSync(`${output}/pcb-source-fingerprints.json`, JSON.stringify(summary, null, 2) + "\n")
@@ -30,4 +33,4 @@ for (const sheet of circuit.filter((r: any) => r.type === "schematic_sheet")) {
   const svg = convertCircuitJsonToSchematicSvg(circuit, { schematicSheetId: sheet.schematic_sheet_id, width: 1400, height: 1000 })
   writeFileSync(`${output}/${slug}.svg`, svg)
 }
-console.log(`${Object.keys(summary).length} PCB/source record types fingerprinted; ${baseline ? "all identical to baseline; " : ""}schematic sheets rendered to ${output}`)
+console.log(`${Object.keys(summary).length} PCB/source record types fingerprinted; ${baseline ? "all physical/electrical arrays identical to baseline (supplier diagnostics and TSX hash excluded); " : ""}schematic sheets rendered to ${output}`)

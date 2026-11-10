@@ -38,5 +38,5 @@ export function Support({ sheets = supportSheets }: { sheets?: string[] } = {}){
  if(p.kind==='resistor')return <resistor key={p.name} {...props} resistance={p.value} footprint={p.useImportedFootprint?<ImportedFootprint part={p}/>:p.footprint??'0402'}/>
  if(p.kind==='capacitor')return <capacitor key={p.name} {...props} capacitance={p.value} footprint={p.useImportedFootprint?<ImportedFootprint part={p}/>:p.footprint??'0402'}/>
  if(p.kind==='inductor')return <inductor key={p.name} {...props} inductance={p.value} footprint={<ImportedFootprint part={p}/>}/>
- return <chip key={p.name} {...props} pinLabels={Object.fromEntries(Object.entries(p.pinLabels).map(([pin,label])=>[safe(p,pin),[pin,String(label)+'_'+pin]]))} noConnect={p.noConnect.map((s:string)=>safe(p,s))} footprint={<ImportedFootprint part={p}/>}/>
+ return <chip key={p.name} {...props} schWidth={({U_PMIC:2.57,U_PD:2.25,U_ETH_PHY:2.55,U_ETH_ISO0:1.33,U_ETH_ISO1:1.33,U_ETH_RESET:1.85,U_ETH_RAMP:1.36,J_ETH:2.78,J_MICROSD:2.37,U_RESET_DELAY:1.85,U_RTC_RESET_DELAY:1.77,U_RTC_POR_GATE:1.35,U_INPUT_EFUSE:1.65} as Record<string,number>)[p.name]} pinLabels={Object.fromEntries(Object.entries(p.pinLabels).map(([pin,label])=>[safe(p,pin),[pin,String(label)+'_'+pin]]))} noConnect={p.noConnect.map((s:string)=>safe(p,s))} footprint={<ImportedFootprint part={p}/>}/>
  })}</>}
