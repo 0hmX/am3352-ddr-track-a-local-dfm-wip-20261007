@@ -1,0 +1,329 @@
+{
+  "nativeInputSha256": "db5db598d41b6ee12aba020afb587fdd5d0d45bcd8e802d23720f8a62aa19b50",
+  "inventorySummary": {
+    "totalVias": 1208,
+    "throughVias": 626,
+    "nonThroughVias": 582,
+    "shortingConversions": 573,
+    "clearanceOnlyConversions": 9,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 2,
+    "nonPourConflicts": 580,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 20,
+    "checkSameNetViaSpacing": 1,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 6,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": false,
+    "nonzeroTraceSegmentCount": 8106,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": false,
+    "traceCopperShapeCount": 8177,
+    "traceCopperSha256": "3db5d262aecd038c2b6421fc4e53eb97ffcdad62c8f5b93fc84cfb63e5d5e9ad",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": false,
+    "removedViaKeys": [
+      "[\"GND\",4.8,0.8,0.15,0.3]",
+      "[\"GND\",40.249942,-21.74992,0.15,0.3]"
+    ],
+    "addedViaKeys": [],
+    "allRetainedViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 6,
+    "allNonzeroCenterlineSegmentsIncludingViaJoinsUnchanged": false,
+    "centerlineSegmentCountIncludingViaJoins": 8107,
+    "roundingMm": 1e-08,
+    "changedTraces": [
+      "RN4_NEAR_HDMI_D14_pin5"
+    ],
+    "hdmiD14PlanarLengthBeforeMm": 25.88388394403175,
+    "hdmiD14PlanarLengthAfterMm": 25.854594622150408
+  },
+  "convertedViaInventory": [
+    {
+      "name": "INPUT_VIP_8",
+      "nets": "USBC_VBUS_RAW",
+      "x": "29.389999999999997",
+      "y": "-17.5",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_18",
+      "nets": "SYS_5V",
+      "x": "25.51",
+      "y": "-17.5",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "CLOUD_GND_PAD_211",
+      "nets": "GND",
+      "x": "27.91",
+      "y": "-17.5",
+      "oldFrom": "top",
+      "oldTo": "inner1"
+    },
+    {
+      "name": "WARMRST_REAL_GATE",
+      "nets": "WARMRST_N",
+      "x": "36.2",
+      "y": "-17.5",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "name": "D15_TOP_VIA",
+      "nets": "HDMI_D15",
+      "x": "40.325",
+      "y": "-21.3",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "trace": "CLOUD_LOCAL_47_PMIC_PB_N",
+      "id": "pcb_via_1063",
+      "name": "STD_CLOUD_LOCAL_47_PMIC_PB_N_END",
+      "x": "24.49",
+      "y": "-17.5",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    }
+  ],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1234,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 531,
+    "failures": []
+  },
+  "referenceDelta": {
+    "comparisonIdentity": "net/signal-layer/reference-layer uncovered-area unions",
+    "checkerSha256": "113f55a4f0caab45eafa91fe7dd753e6924df0a6cb23fb334cd95858fd7d7efd",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "cf2568dda7dc1b03b96ec5b3a81aaa995cd3a1a308de3c7ee21fb5574278fb06",
+    "afterAnalysisSha256": "e676dfcd3e4521006d1ad758262ce181ba6ad48a5aee2c248fdf50b679a19028",
+    "beforeNativeSha256": "e745310f1b20997062718eeb2be5ae01ad0862dc1a0fc61fca4410da69bcced8",
+    "afterNativeSha256": "db5db598d41b6ee12aba020afb587fdd5d0d45bcd8e802d23720f8a62aa19b50",
+    "newReferenceCuts": [
+      {
+        "trace": "RN4_NEAR_HDMI_D14_pin5",
+        "net": "HDMI_D14",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.16510722463495753,
+        "newUncoveredMm2": 0.16510722463495758,
+        "marginMm": 0.0,
+        "newBounds": [
+          24.245575053001584,
+          -21.649531398709293,
+          40.32024207682795,
+          -17.75
+        ]
+      },
+      {
+        "trace": "CLOUD_HDMI_D15_INNER5",
+        "net": "HDMI_D15",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.07736070899902045,
+        "newUncoveredMm2": 0.0386803750118668,
+        "marginMm": 0.0,
+        "newBounds": [
+          39.975,
+          -21.35,
+          40.375,
+          -21.25
+        ]
+      }
+    ],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-remaining-four/gerber/In1_Cu.gbr": "5c72d910fd3ab20ebb4417a6bca9a5866899a1622b1e504a30d82d612c2e4327",
+      "work/through-vias/native-remaining-four/gerber/In3_Cu.gbr": "5b9c42090f2d0e4c0cd0f83de649b3de1df05d853ed82caacdc2ba8cbc2af788",
+      "work/through-vias/native-remaining-four/gerber/In6_Cu.gbr": "d5d355d91ca0b938fca4cc920e43ffac016d79cda1f8450d38f6f70382e1ddd3",
+      "work/through-vias/native-remaining-four/gerber/drill-L2-L8.drl": "adcdeee61e72c3a0e7ef8f37ab1bb0f7912112ba0213bc1f5a43d97a26e883af",
+      "work/through-vias/native-remaining-four/gerber/drill-L5-L6.drl": "fb4c9c8dd6711db4bf6b68a6ab31d3dd315972bb3ec9fbb9f0a6858bb6a3d3b8",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L5.drl": "51b33ad08f1499cb89888c70c721a7306bf3a7e1db449e066e1957afd1e0b37d",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L4.drl": "3ee01a804c821f59dddf610077d2d58d673df7484b9231961389bcf9cfdf9fdf",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L6.drl": "be46eaa5ee955d92664ab32d032190f6b538b880ccdc700e5ea055bdd1e6407f",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L7.drl": "762edafcec22299851a23a7ae137790b070498ed1e454f080044370ed8c6189e",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L3.drl": "a4a3e682a42f40ffeb5b3b9513f06dc2daaf0ac9aefb4d00f166d0dbd07db32d",
+      "work/through-vias/native-remaining-four/gerber/drill-L3-L6.drl": "26ba12981bb426b998b2f651e2c9448ae5e79b75062da05017d4a0f5a90dec25",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L2.drl": "5b2cfd46ee7f879837689d1eb846b839a58d4b3f1d6025e847b838a3ab05fdfa",
+      "work/through-vias/native-remaining-four/gerber/drill-L3-L5.drl": "92aac77568e2351d565dfeb0b6858e65edf773bdf2680d4760b19658b132135d",
+      "work/through-vias/native-remaining-four/gerber/drill-L6-L8.drl": "39fbdb2db4317844a0e033ffdb145a3a8c7fd8f7d5678ceb442908bd70314c4c",
+      "work/through-vias/native-remaining-four/gerber/drill-L3-L8.drl": "d2f1e77a9ab45c42aca8a17bfa138510f675de9e299d80359b11c4e032ff0ac4",
+      "work/through-vias/native-remaining-four/gerber/drill-L4-L7.drl": "f51caf8b2ef87a3c2ac0990e7fef2ea6b75648e06a771cc0d38bc84b90b7e79e",
+      "work/through-vias/native-remaining-four/gerber/drill-L1-L8.drl": "cf699d19e10946cac1c49158f1be3dcc13eb0dc5e5974f06ced9356749b5f824",
+      "work/through-vias/native-remaining-four/gerber/drill_npth.drl": "8d706e09336be0f27e12a90a36a8e8ce482148af6c9b33c71c9516919571c801",
+      "work/through-vias/native-remaining-four/gerber/drill-L5-L8.drl": "10e062a8e5caa8810af86709e3a55e885a402341a092c6338937e67f8524262b",
+      "work/through-vias/native-remaining-four/gerber/drill-L2-L4.drl": "bf40e356f5bacc19713e41486562c06c462f177d13f9cb7b88180b9ca6331b7a",
+      "work/through-vias/native-remaining-four/gerber/drill-L7-L8.drl": "b1221e337a7b41b3767b41e51118837f208725f0cc93939d67a5f5264824377a",
+      "work/through-vias/native-remaining-four/gerber/drill-L2-L7.drl": "02e6f48dd36c5b08053f931376225ee0cb061bf25558dd2a6bde8436e44d97fb",
+      "work/through-vias/native-hdmi-d14-relief/gerber/In1_Cu.gbr": "b00696ccf15e8a99e54323070de8e7b20ea56456ae300836a6ba874a73232fed",
+      "work/through-vias/native-hdmi-d14-relief/gerber/In3_Cu.gbr": "52e6c5cb3fd3dc1c1b213dff67ac9c161ad0da156f0778acee47520bc04605dc",
+      "work/through-vias/native-hdmi-d14-relief/gerber/In6_Cu.gbr": "3dadfd7c363c908d5a05e7a2d1857b42db349522db29e58fbe1acc240d0d7b68",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L2-L8.drl": "8421d80559939e633db912dd2079f3a9376411a3d859a149bca9dcfb95cf86ec",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L5-L6.drl": "cbaf09011b06ddb2b12a9e5973f7c1fbcb7e61a1bac61b570dea69adcea267ab",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L1-L5.drl": "d99b48aa56ad593b602cbc82e03ade89c28561b5dfe0b86b46b5236d9dedfcc6",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L1-L4.drl": "ae218ed620b6216e20bfcddd62367bb40899fcb4d51f3be3eeaa87963ee8a8cd",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L1-L6.drl": "ba99f536ed44fe00190df4682f5d1bf08ee4f643bfd18af206cb3fff2171c07f",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L1-L7.drl": "155812aa7844eea6571de0237586b168cc487305e2a0f5d150aed27f23a8f2c9",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L1-L3.drl": "40210cdb6b2d4181c0512dc37fa8ba57f18a7caa89a5ae4e9eeb1ee6ffac80fd",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L3-L6.drl": "a17a577f8a547883652af8209924e10043cffec84c6b3e5cc9f88c945bab1d63",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L1-L2.drl": "22a4a2c3b0cbd649d94e5dd793859c13aca60ba0ad5999511048b59b4a79e413",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L3-L5.drl": "eebf92211875c4914ff94835a2bc1813aa5a7e2f93527733964be13b6002accf",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L6-L8.drl": "e241641c153a8fa133fd8f9bcd065e5aad54de0dd4345906933117f260d58c76",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L3-L8.drl": "86ed50cdb67d9831f557c9fcdae67df3082be3995047acf8097799c42948f4ef",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L4-L7.drl": "d6625df6a4e92787f518978eeeb7b47833afb3db54aece4ae8bd7d2b5185357c",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L1-L8.drl": "65ad67f568c29923830a9e5a30ee2edcaa80e948e7d381e28b8d473435037b8d",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill_npth.drl": "04c21d633ec71f7267dd1889244e4ca22e7f303953fd3626f85dced1a00b3329",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L5-L8.drl": "4c70f8a990c5408c800a2e137d8a34032b341af8f29fcfbabe851a4dec2362d9",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L2-L4.drl": "0173a8745db473b710f52ae72e24da8241fbc3e18fc2f3d0f447e4ec0ebe51e1",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L7-L8.drl": "a7960d24cbc11e0e645777a66de55fe5a054d91041248ee341166d1a7bbd6dec",
+      "work/through-vias/native-hdmi-d14-relief/gerber/drill-L2-L7.drl": "e3834db185b2bf976f692478ab47216e7fc2c4948c844edc576891b50c7fbb54"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  },
+  "removedGroundStitches": [
+    {
+      "name": "D21_CPU_I1_I3_RETURN",
+      "x": 4.8,
+      "y": 0.8,
+      "oldSpan": "inner1..inner3"
+    },
+    {
+      "name": "RN5_EAST_RETURN_1",
+      "x": 40.249942,
+      "y": -21.74992,
+      "oldSpan": "inner1..inner6"
+    }
+  ],
+  "removalScope": "Neither stitch is a component-pad transition or a trace/pour endpoint. DC redundancy is verified by native and actual post-drill component-terminal connectivity; local return inductance and SI are not qualified.",
+  "quality": {
+    "placementCounts": {
+      "checkPcbComponentOverlap": 0,
+      "checkPcbComponentsMissingCourtyard": 15,
+      "checkPcbCourtyardOverKeepout": 0
+    },
+    "fullPlacementCounts": {
+      "pcb_component_outside_board_error": 5,
+      "pcb_component_missing_courtyard_warning": 15,
+      "pcb_courtyard_overlap_error": 3,
+      "pcb_connector_not_in_accessible_orientation_warning": 1
+    },
+    "traceCount": 653,
+    "sharpTurnTraceCount": 86,
+    "changedTrace": {
+      "name": "RN4_NEAR_HDMI_D14_pin5",
+      "planarLengthMm": 25.854594622150408,
+      "endpointManhattanMm": 27.774988,
+      "detourRatio": 0.9308588944178988,
+      "maximumSampledTurnDegrees": 45.00000000000003,
+      "turnsAbove45": 0,
+      "reversalsAbove135": 0
+    },
+    "limitations": [
+      "placement preserves the original three-check subset for historical comparison; fullPlacement contains the complete upstream placement suite without suppression.",
+      "Supplemental geometry metrics only; run cloud-trace-lint.ts separately for the official trace-style analyzer.",
+      "Curved routes are sampled; small successive turns do not establish deliberate path quality. Inspect enlarged native layer images.",
+      "Lengths are planar geometry, not electrical timing or impedance checks."
+    ]
+  }
+}

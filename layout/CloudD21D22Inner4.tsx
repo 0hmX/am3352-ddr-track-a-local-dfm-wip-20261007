@@ -19,4 +19,3 @@ export function applyD21D22Inner4(node:any):any {
  }
  return cloneElement(node,p,...Children.toArray(node.props.children).map(applyD21D22Inner4))
 }
-export function CloudD21CpuReturn(){return <group name="Cloud_D21_I4_return" pcbX={0} pcbY={0} pcbRelative><via name="D21_CPU_I1_I3_RETURN" pcbX={4.8} pcbY={.8} fromLayer="inner1" toLayer="inner3" holeDiameter={.15} outerDiameter={.30} connectsTo="net.GND"/></group>}

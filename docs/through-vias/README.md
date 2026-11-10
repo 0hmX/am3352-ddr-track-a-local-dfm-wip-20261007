@@ -260,3 +260,13 @@ remain. Native and exported continuity pass with no new clearance findings.
 D21 and DDR_BA1 extensions are rejected for isolating V3V3 terminals; both remain
 at their prior spans/positions. No ground stitch is removed. Three additional
 reference-area pairs across two traces are retained in the spatial audit.
+
+## HDMI D14 corridor: six conversions, two stitch removals
+
+[Native reroute and visual comparison](hdmi-d14-relief-increment.md),
+[validation](hdmi-d14-relief-validation.json). **626 through / 582 non-through**
+remain. D14 alone changes wire geometry. Two unreferenced ground stitches are
+removed at their TSX sources; all 416 component GND terminals remain connected
+after actual drilling. Native and exported continuity pass with no new enforced
+clearance findings. Two additional reference-area pairs and six optional plated-
+hole margins remain visible; local return inductance remains unqualified.
