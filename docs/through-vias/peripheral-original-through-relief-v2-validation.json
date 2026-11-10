@@ -1,0 +1,1848 @@
+{
+  "nativeInputSha256": "46c521cabcbf91a34606b5ccbb76ea9108d932bd600ea4ad56185192a7c0de57",
+  "inventorySummary": {
+    "totalVias": 940,
+    "throughVias": 735,
+    "nonThroughVias": 205,
+    "shortingConversions": 205,
+    "clearanceOnlyConversions": 0,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 0,
+    "nonPourConflicts": 205,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 2,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 10,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": false,
+    "nonzeroTraceSegmentCount": 8380,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": false,
+    "traceCopperShapeCount": 8454,
+    "traceCopperSha256": "6c942caceb6d365e630b395fedf08224f42a86fac4d571e2f34d985deb60b3d4",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": true,
+    "removedViaKeys": [],
+    "addedViaKeys": [],
+    "allRetainedViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 9
+  },
+  "convertedViaInventory": [],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 966,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 275,
+    "failures": []
+  },
+  "referenceDelta": {
+    "comparisonIdentity": "net/signal-layer/reference-layer uncovered-area unions",
+    "checkerSha256": "113f55a4f0caab45eafa91fe7dd753e6924df0a6cb23fb334cd95858fd7d7efd",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "156f11638b9e5a7fe0aee0bbd09be387acdc2aeb5e887c3095cc308437cdf58f",
+    "afterAnalysisSha256": "6c91a305e220df2e7720264531ee63e1ab6e9e9f295de7e3dd6f8da5d43fbd8c",
+    "beforeNativeSha256": "315a65409b38ad0f4912e16dfca581c0b438792185ebb404a08358ef847feab6",
+    "afterNativeSha256": "46c521cabcbf91a34606b5ccbb76ea9108d932bd600ea4ad56185192a7c0de57",
+    "newReferenceCuts": [
+      {
+        "trace": "DDR15_SOURCE_INNER4",
+        "net": "DDR_1V5",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.3909492236691346,
+        "newUncoveredMm2": 0.3909492236691346,
+        "marginMm": 0.0,
+        "newBounds": [
+          22.2,
+          4.0,
+          22.95,
+          4.644911557979005
+        ]
+      },
+      {
+        "trace": "DDR15_SOURCE_INNER5",
+        "net": "DDR_1V5",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.16733048669997097,
+        "newUncoveredMm2": 0.16733048669997097,
+        "marginMm": 0.0,
+        "newBounds": [
+          22.35,
+          3.85,
+          22.65,
+          4.45
+        ]
+      },
+      {
+        "trace": "DDR15_OUTPUT_FEEDBACK",
+        "net": "DDR_1V5",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.10469089936122707,
+        "newUncoveredMm2": 0.10469089936122707,
+        "marginMm": 0.0,
+        "newBounds": [
+          22.4,
+          3.85,
+          22.6,
+          4.3999999999999995
+        ]
+      },
+      {
+        "trace": "INPUT_SYS_5V_127",
+        "net": "SYS_5V",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.02461564267880588,
+        "newUncoveredMm2": 0.024615642678805887,
+        "marginMm": 0.0,
+        "newBounds": [
+          16.832489131645495,
+          19.4824891316455,
+          17.146800190235844,
+          19.796800190235846
+        ]
+      },
+      {
+        "trace": "CLOUD_LOCAL_57_PWRONRST_N",
+        "net": "PWRONRST_N",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 0.11457124103657279,
+        "newUncoveredMm2": 0.058009819279944884,
+        "marginMm": 0.0,
+        "newBounds": [
+          22.099109336443913,
+          3.85,
+          22.900890663556087,
+          4.099999999999999
+        ]
+      },
+      {
+        "trace": "CLOUD_LOCAL_57_PWRONRST_N",
+        "net": "PWRONRST_N",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.11457124103657279,
+        "newUncoveredMm2": 0.058009819279944884,
+        "marginMm": 0.0,
+        "newBounds": [
+          22.099109336443913,
+          3.85,
+          22.900890663556087,
+          4.099999999999999
+        ]
+      },
+      {
+        "trace": "CLOUD_V1V8_REBUILD_44",
+        "net": "V1V8",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.2907427155085539,
+        "newUncoveredMm2": 0.05507680378912776,
+        "marginMm": 0.0,
+        "newBounds": [
+          7.15,
+          -0.05,
+          7.714859541335846,
+          0.5148595413358455
+        ]
+      },
+      {
+        "trace": "MPU226_MAIN_1",
+        "net": "VDD_MPU",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.055183727169477004,
+        "newUncoveredMm2": 0.004313580115946177,
+        "marginMm": 0.0,
+        "newBounds": [
+          7.668891692115405,
+          0.46889169211540455,
+          7.804675283241383,
+          0.6046752832413831
+        ]
+      },
+      {
+        "trace": "MPU226_MAIN_3",
+        "net": "VDD_MPU",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 0.2628973646991439,
+        "newUncoveredMm2": 0.2562451609645347,
+        "marginMm": 0.0,
+        "newBounds": [
+          7.15,
+          -0.05,
+          7.75,
+          0.55
+        ]
+      },
+      {
+        "trace": "HDMIPWR_HDMI_5V_11",
+        "net": "HDMI_5V",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.013908608025887321,
+        "newUncoveredMm2": 0.013908608025887325,
+        "marginMm": 0.0,
+        "newBounds": [
+          56.0,
+          -29.389960689924504,
+          56.056586399182265,
+          -29.03064582465384
+        ]
+      },
+      {
+        "trace": "DDR_BA1",
+        "net": "DDR_BA1",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 0.08918488483543234,
+        "newUncoveredMm2": 0.021648568823272974,
+        "marginMm": 0.0,
+        "newBounds": [
+          4.65,
+          -10.438962820043056,
+          4.725000000000267,
+          -10.011037179956974
+        ]
+      },
+      {
+        "trace": "DDR_BA1",
+        "net": "DDR_BA1",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.08918488483543234,
+        "newUncoveredMm2": 0.021648568823272974,
+        "marginMm": 0.0,
+        "newBounds": [
+          4.65,
+          -10.438962820043056,
+          4.725000000000267,
+          -10.011037179956974
+        ]
+      },
+      {
+        "trace": "SYSBOOT3_BOTTOM_V2_0",
+        "net": "SYSBOOT3",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.13824516384283864,
+        "newUncoveredMm2": 0.011764658853699879,
+        "marginMm": 0.0,
+        "newBounds": [
+          6.3,
+          -6.977638478666831,
+          6.35,
+          -6.622361521333168
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_61_RMII1_RX_ER",
+        "net": "RMII1_RX_ER",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.03040403168951123,
+        "newUncoveredMm2": 0.02164856882316429,
+        "marginMm": 0.0,
+        "newBounds": [
+          7.286037179957268,
+          0.575,
+          7.713962820042732,
+          0.65
+        ]
+      },
+      {
+        "trace": "RN5_INPUT_SYS4_CPU_PULL",
+        "net": "SYSBOOT4",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.0334964576471507,
+        "newUncoveredMm2": 0.0334964576471507,
+        "marginMm": 0.0,
+        "newBounds": [
+          4.65,
+          -10.570434585999122,
+          4.9536452641177755,
+          -10.02626824343511
+        ]
+      },
+      {
+        "trace": "RN4_NEAR_SYSBOOT13_pin1",
+        "net": "SYSBOOT13",
+        "signalLayer": "top",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 0.03523177130888273,
+        "newUncoveredMm2": 0.026929248859772596,
+        "marginMm": 0.0,
+        "newBounds": [
+          13.054397585345573,
+          -15.475,
+          13.5,
+          -15.029397585345574
+        ]
+      },
+      {
+        "trace": "RN3_SYS6_CPU_ARRAY_I5",
+        "net": "SYSBOOT6",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.5109860292847169,
+        "newUncoveredMm2": 0.04341125306682331,
+        "marginMm": 0.0,
+        "newBounds": [
+          5.65,
+          -7.15,
+          6.17117378455861,
+          -6.628826215441391
+        ]
+      }
+    ],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/In1_Cu.gbr": "51b79923fa3479548b64d29eaad7addbc7c379f3ca0cc770634010968674280a",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/In3_Cu.gbr": "348a0d86626629bbd19615b702f32f587b1d5c2b1542c304e2aafc1bf3e83ed0",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/In6_Cu.gbr": "561eb95b4457da707479c9c86820b6c1b96b8f784072b23f20017c4776eee475",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L5-L6.drl": "f4148a593822aea46fa5911a687c016042b7e651cfe48de1f1249e8893f6bb86",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L1-L5.drl": "2caf92dc4d697a298be39a31b263a212e509d5da5858acb5bc8c76a33ebb1a90",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L1-L4.drl": "167fd9503b2f295e66efa1e2e738902c01cf4dc04974993ac9ac00af9516da03",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L1-L6.drl": "d09487f024ae0b770713b7060a0b6176d4d5caa7376eadd273e2be461963efb7",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L1-L3.drl": "bc52660b3aed1f59578928d74575045c6f302ba1100cf8a15b36be0eea23b81e",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L3-L6.drl": "c11a34f5f51312d40e149422a86a8b5af14d1b0fb2251ef83ae6b56121c75187",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L1-L2.drl": "63dd3f36cb43ca8cb56d70289078d633b4efeb4826b877c87a2d1afb5b9d45b2",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L3-L5.drl": "a02f1123bb9168a65ddfc28543616ac800fe9963429b6f93374c3921bc8fb2dc",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L6-L8.drl": "065f64de7890d1b0c1c5e2b8556de97d242b91ee42604ff9ded149688184a0ff",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L3-L8.drl": "88448d31bd13b26c5faa63dd9a0a799ba12d8a05321dfb8cf1f83daf8f0229a2",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L1-L8.drl": "72d34ba530b784e1be4fbc75530d77725afa3a0a3b6f02b5c3412692a834a2f6",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill_npth.drl": "a7fcd61c5f645af7b9c74bcea2286258656c4bfefa7beed16979373e30ffec8e",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L5-L8.drl": "c4ee8370369900df3063078f2cea4b804941c90afb084f37a3620a63a4305e4c",
+      "work/through-vias/native-peripheral-manual-through-columns/gerber/drill-L7-L8.drl": "2dece344ead6ce727e3df85311d382b3c8df8f6993cbd98f377136567735e618",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/In1_Cu.gbr": "fc8724e477bad78803edda43cf8cfae773e8e55a60173d88879bbe93e87d61e8",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/In3_Cu.gbr": "4de5dbf221788183223c90ea6894e74daa7bd508a950dae0cba9cdfa3d36f9f9",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/In6_Cu.gbr": "0e51d68a8857e05a7c9f3926e05ac4577f855f19082c30a12c19e01d20020f62",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L5-L6.drl": "39c2173363b1110f7a3cc4a359c4f12853cc0a61f87de86139baa9cdc5deef05",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L1-L5.drl": "24e597d8955b13e067611df398e48d6ec3066ea7bc0a38c7441821a9f02adb54",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L1-L4.drl": "34cf4873af2757f36a6530857335905ca98b1ba60943349c72e261224c14b22a",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L1-L6.drl": "28e1897910368da8ccec459d5e4c31389788019c7ac3f5d5137da6edbbd10f17",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L1-L3.drl": "dc526febc62fc57946eefbe51f524f1a15625186042df2ee796c0aa2f085293b",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L3-L6.drl": "504fa33b98f5d4e65be3b520d9411ce06c176de17fc948c6f68558ebbef1d3bd",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L1-L2.drl": "44b219f0725a4c300e5a3c203e04e687ba3d23d16eeaac534e6657fa4b7592e5",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L3-L5.drl": "0046fc7b1e5755358d1d13e9c5d4c37a23e0255848cf9a8d2a48a47f56a69873",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L6-L8.drl": "9db66a5c047f562af5012182b9cac4154635df98cd88f2e5b6fa3db04d5495b3",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L3-L8.drl": "dc8c57d4c5b550f0f13eb16a775438e4c8c4e3a099edb844faccc3f1932a667b",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L1-L8.drl": "f5621382737af5780a2135af498e084edf79258af638a1ac7f7e8cec64f7591c",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill_npth.drl": "9a6f7918e7a927cbcdec08430eb8f98218a1ff7db4dbecbc0c4f3c733ed3c2e2",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L5-L8.drl": "560155ec2920ca4dbcef028ffc5e8d6f40f4798200d3b053a2b5e98d787a3bf8",
+      "work/through-vias/native-peripheral-original-through-relief-v2/gerber/drill-L7-L8.drl": "fba4df5b145c2a95ad490e502640dd6046c8a44584211085ba3ab522bf9c046e"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  },
+  "centerlineAudit": {
+    "allOriginalCenterlinesPreserved": false,
+    "lostCenterlines": [
+      {
+        "name": "INPUT_SYS_5V_127",
+        "segment": [
+          "inner5",
+          0.3,
+          0.3,
+          [
+            [
+              14.95,
+              21.75
+            ],
+            [
+              25.7,
+              11
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "CLOUD_LOCAL_57_PWRONRST_N",
+        "segment": [
+          "inner2",
+          0.1,
+          0.1,
+          [
+            [
+              11.22,
+              4.05
+            ],
+            [
+              33.8625,
+              4.05
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "CLOUD_HDMI_IVDD_1V2_V3_2",
+        "segment": [
+          "inner5",
+          0.3,
+          0.3,
+          [
+            [
+              43.01,
+              -21
+            ],
+            [
+              45.49,
+              -21
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "CLOUD_V1V8_REBUILD_44",
+        "segment": [
+          "inner5",
+          0.3,
+          0.3,
+          [
+            [
+              5.8,
+              2
+            ],
+            [
+              8.05,
+              -0.25
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "HDMIPWR_HDMI_5V_11",
+        "segment": [
+          "inner5",
+          0.2,
+          0.2,
+          [
+            [
+              54.95,
+              -28.6
+            ],
+            [
+              56.99,
+              -30.64
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "DDR_BA1",
+        "segment": [
+          "inner2",
+          0.1,
+          0.1,
+          [
+            [
+              4.75,
+              -10.92928932
+            ],
+            [
+              4.75,
+              -5.8125
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "DDR_A7",
+        "segment": [
+          "inner4",
+          0.1,
+          0.1,
+          [
+            [
+              1.89899495,
+              -27.09899495
+            ],
+            [
+              2.58786797,
+              -27.78786797
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "RN4_NEAR_SYSBOOT13_pin1",
+        "segment": [
+          "top",
+          0.1,
+          0.1,
+          [
+            [
+              12.55,
+              -16
+            ],
+            [
+              13.55,
+              -15
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "RN3_SYS6_CPU_ARRAY_I5",
+        "segment": [
+          "inner5",
+          0.1,
+          0.1,
+          [
+            [
+              5.2,
+              -6.2
+            ],
+            [
+              7,
+              -8
+            ]
+          ]
+        ]
+      }
+    ],
+    "planarTraceLengthDeltas": [
+      {
+        "name": "CLOUD_LOCAL_57_PWRONRST_N",
+        "beforeMm": 48.360209918343294,
+        "afterMm": 48.505184665173864,
+        "addedMm": 0.1449747468305702
+      },
+      {
+        "name": "DDR_A7",
+        "beforeMm": 40.39236101137911,
+        "afterMm": 40.537335756209046,
+        "addedMm": 0.14497474482993766
+      },
+      {
+        "name": "CLOUD_HDMI_IVDD_1V2_V3_2",
+        "beforeMm": 10.979423509862306,
+        "afterMm": 11.331505037879438,
+        "addedMm": 0.35208152801713233
+      },
+      {
+        "name": "HDMIPWR_HDMI_5V_11",
+        "beforeMm": 3.744995667241112,
+        "afterMm": 4.0556558414285675,
+        "addedMm": 0.3106601741874555
+      },
+      {
+        "name": "CLOUD_V1V8_REBUILD_44",
+        "beforeMm": 9.989099923110718,
+        "afterMm": 10.34118145463755,
+        "addedMm": 0.3520815315268315
+      },
+      {
+        "name": "DDR_BA1",
+        "beforeMm": 41.14147168994436,
+        "afterMm": 41.203603724300315,
+        "addedMm": 0.0621320343559546
+      },
+      {
+        "name": "RN3_SYS6_CPU_ARRAY_I5",
+        "beforeMm": 8.227691193458117,
+        "afterMm": 8.372665938288069,
+        "addedMm": 0.14497474482995187
+      },
+      {
+        "name": "RN4_NEAR_SYSBOOT13_pin1",
+        "beforeMm": 14.076599923110718,
+        "afterMm": 14.180153310601293,
+        "addedMm": 0.10355338749057452
+      },
+      {
+        "name": "INPUT_SYS_5V_127",
+        "beforeMm": 22.902795795510773,
+        "afterMm": 22.985638510189524,
+        "addedMm": 0.08284271467875115
+      }
+    ],
+    "method": "Native nonzero XY centerline multiset including wire/via joins; before-body segments must survive in the same named after-body. Sum after-body plus newly added pad traces; inherited pad traces are excluded from both lengths. No electrical-delay or length-match qualification.",
+    "allOriginalNonzeroCenterlinesUnchanged": false,
+    "changedOriginalTraces": [
+      "INPUT_SYS_5V_127",
+      "CLOUD_LOCAL_57_PWRONRST_N",
+      "CLOUD_HDMI_IVDD_1V2_V3_2",
+      "CLOUD_V1V8_REBUILD_44",
+      "HDMIPWR_HDMI_5V_11",
+      "DDR_BA1",
+      "DDR_A7",
+      "RN4_NEAR_SYSBOOT13_pin1",
+      "RN3_SYS6_CPU_ARRAY_I5"
+    ],
+    "addedTraces": [],
+    "originalCenterlineCount": 8345,
+    "currentCenterlineCount": 8381,
+    "replacedOriginalSegments": 9,
+    "otherOriginalSegmentsPreserved": 8336
+  },
+  "selectedSites": [
+    {
+      "name": "DDR15_SOURCE_TRANSITION",
+      "trace": "CLOUD_LOCAL_57_PWRONRST_N",
+      "x": "22.5",
+      "y": "4.3",
+      "layer": "inner2",
+      "net": "DDR_1V5"
+    },
+    {
+      "name": "CLOUD_GND_PAD_125",
+      "trace": "DDR_A7",
+      "x": "2.400046",
+      "y": "-27.400177",
+      "layer": "inner4",
+      "net": "GND"
+    },
+    {
+      "name": "CLOUD_GND_PAD_346",
+      "trace": "CLOUD_HDMI_IVDD_1V2_V3_2",
+      "x": "44.51",
+      "y": "-21",
+      "layer": "inner5",
+      "net": "GND"
+    },
+    {
+      "name": "CLOUD_GND_PAD_370",
+      "trace": "HDMIPWR_HDMI_5V_11",
+      "x": "55.55",
+      "y": "-29.2",
+      "layer": "inner5",
+      "net": "GND"
+    },
+    {
+      "name": "MPU226_MAIN_V2",
+      "trace": "CLOUD_V1V8_REBUILD_44",
+      "x": "7.5",
+      "y": "0.3",
+      "layer": "inner5",
+      "net": "VDD_MPU"
+    },
+    {
+      "name": "SYS15_TERMINAL_1",
+      "trace": "DDR_BA1",
+      "x": "5",
+      "y": "-10.225",
+      "layer": "inner2",
+      "net": "SYSBOOT15"
+    },
+    {
+      "name": "SYS8_CPU_VIP",
+      "trace": "RN3_SYS6_CPU_ARRAY_I5",
+      "x": "6",
+      "y": "-6.8",
+      "layer": "inner5",
+      "net": "SYSBOOT8"
+    },
+    {
+      "name": "RN5_INPUT_SYS8_ARRAY_VIP",
+      "trace": "RN4_NEAR_SYSBOOT13_pin1",
+      "x": "13.15",
+      "y": "-15.125",
+      "layer": "top",
+      "net": "SYSBOOT8"
+    },
+    {
+      "name": "USBCP_NOR_VCC_V0",
+      "trace": "INPUT_SYS_5V_127",
+      "x": "16.8",
+      "y": "19.45",
+      "layer": "inner5",
+      "net": "USBC_VBUS_RAW"
+    }
+  ],
+  "surfacePourClearance": {
+    "minimums": [
+      {
+        "pour": "pcb_copper_pour_81",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.773319073567776
+      },
+      {
+        "pour": "pcb_copper_pour_82",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.17403297395896017
+      },
+      {
+        "pour": "pcb_copper_pour_83",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.44800800731739193
+      },
+      {
+        "pour": "pcb_copper_pour_84",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.38765220090243524
+      },
+      {
+        "pour": "pcb_copper_pour_85",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.526301206908523
+      },
+      {
+        "pour": "pcb_copper_pour_88",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.768149403743855
+      },
+      {
+        "pour": "pcb_copper_pour_89",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10344900000000017
+      },
+      {
+        "pour": "pcb_copper_pour_90",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10503999999999997
+      },
+      {
+        "pour": "pcb_copper_pour_91",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1562358666663962
+      },
+      {
+        "pour": "pcb_copper_pour_92",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.12266144119485936
+      },
+      {
+        "pour": "pcb_copper_pour_93",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 1.4949599551393125
+      },
+      {
+        "pour": "pcb_copper_pour_94",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_119",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_120",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_121",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_122",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_123",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_124",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_125",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_130",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_131",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.4242819739859453
+      },
+      {
+        "pour": "pcb_copper_pour_206",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10377173030553881
+      },
+      {
+        "pour": "pcb_copper_pour_210",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10500063486321533
+      },
+      {
+        "pour": "pcb_copper_pour_212",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425342941246718
+      },
+      {
+        "pour": "pcb_copper_pour_220",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1035315808877921
+      },
+      {
+        "pour": "pcb_copper_pour_223",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479194
+      },
+      {
+        "pour": "pcb_copper_pour_225",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1035310392047908
+      },
+      {
+        "pour": "pcb_copper_pour_228",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479224
+      },
+      {
+        "pour": "pcb_copper_pour_229",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10500063486321529
+      },
+      {
+        "pour": "pcb_copper_pour_248",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479184
+      },
+      {
+        "pour": "pcb_copper_pour_260",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353093964756972
+      },
+      {
+        "pour": "pcb_copper_pour_268",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479194
+      },
+      {
+        "pour": "pcb_copper_pour_272",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353089009580994
+      },
+      {
+        "pour": "pcb_copper_pour_274",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1037717364026927
+      },
+      {
+        "pour": "pcb_copper_pour_284",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103574645525
+      },
+      {
+        "pour": "pcb_copper_pour_286",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479143
+      },
+      {
+        "pour": "pcb_copper_pour_292",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479152
+      },
+      {
+        "pour": "pcb_copper_pour_293",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1050000069731464
+      },
+      {
+        "pour": "pcb_copper_pour_294",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10208671953503917
+      },
+      {
+        "pour": "pcb_copper_pour_297",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353158088779278
+      },
+      {
+        "pour": "pcb_copper_pour_298",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479174
+      },
+      {
+        "pour": "pcb_copper_pour_300",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479048
+      },
+      {
+        "pour": "pcb_copper_pour_301",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10353103920479062
+      },
+      {
+        "pour": "pcb_copper_pour_305",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10500063486322035
+      },
+      {
+        "pour": "pcb_copper_pour_306",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377177000328716
+      },
+      {
+        "pour": "pcb_copper_pour_311",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10425349248141105
+      },
+      {
+        "pour": "pcb_copper_pour_323",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10425343115969933
+      },
+      {
+        "pour": "pcb_copper_pour_328",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377168051731192
+      },
+      {
+        "pour": "pcb_copper_pour_332",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377168051731137
+      },
+      {
+        "pour": "pcb_copper_pour_334",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.103771680517312
+      },
+      {
+        "pour": "pcb_copper_pour_338",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377168051731046
+      },
+      {
+        "pour": "pcb_copper_pour_341",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377175535945553
+      },
+      {
+        "pour": "pcb_copper_pour_343",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377180839465909
+      },
+      {
+        "pour": "pcb_copper_pour_344",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377180839465937
+      },
+      {
+        "pour": "pcb_copper_pour_345",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10425350585656226
+      },
+      {
+        "pour": "pcb_copper_pour_348",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377155852064593
+      },
+      {
+        "pour": "pcb_copper_pour_349",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377158562237424
+      },
+      {
+        "pour": "pcb_copper_pour_350",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377180839465937
+      },
+      {
+        "pour": "pcb_copper_pour_352",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10425346428248777
+      },
+      {
+        "pour": "pcb_copper_pour_354",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10500006735046781
+      },
+      {
+        "pour": "pcb_copper_pour_357",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1042535058565597
+      },
+      {
+        "pour": "pcb_copper_pour_360",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377190376832696
+      },
+      {
+        "pour": "pcb_copper_pour_361",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377168051731064
+      },
+      {
+        "pour": "pcb_copper_pour_365",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377168051731246
+      },
+      {
+        "pour": "pcb_copper_pour_369",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377180839465959
+      },
+      {
+        "pour": "pcb_copper_pour_370",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377180839465987
+      },
+      {
+        "pour": "pcb_copper_pour_371",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377180839465791
+      },
+      {
+        "pour": "pcb_copper_pour_373",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377159191043733
+      },
+      {
+        "pour": "pcb_copper_pour_374",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1037787071938858
+      },
+      {
+        "pour": "pcb_copper_pour_381",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365121215530171
+      },
+      {
+        "pour": "pcb_copper_pour_386",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931858
+      },
+      {
+        "pour": "pcb_copper_pour_389",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931444
+      },
+      {
+        "pour": "pcb_copper_pour_390",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365137748727697
+      },
+      {
+        "pour": "pcb_copper_pour_393",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365126631350818
+      },
+      {
+        "pour": "pcb_copper_pour_394",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931722
+      },
+      {
+        "pour": "pcb_copper_pour_397",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931758
+      },
+      {
+        "pour": "pcb_copper_pour_404",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931694
+      },
+      {
+        "pour": "pcb_copper_pour_420",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10377180839465687
+      },
+      {
+        "pour": "pcb_copper_pour_426",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1037717700032877
+      },
+      {
+        "pour": "pcb_copper_pour_427",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931348
+      },
+      {
+        "pour": "pcb_copper_pour_431",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931966
+      },
+      {
+        "pour": "pcb_copper_pour_434",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365120934174765
+      },
+      {
+        "pour": "pcb_copper_pour_436",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931684
+      },
+      {
+        "pour": "pcb_copper_pour_437",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10377180839465845
+      },
+      {
+        "pour": "pcb_copper_pour_438",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10365140988931562
+      },
+      {
+        "pour": "pcb_copper_pour_443",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1037718083946605
+      },
+      {
+        "pour": "pcb_copper_pour_453",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377168051731278
+      },
+      {
+        "pour": "pcb_copper_pour_454",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377177000328942
+      },
+      {
+        "pour": "pcb_copper_pour_455",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377191032667737
+      },
+      {
+        "pour": "pcb_copper_pour_457",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10304950191008139
+      },
+      {
+        "pour": "pcb_copper_pour_459",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10413277977471207
+      },
+      {
+        "pour": "pcb_copper_pour_465",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425350585656752
+      },
+      {
+        "pour": "pcb_copper_pour_473",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10377180839467687
+      },
+      {
+        "pour": "pcb_copper_pour_474",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425350585655715
+      },
+      {
+        "pour": "pcb_copper_pour_477",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10499959398793407
+      },
+      {
+        "pour": "pcb_copper_pour_479",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425327427643033
+      },
+      {
+        "pour": "pcb_copper_pour_480",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10304958397819869
+      },
+      {
+        "pour": "pcb_copper_pour_489",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425350585656276
+      },
+      {
+        "pour": "pcb_copper_pour_490",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.105
+      },
+      {
+        "pour": "pcb_copper_pour_493",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1037717700032893
+      },
+      {
+        "pour": "pcb_copper_pour_494",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377177000328479
+      },
+      {
+        "pour": "pcb_copper_pour_495",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377158599655172
+      },
+      {
+        "pour": "pcb_copper_pour_497",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377168051731046
+      },
+      {
+        "pour": "pcb_copper_pour_498",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.103771676976048
+      },
+      {
+        "pour": "pcb_copper_pour_499",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377173640269576
+      },
+      {
+        "pour": "pcb_copper_pour_500",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10999937601057472
+      },
+      {
+        "pour": "pcb_copper_pour_502",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1092293678678142
+      },
+      {
+        "pour": "pcb_copper_pour_503",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861024
+      },
+      {
+        "pour": "pcb_copper_pour_505",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922936786780679
+      },
+      {
+        "pour": "pcb_copper_pour_506",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10999987980620374
+      },
+      {
+        "pour": "pcb_copper_pour_507",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1082660776992344
+      },
+      {
+        "pour": "pcb_copper_pour_508",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861405
+      },
+      {
+        "pour": "pcb_copper_pour_511",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922935761650342
+      },
+      {
+        "pour": "pcb_copper_pour_514",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922936786781766
+      },
+      {
+        "pour": "pcb_copper_pour_519",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922936786781567
+      },
+      {
+        "pour": "pcb_copper_pour_522",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1099994003039068
+      },
+      {
+        "pour": "pcb_copper_pour_523",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_524",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10417328133992068
+      },
+      {
+        "pour": "pcb_copper_pour_525",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918862184
+      },
+      {
+        "pour": "pcb_copper_pour_526",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.11
+      },
+      {
+        "pour": "pcb_copper_pour_527",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861283
+      },
+      {
+        "pour": "pcb_copper_pour_528",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10802575379898399
+      },
+      {
+        "pour": "pcb_copper_pour_529",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861897
+      },
+      {
+        "pour": "pcb_copper_pour_530",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922936786780829
+      },
+      {
+        "pour": "pcb_copper_pour_531",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874813810801852
+      },
+      {
+        "pour": "pcb_copper_pour_533",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874789961659617
+      },
+      {
+        "pour": "pcb_copper_pour_535",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874761112713181
+      },
+      {
+        "pour": "pcb_copper_pour_537",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874789961659617
+      },
+      {
+        "pour": "pcb_copper_pour_538",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10826607769923753
+      },
+      {
+        "pour": "pcb_copper_pour_541",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874791918861229
+      },
+      {
+        "pour": "pcb_copper_pour_542",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": null
+      },
+      {
+        "pour": "pcb_copper_pour_543",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10417328133992068
+      },
+      {
+        "pour": "pcb_copper_pour_544",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10160500058330044
+      },
+      {
+        "pour": "pcb_copper_pour_547",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.105
+      },
+      {
+        "pour": "pcb_copper_pour_548",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425342316089942
+      },
+      {
+        "pour": "pcb_copper_pour_550",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10160500058330754
+      },
+      {
+        "pour": "pcb_copper_pour_551",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425350585656375
+      },
+      {
+        "pour": "pcb_copper_pour_552",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425356241744589
+      },
+      {
+        "pour": "pcb_copper_pour_553",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425350585656137
+      },
+      {
+        "pour": "pcb_copper_pour_554",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10389227253097442
+      },
+      {
+        "pour": "pcb_copper_pour_555",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10500063486321633
+      },
+      {
+        "pour": "pcb_copper_pour_556",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10425350585655933
+      },
+      {
+        "pour": "pcb_copper_pour_557",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10377180839465816
+      },
+      {
+        "pour": "pcb_copper_pour_560",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10500031252212934
+      },
+      {
+        "pour": "pcb_copper_pour_561",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10425350585656168
+      },
+      {
+        "pour": "pcb_copper_pour_562",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10425350585656358
+      },
+      {
+        "pour": "pcb_copper_pour_564",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377180839465396
+      },
+      {
+        "pour": "pcb_copper_pour_565",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377180839465687
+      },
+      {
+        "pour": "pcb_copper_pour_566",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377168438385766
+      },
+      {
+        "pour": "pcb_copper_pour_568",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10377177000329639
+      },
+      {
+        "pour": "pcb_copper_pour_569",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10500063486321491
+      },
+      {
+        "pour": "pcb_copper_pour_570",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1037718083946565
+      },
+      {
+        "pour": "pcb_copper_pour_575",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861375
+      },
+      {
+        "pour": "pcb_copper_pour_578",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10838678205935462
+      },
+      {
+        "pour": "pcb_copper_pour_579",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10999960604864671
+      },
+      {
+        "pour": "pcb_copper_pour_580",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10417328133992124
+      },
+      {
+        "pour": "pcb_copper_pour_582",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10910903907074061
+      },
+      {
+        "pour": "pcb_copper_pour_595",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861575
+      },
+      {
+        "pour": "pcb_copper_pour_607",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922916435173492
+      },
+      {
+        "pour": "pcb_copper_pour_608",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922916435173421
+      },
+      {
+        "pour": "pcb_copper_pour_611",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10918113848895154
+      },
+      {
+        "pour": "pcb_copper_pour_616",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1082660776992344
+      },
+      {
+        "pour": "pcb_copper_pour_617",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861405
+      },
+      {
+        "pour": "pcb_copper_pour_622",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922936786781766
+      },
+      {
+        "pour": "pcb_copper_pour_629",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1099994003039068
+      },
+      {
+        "pour": "pcb_copper_pour_636",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10862761915860693
+      },
+      {
+        "pour": "pcb_copper_pour_641",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10862761915860843
+      },
+      {
+        "pour": "pcb_copper_pour_644",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10862752911223575
+      },
+      {
+        "pour": "pcb_copper_pour_645",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10862750929111795
+      },
+      {
+        "pour": "pcb_copper_pour_648",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10862761915860919
+      },
+      {
+        "pour": "pcb_copper_pour_651",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10862745755884766
+      },
+      {
+        "pour": "pcb_copper_pour_652",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10862753909578524
+      },
+      {
+        "pour": "pcb_copper_pour_659",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.1086274575588484
+      },
+      {
+        "pour": "pcb_copper_pour_678",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861447
+      },
+      {
+        "pour": "pcb_copper_pour_691",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10922933792114099
+      },
+      {
+        "pour": "pcb_copper_pour_701",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10658073809770194
+      },
+      {
+        "pour": "pcb_copper_pour_703",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785866869
+      },
+      {
+        "pour": "pcb_copper_pour_706",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785867014
+      },
+      {
+        "pour": "pcb_copper_pour_707",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874791918861443
+      },
+      {
+        "pour": "pcb_copper_pour_724",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785867014
+      },
+      {
+        "pour": "pcb_copper_pour_738",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785866942
+      },
+      {
+        "pour": "pcb_copper_pour_742",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10874818787448871
+      },
+      {
+        "pour": "pcb_copper_pour_747",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850724098046607
+      },
+      {
+        "pour": "pcb_copper_pour_748",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785867014
+      },
+      {
+        "pour": "pcb_copper_pour_751",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785867052
+      },
+      {
+        "pour": "pcb_copper_pour_752",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10754396213293375
+      },
+      {
+        "pour": "pcb_copper_pour_762",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785866978
+      },
+      {
+        "pour": "pcb_copper_pour_764",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785866942
+      },
+      {
+        "pour": "pcb_copper_pour_771",
+        "layer": "top",
+        "minimumOtherNetCopperGapMm": 0.10850704785866942
+      },
+      {
+        "pour": "pcb_copper_pour_774",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10417328133992124
+      },
+      {
+        "pour": "pcb_copper_pour_775",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874790695148703
+      },
+      {
+        "pour": "pcb_copper_pour_776",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874790695148723
+      },
+      {
+        "pour": "pcb_copper_pour_784",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874818787448512
+      },
+      {
+        "pour": "pcb_copper_pour_785",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874783863254206
+      },
+      {
+        "pour": "pcb_copper_pour_790",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1087481878744894
+      },
+      {
+        "pour": "pcb_copper_pour_791",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874818787448835
+      },
+      {
+        "pour": "pcb_copper_pour_795",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1087477510072763
+      },
+      {
+        "pour": "pcb_copper_pour_803",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874818787448835
+      },
+      {
+        "pour": "pcb_copper_pour_804",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874818787448903
+      },
+      {
+        "pour": "pcb_copper_pour_806",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874818787448867
+      },
+      {
+        "pour": "pcb_copper_pour_818",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874791918861323
+      },
+      {
+        "pour": "pcb_copper_pour_823",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874770357935754
+      },
+      {
+        "pour": "pcb_copper_pour_826",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1087479191886127
+      },
+      {
+        "pour": "pcb_copper_pour_828",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874791918861301
+      },
+      {
+        "pour": "pcb_copper_pour_829",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.109229367867815
+      },
+      {
+        "pour": "pcb_copper_pour_832",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874778750884352
+      },
+      {
+        "pour": "pcb_copper_pour_836",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1092293678678125
+      },
+      {
+        "pour": "pcb_copper_pour_838",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.1099994865655809
+      },
+      {
+        "pour": "pcb_copper_pour_842",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874818787448794
+      },
+      {
+        "pour": "pcb_copper_pour_844",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874791918861083
+      },
+      {
+        "pour": "pcb_copper_pour_849",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874791918861229
+      },
+      {
+        "pour": "pcb_copper_pour_850",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874791918861329
+      },
+      {
+        "pour": "pcb_copper_pour_851",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874804733213414
+      },
+      {
+        "pour": "pcb_copper_pour_855",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10826607769923753
+      },
+      {
+        "pour": "pcb_copper_pour_857",
+        "layer": "bottom",
+        "minimumOtherNetCopperGapMm": 0.10874756976730574
+      }
+    ],
+    "failures": []
+  },
+  "qualitySummary": {
+    "fullPlacementCounts": {
+      "pcb_component_outside_board_error": 5,
+      "pcb_component_missing_courtyard_warning": 15,
+      "pcb_courtyard_overlap_error": 3,
+      "pcb_connector_not_in_accessible_orientation_warning": 1
+    },
+    "traceCount": 747,
+    "sampledSharpTurnTraceCount": 86,
+    "limitations": [
+      "placement preserves the original three-check subset for historical comparison; fullPlacement contains the complete upstream placement suite without suppression.",
+      "Supplemental geometry metrics only; run cloud-trace-lint.ts separately for the official trace-style analyzer.",
+      "Curved routes are sampled; small successive turns do not establish deliberate path quality. Inspect enlarged native layer images.",
+      "Lengths are planar geometry, not electrical timing or impedance checks."
+    ]
+  }
+}
