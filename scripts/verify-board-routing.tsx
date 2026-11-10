@@ -9,16 +9,7 @@ import Flatbush from "flatbush"
 import { Children, cloneElement, createElement } from "react"
 import Board from "../index"
 
-// Reuse the installed checks package's exact geometry converter without modifying
-// the package or guessing pad/pour geometry. Fail closed if its internals change.
-const checkPath = import.meta.resolve("@tscircuit/checks").replace("file://", "")
-const checkSource = readFileSync(checkPath, "utf8")
-const helpers = ["convertCircuitJsonToFlattenJs", "touchesPour", "polygonContainsPoint"]
-for (const helper of helpers) if (!checkSource.includes(`function ${helper}(`)) throw Error(`Checks geometry API changed: ${helper}`)
-const geometryPath = resolve("node_modules/.cache/board-validation/checks-geometry.mjs")
-mkdirSync(dirname(geometryPath), { recursive: true })
-writeFileSync(geometryPath, `${checkSource}\nexport { ${helpers.join(", ")} };\n`)
-const { convertCircuitJsonToFlattenJs: convert, touchesPour: touches } = await import(pathToFileURL(geometryPath).href)
+import { checkSource, convert, touches } from "./board-check-geometry"
 const args=process.argv.slice(2)
 const option=(name:string)=>args.includes(name)?args[args.indexOf(name)+1]:undefined
 const input=option("--json")
