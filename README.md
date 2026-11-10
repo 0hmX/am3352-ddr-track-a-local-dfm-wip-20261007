@@ -73,3 +73,6 @@ leaves **391 non-through vias**, with all original route centerlines preserved a
 
 DDR memory escapes: [DQS0 and BA2 gain through columns at memory in native TSX](docs/through-vias/ddr-memory-endpoints-increment.md)
 leave **389 non-through vias**, preserving original route centerlines and verified connectivity; added lengths remain unqualified.
+
+CPU pad columns: [24 native TSX through columns and short surface links](docs/through-vias/cpu-pad-through-columns-increment.md)
+leave **274 non-through vias**, preserving all existing connections and fixed placements.
