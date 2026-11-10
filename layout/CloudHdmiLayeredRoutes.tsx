@@ -697,88 +697,10 @@ const grounds=[
     }
   },
 
-  {
-    "name": "HDMI_ENDPOINT_RETURN_5",
-    "x": 38.0186608,
-    "y": -24.14229247,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "net": "GND",
-    "covers": [
-      {
-        "net": "HDMI_PCLK_RX",
-        "x": 38.54992,
-        "y": -23.999942,
-        "distance": 0.5499999944489654
-      }
-    ]
-  },
 
-  {
-    "name": "HDMI_ENDPOINT_RETURN_1",
-    "x": 43.60041495,
-    "y": -22.67492,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "net": "GND",
-    "covers": [
-      {
-        "net": "HDMI_D19",
-        "x": 43.249936,
-        "y": -22.29992,
-        "distance": 0.5132840289674954
-      },
-      {
-        "net": "HDMI_D21",
-        "x": 44.249934,
-        "y": -22.29992,
-        "distance": 0.7499999975419368
-      }
-    ]
-  },
-  {
-    "name": "HDMI_ENDPOINT_RETURN_3",
-    "x": 5.5,
-    "y": -12.975,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "net": "GND",
-    "covers": [
-      {
-        "net": "HDMI_D6",
-        "x": 5.5,
-        "y": -13.525,
-        "distance": 0.5500000000000007
-      }
-    ],
-    "previousPosition": {
-      "x": 4.9687408,
-      "y": -13.66735047
-    }
-  },
-  {
-    "name": "HDMI_ENDPOINT_RETURN_2",
-    "x": 38.40756953,
-    "y": -26.4686768,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "net": "GND",
-    "covers": [
-      {
-        "net": "HDMI_D4",
-        "x": 38.54992,
-        "y": -26.999935999999998,
-        "distance": 0.5499999944489611
-      }
-    ]
-  }
+
+
+
+
 ] as const
 export function CloudHdmiLayeredRoutes(){return <><group name="CloudHdmiLayered" pcbRelative pcbStyle={{viaHoleDiameter:.15,viaPadDiameter:.3}}>{routes.map(r=><trace key={r.name} {...r}/>)}</group>{grounds.map(g=><via key={g.name} name={g.name} pcbX={g.x} pcbY={g.y} fromLayer={g.fromLayer} toLayer={g.toLayer} holeDiameter={.15} outerDiameter={.3} connectsTo=".Processor > .U1 > .A1"/>)}</>}

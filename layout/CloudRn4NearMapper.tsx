@@ -14,7 +14,6 @@ function plan(node:any):any {
  if(node.type==='via'){
   if(['SYS13_RN4_VIP','SYS1_RN4_VIP','SYS1_R1_VIP'].includes(p.name))return null
   if(p.connectsTo==='.Boot_and_clock > .R_BOOT1 > .pin2')return null
-  if(p.name==='HDMI_ENDPOINT_RETURN_1')Object.assign(p,{pcbX:43.696153,pcbY:-21.752568})
   if(p.connectsTo==='.Boot_and_clock > .R_BOOT9 > .pin2')Object.assign(p,{pcbX:11.91,pcbY:-4.4,fromLayer:'bottom',toLayer:'inner6'})
  }
  if(p.name==='R_BOOT1')Object.assign(p,{pcbX:11.5,pcbY:-9.98,pcbRotation:90,layer:'top'})

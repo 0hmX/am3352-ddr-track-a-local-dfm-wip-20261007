@@ -196,27 +196,6 @@ const routes=[
     ]
   }
 ] as const
-const grounds=[
-  {
-    "net": "GND",
-    "x": 12.4,
-    "y": -15.65,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "name": "RN5_EAST_RETURN_0"
-  },
-  {
-    "net": "GND",
-    "x": 45.249932,
-    "y": -21.74992,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "name": "RN5_EAST_RETURN_2"
-  }
-] as const
+
 export function applyRn5OutputReplacements(x:any):any{if(Array.isArray(x))return x.map(applyRn5OutputReplacements);if(!isValidElement(x))return x;if(typeof x.type==='function')return applyRn5OutputReplacements(x.type(x.props));const p=routes.find(r=>r.name===x.props.name&&['CLOUD_HDMI_LAYERED_HDMI_D19','CLOUD_HDMI_LAYERED_HDMI_D4'].includes(r.name));return cloneElement(x,p??{},...Children.toArray(x.props.children).map(applyRn5OutputReplacements))}
-export function CloudRn5NewOutputRoutes(){return <><group name="Rn5EastNewOutputs" pcbRelative pcbStyle={{viaHoleDiameter:.15,viaPadDiameter:.3}}>{routes.filter(r=>r.name.startsWith('CLOUD_VIDEO_ENDPOINT_')).map(r=><trace key={r.name} {...r}/>)}</group>{grounds.map(g=><via key={g.name} name={g.name} pcbX={g.x} pcbY={g.y} fromLayer={g.fromLayer} toLayer={g.toLayer} holeDiameter={.15} outerDiameter={.3} connectsTo=".Processor > .U1 > .A1"/>)}</>}
+export function CloudRn5NewOutputRoutes(){return <><group name="Rn5EastNewOutputs" pcbRelative pcbStyle={{viaHoleDiameter:.15,viaPadDiameter:.3}}>{routes.filter(r=>r.name.startsWith('CLOUD_VIDEO_ENDPOINT_')).map(r=><trace key={r.name} {...r}/>)}</group></>}

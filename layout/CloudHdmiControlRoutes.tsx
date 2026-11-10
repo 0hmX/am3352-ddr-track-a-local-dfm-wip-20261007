@@ -101,39 +101,10 @@ export const cloudLocalRoutes = [
     "vias": 0
   }
 ]
-export const localReturnStitches=[
-  {
-    "x": 52.0581337428812,
-    "y": -35.7895241121992,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "signalTransition": {
-      "x": 51.55,
-      "y": -36,
-      "fromGroundLayer": "inner1",
-      "toGroundLayer": "inner6",
-      "trace": "CLOUD_LOCAL_HDMI_CONTROL_6_NEXT_HDMI_CEC_PULLUP"
-    },
-    "distance": 0.55
-  },
-  {
-    "x": 46.04,
-    "y": -15,
-    "fromLayer": "inner6",
-    "toLayer": "inner1",
-    "signalTransition": {
-      "x": 45.49,
-      "y": -15,
-      "fromGroundLayer": "inner6",
-      "toGroundLayer": "inner1",
-      "trace": "CLOUD_LOCAL_HDMI_CONTROL_6_NEXT_HDMI_CEC_PULLUP"
-    },
-    "distance": 0.55
-  }
-]
+
 export function CloudHdmiControlRoutes(){return <group name="CloudHdmiControlRoutes" pcbX={0} pcbY={0} pcbRelative pcbStyle={{viaHoleDiameter:.15,viaPadDiameter:.3}}>{cloudLocalRoutes.map((r:any)=>{
 const sections=r.sections??[{layer:r.layer,points:r.points}],first=sections[0].points[0],last=sections.at(-1).points.at(-1),path:any[]=[r.from];
 if(r.fromLayer!==sections[0].layer)path.push({...first,via:true,fromLayer:r.fromLayer,toLayer:sections[0].layer});
 for(let i=0;i<sections.length;i++){const s=sections[i];if(i)path.push({...s.points[0],via:true,fromLayer:sections[i-1].layer,toLayer:s.layer});path.push(...s.points.map((p:any)=>({x:p.x,y:p.y})));}
 if(r.toLayer!==sections.at(-1).layer)path.push({...last,via:true,fromLayer:sections.at(-1).layer,toLayer:r.toLayer});if(!r.toJunction)path.push(r.to);
-return <trace name={r.name} from={r.from} to={r.to} width={.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[path]}/>})}{localReturnStitches.map((v:any,i:number)=><via name={`CLOUD_HDMI_CONTROL_RETURN_${i}`} pcbX={v.x} pcbY={v.y} fromLayer={v.fromLayer} toLayer={v.toLayer} holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/>)}</group>}
+return <trace name={r.name} from={r.from} to={r.to} width={.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[path]}/>})}</group>}

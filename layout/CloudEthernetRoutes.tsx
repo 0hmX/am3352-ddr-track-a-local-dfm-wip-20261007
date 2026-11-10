@@ -5026,19 +5026,9 @@ export const cloudEthernetGroundStitches = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "x": 41,
-    "y": -2.675,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_ETH_RETURN_8: auxiliary Ground stitch removed; see validation. */,
   null /* CLOUD_ETH_RETURN_9: auxiliary Ground stitch removed; see validation. */,
-  {
-    "x": 41.3,
-    "y": -5.275,
-    "fromLayer": "inner1",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_ETH_RETURN_10: auxiliary Ground stitch removed; see validation. */,
   null /* CLOUD_ETH_RETURN_11: auxiliary Ground stitch removed; see validation. */,
   {
     "x": 7.300000000000001,

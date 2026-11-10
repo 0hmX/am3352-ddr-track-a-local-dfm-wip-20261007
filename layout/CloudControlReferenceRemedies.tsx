@@ -1,11 +1,7 @@
 import {Children,cloneElement,isValidElement} from 'react'
 
 /** Local ties between the continuous Inner3 reference and the Top-side Inner1 reference. */
-export function CloudControlReferenceReturns(){return <>
- <via name="CONTROL_GND_RETURN_SDA_ESD" pcbX={54.673686} pcbY={-26.525} fromLayer="inner1" toLayer="inner3" holeDiameter={0.15} outerDiameter={0.3} connectsTo="net.GND" />
- <via name="CONTROL_GND_RETURN_CEC_U17" pcbX={47.909699} pcbY={-30.040437} fromLayer="inner1" toLayer="inner3" holeDiameter={0.15} outerDiameter={0.3} connectsTo="net.GND" />
- <via name="CONTROL_GND_RETURN_CEC_DIODE" pcbX={49.175} pcbY={-35.523686} fromLayer="inner1" toLayer="inner3" holeDiameter={0.15} outerDiameter={0.3} connectsTo="net.GND" />
- </>}
+
 
 /** Keep the reviewed HDMI 5V trace body; ground barrel spans live at their native source. */
 export function applyControlReferenceRemedies(node:any):any{

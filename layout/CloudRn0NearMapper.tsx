@@ -7,7 +7,6 @@ export function applyRn0Near(x:any):any {
  const p:any={...x.props}
  if(x.type==='trace'&&retired.has(p.name))return null
  if(p.name==='RN_HDMI_0')Object.assign(p,{pcbX:9.5,pcbY:3,pcbRotation:270,layer:'top'})
- if(x.type==='via'&&p.name==='HDMI_D16_SOURCE_RETURN')Object.assign(p,{pcbX:41.45,pcbY:-22.7})
  if(x.type==='trace'&&['CLOUD_LOCAL_54_I2C0_SCL','CLOUD_LOCAL_56_I2C0_SDA'].includes(p.name)){
   const sda=p.name==='CLOUD_LOCAL_56_I2C0_SDA', yy=sda?-22.3:-22, xs=sda?[26.6,37.2]:[28.4,37.775]
   let changed=0
