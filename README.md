@@ -82,3 +82,6 @@ leaves **273 non-through vias**, with all native/exported connections preserved.
 
 CPU manual columns: [nine through vias and native power/USB links](docs/through-vias/cpu-manual-through-columns-increment.md)
 leave **264 non-through vias**, with fixed placements and verified native/exported connectivity.
+
+Peripheral pad columns: [27 native through columns and short surface links](docs/through-vias/peripheral-pad-through-columns-increment.md)
+leave **237 non-through vias**, with fixed placements and all connections preserved.
