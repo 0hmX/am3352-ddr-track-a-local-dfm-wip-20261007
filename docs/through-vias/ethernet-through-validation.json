@@ -1,0 +1,799 @@
+{
+  "nativeInputSha256": "dbfd773e68f35d3c0e429148e14d572d74affc6e2c7bafc412732cdcd79c5f9a",
+  "inventorySummary": {
+    "totalVias": 1210,
+    "throughVias": 556,
+    "nonThroughVias": 654,
+    "shortingConversions": 645,
+    "clearanceOnlyConversions": 9,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 66,
+    "nonPourConflicts": 588,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 20,
+    "checkSameNetViaSpacing": 2,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 5,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": true,
+    "nonzeroTraceSegmentCount": 8095,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": false,
+    "traceCopperShapeCount": 8181,
+    "traceCopperSha256": "a24592795a13c34b526ea94b2897e2a5649f0e6f4af186dde3818180547e1cae",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 49
+  },
+  "convertedViaInventory": [
+    {
+      "name": "ETHPWR_VIP_0",
+      "nets": "ETH_3V3_PRE",
+      "x": "40.6375",
+      "y": "7.2",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_1",
+      "nets": "ETH_3V3_PRE",
+      "x": "41.8625",
+      "y": "-7.55",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_2",
+      "nets": "ETH_3V3",
+      "x": "44.1375",
+      "y": "-7.55",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_3",
+      "nets": "ETH_3V3",
+      "x": "50.9",
+      "y": "-0.07500000000000018",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_4",
+      "nets": "ETH_3V3",
+      "x": "50.49",
+      "y": "1.25",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_5",
+      "nets": "ETH_3V3",
+      "x": "47.99",
+      "y": "3",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_6",
+      "nets": "ETH_3V3",
+      "x": "48.3",
+      "y": "5",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_7",
+      "nets": "ETH_3V3",
+      "x": "44.1375",
+      "y": "3.45",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_8",
+      "nets": "ETH_3V3",
+      "x": "41.49",
+      "y": "8.6",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_9",
+      "nets": "ETH_3V3",
+      "x": "40.325",
+      "y": "12.675",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_10",
+      "nets": "ETH_3V3",
+      "x": "37.4625",
+      "y": "14.9",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_11",
+      "nets": "ETH_3V3",
+      "x": "33.51",
+      "y": "16.1",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_12",
+      "nets": "ETH_3V3",
+      "x": "35.49",
+      "y": "21.25",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "ETHPWR_VIP_13",
+      "nets": "ETH_3V3",
+      "x": "36.1375",
+      "y": "5.95",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "name": "ETHPWR_VIP_15",
+      "nets": "ETH_3V3",
+      "x": "40.26",
+      "y": "10.9",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_21_PHY_TX_EN",
+      "id": "pcb_via_1130",
+      "name": "STD_CLOUD_ETH_21_PHY_TX_EN_BEGIN",
+      "x": "38.1",
+      "y": "12.4625",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_21_PHY_TX_EN",
+      "id": "pcb_via_1131",
+      "name": "STD_CLOUD_ETH_21_PHY_TX_EN_END",
+      "x": "35.51",
+      "y": "10",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_22_PHY_LED0",
+      "id": "pcb_via_1132",
+      "name": "STD_CLOUD_ETH_22_PHY_LED0_BEGIN",
+      "x": "39.5",
+      "y": "12.4625",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_22_PHY_LED0",
+      "id": "pcb_via_1133",
+      "name": "STD_CLOUD_ETH_22_PHY_LED0_END",
+      "x": "41.49",
+      "y": "16.75",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_24_PHY_CRS_DV",
+      "id": "pcb_via_1134",
+      "name": "STD_CLOUD_ETH_24_PHY_CRS_DV_BEGIN",
+      "x": "37.4625",
+      "y": "14.5",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_ETH_24_PHY_CRS_DV",
+      "id": "pcb_via_1135",
+      "name": "STD_CLOUD_ETH_24_PHY_CRS_DV_END",
+      "x": "37.74",
+      "y": "20",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_30_ETH_MDIO_ISO",
+      "id": "pcb_via_1138",
+      "name": "STD_CLOUD_ETH_30_ETH_MDIO_ISO_END",
+      "x": "32.49",
+      "y": "18.3",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_33_ETH_TX_N",
+      "id": "pcb_via_1139",
+      "name": "STD_CLOUD_ETH_33_ETH_TX_N_BEGIN",
+      "x": "41.815",
+      "y": "14.5",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_38_ETH_TX_P",
+      "id": "pcb_via_1140",
+      "name": "STD_CLOUD_ETH_38_ETH_TX_P_BEGIN",
+      "x": "41.815",
+      "y": "15",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_39_PHY_LED0",
+      "id": "pcb_via_1141",
+      "name": "STD_CLOUD_ETH_39_PHY_LED0_BEGIN",
+      "x": "41.49",
+      "y": "16.75",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_ETH_39_PHY_LED0",
+      "id": "pcb_via_1142",
+      "name": "STD_CLOUD_ETH_39_PHY_LED0_END",
+      "x": "44.49",
+      "y": "25.5",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_41_PHY_RX_ER",
+      "id": "pcb_via_1143",
+      "name": "STD_CLOUD_ETH_41_PHY_RX_ER_BEGIN",
+      "x": "37.4625",
+      "y": "13.5",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_ETH_41_PHY_RX_ER",
+      "id": "pcb_via_1144",
+      "name": "STD_CLOUD_ETH_41_PHY_RX_ER_END",
+      "x": "41.49",
+      "y": "22.5",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_44_ETH_RX_P",
+      "id": "pcb_via_1146",
+      "name": "STD_CLOUD_ETH_44_ETH_RX_P_BEGIN",
+      "x": "41.815",
+      "y": "13.5",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_45_RMII1_TXD1",
+      "id": "pcb_via_1148",
+      "name": "STD_CLOUD_ETH_45_RMII1_TXD1_END",
+      "x": "10.49",
+      "y": "13.1",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_46_RMII1_TX_EN_ISO",
+      "id": "pcb_via_1149",
+      "name": "STD_CLOUD_ETH_46_RMII1_TX_EN_ISO_BEGIN",
+      "x": "34.49",
+      "y": "10",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_46_RMII1_TX_EN_ISO",
+      "id": "pcb_via_1150",
+      "name": "STD_CLOUD_ETH_46_RMII1_TX_EN_ISO_END",
+      "x": "41.9",
+      "y": "-1.375",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_47_RMII1_TXD1_ISO",
+      "id": "pcb_via_1152",
+      "name": "STD_CLOUD_ETH_47_RMII1_TXD1_ISO_END",
+      "x": "41.9",
+      "y": "-2.675",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_49_RMII1_TXD0_ISO",
+      "id": "pcb_via_1153",
+      "name": "STD_CLOUD_ETH_49_RMII1_TXD0_ISO_BEGIN",
+      "x": "34.49",
+      "y": "12",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_53_RMII1_RXD0_ISO",
+      "id": "pcb_via_1160",
+      "name": "STD_CLOUD_ETH_53_RMII1_RXD0_ISO_END",
+      "x": "41.9",
+      "y": "-3.3249999999999993",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_40_ETH_TX_CT",
+      "id": "pcb_via_1170",
+      "name": "STD_CLOUD_ETH_40_ETH_TX_CT_BEGIN",
+      "x": "42.76",
+      "y": "21.25",
+      "layer": "inner2",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "trace": "CLOUD_ETH_43_RMII1_TXD0",
+      "id": "pcb_via_1172",
+      "name": "STD_CLOUD_ETH_43_RMII1_TXD0_END",
+      "x": "7.99",
+      "y": "13.1",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_55_ETH_MDC_ISO",
+      "id": "pcb_via_1174",
+      "name": "STD_CLOUD_ETH_55_ETH_MDC_ISO_END",
+      "x": "50.9",
+      "y": "-2.0250000000000004",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_48_RMII1_REFCLK_ISO",
+      "id": "pcb_via_1175",
+      "name": "STD_CLOUD_ETH_48_RMII1_REFCLK_ISO_BEGIN",
+      "x": "42.01",
+      "y": "9.85",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_ETH_48_RMII1_REFCLK_ISO",
+      "id": "pcb_via_1176",
+      "name": "STD_CLOUD_ETH_48_RMII1_REFCLK_ISO_END",
+      "x": "41.9",
+      "y": "-5.925",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_RMII1_TXD1_DAMPED",
+      "id": "pcb_via_1181",
+      "name": "STD_CLOUD_ETH_LAYERED_RMII1_TXD1_DAMPED_BEGIN",
+      "x": "36.1",
+      "y": "-2.025",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_RMII1_TXD1_DAMPED",
+      "id": "pcb_via_1182",
+      "name": "STD_CLOUD_ETH_LAYERED_RMII1_TXD1_DAMPED_END",
+      "x": "11.51",
+      "y": "13.1",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_RMII1_RXD0",
+      "id": "pcb_via_1184",
+      "name": "STD_CLOUD_ETH_LAYERED_RMII1_RXD0_END",
+      "x": "36.1",
+      "y": "-2.675",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_RMII1_RXD1",
+      "id": "pcb_via_1186",
+      "name": "STD_CLOUD_ETH_LAYERED_RMII1_RXD1_END",
+      "x": "36.1",
+      "y": "-3.325",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_RMII1_CRS_DV",
+      "id": "pcb_via_1189",
+      "name": "STD_CLOUD_ETH_LAYERED_RMII1_CRS_DV_END",
+      "x": "36.1",
+      "y": "-3.975",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_ETH_MDIO",
+      "id": "pcb_via_1190",
+      "name": "STD_CLOUD_ETH_LAYERED_ETH_MDIO_BEGIN",
+      "x": "2",
+      "y": "6",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_ETH_MDIO",
+      "id": "pcb_via_1191",
+      "name": "STD_CLOUD_ETH_LAYERED_ETH_MDIO_END",
+      "x": "45.1",
+      "y": "-0.725",
+      "layer": "inner4",
+      "oldFrom": "inner4",
+      "oldTo": "top"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_RMII1_REFCLK",
+      "id": "pcb_via_1192",
+      "name": "STD_CLOUD_ETH_LAYERED_RMII1_REFCLK_BEGIN",
+      "x": "-1.2000000000000002",
+      "y": "6.800000000000001",
+      "layer": "inner4",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "trace": "CLOUD_ETH_LAYERED_RMII1_REFCLK",
+      "id": "pcb_via_1194",
+      "name": "STD_CLOUD_ETH_LAYERED_RMII1_REFCLK_END",
+      "x": "36.1",
+      "y": "-5.275",
+      "layer": "inner2",
+      "oldFrom": "inner2",
+      "oldTo": "top"
+    }
+  ],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1236,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 533,
+    "failures": []
+  },
+  "referenceDelta": {
+    "checkerSha256": "f1b53968bcd41f34460c75bd84619ef10f39d28491ba39619c256ce6e28585cf",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "c228b9e7085815c20384b039b06f5e951948f4ca4c29e52adcc1e12e5364e378",
+    "afterAnalysisSha256": "be18ef1012464babfc385be990bcf36f63b96769a0cee6b5c5c8ae40065cf16b",
+    "beforeNativeSha256": "631e41b623c3dd9a47f73e932a3b2ee6588a31113563570cec52bf615018daab",
+    "afterNativeSha256": "dbfd773e68f35d3c0e429148e14d572d74affc6e2c7bafc412732cdcd79c5f9a",
+    "newReferenceCuts": [
+      {
+        "trace": "INPUT_SYS_5V_138",
+        "net": "SYS_5V",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.015727440179148282,
+        "newUncoveredMm2": 0.01572744017914828,
+        "marginMm": 0.0,
+        "newBounds": [
+          36.203398211662616,
+          5.606490223974562,
+          36.4810199812009,
+          5.88420540615014
+        ]
+      },
+      {
+        "trace": "CLOUD_LOCAL_57_PWRONRST_N",
+        "net": "PWRONRST_N",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.02821980918957998,
+        "newUncoveredMm2": 0.019539402749692833,
+        "marginMm": 0.0,
+        "newBounds": [
+          10.77,
+          12.892129605348403,
+          10.84,
+          13.307870394651596
+        ]
+      },
+      {
+        "trace": "ETHPWR_ETH_3V3_7",
+        "net": "ETH_3V3",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.01866008415832196,
+        "newUncoveredMm2": 0.018660084158321953,
+        "marginMm": 0.0,
+        "newBounds": [
+          48.07115607386427,
+          3.0515208243337075,
+          48.33492578507302,
+          3.3393696596835873
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_33_ETH_TX_N",
+        "net": "ETH_TX_N",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.11457870642483801,
+        "newUncoveredMm2": 0.005023725463320138,
+        "marginMm": 0.0,
+        "newBounds": [
+          42.03173148463078,
+          14.757500422076273,
+          42.150553647684504,
+          14.906264325803162
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_42_ETH_RX_N",
+        "net": "ETH_RX_N",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.11420614062924773,
+        "newUncoveredMm2": 0.010525776573653549,
+        "marginMm": 0.0,
+        "newBounds": [
+          41.90873567419683,
+          13.164446352315492,
+          42.150553647684504,
+          13.406264325803162
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_49_RMII1_TXD0_ISO",
+        "net": "RMII1_TXD0_ISO",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.023408295923059617,
+        "newUncoveredMm2": 0.023408295923059614,
+        "marginMm": 0.0,
+        "newBounds": [
+          35.16,
+          -1.5877443349645037,
+          42.25,
+          10.101766024805892
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_53_RMII1_RXD0_ISO",
+        "net": "RMII1_RXD0_ISO",
+        "signalLayer": "inner2",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.05256645876409489,
+        "newUncoveredMm2": 0.05256645876409486,
+        "marginMm": 0.0,
+        "newBounds": [
+          37.80933074611242,
+          12.262322914525004,
+          38.45,
+          12.8125
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_57_RMII1_TXD0_DAMPED",
+        "net": "RMII1_TXD0_DAMPED",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.02781967809860235,
+        "newUncoveredMm2": 0.02781967809860235,
+        "marginMm": 0.0,
+        "newBounds": [
+          10.142107326374775,
+          12.752107326374775,
+          10.46860335174388,
+          13.07860335174388
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_58_RMII1_TX_EN_DAMPED",
+        "net": "RMII1_TX_EN_DAMPED",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.04705863541479873,
+        "newUncoveredMm2": 0.03529397656109905,
+        "marginMm": 0.0,
+        "newBounds": [
+          7.812361521333169,
+          13.4,
+          11.68763847866683,
+          13.45
+        ]
+      },
+      {
+        "trace": "CLOUD_ETH_LAYERED_ETH_MDIO",
+        "net": "ETH_MDIO",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.011764658853699799,
+        "newUncoveredMm2": 0.011764658853699797,
+        "marginMm": 0.0,
+        "newBounds": [
+          34.312361521333166,
+          11.65,
+          34.66763847866683,
+          11.7
+        ]
+      }
+    ],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-hdmi-feed/gerber/In1_Cu.gbr": "cf8ea30e40575a2dad174483f9e5b4f11533af310e5d662aa4fbd9d08bd04fc3",
+      "work/through-vias/native-hdmi-feed/gerber/In3_Cu.gbr": "a77471a38a83dad1568602c6327a812bfee91d895450aee988bcd396a8e5770e",
+      "work/through-vias/native-hdmi-feed/gerber/In6_Cu.gbr": "126b20787f40e45090c02ded07893bbb18033e37fedde0c3e9119ccb8d65c8ad",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L2-L8.drl": "35da3daaa165c7d4d8c19f9f543ffe7a422c18da773cd994fa509384bc73d41a",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L5-L6.drl": "a960b5909303a0e288a4976898764b0e962bb5909ec6cdcf71b54fe8ef84ee2b",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L1-L5.drl": "fe74f97f20f68c8b48a3870ba87dc10de118b5fa852d8dd5c6618857f4d40dad",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L1-L4.drl": "247dd1a1dbf5213d1a89c70c6569dd8e1e48eb8e4ee32840ea882ecb2e6dcb57",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L1-L6.drl": "c0a19668e415d5fa0d6e589ed221d24f82ff62e940b130e302006efbd48df4f4",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L1-L7.drl": "e3694a51a1c96a16a9201114fe78055341b3a1f2b47931bb585f3b0c24de9790",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L1-L3.drl": "8f4d98d5592433a6e013f20f66315ed80be91c14083f874b6a7ad796e638318f",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L3-L6.drl": "037cc9bb7690bb7aa10d188e4e4cfb5fc7edb65985ac594a06ff2d6a9a822c27",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L1-L2.drl": "697bdb7a099c54e55c18a31a53b260087754924be0296e9b203753d754118d35",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L3-L5.drl": "86fd7d865cc05e1dd1f7fcb709f943df12c7e07367cdcf1e975003dd3eb6e7c3",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L6-L8.drl": "710eb398a98235a249df12535b1b60a679b4ab349b9a3780426b5585af1b469b",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L3-L8.drl": "347d41c8b7a79a74fcac3bfa22dd77a5554047af89052b5532bcc74fefc30355",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L4-L7.drl": "ba3b850d7e81014f4c3c5dacc996944a114601333a3520450fa40e67e55fda2e",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L1-L8.drl": "277081272e24c3b4dfe840901f4f74f73ecc95b530394381c4a8ddace10922d6",
+      "work/through-vias/native-hdmi-feed/gerber/drill_npth.drl": "1a87fa9e9a0b7a555b09ad16d52d97222a14e570f6788f4c3702256707590f60",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L5-L8.drl": "4427cfa0be5195432a9e0bdf99e5f6dc50e2acc5e814f66b8a2de5707c58221d",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L2-L4.drl": "a0a8be9b3c85d41b4c34dde6c6596a8c75f250c8a925c3ef8bb9b81c279e7de7",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L7-L8.drl": "02fb79976b211e098408bc340d789904948f28d859face6833267973e311c212",
+      "work/through-vias/native-hdmi-feed/gerber/drill-L2-L7.drl": "c924cf4ea17bdf01a726c65db99c02341169c0979758145012e69b4ee6442eb1",
+      "work/through-vias/native-ethernet-through/gerber/In1_Cu.gbr": "769535e29911ec86a99a34e92094fc81962187f38dd4ac6568e1fa781c754ae4",
+      "work/through-vias/native-ethernet-through/gerber/In3_Cu.gbr": "33ca4a92f2838b4a4d60dc09403d31fc2c6e7eb7e129e372bbd9df223e3d86c9",
+      "work/through-vias/native-ethernet-through/gerber/In6_Cu.gbr": "18710d1a399c4fb1989209c853acb588e5322bd5346124d4735765d70abec681",
+      "work/through-vias/native-ethernet-through/gerber/drill-L2-L8.drl": "bac54d9b67756aed78ebedfb8dfa83a774df2b12f79e78ed760970003615185b",
+      "work/through-vias/native-ethernet-through/gerber/drill-L5-L6.drl": "fbada949450fd1d9f1224616c1eb281d07bd219847d43d0392b8bb4d3b4a6659",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L5.drl": "14cc644cb2905e739b88ab70e72e6261357f5873fc7ae09141ec3ece8935ffac",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L4.drl": "b98f9d11c9332113f6873ac7a051724bc6afde11d5836fe4e42da0aadb723083",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L6.drl": "12a7945f275d1227007b1836809a9ca16ecf77069bc5fdac021217f237aa7a0e",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L7.drl": "544e11a0f67f71d6c406562f8831e7414113167a310ad8cca8ef86732516d81d",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L3.drl": "3ff12a10532d86eeef5693e64da237918ef7718a6f10eb8dc1b714d0192556af",
+      "work/through-vias/native-ethernet-through/gerber/drill-L3-L6.drl": "25f126dd0ba00a80b33be368aa7a1f04b86df78c61e2e7d03bc0d65b2b7e9957",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L2.drl": "c75d3b2037b70a0820ce5721a51818275511d956b372a6cca5797559db2ab2cf",
+      "work/through-vias/native-ethernet-through/gerber/drill-L3-L5.drl": "33b6f7119191bfd129b8d867e37c3a4553499c11f7187bef0d5d74530b35df0f",
+      "work/through-vias/native-ethernet-through/gerber/drill-L6-L8.drl": "58655b2766df3740233664b98dce614ab3d2076bf3ee72e3e0afa991ae32ed18",
+      "work/through-vias/native-ethernet-through/gerber/drill-L3-L8.drl": "75f5774e6dfcefc13c6ad61b5451fcb644fb20cfcd7bbbab3366d6911836aefc",
+      "work/through-vias/native-ethernet-through/gerber/drill-L4-L7.drl": "6bf85e2f580d5ecd3d8e439cfc4a0d53184677d779e8232fe961222575985050",
+      "work/through-vias/native-ethernet-through/gerber/drill-L1-L8.drl": "ccc2fe0a24db726695904c61a86d8cb6be663b587bb4fe55c45c839421fab61c",
+      "work/through-vias/native-ethernet-through/gerber/drill_npth.drl": "ba823705e7a4573dab57bb5802abcac3bea03f93142c1727dfe3054d34617b34",
+      "work/through-vias/native-ethernet-through/gerber/drill-L5-L8.drl": "6cf03459b24c2bf21fb6072c239c98d2799209b1777d440f1f87c8d4f5204e20",
+      "work/through-vias/native-ethernet-through/gerber/drill-L2-L4.drl": "54e909a397e562ca7d8fc019da25ff0e4459b36ff6f5bad62c106d923dff60b5",
+      "work/through-vias/native-ethernet-through/gerber/drill-L7-L8.drl": "1eb8d4f12bdca8ad34391cdc5b18bb1add1dcc148255072e3c979d9f6aba6ac9",
+      "work/through-vias/native-ethernet-through/gerber/drill-L2-L7.drl": "9aad154780771e601b0d6a7666ea872609b62fa68968260d39734e44b42f4784"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  }
+}
