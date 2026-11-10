@@ -76,3 +76,6 @@ leave **389 non-through vias**, preserving original route centerlines and verifi
 
 CPU pad columns: [24 native TSX through columns and short surface links](docs/through-vias/cpu-pad-through-columns-increment.md)
 leave **274 non-through vias**, preserving all existing connections and fixed placements.
+
+DDR_BA1 relief: [a native TSX through column with a 0.070711 mm nudge](docs/through-vias/ddr-ba1-through-column-increment.md)
+leaves **273 non-through vias**, with all native/exported connections preserved.
