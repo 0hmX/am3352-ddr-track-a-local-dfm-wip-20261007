@@ -6,7 +6,10 @@ import Board from "../index"
 
 // Read-only DC candidates, using actual exported post-drill surface islands.
 // Removing a candidate still requires a fresh native + exported connectivity check.
-const [circuitPath, groundPath, outputPath] = process.argv.slice(2)
+const [circuitPath, groundPath, outputPath,...boundsArgs] = process.argv.slice(2)
+if(boundsArgs.length!==0&&boundsArgs.length!==4)throw Error("Optional bounds: xmin xmax ymin ymax")
+const [xmin,xmax,ymin,ymax]=boundsArgs.length?boundsArgs.map(Number):[-10,10,-12,12]
+if(![xmin,xmax,ymin,ymax].every(Number.isFinite)||xmin>=xmax||ymin>=ymax)throw Error("Invalid bounds")
 if (!outputPath) throw Error("Usage: bun scripts/check-surface-ground-pad-vias.tsx <native-board.json> <postdrill-ground.json> <output.json>")
 const input=readFileSync(circuitPath), records=JSON.parse(input.toString()), ground=JSON.parse(readFileSync(groundPath,"utf8"))
 const sha256=createHash("sha256").update(input).digest("hex")
@@ -24,7 +27,7 @@ function walk(x:any){
 walk(Board())
 const barrels=new Map(ground.barrels.map((b:any)=>[b.id,b])), through=ground.barrels.filter((b:any)=>b.span.includes("top")&&b.span.includes("bottom")), candidates:any[]=[], retained:any[]=[]
 for(const p of nodes){
-  if(!/^CLOUD_GND_PAD_\d+$/.test(p.name)||Math.abs(p.pcbX)>10||p.pcbY < -12||p.pcbY>12)continue
+  if(!/^CLOUD_GND_PAD_\d+$/.test(p.name)||p.pcbX<xmin||p.pcbX>xmax||p.pcbY<ymin||p.pcbY>ymax)continue
   const matches=records.filter((v:any)=>v.type==="pcb_via"&&key(v)===own&&Math.hypot(v.x-p.pcbX,v.y-p.pcbY)<1e-7)
   if(matches.length!==1)throw Error(`Ambiguous native ground pad via ${p.name}`)
   const v=matches[0], b:any=barrels.get(id(v))
@@ -40,6 +43,6 @@ for(const p of nodes){
   if(!targets.length){retained.push({...base,reason:"No through GND barrel on this post-drill surface island"});continue}
   candidates.push({...base,nativeVia:id(v),pad:pad.pcb_smtpad_id,nearestThrough:targets[0]})
 }
-const report={nativeSha256:sha256,surfaceNeckModel:ground.surfaceNeckModel??null,groundReportSha256:createHash("sha256").update(readFileSync(groundPath)).digest("hex"),scope:"CPU rectangle x[-10,10], y[-12,12] mm. Native named pad vias only. Same actual post-drill surface copper island as an exported through GND barrel; via land contained in its SMT pad; no trace/pour selector references. DC candidates only, no SI/PI or fabrication qualification.",candidateCount:candidates.length,retainedCount:retained.length,candidates,retained}
+const report={boundsMm:{xmin,xmax,ymin,ymax},nativeSha256:sha256,surfaceNeckModel:ground.surfaceNeckModel??null,groundReportSha256:createHash("sha256").update(readFileSync(groundPath)).digest("hex"),scope:"Selected rectangle in boundsMm. Native named pad vias only. Same actual post-drill surface copper island as an exported through GND barrel; via land contained in its SMT pad; no trace/pour selector references. DC candidates only, no SI/PI or fabrication qualification.",candidateCount:candidates.length,retainedCount:retained.length,candidates,retained}
 writeFileSync(outputPath,JSON.stringify(report,null,2)+"\n")
 console.log(JSON.stringify({candidateCount:candidates.length,retainedCount:retained.length}))

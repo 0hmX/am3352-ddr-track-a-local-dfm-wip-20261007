@@ -1,5 +1,5 @@
+import {DdrSurfaceGround} from "./layout/DdrSurfaceGround"
 import {CpuSurfaceGround} from "./layout/CpuSurfaceGround"
-import {DdrGroundSurfaceStubs} from "./layout/DdrGroundSurfaceStubs"
 import {CpuPowerSurfaceStubs} from "./layout/CpuPowerSurfaceStubs"
 import { applySdClockThroughRelief } from "./layout/StandardSdClockThroughRelief"
 import { applySdClockThroughVias } from "./layout/StandardSdClockThroughVias"
@@ -230,7 +230,7 @@ export default function Board() {
     <CloudHdmiD0D8Routes />
     <UsbCPortRoutes />
   <CpuSurfaceGround />
+  <DdrSurfaceGround />
 <CpuPowerSurfaceStubs />
-<DdrGroundSurfaceStubs />
 </board>)))))))))))))))))))))))))))))))))))))))))
 }

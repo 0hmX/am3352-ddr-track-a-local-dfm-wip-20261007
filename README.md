@@ -55,3 +55,6 @@ This groundwork retains **526 non-through vias**; actual removal is a separate s
 
 CPU pad-via removal: [68 blind barrels and 28 redundant ground links removed in native TSX](docs/through-vias/cpu-surface-pad-removal-increment.md)
 leaves **458 non-through vias**, with all native/exported nets and post-drill ground terminals connected.
+
+DDR surface ground: [native pours replace thirteen more blind pad vias](docs/through-vias/ddr-surface-pad-removal-increment.md)
+leaves **445 non-through vias**; native and exported connectivity and actual post-drill ground continuity pass.
