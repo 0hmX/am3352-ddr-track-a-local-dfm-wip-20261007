@@ -26,7 +26,8 @@ export function HDMIInterface({ placement = selectedPlacement, components = part
       if (p.kind === "resistor") return <resistor key={p.name} {...props} resistance={p.value} footprint={footprint} />
       if (p.kind === "capacitor") return <capacitor key={p.name} {...props} capacitance={p.value} footprint={footprint} />
       return <chip key={p.name} {...props} footprint={footprint}
-        schWidth={({ U_HDMI: 1.74, U_HDMI_ESD: 1.68, J_HDMI: 1.58 } as Record<string, number>)[p.name]}
+        {...(p.kind === "ferrite" ? { schRotation: 0, schPinArrangement: { topSide: ["pin1"], bottomSide: ["pin2"] }, schHeight: 0.6 } : {})}
+        schWidth={p.kind === "ferrite" ? 0.6 : ({ U_HDMI: 1.74, U_HDMI_ESD: 1.68, J_HDMI: 1.58 } as Record<string, number>)[p.name]}
         pinLabels={Object.fromEntries(Object.entries(p.pinLabels).map(([pin, label]) => [`pin${pin}`, [pin, label]]))}
         noConnect={p.noConnect.map((pin: string) => `pin${pin}`)} />
     })}

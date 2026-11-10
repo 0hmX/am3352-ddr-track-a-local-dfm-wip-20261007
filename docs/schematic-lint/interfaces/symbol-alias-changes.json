@@ -1,0 +1,6968 @@
+[
+  {
+    "component": "C_VDD_CORE_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1209",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1210",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1211",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1212",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1213",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1214",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1215",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1216",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1217",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1218",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_4",
+    "port": "pin1",
+    "sourcePortId": "source_port_1219",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_4",
+    "port": "pin2",
+    "sourcePortId": "source_port_1220",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_5",
+    "port": "pin1",
+    "sourcePortId": "source_port_1221",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_5",
+    "port": "pin2",
+    "sourcePortId": "source_port_1222",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_6",
+    "port": "pin1",
+    "sourcePortId": "source_port_1223",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_6",
+    "port": "pin2",
+    "sourcePortId": "source_port_1224",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_7",
+    "port": "pin1",
+    "sourcePortId": "source_port_1225",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_CORE_7",
+    "port": "pin2",
+    "sourcePortId": "source_port_1226",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1227",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1228",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1229",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1230",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1231",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1232",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1233",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1234",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1235",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1236",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_4",
+    "port": "pin1",
+    "sourcePortId": "source_port_1237",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDD_MPU_4",
+    "port": "pin2",
+    "sourcePortId": "source_port_1238",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1239",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1240",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1241",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1242",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1243",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1244",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1245",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1246",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1247",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1248",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SRAM_CORE_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1249",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SRAM_CORE_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1250",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SRAM_CORE_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1251",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SRAM_CORE_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1252",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SRAM_MPU_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1253",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SRAM_MPU_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1254",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SRAM_MPU_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1255",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SRAM_MPU_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1256",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO1_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1257",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_IO1_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1258",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_IO1_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1259",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO1_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1260",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO1_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1261",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO1_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1262",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO2_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1263",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_IO2_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1264",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_IO2_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1265",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO2_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1266",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO2_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1267",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO2_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1268",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO3_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1269",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_IO3_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1270",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_IO3_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1271",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO3_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1272",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO3_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1273",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO3_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1274",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO4_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1275",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_IO4_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1276",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_IO4_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1277",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO4_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1278",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO4_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1279",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO4_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1280",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO5_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1281",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_IO5_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1282",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_IO5_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1283",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO5_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1284",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO5_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1285",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO5_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1286",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO6_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1287",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_IO6_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1288",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_IO6_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1289",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO6_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1290",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO6_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1291",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO6_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1292",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO6_2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1293",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO6_2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1294",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO6_3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1295",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO6_3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1296",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO6_4",
+    "port": "pin1",
+    "sourcePortId": "source_port_1297",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO6_4",
+    "port": "pin2",
+    "sourcePortId": "source_port_1298",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_IO6_5",
+    "port": "pin1",
+    "sourcePortId": "source_port_1299",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_IO6_5",
+    "port": "pin2",
+    "sourcePortId": "source_port_1300",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_PLL_DDR",
+    "port": "pin1",
+    "sourcePortId": "source_port_1301",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_PLL_DDR",
+    "port": "pin2",
+    "sourcePortId": "source_port_1302",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_PLL_CORE_LCD",
+    "port": "pin1",
+    "sourcePortId": "source_port_1303",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_PLL_CORE_LCD",
+    "port": "pin2",
+    "sourcePortId": "source_port_1304",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_PLL_MPU",
+    "port": "pin1",
+    "sourcePortId": "source_port_1305",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_PLL_MPU",
+    "port": "pin2",
+    "sourcePortId": "source_port_1306",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_OSC",
+    "port": "pin1",
+    "sourcePortId": "source_port_1307",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_OSC",
+    "port": "pin2",
+    "sourcePortId": "source_port_1308",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDS_RTC",
+    "port": "pin1",
+    "sourcePortId": "source_port_1309",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDS_RTC",
+    "port": "pin2",
+    "sourcePortId": "source_port_1310",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDA1P8V_USB0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1311",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDA1P8V_USB0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1312",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDA1P8V_USB1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1313",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDA1P8V_USB1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1314",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDA3P3V_USB0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1315",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDA3P3V_USB0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1316",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VDDA3P3V_USB1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1317",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VDDA3P3V_USB1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1318",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_CAP_VDD_SRAM_CORE",
+    "port": "pin1",
+    "sourcePortId": "source_port_1319",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_CAP_VDD_SRAM_CORE",
+    "port": "pin2",
+    "sourcePortId": "source_port_1320",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_CAP_VDD_SRAM_MPU",
+    "port": "pin1",
+    "sourcePortId": "source_port_1321",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_CAP_VDD_SRAM_MPU",
+    "port": "pin2",
+    "sourcePortId": "source_port_1322",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_CAP_VBB_MPU",
+    "port": "pin1",
+    "sourcePortId": "source_port_1323",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_CAP_VBB_MPU",
+    "port": "pin2",
+    "sourcePortId": "source_port_1324",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_VREF_TOP",
+    "port": "pin1",
+    "sourcePortId": "source_port_1429",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VREF_TOP",
+    "port": "pin2",
+    "sourcePortId": "source_port_1430",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VREF_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1431",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VREF_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1432",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VREF_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1433",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VREF_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1434",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VREF_2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1435",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VREF_2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1436",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_VREF_3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1437",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_VREF_3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1438",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1441",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1442",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1443",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1444",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1445",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1446",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1447",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1448",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_4",
+    "port": "pin1",
+    "sourcePortId": "source_port_1449",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_4",
+    "port": "pin2",
+    "sourcePortId": "source_port_1450",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_5",
+    "port": "pin1",
+    "sourcePortId": "source_port_1451",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_5",
+    "port": "pin2",
+    "sourcePortId": "source_port_1452",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_6",
+    "port": "pin1",
+    "sourcePortId": "source_port_1453",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_6",
+    "port": "pin2",
+    "sourcePortId": "source_port_1454",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_7",
+    "port": "pin1",
+    "sourcePortId": "source_port_1455",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_7",
+    "port": "pin2",
+    "sourcePortId": "source_port_1456",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_8",
+    "port": "pin1",
+    "sourcePortId": "source_port_1457",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_8",
+    "port": "pin2",
+    "sourcePortId": "source_port_1458",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_9",
+    "port": "pin1",
+    "sourcePortId": "source_port_1459",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_9",
+    "port": "pin2",
+    "sourcePortId": "source_port_1460",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_10",
+    "port": "pin1",
+    "sourcePortId": "source_port_1461",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_10",
+    "port": "pin2",
+    "sourcePortId": "source_port_1462",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_11",
+    "port": "pin1",
+    "sourcePortId": "source_port_1463",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_11",
+    "port": "pin2",
+    "sourcePortId": "source_port_1464",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1465",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1466",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1467",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1468",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1469",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1470",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1471",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1472",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1473",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1474",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_4",
+    "port": "pin1",
+    "sourcePortId": "source_port_1475",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_4",
+    "port": "pin2",
+    "sourcePortId": "source_port_1476",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_5",
+    "port": "pin1",
+    "sourcePortId": "source_port_1477",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_5",
+    "port": "pin2",
+    "sourcePortId": "source_port_1478",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_6",
+    "port": "pin1",
+    "sourcePortId": "source_port_1479",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_6",
+    "port": "pin2",
+    "sourcePortId": "source_port_1480",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_7",
+    "port": "pin1",
+    "sourcePortId": "source_port_1481",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_7",
+    "port": "pin2",
+    "sourcePortId": "source_port_1482",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_8",
+    "port": "pin1",
+    "sourcePortId": "source_port_1483",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_8",
+    "port": "pin2",
+    "sourcePortId": "source_port_1484",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_9",
+    "port": "pin1",
+    "sourcePortId": "source_port_1485",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_9",
+    "port": "pin2",
+    "sourcePortId": "source_port_1486",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_10",
+    "port": "pin1",
+    "sourcePortId": "source_port_1487",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_10",
+    "port": "pin2",
+    "sourcePortId": "source_port_1488",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_11",
+    "port": "pin1",
+    "sourcePortId": "source_port_1489",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_11",
+    "port": "pin2",
+    "sourcePortId": "source_port_1490",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_12",
+    "port": "pin1",
+    "sourcePortId": "source_port_1491",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_12",
+    "port": "pin2",
+    "sourcePortId": "source_port_1492",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_13",
+    "port": "pin1",
+    "sourcePortId": "source_port_1493",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_13",
+    "port": "pin2",
+    "sourcePortId": "source_port_1494",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_14",
+    "port": "pin1",
+    "sourcePortId": "source_port_1495",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_14",
+    "port": "pin2",
+    "sourcePortId": "source_port_1496",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_15",
+    "port": "pin1",
+    "sourcePortId": "source_port_1497",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_15",
+    "port": "pin2",
+    "sourcePortId": "source_port_1498",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_16",
+    "port": "pin1",
+    "sourcePortId": "source_port_1499",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_16",
+    "port": "pin2",
+    "sourcePortId": "source_port_1500",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_17",
+    "port": "pin1",
+    "sourcePortId": "source_port_1501",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_17",
+    "port": "pin2",
+    "sourcePortId": "source_port_1502",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_18",
+    "port": "pin1",
+    "sourcePortId": "source_port_1503",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_18",
+    "port": "pin2",
+    "sourcePortId": "source_port_1504",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_19",
+    "port": "pin1",
+    "sourcePortId": "source_port_1505",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_19",
+    "port": "pin2",
+    "sourcePortId": "source_port_1506",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_B0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1507",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_B0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1508",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_B1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1509",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_DDR_B1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1510",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAM_B1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1511",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAM_B1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1512",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PWR1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1570",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1571",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1572",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1573",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1574",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1575",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR4",
+    "port": "pin1",
+    "sourcePortId": "source_port_1576",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR4",
+    "port": "pin2",
+    "sourcePortId": "source_port_1577",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR5",
+    "port": "pin1",
+    "sourcePortId": "source_port_1578",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR5",
+    "port": "pin2",
+    "sourcePortId": "source_port_1579",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR6",
+    "port": "pin1",
+    "sourcePortId": "source_port_1580",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_PWR6",
+    "port": "pin2",
+    "sourcePortId": "source_port_1581",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PWR7_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1582",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR7_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1583",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR7",
+    "port": "pin1",
+    "sourcePortId": "source_port_1584",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR7",
+    "port": "pin2",
+    "sourcePortId": "source_port_1585",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR8_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1586",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR8_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1587",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR8",
+    "port": "pin1",
+    "sourcePortId": "source_port_1588",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR8",
+    "port": "pin2",
+    "sourcePortId": "source_port_1589",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR9_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1590",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR9_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1591",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR9",
+    "port": "pin1",
+    "sourcePortId": "source_port_1592",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR9",
+    "port": "pin2",
+    "sourcePortId": "source_port_1593",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR10",
+    "port": "pin1",
+    "sourcePortId": "source_port_1594",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR10",
+    "port": "pin2",
+    "sourcePortId": "source_port_1595",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR11",
+    "port": "pin1",
+    "sourcePortId": "source_port_1596",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_PWR11",
+    "port": "pin2",
+    "sourcePortId": "source_port_1597",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PWR12_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1598",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR12_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1599",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR12",
+    "port": "pin1",
+    "sourcePortId": "source_port_1600",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR12",
+    "port": "pin2",
+    "sourcePortId": "source_port_1601",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR13",
+    "port": "pin1",
+    "sourcePortId": "source_port_1602",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_PWR13",
+    "port": "pin2",
+    "sourcePortId": "source_port_1603",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RTC_LDO",
+    "port": "pin1",
+    "sourcePortId": "source_port_1626",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_RTC_LDO",
+    "port": "pin2",
+    "sourcePortId": "source_port_1627",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_RTC_RESET_BYP",
+    "port": "pin1",
+    "sourcePortId": "source_port_1646",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RTC_RESET_BYP",
+    "port": "pin2",
+    "sourcePortId": "source_port_1647",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RTC_GATE_BYP",
+    "port": "pin1",
+    "sourcePortId": "source_port_1648",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RTC_GATE_BYP",
+    "port": "pin2",
+    "sourcePortId": "source_port_1649",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PWR10_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_1650",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR10_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_1651",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_PWR10_C",
+    "port": "pin1",
+    "sourcePortId": "source_port_1652",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PWR10_C",
+    "port": "pin2",
+    "sourcePortId": "source_port_1653",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_SOC_CLOCK",
+    "port": "pin1",
+    "sourcePortId": "source_port_1690",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SOC_CLOCK",
+    "port": "pin2",
+    "sourcePortId": "source_port_1691",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_CLOCK_GATE",
+    "port": "pin1",
+    "sourcePortId": "source_port_1703",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_CLOCK_GATE",
+    "port": "pin2",
+    "sourcePortId": "source_port_1704",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RESET_DELAY",
+    "port": "pin1",
+    "sourcePortId": "source_port_1705",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RESET_DELAY",
+    "port": "pin2",
+    "sourcePortId": "source_port_1706",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SD_HF",
+    "port": "pin1",
+    "sourcePortId": "source_port_1737",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SD_HF",
+    "port": "pin2",
+    "sourcePortId": "source_port_1738",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_SD_BULK",
+    "port": "pin1",
+    "sourcePortId": "source_port_1739",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_SD_BULK",
+    "port": "pin2",
+    "sourcePortId": "source_port_1740",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_INPUT_DVDT",
+    "port": "pin1",
+    "sourcePortId": "source_port_1784",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_INPUT_DVDT",
+    "port": "pin2",
+    "sourcePortId": "source_port_1785",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAW_TYPEC",
+    "port": "pin1",
+    "sourcePortId": "source_port_1786",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAW_TYPEC",
+    "port": "pin2",
+    "sourcePortId": "source_port_1787",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAW_NOR",
+    "port": "pin1",
+    "sourcePortId": "source_port_1788",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAW_NOR",
+    "port": "pin2",
+    "sourcePortId": "source_port_1789",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RAW_EFUSE",
+    "port": "pin1",
+    "sourcePortId": "source_port_1790",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RAW_EFUSE",
+    "port": "pin2",
+    "sourcePortId": "source_port_1791",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_EFUSE_OUT",
+    "port": "pin1",
+    "sourcePortId": "source_port_1792",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_EFUSE_OUT",
+    "port": "pin2",
+    "sourcePortId": "source_port_1793",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PD_VBUS",
+    "port": "pin1",
+    "sourcePortId": "source_port_1821",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_PD_VBUS",
+    "port": "pin2",
+    "sourcePortId": "source_port_1822",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PD_VDDD",
+    "port": "pin1",
+    "sourcePortId": "source_port_1823",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_PD_VDDD",
+    "port": "pin2",
+    "sourcePortId": "source_port_1824",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PD_VDDD_HF1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1825",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_PD_VDDD_HF1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1826",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PD_VDDD_HF2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1827",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_PD_VDDD_HF2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1828",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PD_VCCD",
+    "port": "pin1",
+    "sourcePortId": "source_port_1829",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_PD_VCCD",
+    "port": "pin2",
+    "sourcePortId": "source_port_1830",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_LDO_IN",
+    "port": "pin1",
+    "sourcePortId": "source_port_1858",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_LDO_IN",
+    "port": "pin2",
+    "sourcePortId": "source_port_1859",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_LDO_OUT",
+    "port": "pin1",
+    "sourcePortId": "source_port_1860",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_LDO_OUT",
+    "port": "pin2",
+    "sourcePortId": "source_port_1861",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_OSC",
+    "port": "pin1",
+    "sourcePortId": "source_port_1929",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_OSC",
+    "port": "pin2",
+    "sourcePortId": "source_port_1930",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_RESET",
+    "port": "pin1",
+    "sourcePortId": "source_port_1939",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_RESET",
+    "port": "pin2",
+    "sourcePortId": "source_port_1940",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_A0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1941",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_A0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1942",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_A1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1943",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_A1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1944",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_A2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1945",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_A2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1946",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_A3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1947",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_ETH_A3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1948",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_ETH_IO0",
+    "port": "pin1",
+    "sourcePortId": "source_port_1949",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_IO0",
+    "port": "pin2",
+    "sourcePortId": "source_port_1950",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_IO1",
+    "port": "pin1",
+    "sourcePortId": "source_port_1951",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_IO1",
+    "port": "pin2",
+    "sourcePortId": "source_port_1952",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_IO2",
+    "port": "pin1",
+    "sourcePortId": "source_port_1953",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_IO2",
+    "port": "pin2",
+    "sourcePortId": "source_port_1954",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_IO3",
+    "port": "pin1",
+    "sourcePortId": "source_port_1955",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_ETH_IO3",
+    "port": "pin2",
+    "sourcePortId": "source_port_1956",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_ETH_CT_TX_100N",
+    "port": "pin1",
+    "sourcePortId": "source_port_1975",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_CT_TX_100N",
+    "port": "pin2",
+    "sourcePortId": "source_port_1976",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_CT_TX_1U",
+    "port": "pin1",
+    "sourcePortId": "source_port_1977",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_CT_TX_1U",
+    "port": "pin2",
+    "sourcePortId": "source_port_1978",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_CT_RX_100N",
+    "port": "pin1",
+    "sourcePortId": "source_port_1979",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_CT_RX_100N",
+    "port": "pin2",
+    "sourcePortId": "source_port_1980",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_CT_RX_1U",
+    "port": "pin1",
+    "sourcePortId": "source_port_1981",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_CT_RX_1U",
+    "port": "pin2",
+    "sourcePortId": "source_port_1982",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_CHASSIS",
+    "port": "pin1",
+    "sourcePortId": "source_port_1993",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_ETH_CHASSIS",
+    "port": "pin2",
+    "sourcePortId": "source_port_1994",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_ETH_RAMP_CT",
+    "port": "pin1",
+    "sourcePortId": "source_port_2003",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_RAMP_CT",
+    "port": "pin2",
+    "sourcePortId": "source_port_2004",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_ISO0",
+    "port": "pin1",
+    "sourcePortId": "source_port_2025",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_ISO0",
+    "port": "pin2",
+    "sourcePortId": "source_port_2026",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_ISO1",
+    "port": "pin1",
+    "sourcePortId": "source_port_2047",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_ISO1",
+    "port": "pin2",
+    "sourcePortId": "source_port_2048",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_ETH_ISO_OE",
+    "port": "pin1",
+    "sourcePortId": "source_port_2056",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_ETH_ISO_OE",
+    "port": "pin2",
+    "sourcePortId": "source_port_2057",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RMII_RETURN_A",
+    "port": "pin1",
+    "sourcePortId": "source_port_2066",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RMII_RETURN_A",
+    "port": "pin2",
+    "sourcePortId": "source_port_2067",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RMII_RETURN_B",
+    "port": "pin1",
+    "sourcePortId": "source_port_2068",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RMII_RETURN_B",
+    "port": "pin2",
+    "sourcePortId": "source_port_2069",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RMII_RETURN_C",
+    "port": "pin1",
+    "sourcePortId": "source_port_2070",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RMII_RETURN_C",
+    "port": "pin2",
+    "sourcePortId": "source_port_2071",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_RMII_RETURN_D",
+    "port": "pin1",
+    "sourcePortId": "source_port_2072",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_RMII_RETURN_D",
+    "port": "pin2",
+    "sourcePortId": "source_port_2073",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_PG_LED",
+    "port": "pin1",
+    "sourcePortId": "source_port_2090",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_PG_LED",
+    "port": "pin2",
+    "sourcePortId": "source_port_2091",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C144",
+    "port": "pin1",
+    "sourcePortId": "source_port_2161",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C144",
+    "port": "pin2",
+    "sourcePortId": "source_port_2162",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C145",
+    "port": "pin1",
+    "sourcePortId": "source_port_2163",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C145",
+    "port": "pin2",
+    "sourcePortId": "source_port_2164",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C146",
+    "port": "pin1",
+    "sourcePortId": "source_port_2165",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C146",
+    "port": "pin2",
+    "sourcePortId": "source_port_2166",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C147",
+    "port": "pin1",
+    "sourcePortId": "source_port_2167",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C147",
+    "port": "pin2",
+    "sourcePortId": "source_port_2168",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C148",
+    "port": "pin1",
+    "sourcePortId": "source_port_2169",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C148",
+    "port": "pin2",
+    "sourcePortId": "source_port_2170",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C149",
+    "port": "pin1",
+    "sourcePortId": "source_port_2171",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C149",
+    "port": "pin2",
+    "sourcePortId": "source_port_2172",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C150",
+    "port": "pin1",
+    "sourcePortId": "source_port_2173",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C150",
+    "port": "pin2",
+    "sourcePortId": "source_port_2174",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C151",
+    "port": "pin1",
+    "sourcePortId": "source_port_2175",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C151",
+    "port": "pin2",
+    "sourcePortId": "source_port_2176",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C176",
+    "port": "pin1",
+    "sourcePortId": "source_port_2177",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C176",
+    "port": "pin2",
+    "sourcePortId": "source_port_2178",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C177",
+    "port": "pin1",
+    "sourcePortId": "source_port_2179",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C177",
+    "port": "pin2",
+    "sourcePortId": "source_port_2180",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C178",
+    "port": "pin1",
+    "sourcePortId": "source_port_2181",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C178",
+    "port": "pin2",
+    "sourcePortId": "source_port_2182",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C179",
+    "port": "pin1",
+    "sourcePortId": "source_port_2183",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C179",
+    "port": "pin2",
+    "sourcePortId": "source_port_2184",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C180",
+    "port": "pin1",
+    "sourcePortId": "source_port_2185",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C180",
+    "port": "pin2",
+    "sourcePortId": "source_port_2186",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C181",
+    "port": "pin1",
+    "sourcePortId": "source_port_2187",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C181",
+    "port": "pin2",
+    "sourcePortId": "source_port_2188",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C182",
+    "port": "pin1",
+    "sourcePortId": "source_port_2189",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C182",
+    "port": "pin2",
+    "sourcePortId": "source_port_2190",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C183",
+    "port": "pin1",
+    "sourcePortId": "source_port_2191",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C183",
+    "port": "pin2",
+    "sourcePortId": "source_port_2192",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C184",
+    "port": "pin1",
+    "sourcePortId": "source_port_2193",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C184",
+    "port": "pin2",
+    "sourcePortId": "source_port_2194",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C185",
+    "port": "pin1",
+    "sourcePortId": "source_port_2195",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C185",
+    "port": "pin2",
+    "sourcePortId": "source_port_2196",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C186",
+    "port": "pin1",
+    "sourcePortId": "source_port_2197",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C186",
+    "port": "pin2",
+    "sourcePortId": "source_port_2198",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C187",
+    "port": "pin1",
+    "sourcePortId": "source_port_2199",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C187",
+    "port": "pin2",
+    "sourcePortId": "source_port_2200",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C188",
+    "port": "pin1",
+    "sourcePortId": "source_port_2201",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C188",
+    "port": "pin2",
+    "sourcePortId": "source_port_2202",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C193",
+    "port": "pin1",
+    "sourcePortId": "source_port_2203",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_REF_C193",
+    "port": "pin2",
+    "sourcePortId": "source_port_2204",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_1V2_IN",
+    "port": "pin1",
+    "sourcePortId": "source_port_2251",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_1V2_IN",
+    "port": "pin2",
+    "sourcePortId": "source_port_2252",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_1V2_EN",
+    "port": "pin1",
+    "sourcePortId": "source_port_2253",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_1V2_EN",
+    "port": "pin2",
+    "sourcePortId": "source_port_2254",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_RESET_DECOUPLE",
+    "port": "pin1",
+    "sourcePortId": "source_port_2255",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_RESET_DECOUPLE",
+    "port": "pin2",
+    "sourcePortId": "source_port_2256",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_ESD_SUPPLY",
+    "port": "pin1",
+    "sourcePortId": "source_port_2273",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_ESD_SUPPLY",
+    "port": "pin2",
+    "sourcePortId": "source_port_2274",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_ESD_OUT",
+    "port": "pin1",
+    "sourcePortId": "source_port_2275",
+    "before": [
+      "pin1",
+      "pos",
+      "anode",
+      "1",
+      "left"
+    ],
+    "after": [
+      "pin1",
+      "anode",
+      "pos",
+      "1",
+      "left"
+    ]
+  },
+  {
+    "component": "C_HDMI_ESD_OUT",
+    "port": "pin2",
+    "sourcePortId": "source_port_2276",
+    "before": [
+      "pin2",
+      "neg",
+      "cathode",
+      "2",
+      "right"
+    ],
+    "after": [
+      "pin2",
+      "cathode",
+      "neg",
+      "2",
+      "right"
+    ]
+  },
+  {
+    "component": "C_HDMI_5V_IN",
+    "port": "pin1",
+    "sourcePortId": "source_port_2372",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_HDMI_5V_IN",
+    "port": "pin2",
+    "sourcePortId": "source_port_2373",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_HDMI_5V_OUT1",
+    "port": "pin1",
+    "sourcePortId": "source_port_2374",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_HDMI_5V_OUT1",
+    "port": "pin2",
+    "sourcePortId": "source_port_2375",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  },
+  {
+    "component": "C_HDMI_5V_OUT2",
+    "port": "pin1",
+    "sourcePortId": "source_port_2376",
+    "before": [
+      "pin1",
+      "pos",
+      "1"
+    ],
+    "after": [
+      "pin1",
+      "1"
+    ]
+  },
+  {
+    "component": "C_HDMI_5V_OUT2",
+    "port": "pin2",
+    "sourcePortId": "source_port_2377",
+    "before": [
+      "pin2",
+      "neg",
+      "2"
+    ],
+    "after": [
+      "pin2",
+      "2"
+    ]
+  }
+]

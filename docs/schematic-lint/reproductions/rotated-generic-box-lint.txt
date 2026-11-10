@@ -1,0 +1,6 @@
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="U1" positionAnchor="center" schX="0" schY="0" width="1.2" height="0.4" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="U1" railPin="1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate U1 by -90° so its power-connected pin faces up and the component is vertical" />
+</SchematicPlacementIssues>

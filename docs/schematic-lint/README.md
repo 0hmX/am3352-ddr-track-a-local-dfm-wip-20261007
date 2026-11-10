@@ -92,3 +92,5 @@ remains an exact comparison without this normalization. See the
 [CPU/DDR passive fixes: 110 → 0](cpu-ddr.md)
 
 [Power/boot/debug passive fixes: 96 → 0](power-boot.md)
+
+[Interface passive fixes and final verification: 114 → 0](interfaces.md)

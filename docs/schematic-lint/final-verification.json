@@ -1,0 +1,59 @@
+{
+  "baselineCommit": "6647689bdae3266971dbd1816e4632d00f0c69c7",
+  "command": "tsci check schematic-placement index.tsx",
+  "lintBefore": 372,
+  "lintAfter": 0,
+  "remainingIssues": [],
+  "buildCommand": "tsci build index.tsx",
+  "buildPassed": true,
+  "pcbExact": true,
+  "pcbSha256Before": "c2e6b3280bef117607039be1d4e47e0956aa100c9b8a74c243eb06729764af1d",
+  "pcbSha256After": "c2e6b3280bef117607039be1d4e47e0956aa100c9b8a74c243eb06729764af1d",
+  "pcbRecordTypes": {
+    "pcb_board": 1,
+    "pcb_component": 1152,
+    "pcb_copper_pour": 362,
+    "pcb_courtyard_outline": 1,
+    "pcb_courtyard_rect": 339,
+    "pcb_fabrication_note_path": 4,
+    "pcb_fabrication_note_text": 4,
+    "pcb_group": 79,
+    "pcb_hole": 6,
+    "pcb_plated_hole": 26,
+    "pcb_port": 4720,
+    "pcb_silkscreen_circle": 2,
+    "pcb_silkscreen_path": 355,
+    "pcb_silkscreen_rect": 2,
+    "pcb_silkscreen_text": 272,
+    "pcb_smtpad": 1505,
+    "pcb_solder_paste": 1537,
+    "pcb_trace": 747,
+    "pcb_via": 940
+  },
+  "sourceConnectivityIdentical": true,
+  "sourceConnectivitySha256Before": "a351f8c57b6fc393e1e3baf4c2f3fc1f964ad501261907e5742acfb1b022ad87",
+  "sourceConnectivitySha256After": "a351f8c57b6fc393e1e3baf4c2f3fc1f964ad501261907e5742acfb1b022ad87",
+  "sourceRecordCounts": {
+    "source_board": 1,
+    "source_component": 355,
+    "source_component_internal_connection": 8,
+    "source_group": 80,
+    "source_manually_placed_via": 797,
+    "source_net": 686,
+    "source_port": 4720,
+    "source_trace": 3241
+  },
+  "sourcePortPolarityAliasSerializationChanges": 384,
+  "normalizations": [
+    "source_port.port_hints: remove only pos/neg/anode/cathode synonyms and sort remaining aliases; numbered pin identities and every other source-port field compared"
+  ],
+  "nonElectricalRecordsExcluded": [
+    "source_component_availability_warning",
+    "source_part_not_found_warning",
+    "source_project_metadata"
+  ],
+  "sheetBodyBoundsAudit": {
+    "sheets": 24,
+    "outsideComponentBodies": []
+  }
+}
