@@ -106,13 +106,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .C_VDD_CORE_0 > .pin2",
-    "x": -4.76,
-    "y": 6,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_55: checked board surface Ground path. */,
   null /* CLOUD_GND_PAD_56: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_57: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_58: CPU surface GND reaches an existing through barrel. */,
@@ -678,13 +672,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_management > .SW_PWR1 > .pin2_internal_1",
-    "x": 27.6,
-    "y": -25.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_207: checked board surface Ground path. */,
   null /* CLOUD_GND_PAD_208: checked PMIC surface Ground path. */,
   null /* CLOUD_GND_PAD_209: native surface link to MPU_GND_RETURN_0. */,
   {
@@ -773,13 +761,7 @@ const groundPads = [
   null /* CLOUD_GND_PAD_227: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_228: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_229: checked PMIC surface Ground path. */,
-  {
-    "selector": ".Boot_and_clock > .R_BOOT9 > .pin2",
-    "x": 11.91,
-    "y": -3.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_230: checked board surface Ground path. */,
   null /* CLOUD_GND_PAD_231: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_232: extended CPU surface GND reaches a through barrel. */,
   null /* CLOUD_GND_PAD_233: native surface link to SYS8_12_ARRAY_RETURN. */,
@@ -812,21 +794,9 @@ const groundPads = [
     "toLayer": "inner1"
   },
   null /* CLOUD_GND_PAD_238: DDR surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".Boot_and_clock > .U_RESET_DELAY > .2",
-    "x": -1.1375,
-    "y": 18,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_239: checked board surface Ground path. */,
   null /* CLOUD_GND_PAD_240: DDR surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".Boot_and_clock > .C_RESET_DELAY > .pin2",
-    "x": -2.99,
-    "y": 18,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_241: checked board surface Ground path. */,
   null /* CLOUD_GND_PAD_242: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".microSD > .J_MICROSD > .6",
@@ -975,13 +945,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_input > .C_RAW_EFUSE > .pin2",
-    "x": 11.51,
-    "y": 21.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_264: checked board surface Ground path. */,
   {
     "selector": ".Power_input > .C_EFUSE_OUT > .pin2",
     "x": 27.325,
@@ -989,13 +953,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_input > .R_SYS_BLEED > .pin2",
-    "x": 12.01,
-    "y": -14.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_266: checked board surface Ground path. */,
   {
     "selector": ".Debug_and_reset > .R_TRST_N > .pin2",
     "x": -17.49,
@@ -1011,13 +969,7 @@ const groundPads = [
     "toLayer": "inner1"
   },
   null /* CLOUD_GND_PAD_269: CPU surface GND reaches an existing through barrel. */,
-  {
-    "selector": ".UART_debug > .TP_UART_1 > .1",
-    "x": -3,
-    "y": 14,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_270: checked board surface Ground path. */,
   null /* CLOUD_GND_PAD_271: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_LDO_IN > .pin2",
@@ -1312,13 +1264,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Debug_status > .R_PG_PULLDOWN > .pin2",
-    "x": -3.75,
-    "y": 16.2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_331: checked board surface Ground path. */,
   {
     "selector": ".HDMI > .U_HDMI > .2",
     "x": 39.75007,

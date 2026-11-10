@@ -88,3 +88,6 @@ leave **237 non-through vias**, with fixed placements and all connections preser
 
 DDR byte-1 relief: [two original CPU pad columns become through via a native Bottom detour](docs/through-vias/ddr-byte1-through-relief-increment.md)
 leaves **235 non-through vias**, preserving both DDR paths and all connected nets.
+
+Board surface Ground: [nine blind pad barrels removed with native surface fills](docs/through-vias/board-ground-pad-removal-increment.md)
+leaves **226 non-through vias**, with all trace copper unchanged and connectivity verified after removal.
