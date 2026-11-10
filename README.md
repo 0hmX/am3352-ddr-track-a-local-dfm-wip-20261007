@@ -70,3 +70,6 @@ leaves **403 non-through vias**, with unchanged trace copper and verified connec
 
 Ethernet relief: [ten auxiliary stitches removed and two endpoint barrels moved through in TSX](docs/through-vias/ethernet-through-relief-increment.md)
 leaves **391 non-through vias**, with all original route centerlines preserved and connectivity verified.
+
+DDR memory escapes: [DQS0 and BA2 gain through columns at memory in native TSX](docs/through-vias/ddr-memory-endpoints-increment.md)
+leave **389 non-through vias**, preserving original route centerlines and verified connectivity; added lengths remain unqualified.
