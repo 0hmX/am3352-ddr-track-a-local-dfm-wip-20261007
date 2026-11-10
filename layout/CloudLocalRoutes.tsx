@@ -1,4 +1,4 @@
-// C10 cap escape relief; other74localroutes and13returns unchanged.
+// C10 cap escape relief; native return-array slots retain stable names.
 export const cloudLocalRoutes = [
   {
     "name": "CLOUD_LOCAL_0_PMIC_DC34_SEL",
@@ -5271,20 +5271,7 @@ export const localReturnStitches=[
     },
     "distance": 0.55
   },
-  {
-    "x": -4.965685,
-    "y": 7.365685,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
-    "signalTransition": {
-      "x": -4.399999999999999,
-      "y": 6.800000000000001,
-      "fromLayer": "inner4",
-      "toLayer": "inner2",
-      "trace": "CLOUD_LOCAL_LAYERED_10_NEXT_I2C0_SDA"
-    },
-    "distance": 0.65
-  },
+  null /* CLOUD_LOCAL_RETURN_1: auxiliary Ground stitch removed; see validation. */,
   {
     "x": 6.088908729652604,
     "y": 12.488908729652602,
@@ -5417,22 +5404,7 @@ export const localReturnStitches=[
     },
     "distance": 0.55
   },
-  {
-    "x": -7.188908729652602,
-    "y": 0.7889087296526012,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "signalTransition": {
-      "x": -6.800000000000001,
-      "y": 0.4,
-      "fromLayer": "top",
-      "toLayer": "bottom",
-      "fromGroundLayer": "inner1",
-      "toGroundLayer": "inner6",
-      "trace": "CLOUD_LOCAL_INPUT8_REPAIR_V2_3_NEXT_WARMRST_N"
-    },
-    "distance": 0.55
-  },
+  null /* CLOUD_LOCAL_RETURN_11: auxiliary Ground stitch removed; see validation. */,
   {
     "x": 18.111091270347398,
     "y": 0.31109127034739814,
@@ -5455,4 +5427,4 @@ const sections=r.sections??[{layer:r.layer,points:r.points}],first=sections[0].p
 if(r.fromLayer!==sections[0].layer)path.push({...first,via:true,fromLayer:r.fromLayer,toLayer:sections[0].layer});
 for(let i=0;i<sections.length;i++){const s=sections[i];if(i)path.push({...s.points[0],via:true,fromLayer:sections[i-1].layer,toLayer:s.layer});path.push(...s.points.map((p:any)=>({x:p.x,y:p.y})));}
 if(r.toLayer!==sections.at(-1).layer)path.push({...last,via:true,fromLayer:sections.at(-1).layer,toLayer:r.toLayer});if(!r.toJunction)path.push(r.to);
-return <trace name={r.name} from={r.from} to={r.to} width={.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[path]}/>})}{localReturnStitches.map((v:any,i:number)=><via name={`CLOUD_LOCAL_RETURN_${i}`} pcbX={v.x} pcbY={v.y} fromLayer={v.fromLayer} toLayer={v.toLayer} holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/>)}</group>}
+return <trace name={r.name} from={r.from} to={r.to} width={.1} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[path]}/>})}{localReturnStitches.map((v:any,i:number)=>v&&<via name={`CLOUD_LOCAL_RETURN_${i}`} pcbX={v.x} pcbY={v.y} fromLayer={v.fromLayer} toLayer={v.toLayer} holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/>)}</group>}

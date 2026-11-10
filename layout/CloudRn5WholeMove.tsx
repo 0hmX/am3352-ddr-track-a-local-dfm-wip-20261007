@@ -18,9 +18,6 @@ export function applyRn5WholeInputMove(node:any):any {
  if(node.type==='via'){
   for(const m of placements)if(p.connectsTo===`.Boot_and_clock > .${m.ref} > .pin2`)Object.assign(p,{pcbX:m.other[0],pcbY:m.other[1],fromLayer:m.layer,toLayer:m.otherEnd})
   if(p.connectsTo==='.Boot_and_clock > .R_BOOT0 > .pin2')Object.assign(p,{pcbX:10.83,pcbY:-15.5,fromLayer:'top',toLayer:'inner5'})
-  if(p.name==='SYS12_CPU_RETURN')Object.assign(p,{pcbX:7.4,pcbY:-6})
-  if(p.name==='SYS15_RETURN_CPU')Object.assign(p,{pcbX:5.6,pcbY:-3.325})
-  if(p.name==='SYS15_RETURN_ARRAY')Object.assign(p,{pcbX:5.4,pcbY:-10.4})
   if(p.name==='SYS8_12_ARRAY_RETURN')Object.assign(p,{pcbX:6.116667,pcbY:-15.225,fromLayer:'inner3',toLayer:'inner6'})
   if(Math.abs(p.pcbX-12.4)<1e-8&&Math.abs(p.pcbY+15.65)<1e-8&&p.fromLayer==='inner1'&&p.toLayer==='inner6')p.pcbY=-15.75
  }

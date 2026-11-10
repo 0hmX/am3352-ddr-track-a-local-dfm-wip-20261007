@@ -696,24 +696,7 @@ const grounds=[
       "y": -29.8636599
     }
   },
-  {
-    "name": "HDMI_ENDPOINT_RETURN_6",
-    "x": 9.76109127,
-    "y": -10.91390873,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "net": "GND",
-    "covers": [
-      {
-        "net": "HDMI_VSYNC_RX",
-        "x": 10.15,
-        "y": -10.525,
-        "distance": 0.5500000004912959
-      }
-    ]
-  },
+
   {
     "name": "HDMI_ENDPOINT_RETURN_5",
     "x": 38.0186608,
@@ -732,24 +715,7 @@ const grounds=[
       }
     ]
   },
-  {
-    "name": "HDMI_ENDPOINT_RETURN_4",
-    "x": 6.35764953,
-    "y": -10.7437408,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "holeDiameter": 0.15,
-    "outerDiameter": 0.3,
-    "net": "GND",
-    "covers": [
-      {
-        "net": "HDMI_D3",
-        "x": 6.5,
-        "y": -11.275,
-        "distance": 0.5499999944489654
-      }
-    ]
-  },
+
   {
     "name": "HDMI_ENDPOINT_RETURN_1",
     "x": 43.60041495,
