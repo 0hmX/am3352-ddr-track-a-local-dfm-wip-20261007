@@ -1,0 +1,12 @@
+[
+  {
+    "name": "C_RTC_RESET_BYP",
+    "before": null,
+    "after": 1
+  },
+  {
+    "name": "C_RTC_GATE_BYP",
+    "before": null,
+    "after": 1
+  }
+]

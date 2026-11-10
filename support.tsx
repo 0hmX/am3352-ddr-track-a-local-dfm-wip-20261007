@@ -1,4 +1,7 @@
+import { Fragment } from "react"
 import { savedRefdesStyle } from "./layout/SavedSilkscreen"
+import { namedConnections } from "./schematic/NamedConnections"
+import { PowerManagementChip, powerManagementLayout, powerManagementWiring } from "./schematic/PowerManagementLayout"
 import { passiveLayout } from "./schematic/PassiveLayout"
 import originalParts from './data/support-components'
 import { usbCPortParts, usbCPortPlacement, usbCPortFootprints, usbCPortCourtyards, removedPowerParts, connectionOverrides } from './data/usb-c-ports'
@@ -6,14 +9,12 @@ export const parts = [...originalParts.filter(p => !p.name.startsWith('U_LCD') &
   .map(p => connectionOverrides[p.name] ? { ...p, connections: connectionOverrides[p.name] } : p), ...usbCPortParts] as any[]
 export const supportSheets = [...new Set(parts.map(p => p.sheet))]
 const schematicPlacement = passiveLayout(parts, ["CPU bypass", "CPU power", "DDR bypass", "DDR reference", "Power management", "Power input", "Boot and clock", "Debug and reset", "microSD", "Ethernet and RGB expansion", "USB programming"], { "Ethernet and RGB expansion": -65 })
+const powerWiring = powerManagementWiring(parts, schematicPlacement)
 // Explicit local networks sit beside their chip pins. Units are schematic-only.
 Object.assign(schematicPlacement, {
   C_ETH_RAMP_CT: { schX: 10, schY: -32.5, schRotation: -90 },
   R_PROG_CC1: { schX: -23, schY: -0.4, schRotation: -90 },
   R_PROG_CC2: { schX: -16.5, schY: -1.3, schRotation: -90 },
-  L_PWR1: { schX: -15, schY: 48 }, L_PWR2: { schX: -14, schY: 46 },
-  L_PWR3: { schX: -15, schY: 44 }, L_PWR4: { schX: -23, schY: 44.9, schRotation: -90 },
-  R_PWR1: { schX: -23, schY: 43.4, schRotation: -90 },
   J_POWER: { schX: -3, schY: 8 }, U_TYPEC_NOR: { schX: -6.46, schY: 2 },
   U_INPUT_EFUSE: { schX: 8.08, schY: 0 }, U_PD: { schX: 0.53, schY: 0 },
   R_TYPEC_ENABLE_PD: { schX: -7, schY: -2, schRotation: -90 },
@@ -66,8 +67,14 @@ export function Support({ sheets = supportSheets }: { sheets?: string[] } = {}){
  if(p.kind==='capacitor' && p.package==='1210' && !p.useImportedFootprint)throw Error(`Declared 1210 capacitor ${p.name} cannot use a fallback footprint`)
  const props={pcbStyle:savedRefdesStyle(p.name),name:p.name,manufacturerPartNumber:p.mpn??undefined,connections:Object.fromEntries(Object.entries(p.connections).map(([pin,net])=>[p.kind==='chip'?safe(p,pin):'pin'+pin,`net.${net}`])),...(placement as any)[p.name],schSheetName:p.sheet,cadModel:p.name.startsWith('TP_')?null:(p.kind==='chip'||p.kind==='inductor'||p.useImportedFootprint)&&(library as any)[p.footprintKey]?cadModelForFootprint(p.footprintKey):undefined,schX:((i%4)-1.5)*13,schY:((Math.ceil(parts.filter(part=>part.sheet===p.sheet).length/4)-1)/2-Math.floor(i/4))*9}
  Object.assign(props, schematicPlacement[p.name])
+ if(p.sheet === "Power management") {
+  Object.assign(props, powerManagementLayout[p.name])
+  Object.assign(props, { children: namedConnections(p.name, props.connections, powerWiring, props) })
+  delete (props as any).connections
+ }
  if(p.kind==='resistor')return <resistor key={p.name} {...props} resistance={p.value} footprint={p.useImportedFootprint?<ImportedFootprint part={p}/>:p.footprint??'0402'}/>
  if(p.kind==='capacitor')return <capacitor key={p.name} {...props} capacitance={p.value} footprint={p.useImportedFootprint?<ImportedFootprint part={p}/>:p.footprint??'0402'}/>
  if(p.kind==='inductor')return <inductor key={p.name} {...props} inductance={p.value} footprint={<ImportedFootprint part={p}/>}/>
- return <chip key={p.name} {...props} schWidth={({U_PMIC:2.57,U_PD:2.25,U_ETH_PHY:2.55,U_ETH_ISO0:1.33,U_ETH_ISO1:1.33,U_ETH_RESET:1.85,U_ETH_RAMP:1.36,J_ETH:2.78,J_MICROSD:2.37,U_RESET_DELAY:1.85,U_RTC_RESET_DELAY:1.77,U_RTC_POR_GATE:1.35,U_INPUT_EFUSE:1.65} as Record<string,number>)[p.name]} pinLabels={Object.fromEntries(Object.entries(p.pinLabels).map(([pin,label])=>[safe(p,pin),[pin,String(label)+'_'+pin]]))} noConnect={p.noConnect.map((s:string)=>safe(p,s))} footprint={<ImportedFootprint part={p}/>}/>
+ const chip = <chip key={p.name} noSchematicRepresentation={p.sheet === "Power management" ? true : undefined} {...props} schWidth={({U_PMIC:2.57,U_PD:2.25,U_ETH_PHY:2.55,U_ETH_ISO0:1.33,U_ETH_ISO1:1.33,U_ETH_RESET:1.85,U_ETH_RAMP:1.36,J_ETH:2.78,J_MICROSD:2.37,U_RESET_DELAY:1.85,U_RTC_RESET_DELAY:1.77,U_RTC_POR_GATE:1.35,U_INPUT_EFUSE:1.65} as Record<string,number>)[p.name]} pinLabels={Object.fromEntries(Object.entries(p.pinLabels).map(([pin,label])=>[safe(p,pin),[pin,String(label)+'_'+pin]]))} noConnect={p.noConnect.map((s:string)=>safe(p,s))} footprint={<ImportedFootprint part={p}/>}/>
+ return p.sheet === "Power management" ? <Fragment key={p.name}>{chip}<PowerManagementChip part={p}/></Fragment> : chip
  })}</>}
