@@ -251,3 +251,12 @@ All trace copper, pin nets and placements are unchanged. Native and exported
 connectivity pass with no new enforced or supplemental clearance findings. Two
 additional reference-area pairs remain visible. Spatial reference matching by
 net/layers supports native trace splits without counting renamed old gaps as new.
+
+## Four strap/reference barrels; two rejected pour cuts
+
+[Literal TSX port and native visual evidence](remaining-four-increment.md),
+[validation](remaining-four-validation.json). **620 through / 590 non-through**
+remain. Native and exported continuity pass with no new clearance findings.
+D21 and DDR_BA1 extensions are rejected for isolating V3V3 terminals; both remain
+at their prior spans/positions. No ground stitch is removed. Three additional
+reference-area pairs across two traces are retained in the spatial audit.
