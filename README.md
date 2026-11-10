@@ -91,3 +91,6 @@ leaves **235 non-through vias**, preserving both DDR paths and all connected net
 
 Board surface Ground: [nine blind pad barrels removed with native surface fills](docs/through-vias/board-ground-pad-removal-increment.md)
 leaves **226 non-through vias**, with all trace copper unchanged and connectivity verified after removal.
+
+Power/boot relief: [four original columns become through with native Bottom detours](docs/through-vias/cpu-control-through-relief-increment.md)
+leaves **222 non-through vias**, preserving all connected nets and component placements.
