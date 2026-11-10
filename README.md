@@ -52,3 +52,6 @@ leave **526 non-through vias**, with fixed DDR placement and verified native/exp
 
 CPU surface ground: [checked native fills and 68 pad-via removal candidates](docs/through-vias/cpu-surface-ground-increment.md).
 This groundwork retains **526 non-through vias**; actual removal is a separate stacked increment.
+
+CPU pad-via removal: [68 blind barrels and 28 redundant ground links removed in native TSX](docs/through-vias/cpu-surface-pad-removal-increment.md)
+leaves **458 non-through vias**, with all native/exported nets and post-drill ground terminals connected.

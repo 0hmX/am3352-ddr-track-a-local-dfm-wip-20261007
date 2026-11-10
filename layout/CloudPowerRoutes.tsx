@@ -3,58 +3,16 @@
  * Recompute plane antipads from mounted native geometry; never replay saved fills.
  */
 const groundPads = [
-  {
-    "selector": ".Processor > .U1 > .A1",
-    "x": -6.800000000000001,
-    "y": -6.800000000000001,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .V1",
-    "x": 6.800000000000001,
-    "y": -6.800000000000001,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .A5",
-    "x": -6.800000000000001,
-    "y": -3.6,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .B6",
-    "x": -6,
-    "y": -2.8000000000000003,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .H6",
-    "x": -1.2000000000000002,
-    "y": -2.8000000000000003,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_0: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_1: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_2: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_3: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_4: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_5: native surface link to CLOUD_GND_PAD_12. */,
   null /* CLOUD_GND_PAD_6: native surface link to CLOUD_GND_PAD_14. */,
   null /* CLOUD_GND_PAD_7: native surface link to CLOUD_GND_PAD_70. */,
-  {
-    "selector": ".Processor > .U1 > .B7",
-    "x": -6,
-    "y": -2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .C7",
-    "x": -5.2,
-    "y": -2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_8: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_9: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_10: native surface link to CLOUD_GND_PAD_22. */,
   null /* CLOUD_GND_PAD_11: native surface link to CLOUD_GND_PAD_23. */,
   {
@@ -73,27 +31,9 @@ const groundPads = [
     "toLayer": "bottom"
   },
   null /* CLOUD_GND_PAD_15: native surface link to CLOUD_GND_PAD_70. */,
-  {
-    "selector": ".Processor > .U1 > .B8",
-    "x": -6,
-    "y": -1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .C8",
-    "x": -5.2,
-    "y": -1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .D8",
-    "x": -4.4,
-    "y": -1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_16: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_17: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_18: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_19: native surface link to CLOUD_GND_PAD_20. */,
   {
     "selector": ".Processor > .U1 > .F8",
@@ -125,20 +65,8 @@ const groundPads = [
   },
   null /* CLOUD_GND_PAD_24: native surface link to CLOUD_GND_PAD_14. */,
   null /* CLOUD_GND_PAD_25: native surface link to CLOUD_GND_PAD_70. */,
-  {
-    "selector": ".Processor > .U1 > .B9",
-    "x": -6,
-    "y": -0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .C9",
-    "x": -5.2,
-    "y": -0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_26: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_27: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_28: native surface link to CLOUD_GND_PAD_21. */,
   null /* CLOUD_GND_PAD_29: native surface link to CLOUD_GND_PAD_22. */,
   null /* CLOUD_GND_PAD_30: native surface link to CLOUD_GND_PAD_31. */,
@@ -149,130 +77,28 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .U1 > .M9",
-    "x": 2,
-    "y": -0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .H10",
-    "x": -1.2000000000000002,
-    "y": 0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_32: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_33: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_34: native surface link to CLOUD_LOCAL_RETURN_5. */,
   null /* CLOUD_GND_PAD_35: native surface link to CLOUD_GND_PAD_31. */,
   null /* CLOUD_GND_PAD_36: native surface link to CLOUD_GND_PAD_31. */,
-  {
-    "selector": ".Processor > .U1 > .M10",
-    "x": 2,
-    "y": 0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .N10",
-    "x": 2.8000000000000003,
-    "y": 0.4,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .G11",
-    "x": -2,
-    "y": 1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_37: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_38: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_39: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_40: same surface GND reaches a nearby through barrel. */,
   null /* CLOUD_GND_PAD_41: native surface link to CLOUD_LOCAL_RETURN_5. */,
-  {
-    "selector": ".Processor > .U1 > .L11",
-    "x": 1.2000000000000002,
-    "y": 1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .N11",
-    "x": 2.8000000000000003,
-    "y": 1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .V11",
-    "x": 6.800000000000001,
-    "y": 1.2000000000000002,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .G12",
-    "x": -2,
-    "y": 2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .H12",
-    "x": -1.2000000000000002,
-    "y": 2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .L12",
-    "x": 1.2000000000000002,
-    "y": 2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .M12",
-    "x": 2,
-    "y": 2,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .L13",
-    "x": 1.2000000000000002,
-    "y": 2.8000000000000003,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .M14",
-    "x": 2,
-    "y": 3.6,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .N14",
-    "x": 2.8000000000000003,
-    "y": 3.6,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .A18",
-    "x": -6.800000000000001,
-    "y": 6.800000000000001,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Processor > .U1 > .V18",
-    "x": 6.800000000000001,
-    "y": 6.800000000000001,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_42: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_43: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_44: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_45: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_46: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_47: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_48: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_49: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_50: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_51: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_52: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_53: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Processor > .C_VDD_CORE_B > .pin2",
     "x": -8.4125,
@@ -287,48 +113,12 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_VDD_CORE_1 > .pin2",
-    "x": -2.76,
-    "y": 6,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDD_CORE_2 > .pin2",
-    "x": 0.49,
-    "y": 4,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDD_CORE_3 > .pin2",
-    "x": 2.99,
-    "y": 6.03,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDD_CORE_4 > .pin2",
-    "x": 3.49,
-    "y": 7.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDD_CORE_5 > .pin2",
-    "x": 5.49,
-    "y": 5.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDD_CORE_6 > .pin2",
-    "x": 7.99,
-    "y": 5.75,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_56: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_57: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_58: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_59: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_60: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_61: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_62: same surface GND reaches a nearby through barrel. */,
   {
     "selector": ".Processor > .C_VDD_MPU_B > .pin2",
@@ -337,35 +127,11 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Processor > .C_VDD_MPU_0 > .pin2",
-    "x": -2.01,
-    "y": 2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_64: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_65: native surface link to CLOUD_LOCAL_RETURN_5. */,
-  {
-    "selector": ".Processor > .C_VDD_MPU_2 > .pin2",
-    "x": 2.99,
-    "y": 2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDD_MPU_3 > .pin2",
-    "x": 3.49,
-    "y": 4,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDD_MPU_4 > .pin2",
-    "x": 5.49,
-    "y": 4,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_66: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_67: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_68: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_69: native surface link to CLOUD_ETH_RETURN_12. */,
   {
     "selector": ".Processor > .C_VDDS_0 > .pin2",
@@ -374,35 +140,11 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .C_VDDS_1 > .pin2",
-    "x": -4.51,
-    "y": 2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_VDDS_2 > .pin2",
-    "x": -1.76,
-    "y": 0,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_71: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_72: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_73: native surface link to CLOUD_ETH_RETURN_12. */,
-  {
-    "selector": ".Processor > .C_SRAM_CORE_B > .pin2",
-    "x": 2.5875,
-    "y": -0.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_SRAM_CORE_0 > .pin2",
-    "x": 5.24,
-    "y": 2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_74: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_75: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Processor > .C_SRAM_MPU_B > .pin2",
     "x": 6.5875,
@@ -424,20 +166,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .C_IO1_0 > .pin2",
-    "x": -5.26,
-    "y": 4,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_IO1_1 > .pin2",
-    "x": -7.01,
-    "y": -2.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_79: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_80: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Processor > .C_IO2_B > .pin2",
     "x": 0.5000000000000002,
@@ -445,20 +175,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Processor > .C_IO2_0 > .pin2",
-    "x": 5.24,
-    "y": -2.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_IO2_1 > .pin2",
-    "x": 5.99,
-    "y": 6.75,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_82: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_83: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Processor > .C_IO3_B > .pin2",
     "x": 10.25,
@@ -488,13 +206,7 @@ const groundPads = [
     "toLayer": "bottom"
   },
   null /* CLOUD_GND_PAD_88: native surface link to CLOUD_GND_PAD_249. */,
-  {
-    "selector": ".Processor > .C_IO4_1 > .pin2",
-    "x": -2.51,
-    "y": 4,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_89: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Processor > .C_IO5_B > .pin2",
     "x": 14.95,
@@ -537,13 +249,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_IO6_2 > .pin2",
-    "x": -9.51,
-    "y": -1,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_96: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Processor > .C_IO6_3 > .pin2",
     "x": -12.01,
@@ -586,13 +292,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_VDDS_OSC > .pin2",
-    "x": -4.51,
-    "y": -3,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_103: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Processor > .C_VDDS_RTC > .pin2",
     "x": -12.01,
@@ -622,20 +322,8 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Processor > .C_CAP_VDD_SRAM_CORE > .pin2",
-    "x": -4.45,
-    "y": -0.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Processor > .C_CAP_VDD_SRAM_MPU > .pin2",
-    "x": -0.7,
-    "y": 6.25,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_109: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_110: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Processor > .C_CAP_VBB_MPU > .pin2",
     "x": -11.5,
@@ -785,13 +473,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".DDR3 > .R_DDR_VTP > .pin2",
-    "x": -8.51,
-    "y": -3.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_134: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .R_VREF_BOT > .pin2",
     "x": -9.76,
@@ -888,13 +570,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_0 > .pin2",
-    "x": -3.83,
-    "y": -2,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_153: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_154: native surface link to CLOUD_GND_PAD_21. */,
   null /* CLOUD_GND_PAD_155: native surface link to CLOUD_GND_PAD_22. */,
   {
@@ -904,13 +580,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_4 > .pin2",
-    "x": 8.67,
-    "y": -8.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_157: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .C_SOC_DDR_5 > .pin2",
     "x": -9.33,
@@ -932,27 +602,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_8 > .pin2",
-    "x": 4.67,
-    "y": 1,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_9 > .pin2",
-    "x": -5.33,
-    "y": 3,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_10 > .pin2",
-    "x": -3.33,
-    "y": 3,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_161: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_162: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_163: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .C_SOC_DDR_11 > .pin2",
     "x": -9.33,
@@ -968,13 +620,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_14 > .pin2",
-    "x": 4.67,
-    "y": 3,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_167: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .C_SOC_DDR_15 > .pin2",
     "x": -5.33,
@@ -982,36 +628,12 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_16 > .pin2",
-    "x": -3.33,
-    "y": 5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_17 > .pin2",
-    "x": -1.33,
-    "y": 5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_169: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_170: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_171: native surface link to MDIO_I4_RETURN_0. */,
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_19 > .pin2",
-    "x": 2.67,
-    "y": 5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_172: CPU surface GND reaches an existing through barrel. */,
   null /* CLOUD_GND_PAD_173: same surface GND reaches a nearby through barrel. */,
-  {
-    "selector": ".DDR3 > .C_SOC_DDR_B1 > .pin2",
-    "x": 7.5875,
-    "y": -7,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_174: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".DDR3 > .C_RAM_B1 > .pin2",
     "x": -8.9125,
@@ -1357,27 +979,9 @@ const groundPads = [
     "toLayer": "inner6"
   },
   null /* CLOUD_GND_PAD_225: native surface link to SYS4_SHARED_CPU_RETURN. */,
-  {
-    "selector": ".Boot_and_clock > .R_BOOT5 > .pin2",
-    "x": 6.51,
-    "y": -12,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Boot_and_clock > .R_BOOT6 > .pin2",
-    "x": 2.14,
-    "y": -4,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Boot_and_clock > .R_BOOT7 > .pin2",
-    "x": 9.61,
-    "y": -13.05,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_226: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_227: CPU surface GND reaches an existing through barrel. */,
+  null /* CLOUD_GND_PAD_228: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Boot_and_clock > .R_BOOT8 > .pin2",
     "x": 10.61,
@@ -1392,13 +996,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".Boot_and_clock > .R_BOOT10 > .pin2",
-    "x": 9.5,
-    "y": -6.59,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_231: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".Boot_and_clock > .R_BOOT11 > .pin2",
     "x": 6.51,
@@ -1652,13 +1250,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Debug_and_reset > .SW_RESET > .pin2_internal_1",
-    "x": -5.4,
-    "y": 11.5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_269: CPU surface GND reaches an existing through barrel. */,
   {
     "selector": ".UART_debug > .TP_UART_1 > .1",
     "x": -3,
