@@ -242,3 +242,12 @@ remain. Complete nonzero centerlines, normal pin nets and placements are preserv
 Native and exported connectivity pass with no new enforced clearance findings.
 Five additional reference-area pairs and five optional plated-hole margins are
 recorded. Two off-pad input-fault transitions remain for a separate native port.
+
+## USB/input power and fault transitions: seven barrels
+
+[Native TSX layer splits and via ports](usb-input-increment.md),
+[validation](usb-input-validation.json). **616 through / 594 non-through** remain.
+All trace copper, pin nets and placements are unchanged. Native and exported
+connectivity pass with no new enforced or supplemental clearance findings. Two
+additional reference-area pairs remain visible. Spatial reference matching by
+net/layers supports native trace splits without counting renamed old gaps as new.
