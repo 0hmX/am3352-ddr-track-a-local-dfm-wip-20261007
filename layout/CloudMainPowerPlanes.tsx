@@ -1264,7 +1264,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_76",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_0"
   },
   {
@@ -1276,7 +1276,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_77",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_1"
   },
   {
@@ -1288,7 +1288,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_78",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_2"
   },
   {
@@ -1300,7 +1300,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_79",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_3"
   },
   {
@@ -1312,7 +1312,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_80",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_4"
   },
   {
@@ -1324,7 +1324,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_81",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_5"
   },
   {
@@ -1336,7 +1336,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.2,
     "padId": "pcb_smtpad_82",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_6"
   },
   {
@@ -1396,7 +1396,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_454",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_11"
   },
   {
@@ -1408,7 +1408,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_457",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_12"
   },
   {
@@ -1420,7 +1420,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_459",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_13"
   },
   {
@@ -1432,7 +1432,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_463",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_14"
   },
   {
@@ -1456,7 +1456,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_494",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_16"
   },
   {
@@ -1480,7 +1480,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_513",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_18"
   },
   {
@@ -1492,7 +1492,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_522",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_19"
   },
   {
@@ -1504,7 +1504,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_523",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_20"
   },
   {
@@ -1516,7 +1516,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_524",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_21"
   },
   {
@@ -1528,7 +1528,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_527",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_22"
   },
   {
@@ -1540,7 +1540,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_532",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_23"
   },
   {
@@ -1552,7 +1552,7 @@ const vias=[
     "shape": "circle",
     "radius": 0.175006,
     "padId": "pcb_smtpad_534",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_24"
   },
   {
@@ -1573,12 +1573,12 @@ const vias=[
     "selector": ".DDR3 > .C_VREF_TOP > .pin1",
     "x": -10.99,
     "y": -29,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_544",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_26"
   },
   {
@@ -1586,12 +1586,12 @@ const vias=[
     "selector": ".DDR3 > .R_DDR_RESET > .pin2",
     "x": -12.01,
     "y": -31.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.54,
     "height": 0.64,
     "padId": "pcb_smtpad_555",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_27"
   },
   {
@@ -1638,12 +1638,12 @@ const vias=[
     "selector": ".DDR3 > .C_RAM_3 > .pin1",
     "x": 0.33,
     "y": -29.6,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_562",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_31"
   },
   {
@@ -1651,12 +1651,12 @@ const vias=[
     "selector": ".DDR3 > .C_RAM_4 > .pin1",
     "x": 5.93,
     "y": -28.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_564",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_32"
   },
   {
@@ -1664,12 +1664,12 @@ const vias=[
     "selector": ".DDR3 > .C_RAM_5 > .pin1",
     "x": 5.93,
     "y": -27.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_566",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_33"
   },
   {
@@ -1677,12 +1677,12 @@ const vias=[
     "selector": ".DDR3 > .C_RAM_6 > .pin1",
     "x": 5.93,
     "y": -26.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_568",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_34"
   },
   {
@@ -1703,12 +1703,12 @@ const vias=[
     "selector": ".DDR3 > .C_RAM_8 > .pin1",
     "x": 5.93,
     "y": -24.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_572",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_36"
   },
   {
@@ -1716,12 +1716,12 @@ const vias=[
     "selector": ".DDR3 > .C_RAM_9 > .pin1",
     "x": 5.93,
     "y": -23.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_574",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_37"
   },
   {
@@ -1729,12 +1729,12 @@ const vias=[
     "selector": ".DDR3 > .C_RAM_10 > .pin1",
     "x": 5.93,
     "y": -22.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_576",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_38"
   },
   {
@@ -1742,12 +1742,12 @@ const vias=[
     "selector": ".DDR3 > .C_RAM_11 > .pin1",
     "x": 5.93,
     "y": -21.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_578",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_39"
   },
   {
@@ -1807,12 +1807,12 @@ const vias=[
     "selector": ".DDR3 > .C_SOC_DDR_3 > .pin1",
     "x": -8.67,
     "y": -7.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_588",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_44"
   },
   {
@@ -1820,12 +1820,12 @@ const vias=[
     "selector": ".DDR3 > .C_SOC_DDR_4 > .pin1",
     "x": 9.33,
     "y": -8.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_590",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_45"
   },
   {
@@ -1833,12 +1833,12 @@ const vias=[
     "selector": ".DDR3 > .C_SOC_DDR_5 > .pin1",
     "x": -8.67,
     "y": -9,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_592",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_46"
   },
   {
@@ -1846,12 +1846,12 @@ const vias=[
     "selector": ".DDR3 > .C_SOC_DDR_6 > .pin1",
     "x": -8.67,
     "y": -6.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_594",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_47"
   },
   {
@@ -1859,12 +1859,12 @@ const vias=[
     "selector": ".DDR3 > .C_SOC_DDR_7 > .pin1",
     "x": -8.67,
     "y": -10.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_596",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_48"
   },
   {
@@ -1911,12 +1911,12 @@ const vias=[
     "selector": ".DDR3 > .C_SOC_DDR_11 > .pin1",
     "x": -8.67,
     "y": -5.5,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_604",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_52"
   },
   {
@@ -1937,12 +1937,12 @@ const vias=[
     "selector": ".DDR3 > .C_SOC_DDR_13 > .pin1",
     "x": -8.67,
     "y": -12,
-    "layer": "bottom",
+    "layer": "top",
     "shape": "rect",
     "width": 0.46,
     "height": 0.4,
     "padId": "pcb_smtpad_608",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_54"
   },
   {
@@ -2085,7 +2085,7 @@ const vias=[
     "width": 3.4,
     "height": 0.98,
     "padId": "pcb_smtpad_682",
-    "toLayer": "inner4",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_65"
   },
   {
@@ -2098,7 +2098,7 @@ const vias=[
     "width": 2.7,
     "height": 1.15,
     "padId": "pcb_smtpad_705",
-    "toLayer": "inner4",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_66"
   },
   {
@@ -2111,7 +2111,7 @@ const vias=[
     "width": 2.7,
     "height": 1.15,
     "padId": "pcb_smtpad_707",
-    "toLayer": "inner5",
+    "toLayer": "bottom",
     "viaName": "DDR15_FEED_67"
   }
 ] as const
@@ -4623,7 +4623,7 @@ const pours=[
 ] as const
 export function CloudMainPowerPlanes(){return <>
  {pours.map(p=><copperpour key={p.name} name={p.name} layer={p.layer} connectsTo={`net.${p.net}`} unbroken coveredWithSolderMask clearance={0.2} boardEdgeMargin={0} outline={p.outline}/>)}
- {vias.map(v=><via key={v.viaName} name={v.viaName} pcbX={v.x} pcbY={v.y} fromLayer={v.layer} toLayer={v.toLayer??"inner5"} holeDiameter={0.15} outerDiameter={0.3} connectsTo={v.selector}/>)}
+ {vias.map(v=><via key={v.viaName} name={v.viaName} pcbX={v.x} pcbY={v.y} fromLayer={v.layer} toLayer={v.toLayer??"inner5"} holeDiameter={0.15} outerDiameter={0.3} connectsTo={v.selector}>{v.toLayer === "bottom" && (["inner1","inner2","inner3","inner4","inner5","inner6"] as const).map(layer=><port key={layer} name={layer} layer={layer} ref={p=>p?.registerMatch(p.parent as any)}/>)}</via>)}
  {extraVias.map(v=><via key={v.viaName} name={v.viaName} pcbX={v.x} pcbY={v.y} fromLayer={v.fromLayer} toLayer={v.toLayer} holeDiameter={v.holeDiameter} outerDiameter={v.outerDiameter} connectsTo={`net.${v.net}`}/>)}
  {routes.map(r=><trace key={r.name} name={r.name} from={r.from} to={r.to} width={r.width} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[r.from,...r.points.map(([x,y])=>({x,y})),r.to]]}/>)}
 </>}
