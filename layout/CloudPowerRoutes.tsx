@@ -2332,7 +2332,7 @@ const groundPads = [
     "x": 39.75007,
     "y": -31.20008,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .U_HDMI > .3",
@@ -2353,28 +2353,28 @@ const groundPads = [
     "x": 41.24994,
     "y": -31.20008,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .U_HDMI > .6",
     "x": 41.750066,
     "y": -31.20008,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .U_HDMI > .7",
     "x": 42.249938,
     "y": -31.20008,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .U_HDMI > .65",
     "x": 43,
     "y": -26.75,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C144 > .pin2",
@@ -2388,21 +2388,21 @@ const groundPads = [
     "x": 53.5,
     "y": -19.49,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C146 > .pin2",
     "x": 51.01,
     "y": -17,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C147 > .pin2",
     "x": 43.51,
     "y": -32.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C148 > .pin2",
@@ -2416,7 +2416,7 @@ const groundPads = [
     "x": 46.51,
     "y": -21,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C150 > .pin2",
@@ -2479,21 +2479,21 @@ const groundPads = [
     "x": 49,
     "y": -26.99,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C183 > .pin2",
     "x": 49,
     "y": -24.99,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C184 > .pin2",
     "x": 49,
     "y": -22.99,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C185 > .pin2",
@@ -2507,14 +2507,14 @@ const groundPads = [
     "x": 48.51,
     "y": -15,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C187 > .pin2",
     "x": 39.51,
     "y": -32.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_REF_C188 > .pin2",
@@ -2542,7 +2542,7 @@ const groundPads = [
     "x": 48.51,
     "y": -32.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .R_HDMI_REF_R181 > .pin2",
@@ -2563,14 +2563,14 @@ const groundPads = [
     "x": 49.2,
     "y": -19.75,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .U_HDMI_RESET > .3",
     "x": 36.2,
     "y": -18.45,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_1V2_IN > .pin2",
@@ -2584,14 +2584,14 @@ const groundPads = [
     "x": 49.99,
     "y": -16,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_RESET_DECOUPLE > .pin2",
     "x": 38.01,
     "y": -15,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .U_HDMI_ESD > .6",
@@ -2605,14 +2605,14 @@ const groundPads = [
     "x": 56.01,
     "y": -31.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_ESD_OUT > .pin2",
     "x": 58.01,
     "y": -31.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .R_HDMI_UTILITY > .pin2",
@@ -2626,35 +2626,35 @@ const groundPads = [
     "x": 59.69,
     "y": -24.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .J_HDMI > .5",
     "x": 59.69,
     "y": -26,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .J_HDMI > .8",
     "x": 59.69,
     "y": -27.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .J_HDMI > .11",
     "x": 59.69,
     "y": -29,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .J_HDMI > .17",
     "x": 59.69,
     "y": -32,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .U_HDMI_5V_BOOST > .6",
@@ -2675,21 +2675,21 @@ const groundPads = [
     "x": 53.775,
     "y": -12.5,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_5V_OUT1 > .pin2",
     "x": 58.25,
     "y": -7.275,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   },
   {
     "selector": ".HDMI > .C_HDMI_5V_OUT2 > .pin2",
     "x": 57.75,
     "y": -18.225,
     "fromLayer": "top",
-    "toLayer": "inner1"
+    "toLayer": "bottom"
   }
 ] as const
 

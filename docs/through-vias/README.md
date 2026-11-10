@@ -119,3 +119,12 @@ all component placements stay unchanged. Independent Gerber/Excellon verificatio
 also passes: 257/257 named-net groups connected; no shorts or missing copper/drills.
 Nine other Ethernet stitches had no valid sampled move within 0.4 mm; their
 original copper is retained. This local screen does not establish impossibility.
+
+## HDMI ground-pad increment: 29 barrels
+
+[Source inventory and changes](hdmi-increment.md), [validation](hdmi-validation.json).
+Native TSX converts 29 HDMI ground-pad vias and removes obsolete inner-span
+mapper code. No component/trace/via-position changes or route-data JSON edits.
+**257 through / 953 non-through** remain, with all 686 native connectivity entries
+connected and no new findings. Independent Gerber/Excellon reparse passes:
+257/257 named-net groups connected, no shorts or missing copper/drills.
