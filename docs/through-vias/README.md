@@ -128,3 +128,13 @@ mapper code. No component/trace/via-position changes or route-data JSON edits.
 **257 through / 953 non-through** remain, with all 686 native connectivity entries
 connected and no new findings. Independent Gerber/Excellon reparse passes:
 257/257 named-net groups connected, no shorts or missing copper/drills.
+
+## Power-area increment: 37 barrels
+
+[Source inventory and changes](power-increment.md), [validation](power-validation.json).
+Native TSX converts 31 power-area ground-pad vias and six VDD_CORE barrels, with
+explicit Inner5 ports preserving existing traces. **294 through / 916 non-through**.
+All native connectivity entries remain connected, no physical shorts or new
+enforced findings; independent Gerber connectivity also passes. Five additional
+optional plated-drill margin findings are recorded. Placements, trace copper,
+via positions/nets/diameters and all JSON route data remain unchanged.
