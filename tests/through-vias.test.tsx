@@ -138,7 +138,7 @@ test("a clearance-safe through extension can create a ground-reference gap", asy
 },30000)
 
 
-test("reproduces CLI success after a native physical connection is removed", async () => {
+test("CLI rejects a lost native physical connection", async () => {
   const {mkdtempSync,mkdirSync,readFileSync,writeFileSync,rmSync}=await import('node:fs')
   const {resolve}=await import('node:path')
   mkdirSync('work/through-vias',{recursive:true})
@@ -165,7 +165,7 @@ test("reproduces CLI success after a native physical connection is removed", asy
     const exit=await child.exited,report=JSON.parse(readFileSync(resolve(output,'report.json'),'utf8'))
     expect(report.baseline.connectivity.nets.find((n:any)=>n.name==='PWR').connected).toBe(true)
     expect(report.current.connectivity.nets.find((n:any)=>n.name==='PWR').physicalGroups).toBe(2)
-    // Reproduces the current false-success exit; the stacked fix must change this to 1.
-    expect(exit).toBe(0)
+    expect(report.delta.newlyDisconnectedNets).toEqual(['PWR'])
+    expect(exit).toBe(1)
   }finally{rmSync(directory,{recursive:true,force:true})}
 },30000)
