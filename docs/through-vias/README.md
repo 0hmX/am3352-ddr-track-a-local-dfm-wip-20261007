@@ -157,3 +157,13 @@ matched inner ports. **353 through / 857 non-through** remain. All 1,527 origina
 component-pin net assignments and all nonzero wire segments are preserved.
 Native and independent exported-copper continuity pass, no new enforced findings;
 one optional plated-drill margin is recorded. CPU/DDR placement stays fixed.
+
+## DDR clock/A7 relief: three barrels
+
+[Native bottom-copper comparison and source changes](ddr-clock-relief-increment.md),
+[validation](ddr-clock-relief-validation.json). Ports BA0 into literal TSX and
+reshapes its meanders, compensating the original XY length, so CK/CKn/A7 CPU
+barrels become through. **356 through / 854 non-through** remain. Native and
+independent exported-copper checks pass with no new findings; all original
+component-pin net assignments and placements are retained. Other signal wire
+geometry is unchanged. The nearby ground-return region still needs work.
