@@ -657,13 +657,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .U3 > .E1",
-    "x": -3.199892,
-    "y": -24.200031,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_114: native surface link to CLOUD_GND_PAD_113. */,
   {
     "selector": ".DDR3 > .U3 > .G1",
     "x": -3.199892,
@@ -741,13 +735,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".DDR3 > .U3 > .A9",
-    "x": 3.199892,
-    "y": -21.000139,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_126: native surface link to CLOUD_GND_PAD_127. */,
   {
     "selector": ".DDR3 > .U3 > .B9",
     "x": 3.199892,
@@ -847,13 +835,7 @@ const groundPads = [
     "fromLayer": "bottom",
     "toLayer": "inner6"
   },
-  {
-    "selector": ".DDR3 > .C_RAM_2 > .pin2",
-    "x": -0.33,
-    "y": -30.6,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_142: native surface link to CLOUD_GND_PAD_143. */,
   {
     "selector": ".DDR3 > .C_RAM_3 > .pin2",
     "x": -0.33,
@@ -868,20 +850,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .C_RAM_5 > .pin2",
-    "x": 5.27,
-    "y": -27.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".DDR3 > .C_RAM_6 > .pin2",
-    "x": 5.27,
-    "y": -26.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_145: native surface link to CLOUD_GND_PAD_144. */,
+  null /* CLOUD_GND_PAD_146: native surface link to CLOUD_GND_PAD_147. */,
   {
     "selector": ".DDR3 > .C_RAM_7 > .pin2",
     "x": 5.27,
@@ -903,13 +873,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".DDR3 > .C_RAM_10 > .pin2",
-    "x": 5.27,
-    "y": -22.5,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_150: native surface link to CLOUD_GND_PAD_149. */,
   {
     "selector": ".DDR3 > .C_RAM_11 > .pin2",
     "x": 5.27,
@@ -1442,13 +1406,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Boot_and_clock > .R_BOOT12 > .pin2",
-    "x": 8.5,
-    "y": -6.59,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_233: native surface link to SYS8_12_ARRAY_RETURN. */,
   {
     "selector": ".Boot_and_clock > .R_BOOT13 > .pin2",
     "x": 9.11,

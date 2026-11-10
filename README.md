@@ -46,3 +46,6 @@ leave **540 non-through vias**, preserving every original trace centerline and v
 
 CPU V3V3 feeds: [seven blind barrels replaced by native surface links](docs/through-vias/cpu-v3-surface-increment.md)
 leave **533 non-through vias**; the C_IO1_0 bridge is retained and all connectivity checks pass.
+
+DDR-area ground links: [seven blind pad vias replaced by native surface links](docs/through-vias/ddr-ground-surface-increment.md)
+leave **526 non-through vias**, with fixed DDR placement and verified native/exported connectivity.

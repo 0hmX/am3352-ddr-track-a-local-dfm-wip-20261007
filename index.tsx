@@ -1,3 +1,4 @@
+import {DdrGroundSurfaceStubs} from "./layout/DdrGroundSurfaceStubs"
 import {CpuPowerSurfaceStubs} from "./layout/CpuPowerSurfaceStubs"
 import {CpuGroundSurfaceStubs} from "./layout/CpuGroundSurfaceStubs"
 import { applySdClockThroughRelief } from "./layout/StandardSdClockThroughRelief"
@@ -230,5 +231,6 @@ export default function Board() {
     <UsbCPortRoutes />
   <CpuGroundSurfaceStubs />
 <CpuPowerSurfaceStubs />
+<DdrGroundSurfaceStubs />
 </board>)))))))))))))))))))))))))))))))))))))))))
 }
