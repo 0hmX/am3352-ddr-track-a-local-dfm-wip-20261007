@@ -207,3 +207,11 @@ Native and exported connectivity/clearance pass with no new native/supplemental
 findings; all trace copper, original pin-net assignments, placements and via
 positions/nets/diameters are unchanged. Additional reference area on 13 traces,
 including DDR_A12/A9, remains visible in the report.
+
+## HDMI supply/control: 42 barrels
+
+[Literal native TSX port](hdmi-feed-increment.md),
+[validation](hdmi-feed-validation.json). **507 through / 703 non-through** remain.
+Native and exported connectivity pass with no new enforced clearance findings;
+trace copper, pin-net assignments and placements are unchanged. Twelve additional
+reference-area findings and one optional plated-hole margin are recorded.
