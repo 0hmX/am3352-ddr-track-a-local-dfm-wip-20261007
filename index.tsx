@@ -1,3 +1,4 @@
+import {CpuSurfaceGround} from "./layout/CpuSurfaceGround"
 import {DdrGroundSurfaceStubs} from "./layout/DdrGroundSurfaceStubs"
 import {CpuPowerSurfaceStubs} from "./layout/CpuPowerSurfaceStubs"
 import {CpuGroundSurfaceStubs} from "./layout/CpuGroundSurfaceStubs"
@@ -229,7 +230,8 @@ export default function Board() {
     <CloudHdmiD11D15Routes />
     <CloudHdmiD0D8Routes />
     <UsbCPortRoutes />
-  <CpuGroundSurfaceStubs />
+  <CpuSurfaceGround />
+<CpuGroundSurfaceStubs />
 <CpuPowerSurfaceStubs />
 <DdrGroundSurfaceStubs />
 </board>)))))))))))))))))))))))))))))))))))))))))
