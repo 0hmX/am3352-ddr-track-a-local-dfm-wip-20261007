@@ -61,3 +61,6 @@ leaves **445 non-through vias**; native and exported connectivity and actual pos
 
 CPU auxiliary ground: [nineteen unused pad-free stitches removed in native TSX](docs/through-vias/cpu-aux-ground-removal-increment.md)
 leaves **426 non-through vias**, with unchanged trace copper and verified connectivity.
+
+DDR BGA escapes: [four nearby through columns with native TSX links](docs/through-vias/ddr-endpoint-nudges-increment.md)
+leave **422 non-through vias**, preserving all original route centerlines and verified connectivity.
