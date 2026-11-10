@@ -80,3 +80,13 @@ increment, before and after are the same snapshot. Fix PRs add after snapshots.
 This remains a routing WIP; unchanged PCB geometry is not fabrication or SI signoff.
 
 [Box fixes: 52 → 0](boxes.md)
+
+The CPU/DDR increment also normalizes source-port polarity synonyms
+(`pos`, `neg`, `anode`, `cathode`) and alias ordering because the stock symbol
+library changes them on rotation. Numbered port IDs, pin numbers, all other
+port fields and all source connections must still match. Every `pcb_*` array
+remains an exact comparison without this normalization. See the
+[native TSX reproduction](reproductions/rotated-capacitor-aliases.tsx) and
+[recorded alias-only deltas](cpu-ddr/symbol-alias-changes.json).
+
+[CPU/DDR passive fixes: 110 → 0](cpu-ddr.md)
