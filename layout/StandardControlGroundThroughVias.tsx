@@ -1,4 +1,4 @@
-import {Children,cloneElement,isValidElement} from "react"
+import {mapNativeElements} from "./mapNativeElements"
 
 // Literal native positions for unreferenced GND stitches; see the bounded
 // screen and native/physical evidence in docs/through-vias/.
@@ -15,13 +15,12 @@ const positions = {
 } as const
 
 export function applyControlGroundThroughVias(node:any):any {
- if(Array.isArray(node))return node.map(applyControlGroundThroughVias)
- if(!isValidElement<any>(node))return node
- if(typeof node.type==='function')return applyControlGroundThroughVias(node.type(node.props))
+ return mapNativeElements(node,node=>{
  if(node.type==='via'&&Object.hasOwn(positions,node.props.name)){
   const [x,y]=positions[node.props.name as keyof typeof positions]
   if(node.props.connectsTo!=='net.GND'||node.props.holeDiameter!==.15||node.props.outerDiameter!==.3)throw Error('Unexpected GND stitch identity '+node.props.name)
   return <via key={node.key} name={node.props.name} pcbX={x} pcbY={y} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/>
  }
- return node.props.children===undefined?node:cloneElement(node,{children:Children.map(node.props.children,applyControlGroundThroughVias)})
+ return node
+ })
 }

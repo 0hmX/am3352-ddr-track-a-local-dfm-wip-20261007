@@ -197,3 +197,13 @@ including all 416 component GND terminals after actual drilling. No new enforced
 clearance findings; optional plated-drill margins and the small additional
 PMIC_PGOOD reference gap remain visible. The routing verifier now exits 1 on lost
 physical connectivity, as covered by the native TSX reproduction.
+
+## CPU/PMIC support: 46 barrels
+
+[Literal native TSX port](cpu-pmic-feed-increment.md),
+[validation](cpu-pmic-feed-validation.json). Converts 46 supply/support barrels,
+preserving inner-port references. **465 through / 745 non-through** remain.
+Native and exported connectivity/clearance pass with no new native/supplemental
+findings; all trace copper, original pin-net assignments, placements and via
+positions/nets/diameters are unchanged. Additional reference area on 13 traces,
+including DDR_A12/A9, remains visible in the report.

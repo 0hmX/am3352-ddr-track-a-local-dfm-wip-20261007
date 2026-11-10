@@ -1,0 +1,752 @@
+{
+  "nativeInputSha256": "23ccd589f12d52c003312911b6aaf280a85521d88d1ce5b3d9824438ea8d9677",
+  "inventorySummary": {
+    "totalVias": 1210,
+    "throughVias": 465,
+    "nonThroughVias": 745,
+    "shortingConversions": 736,
+    "clearanceOnlyConversions": 9,
+    "conflictFreeConversions": 0,
+    "pourOnlyConflicts": 157,
+    "nonPourConflicts": 588,
+    "simultaneousConflictPairs": 0,
+    "batchSafeConversions": 0
+  },
+  "nativeRenderErrors": [],
+  "connectivity": {
+    "netCount": 686,
+    "connectedNets": 686,
+    "physicallyConnectedNets": 686,
+    "shortedNets": 0,
+    "unroutedNets": 0,
+    "singletonNets": 4
+  },
+  "newlyDisconnectedNets": [],
+  "nativeFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 20,
+    "checkSameNetViaSpacing": 2,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0
+  },
+  "newFindings": {
+    "checkTracesAreContiguous": 0,
+    "checkEachPcbTraceNonOverlapping": 0,
+    "checkPadTraceClearance": 0,
+    "checkViaTraceClearance": 0,
+    "checkViaPadClearance": 0,
+    "checkDifferentNetViaSpacing": 0,
+    "checkSameNetViaSpacing": 0,
+    "checkPcbTracesOutOfBoard": 0,
+    "checkHoleTraceClearance": 0,
+    "checkCopperToBoardEdgeClearance": 0,
+    "checkViasOffBoard": 0,
+    "checkPadPadClearance": 0,
+    "checkCopperPourShorts": 0,
+    "checkPcbTraceSelfShorts": 0,
+    "checkDanglingTraces": 0,
+    "checkSourceTracesMatchPcbTraceThickness": 0,
+    "drillSpacing": 0,
+    "traceToPlatedHole": 0,
+    "physicalDifferentNetContacts": 0
+  },
+  "geometry": {
+    "allNonzeroTraceSegmentsUnchanged": true,
+    "nonzeroTraceSegmentCount": 8095,
+    "segmentRoundingMm": 1e-08,
+    "allOriginalComponentPinNetsUnchanged": true,
+    "originalComponentPinCount": 1527,
+    "traceCopperUnchanged": true,
+    "traceCopperShapeCount": 8187,
+    "traceCopperSha256": "fa8529cccc9e31832519f099c2e1d7f69e3fee230a50388e46a14a250e29b73f",
+    "allComponentPlacementsUnchanged": true,
+    "originalViaPositionsNetsAndDiametersUnchanged": true,
+    "convertedViaCount": 46
+  },
+  "convertedViaInventory": [
+    {
+      "name": "INPUT_VIP_1",
+      "nets": "USBC_VBUS_RAW",
+      "x": "12.290000000000001",
+      "y": "19.1",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_2",
+      "nets": "USBC_VBUS_RAW",
+      "x": "13.05",
+      "y": "21.75",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_3",
+      "nets": "USBC_VBUS_RAW",
+      "x": "10.49",
+      "y": "21.5",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_4",
+      "nets": "USBC_VBUS_RAW",
+      "x": "16.75",
+      "y": "21.99",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_7",
+      "nets": "USBC_VBUS_RAW",
+      "x": "28.4",
+      "y": "19.145",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_9",
+      "nets": "SYS_5V",
+      "x": "14.95",
+      "y": "21.75",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_10",
+      "nets": "SYS_5V",
+      "x": "36.49",
+      "y": "1.25",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_12",
+      "nets": "SYS_5V",
+      "x": "15.9",
+      "y": "-0.05000000000000018",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_13",
+      "nets": "SYS_5V",
+      "x": "26.35",
+      "y": "-3.15",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "INPUT_VIP_15",
+      "nets": "SYS_5V",
+      "x": "25.7",
+      "y": "3.3",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "CPUCAP_VIP_0",
+      "nets": "CAP_VBB_MPU",
+      "x": "-5.2",
+      "y": "0.4",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_ZQ_0",
+      "nets": "DDR_ZQ",
+      "x": "2.400046",
+      "y": "-29.000123",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_VREF_0",
+      "nets": "DDR_VREF",
+      "x": "-0.4",
+      "y": "-4.4",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_VREF_1",
+      "nets": "DDR_VREF",
+      "x": "-3.199892",
+      "y": "-26.600077",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_VREF_2",
+      "nets": "DDR_VREF",
+      "x": "2.400046",
+      "y": "-29.800223",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_VREF_4",
+      "nets": "DDR_VREF",
+      "x": "-8.74",
+      "y": "-23.25",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_VREF_6",
+      "nets": "DDR_VREF",
+      "x": "-6.94",
+      "y": "-26.6",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_VREF_7",
+      "nets": "DDR_VREF",
+      "x": "6.31",
+      "y": "-30.55",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_RESETn_0",
+      "nets": "DDR_RESETn",
+      "x": "-2",
+      "y": "-6",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_RESETn_1",
+      "nets": "DDR_RESETn",
+      "x": "-2.400046",
+      "y": "-33.000115",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_DDR_RESETn_2",
+      "nets": "DDR_RESETn",
+      "x": "-10.99",
+      "y": "-31.5",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_CAP_VDD_SRAM_MPU_0",
+      "nets": "CAP_VDD_SRAM_MPU",
+      "x": "-4.4",
+      "y": "1.2000000000000002",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_2",
+      "nets": "V1V8",
+      "x": "-4.4",
+      "y": "-2",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_5",
+      "nets": "V1V8",
+      "x": "-2.8000000000000003",
+      "y": "-0.4",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_6",
+      "nets": "V1V8",
+      "x": "3.6",
+      "y": "-0.4",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_7",
+      "nets": "V1V8",
+      "x": "-4.4",
+      "y": "0.4",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_8",
+      "nets": "V1V8",
+      "x": "4.4",
+      "y": "0.4",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_15",
+      "nets": "V1V8",
+      "x": "4.4",
+      "y": "5.2",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_26",
+      "nets": "V1V8",
+      "x": "14.01",
+      "y": "-12.5",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_28",
+      "nets": "V1V8",
+      "x": "-3.49",
+      "y": "-3",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_33",
+      "nets": "V1V8",
+      "x": "10.35",
+      "y": "-5.2",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_35",
+      "nets": "V1V8",
+      "x": "15.99",
+      "y": "-14",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_37",
+      "nets": "V1V8",
+      "x": "8.6",
+      "y": "10.175",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_38",
+      "nets": "V1V8",
+      "x": "6.6375",
+      "y": "11.45",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_39",
+      "nets": "V1V8",
+      "x": "15.99",
+      "y": "-15.5",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_40",
+      "nets": "V1V8",
+      "x": "16.74",
+      "y": "-17",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_44",
+      "nets": "V1V8",
+      "x": "7.6899999999999995",
+      "y": "-17",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_45",
+      "nets": "V1V8",
+      "x": "21",
+      "y": "11.99",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_46",
+      "nets": "V1V8",
+      "x": "16.1",
+      "y": "11.99",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "PWR_V2_V1V8_49",
+      "nets": "V1V8",
+      "x": "13.99",
+      "y": "-16",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "V1V8_PMIC_FEED",
+      "nets": "V1V8",
+      "x": "18.0625",
+      "y": "-1",
+      "oldFrom": "top",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "MPU_CPU",
+      "nets": "VDD_MPU",
+      "x": "-2.8",
+      "y": "0.4",
+      "oldFrom": "top",
+      "oldTo": "inner2"
+    },
+    {
+      "name": "MPU_FB",
+      "nets": "VDD_MPU",
+      "x": "21.6",
+      "y": "0.9375",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "name": "MPU226_CAP4_V0",
+      "nets": "VDD_MPU",
+      "x": "9.9",
+      "y": "4.5",
+      "oldFrom": "inner4",
+      "oldTo": "inner5"
+    },
+    {
+      "name": "OSC_ENABLE_GATE_PAD_VIP",
+      "nets": "OSC24_OE",
+      "x": "6.1375",
+      "y": "-17.95",
+      "oldFrom": "top",
+      "oldTo": "inner4"
+    },
+    {
+      "name": "SYS6_RN3_VIP",
+      "nets": "SYSBOOT6",
+      "x": "6.5",
+      "y": "-12.475",
+      "oldFrom": "bottom",
+      "oldTo": "inner5"
+    }
+  ],
+  "gerber": {
+    "status": "pass_no_detected_shorts",
+    "namedNets": 257,
+    "connectedNets": 257,
+    "barrelsMatchedToExportedDrills": 1236,
+    "physicalShorts": [],
+    "missingExportedDrills": [],
+    "missingBarrelCopper": [],
+    "missingPinCopper": []
+  },
+  "postdrillGround": {
+    "status": "pass",
+    "postDrillGroundTerminalCount": 416,
+    "postDrillGroundTerminalGroups": 1,
+    "groundBarrelsMatched": 533,
+    "failures": []
+  },
+  "referenceDelta": {
+    "checkerSha256": "f1b53968bcd41f34460c75bd84619ef10f39d28491ba39619c256ce6e28585cf",
+    "gerberCheckerSha256": "0ec0c36e6da3e8bed5717943c9895eaa25ca3d0a7e09053ff6b975119f0f0b10",
+    "beforeAnalysisSha256": "eb16d7bf02bc3f35226573e6fd52680b04535f215bc74a90029e605e6ba5289d",
+    "afterAnalysisSha256": "20295f2ae76188b9df03c0527f11b9de14578d057e75a58897de633f2a1aeaf3",
+    "beforeNativeSha256": "3a49551bab9e05f03c64aedc3640867d0be1b2bfa20f7164028a5bbe00897bcd",
+    "afterNativeSha256": "23ccd589f12d52c003312911b6aaf280a85521d88d1ce5b3d9824438ea8d9677",
+    "newReferenceCuts": [
+      {
+        "trace": "CLOUD_DDR15_BRANCH_22",
+        "net": "DDR_1V5",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.1254858654098119,
+        "newUncoveredMm2": 0.04316173923015046,
+        "marginMm": 0.0,
+        "newBounds": [
+          -4.75,
+          0.7000000000000043,
+          -4.22236152133316,
+          1.521886296025119
+        ]
+      },
+      {
+        "trace": "CLOUD_DDR15_CAP_COMPATIBLE_0",
+        "net": "DDR_1V5",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.03933214519285012,
+        "newUncoveredMm2": 0.03933214519285012,
+        "marginMm": 0.0,
+        "newBounds": [
+          -4.9,
+          0.22236152133316747,
+          -4.53669234773757,
+          1.5218862960251203
+        ]
+      },
+      {
+        "trace": "CLOUD_DDR15_CAP_COMPATIBLE_1",
+        "net": "DDR_1V5",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.03448785500292647,
+        "newUncoveredMm2": 0.011764658853700417,
+        "marginMm": 0.0,
+        "newBounds": [
+          -4.5776384786668345,
+          -2.35,
+          -4.222361521333165,
+          -2.2999999999999985
+        ]
+      },
+      {
+        "trace": "CLOUD_VDD_CORE_20",
+        "net": "VDD_CORE",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.05271167825055135,
+        "newUncoveredMm2": 0.019539402749692753,
+        "marginMm": 0.0,
+        "newBounds": [
+          4.05,
+          4.9921296053484046,
+          4.12,
+          5.407870394651596
+        ]
+      },
+      {
+        "trace": "INPUT_USBC_VBUS_RAW_118",
+        "net": "USBC_VBUS_RAW",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.019508318268598043,
+        "newUncoveredMm2": 0.019508318268598047,
+        "marginMm": 0.0,
+        "newBounds": [
+          14.7026893664496,
+          21.997631742395907,
+          15.172343532219502,
+          22.1
+        ]
+      },
+      {
+        "trace": "CLOUD_LOCAL_53_RTC_RESET_N",
+        "net": "RTC_RESET_N",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.4578709339624861,
+        "newUncoveredMm2": 0.019802048708581457,
+        "marginMm": 0.0,
+        "newBounds": [
+          16.033581615034883,
+          -13.904747033590633,
+          16.32509337826926,
+          -13.654292293153533
+        ]
+      },
+      {
+        "trace": "V1V8_E6_CENTERED_FEED_CONSOLIDATION",
+        "net": "V1V8",
+        "signalLayer": "top",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 9.906509018833717e-05,
+        "newUncoveredMm2": 9.906509018833717e-05,
+        "marginMm": 0.0,
+        "newBounds": [
+          -3.4649744236927154,
+          -2.6677146096464557,
+          -3.45,
+          -2.6524647344932264
+        ]
+      },
+      {
+        "trace": "MPU226_CAP4_0",
+        "net": "VDD_MPU",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.27339144027243256,
+        "newUncoveredMm2": 0.1366957201362162,
+        "marginMm": 0.0,
+        "newBounds": [
+          9.75,
+          4.35,
+          10.25,
+          4.65
+        ]
+      },
+      {
+        "trace": "MPU226_CAP4_1",
+        "net": "VDD_MPU",
+        "signalLayer": "inner5",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.1366957201362164,
+        "newUncoveredMm2": 0.13669572013621642,
+        "marginMm": 0.0,
+        "newBounds": [
+          9.55,
+          4.35,
+          10.05,
+          4.65
+        ]
+      },
+      {
+        "trace": "DDR_A12",
+        "net": "DDR_A12",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.028632856054243816,
+        "newUncoveredMm2": 0.004055864418183524,
+        "marginMm": 0.0,
+        "newBounds": [
+          -2.35,
+          -6.128526096752153,
+          -2.3249999999998074,
+          -5.871473903247847
+        ]
+      },
+      {
+        "trace": "DDR_A9",
+        "net": "DDR_A9",
+        "signalLayer": "top",
+        "referenceLayer": "inner1",
+        "uncoveredMm2": 0.0009420908939082641,
+        "newUncoveredMm2": 0.0009418009010167865,
+        "marginMm": 0.0,
+        "newBounds": [
+          -6.5999999999998655,
+          -26.679078137721103,
+          -6.59,
+          -26.5209218622789
+        ]
+      },
+      {
+        "trace": "CLOUD_HDMI_LAYERED_HDMI_D21",
+        "net": "HDMI_D21",
+        "signalLayer": "bottom",
+        "referenceLayer": "inner6",
+        "uncoveredMm2": 0.029968193279334015,
+        "newUncoveredMm2": 0.00831962445616936,
+        "marginMm": 0.0,
+        "newBounds": [
+          15.812361521333166,
+          -14.35,
+          16.062658170264758,
+          -14.299999999999999
+        ]
+      },
+      {
+        "trace": "RN4_NEAR_SYSBOOT1_pin3",
+        "net": "SYSBOOT1",
+        "signalLayer": "inner4",
+        "referenceLayer": "inner3",
+        "uncoveredMm2": 0.0105257765736524,
+        "newUncoveredMm2": 0.010525776573652402,
+        "marginMm": 0.0,
+        "newBounds": [
+          13.674446352315496,
+          -12.835553647684504,
+          13.916264325803159,
+          -12.593735674196843
+        ]
+      }
+    ],
+    "newTraceRows": [],
+    "unassessedTraceLayers": [
+      {
+        "trace": "SYS2_CPU_ARRAY_I6",
+        "net": "SYSBOOT2",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_CPU_ARRAY_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      },
+      {
+        "trace": "SYS10_PULL_I6",
+        "net": "SYSBOOT10",
+        "signalLayer": "inner6"
+      }
+    ],
+    "referenceLayers": {
+      "top": [
+        "inner1"
+      ],
+      "inner2": [
+        "inner1",
+        "inner3"
+      ],
+      "inner4": [
+        "inner3"
+      ],
+      "inner5": [
+        "inner6"
+      ],
+      "bottom": [
+        "inner6"
+      ]
+    },
+    "gerberHashes": {
+      "work/through-vias/native-control-ground-safe/gerber/In1_Cu.gbr": "c98ac2664102aa01a22a4a40d3ef5a9e052424ccf4d09402f042707538a52916",
+      "work/through-vias/native-control-ground-safe/gerber/In3_Cu.gbr": "f27ac0a017959b933fbf3dbf1b1a0a7e889da10d25dce9d62a8f5b77cd230904",
+      "work/through-vias/native-control-ground-safe/gerber/In6_Cu.gbr": "71dc059919b1a1f9f8676844c422404b157a88770b3fb79b855d20ad7c4be246",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L2-L8.drl": "4c0a15d7923a5196b92937ff82e19b95c2d295b8144e543436c7f30a6ad93f91",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L5-L6.drl": "97bff16df73a53472797aacb84d9b30155a3dd69a8a68d71b49afc5e9fb756fa",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L1-L5.drl": "39beb4bb5a0fa709109377acdf6a452aa10346c63552bff30c8eb8440f86f81b",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L1-L4.drl": "62f5b57e7dfa66a7cdb8fd69c0de069673c7d9410bfaf2d170d39cae850d2d03",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L1-L6.drl": "6879597a69e1db62ffb2099791731041818cc0c3fbab6fd2e0782840771e7cf9",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L1-L7.drl": "4c474605d14434e1ef3ad45377c9d80e0465bed02ba6fa668048b7371e6d43c9",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L1-L3.drl": "520fca7a682c24fb014f096179f37ffbc5106a89661ba1c8537e429b26fab53c",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L3-L6.drl": "5e6b6ddd6418ee4a6c21892afe746843d97a139df37dc0fa0ab98f65f0578e01",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L1-L2.drl": "d16ae84e9bab1802ff9cf1210c55f2e7434b2724e200b7345d5c809a0c33a624",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L3-L5.drl": "23a0da5343d3fe8dc85cfaa73ad9e68c23b5d219cb1e41eec1c40d74298d63f8",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L6-L8.drl": "206b7c5dc53886365c360686c17968045f0f9f45ce1af8b59c4d50c8bb0da98e",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L3-L8.drl": "310cd21d6fad15509f12e349107211b3d4d1c55eab4eb21d74fae01aeb6f182b",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L4-L7.drl": "0d18b3651d31278823809a1beb5440027a2efad1479f1cd3710cbec549769f54",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L1-L8.drl": "f98797d4a9322c3c48761d98bb4cd9e3406e85646e61f227686383aa37d75205",
+      "work/through-vias/native-control-ground-safe/gerber/drill_npth.drl": "c3a6ae490c61a2728533823f4531c048962a0e0a320bb9e64fd9a75f59d7eb39",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L5-L8.drl": "ad947a6eb2be53a1b8fc82e44c28c4b590b9c387df77d5bc604770d25f6d91d1",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L2-L4.drl": "5856199f21ec815d1e9a937061c0e798cfadbc61e61e210cb80ab7e2e505569d",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L7-L8.drl": "f797aabe1bee6b93ec2c8d78585aae2fe4f98966b5c9a9d4a8d783c023502801",
+      "work/through-vias/native-control-ground-safe/gerber/drill-L2-L7.drl": "d6730db7ac80fe9eeea8079c752ab3b7e12b3d626399edc2e245d721e2ebfa95",
+      "work/through-vias/native-cpu-pmic-feed/gerber/In1_Cu.gbr": "ac6430960aae3d0babe0e6fd6be7ef243a88a409cc28165df2c721fc256ad60b",
+      "work/through-vias/native-cpu-pmic-feed/gerber/In3_Cu.gbr": "9264189389cb81e6861b03f7df2fbc7ceee1696df46c5ec165f9ef3f2802bd5f",
+      "work/through-vias/native-cpu-pmic-feed/gerber/In6_Cu.gbr": "41c8028363495f693969b16113d15b190d2606210f15e4267d28c525739363a2",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L2-L8.drl": "670af3af028b344ec5a3afd03102af5486121c5fef901dc72d5d017112614149",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L5-L6.drl": "6e34be7b24a4f56358840512d69e3670497a7136d657b87cd96c4e1c22ee099c",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L1-L5.drl": "32e80d991f178a375964ad9f826b41eabdf29a008a37f814a2f03e2661b8648c",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L1-L4.drl": "2ecde87df89cfbe72c267235d13abc9de3e8ea8a9cb81a4ede4d3859bf764f15",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L1-L6.drl": "c4ac84c7361b1ce3b3371f40b68bc0e6ccbea50f6a099be87848f2e62b20e01c",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L1-L7.drl": "b7ffab4f98acf4f794ce2ba9b4767f0c70f2d73909fd6261403201c6cac76ab3",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L1-L3.drl": "bb63cb22dc3e66780ce9a6a40434de000ecc9142f2a0cb542bc84229558f733f",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L3-L6.drl": "d032d7b7f374fe24fdea37049e38d68ca1d0853e2230e87a6d3142b15b40bc1b",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L1-L2.drl": "844f612dcf9fe8f63ecb2c3e189e52de00c879d6dcfa8701a47412502d707a7d",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L3-L5.drl": "a8cacd16e2edba451a2f489577281fc0f78b6cd7411ab734053caac587cb7855",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L6-L8.drl": "91c4e6c9a260a46f7ebc0689598adac3fe26096f029a3cc15dc1e650f4cf355b",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L3-L8.drl": "41a31ea058799056144cd25f4ff1ff1f11138e3d5562efe6da49d71370fda2ff",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L4-L7.drl": "bb7f2dc7a6886ca54f185dc938469ee2b732eb308df3ae5e0289ee0fe1e6aa01",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L1-L8.drl": "2ad5c2a67e443faa6a6aac86a4d74a21fd6f014d7674a05bd1a73b49e09a8d8f",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill_npth.drl": "59dd33691f5d3028332f07fd1837106959773404a781226440fefd58dd68598e",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L5-L8.drl": "8613cbb0e7914b91d2e98d1e917087e317057245469d15a40a59e6a715131b12",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L2-L4.drl": "44d8beaa44e862d1fc5f0d7992f62248da803068187f3f1176fe022c525568bb",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L7-L8.drl": "7c438a4b3e4f06f36bca66c3991a7cf5f2a0ed2f6cf8cf004b3317e2b2ad3392",
+      "work/through-vias/native-cpu-pmic-feed/gerber/drill-L2-L7.drl": "b24fbc481364102302679a0896d41fe8e0d452870764035987d8031ca2b2cb9b"
+    },
+    "scope": "Full wire/wire and wire/via planar widths against all exported islands physically labeled GND minus span-qualified Excellon and NPTH holes. Only real own component terminal .36mm aperture masks; direct surface SMT footprint masked on its own routing surface only. No midpoint or foreign-hole masks. Spatial comparison allows2um exported-coordinate tolerance for previously uncovered polygons, not a clearance waiver. No SI/fabrication qualification."
+  }
+}
