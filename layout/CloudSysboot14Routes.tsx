@@ -77,54 +77,13 @@ const routes=[
     "toLayer": "bottom"
   },
   {
-    "points": [
-      [
-        -0.49,
-        -8.0
-      ],
-      [
-        -0.49,
-        -6.29
-      ],
-      [
-        0.225,
-        -5.575
-      ],
-      [
-        1.375,
-        -5.575
-      ],
-      [
-        4.45,
-        -8.65
-      ],
-      [
-        4.45,
-        -11.825
-      ],
-      [
-        5.1,
-        -12.475
-      ],
-      [
-        5.5,
-        -12.475
-      ]
-    ],
-    "layer": "bottom",
-    "width": 0.1,
-    "lengthMm": 12.714108216936541,
-    "referenceLayer": "inner6",
-    "nonterminalUncoveredMm2": 0.0,
-    "referenceMarginMm": 0.024264596800898573,
-    "name": "SYS14_ARRAY_STRAP_BOTTOM",
-    "net": "SYSBOOT14",
-    "fromSelector": ".Boot_and_clock > .R_BOOT14 > .pin1",
-    "toSelector": ".HDMI > .RN_HDMI_3 > .1",
-    "fromLayer": "bottom",
-    "toLayer": "bottom",
-    "physical": [],
-    "referenceUncoveredMm2": 0.0
+    name: "SYS14_ARRAY_STRAP_BOTTOM",
+    net: "SYSBOOT14",
+    fromSelector: ".Boot_and_clock > .R_BOOT14 > .pin1",
+    toSelector: ".HDMI > .RN_HDMI_3 > .1",
+    layer: "bottom",
+    width: .1,
+    points: [[-0.49,-8],[-0.725,-7.765],[-0.725,-5.875],[-0.425,-5.575],[0.225,-5.575],[1.375,-5.575],[4.45,-8.65],[4.45,-11.825],[5.1,-12.475],[5.5,-12.475]]
   }
 ] as const
 const vias=[

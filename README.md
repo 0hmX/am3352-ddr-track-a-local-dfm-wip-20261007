@@ -85,3 +85,6 @@ leave **264 non-through vias**, with fixed placements and verified native/export
 
 Peripheral pad columns: [27 native through columns and short surface links](docs/through-vias/peripheral-pad-through-columns-increment.md)
 leave **237 non-through vias**, with fixed placements and all connections preserved.
+
+DDR byte-1 relief: [two original CPU pad columns become through via a native Bottom detour](docs/through-vias/ddr-byte1-through-relief-increment.md)
+leaves **235 non-through vias**, preserving both DDR paths and all connected nets.
