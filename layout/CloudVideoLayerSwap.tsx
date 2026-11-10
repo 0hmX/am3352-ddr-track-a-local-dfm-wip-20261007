@@ -146,4 +146,3 @@ const replacements=[
   }
 ] as const
 export function applyD16D18LayerSwap(x:any):any {if(!isValidElement(x))return x;const r=replacements.find(r=>r.name===x.props.name);return cloneElement(x,r??{},...Children.toArray(x.props.children).map(applyD16D18LayerSwap))}
-export function CloudVideoLayerSwapReturn(){return <via name="HDMI_D16_SOURCE_RETURN" pcbX={41.175} pcbY={-21.85} fromLayer="inner1" toLayer="inner3" holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/>}

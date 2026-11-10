@@ -254,5 +254,4 @@ const replacements=[
     ]
   }
 ] as const
-export {CloudU12ReferenceReturn} from './CloudU12ReferenceReturn'
 export function applyCoordinatedVideoAccess(x:any):any{if(Array.isArray(x))return x.map(applyCoordinatedVideoAccess);if(!isValidElement(x))return x;if(typeof x.type==='function')return applyCoordinatedVideoAccess(x.type(x.props));const p=replacements.find(r=>r.name===x.props.name);return cloneElement(x,p??{},...Children.toArray(x.props.children).map(applyCoordinatedVideoAccess))}

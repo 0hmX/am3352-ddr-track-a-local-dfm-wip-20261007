@@ -5300,20 +5300,7 @@ export const localReturnStitches=[
     },
     "distance": 0.55
   },
-  {
-    "x": 25.65961940777126,
-    "y": -13.890380592228745,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
-    "signalTransition": {
-      "x": 25.200000000000003,
-      "y": -14.35,
-      "fromLayer": "inner4",
-      "toLayer": "top",
-      "trace": "CLOUD_LOCAL_CONTROL_V3_2_NEXT_PMIC_POWER_EN"
-    },
-    "distance": 0.65
-  },
+  null /* CLOUD_LOCAL_RETURN_4: auxiliary Ground stitch removed; see validation. */,
   {
     "x": -0.75,
     "y": 1.4000000000000015,
@@ -5342,68 +5329,10 @@ export const localReturnStitches=[
     },
     "distance": 0.55
   },
-  {
-    "x": 4.0729758878007996,
-    "y": -16.491866257118794,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "signalTransition": {
-      "x": 3.8625,
-      "y": -17,
-      "fromLayer": "top",
-      "toLayer": "bottom",
-      "trace": "CLOUD_LOCAL_GATE_0_NEXT_PMIC_PGOOD"
-    },
-    "distance": 0.55
-  },
-  {
-    "x": 24.279524112199198,
-    "y": -18.991866257118794,
-    "fromLayer": "inner1",
-    "toLayer": "inner6",
-    "signalTransition": {
-      "x": 24.49,
-      "y": -19.5,
-      "fromLayer": "top",
-      "toLayer": "bottom",
-      "fromGroundLayer": "inner1",
-      "toGroundLayer": "inner6",
-      "trace": "CLOUD_LOCAL_INPUT8_REPAIR_0_NEXT_WARMRST_N"
-    },
-    "distance": 0.55
-  },
-  {
-    "x": 36.4104758878008,
-    "y": -16.991866257118794,
-    "fromLayer": "inner6",
-    "toLayer": "inner1",
-    "signalTransition": {
-      "x": 36.2,
-      "y": -17.5,
-      "fromLayer": "bottom",
-      "toLayer": "top",
-      "fromGroundLayer": "inner6",
-      "toGroundLayer": "inner1",
-      "trace": "CLOUD_LOCAL_INPUT8_REPAIR_0_NEXT_WARMRST_N"
-    },
-    "distance": 0.55
-  },
-  {
-    "x": 24.626408729652603,
-    "y": -3.7110912703473966,
-    "fromLayer": "inner1",
-    "toLayer": "inner3",
-    "signalTransition": {
-      "x": 24.2375,
-      "y": -4.099999999999998,
-      "fromLayer": "inner2",
-      "toLayer": "inner4",
-      "fromGroundLayer": "inner1",
-      "toGroundLayer": "inner3",
-      "trace": "CLOUD_LOCAL_INPUT8_REPAIR_V2_2_NEXT_WARMRST_N"
-    },
-    "distance": 0.55
-  },
+  null /* CLOUD_LOCAL_RETURN_7: auxiliary Ground stitch removed; see validation. */,
+  null /* CLOUD_LOCAL_RETURN_8: auxiliary Ground stitch removed; see validation. */,
+  null /* CLOUD_LOCAL_RETURN_9: auxiliary Ground stitch removed; see validation. */,
+  null /* CLOUD_LOCAL_RETURN_10: auxiliary Ground stitch removed; see validation. */,
   null /* CLOUD_LOCAL_RETURN_11: auxiliary Ground stitch removed; see validation. */,
   null /* CLOUD_LOCAL_RETURN_12: auxiliary Ground stitch removed; see validation. */
 ]

@@ -104,18 +104,7 @@ export const routes=[
     "toSelector": "SYS13_STRAP_VIP.inner4"
   }
 ] as const
-export const groundReturn={
-  "name": "SYSBOOT13_RN4_RETURN",
-  "net": "GND",
-  "x": 11.25,
-  "y": -6.05,
-  "fromLayer": "inner1",
-  "toLayer": "inner6",
-  "holeDiameter": 0.15,
-  "outerDiameter": 0.3
-} as const
 export function CloudSysbootEthernetRoutes(){return <>
 {vias.map(v=><via key={v.name} name={v.name} pcbX={v.x} pcbY={v.y} fromLayer={v.fromLayer} toLayer={v.toLayer} holeDiameter={.15} outerDiameter={.30} connectsTo={v.selector}/>)}
-<via name={groundReturn.name} pcbX={groundReturn.x} pcbY={groundReturn.y} fromLayer={groundReturn.fromLayer} toLayer={groundReturn.toLayer} holeDiameter={.15} outerDiameter={.30} connectsTo="net.GND"/>
 {routes.map(r=><trace key={r.name} name={r.name} from={r.fromSelector} to={r.toSelector} width={r.width} pcbPathRelativeTo=".Processor > .U1 > .A1" pcbPaths={[[r.fromSelector,...r.points.map(([x,y])=>({x,y})),r.toSelector]]}/>)}
 </>}

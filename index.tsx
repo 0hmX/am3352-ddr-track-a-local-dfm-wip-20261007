@@ -33,7 +33,7 @@ import { CloudD1TwoInner1Scopes } from "./layout/CloudD1ReferenceScopes"
 import { applyA10TraceOnlyReferenceRelief } from "./layout/CloudA10TraceReferenceRelief"
 import {applyCloudRouting244} from './layout/CloudRouting244Overrides'
 import {CloudRn4NearRoutes} from './layout/CloudRn4NearRoutes'
-import {applyPgoodReferenceReturns} from "./layout/CloudPgoodReferenceReturns"
+
 import {applyCloudRouting242} from './layout/CloudRouting242Overrides'
 import {CloudRn0NearRoutes} from './layout/CloudRn0NearRoutes'
 import {CloudD14TwoReferenceScopes} from './layout/CloudD14ReferenceScopes'
@@ -80,14 +80,14 @@ import {CloudR4CpuReferenceReturn} from './layout/CloudR4PullCleanup'
 import {applyCloudRouting228} from './layout/CloudRouting228Overrides'
 import {CloudSysboot8And12Routes} from './layout/CloudSysboot8And12Routes'
 import {CloudSys12ReferenceOverlay} from './layout/CloudSys12ReferenceOverlay'
-import {CloudU12ReferenceReturn} from './layout/CloudU12ReferenceReturn'
+
 import {CloudSclPullReturn} from './layout/CloudSclPullReturn'
 import {applyCloudRouting226} from "./layout/CloudRouting226Overrides"
 import {CloudSysboot11Routes} from "./layout/CloudSysboot11Routes"
 import {CloudDdcReferencePatch} from "./layout/CloudDdcReferencePatch"
 import {CloudSysboot7BottomStrap} from "./layout/CloudSysboot7BottomStrap"
-import {CloudControlReferenceReturns} from "./layout/CloudControlReferenceRemedies"
-import {CloudSdaReferenceReturns} from "./layout/CloudSdaReferenceReturns"
+
+
 import { SavedSilkscreen } from "./layout/SavedSilkscreen"
 import { supportSheets, parts as supportParts } from "./support"
 import { pinSheets } from "./schematic/PinSheets"
@@ -135,7 +135,7 @@ const sheets = [...pinSheets, ...supportSheets, "Debug rails and power status", 
 const supportCounts = Object.fromEntries(supportSheets.map(sheet => [sheet, supportParts.filter(p => p.sheet === sheet).length]))
 /** DDR routing is in progress; candidate copper is screened before mounting. */
 export default function Board() {
-  return withDdrFineThroughEndpointNudges(withEthernetThroughEndpointNudges(withDdrThroughEndpointNudges(applySdClockThroughVias(applySdClockThroughRelief(applyWakeupThroughVias(applyWakeupThroughRelief(applyPmicEnableEndpointRoutes(applyWarmResetThroughRelief(applyPmicPbEndpointRoutes(applyHdmiD14ThroughVias(applyHdmiD14Relief(applyRemainingPourThroughVias(applyInputFaultThroughRoutes(applyUsbThroughVias(applyControlPadThroughVias(applyControlEndpointRoutes(applyHdmiEndpointRoutes(applyEthernetEndpointRoutes(applyEthernetThroughVias(applyHdmiThroughVias(applyCpuPmicThroughVias(applyControlGroundThroughVias(applyStandardDdrThroughVias(applyUsbCPortRework(applySys6R41CandidateV2(applyBa2TraceOnlyReferenceRelief(applyD1TraceOnlyReferenceRelief(applyA10TraceOnlyReferenceRelief(applyCloudRouting244(applyPgoodReferenceReturns(applyCloudRouting242(applyMdioInner4Candidate(applyFixedPgood48Top(applyTypecCorners(applyCloudRouting240Cleanup(applyCloudRouting239(applyCloudRouting235(applyCloudControlCleanup(applyCloudRouting233(applyCloudRouting232(applyCloudRouting230(applyCloudRouting228(applyCloudRouting226(<board width={98} height={65.5} layers={8} thickness={1.2} pcbRelative routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
+  return withDdrFineThroughEndpointNudges(withEthernetThroughEndpointNudges(withDdrThroughEndpointNudges(applySdClockThroughVias(applySdClockThroughRelief(applyWakeupThroughVias(applyWakeupThroughRelief(applyPmicEnableEndpointRoutes(applyWarmResetThroughRelief(applyPmicPbEndpointRoutes(applyHdmiD14ThroughVias(applyHdmiD14Relief(applyRemainingPourThroughVias(applyInputFaultThroughRoutes(applyUsbThroughVias(applyControlPadThroughVias(applyControlEndpointRoutes(applyHdmiEndpointRoutes(applyEthernetEndpointRoutes(applyEthernetThroughVias(applyHdmiThroughVias(applyCpuPmicThroughVias(applyControlGroundThroughVias(applyStandardDdrThroughVias(applyUsbCPortRework(applySys6R41CandidateV2(applyBa2TraceOnlyReferenceRelief(applyD1TraceOnlyReferenceRelief(applyA10TraceOnlyReferenceRelief(applyCloudRouting244(applyCloudRouting242(applyMdioInner4Candidate(applyFixedPgood48Top(applyTypecCorners(applyCloudRouting240Cleanup(applyCloudRouting239(applyCloudRouting235(applyCloudControlCleanup(applyCloudRouting233(applyCloudRouting232(applyCloudRouting230(applyCloudRouting228(applyCloudRouting226(<board width={98} height={65.5} layers={8} thickness={1.2} pcbRelative routingDisabled isViaInPadAllowed allowBlindAndBuriedVias autorouter={{ allowViaInPad: true }} doubleSidedAssembly
     outline={[{x:-28,y:26.5},{x:70,y:26.5},{x:70,y:-39},{x:-28,y:-39}]}
     minTraceWidth={0.1} minViaHoleDiameter={0.15} minViaPadDiameter={0.3}
     minViaHoleEdgeToViaHoleEdgeClearance={0.1} minPlatedHoleDrillEdgeToDrillEdgeClearance={0.15}
@@ -182,11 +182,11 @@ export default function Board() {
     <CloudSysboot11Routes />
     <CloudDdcReferencePatch />
     <CloudSysboot7BottomStrap />
-    <CloudControlReferenceReturns />
-    <CloudSdaReferenceReturns />
+
+
     <CloudSysboot8And12Routes />
     <CloudSys12ReferenceOverlay />
-    <CloudU12ReferenceReturn />
+
     <CloudSclPullReturn />
     <CloudSysboot14PadCenteredRoutes />
     <CloudSys14VrefWidthRestore />
@@ -231,5 +231,5 @@ export default function Board() {
   <CpuSurfaceGround />
   <DdrSurfaceGround />
 <CpuPowerSurfaceStubs />
-</board>))))))))))))))))))))))))))))))))))))))))))))
+</board>)))))))))))))))))))))))))))))))))))))))))))
 }

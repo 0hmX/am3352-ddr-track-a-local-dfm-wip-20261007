@@ -14,5 +14,4 @@ export function applyMdioInner4Candidate(x:any):any {
  return cloneElement(x,p,...Children.toArray(x.props.children).map(applyMdioInner4Candidate))
 }
 
-import returns from '../data/cloud-mdio-inner4-returns.json'
-export function CloudMdioReferenceBridges(){return <group name="Cloud_MDIO_reference_bridges" pcbX={0} pcbY={0} pcbRelative>{returns.map((v,i)=><via name={`MDIO_I4_RETURN_${i}`} pcbX={v.x} pcbY={v.y} fromLayer="inner1" toLayer="inner3" holeDiameter={.15} outerDiameter={.30} connectsTo="net.GND"/>)}</group>}
+export function CloudMdioReferenceBridges(){return <group name="Cloud_MDIO_reference_bridges" pcbX={0} pcbY={0} pcbRelative><via name="MDIO_I4_RETURN_0" pcbX={1.633169} pcbY={5.711889} fromLayer="top" toLayer="bottom" holeDiameter={.15} outerDiameter={.3} connectsTo="net.GND"/></group>}
