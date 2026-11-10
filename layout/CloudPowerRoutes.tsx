@@ -601,21 +601,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Power_management > .C_PWR3 > .pin2",
-    "x": 28.7,
-    "y": 3.3,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_190: checked Ethernet surface Ground path. */,
   null /* CLOUD_GND_PAD_191: extended CPU surface GND reaches a through barrel. */,
-  {
-    "selector": ".Power_management > .C_PWR5 > .pin2",
-    "x": 26.35,
-    "y": -0.1499999999999999,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_192: checked Ethernet surface Ground path. */,
   null /* CLOUD_GND_PAD_193: extended CPU surface GND reaches a through barrel. */,
   {
     "selector": ".Power_management > .C_PWR7_B > .pin2",
@@ -1066,13 +1054,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_LDO > .2",
-    "x": 38.3625,
-    "y": 6.25,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_271: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_LDO_IN > .pin2",
     "x": 37.51,
@@ -1080,20 +1062,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "inner1"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_ETH_LDO_OUT > .pin2",
-    "x": 42.4,
-    "y": 7.66,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_PHY > .9",
-    "x": 40.5375,
-    "y": 14,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_273: checked Ethernet surface Ground path. */,
+  null /* CLOUD_GND_PAD_274: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .U_ETH_PHY > .21",
     "x": 37.4625,
@@ -1101,13 +1071,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_PHY > .25",
-    "x": 39,
-    "y": 14,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_276: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .R_ETH_STRAP0 > .pin2",
     "x": 36.51,
@@ -1171,13 +1135,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_RESET > .2",
-    "x": 33.8625,
-    "y": 5,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_286: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_RESET > .pin2",
     "x": 38.76,
@@ -1192,20 +1150,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_ETH_A1 > .pin2",
-    "x": 42.51,
-    "y": 11.25,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_ETH_A2 > .pin2",
-    "x": 42.51,
-    "y": 8.6,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_289: checked Ethernet surface Ground path. */,
+  null /* CLOUD_GND_PAD_290: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_A3 > .pin2",
     "x": 36.2,
@@ -1213,13 +1159,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_ETH_IO0 > .pin2",
-    "x": 34.49,
-    "y": 15.6,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_292: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_IO1 > .pin2",
     "x": 32.49,
@@ -1241,27 +1181,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_ETH_CT_TX_100N > .pin2",
-    "x": 41.74,
-    "y": 20,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_ETH_CT_TX_1U > .pin2",
-    "x": 41.74,
-    "y": 21.25,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_ETH_CT_RX_100N > .pin2",
-    "x": 41.74,
-    "y": 18,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_296: checked Ethernet surface Ground path. */,
+  null /* CLOUD_GND_PAD_297: checked Ethernet surface Ground path. */,
+  null /* CLOUD_GND_PAD_298: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_CT_RX_1U > .pin2",
     "x": 39.74,
@@ -1276,13 +1198,7 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ESD > .8",
-    "x": 42.585,
-    "y": 14,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_301: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_CHASSIS > .pin2",
     "x": 56.775,
@@ -1398,20 +1314,8 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_ETH_ISO1 > .pin2",
-    "x": 51.51,
-    "y": 1.25,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .U_ETH_ISO_OE > .3",
-    "x": 41.8625,
-    "y": 1.55,
-    "fromLayer": "top",
-    "toLayer": "inner1"
-  },
+  null /* CLOUD_GND_PAD_321: checked Ethernet surface Ground path. */,
+  null /* CLOUD_GND_PAD_322: checked Ethernet surface Ground path. */,
   {
     "selector": ".Ethernet_and_RGB_expansion > .C_ETH_ISO_OE > .pin2",
     "x": 53.76,
@@ -1426,27 +1330,9 @@ const groundPads = [
     "fromLayer": "top",
     "toLayer": "bottom"
   },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_RMII_RETURN_B > .pin1",
-    "x": 16.1,
-    "y": 13.01,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_RMII_RETURN_C > .pin1",
-    "x": 25.810000000000002,
-    "y": 10,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
-  {
-    "selector": ".Ethernet_and_RGB_expansion > .C_RMII_RETURN_D > .pin1",
-    "x": 32.26,
-    "y": 3.765,
-    "fromLayer": "bottom",
-    "toLayer": "inner6"
-  },
+  null /* CLOUD_GND_PAD_325: checked Ethernet surface Ground path. */,
+  null /* CLOUD_GND_PAD_326: checked Ethernet surface Ground path. */,
+  null /* CLOUD_GND_PAD_327: checked Ethernet surface Ground path. */,
   {
     "selector": ".Debug_status > .TP_DBG_GND > .GND",
     "x": 29.325,
